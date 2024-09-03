@@ -35,7 +35,7 @@ Execute the following commands to generate an output for RNA, protein, and RNP e
 
 ```bash
 cd lrmsd
-./run-tests.bat
+./run_tests_only.bat
 ```
 
 ### Run example usage scenarios (Linux/Mac)
@@ -44,8 +44,27 @@ Execute the following commands to generate an output for RNA, protein, and RNP e
 
 ```bash
 cd lrmsd
-chmod u+x run-tests.sh
-./run-tests.sh
+chmod u+x run_tests_only.sh
+./run_tests_only.sh
+```
+
+### Run example usage scenarios and save substructures in PDB format (Windows)
+
+Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
+
+```bash
+cd lrmsd
+./run_tests_and_save_substructures.bat
+```
+
+### Run example usage scenarios and save substructures in PDB format (Linux/Mac)
+
+Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
+
+```bash
+cd lrmsd
+chmod u+x run_tests_and_save_substructures.sh
+./run_tests_and_save_substructures.sh
 ```
 
 ### Manual
@@ -69,6 +88,10 @@ The tool provides the following configuration parameters:
                                                      32.0,34.0,36.0,38.0,40.0"].
  -d,--rmsd_threshold <arg>                           (optional) RMSD-based cut-off 
                                                      [default=5A].
+ -s,--save_structures                           	 (optional) flag indicates that all 
+													 sphere substructures considered will 
+													 be saved into independent PDB files. 
+													 [default=off].
 ```
 
 ## Output
@@ -83,6 +106,8 @@ For every pair of (3D model, native 3D structure) and residue central atom used:
 - a global (whole molecule) score is stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-gLRMSD.csv`).
 - a per-residue neighborhood scores are stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-rLRMSD.csv`).
 - a detailed matrix based on which the aforementioned scores were computed that includes local RMSD scores computed for every pair (residue along the chain, sphere radius) considered (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-details.csv`). Moreover, for every sphere radius and every residue along the chain independently mean and standard deviation are also computed.
+
+Optionally on demand of the user, all sphere substructures considered can be also saved into independent files in the PDB format.
 
 ### Acknowledgements
 

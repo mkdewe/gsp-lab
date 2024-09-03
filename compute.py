@@ -13,6 +13,7 @@ from os import listdir
 from os.path import isfile, join
 import pathlib
 from biopandas.pdb.engines import amino3to1dict
+from copy import deepcopy
 
 na2to1dict = {
     "DA": "A",
@@ -57,9 +58,10 @@ def floatify(s):
 
 def read_config(argv):
     try:
-        opts, args = getopt.getopt(argv,"h:t:m:a:r:d:",["target_path=","model_path=","central_atoms=","sphere_radii=","rmsd_threshold="])
-    except getopt.GetoptError:
-        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold>')
+        opts, args = getopt.getopt(argv,"sht:m:a:r:d:",["save_structures","help","target_path=","model_path=","central_atoms=","sphere_radii=","rmsd_threshold="])
+    except getopt.GetoptError as error:
+        print('{}'.format(error))
+        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
         sys.exit(1)
     target_path = None
     model_path = None
@@ -70,9 +72,10 @@ def read_config(argv):
     required_arguments_count = 0
     target_options = 0
     model_options = 0;
+    save_structures = False
     for opt, arg in opts:
         if opt == '-h':
-            print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold>')
+            print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
             sys.exit()
         elif opt in ("-t", "--target_path"):
             if (os.path.isfile(arg) and os.path.exists(arg)) or (not os.path.isfile(arg) and os.path.exists(arg)):
@@ -98,6 +101,8 @@ def read_config(argv):
             input_value = floatify(arg)
             if input_value != None:
                 rmsd_threshold = input_value
+        elif opt in ("-s", "--save_structures"):
+            save_structures = True
     if target_options == 0:
         print('You have to set a value for the following config parameter: target_path!')
     else:
@@ -107,9 +112,9 @@ def read_config(argv):
     else:
         required_arguments_count = required_arguments_count + 1
     if required_arguments_count < 2:
-        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold>')
+        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
         sys.exit(1)
-    return target_path, model_path, central_atoms, sphere_radii, rmsd_threshold
+    return target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures
     
 def read_structure(path):
     try:
@@ -202,7 +207,15 @@ def compute_spheres(sphere_radii, target_central_atoms_df, target_df, istpdb):
             spheres[selected_radius][i].append(j)
     return spheres
     
-def compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, current_model_df, istpdb, ismpdb):
+def save_sphere(struct, ispdb, df, output_file_path):
+    if not os.path.isfile(output_file_path):
+        local_struct_copy = deepcopy(struct)
+        if not ispdb:
+            local_struct_copy = local_struct_copy.convert_to_pandas_pdb()
+        local_struct_copy.df['ATOM'] = df
+        local_struct_copy.to_pdb(path=output_file_path, records=None, gz=False, append_newline=False)
+
+def compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, current_model_df, istpdb, ismpdb, target_str, target_path, model_str, model_path, save_structures):
     target_atoms_dict = get_target_atoms_dict(target_df, istpdb)
     model_atoms_dict = get_model_atoms_dict(current_model_df, ismpdb)
     scores = {}
@@ -212,12 +225,18 @@ def compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, cu
             target_atom_idxs_in_sphere = [x for a in range(len(sphere_radii)) if a <= r for x in spheres[sphere_radii[a]][i]]
             target_atom_idxs_in_sphere.sort()
             selected_target_atoms_df = target_df.loc[target_atom_idxs_in_sphere]
+            if save_structures:
+                target_file_path = '{}_{}_{}.pdb'.format(target_path, get_atom_id(target_central_atoms_df.iloc[i],istpdb), sphere_radii[r])            
+                save_sphere(target_str, istpdb, selected_target_atoms_df, target_file_path)
             model_atom_idxs_in_sphere = [model_atoms_dict[target_atoms_dict[b]] for b in target_atom_idxs_in_sphere if target_atoms_dict[b] in model_atoms_dict]
             selected_model_atoms_df = current_model_df.loc[model_atom_idxs_in_sphere]
+            if save_structures:
+                model_file_path = '{}_{}_{}.pdb'.format(model_path, get_atom_id(target_central_atoms_df.iloc[i],istpdb), sphere_radii[r])            
+                save_sphere(model_str, ismpdb, selected_model_atoms_df, model_file_path)
             if (len(selected_target_atoms_df) == len(selected_model_atoms_df)):
                 scores[i].append(compute_rmsd(selected_target_atoms_df, selected_model_atoms_df, istpdb, ismpdb))
             else:
-                print('Inconsistent sphere atom sets between target and model built around nucleotide {} (radius {})!'.format(get_residue_id(target_central_atoms_df.iloc[i],istpdb), sphere_radii[r]))
+                print('Inconsistent sphere atom sets between target and model built around atom {} (radius {})!'.format(get_atom_id(target_central_atoms_df.iloc[i], istpdb), sphere_radii[r]))
                 sys.exit(1)
     return scores
     
@@ -312,7 +331,7 @@ def update_local_scores(local_scores, ca, model_path, residue_scores):
         for i in range(1,len(local_scores[ca])):
             local_scores[ca][i].append(residue_scores[i][1])
     
-def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores):
+def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures):
     target_filename_without_ext = os.path.splitext(os.path.basename(target_path))[0]
     model_filename_without_ext = os.path.splitext(os.path.basename(model_path))[0]
     print('{} vs. {}'.format(target_filename_without_ext, model_filename_without_ext))
@@ -322,11 +341,14 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
     for model_no in model_model_numbers:
         current_model_str = model_str.get_model(model_no)
         current_model_df = current_model_str.df['ATOM']
-        scores = compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, current_model_df, istpdb, ismpdb)
+        if (len(model_model_numbers)>1):
+            scores = compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, current_model_df, istpdb, ismpdb, target_str, os.path.join(os.path.dirname(target_path), target_filename_without_ext), current_model_str, os.path.join(os.path.dirname(model_path), '{}_{}'.format(model_filename_without_ext,model_no)), save_structures)
+        else:
+            scores = compute_scores(target_central_atoms_df, sphere_radii, spheres, target_df, current_model_df, istpdb, ismpdb, target_str, os.path.join(os.path.dirname(target_path), target_filename_without_ext), current_model_str, os.path.join(os.path.dirname(model_path), model_filename_without_ext), save_structures)
         
         common_filename = '{}_{}'.format(target_filename_without_ext,model_filename_without_ext)
         if (len(model_model_numbers)>1):
-            common_filename = '{}_{}'.format(result_filename,model_no)
+            common_filename = '{}_{}'.format(common_filename,model_no)
         for ca in central_atoms:
             if (contains_atom(target_central_atoms_df,ca,istpdb)):
                 if ca not in global_scores:
@@ -348,7 +370,7 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
                 save_csv(result_file_path.replace('.csv','-gLRMSD.csv'), [['gLRMSD'],[str(glrmsd)]])
                 global_scores[ca].append([model_filename_without_ext, str(glrmsd)])
     
-def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold):
+def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures):
     print('Start processing...')
     print('1. Processing the reference structure...')
     target_str = read_structure(target_path)
@@ -371,12 +393,12 @@ def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold
     local_scores = {}
     
     if os.path.isfile(model_path):
-        process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores) 
+        process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures) 
     elif os.path.isdir(model_path):
         allfiles = [join(model_path, f) for f in listdir(model_path) if isfile(join(model_path, f))]
         selected_models = [f for f in allfiles if pathlib.Path(f).suffix in ['.pdb','.cif']]
         for selected_model_path in selected_models:
-            process_model(target_path, selected_model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores)
+            process_model(target_path, selected_model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures)
     print('2. Done.')
             
     for ca in central_atoms:
@@ -389,20 +411,21 @@ def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold
     print('Done.')
 
 def main(argv):
-    target_path, model_path, central_atoms, sphere_radii, rmsd_threshold = read_config(argv)
+    target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures = read_config(argv)
     print('Target path: {}'.format(target_path))
     print('Model path: {}'.format(model_path))
     print('Central atoms: {}'.format(central_atoms))
     print('Sphere radii: {}'.format(sphere_radii))
     print('RMSD threshold: {}'.format(rmsd_threshold))
+    print('Save structures: {}'.format(save_structures))
     
     if os.path.isfile(target_path):
-        process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold)
+        process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures)
     elif os.path.isdir(target_path):
         allfiles = [join(target_path, f) for f in listdir(target_path) if isfile(join(target_path, f))]
         selected_targets = [f for f in allfiles if pathlib.Path(f).suffix in ['.pdb','.cif']]
         for selected_target_path in selected_targets:
-            process(selected_target_path, model_path, central_atoms, sphere_radii, rmsd_threshold)
+            process(selected_target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
