@@ -88,10 +88,10 @@ The tool provides the following configuration parameters:
                                                      32.0,34.0,36.0,38.0,40.0"].
  -d,--rmsd_threshold <arg>                           (optional) RMSD-based cut-off 
                                                      [default=5A].
- -s,--save_structures                           	 (optional) flag indicates that all 
-													 sphere substructures considered will 
-													 be saved into independent PDB files. 
-													 [default=off].
+ -s,--save_structures                                (optional) flag indicates that all 
+                                                     sphere substructures considered will 
+                                                     be saved into independent PDB files. 
+                                                     [default=off].
 ```
 
 ## Output
