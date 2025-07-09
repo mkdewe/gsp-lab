@@ -303,7 +303,7 @@ def compute_whole_matrix(sphere_radii, target_df, selected_central_atom_idxs, ta
     return matrix, selected_scores
     
 def compute_residue_scores(sphere_radii, target_central_atoms_df, selected_central_atom_idxs, rmsd_threshold, istpdb, scores):
-    residue_scores = [['residue','rLRMSD']]
+    residue_scores = [['residue','rGSP']]
     for i in range(len(selected_central_atom_idxs)):
         selected_idx = selected_central_atom_idxs[i]
         accept_count = 0
@@ -352,7 +352,7 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
         for ca in central_atoms:
             if (contains_atom(target_central_atoms_df,ca,istpdb)):
                 if ca not in global_scores:
-                    global_scores[ca] = [['model','gLRMSD']]
+                    global_scores[ca] = [['model','gGSP']]
                 if ca not in local_scores:
                     local_scores[ca] = [['residue']]
                 result_filename = '{}_{}.csv'.format(common_filename,ca)
@@ -363,11 +363,11 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
                 save_csv(result_file_path.replace('.csv','-details.csv'), matrix)
                 
                 residue_scores = compute_residue_scores(sphere_radii, target_central_atoms_df, selected_central_atom_idxs, rmsd_threshold, istpdb, scores)
-                save_csv(result_file_path.replace('.csv','-rLRMSD.csv'), residue_scores)
+                save_csv(result_file_path.replace('.csv','-rGSP.csv'), residue_scores)
                 update_local_scores(local_scores, ca, model_path, residue_scores)
                 
                 glrmsd = compute_glrmsd(sphere_radii, selected_scores, rmsd_threshold)
-                save_csv(result_file_path.replace('.csv','-gLRMSD.csv'), [['gLRMSD'],[str(glrmsd)]])
+                save_csv(result_file_path.replace('.csv','-gGSP.csv'), [['gGSP'],[str(glrmsd)]])
                 global_scores[ca].append([model_filename_without_ext, str(glrmsd)])
     
 def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures):
@@ -404,9 +404,9 @@ def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold
     for ca in central_atoms:
         if (contains_atom(target_central_atoms_df,ca,istpdb)):
             target_filename_without_ext = os.path.splitext(os.path.basename(target_path))[0]
-            global_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_gLRMSD.csv'.format(target_filename_without_ext,ca))
+            global_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_gGSP.csv'.format(target_filename_without_ext,ca))
             save_csv(global_scores_summary_file_path, global_scores[ca])
-            local_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_rLRMSD.csv'.format(target_filename_without_ext,ca))
+            local_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_rGSP.csv'.format(target_filename_without_ext,ca))
             save_csv(local_scores_summary_file_path, local_scores[ca])
     print('Done.')
 

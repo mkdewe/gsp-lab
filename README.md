@@ -1,6 +1,6 @@
-# LRMSD: global/local quality scores of 3D structures of biological molecules within the context of the reference structure
+# GSP: global/local quality scores of 3D structures of biological molecules within the context of the reference structure
 
-The proposed tool allows users to compute two measures, describing the accuracy of 3D predictions within the context of the native structure from both global and local perspectives, represented by the following equations: ![scores](./doc/score-equations.png).
+The proposed tool (Geometric Spherical Precision) allows users to compute two measures, describing the accuracy of 3D predictions within the context of the native structure from both global and local perspectives, represented by the following equations: ![scores](./doc/score-equations.png).
 It supports 3D structures of nucleic acids, proteins, and their complexes. Tertiary structures can be introduced in both PDB and PDBx/mmCIF formats. The resultant scores are normalized in the range <0.0; 100.0>. The higher the score the better quality (i.e., the higher compatibility to the native).
 
 ## Installation
@@ -14,9 +14,9 @@ The installation of the tool is straightforward and can be easily accomplished w
 After successful installation of conda, the following commands must be executed:
 
 ```bash
-cd lrmsd
-conda create -n lrmsd-env python=3.8
-conda activate lrmsd-env
+cd gsp
+conda create -n gsp-env python=3.8
+conda activate gsp-env
 pip install -r requirements.txt
 ```
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Execute the following commands:
 
 ```bash
-cd lrmsd
+cd gsp
 python3 -m pip install -r requirements.txt
 ```
 
@@ -34,7 +34,7 @@ python3 -m pip install -r requirements.txt
 Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
 
 ```bash
-cd lrmsd
+cd gsp
 ./run_tests_only.bat
 ```
 
@@ -43,7 +43,7 @@ cd lrmsd
 Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
 
 ```bash
-cd lrmsd
+cd gsp
 chmod u+x run_tests_only.sh
 ./run_tests_only.sh
 ```
@@ -53,7 +53,7 @@ chmod u+x run_tests_only.sh
 Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
 
 ```bash
-cd lrmsd
+cd gsp
 ./run_tests_and_save_substructures.bat
 ```
 
@@ -62,7 +62,7 @@ cd lrmsd
 Execute the following commands to generate an output for RNA, protein, and RNP examples considered:
 
 ```bash
-cd lrmsd
+cd gsp
 chmod u+x run_tests_and_save_substructures.sh
 ./run_tests_and_save_substructures.sh
 ```
