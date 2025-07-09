@@ -1,7 +1,6 @@
 # GSP: global/local quality scores of 3D structures of biological molecules within the context of the reference structure
 
-The proposed tool (Geometric Spherical Precision) allows users to compute two measures, describing the accuracy of 3D predictions within the context of the native structure from both global and local perspectives, represented by the following equations: ![scores](./doc/score-equations.png).
-It supports 3D structures of nucleic acids, proteins, and their complexes. Tertiary structures can be introduced in both PDB and PDBx/mmCIF formats. The resultant scores are normalized in the range <0.0; 100.0>. The higher the score the better quality (i.e., the higher compatibility to the native).
+The proposed tool (Geometric Spherical Precision) allows users to compute two measures, describing the accuracy of 3D predictions within the context of the native structure from both global and local perspectives, represented by the following equations: <br /> ![scores](./doc/score-equations.png). <br /> It supports 3D structures of nucleic acids, proteins, and their complexes. Tertiary structures can be introduced in both PDB and PDBx/mmCIF formats. The resultant scores are normalized in the range <0.0; 100.0>. The higher the score the better quality (i.e., the higher compatibility to the native).
 
 ## Installation
 
@@ -99,12 +98,12 @@ The tool provides the following configuration parameters:
 The resultant CSV files are generated for: every reference 3D structure and each 3D model considered.
 
 For each native 3D structure and residue central atom used:
-- a global ranking of 3D models considered is prepared (e.g., `R1107_D_1292119758_model-annotate_P1human_C1'_gLRMSD.csv`).
-- a per-residue neighborhood ranking of 3D models considered is prepared (e.g., `R1107_D_1292119758_model-annotate_P1human_C1'_rLRMSD.csv`).
+- a global ranking of 3D models considered is prepared (e.g., `R1107_D_1292119758_model-annotate_P1human_C1'_gGSP.csv`).
+- a per-residue neighborhood ranking of 3D models considered is prepared (e.g., `R1107_D_1292119758_model-annotate_P1human_C1'_rGSP.csv`).
 
 For every pair of (3D model, native 3D structure) and residue central atom used: 
-- a global (whole molecule) score is stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-gLRMSD.csv`).
-- a per-residue neighborhood scores are stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-rLRMSD.csv`).
+- a global (whole molecule) score is stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-gGSP.csv`).
+- a per-residue neighborhood scores are stored (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-rGSP.csv`).
 - a detailed matrix based on which the aforementioned scores were computed that includes local RMSD scores computed for every pair (residue along the chain, sphere radius) considered (e.g., `R1107_D_1292119758_model-annotate_P1human_R1107TS029_1_C1'-details.csv`). Moreover, for every sphere radius and every residue along the chain independently mean and standard deviation are also computed.
 
 Optionally on demand of the user, all sphere substructures considered can be also saved into independent files in the PDB format.
