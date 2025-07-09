@@ -257,8 +257,8 @@ def save_csv(result_file_path,data):
         writer = csv.writer(file)
         writer.writerows(data)
         
-def compute_glrmsd(sphere_radii, selected_scores, rmsd_threshold):
-    glrmsd = 0
+def compute_ggsp(sphere_radii, selected_scores, rmsd_threshold):
+    ggsp = 0
     for r in range(len(sphere_radii)):
         accept_count = 0
         all_count = 0
@@ -266,9 +266,9 @@ def compute_glrmsd(sphere_radii, selected_scores, rmsd_threshold):
             if not (curr_score > rmsd_threshold):
                 accept_count += 1
             all_count += 1
-        glrmsd += sphere_radii[r] * accept_count / all_count
-    glrmsd /= sum(sphere_radii)
-    return round(glrmsd * 100.0,3)
+        ggsp += sphere_radii[r] * accept_count / all_count
+    ggsp /= sum(sphere_radii)
+    return round(ggsp * 100.0,3)
     
 def compute_whole_matrix(sphere_radii, target_df, selected_central_atom_idxs, target_central_atoms_df, istpdb, scores):
     target_sequence = get_sequence(target_central_atoms_df, istpdb, selected_central_atom_idxs)
@@ -308,17 +308,17 @@ def compute_residue_scores(sphere_radii, target_central_atoms_df, selected_centr
         selected_idx = selected_central_atom_idxs[i]
         accept_count = 0
         all_count = 0
-        rlrmsd = 0
+        rgsp = 0
         row = []
         for r in range(len(sphere_radii)):
             curr_score = scores[selected_idx][r]
             if not (curr_score > rmsd_threshold):
                 accept_count += 1
             all_count += 1
-            rlrmsd += sphere_radii[r] * accept_count / all_count
-        rlrmsd /= sum(sphere_radii)
+            rgsp += sphere_radii[r] * accept_count / all_count
+        rgsp /= sum(sphere_radii)
         row.append('"' + get_residue_id(target_central_atoms_df.iloc[selected_central_atom_idxs[i]],istpdb) + '"')
-        row.append(str(round(rlrmsd * 100.0,3)))
+        row.append(str(round(rgsp * 100.0,3)))
         residue_scores.append(row)
     return residue_scores
     
@@ -366,9 +366,9 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
                 save_csv(result_file_path.replace('.csv','-rGSP.csv'), residue_scores)
                 update_local_scores(local_scores, ca, model_path, residue_scores)
                 
-                glrmsd = compute_glrmsd(sphere_radii, selected_scores, rmsd_threshold)
-                save_csv(result_file_path.replace('.csv','-gGSP.csv'), [['gGSP'],[str(glrmsd)]])
-                global_scores[ca].append([model_filename_without_ext, str(glrmsd)])
+                ggsp = compute_ggsp(sphere_radii, selected_scores, rmsd_threshold)
+                save_csv(result_file_path.replace('.csv','-gGSP.csv'), [['gGSP'],[str(ggsp)]])
+                global_scores[ca].append([model_filename_without_ext, str(ggsp)])
     
 def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures):
     print('Start processing...')
