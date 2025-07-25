@@ -1,0 +1,3 @@
+[submodule "rnapuzzles-data"]
+	path = data/external/rnapuzzles.github.io
+	url = https://github.com/rnapuzzles/rnapuzzles.github.io.git

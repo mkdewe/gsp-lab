@@ -1,0 +1,12 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "Conda (auto-activate)": {
+      "path": "cmd.exe",
+      "args": [
+        "/k",
+        "D:/Miniconda/Scripts/activate.bat && conda activate gsp-env"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Conda (auto-activate)"
+}
