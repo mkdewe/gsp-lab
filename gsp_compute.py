@@ -68,6 +68,18 @@ def collect_model_files(folder_path, solution_file):
 
 def run_compute(target_file, model_file, output_dir, cwd):
     """Runs the compute.py script with error handling and fallback"""
+    # Determine expected output file name
+    model_stem = pathlib.Path(model_file).stem
+    target_stem = pathlib.Path(target_file).stem
+    output_filename = f"{model_stem}_vs_{target_stem}.csv"
+    output_path = pathlib.Path(output_dir) / output_filename
+    
+    # Check if output file already exists
+    if output_path.exists():
+        print(f"  [SKIP] Output file {output_filename} already exists. Overwriting...")
+        # Remove existing file to ensure fresh results
+        output_path.unlink()
+
     cmd = [
         "python",
         str(COMPUTE_SCRIPT),
@@ -169,12 +181,10 @@ def move_remaining_csv_files(source_dir, dest_dir):
             source_path = os.path.join(source_dir, filename)
             dest_path = os.path.join(dest_dir, filename)
             
-            # Handle file name conflicts
-            counter = 1
-            while os.path.exists(dest_path):
-                name, ext = os.path.splitext(filename)
-                dest_path = os.path.join(dest_dir, f"{name}_{counter}{ext}")
-                counter += 1
+            # Nadpisz istniejący plik
+            if os.path.exists(dest_path):
+                print(f"  [OVERWRITE] Overwriting existing file: {filename}")
+                os.remove(dest_path)  # Usuń istniejący plik przed przeniesieniem
                 
             try:
                 shutil.move(source_path, dest_path)

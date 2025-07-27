@@ -41,7 +41,8 @@ def save_config(config):
 def split_chain(input_file, output_file, chain_id='A', new_chain_id='B', split_point=23):
     """
     Splits a chain in a PDB file at a specified residue number
-    and assigns the second part to a new chain.
+    and assigns the second part to a new chain. Automatically converts
+    undefined chains (non-A/B) to A/B.
     
     Args:
         input_file: Path to input PDB file
@@ -56,6 +57,7 @@ def split_chain(input_file, output_file, chain_id='A', new_chain_id='B', split_p
     output_lines = []
     found_chainB = False
     chain_A_done = False
+    auto_convert = chain_id not in ['A', 'B']  # Check if we need auto-conversion
     
     for line in lines:
         if line.startswith('ATOM'):
@@ -65,21 +67,40 @@ def split_chain(input_file, output_file, chain_id='A', new_chain_id='B', split_p
             except ValueError:
                 resSeq = 0
             
-            if current_chain == chain_id and resSeq <= split_point:
-                output_lines.append(line)
-            elif current_chain == chain_id and resSeq > split_point:
-                if not chain_A_done:
-                    output_lines.append("TER\n")
-                    chain_A_done = True
-                new_resSeq = resSeq - split_point
-                new_resSeq_str = str(new_resSeq).rjust(4)
-                new_line = line[:21] + new_chain_id + new_resSeq_str + line[26:]
-                output_lines.append(new_line)
-                found_chainB = True
+            # Handle all cases: auto-convert and standard chains
+            if current_chain == chain_id:
+                if auto_convert:
+                    # Auto-convert undefined chain to A/B
+                    if resSeq <= split_point:
+                        new_line = line[:21] + 'A' + line[22:]
+                        output_lines.append(new_line)
+                    else:
+                        if not chain_A_done:
+                            output_lines.append("TER\n")
+                            chain_A_done = True
+                        new_resSeq = resSeq - split_point
+                        new_resSeq_str = str(new_resSeq).rjust(4)
+                        new_line = line[:21] + 'B' + new_resSeq_str + line[26:]
+                        output_lines.append(new_line)
+                        found_chainB = True
+                else:
+                    # Standard chain processing (A or B)
+                    if resSeq <= split_point:
+                        output_lines.append(line)
+                    else:
+                        if not chain_A_done:
+                            output_lines.append("TER\n")
+                            chain_A_done = True
+                        new_resSeq = resSeq - split_point
+                        new_resSeq_str = str(new_resSeq).rjust(4)
+                        new_line = line[:21] + new_chain_id + new_resSeq_str + line[26:]
+                        output_lines.append(new_line)
+                        found_chainB = True
             else:
                 output_lines.append(line)
         elif line.startswith('TER'):
-            continue
+            # Preserve TER records for other chains
+            output_lines.append(line)
         else:
             output_lines.append(line)
     
