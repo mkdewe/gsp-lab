@@ -1,0 +1,217 @@
+2025-10-14 22:34:01,863 - INFO - Base GSP directory: D:\Studia\Projekty\gsp-lab\results\gsp\rnapuzzles.github.io
+2025-10-14 22:34:01,863 - INFO - Base metrics directory: D:\Studia\Projekty\gsp-lab\results\other-metrics\rnapuzzles.github.io
+2025-10-14 22:34:03,105 - INFO - Selected targets: PZ1
+2025-10-14 22:34:03,105 - INFO - Processing target: PZ1
+2025-10-14 22:34:03,105 - INFO - Found 14 gGSP files in D:\Studia\Projekty\gsp-lab\results\gsp\rnapuzzles.github.io\PZ1
+2025-10-14 22:34:03,107 - INFO - Found 11 metric files in D:\Studia\Projekty\gsp-lab\results\other-metrics\rnapuzzles.github.io\PZ1
+2025-10-14 22:34:03,119 - INFO - Starting correlation calculations...
+2025-10-14 22:34:03,120 - INFO - Combined dataset contains 14 models
+2025-10-14 22:34:03,121 - INFO - 
+=== Data for metric: Clash_Score ===
+2025-10-14 22:34:03,121 - INFO - Model 1: gGSP=99.6520, Clash_Score=0.0000
+2025-10-14 22:34:03,121 - INFO - Model 2: gGSP=99.8120, Clash_Score=1.3600
+2025-10-14 22:34:03,122 - INFO - Model 3: gGSP=100.0000, Clash_Score=0.0000
+2025-10-14 22:34:03,122 - INFO - Model 4: gGSP=99.6230, Clash_Score=0.0000
+2025-10-14 22:34:03,122 - INFO - Model 5: gGSP=97.3990, Clash_Score=0.0000
+2025-10-14 22:34:03,122 - INFO - Model 6: gGSP=99.8990, Clash_Score=0.0000
+2025-10-14 22:34:03,122 - INFO - Model 7: gGSP=99.7320, Clash_Score=51.5600
+2025-10-14 22:34:03,122 - INFO - Model 8: gGSP=72.5350, Clash_Score=0.0000
+2025-10-14 22:34:03,123 - INFO - Model 9: gGSP=69.9130, Clash_Score=60.0900
+2025-10-14 22:34:03,123 - INFO - Model 10: gGSP=84.7280, Clash_Score=47.3000
+2025-10-14 22:34:03,123 - INFO - Model 11: gGSP=89.5240, Clash_Score=69.7800
+2025-10-14 22:34:03,123 - INFO - Model 12: gGSP=70.1730, Clash_Score=67.0700
+2025-10-14 22:34:03,123 - INFO - Model 13: gGSP=43.9600, Clash_Score=24.9800
+2025-10-14 22:34:03,123 - INFO - Model 14: gGSP=78.3030, Clash_Score=25.0000
+2025-10-14 22:34:03,123 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,123 - INFO - Clash_Score mean=24.7957, std=27.4088
+2025-10-14 22:34:03,130 - INFO - Clash_Score Pearson components: cov=-183.7917, var_x=271.5388, var_y=751.2451
+2025-10-14 22:34:03,131 - INFO - Clash_Score Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,131 - INFO - Clash_Score Spearman ranks (y): [ 3.5  7.   3.5  3.5  3.5  3.5 11.   3.5 12.  10.  14.  13.   8.   9. ]
+2025-10-14 22:34:03,131 - INFO - Clash_Score Kendall concordant pairs check: approx=-0.313
+2025-10-14 22:34:03,131 - INFO - [OK] Correlations for Clash_Score: Pearson=-0.378, Spearman=-0.483, Kendall=-0.313
+2025-10-14 22:34:03,133 - INFO - 
+=== Data for metric: DI_all ===
+2025-10-14 22:34:03,133 - INFO - Model 1: gGSP=99.6520, DI_all=4.2480
+2025-10-14 22:34:03,133 - INFO - Model 2: gGSP=99.8120, DI_all=5.0400
+2025-10-14 22:34:03,133 - INFO - Model 3: gGSP=100.0000, DI_all=3.6340
+2025-10-14 22:34:03,133 - INFO - Model 4: gGSP=99.6230, DI_all=4.2810
+2025-10-14 22:34:03,133 - INFO - Model 5: gGSP=97.3990, DI_all=5.2370
+2025-10-14 22:34:03,133 - INFO - Model 6: gGSP=99.8990, DI_all=5.2650
+2025-10-14 22:34:03,133 - INFO - Model 7: gGSP=99.7320, DI_all=4.8650
+2025-10-14 22:34:03,133 - INFO - Model 8: gGSP=72.5350, DI_all=6.5400
+2025-10-14 22:34:03,134 - INFO - Model 9: gGSP=69.9130, DI_all=7.8100
+2025-10-14 22:34:03,134 - INFO - Model 10: gGSP=84.7280, DI_all=6.5960
+2025-10-14 22:34:03,134 - INFO - Model 11: gGSP=89.5240, DI_all=6.9040
+2025-10-14 22:34:03,134 - INFO - Model 12: gGSP=70.1730, DI_all=6.5300
+2025-10-14 22:34:03,134 - INFO - Model 13: gGSP=43.9600, DI_all=8.6100
+2025-10-14 22:34:03,134 - INFO - Model 14: gGSP=78.3030, DI_all=7.0680
+2025-10-14 22:34:03,134 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,134 - INFO - DI_all mean=5.9020, std=1.4090
+2025-10-14 22:34:03,135 - INFO - DI_all Pearson components: cov=-22.1839, var_x=271.5388, var_y=1.9853
+2025-10-14 22:34:03,135 - INFO - DI_all Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,136 - INFO - DI_all Spearman ranks (y): [ 2.  5.  1.  3.  6.  7.  4.  9. 13. 10. 11.  8. 14. 12.]
+2025-10-14 22:34:03,136 - INFO - DI_all Kendall concordant pairs check: approx=-0.604
+2025-10-14 22:34:03,136 - INFO - [OK] Correlations for DI_all: Pearson=-0.887, Spearman=-0.820, Kendall=-0.604
+2025-10-14 22:34:03,137 - INFO - 
+=== Data for metric: INF_all ===
+2025-10-14 22:34:03,137 - INFO - Model 1: gGSP=99.6520, INF_all=0.9310
+2025-10-14 22:34:03,137 - INFO - Model 2: gGSP=99.8120, INF_all=0.8830
+2025-10-14 22:34:03,137 - INFO - Model 3: gGSP=100.0000, INF_all=0.9390
+2025-10-14 22:34:03,137 - INFO - Model 4: gGSP=99.6230, INF_all=0.9130
+2025-10-14 22:34:03,137 - INFO - Model 5: gGSP=97.3990, INF_all=0.8710
+2025-10-14 22:34:03,137 - INFO - Model 6: gGSP=99.8990, INF_all=0.8240
+2025-10-14 22:34:03,138 - INFO - Model 7: gGSP=99.7320, INF_all=0.8880
+2025-10-14 22:34:03,138 - INFO - Model 8: gGSP=72.5350, INF_all=0.8710
+2025-10-14 22:34:03,138 - INFO - Model 9: gGSP=69.9130, INF_all=0.7850
+2025-10-14 22:34:03,138 - INFO - Model 10: gGSP=84.7280, INF_all=0.8010
+2025-10-14 22:34:03,138 - INFO - Model 11: gGSP=89.5240, INF_all=0.7160
+2025-10-14 22:34:03,138 - INFO - Model 12: gGSP=70.1730, INF_all=0.7830
+2025-10-14 22:34:03,138 - INFO - Model 13: gGSP=43.9600, INF_all=0.8330
+2025-10-14 22:34:03,138 - INFO - Model 14: gGSP=78.3030, INF_all=0.8130
+2025-10-14 22:34:03,138 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,138 - INFO - INF_all mean=0.8465, std=0.0616
+2025-10-14 22:34:03,139 - INFO - INF_all Pearson components: cov=0.4987, var_x=271.5388, var_y=0.0038
+2025-10-14 22:34:03,139 - INFO - INF_all Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,141 - INFO - INF_all Spearman ranks (y): [13.  10.  14.  12.   8.5  6.  11.   8.5  3.   4.   1.   2.   7.   5. ]
+2025-10-14 22:34:03,141 - INFO - INF_all Kendall concordant pairs check: approx=0.420
+2025-10-14 22:34:03,141 - INFO - [OK] Correlations for INF_all: Pearson=0.456, Spearman=0.627, Kendall=0.420
+2025-10-14 22:34:03,142 - INFO - 
+=== Data for metric: INF_stacking ===
+2025-10-14 22:34:03,142 - INFO - Model 1: gGSP=99.6520, INF_stacking=0.9110
+2025-10-14 22:34:03,142 - INFO - Model 2: gGSP=99.8120, INF_stacking=0.8660
+2025-10-14 22:34:03,142 - INFO - Model 3: gGSP=100.0000, INF_stacking=0.9240
+2025-10-14 22:34:03,142 - INFO - Model 4: gGSP=99.6230, INF_stacking=0.9080
+2025-10-14 22:34:03,142 - INFO - Model 5: gGSP=97.3990, INF_stacking=0.8380
+2025-10-14 22:34:03,142 - INFO - Model 6: gGSP=99.8990, INF_stacking=0.7960
+2025-10-14 22:34:03,142 - INFO - Model 7: gGSP=99.7320, INF_stacking=0.8470
+2025-10-14 22:34:03,142 - INFO - Model 8: gGSP=72.5350, INF_stacking=0.8380
+2025-10-14 22:34:03,142 - INFO - Model 9: gGSP=69.9130, INF_stacking=0.7390
+2025-10-14 22:34:03,142 - INFO - Model 10: gGSP=84.7280, INF_stacking=0.7650
+2025-10-14 22:34:03,142 - INFO - Model 11: gGSP=89.5240, INF_stacking=0.7500
+2025-10-14 22:34:03,142 - INFO - Model 12: gGSP=70.1730, INF_stacking=0.7960
+2025-10-14 22:34:03,142 - INFO - Model 13: gGSP=43.9600, INF_stacking=0.7880
+2025-10-14 22:34:03,142 - INFO - Model 14: gGSP=78.3030, INF_stacking=0.7290
+2025-10-14 22:34:03,143 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,143 - INFO - INF_stacking mean=0.8211, std=0.0628
+2025-10-14 22:34:03,143 - INFO - INF_stacking Pearson components: cov=0.6218, var_x=271.5388, var_y=0.0039
+2025-10-14 22:34:03,144 - INFO - INF_stacking Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,144 - INFO - INF_stacking Spearman ranks (y): [13.  11.  14.  12.   8.5  6.5 10.   8.5  2.   4.   3.   6.5  5.   1. ]
+2025-10-14 22:34:03,145 - INFO - INF_stacking Kendall concordant pairs check: approx=0.500
+2025-10-14 22:34:03,145 - INFO - [OK] Correlations for INF_stacking: Pearson=0.558, Spearman=0.676, Kendall=0.500
+2025-10-14 22:34:03,146 - INFO - 
+=== Data for metric: INF_wc ===
+2025-10-14 22:34:03,146 - INFO - Model 1: gGSP=99.6520, INF_wc=0.9750
+2025-10-14 22:34:03,146 - INFO - Model 2: gGSP=99.8120, INF_wc=0.9230
+2025-10-14 22:34:03,146 - INFO - Model 3: gGSP=100.0000, INF_wc=0.9750
+2025-10-14 22:34:03,146 - INFO - Model 4: gGSP=99.6230, INF_wc=0.9230
+2025-10-14 22:34:03,146 - INFO - Model 5: gGSP=97.3990, INF_wc=0.9470
+2025-10-14 22:34:03,146 - INFO - Model 6: gGSP=99.8990, INF_wc=0.8890
+2025-10-14 22:34:03,146 - INFO - Model 7: gGSP=99.7320, INF_wc=0.9730
+2025-10-14 22:34:03,146 - INFO - Model 8: gGSP=72.5350, INF_wc=0.9470
+2025-10-14 22:34:03,146 - INFO - Model 9: gGSP=69.9130, INF_wc=0.8890
+2025-10-14 22:34:03,147 - INFO - Model 10: gGSP=84.7280, INF_wc=0.8890
+2025-10-14 22:34:03,147 - INFO - Model 11: gGSP=89.5240, INF_wc=0.6360
+2025-10-14 22:34:03,147 - INFO - Model 12: gGSP=70.1730, INF_wc=0.7610
+2025-10-14 22:34:03,147 - INFO - Model 13: gGSP=43.9600, INF_wc=0.9230
+2025-10-14 22:34:03,147 - INFO - Model 14: gGSP=78.3030, INF_wc=0.9750
+2025-10-14 22:34:03,147 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,147 - INFO - INF_wc mean=0.9018, std=0.0916
+2025-10-14 22:34:03,148 - INFO - INF_wc Pearson components: cov=0.2593, var_x=271.5388, var_y=0.0084
+2025-10-14 22:34:03,148 - INFO - INF_wc Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,149 - INFO - INF_wc Spearman ranks (y): [13.   7.  13.   7.   9.5  4.  11.   9.5  4.   4.   1.   2.   7.  13. ]
+2025-10-14 22:34:03,149 - INFO - INF_wc Kendall concordant pairs check: approx=0.221
+2025-10-14 22:34:03,149 - INFO - [OK] Correlations for INF_wc: Pearson=0.159, Spearman=0.337, Kendall=0.221
+2025-10-14 22:34:03,150 - INFO - 
+=== Data for metric: mcq ===
+2025-10-14 22:34:03,150 - INFO - Model 1: gGSP=99.6520, mcq=12.3400
+2025-10-14 22:34:03,150 - INFO - Model 2: gGSP=99.8120, mcq=12.8600
+2025-10-14 22:34:03,150 - INFO - Model 3: gGSP=100.0000, mcq=13.0700
+2025-10-14 22:34:03,150 - INFO - Model 4: gGSP=99.6230, mcq=13.1400
+2025-10-14 22:34:03,151 - INFO - Model 5: gGSP=97.3990, mcq=14.6300
+2025-10-14 22:34:03,151 - INFO - Model 6: gGSP=99.8990, mcq=15.4800
+2025-10-14 22:34:03,151 - INFO - Model 7: gGSP=99.7320, mcq=32.6400
+2025-10-14 22:34:03,151 - INFO - Model 8: gGSP=72.5350, mcq=13.7300
+2025-10-14 22:34:03,151 - INFO - Model 9: gGSP=69.9130, mcq=14.3500
+2025-10-14 22:34:03,151 - INFO - Model 10: gGSP=84.7280, mcq=11.6900
+2025-10-14 22:34:03,151 - INFO - Model 11: gGSP=89.5240, mcq=13.4600
+2025-10-14 22:34:03,151 - INFO - Model 12: gGSP=70.1730, mcq=11.1900
+2025-10-14 22:34:03,151 - INFO - Model 13: gGSP=43.9600, mcq=16.6700
+2025-10-14 22:34:03,151 - INFO - Model 14: gGSP=78.3030, mcq=0.0000
+2025-10-14 22:34:03,151 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,151 - INFO - mcq mean=13.9464, std=6.3948
+2025-10-14 22:34:03,152 - INFO - mcq Pearson components: cov=19.9742, var_x=271.5388, var_y=40.8932
+2025-10-14 22:34:03,153 - INFO - mcq Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,153 - INFO - mcq Spearman ranks (y): [ 4.  5.  6.  7. 11. 12. 14.  9. 10.  3.  8.  2. 13.  1.]
+2025-10-14 22:34:03,153 - INFO - mcq Kendall concordant pairs check: approx=0.033
+2025-10-14 22:34:03,153 - INFO - [OK] Correlations for mcq: Pearson=0.176, Spearman=0.051, Kendall=0.033
+2025-10-14 22:34:03,155 - INFO - 
+=== Data for metric: P-value ===
+2025-10-14 22:34:03,155 - INFO - Model 1: gGSP=99.6520, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 2: gGSP=99.8120, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 3: gGSP=100.0000, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 4: gGSP=99.6230, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 5: gGSP=97.3990, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 6: gGSP=99.8990, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 7: gGSP=99.7320, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 8: gGSP=72.5350, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 9: gGSP=69.9130, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 10: gGSP=84.7280, P-value=0.0000
+2025-10-14 22:34:03,155 - INFO - Model 11: gGSP=89.5240, P-value=0.0000
+2025-10-14 22:34:03,156 - INFO - Model 12: gGSP=70.1730, P-value=0.0000
+2025-10-14 22:34:03,156 - INFO - Model 13: gGSP=43.9600, P-value=0.0000
+2025-10-14 22:34:03,156 - INFO - Model 14: gGSP=78.3030, P-value=0.0000
+2025-10-14 22:34:03,156 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,156 - INFO - P-value mean=0.0000, std=0.0000
+2025-10-14 22:34:03,157 - INFO - P-value Pearson components: cov=-0.0000, var_x=271.5388, var_y=0.0000
+2025-10-14 22:34:03,157 - INFO - P-value Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,157 - INFO - P-value Spearman ranks (y): [ 3.  6.  1.  2.  7.  5.  4. 11. 13. 10.  8.  9. 14. 12.]
+2025-10-14 22:34:03,158 - INFO - P-value Kendall concordant pairs check: approx=-0.714
+2025-10-14 22:34:03,158 - INFO - [OK] Correlations for P-value: Pearson=-0.719, Spearman=-0.886, Kendall=-0.714
+2025-10-14 22:34:03,159 - INFO - 
+=== Data for metric: RMSD ===
+2025-10-14 22:34:03,159 - INFO - Model 1: gGSP=99.6520, RMSD=3.9530
+2025-10-14 22:34:03,159 - INFO - Model 2: gGSP=99.8120, RMSD=4.4520
+2025-10-14 22:34:03,159 - INFO - Model 3: gGSP=100.0000, RMSD=3.4130
+2025-10-14 22:34:03,159 - INFO - Model 4: gGSP=99.6230, RMSD=3.9070
+2025-10-14 22:34:03,159 - INFO - Model 5: gGSP=97.3990, RMSD=4.5630
+2025-10-14 22:34:03,159 - INFO - Model 6: gGSP=99.8990, RMSD=4.3360
+2025-10-14 22:34:03,159 - INFO - Model 7: gGSP=99.7320, RMSD=4.3190
+2025-10-14 22:34:03,159 - INFO - Model 8: gGSP=72.5350, RMSD=5.6990
+2025-10-14 22:34:03,159 - INFO - Model 9: gGSP=69.9130, RMSD=6.1310
+2025-10-14 22:34:03,159 - INFO - Model 10: gGSP=84.7280, RMSD=5.2820
+2025-10-14 22:34:03,159 - INFO - Model 11: gGSP=89.5240, RMSD=4.9440
+2025-10-14 22:34:03,159 - INFO - Model 12: gGSP=70.1730, RMSD=5.1110
+2025-10-14 22:34:03,159 - INFO - Model 13: gGSP=43.9600, RMSD=7.1760
+2025-10-14 22:34:03,159 - INFO - Model 14: gGSP=78.3030, RMSD=5.7490
+2025-10-14 22:34:03,159 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,161 - INFO - RMSD mean=4.9311, std=0.9746
+2025-10-14 22:34:03,161 - INFO - RMSD Pearson components: cov=-16.1238, var_x=271.5388, var_y=0.9498
+2025-10-14 22:34:03,162 - INFO - RMSD Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,162 - INFO - RMSD Spearman ranks (y): [ 3.  6.  1.  2.  7.  5.  4. 11. 13. 10.  8.  9. 14. 12.]
+2025-10-14 22:34:03,163 - INFO - RMSD Kendall concordant pairs check: approx=-0.714
+2025-10-14 22:34:03,163 - INFO - [OK] Correlations for RMSD: Pearson=-0.932, Spearman=-0.886, Kendall=-0.714
+2025-10-14 22:34:03,164 - INFO - 
+=== Data for metric: TM-score ===
+2025-10-14 22:34:03,164 - INFO - Model 1: gGSP=99.6520, TM-score=0.2870
+2025-10-14 22:34:03,164 - INFO - Model 2: gGSP=99.8120, TM-score=0.2430
+2025-10-14 22:34:03,164 - INFO - Model 3: gGSP=100.0000, TM-score=0.2570
+2025-10-14 22:34:03,164 - INFO - Model 4: gGSP=99.6230, TM-score=0.2140
+2025-10-14 22:34:03,164 - INFO - Model 5: gGSP=97.3990, TM-score=0.2800
+2025-10-14 22:34:03,164 - INFO - Model 6: gGSP=99.8990, TM-score=0.2640
+2025-10-14 22:34:03,164 - INFO - Model 7: gGSP=99.7320, TM-score=0.1920
+2025-10-14 22:34:03,164 - INFO - Model 8: gGSP=72.5350, TM-score=0.2590
+2025-10-14 22:34:03,165 - INFO - Model 9: gGSP=69.9130, TM-score=0.2410
+2025-10-14 22:34:03,165 - INFO - Model 10: gGSP=84.7280, TM-score=0.2170
+2025-10-14 22:34:03,165 - INFO - Model 11: gGSP=89.5240, TM-score=0.2240
+2025-10-14 22:34:03,165 - INFO - Model 12: gGSP=70.1730, TM-score=0.2230
+2025-10-14 22:34:03,165 - INFO - Model 13: gGSP=43.9600, TM-score=0.1710
+2025-10-14 22:34:03,165 - INFO - Model 14: gGSP=78.3030, TM-score=0.0000
+2025-10-14 22:34:03,165 - INFO - gGSP mean=86.0895, std=16.4784
+2025-10-14 22:34:03,165 - INFO - TM-score mean=0.2194, std=0.0684
+2025-10-14 22:34:03,166 - INFO - TM-score Pearson components: cov=0.4185, var_x=271.5388, var_y=0.0047
+2025-10-14 22:34:03,167 - INFO - TM-score Spearman ranks (x): [10. 12. 14.  9.  8. 13. 11.  4.  2.  6.  7.  3.  1.  5.]
+2025-10-14 22:34:03,167 - INFO - TM-score Spearman ranks (y): [14.  9. 10.  4. 13. 12.  3. 11.  8.  5.  7.  6.  2.  1.]
+2025-10-14 22:34:03,172 - INFO - TM-score Kendall concordant pairs check: approx=0.275
+2025-10-14 22:34:03,172 - INFO - [OK] Correlations for TM-score: Pearson=0.345, Spearman=0.411, Kendall=0.275
+2025-10-14 22:34:03,174 - INFO - Saved correlation results to: D:\Studia\Projekty\gsp-lab\results\correlations\PZ1_correlations.csv
+2025-10-14 22:34:03,178 - INFO - Processing completed
