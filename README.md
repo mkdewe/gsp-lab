@@ -46,7 +46,7 @@ gsp-lab/
 Clone the repository with submodules:
 
 ```bash
-git clone --recurse-submodules https://github.com/yourusername/gsp-lab.git
+git clone --recurse-submodules https://github.com/mkdewe/gsp-lab.git
 cd gsp-lab
 ```
 
