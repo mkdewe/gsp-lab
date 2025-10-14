@@ -39,7 +39,7 @@ def parse_gsp_files(gsp_dir):
     logger.info(f"Found {len(gsp_files)} gGSP files in {gsp_dir}")
     
     # Pattern to extract model identifier
-    pattern = re.compile(r'.*_(?P<lab>\w+)_(?P<num>\d+)_C1\'-gGSP\.csv$')
+    pattern = re.compile(r'.*_(?P<lab>\w+)_(?P<num>\d+)(?:_refined\d+)?_C1\'-gGSP\.csv$')
     
     for file_path in gsp_files:
         try:
@@ -134,26 +134,45 @@ def calculate_correlations(gsp_df, other_metrics):
         if metric in ["Lab", "Num"] or metric == "gGSP":
             continue
             
-        # Prepare data for analysis
+                # Prepare data for analysis
         clean_df = combined_df[["gGSP", metric]].dropna()
-        
+
         if len(clean_df) < 3:
             logger.warning(f"Insufficient data for {metric} (only {len(clean_df)} valid pairs). Skipping...")
             continue
-        
-        # Calculate correlations
+
         try:
             logger.debug(f"Calculating correlations for {metric} with {len(clean_df)} data points")
-            
+
+            # Extract x and y
+            x = clean_df["gGSP"].to_numpy()
+            y = clean_df[metric].to_numpy()
+
+            # Log xi, yi pairs
+            logger.info(f"\n=== Data for metric: {metric} ===")
+            for i, (xi, yi) in enumerate(zip(x, y), start=1):
+                logger.info(f"Model {i}: gGSP={xi:.4f}, {metric}={yi:.4f}")
+
+            # Log basic statistics
+            logger.info(f"gGSP mean={np.mean(x):.4f}, std={np.std(x):.4f}")
+            logger.info(f"{metric} mean={np.mean(y):.4f}, std={np.std(y):.4f}")
+
             # Pearson correlation
-            pearson_corr, pearson_p = stats.pearsonr(clean_df["gGSP"], clean_df[metric])
-            
+            pearson_corr, pearson_p = stats.pearsonr(x, y)
+            logger.info(f"{metric} Pearson components: cov={np.cov(x, y)[0,1]:.4f}, "
+                        f"var_x={np.var(x):.4f}, var_y={np.var(y):.4f}")
+
             # Spearman correlation
-            spearman_corr, spearman_p = stats.spearmanr(clean_df["gGSP"], clean_df[metric])
-            
+            spearman_corr, spearman_p = stats.spearmanr(x, y)
+            logger.info(f"{metric} Spearman ranks (x): {stats.rankdata(x)}")
+            logger.info(f"{metric} Spearman ranks (y): {stats.rankdata(y)}")
+
             # Kendall correlation
-            kendall_corr, kendall_p = stats.kendalltau(clean_df["gGSP"], clean_df[metric])
-            
+            kendall_corr, kendall_p = stats.kendalltau(x, y)
+            logger.info(f"{metric} Kendall concordant pairs check: "
+                        f"approx={kendall_corr:.3f}")
+
+            # Store results
             results.append({
                 "metric": metric,
                 "orientation": METRIC_ORIENTATION.get(metric, "unknown"),
@@ -165,11 +184,10 @@ def calculate_correlations(gsp_df, other_metrics):
                 "kendall_pvalue": kendall_p,
                 "n_models": len(clean_df)
             })
-            
-            logger.info(f"Correlations for {metric}: "
-                        f"Pearson={pearson_corr:.3f}, "
-                        f"Spearman={spearman_corr:.3f}, "
-                        f"Kendall={kendall_corr:.3f}")
+
+            logger.info(f"[OK] Correlations for {metric}: Pearson={pearson_corr:.3f}, Spearman={spearman_corr:.3f}, Kendall={kendall_corr:.3f}")
+
+
         except Exception as e:
             logger.error(f"Error calculating correlations for {metric}: {str(e)}", exc_info=True)
     
