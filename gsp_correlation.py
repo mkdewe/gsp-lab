@@ -148,6 +148,10 @@ def calculate_correlations(gsp_df, other_metrics):
             x = clean_df["gGSP"].to_numpy()
             y = clean_df[metric].to_numpy()
 
+            # Adjust for orientation: invert if lower = better
+            if not METRIC_ORIENTATION.get(metric, True):
+                y = -y
+
             # Log xi, yi pairs
             logger.info(f"\n=== Data for metric: {metric} ===")
             for i, (xi, yi) in enumerate(zip(x, y), start=1):
