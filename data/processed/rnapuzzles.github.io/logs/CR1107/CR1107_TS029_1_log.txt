@@ -1,0 +1,130 @@
+Processing: CR1107_TS029_1
+Target: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\CR1107\pdb\CR1107_solution_0.pdb
+Model: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1.pdb
+Output: D:\Studia\Projekty\gsp-lab\data\processed\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1_refined.pdb
+Start: 2025-12-01 02:35:28.541663
+==================================================
+
+Return code: 1
+Duration: 0.94s
+
+STDOUT:
+=== KOMPLETNE MAPOWANIE STRUKTUR RNA I NAPRAWIANIE PDB ===
+Target: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\CR1107\pdb\CR1107_solution_0.pdb
+Model:  D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1.pdb
+Output PDB: D:\Studia\Projekty\gsp-lab\data\processed\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1_refined.pdb
+Usuwanie nadmiarowych atomów: NIE
+
+£adowanie struktur...
+Ekstrakcja sekwencji i reszt...
+Target: 1 ³añcuchów, 69 nukleotydów
+Model:  1 ³añcuchów, 69 nukleotydów
+
+Mapowanie ³añcuchów...
+  Szczegó³owe porównanie sekwencji:
+    B(target) vs 0(model): 1.000
+ Mapowanie: B -> 0 (score: 1.000)
+
+Mapowanie reszt i sprawdzanie atomów...
+  Mapowanie ³añcucha 0->B:
+    Target: GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCCUGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU (d³ugoœæ: 69, reszty: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69])
+    Model:  GGGGGCCACAGCAGAAGCGUUCACGUCGCAGCCCCUGUCAGCCAUUGCACUCCGGCUGCGAAUUCUGCU (d³ugoœæ: 69, reszty: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69])
+    01 -> B1
+    02 -> B2
+    03 -> B3
+    04 -> B4
+    05 -> B5
+    06 -> B6
+    07 -> B7
+    08 -> B8
+    09 -> B9
+    010 -> B10
+    011 -> B11
+    012 -> B12
+    013 -> B13
+    014 -> B14
+    015 -> B15
+    016 -> B16
+    017 -> B17
+    018 -> B18
+    019 -> B19
+    020 -> B20
+    021 -> B21
+    022 -> B22
+    023 -> B23
+    024 -> B24
+    025 -> B25
+    026 -> B26
+    027 -> B27
+    028 -> B28
+    029 -> B29
+    030 -> B30
+    031 -> B31
+    032 -> B32
+    033 -> B33
+    034 -> B34
+    035 -> B35
+    036 -> B36
+    037 -> B37
+    038 -> B38
+    039 -> B39
+    040 -> B40
+    041 -> B41
+    042 -> B42
+    043 -> B43
+    044 -> B44
+    045 -> B45
+    046 -> B46
+    047 -> B47
+    048 -> B48
+    049 -> B49
+    050 -> B50
+    051 -> B51
+    052 -> B52
+    053 -> B53
+    054 -> B54
+    055 -> B55
+    056 -> B56
+    057 -> B57
+    058 -> B58
+    059 -> B59
+    060 -> B60
+    061 -> B61
+    062 -> B62
+    063 -> B63
+    064 -> B64
+    065 -> B65
+    066 -> B66
+    067 -> B67
+    068 -> B68
+    069 -> B69
+Zmapowano 69 reszt
+
+WSZYSTKIE ATOMY ZGODNE!
+
+RMSD dla zmapowanych reszt: 16.178 A
+Kolejnoœæ ³añcuchów w targetcie: ['B']
+Naprawianie pliku PDB: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1.pdb -> D:\Studia\Projekty\gsp-lab\data\processed\rnapuzzles.github.io\data\CR1107\pdb\CR1107_TS029_1_refined.pdb
+  Tryb: ZACHOWYWANIE wszystkich atomów w zmapowanych resztach
+  Zmapowane atomy: 1464
+  Usuniête reszty: 0
+  Niezmapowane atomy: 0
+Naprawiono 1464 atomów w pliku PDB (³añcuchy, reszty i numery atomów).
+
+Weryfikacja atomów w naprawionym pliku PDB...
+
+STDERR:
+Traceback (most recent call last):
+  File "rna_mapper.py", line 1018, in <module>
+    main()
+  File "rna_mapper.py", line 926, in main
+    result = mapper.process_all(
+  File "rna_mapper.py", line 845, in process_all
+    atom_comparison_log, total_extra_atoms, total_missing_atoms = self.verify_fixed_pdb(
+  File "rna_mapper.py", line 749, in verify_fixed_pdb
+    for residue in fixed_structure[0][model_chain_id]:
+  File "C:\Users\darek\.conda\envs\gsp-env\lib\site-packages\Bio\PDB\Entity.py", line 45, in __getitem__
+    return self.child_dict[id]
+KeyError: '0'
+
+End: 2025-12-01 02:35:29.477376

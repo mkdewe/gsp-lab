@@ -1,0 +1,16 @@
+Log przetwarzania zestawów RNA Puzzles
+Data rozpoczêcia: 2025-12-01 02:55:48.568028
+Liczba zestawów: 65
+================================================================================
+
+
+Zestaw: CR1107
+  Znaleziono 181 plików PDB w zestawie CR1107
+  Znaleziono 1 plików solution: ['CR1107_solution_0.pdb']
+  U¿ywam jako target: CR1107_solution_0.pdb
+  Przetwarzanie 180 modeli...
+    CR1107_TS029_1: ERROR (kod: 1)
+    CR1107_TS029_2: ERROR (kod: 1)
+    CR1107_TS035_1: ERROR (kod: 1)
+    CR1107_TS035_2: ERROR (kod: 1)
+    CR1107_TS035_3: ERROR (kod: 1)

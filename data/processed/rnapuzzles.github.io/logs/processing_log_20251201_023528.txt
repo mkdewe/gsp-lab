@@ -1,0 +1,12 @@
+Log przetwarzania zestawów RNA Puzzles
+Data rozpoczêcia: 2025-12-01 02:35:28.538640
+Liczba zestawów: 65
+Zestawy: ['CR1107', 'CR1108', 'CR1116', 'CR1117', 'CR1126', 'CR1128', 'CR1136', 'CR1138', 'CR1149', 'CR1156', 'CR1189', 'CR1190', 'PZ1', 'PZ10', 'PZ10tBox', 'PZ10tRNA', 'PZ11', 'PZ11NMR', 'PZ12', 'PZ13', 'PZ14Bound', 'PZ14Free', 'PZ15', 'PZ15noend', 'PZ15reconstruct', 'PZ16a', 'PZ16b', 'PZ17', 'PZ18', 'PZ19', 'PZ2', 'PZ20', 'PZ21', 'PZ22', 'PZ22Dimer', 'PZ23', 'PZ24', 'PZ25', 'PZ26', 'PZ26tBox', 'PZ26tRNA', 'PZ27', 'PZ27tBox', 'PZ27tRNA', 'PZ28', 'PZ28tBox', 'PZ28tRNA', 'PZ29', 'PZ3', 'PZ30', 'PZ31', 'PZ32', 'PZ33', 'PZ34', 'PZ35', 'PZ36', 'PZ37', 'PZ38', 'PZ39', 'PZ4', 'PZ5', 'PZ6', 'PZ7', 'PZ8', 'PZ9']
+================================================================================
+
+
+02:35:28 - Przetwarzanie CR1107
+  Znaleziono 181 plików PDB
+  Znaleziono 1 kandydatów na solution: ['CR1107_solution_0.pdb']
+    Target: CR1107_solution_0 -> Modele: 180
+    02:35:28 - Processing: CR1107_TS029_1 (target: CR1107_solution_0)
