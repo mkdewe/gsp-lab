@@ -1,0 +1,6 @@
+# Raport brakujących atomów
+# Target: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\PZ3\pdb\3_solution_0.pdb
+# Model: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\PZ3\pdb\PZ3_Major_2.pdb
+# Format: Model_Chain,Model_ResID -> Target_Chain,Target_ResID: brakujące_atomy
+
+A,1 -> A,3: P,OP1,OP2

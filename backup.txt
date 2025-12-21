@@ -1,0 +1,1062 @@
+import numpy as np
+import warnings
+from Bio.PDB import PDBParser
+from Bio.PDB.PDBExceptions import PDBConstructionWarning
+from Bio.Align import PairwiseAligner
+from collections import defaultdict
+import argparse
+import os
+import sys
+
+# WYŁĄCZENIE WSZYSTKICH WARNINGÓW
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=PDBConstructionWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+warnings.filterwarnings("ignore")
+
+class CompleteRNAMapper:
+    def __init__(self):
+        self.aligner = PairwiseAligner()
+        self.aligner.mode = 'global'
+        self.aligner.match_score = 2
+        self.aligner.mismatch_score = -1
+        self.aligner.open_gap_score = -0.5
+        self.aligner.extend_gap_score = -0.1
+    
+    def extract_chain_sequences(self, structure):
+        """Ekstrahuje sekwencje dla każdego łańcucha."""
+        chain_sequences = {}
+        chain_residues = {}
+        
+        for model in structure:
+            for chain in model:
+                seq = ""
+                residues = []
+                for residue in chain:
+                    if residue.id[0] == ' ':  # tylko standardowe reszty
+                        resname = residue.resname.strip()
+                        if resname in ['A','C','G','U']:
+                            seq += resname
+                            residues.append(residue)
+                if seq:  # tylko niepuste sekwencje
+                    chain_sequences[chain.id] = seq
+                    chain_residues[chain.id] = residues
+        
+        return chain_sequences, chain_residues
+    
+    def find_chain_mapping(self, target_sequences, model_sequences):
+        """Znajduje optymalne mapowanie łańcuchów między targetem a modelem."""
+        chain_mapping = {}
+        used_model_chains = set()
+        
+        print("  Szczegółowe porównanie sekwencji:")
+        
+        # PRZYPADEK 1: Normalne mapowanie łańcuchów
+        for target_chain, target_seq in target_sequences.items():
+            best_score = -1
+            best_model_chain = None
+            
+            for model_chain, model_seq in model_sequences.items():
+                if model_chain in used_model_chains:
+                    continue
+                
+                # Sprawdź podobieństwo sekwencji nawet przy różnych długościach
+                score = self.calculate_sequence_similarity(target_seq, model_seq)
+                
+                print(f"    {target_chain}(target) vs {model_chain}(model): {score:.3f}")
+                
+                if score > best_score and score > 0.3:
+                    best_score = score
+                    best_model_chain = model_chain
+            
+            if best_model_chain:
+                chain_mapping[target_chain] = best_model_chain
+                used_model_chains.add(best_model_chain)
+                print(f" Mapowanie: {target_chain} -> {best_model_chain} (score: {best_score:.3f})")
+        
+        # PRZYPADEK 2: Model ma tylko jeden łańcuch, a target wiele
+        if not chain_mapping and len(model_sequences) == 1 and len(target_sequences) > 1:
+            print("  Model ma tylko jeden łańcuch, target ma wiele - próba mapowania sekwencji połączonych")
+            model_chain = list(model_sequences.keys())[0]
+            model_seq = model_sequences[model_chain]
+            
+            # Połącz sekwencje targetu w jedną
+            combined_target_seq = ''.join(target_sequences.values())
+            
+            score = self.calculate_sequence_similarity(combined_target_seq, model_seq)
+            print(f"    Połączone sekwencje targetu vs {model_chain}(model): {score:.3f}")
+            
+            if score > 0.5:
+                print(f" Mapowanie połączone: wszystkie łańcuchy targetu -> {model_chain}")
+                for target_chain in target_sequences.keys():
+                    chain_mapping[target_chain] = model_chain
+        
+        return chain_mapping
+    
+    def calculate_sequence_similarity(self, seq1, seq2):
+        """Oblicza podobieństwo między sekwencjami."""
+        if seq1 == seq2:
+            return 1.0
+        
+        try:
+            alignments = self.aligner.align(seq1, seq2)
+            if alignments:
+                best_alignment = alignments[0]
+                alignment_length = len(best_alignment[0])
+                matches = sum(1 for a, b in zip(best_alignment[0], best_alignment[1]) if a == b)
+                return matches / alignment_length
+        except Exception:
+            pass
+        
+        return 0.0
+
+    def optimize_chain_order_for_single_chain_model(self, target_sequences, model_sequence, target_residues, model_residues):
+        """Optymalizuje kolejność nici w modelu jednonicowym dla lepszego dopasowania przestrzennego."""
+        print("  Optymalizacja kolejności nici w modelu jednonicowym...")
+        
+        from itertools import permutations
+        
+        target_chains = list(target_sequences.keys())
+        
+        # Jeśli za dużo łańcuchów, użyj heurystyki zamiast wszystkich permutacji
+        if len(target_chains) > 4:
+            print(f"  Zbyt wiele łańcuchów ({len(target_chains)}), używanie heurystyki...")
+            return self._heuristic_chain_ordering(target_sequences, model_sequence)
+        
+        best_order = None
+        best_score = float('-inf')
+        
+        # Testuj różne kolejności łańcuchów targetu
+        for order in permutations(target_chains):
+            # Połącz sekwencje targetu w testowanej kolejności
+            combined_target_seq = ''.join(target_sequences[chain] for chain in order)
+            
+            # Wyrównaj z sekwencją modelu
+            try:
+                alignments = self.aligner.align(combined_target_seq, model_sequence)
+                if alignments:
+                    aligned_target, aligned_model = alignments[0][0], alignments[0][1]
+                    alignment_score = alignments[0].score
+                    
+                    # Dodaj kary za luki
+                    gap_penalty = aligned_target.count('-') * 2 + aligned_model.count('-') * 2
+                    final_score = alignment_score - gap_penalty
+                    
+                    if final_score > best_score:
+                        best_score = final_score
+                        best_order = order
+            except Exception as e:
+                continue
+        
+        print(f"  Najlepsza kolejność: {best_order} (score: {best_score:.2f})")
+        return list(best_order) if best_order else target_chains
+
+    def _heuristic_chain_ordering(self, target_sequences, model_sequence):
+        """Heurystyczne ustalanie kolejności łańcuchów dla przypadków z wieloma łańcuchami."""
+        print("  Używanie heurystycznej kolejności łańcuchów...")
+        
+        # Posortuj łańcuchy według długości (najdłuższy pierwszy)
+        sorted_chains = sorted(target_sequences.keys(), 
+                              key=lambda x: len(target_sequences[x]), 
+                              reverse=True)
+        
+        # Spróbuj dopasować najdłuższy łańcuch do początku sekwencji modelu
+        best_order = sorted_chains
+        best_score = self.calculate_sequence_similarity(
+            ''.join(target_sequences[chain] for chain in sorted_chains),
+            model_sequence
+        )
+        
+        # Testuj kilka wariantów
+        test_orders = [sorted_chains]
+        
+        # Odwrócona kolejność
+        test_orders.append(sorted_chains[::-1])
+        
+        # Próbuj umieścić krótkie łańcuchy na początku
+        if len(sorted_chains) > 2:
+            short_first = sorted(target_sequences.keys(), 
+                               key=lambda x: len(target_sequences[x]))
+            test_orders.append(short_first)
+            test_orders.append(short_first[::-1])
+        
+        for order in test_orders:
+            combined_seq = ''.join(target_sequences[chain] for chain in order)
+            score = self.calculate_sequence_similarity(combined_seq, model_sequence)
+            if score > best_score:
+                best_score = score
+                best_order = order
+        
+        print(f"  Heurystyczna kolejność: {best_order} (score: {best_score:.3f})")
+        return best_order
+
+    def create_residue_mapping_for_combined_chain(self, target_sequences, target_residues, model_chain, model_residues):
+        """Tworzy mapowanie reszt gdy model ma jeden łańcuch, a target wiele - Z OPTYMALIZACJĄ KOLEJNOŚCI."""
+        residue_mapping = {}
+        missing_atoms_report = []
+        
+        print(f"  Mapowanie połączonego łańcucha {model_chain} na wiele łańcuchów targetu")
+        
+        # OPTYMALIZACJA: Znajdź najlepszą kolejność łańcuchów targetu
+        model_seq = ''.join([r.resname.strip() for r in model_residues[model_chain]])
+        optimal_chain_order = self.optimize_chain_order_for_single_chain_model(
+            target_sequences, model_seq, target_residues, model_residues
+        )
+        
+        # Połącz sekwencje i reszty targetu w OPTYMALNEJ kolejności
+        combined_target_seq = ""
+        target_residue_list = []
+        
+        for chain_id in optimal_chain_order:
+            if chain_id in target_sequences:
+                seq = target_sequences[chain_id]
+                residues = target_residues[chain_id]
+                for res in residues:
+                    combined_target_seq += res.resname.strip()
+                    target_residue_list.append((chain_id, res))
+
+        print(f"    Optymalna kolejność łańcuchów: {optimal_chain_order}")
+        print(f"    Połączony target: {combined_target_seq}")
+        print(f"    Model: {model_seq}")
+
+        # Reszta metody pozostaje bez zmian (alignowanie i mapowanie)
+        try:
+            alignments = self.aligner.align(combined_target_seq, model_seq)
+            if alignments:
+                best_alignment = alignments[0]
+                aligned_target, aligned_model = best_alignment[0], best_alignment[1]
+
+                print(f"    Wyrównanie target: {aligned_target}")
+                print(f"    Wyrównanie model:  {aligned_model}")
+
+                # Mapowanie po alignmencie
+                target_idx = 0
+                model_idx = 0
+
+                for t_char, m_char in zip(aligned_target, aligned_model):
+                    if t_char != '-' and m_char != '-':
+                        if target_idx < len(target_residue_list) and model_idx < len(model_residues[model_chain]):
+                            target_chain_id, target_res = target_residue_list[target_idx]
+                            model_res = model_residues[model_chain][model_idx]
+
+                            missing_atoms = self.check_missing_atoms(target_res, model_res)
+                            if missing_atoms:
+                                missing_atoms_report.append({
+                                    'model_chain': model_chain,
+                                    'model_residue': model_res.id[1],
+                                    'target_chain': target_chain_id,
+                                    'target_residue': target_res.id[1],
+                                    'missing_atoms': missing_atoms
+                                })
+
+                            residue_mapping[(model_chain, model_res.id[1])] = (target_chain_id, target_res.id[1])
+                            print(f"   {model_chain}{model_res.id[1]} -> {target_chain_id}{target_res.id[1]}")
+
+                            target_idx += 1
+                            model_idx += 1
+                    elif t_char == '-':
+                        if model_idx < len(model_residues[model_chain]):
+                            print(f"    - Gap w targetcie, pomijam {model_chain}{model_residues[model_chain][model_idx].id[1]}")
+                            model_idx += 1
+                    elif m_char == '-':
+                        if target_idx < len(target_residue_list):
+                            print(f"    - Gap w modelu, pomijam {target_residue_list[target_idx][0]}{target_residue_list[target_idx][1].id[1]}")
+                            target_idx += 1
+
+                print(f"    Zmapowano {len(residue_mapping)} reszt w trybie połączonym")
+            else:
+                print(f"     Nie udało się wyrównać połączonych sekwencji")
+        except Exception as e:
+            print(f"     Błąd podczas alignowania połączonych sekwencji: {e}")
+            import traceback
+            traceback.print_exc()
+
+        return residue_mapping, missing_atoms_report
+
+    def create_residue_mapping(self, chain_mapping, target_residues, model_residues):
+        """Tworzy mapowanie reszt na podstawie mapowania łańcuchów."""
+        residue_mapping = {}
+        missing_atoms_report = []
+        
+        # Sprawdź czy mamy przypadek połączonego łańcucha
+        if len(chain_mapping) > 0:
+            model_chains_used = set(chain_mapping.values())
+            if len(model_chains_used) == 1 and len(chain_mapping) > 1:
+                # Model ma jeden łańcuch mapowany na wiele łańcuchów targetu
+                model_chain = list(model_chains_used)[0]
+                target_chains = list(chain_mapping.keys())
+                
+                # Utwórz sekwencje tylko dla zmapowanych łańcuchów targetu
+                target_sequences_for_mapping = {}
+                target_residues_for_mapping = {}
+                for target_chain in target_chains:
+                    if target_chain in target_residues:
+                        target_sequences_for_mapping[target_chain] = ''.join([r.resname.strip() for r in target_residues[target_chain]])
+                        target_residues_for_mapping[target_chain] = target_residues[target_chain]
+                
+                return self.create_residue_mapping_for_combined_chain(
+                    target_sequences_for_mapping, target_residues_for_mapping, 
+                    model_chain, model_residues
+                )
+        
+        # Normalne mapowanie łańcuchów
+        for target_chain, model_chain in chain_mapping.items():
+            if model_chain not in model_residues or target_chain not in target_residues:
+                print(f"  OSTRZEŻENIE: Brak danych dla {model_chain}->{target_chain}")
+                continue
+            
+            model_chain_residues = model_residues[model_chain]
+            target_chain_residues = target_residues[target_chain]
+            
+            # Sprawdź czy sekwencje się zgadzają
+            model_seq = ''.join([r.resname.strip() for r in model_chain_residues])
+            target_seq = ''.join([r.resname.strip() for r in target_chain_residues])
+            
+            print(f"  Mapowanie łańcucha {model_chain}->{target_chain}:")
+            print(f"    Target: {target_seq} (długość: {len(target_seq)}, reszty: {[r.id[1] for r in target_chain_residues]})")
+            print(f"    Model:  {model_seq} (długość: {len(model_seq)}, reszty: {[r.id[1] for r in model_chain_residues]})")
+            
+            if model_seq == target_seq:
+                # Sekwencje identyczne - mapuj jedna do jednej
+                min_len = min(len(model_chain_residues), len(target_chain_residues))
+                for i in range(min_len):
+                    model_res = model_chain_residues[i]
+                    target_res = target_chain_residues[i]
+                    
+                    # Sprawdź atomy
+                    missing_atoms = self.check_missing_atoms(target_res, model_res)
+                    if missing_atoms:
+                        missing_atoms_report.append({
+                            'model_chain': model_chain,
+                            'model_residue': model_res.id[1],
+                            'target_chain': target_chain,
+                            'target_residue': target_res.id[1],
+                            'missing_atoms': missing_atoms
+                        })
+                    
+                    # Dodaj mapowanie
+                    residue_mapping[(model_chain, model_res.id[1])] = (target_chain, target_res.id[1])
+                    print(f"    {model_chain}{model_res.id[1]} -> {target_chain}{target_res.id[1]}")
+                
+                if len(model_chain_residues) > min_len:
+                    print(f"    ! Pominięto {len(model_chain_residues) - min_len} reszt w modelu (za długie)")
+                if len(target_chain_residues) > min_len:
+                    print(f"    ! Pominięto {len(target_chain_residues) - min_len} reszt w targetcie (za długie)")
+                    
+            else:
+                # Sekwencje różne - użyj alignowania
+                print(f"    Sekwencje różne - używam alignowania")
+                try:
+                    alignments = self.aligner.align(target_seq, model_seq)
+                    if alignments:
+                        best_alignment = alignments[0]
+                        aligned_target, aligned_model = best_alignment[0], best_alignment[1]
+                        
+                        print(f"    Wyrównanie target: {aligned_target}")
+                        print(f"    Wyrównanie model:  {aligned_model}")
+                        
+                        # Mapowanie po alignmencie
+                        target_idx, model_idx = 0, 0
+                        mapped_count = 0
+                        for t_char, m_char in zip(aligned_target, aligned_model):
+                            if t_char != '-' and m_char != '-':
+                                # Mapuj te reszty
+                                if (target_idx < len(target_chain_residues) and 
+                                    model_idx < len(model_chain_residues)):
+                                    target_res = target_chain_residues[target_idx]
+                                    model_res = model_chain_residues[model_idx]
+                                    
+                                    # Sprawdź czy nukleotydy się zgadzają
+                                    if target_res.resname.strip() == model_res.resname.strip():
+                                        # Sprawdź atomy
+                                        missing_atoms = self.check_missing_atoms(target_res, model_res)
+                                        if missing_atoms:
+                                            missing_atoms_report.append({
+                                                'model_chain': model_chain,
+                                                'model_residue': model_res.id[1],
+                                                'target_chain': target_chain,
+                                                'target_residue': target_res.id[1],
+                                                'missing_atoms': missing_atoms
+                                            })
+                                        
+                                        # Dodaj mapowanie
+                                        residue_mapping[(model_chain, model_res.id[1])] = (target_chain, target_res.id[1])
+                                        print(f"    {model_chain}{model_res.id[1]} -> {target_chain}{target_res.id[1]} (po alignmencie)")
+                                        mapped_count += 1
+                                    else:
+                                        print(f"     Różne nukleotydy: {model_chain}{model_res.id[1]}({model_res.resname}) != {target_chain}{target_res.id[1]}({target_res.resname})")
+                                else:
+                                    print(f"    ! Indeks poza zakresem: target_idx={target_idx}, model_idx={model_idx}")
+                                
+                                target_idx += 1
+                                model_idx += 1
+                            elif t_char == '-':
+                                # Gap w targetcie - pomiń resztę w modelu
+                                if model_idx < len(model_chain_residues):
+                                    print(f"    - Gap w targetcie, pomijam {model_chain}{model_chain_residues[model_idx].id[1]}")
+                                    model_idx += 1
+                            elif m_char == '-':
+                                # Gap w modelu - pomiń resztę w targetcie
+                                if target_idx < len(target_chain_residues):
+                                    print(f"    - Gap w modelu, pomijam {target_chain}{target_chain_residues[target_idx].id[1]}")
+                                    target_idx += 1
+                        
+                        print(f"    Zmapowano {mapped_count} reszt po alignmencie")
+                    else:
+                        print(f"     Brak alignowania dla {target_chain} i {model_chain}")
+                except Exception as e:
+                    print(f"     Błąd podczas alignowania: {e}")
+                    import traceback
+                    traceback.print_exc()
+        
+        return residue_mapping, missing_atoms_report
+    
+    def check_missing_atoms(self, target_residue, model_residue):
+        """Sprawdza czy w modelu brakuje atomów które są w targetcie."""
+        missing_atoms = []
+        
+        # Lista atomów które powinny być w nukleotydzie RNA
+        expected_atoms = ['P', 'OP1', 'OP2', 'O5\'', 'C5\'', 'C4\'', 'O4\'', 'C3\'', 'O3\'', 'C2\'', 'O2\'', 'C1\'']
+        
+        # Dodaj atomy specyficzne dla bazy
+        base = target_residue.resname.strip()
+        if base == 'A':
+            expected_atoms.extend(['N9', 'C8', 'N7', 'C5', 'C6', 'N6', 'N1', 'C2', 'N3', 'C4'])
+        elif base == 'G':
+            expected_atoms.extend(['N9', 'C8', 'N7', 'C5', 'C6', 'O6', 'N1', 'C2', 'N2', 'N3', 'C4'])
+        elif base == 'C':
+            expected_atoms.extend(['N1', 'C2', 'O2', 'N3', 'C4', 'N4', 'C5', 'C6'])
+        elif base == 'U':
+            expected_atoms.extend(['N1', 'C2', 'O2', 'N3', 'C4', 'O4', 'C5', 'C6'])
+        
+        for atom_name in expected_atoms:
+            try:
+                target_residue[atom_name]  # Sprawdź czy atom istnieje w targetcie
+                try:
+                    model_residue[atom_name]  # Sprawdź czy atom istnieje w modelu
+                except KeyError:
+                    missing_atoms.append(atom_name)
+            except KeyError:
+                # Ten atom nie jest obecny w targetcie, więc nie ma co sprawdzać
+                pass
+        
+        return missing_atoms
+    
+    def calculate_rmsd_with_mapping(self, target_structure, model_structure, mapping):
+        """Oblicza RMSD używając mapowania."""
+        if len(mapping) < 3:
+            print("Za mało zmapowanych reszt do obliczenia RMSD (min. 3)")
+            return float('inf')
+        
+        target_atoms = []
+        model_atoms = []
+        
+        for model_full_id, target_full_id in mapping.items():
+            model_chain_id, model_res_id = model_full_id
+            target_chain_id, target_res_id = target_full_id
+            
+            # Znajdź atomy P w obu strukturach
+            model_atom = self.find_atom_object(model_structure, model_chain_id, model_res_id, 'P')
+            target_atom = self.find_atom_object(target_structure, target_chain_id, target_res_id, 'P')
+            
+            if model_atom is None or target_atom is None:
+                # Spróbuj z atomem C4'
+                model_atom = self.find_atom_object(model_structure, model_chain_id, model_res_id, 'C4\'')
+                target_atom = self.find_atom_object(target_structure, target_chain_id, target_res_id, 'C4\'')
+            
+            if model_atom is not None and target_atom is not None:
+                target_atoms.append(target_atom)
+                model_atoms.append(model_atom)
+        
+        if len(target_atoms) < 3:
+            print("Za mało atomów do obliczenia RMSD (min. 3)")
+            return float('inf')
+        
+        # Oblicz RMSD
+        from Bio.PDB import Superimposer
+        superimposer = Superimposer()
+        superimposer.set_atoms(target_atoms, model_atoms)
+        rmsd = superimposer.rms
+        
+        return rmsd
+    
+    def find_atom_object(self, structure, chain_id, res_id, atom_name):
+        """Znajduje obiekt Atom w strukturze."""
+        for model in structure:
+            for chain in model:
+                if chain.id == chain_id:
+                    for residue in chain:
+                        if residue.id[1] == res_id:
+                            try:
+                                return residue[atom_name]
+                            except KeyError:
+                                return None
+        return None
+
+    def get_target_chain_order(self, target_structure):
+        """Zwraca kolejność łańcuchów z targetu."""
+        chain_order = []
+        for model in target_structure:
+            for chain in model:
+                chain_order.append(chain.id)
+        return chain_order
+
+    def fix_pdb_file(self, input_pdb, output_pdb, mapping, target_chain_order, remove_extra_atoms=False):
+        """Naprawia plik PDB modelu, zmieniając łańcuchy, numery reszt i numerację atomów."""
+        print(f"Naprawianie pliku PDB: {input_pdb} -> {output_pdb}")
+        if remove_extra_atoms:
+            print("  Tryb: usuwanie nadmiarowych atomów i reszt WŁĄCZONY")
+        else:
+            print("  Tryb: ZACHOWYWANIE wszystkich atomów w zmapowanych resztach")
+        
+        # Odczytaj oryginalny plik PDB
+        with open(input_pdb, 'r') as f:
+            lines = f.readlines()
+        
+        # Znajdź indeksy first_atom_index i last_atom_index
+        first_atom_index = None
+        last_atom_index = None
+        for i, line in enumerate(lines):
+            if line.startswith(('ATOM', 'HETATM')):
+                if first_atom_index is None:
+                    first_atom_index = i
+                last_atom_index = i
+        
+        # Jeśli nie ma atomów, to zwróć oryginał
+        if first_atom_index is None:
+            with open(output_pdb, 'w') as f:
+                f.writelines(lines)
+            print("Brak atomów w pliku PDB.")
+            return 0, 0, 0
+        
+        # Linie przed atomami
+        before_atoms = lines[:first_atom_index]
+        # Linie po atomach
+        after_atoms = lines[last_atom_index+1:]
+        
+        # Przetwarzanie linii atomów
+        processed_atom_lines = []
+        
+        unmapped_count = 0
+        mapped_count = 0
+        removed_atoms_count = 0
+        removed_residues_count = 0
+        
+        current_residue = None
+        current_residue_has_mapping = False
+        
+        for i in range(first_atom_index, last_atom_index+1):
+            line = lines[i]
+            if line.startswith(('ATOM', 'HETATM')):
+                chain_id = line[21]
+                try:
+                    resid = int(line[22:26].strip())
+                except ValueError:
+                    # Jeśli nie można sparsować numeru reszty, pomiń
+                    unmapped_count += 1
+                    continue
+                
+                # Sprawdź czy zmieniła się reszta
+                if current_residue != (chain_id, resid):
+                    current_residue = (chain_id, resid)
+                    current_residue_has_mapping = (chain_id, resid) in mapping
+                    if not current_residue_has_mapping:
+                        removed_residues_count += 1
+                
+                if current_residue_has_mapping:
+                    # Reszta jest zmapowana - ZACHOWUJEMY WSZYSTKIE ATOMY
+                    new_chain, new_resid = mapping[(chain_id, resid)]
+                    
+                    # Bez usuwania atomów - dodaj wszystkie atomy zmapowanych reszt
+                    new_line = line[:21] + new_chain + line[22:]
+                    new_resid_str = str(new_resid).rjust(4)
+                    new_line = new_line[:22] + new_resid_str + new_line[26:]
+                    processed_atom_lines.append(new_line)
+                    mapped_count += 1
+                else:
+                    # Reszta nie jest zmapowana - pomiń
+                    unmapped_count += 1
+        
+        print(f"  Zmapowane atomy: {mapped_count}")
+        print(f"  Usunięte reszty: {removed_residues_count}")
+        print(f"  Niezmapowane atomy: {unmapped_count}")
+        
+        # Posortuj atomy: najpierw według kolejności łańcuchów w targetcie, potem według numeru reszty
+        atom_lines_dict = defaultdict(list)
+        
+        for line in processed_atom_lines:
+            chain_id = line[21]
+            try:
+                resid = int(line[22:26].strip())
+            except ValueError:
+                continue
+            atom_lines_dict[(chain_id, resid)].append(line)
+        
+        sorted_atom_lines = []
+        
+        # Łańcuchy w kolejności targetu
+        for chain_id in target_chain_order:
+            # Pobierz wszystkie reszty dla tego łańcucha
+            residues = [ (c, r) for (c, r) in atom_lines_dict.keys() if c == chain_id ]
+            residues.sort(key=lambda x: x[1])
+            for (c, r) in residues:
+                sorted_atom_lines.extend(atom_lines_dict[(c, r)])
+        
+        # Łańcuchy nieobecne w targetcie (powinny być rzadkie)
+        remaining_chains = set([c for (c, r) in atom_lines_dict.keys()]) - set(target_chain_order)
+        for chain_id in sorted(remaining_chains):  # sortujemy alfabetycznie
+            residues = [ (c, r) for (c, r) in atom_lines_dict.keys() if c == chain_id ]
+            residues.sort(key=lambda x: x[1])
+            for (c, r) in residues:
+                sorted_atom_lines.extend(atom_lines_dict[(c, r)])
+        
+        # NUMERUJ ATOMY OD 1 - NAPRAWIONA NUMERACJA
+        atom_num = 1
+        new_sorted_atom_lines = []
+        for line in sorted_atom_lines:
+            # Zamień numer atomu (kolumny 7-11) na nowy numer
+            # Format PDB: kolumny 7-11 to pozycje 6-10 (0-based indexing)
+            atom_num_str = str(atom_num).rjust(5)
+            new_line = line[:6] + atom_num_str + line[11:]
+            new_sorted_atom_lines.append(new_line)
+            atom_num += 1
+        
+        # Połącz wszystko
+        new_lines = before_atoms + new_sorted_atom_lines + after_atoms
+        
+        # Zapisz
+        with open(output_pdb, 'w') as f:
+            f.writelines(new_lines)
+        
+        changed_count = len(new_sorted_atom_lines)
+        print(f"Naprawiono {changed_count} atomów w pliku PDB (łańcuchy, reszty i numery atomów).")
+        return changed_count, 0, removed_residues_count  # removed_atoms_count zawsze 0
+    def create_trimmed_solution_pdb(self, target_pdb, output_solution_pdb, residue_mapping, model_structure=None):
+        """Tworzy przycięty plik solution zawierający tylko zmapowane reszty i atomy."""
+        print(f"Tworzenie przyciętego solution: {target_pdb} -> {output_solution_pdb}")
+        
+        # Wczytaj strukturę targetu
+        parser = PDBParser()
+        target_structure = parser.get_structure("target", target_pdb)
+        
+        # Odwróć mapowanie: (target_chain, target_resid) -> (model_chain, model_resid)
+        reverse_mapping = {v: k for k, v in residue_mapping.items()}
+        
+        # Zbierz wszystkie zmapowane reszty targetu
+        target_residues_to_keep = set(reverse_mapping.keys())
+        
+        # Odczytaj oryginalny plik target PDB
+        with open(target_pdb, 'r') as f:
+            lines = f.readlines()
+        
+        # Znajdź indeksy first_atom_index i last_atom_index
+        first_atom_index = None
+        last_atom_index = None
+        for i, line in enumerate(lines):
+            if line.startswith(('ATOM', 'HETATM')):
+                if first_atom_index is None:
+                    first_atom_index = i
+                last_atom_index = i
+        
+        # Jeśli nie ma atomów, to zwróć oryginał
+        if first_atom_index is None:
+            with open(output_solution_pdb, 'w') as f:
+                f.writelines(lines)
+            print("Brak atomów w pliku target PDB.")
+            return 0
+        
+        # Linie przed atomami
+        before_atoms = lines[:first_atom_index]
+        # Linie po atomach
+        after_atoms = lines[last_atom_index+1:]
+        
+        # Przetwarzanie linii atomów - zachowujemy tylko atomy które istnieją w modelu
+        processed_atom_lines = []
+        kept_residues = set()
+        
+        current_residue = None
+        current_residue_should_keep = False
+        current_model_residue = None
+        
+        for i in range(first_atom_index, last_atom_index+1):
+            line = lines[i]
+            if line.startswith(('ATOM', 'HETATM')):
+                chain_id = line[21]
+                try:
+                    resid = int(line[22:26].strip())
+                except ValueError:
+                    continue
+                
+                # Sprawdź czy zmieniła się reszta
+                if current_residue != (chain_id, resid):
+                    current_residue = (chain_id, resid)
+                    current_residue_should_keep = (chain_id, resid) in target_residues_to_keep
+                    
+                    # Znajdź odpowiadającą resztę w modelu
+                    current_model_residue = None
+                    if current_residue_should_keep:
+                        kept_residues.add(current_residue)
+                        # Znajdź modelową resztę poprzez reverse mapping
+                        if (chain_id, resid) in reverse_mapping:
+                            model_chain_id, model_res_id = reverse_mapping[(chain_id, resid)]
+                            if model_structure:
+                                # Znajdź resztę w modelu
+                                for model in model_structure:
+                                    if model_chain_id in model:
+                                        for res in model[model_chain_id]:
+                                            if res.id[1] == model_res_id:
+                                                current_model_residue = res
+                                                break
+                                    if current_model_residue:
+                                        break
+                
+                if current_residue_should_keep and current_model_residue:
+                    # Sprawdź czy ten atom istnieje w modelu
+                    atom_name = line[12:16].strip()
+                    
+                    # Sprawdź czy atom istnieje w modelowej reszcie
+                    atom_exists_in_model = False
+                    try:
+                        if current_model_residue[atom_name]:
+                            atom_exists_in_model = True
+                    except KeyError:
+                        atom_exists_in_model = False
+                    
+                    # Tylko zachowaj atomy które istnieją w modelu
+                    if atom_exists_in_model:
+                        processed_atom_lines.append(line)
+        
+        print(f"  Zachowane reszty w solution: {len(kept_residues)}")
+        print(f"  Zachowane atomy w solution: {len(processed_atom_lines)}")
+        
+        # NUMERUJ ATOMY OD 1
+        atom_num = 1
+        new_sorted_atom_lines = []
+        for line in processed_atom_lines:
+            atom_num_str = str(atom_num).rjust(5)
+            new_line = line[:6] + atom_num_str + line[11:]
+            new_sorted_atom_lines.append(new_line)
+            atom_num += 1
+        
+        # Połącz wszystko
+        new_lines = before_atoms + new_sorted_atom_lines + after_atoms
+        
+        # Zapisz
+        with open(output_solution_pdb, 'w') as f:
+            f.writelines(new_lines)
+        
+        changed_count = len(new_sorted_atom_lines)
+        print(f"Utworzono przycięty solution z {changed_count} atomami.")
+        return changed_count
+
+    def verify_fixed_pdb(self, target_pdb, fixed_pdb, residue_mapping):
+        """Sprawdza atomy w naprawionym pliku PDB względem targetu."""
+        print(f"\nWeryfikacja atomów w naprawionym pliku PDB...")
+        
+        # Wczytaj struktury
+        parser = PDBParser()
+        target_structure = parser.get_structure("target", target_pdb)
+        fixed_structure = parser.get_structure("fixed", fixed_pdb)
+        
+        # Odwróć mapowanie: (target_chain, target_resid) -> (model_chain, model_resid)
+        reverse_mapping = {v: k for k, v in residue_mapping.items()}
+        
+        atom_comparison_log = []
+        total_extra_atoms = 0
+        total_missing_atoms = 0
+        
+        for target_chain_id, target_res_id in reverse_mapping.keys():
+            # Znajdź resztę w targetcie
+            target_residue = None
+            for residue in target_structure[0][target_chain_id]:
+                if residue.id[1] == target_res_id:
+                    target_residue = residue
+                    break
+            
+            # Znajdź odpowiadającą resztę w naprawionym modelu
+            model_chain_id, model_res_id = reverse_mapping[(target_chain_id, target_res_id)]
+            fixed_residue = None
+            for residue in fixed_structure[0][target_chain_id]:
+                if residue.id[1] == model_res_id:
+                    fixed_residue = residue
+                    break
+            
+            if target_residue and fixed_residue:
+                # Zbierz atomy z targetu
+                target_atoms = set()
+                for atom in target_residue:
+                    target_atoms.add(atom.name)
+                
+                # Zbierz atomy z naprawionego modelu
+                fixed_atoms = set()
+                for atom in fixed_residue:
+                    fixed_atoms.add(atom.name)
+                
+                # Znajdź różnice
+                extra_atoms = fixed_atoms - target_atoms  # Atomy w modelu, których nie ma w targetcie
+                missing_atoms = target_atoms - fixed_atoms  # Atomy w targetcie, których nie ma w modelu
+                
+                if extra_atoms or missing_atoms:
+                    # Dodaj do logu
+                    for atom_name in sorted(extra_atoms):
+                        atom_comparison_log.append(f"+ ATOM {atom_name:>4} {fixed_residue.resname} {model_chain_id} {model_res_id:>3}")
+                        total_extra_atoms += 1
+                    
+                    for atom_name in sorted(missing_atoms):
+                        atom_comparison_log.append(f"- ATOM {atom_name:>4} {target_residue.resname} {target_chain_id} {target_res_id:>3}")
+                        total_missing_atoms += 1
+        
+        return atom_comparison_log, total_extra_atoms, total_missing_atoms
+
+    def count_rna_residues(self, structure):
+        """Liczy liczbę reszt RNA w strukturze."""
+        count = 0
+        for model in structure:
+            for chain in model:
+                for residue in chain:
+                    if residue.id[0] == ' ':  # tylko standardowe reszty
+                        resname = residue.resname.strip()
+                        if resname in ['A','C','G','U']:
+                            count += 1
+        return count
+
+    def process_all(self, target_file, model_file, output_pdb, remove_extra_atoms=False):
+        """Główna metoda przetwarzająca wszystko."""
+        print("Ładowanie struktur...")
+        parser = PDBParser()
+        target_structure = parser.get_structure("target", target_file)
+        model_structure = parser.get_structure("model", model_file)
+        
+        print("Ekstrakcja sekwencji i reszt...")
+        target_sequences, target_residues = self.extract_chain_sequences(target_structure)
+        model_sequences, model_residues = self.extract_chain_sequences(model_structure)
+        
+        target_rna_count = self.count_rna_residues(target_structure)
+        model_rna_count = self.count_rna_residues(model_structure)
+        
+        print(f"Target: {len(target_sequences)} łańcuchów, {target_rna_count} nukleotydów")
+        print(f"Model:  {len(model_sequences)} łańcuchów, {model_rna_count} nukleotydów")
+        
+        print("\nMapowanie łańcuchów...")
+        chain_mapping = self.find_chain_mapping(target_sequences, model_sequences)
+        
+        if not chain_mapping:
+            print("Nie znaleziono pasujących łańcuchów!")
+            return {}, [], float('inf'), 0, 0, 0, [], 0, 0, None
+        
+        print(f"\nMapowanie reszt i sprawdzanie atomów...")
+        residue_mapping, missing_atoms_report = self.create_residue_mapping(
+            chain_mapping, target_residues, model_residues
+        )
+        
+        print(f"Zmapowano {len(residue_mapping)} reszt")
+        
+        if missing_atoms_report:
+            print(f"\nZNALEZIONO BRAKUJĄCE ATOMY ({len(missing_atoms_report)} reszt):")
+            for report in missing_atoms_report:
+                print(f"  {report['model_chain']}{report['model_residue']} -> {report['target_chain']}{report['target_residue']}: brakuje {report['missing_atoms']}")
+        else:
+            print("\nWSZYSTKIE ATOMY ZGODNE!")
+        
+        # Oblicz RMSD
+        rmsd = self.calculate_rmsd_with_mapping(target_structure, model_structure, residue_mapping)
+        print(f"\nRMSD dla zmapowanych reszt: {rmsd:.3f} A")
+        
+        # Pobierz kolejność łańcuchów z targetu
+        target_chain_order = self.get_target_chain_order(target_structure)
+        print(f"Kolejność łańcuchów w targetcie: {target_chain_order}")
+        
+        # Napraw plik PDB modelu
+        changed_count, removed_atoms_count, removed_residues_count = self.fix_pdb_file(
+            model_file, output_pdb, residue_mapping, target_chain_order, remove_extra_atoms
+        )
+        
+        # WERYFIKUJ naprawiony plik PDB
+        atom_comparison_log, total_extra_atoms, total_missing_atoms = self.verify_fixed_pdb(
+            target_file, output_pdb, residue_mapping
+        )
+        
+        # ZMIANA: Twórz plik solution jeśli są brakujące atomy LUB brakujące reszty
+        solution_output = None
+        solution_count = 0
+        
+        # Sprawdź czy są brakujące reszty w modelu (czyli target ma więcej reszt RNA niż zmapowaliśmy)
+        missing_residues_in_model = (len(residue_mapping) < target_rna_count)
+        
+        # Twórz solution również gdy są brakujące atomy, nawet jeśli wszystkie reszty są zmapowane
+        should_create_solution = missing_residues_in_model or total_missing_atoms > 0
+        
+        if should_create_solution:
+            # Utwórz przycięty plik solution w tym samym folderze co output_pdb
+            model_basename = os.path.basename(model_file)
+            model_name = os.path.splitext(model_basename)[0]
+            # Usuń prefix PZ2_ z nazwy modelu jeśli istnieje
+            if model_name.startswith('PZ2_'):
+                model_suffix = model_name[4:]
+            else:
+                model_suffix = model_name
+            
+            # ZMIANA KLUCZOWA: Utwórz solution w tym samym folderze co output_pdb
+            output_dir = os.path.dirname(output_pdb)
+            solution_filename = f"solution_{model_suffix}.pdb"
+            
+            if output_dir:
+                solution_output = os.path.join(output_dir, solution_filename)
+            else:
+                solution_output = solution_filename
+            
+            # Utwórz katalog jeśli nie istnieje
+            if output_dir and not os.path.exists(output_dir):
+                os.makedirs(output_dir, exist_ok=True)
+            
+            solution_count = self.create_trimmed_solution_pdb(
+                target_file, solution_output, residue_mapping, model_structure
+            )
+            print(f"Utworzono plik solution z powodu BRAKUJĄCYCH atomów/reszt")
+            if missing_residues_in_model:
+                print(f"  Target ma {target_rna_count} reszt RNA, zmapowano tylko {len(residue_mapping)}")
+            if total_missing_atoms > 0:
+                print(f"  Znaleziono {total_missing_atoms} brakujących atomów")
+        else:
+            print("Brak BRAKUJĄCYCH atomów/reszt w modelu - plik solution nie został utworzony")
+            print(f"  Target ma {target_rna_count} reszt RNA, zmapowano {len(residue_mapping)}")
+            print(f"  Brakujące atomy: {total_missing_atoms}")
+        
+        return residue_mapping, missing_atoms_report, rmsd, changed_count, removed_atoms_count, removed_residues_count, atom_comparison_log, total_extra_atoms, total_missing_atoms, solution_output
+
+def main():
+    parser = argparse.ArgumentParser(description='Kompletne mapowanie struktur RNA i naprawa PDB w jednym skrypcie')
+    parser.add_argument('target_pdb', help='Ścieżka do pliku target PDB')
+    parser.add_argument('model_pdb', help='Ścieżka do pliku model PDB')
+    parser.add_argument('--output', 
+                       help='Nazwa pliku wyjściowego z naprawionym modelem (domyślnie: nazwa_modelu_refined.pdb)')
+    parser.add_argument('--output_mapping', default='complete_mapping.txt',
+                       help='Nazwa pliku wyjściowego z mapowaniem (domyślnie: complete_mapping.txt)')
+    parser.add_argument('--output_missing_atoms', default='missing_atoms.txt',
+                       help='Nazwa pliku z raportem brakujących atomów (domyślnie: missing_atoms.txt)')
+    parser.add_argument('--output_atom_comparison', default='atom_comparison.log',
+                       help='Nazwa pliku z logiem porównania atomów (domyślnie: atom_comparison.log)')
+    parser.add_argument('--remove_extra_atoms', action='store_true',
+                       help='Usuń nadmiarowe atomy i reszty (domyślnie: false - zachowaj wszystkie atomy)')
+    
+    args = parser.parse_args()
+    
+    # Sprawdź czy pliki istnieją
+    if not os.path.exists(args.target_pdb):
+        print(f"BŁĄD: Plik target '{args.target_pdb}' nie istnieje!")
+        sys.exit(1)
+    if not os.path.exists(args.model_pdb):
+        print(f"BŁĄD: Plik model '{args.model_pdb}' nie istnieje!")
+        sys.exit(1)
+    
+    # Jeśli output nie został podany, wygeneruj nazwę automatycznie
+    if args.output is None:
+        # Pobierz nazwę pliku modelu bez ścieżki i rozszerzenia
+        model_basename = os.path.basename(args.model_pdb)
+        model_name = os.path.splitext(model_basename)[0]
+        args.output = f"{model_name}_refined.pdb"
+    
+    print(f"=== KOMPLETNE MAPOWANIE STRUKTUR RNA I NAPRAWIANIE PDB ===")
+    print(f"Target: {args.target_pdb}")
+    print(f"Model:  {args.model_pdb}")
+    print(f"Output PDB: {args.output}")
+    print(f"Usuwanie nadmiarowych atomów: {'TAK' if args.remove_extra_atoms else 'NIE'}")
+    print()
+    
+    # Utwórz mapper
+    mapper = CompleteRNAMapper()
+    
+    # Wykonaj mapowanie i naprawę
+    result = mapper.process_all(
+        args.target_pdb, args.model_pdb, args.output, args.remove_extra_atoms
+    )
+    
+    # Rozpakuj wynik (teraz z 10 elementami zamiast 9)
+    mapping, missing_atoms, rmsd, changed_count, removed_atoms_count, removed_residues_count, atom_comparison_log, total_extra_atoms, total_missing_atoms, solution_output = result
+    
+    if not mapping:
+        print("BŁĄD: Nie udało się utworzyć mapowania!")
+        sys.exit(1)
+    
+    # Zapisz mapowanie
+    try:
+        with open(args.output_mapping, "w", encoding='utf-8') as f:
+            f.write("# Complete RNA Residue Mapping\n")
+            f.write("# Format: Model_Chain,Model_ResID -> Target_Chain,Target_ResID\n")
+            f.write(f"# Target: {args.target_pdb}\n")
+            f.write(f"# Model: {args.model_pdb}\n")
+            f.write(f"# RMSD: {rmsd:.3f} A\n")
+            f.write(f"# Number of mapped residues: {len(mapping)}\n")
+            f.write("# Generated by CompleteRNAMapper\n\n")
+            
+            for model_id, target_id in sorted(mapping.items()):
+                f.write(f"{model_id[0]},{model_id[1]} -> {target_id[0]},{target_id[1]}\n")
+        
+        print(f"Mapowanie zapisane do '{args.output_mapping}'")
+    except Exception as e:
+        print(f"BŁĄD przy zapisie mapowania: {e}")
+    
+    # Zapisz raport brakujących atomów
+    if missing_atoms:
+        try:
+            with open(args.output_missing_atoms, "w", encoding='utf-8') as f:
+                f.write("# Raport brakujących atomów\n")
+                f.write(f"# Target: {args.target_pdb}\n")
+                f.write(f"# Model: {args.model_pdb}\n")
+                f.write("# Format: Model_Chain,Model_ResID -> Target_Chain,Target_ResID: brakujące_atomy\n\n")
+                
+                for report in missing_atoms:
+                    f.write(f"{report['model_chain']},{report['model_residue']} -> {report['target_chain']},{report['target_residue']}: {','.join(report['missing_atoms'])}\n")
+            
+            print(f"Raport brakujących atomów zapisany do '{args.output_missing_atoms}'")
+        except Exception as e:
+            print(f"BŁĄD przy zapisie raportu atomów: {e}")
+    
+    # Zapisz log porównania atomów
+    if atom_comparison_log:
+        try:
+            with open(args.output_atom_comparison, "w", encoding='utf-8') as f:
+                f.write("# Log porównania atomów między naprawionym modelem a targetem\n")
+                f.write(f"# Target: {args.target_pdb}\n")
+                f.write(f"# Model: {args.output}\n")
+                f.write("# Format: [+/-] ATOM [nazwa_atomu] [reszta] [łańcuch] [numer_reszty]\n")
+                f.write("# '+' = atom nadmiarowy (w modelu, brak w targetcie)\n")
+                f.write("# '-' = atom brakujący (w targetcie, brak w modelu)\n\n")
+                
+                for line in atom_comparison_log:
+                    f.write(line + "\n")
+            
+            print(f"Log porównania atomów zapisany do '{args.output_atom_comparison}'")
+        except Exception as e:
+            print(f"BŁĄD przy zapisie logu atomów: {e}")
+    
+    # Wyświetl podsumowanie weryfikacji atomów
+    print(f"\n=== WERYFIKACJA ATOMÓW W NAPRAWIONYM PDB ===")
+    print(f"Atomy nadmiarowe (+): {total_extra_atoms}")
+    print(f"Atomy brakujące (-): {total_missing_atoms}")
+    
+    if atom_comparison_log:
+        print(f"\nSZCZEGÓŁOWE RÓŻNICE:")
+        # Usuń duplikaty
+        unique_comparison_log = list(dict.fromkeys(atom_comparison_log))
+        for line in unique_comparison_log:
+            print(f"  {line}")
+    
+    print(f"\n=== PODSUMOWANIE ===")
+    print(f"  Zmapowane reszty: {len(mapping)}")
+    print(f"  Zachowane atomy w PDB: {changed_count}")
+    print(f"  Usunięte atomy: {removed_atoms_count}")
+    print(f"  Usunięte reszty: {removed_residues_count}")
+    print(f"  Reszty z brakującymi atomami: {len(missing_atoms)}")
+    print(f"  Atomy nadmiarowe: {total_extra_atoms}")
+    print(f"  Atomy brakujące: {total_missing_atoms}")
+    print(f"  RMSD: {rmsd:.3f} A")
+    print(f"  Naprawiony model PDB: {args.output}")
+    
+    if solution_output:
+        print(f"  Przycięty solution PDB: {solution_output} (utworzony z powodu BRAKUJĄCYCH atomów/reszt)")
+    else:
+        print(f"  Przycięty solution PDB: nie utworzony (brak BRAKUJĄCYCH atomów/reszt)")
+
+if __name__ == "__main__":
+    main()

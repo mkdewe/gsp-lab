@@ -1,0 +1,9 @@
+# Log porównania atomów między naprawionym modelem a targetem
+# Target: D:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\PZ2\pdb\2_solution_0.pdb
+# Model: D:\Studia\Projekty\gsp-lab\data\processed\rnapuzzles.github.io\data\PZ2\pdb\PZ2_Major_1_refined.pdb
+# Format: [+/-] ATOM [nazwa_atomu] [reszta] [łańcuch] [numer_reszty]
+# '+' = atom nadmiarowy (w modelu, brak w targetcie)
+# '-' = atom brakujący (w targetcie, brak w modelu)
+
++ ATOM   N4 C A  47
+- ATOM   O4 U A  59

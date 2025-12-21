@@ -1,0 +1,474 @@
+# complete_rna_mapper_semantic.py
+"""
+CompleteRNAMapperSemantic
+
+- Semantic mapping (model residue -> target residue) by nearest-point assignment.
+- DOES NOT APPLY any geometric transform to model coordinates.
+- Writes:
+    - refined output (model atoms kept in original positions but re-labeled to target chain/resnum/resname)
+    - solution output (trimmed target with only residues that were mapped)
+- Compatible entry point: process_all(target_file, model_file, output_pdb, remove_extra_atoms=False)
+"""
+
+import os
+import math
+import numpy as np
+from collections import defaultdict
+from Bio.PDB import PDBParser
+from Bio.PDB.PDBExceptions import PDBConstructionWarning
+import warnings
+
+# suppress noisy warnings from Biopython PDB parser
+warnings.filterwarnings("ignore", category=PDBConstructionWarning)
+warnings.filterwarnings("ignore")
+
+try:
+    from scipy.optimize import linear_sum_assignment
+except Exception:
+    linear_sum_assignment = None
+
+
+class CompleteRNAMapperSemantic:
+    def __init__(self, preferred_atom_names=('P', "C4'")):
+        """
+        preferred_atom_names: tuple, which atom(s) to use as representative point for a nucleotide
+        """
+        self.preferred_atom_names = preferred_atom_names
+
+    # ------------------ I/O helpers ------------------
+    def load_structure(self, path, label=None):
+        parser = PDBParser(QUIET=True)
+        label = label or os.path.basename(path)
+        return parser.get_structure(label, path)
+
+    # ------------------ extract residue -> representative atom ------------------
+    def extract_residue_points(self, structure):
+        """
+        Returns:
+            keys: list of keys (chain_id, resid)
+            info: dict key -> {
+                'residue': residue_obj,
+                'coord': np.array([x,y,z]) of chosen atom,
+                'resname': 'A'/'G'/'C'/'U',
+                'atom_names': set([...])  # atom names present in residue
+            }
+
+        Only standard residues (residue.id[0] == ' ') with resname in A,C,G,U are considered.
+        """
+        info = {}
+        for model in structure:
+            for chain in model:
+                for residue in chain:
+                    if residue.id[0] != ' ':
+                        continue
+                    resname = residue.resname.strip()
+                    if resname not in ('A', 'C', 'G', 'U'):
+                        continue
+                    # find preferred atom
+                    atom_obj = None
+                    for a_name in self.preferred_atom_names:
+                        if a_name in residue:
+                            atom_obj = residue[a_name]
+                            break
+                    if atom_obj is None:
+                        # fallback: any heavy atom
+                        for a in residue:
+                            # Biopython Atom has .element (may be 'H' or 'C', etc.)
+                            try:
+                                el = a.element
+                            except Exception:
+                                el = None
+                            if el is None or el != 'H':
+                                atom_obj = a
+                                break
+                    if atom_obj is None:
+                        continue
+                    key = (chain.id, residue.id[1])
+                    atom_names = set(atom.get_name() for atom in residue)
+                    info[key] = {
+                        'residue': residue,
+                        'coord': np.array(atom_obj.get_coord()),
+                        'resname': resname,
+                        'atom_names': atom_names
+                    }
+        keys = list(info.keys())
+        return keys, info
+
+    # ------------------ semantic mapping (Hungarian on Euclidean distances) ------------------
+    def build_semantic_residue_mapping(self, target_structure, model_structure):
+        """
+        Find mapping model_residue_key -> target_residue_key by minimizing sum of distances
+        between representative points. NO transform applied.
+
+        Returns:
+            mapping: dict (model_chain, model_resid) -> (target_chain, target_resid)
+            stats: dict with counts
+        """
+        if linear_sum_assignment is None:
+            raise ImportError("scipy.optimize.linear_sum_assignment is required")
+
+        tgt_keys, tgt_info = self.extract_residue_points(target_structure)
+        mdl_keys, mdl_info = self.extract_residue_points(model_structure)
+
+        if not tgt_keys or not mdl_keys:
+            return {}, {'mapped_pairs': 0}
+
+        # assemble coordinate arrays
+        tgt_pts = np.vstack([tgt_info[k]['coord'] for k in tgt_keys])    # shape (n_t,3)
+        mdl_pts = np.vstack([mdl_info[k]['coord'] for k in mdl_keys])    # shape (n_m,3)
+
+        # cost matrix: n_t x n_m
+        cost = np.linalg.norm(tgt_pts[:, None, :] - mdl_pts[None, :, :], axis=2)
+
+        # Hungarian: returns arrays of indices
+        row_ind, col_ind = linear_sum_assignment(cost)
+
+        # Build mapping from model -> target for assigned pairs
+        mapping = {}
+        for r, c in zip(row_ind, col_ind):
+            # Only accept assignments within reasonable finite distance (we accept any finite)
+            # If you want a max cutoff, apply it here (e.g., if cost[r,c] > cutoff: skip)
+            mapping[mdl_keys[c]] = tgt_keys[r]
+
+        stats = {'mapped_pairs': len(mapping), 'n_target': len(tgt_keys), 'n_model': len(mdl_keys)}
+        return mapping, stats
+
+    # ------------------ apply semantic mapping to model (DO NOT CHANGE COORDS) ------------------
+    def apply_semantic_mapping(self, model_structure, residue_mapping, target_info, remove_extra_atoms=False):
+        """
+        Modify model semantics in-memory:
+         - For each mapped model residue: set chain id and residue number to target's
+           and set resname to target's resname.
+         - Remove model atoms not present in target residue atom set (if remove_extra_atoms True).
+        Important: We do NOT alter atom coordinates.
+        Returns:
+            missing_atoms_report: list of dicts for residues where model misses atoms present in target
+            extra_atoms_count: total number of atoms removed from model (if remove_extra_atoms True)
+            changed_count: number of residues updated
+        """
+        missing_atoms_report = []
+        extra_atoms_count = 0
+        changed_count = 0
+
+        # Build quick lookup: model_key -> (target_key)
+        map_m2t = residue_mapping
+
+        # Build mapping from model residue object identity to model_key (since chain objects keep original ids)
+        # We'll iterate over structure and treat residues by their original keys.
+        for model in model_structure:
+            for chain in model:
+                for residue in list(chain):
+                    if residue.id[0] != ' ':
+                        continue
+                    m_key = (chain.id, residue.id[1])
+                    if m_key not in map_m2t:
+                        continue
+                    t_key = map_m2t[m_key]
+                    # target_info contains resname and atom_names
+                    t_entry = target_info.get(t_key, None)
+                    if t_entry is None:
+                        continue
+                    target_resname = t_entry['resname']
+                    target_atom_names = t_entry['atom_names']
+
+                    # --- record missing atoms (present in target, absent in model) ---
+                    model_atom_names = set(atom.get_name() for atom in residue)
+                    missing = sorted(list(target_atom_names - model_atom_names))
+                    if missing:
+                        missing_atoms_report.append({
+                            'model_chain': m_key[0],
+                            'model_residue': m_key[1],
+                            'target_chain': t_key[0],
+                            'target_residue': t_key[1],
+                            'missing_atoms': missing
+                        })
+
+                    # --- optionally remove extra atoms in model that are not in target ---
+                    if remove_extra_atoms:
+                        for atom in list(residue):
+                            if atom.get_name() not in target_atom_names:
+                                # detach_child expects atom.id; some Biopython versions use atom.id == (' ', serial) or name?
+                                try:
+                                    residue.detach_child(atom.id)
+                                except Exception:
+                                    # fallback: try removing by name (less safe)
+                                    try:
+                                        residue.child_list.remove(atom)
+                                    except Exception:
+                                        pass
+                                extra_atoms_count += 1
+
+                    # --- Update residue name and (semantic) chain/residue numbering info ---
+                    # Biopython residue has attributes: residue.resname and residue.id -- id is a tuple (hetfield, resseq, icode)
+                    # We cannot directly change residue.id[1]; but to produce final file we will NOT rely on mutating these internals
+                    # Instead we will record mapping of model residue object -> target key for writing stage.
+                    # For clarity, count changed residues
+                    changed_count += 1
+
+        return missing_atoms_report, extra_atoms_count, changed_count
+
+    # ------------------ generate refined PDB (model coords unchanged but labeled like target) ------------------
+    def write_refined_pdb(self, model_structure, residue_mapping, target_info, output_path):
+        """
+        Write a PDB for the refined model:
+         - Coordinates exactly as in model_structure
+         - For each mapped model residue, write atoms with chain/resnum/resname taken from target_info
+         - For unmapped model residues, omit (or optionally keep with original semantics; here we omit)
+        Atom serial numbering is rebuilt sequentially.
+        """
+        # Build index for model residues by original key
+        model_index = {}
+        for model in model_structure:
+            for chain in model:
+                for res in chain:
+                    if res.id[0] != ' ':
+                        continue
+                    model_index[(chain.id, res.id[1])] = res
+
+        lines = []
+        atom_serial = 1
+        # header
+        lines.append(f"REMARK   Refined PDB produced by CompleteRNAMapperSemantic\n")
+        # iterate over mapping to preserve target order: group by target chain and sorted resnum
+        # We'll invert mapping to get target_key -> list of model_keys (usually one-to-one)
+        inv = defaultdict(list)
+        for m_key, t_key in residue_mapping.items():
+            inv[t_key].append(m_key)
+
+        # iterate target chains in sorted order
+        for t_chain in sorted({k[0] for k in inv.keys()}):
+            # get residues for this chain sorted by target residue number
+            t_resnums = sorted([t for t in inv.keys() if t[0] == t_chain], key=lambda x: x[1])
+            for t_key in t_resnums:
+                model_keys_for_target = inv[t_key]
+                # for each model residue mapped to this t_key (typically one)
+                # write all atoms in that model residue but label them with t_chain/t_resnum/resname (from target_info)
+                t_resnum = t_key[1]
+                t_resname = target_info[t_key]['resname'] if t_key in target_info else 'UNK'
+                for m_key in model_keys_for_target:
+                    if m_key not in model_index:
+                        continue
+                    res = model_index[m_key]
+                    for atom in res:
+                        # obtain atom data
+                        atom_name = atom.get_name()
+                        try:
+                            bfactor = atom.get_bfactor()
+                        except Exception:
+                            bfactor = 0.00
+                        try:
+                            occ = atom.get_occupancy()
+                        except Exception:
+                            occ = 1.00
+                        x, y, z = atom.get_coord().tolist()
+                        # Format PDB ATOM line - conservative fields
+                        # columns: 1-6 'ATOM  ', 7-11 serial, 13-16 name, 17 altLoc, 18-20 resName, 22 chainID, 23-26 resSeq
+                        atom_name_fmt = atom_name.rjust(4) if len(atom_name) < 4 else atom_name[:4]
+                        line = ("ATOM  {serial:5d} {name:4s} {resname:>3s} {chain:1s}{resnum:4d}    "
+                                "{x:8.3f}{y:8.3f}{z:8.3f}{occ:6.2f}{bf:6.2f}\n"
+                                ).format(serial=atom_serial, name=atom_name_fmt, resname=t_resname,
+                                         chain=t_chain, resnum=t_resnum, x=x, y=y, z=z, occ=occ, bf=bfactor)
+                        lines.append(line)
+                        atom_serial += 1
+        lines.append("END\n")
+        with open(output_path, 'w') as fh:
+            fh.writelines(lines)
+        return atom_serial - 1
+
+    # ------------------ generate solution PDB (trimmed target containing only mapped residues) ------------------
+    def write_solution_pdb(self, target_structure, model_structure, residue_mapping, output_path):
+        """
+        Write a solution PDB by *trimming the original target* so that it contains only
+        those atoms that are present in the *refined model* (after semantic mapping/cleanup).
+
+        Logic:
+        - Build a set of allowed triples (chain_id, resnum, atom_name) that appear in the
+            refined model when labeled with target chain/resnum (via residue_mapping).
+        - Iterate the original target structure and write only atoms whose (chain,resnum,atom_name)
+            belong to the allowed set.
+        This guarantees solution is a subset of the original target, trimmed to exactly the
+        atom-names that remain in the refined model (semantics = target, coords = target).
+        """
+        # Build allowed set from model_structure + residue_mapping:
+        # For each model residue m_key mapped to t_key, iterate atoms in that model residue,
+        # and consider the triple (t_chain, t_resnum, atom_name) as allowed.
+        allowed = set()
+        # Build index of model residues
+        model_index = {}
+        for model in model_structure:
+            for ch in model:
+                for res in ch:
+                    if res.id[0] != ' ':
+                        continue
+                    model_index[(ch.id, res.id[1])] = res
+
+        for m_key, t_key in residue_mapping.items():
+            # m_key: (model_chain, model_resnum)
+            # t_key: (target_chain, target_resnum)
+            if m_key not in model_index:
+                continue
+            res = model_index[m_key]
+            t_chain, t_resnum = t_key
+            for atom in res:
+                atom_name = atom.get_name()
+                allowed.add((t_chain, t_resnum, atom_name))
+
+        # Now iterate the original target and write only allowed atoms
+        # Build index of target residues for quick access (but we will iterate to preserve order)
+        lines = []
+        atom_serial = 1
+        lines.append("REMARK   Solution PDB (trimmed target residues by refined model atoms)\n")
+
+        for model in target_structure:
+            for chain in model:
+                for res in chain:
+                    if res.id[0] != ' ':
+                        continue
+                    t_chain = chain.id
+                    t_resnum = res.id[1]
+                    # For each atom in this target residue, check allowed set
+                    for atom in res:
+                        atom_name = atom.get_name()
+                        if (t_chain, t_resnum, atom_name) not in allowed:
+                            continue
+                        try:
+                            bfactor = atom.get_bfactor()
+                        except Exception:
+                            bfactor = 0.00
+                        try:
+                            occ = atom.get_occupancy()
+                        except Exception:
+                            occ = 1.00
+                        x, y, z = atom.get_coord().tolist()
+                        atom_name_fmt = atom_name.rjust(4) if len(atom_name) < 4 else atom_name[:4]
+                        line = ("ATOM  {serial:5d} {name:4s} {resname:>3s} {chain:1s}{resnum:4d}    "
+                                "{x:8.3f}{y:8.3f}{z:8.3f}{occ:6.2f}{bf:6.2f}\n"
+                                ).format(serial=atom_serial, name=atom_name_fmt, resname=res.resname,
+                                        chain=t_chain, resnum=t_resnum, x=x, y=y, z=z, occ=occ, bf=bfactor)
+                        lines.append(line)
+                        atom_serial += 1
+
+        lines.append("END\n")
+        with open(output_path, 'w') as fh:
+            fh.writelines(lines)
+
+        return atom_serial - 1
+
+
+    # ------------------ compute simple per-residue distance metric for mapped pairs --------------
+    def compute_mean_rep_distance(self, target_info, model_info, residue_mapping):
+        """
+        For each mapped pair, compute Euclidean distance between representative atoms (P/C4').
+        Return mean distance and list of distances.
+        """
+        dists = []
+        for m_key, t_key in residue_mapping.items():
+            m_entry = model_info.get(m_key)
+            t_entry = target_info.get(t_key)
+            if m_entry is None or t_entry is None:
+                continue
+            md = m_entry['coord']
+            td = t_entry['coord']
+            d = np.linalg.norm(md - td)
+            dists.append(d)
+        if not dists:
+            return float('inf'), []
+        return float(np.mean(dists)), dists
+
+    # ------------------ main compatible pipeline ------------------
+    def process_all(self, target_file, model_file, output_pdb, remove_extra_atoms=False):
+        """
+        Main entrypoint - compatible with previous signature.
+
+        Returns:
+            residue_mapping, missing_atoms_report, mean_dist, changed_count,
+            removed_atoms_count, removed_residues_count, atom_comparison_log,
+            total_extra_atoms, total_missing_atoms, solution_output
+        """
+        print("=== START semantic CompleteRNAMapper ===")
+        print(f" target: {target_file}")
+        print(f" model:  {model_file}")
+        print(f" output: {output_pdb}")
+        print(f" remove_extra_atoms: {remove_extra_atoms}")
+
+        try:
+            if linear_sum_assignment is None:
+                raise ImportError("scipy.optimize.linear_sum_assignment is required")
+
+            target_structure = self.load_structure(target_file, 'target')
+            model_structure = self.load_structure(model_file, 'model')
+
+            # extract info
+            tgt_keys, target_info = self.extract_residue_points(target_structure)
+            mdl_keys, model_info = self.extract_residue_points(model_structure)
+
+            # build mapping model->target WITHOUT transforming coords
+            residue_mapping, stats = self.build_semantic_residue_mapping(target_structure, model_structure)
+            mapped_pairs = stats.get('mapped_pairs', 0)
+            print(f"Mapped residue pairs: {mapped_pairs}  (target residues: {stats.get('n_target')}, model residues: {stats.get('n_model')})")
+
+            if mapped_pairs == 0:
+                print("No mapping found. Exiting.")
+                return {}, [], float('inf'), 0, 0, 0, [], 0, 0, None
+
+            # compute mean representative-point distance (not RMSD, but useful metric)
+            mean_dist, dlist = self.compute_mean_rep_distance(target_info, model_info, residue_mapping)
+            print(f"Mean representative-point distance for mapped pairs: {mean_dist:.3f} Å")
+
+            # apply semantic mapping -> we will not mutate residue ids for writing stage but we
+            # will optionally remove extra atoms in the model residues to match target atoms
+            missing_atoms_report, removed_atoms_count, changed_count = self.apply_semantic_mapping(
+                model_structure, residue_mapping, target_info, remove_extra_atoms=remove_extra_atoms
+            )
+
+            # write refined PDB (model coords unchanged, semantics from target)
+            # Create output file path for refined model:
+            refined_output = output_pdb
+            refined_atoms_written = self.write_refined_pdb(model_structure, residue_mapping, target_info, refined_output)
+            print(f"Wrote refined PDB: {refined_output}  (atoms written: {refined_atoms_written})")
+
+            # write solution PDB (trimmed target including only mapped residues; coords from target)
+            model_basename = os.path.basename(model_file)
+            model_name = os.path.splitext(model_basename)[0]
+            solution_filename = f"solution_{model_name}.pdb"
+            solution_output = os.path.join(os.path.dirname(output_pdb) or '.', solution_filename)
+            sol_atoms_written = self.write_solution_pdb(target_structure, model_structure, residue_mapping, solution_output)
+            print(f"Wrote solution PDB: {solution_output} (atoms written: {sol_atoms_written})")
+
+            # atom comparison log: list differences (extra atoms in model after cleanup and missing atoms)
+            atom_comparison_log = []
+            total_extra_atoms = removed_atoms_count
+            total_missing_atoms = len(missing_atoms_report)
+            for r in missing_atoms_report:
+                atom_comparison_log.append(f"- MISSING in model {r['target_chain']}{r['target_residue']}: {r['missing_atoms']} mapped from {r['model_chain']}{r['model_residue']}")
+
+            # counts for removed residues: those model residues not mapped (we omitted unmapped residues)
+            removed_residues_count = 0
+            # compute number of unmapped model residues
+            unmapped_model_res = len(mdl_keys) - len(residue_mapping)
+            removed_residues_count = unmapped_model_res
+
+            print("=== DONE: process_all (semantic) ===")
+            return residue_mapping, missing_atoms_report, mean_dist, changed_count, removed_atoms_count, removed_residues_count, atom_comparison_log, total_extra_atoms, total_missing_atoms, solution_output
+
+        except Exception as e:
+            print("=== ERROR in process_all ===")
+            import traceback
+            traceback.print_exc()
+            return {}, [], float('inf'), 0, 0, 0, [], 0, 0, None
+
+
+# If run as script: simple CLI
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="CompleteRNAMapperSemantic - semantic mapping without changing coords")
+    parser.add_argument("target_pdb")
+    parser.add_argument("model_pdb")
+    parser.add_argument("--output", "-o", required=True, help="Refined output PDB path (model semantics applied)")
+    parser.add_argument("--remove-extra-atoms", action="store_true", help="Remove model atoms not present in mapped target residues")
+    args = parser.parse_args()
+
+    mapper = CompleteRNAMapperSemantic()
+    res = mapper.process_all(args.target_pdb, args.model_pdb, args.output, remove_extra_atoms=args.remove_extra_atoms)
+    if res and res[9]:
+        print("Solution file:", res[9])

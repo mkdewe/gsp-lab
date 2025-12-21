@@ -1,0 +1,10 @@
+1. Rodzielanie na dodatkowe nici/scalanie nici
+2. Numerowanie ATOMów
+3. Numerowanie nukleotydów
+4. Usuwanie mutacji
+
+
+
+5. Usuwanie ATOMów
+*Nadmiarowy ATOM w cząstecze docelowej - najtrudniejszy przypadek bo wyrywa poza standard powodujac koniecznosc tworzenia speclialnie dodatkowego pliku docelowego
+- teoretycznie poprzez modyfikacje GSP można pomijać atomy które nie zostały odnalezione w jednym lub drugim pliku, co automatycznie rozwiaze nam oba problemy. 

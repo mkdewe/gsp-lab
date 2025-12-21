@@ -1,0 +1,83 @@
+# Log porównania atomów między naprawionym modelem a targetem
+# Target: d:\Studia\Projekty\gsp-lab\data\external\rnapuzzles.github.io\data\PZ2\pdb\2_solution_0.pdb
+# Model: PZ2_Chen_1_refined.pdb
+# Format: [+/-] ATOM [nazwa_atomu] [reszta] [łańcuch] [numer_reszty]
+# '+' = atom nadmiarowy (w modelu, brak w targetcie)
+# '-' = atom brakujący (w targetcie, brak w modelu)
+
++ ATOM   N4 C A  46
++ ATOM   O2 C A  46
+- ATOM   C8 G G  51
+- ATOM   N2 G G  51
+- ATOM   N7 G G  51
+- ATOM   N9 G G  51
+- ATOM   O6 G G  51
+- ATOM  OP1 G G  51
+- ATOM  OP2 G G  51
+- ATOM    P G G  51
++ ATOM   N4 C A  47
++ ATOM   O2 C A  47
+- ATOM   C8 G G  52
+- ATOM   N2 G G  52
+- ATOM   N7 G G  52
+- ATOM   N9 G G  52
+- ATOM   O6 G G  52
++ ATOM   N2 G A  48
++ ATOM   O6 G A  48
+- ATOM   N6 A G  53
++ ATOM   N2 G A  49
++ ATOM   O6 G A  49
+- ATOM   N6 A G  54
++ ATOM   C8 A A  50
++ ATOM   N6 A A  50
++ ATOM   N7 A A  50
++ ATOM   N9 A A  50
+- ATOM   N4 C G  55
+- ATOM   O2 C G  55
++ ATOM   C8 A A  53
++ ATOM   N6 A A  53
++ ATOM   N7 A A  53
++ ATOM   N9 A A  53
+- ATOM   N4 C G  58
+- ATOM   O2 C G  58
++ ATOM   C8 A A  54
++ ATOM   N6 A A  54
++ ATOM   N7 A A  54
++ ATOM   N9 A A  54
+- ATOM   O2 U G  59
+- ATOM   O4 U G  59
++ ATOM   N4 C A  55
++ ATOM   O2 C A  55
+- ATOM   C8 G G  60
+- ATOM   N2 G G  60
+- ATOM   N7 G G  60
+- ATOM   N9 G G  60
+- ATOM   O6 G G  60
++ ATOM   O4 U A  56
++ ATOM  OP1 U A  56
++ ATOM  OP2 U A  56
++ ATOM    P U A  56
+- ATOM   N4 C E  46
++ ATOM   C8 A A  57
++ ATOM   N6 A A  57
++ ATOM   N7 A A  57
++ ATOM   N9 A A  57
+- ATOM   N4 C E  47
+- ATOM   O2 C E  47
++ ATOM   N4 C A  58
++ ATOM   O2 C A  58
+- ATOM   C8 G E  48
+- ATOM   N2 G E  48
+- ATOM   N7 G E  48
+- ATOM   N9 G E  48
+- ATOM   O6 G E  48
++ ATOM   O2 U A  59
++ ATOM   O4 U A  59
+- ATOM   C8 G E  49
+- ATOM   N2 G E  49
+- ATOM   N7 G E  49
+- ATOM   N9 G E  49
+- ATOM   O6 G E  49
++ ATOM   N2 G A  60
++ ATOM   O6 G A  60
+- ATOM   N6 A E  50
