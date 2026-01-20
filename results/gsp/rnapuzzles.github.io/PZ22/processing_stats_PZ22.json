@@ -1,0 +1,7 @@
+{
+  "puzzle_set": "standardized_dataset/PZ22",
+  "total_models": 50,
+  "successful_models": 50,
+  "failed_models": [],
+  "success_rate": "100.00%"
+}

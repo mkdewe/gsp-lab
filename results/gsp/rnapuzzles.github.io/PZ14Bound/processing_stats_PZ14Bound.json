@@ -1,0 +1,7 @@
+{
+  "puzzle_set": "standardized_dataset/PZ14Bound",
+  "total_models": 61,
+  "successful_models": 61,
+  "failed_models": [],
+  "success_rate": "100.00%"
+}

@@ -1,0 +1,7 @@
+{
+  "puzzle_set": "standardized_dataset/PZ15reconstruct",
+  "total_models": 74,
+  "successful_models": 74,
+  "failed_models": [],
+  "success_rate": "100.00%"
+}

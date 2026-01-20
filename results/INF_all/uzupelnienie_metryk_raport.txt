@@ -1,0 +1,765 @@
+RAPORT UZUPEŁNIENIA METRYK RNA PUZZLES
+==================================================
+
+UWAGA: Skrypt NIE dodawał nowych rekordów, tylko uzupełniał brakujące wartości.
+Łącznie zaktualizowano: 0 brakujących wartości
+Łącznie bez dopasowania: 17303 wyników INF nie znalazło dopasowania
+
+BRAKUJĄCE MODELE W METRYKACH:
+(Modele te mają wyniki w plikach INF, ale nie istnieją w plikach metryk)
+----------------------------------------
+
+CR1107:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+CR1108:
+  INF_all.csv: 35 modeli
+  INF_wc.csv: 35 modeli
+  INF_nwc.csv: 35 modeli
+  INF_stacking.csv: 35 modeli
+  RMSD.csv: 35 modeli
+
+CR1116:
+  INF_all.csv: 32 modeli
+  INF_wc.csv: 32 modeli
+  INF_nwc.csv: 32 modeli
+  INF_stacking.csv: 32 modeli
+  RMSD.csv: 32 modeli
+
+CR1117:
+  INF_all.csv: 34 modeli
+  INF_wc.csv: 34 modeli
+  INF_nwc.csv: 34 modeli
+  INF_stacking.csv: 34 modeli
+  RMSD.csv: 34 modeli
+
+CR1126:
+  INF_all.csv: 32 modeli
+  INF_wc.csv: 32 modeli
+  INF_nwc.csv: 32 modeli
+  INF_stacking.csv: 32 modeli
+  RMSD.csv: 32 modeli
+
+CR1128:
+  INF_all.csv: 31 modeli
+  INF_wc.csv: 31 modeli
+  INF_nwc.csv: 31 modeli
+  INF_stacking.csv: 31 modeli
+  RMSD.csv: 31 modeli
+
+CR1136:
+  INF_all.csv: 34 modeli
+  INF_wc.csv: 34 modeli
+  INF_nwc.csv: 34 modeli
+  INF_stacking.csv: 34 modeli
+  RMSD.csv: 34 modeli
+
+CR1138:
+  INF_all.csv: 29 modeli
+  INF_wc.csv: 29 modeli
+  INF_nwc.csv: 29 modeli
+  INF_stacking.csv: 29 modeli
+  RMSD.csv: 29 modeli
+
+CR1149:
+  INF_all.csv: 30 modeli
+  INF_wc.csv: 30 modeli
+  INF_nwc.csv: 30 modeli
+  INF_stacking.csv: 30 modeli
+  RMSD.csv: 30 modeli
+
+CR1156:
+  INF_all.csv: 31 modeli
+  INF_wc.csv: 31 modeli
+  INF_nwc.csv: 31 modeli
+  INF_stacking.csv: 31 modeli
+  RMSD.csv: 31 modeli
+
+CR1189:
+  INF_all.csv: 30 modeli
+  INF_wc.csv: 30 modeli
+  INF_nwc.csv: 30 modeli
+  INF_stacking.csv: 30 modeli
+  RMSD.csv: 30 modeli
+
+CR1190:
+  INF_all.csv: 30 modeli
+  INF_wc.csv: 30 modeli
+  INF_nwc.csv: 30 modeli
+  INF_stacking.csv: 30 modeli
+  RMSD.csv: 30 modeli
+
+PZ1:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ10:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ10tBox:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ10tRNA:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ11:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ11NMR:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ12:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ14Bound:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ15:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ15noend:
+  INF_all.csv: 16 modeli
+  INF_wc.csv: 16 modeli
+  INF_nwc.csv: 16 modeli
+  INF_stacking.csv: 16 modeli
+  RMSD.csv: 16 modeli
+
+PZ15reconstruct:
+  INF_all.csv: 16 modeli
+  INF_wc.csv: 16 modeli
+  INF_nwc.csv: 16 modeli
+  INF_stacking.csv: 16 modeli
+  RMSD.csv: 16 modeli
+
+PZ16a:
+  INF_all.csv: 16 modeli
+  INF_wc.csv: 16 modeli
+  INF_nwc.csv: 16 modeli
+  INF_stacking.csv: 16 modeli
+  RMSD.csv: 16 modeli
+
+PZ16b:
+  INF_all.csv: 16 modeli
+  INF_wc.csv: 16 modeli
+  INF_nwc.csv: 16 modeli
+  INF_stacking.csv: 16 modeli
+  RMSD.csv: 16 modeli
+
+PZ19:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ20:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ21:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ23:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ25:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ26:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ26tBox:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ26tRNA:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ27:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ27tBox:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ27tRNA:
+  INF_all.csv: 11 modeli
+  INF_wc.csv: 11 modeli
+  INF_nwc.csv: 11 modeli
+  INF_stacking.csv: 11 modeli
+  RMSD.csv: 11 modeli
+
+PZ28:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ28tBox:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ28tRNA:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ3:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ30:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ31:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ32:
+  INF_all.csv: 12 modeli
+  INF_wc.csv: 12 modeli
+  INF_nwc.csv: 12 modeli
+  INF_stacking.csv: 12 modeli
+  RMSD.csv: 12 modeli
+
+PZ33:
+  INF_all.csv: 12 modeli
+  INF_wc.csv: 12 modeli
+  INF_nwc.csv: 12 modeli
+  INF_stacking.csv: 12 modeli
+  RMSD.csv: 12 modeli
+
+PZ36:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ37:
+  INF_all.csv: 13 modeli
+  INF_wc.csv: 13 modeli
+  INF_nwc.csv: 13 modeli
+  INF_stacking.csv: 13 modeli
+  RMSD.csv: 13 modeli
+
+PZ38:
+  INF_all.csv: 14 modeli
+  INF_wc.csv: 14 modeli
+  INF_nwc.csv: 14 modeli
+  INF_stacking.csv: 14 modeli
+  RMSD.csv: 14 modeli
+
+PZ39:
+  INF_all.csv: 14 modeli
+  INF_wc.csv: 14 modeli
+  INF_nwc.csv: 14 modeli
+  INF_stacking.csv: 14 modeli
+  RMSD.csv: 14 modeli
+
+PZ7:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ8:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+
+SZCZEGÓŁY DLA KAŻDEGO ZESTAWU:
+----------------------------------------
+
+Zestaw: CR1107
+------------------------------
+  INF_all.csv: 181 wpisów
+  INF_wc.csv: 181 wpisów
+  INF_nwc.csv: 181 wpisów
+  INF_stacking.csv: 181 wpisów
+  RMSD.csv: 181 wpisów
+
+Zestaw: CR1108
+------------------------------
+  INF_all.csv: 164 wpisów
+  INF_wc.csv: 164 wpisów
+  INF_nwc.csv: 164 wpisów
+  INF_stacking.csv: 164 wpisów
+  RMSD.csv: 164 wpisów
+
+Zestaw: CR1116
+------------------------------
+  INF_all.csv: 146 wpisów
+  INF_wc.csv: 146 wpisów
+  INF_nwc.csv: 146 wpisów
+  INF_stacking.csv: 146 wpisów
+  RMSD.csv: 146 wpisów
+
+Zestaw: CR1117
+------------------------------
+  INF_all.csv: 154 wpisów
+  INF_wc.csv: 154 wpisów
+  INF_nwc.csv: 154 wpisów
+  INF_stacking.csv: 154 wpisów
+  RMSD.csv: 154 wpisów
+
+Zestaw: CR1126
+------------------------------
+  INF_all.csv: 141 wpisów
+  INF_wc.csv: 141 wpisów
+  INF_nwc.csv: 141 wpisów
+  INF_stacking.csv: 141 wpisów
+  RMSD.csv: 141 wpisów
+
+Zestaw: CR1128
+------------------------------
+  INF_all.csv: 138 wpisów
+  INF_wc.csv: 138 wpisów
+  INF_nwc.csv: 138 wpisów
+  INF_stacking.csv: 138 wpisów
+  RMSD.csv: 138 wpisów
+
+Zestaw: CR1136
+------------------------------
+  INF_all.csv: 159 wpisów
+  INF_wc.csv: 159 wpisów
+  INF_nwc.csv: 159 wpisów
+  INF_stacking.csv: 159 wpisów
+  RMSD.csv: 159 wpisów
+
+Zestaw: CR1138
+------------------------------
+  INF_all.csv: 131 wpisów
+  INF_wc.csv: 131 wpisów
+  INF_nwc.csv: 131 wpisów
+  INF_stacking.csv: 131 wpisów
+  RMSD.csv: 131 wpisów
+
+Zestaw: CR1149
+------------------------------
+  INF_all.csv: 139 wpisów
+  INF_wc.csv: 139 wpisów
+  INF_nwc.csv: 139 wpisów
+  INF_stacking.csv: 139 wpisów
+  RMSD.csv: 139 wpisów
+
+Zestaw: CR1156
+------------------------------
+  INF_all.csv: 146 wpisów
+  INF_wc.csv: 146 wpisów
+  INF_nwc.csv: 146 wpisów
+  INF_stacking.csv: 146 wpisów
+  RMSD.csv: 146 wpisów
+
+Zestaw: CR1189
+------------------------------
+  INF_all.csv: 137 wpisów
+  INF_wc.csv: 137 wpisów
+  INF_nwc.csv: 137 wpisów
+  INF_stacking.csv: 137 wpisów
+  RMSD.csv: 137 wpisów
+
+Zestaw: CR1190
+------------------------------
+  INF_all.csv: 133 wpisów
+  INF_wc.csv: 133 wpisów
+  INF_nwc.csv: 133 wpisów
+  INF_stacking.csv: 133 wpisów
+  RMSD.csv: 133 wpisów
+
+Zestaw: PZ1
+------------------------------
+  INF_all.csv: 15 wpisów
+  INF_wc.csv: 15 wpisów
+  INF_nwc.csv: 15 wpisów
+  INF_stacking.csv: 15 wpisów
+  RMSD.csv: 15 wpisów
+
+Zestaw: PZ10
+------------------------------
+  INF_all.csv: 27 wpisów
+  INF_wc.csv: 27 wpisów
+  INF_nwc.csv: 27 wpisów
+  INF_stacking.csv: 27 wpisów
+  RMSD.csv: 27 wpisów
+
+Zestaw: PZ10tBox
+------------------------------
+  INF_all.csv: 27 wpisów
+  INF_wc.csv: 27 wpisów
+  INF_nwc.csv: 27 wpisów
+  INF_stacking.csv: 27 wpisów
+  RMSD.csv: 27 wpisów
+
+Zestaw: PZ10tRNA
+------------------------------
+  INF_all.csv: 27 wpisów
+  INF_wc.csv: 27 wpisów
+  INF_nwc.csv: 27 wpisów
+  INF_stacking.csv: 27 wpisów
+  RMSD.csv: 27 wpisów
+
+Zestaw: PZ11
+------------------------------
+  INF_all.csv: 55 wpisów
+  INF_wc.csv: 55 wpisów
+  INF_nwc.csv: 55 wpisów
+  INF_stacking.csv: 55 wpisów
+  RMSD.csv: 55 wpisów
+
+Zestaw: PZ11NMR
+------------------------------
+  INF_all.csv: 54 wpisów
+  INF_wc.csv: 54 wpisów
+  INF_nwc.csv: 54 wpisów
+  INF_stacking.csv: 54 wpisów
+  RMSD.csv: 54 wpisów
+
+Zestaw: PZ12
+------------------------------
+  INF_all.csv: 52 wpisów
+  INF_wc.csv: 52 wpisów
+  INF_nwc.csv: 52 wpisów
+  INF_stacking.csv: 52 wpisów
+  RMSD.csv: 52 wpisów
+
+Zestaw: PZ14Bound
+------------------------------
+  INF_all.csv: 65 wpisów
+  INF_wc.csv: 65 wpisów
+  INF_nwc.csv: 65 wpisów
+  INF_stacking.csv: 65 wpisów
+  RMSD.csv: 65 wpisów
+
+Zestaw: PZ15
+------------------------------
+  INF_all.csv: 75 wpisów
+  INF_wc.csv: 75 wpisów
+  INF_nwc.csv: 75 wpisów
+  INF_stacking.csv: 75 wpisów
+  RMSD.csv: 75 wpisów
+
+Zestaw: PZ15noend
+------------------------------
+  INF_all.csv: 75 wpisów
+  INF_wc.csv: 75 wpisów
+  INF_nwc.csv: 75 wpisów
+  INF_stacking.csv: 75 wpisów
+  RMSD.csv: 75 wpisów
+
+Zestaw: PZ15reconstruct
+------------------------------
+  INF_all.csv: 75 wpisów
+  INF_wc.csv: 75 wpisów
+  INF_nwc.csv: 75 wpisów
+  INF_stacking.csv: 75 wpisów
+  RMSD.csv: 75 wpisów
+
+Zestaw: PZ16a
+------------------------------
+  INF_all.csv: 84 wpisów
+  INF_wc.csv: 84 wpisów
+  INF_nwc.csv: 84 wpisów
+  INF_stacking.csv: 84 wpisów
+  RMSD.csv: 84 wpisów
+
+Zestaw: PZ16b
+------------------------------
+  INF_all.csv: 93 wpisów
+  INF_wc.csv: 93 wpisów
+  INF_nwc.csv: 93 wpisów
+  INF_stacking.csv: 93 wpisów
+  RMSD.csv: 93 wpisów
+
+Zestaw: PZ19
+------------------------------
+  INF_all.csv: 60 wpisów
+  INF_wc.csv: 60 wpisów
+  INF_nwc.csv: 60 wpisów
+  INF_stacking.csv: 60 wpisów
+  RMSD.csv: 60 wpisów
+
+Zestaw: PZ20
+------------------------------
+  INF_all.csv: 56 wpisów
+  INF_wc.csv: 56 wpisów
+  INF_nwc.csv: 56 wpisów
+  INF_stacking.csv: 56 wpisów
+  RMSD.csv: 56 wpisów
+
+Zestaw: PZ21
+------------------------------
+  INF_all.csv: 60 wpisów
+  INF_wc.csv: 60 wpisów
+  INF_nwc.csv: 60 wpisów
+  INF_stacking.csv: 60 wpisów
+  RMSD.csv: 60 wpisów
+
+Zestaw: PZ23
+------------------------------
+  INF_all.csv: 36 wpisów
+  INF_wc.csv: 36 wpisów
+  INF_nwc.csv: 36 wpisów
+  INF_stacking.csv: 36 wpisów
+  RMSD.csv: 36 wpisów
+
+Zestaw: PZ25
+------------------------------
+  INF_all.csv: 48 wpisów
+  INF_wc.csv: 48 wpisów
+  INF_nwc.csv: 48 wpisów
+  INF_stacking.csv: 48 wpisów
+  RMSD.csv: 48 wpisów
+
+Zestaw: PZ26
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ26tBox
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ26tRNA
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ27
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ27tBox
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ27tRNA
+------------------------------
+  INF_all.csv: 68 wpisów
+  INF_wc.csv: 68 wpisów
+  INF_nwc.csv: 68 wpisów
+  INF_stacking.csv: 68 wpisów
+  RMSD.csv: 68 wpisów
+
+Zestaw: PZ28
+------------------------------
+  INF_all.csv: 73 wpisów
+  INF_wc.csv: 73 wpisów
+  INF_nwc.csv: 73 wpisów
+  INF_stacking.csv: 73 wpisów
+  RMSD.csv: 73 wpisów
+
+Zestaw: PZ28tBox
+------------------------------
+  INF_all.csv: 73 wpisów
+  INF_wc.csv: 73 wpisów
+  INF_nwc.csv: 73 wpisów
+  INF_stacking.csv: 73 wpisów
+  RMSD.csv: 73 wpisów
+
+Zestaw: PZ28tRNA
+------------------------------
+  INF_all.csv: 73 wpisów
+  INF_wc.csv: 73 wpisów
+  INF_nwc.csv: 73 wpisów
+  INF_stacking.csv: 73 wpisów
+  RMSD.csv: 73 wpisów
+
+Zestaw: PZ3
+------------------------------
+  INF_all.csv: 13 wpisów
+  INF_wc.csv: 13 wpisów
+  INF_nwc.csv: 13 wpisów
+  INF_stacking.csv: 13 wpisów
+  RMSD.csv: 13 wpisów
+
+Zestaw: PZ30
+------------------------------
+  INF_all.csv: 35 wpisów
+  INF_wc.csv: 35 wpisów
+  INF_nwc.csv: 35 wpisów
+  INF_stacking.csv: 35 wpisów
+  RMSD.csv: 35 wpisów
+
+Zestaw: PZ31
+------------------------------
+  INF_all.csv: 73 wpisów
+  INF_wc.csv: 73 wpisów
+  INF_nwc.csv: 73 wpisów
+  INF_stacking.csv: 73 wpisów
+  RMSD.csv: 73 wpisów
+
+Zestaw: PZ32
+------------------------------
+  INF_all.csv: 107 wpisów
+  INF_wc.csv: 107 wpisów
+  INF_nwc.csv: 107 wpisów
+  INF_stacking.csv: 107 wpisów
+  RMSD.csv: 107 wpisów
+
+Zestaw: PZ33
+------------------------------
+  INF_all.csv: 101 wpisów
+  INF_wc.csv: 101 wpisów
+  INF_nwc.csv: 101 wpisów
+  INF_stacking.csv: 101 wpisów
+  RMSD.csv: 101 wpisów
+
+Zestaw: PZ36
+------------------------------
+  INF_all.csv: 34 wpisów
+  INF_wc.csv: 34 wpisów
+  INF_nwc.csv: 34 wpisów
+  INF_stacking.csv: 34 wpisów
+  RMSD.csv: 34 wpisów
+
+Zestaw: PZ37
+------------------------------
+  INF_all.csv: 86 wpisów
+  INF_wc.csv: 86 wpisów
+  INF_nwc.csv: 86 wpisów
+  INF_stacking.csv: 86 wpisów
+  RMSD.csv: 86 wpisów
+
+Zestaw: PZ38
+------------------------------
+  INF_all.csv: 75 wpisów
+  INF_wc.csv: 75 wpisów
+  INF_nwc.csv: 75 wpisów
+  INF_stacking.csv: 75 wpisów
+  RMSD.csv: 75 wpisów
+
+Zestaw: PZ39
+------------------------------
+  INF_all.csv: 106 wpisów
+  INF_wc.csv: 106 wpisów
+  INF_nwc.csv: 106 wpisów
+  INF_stacking.csv: 106 wpisów
+  RMSD.csv: 106 wpisów
+
+Zestaw: PZ7
+------------------------------
+  INF_all.csv: 53 wpisów
+  INF_wc.csv: 53 wpisów
+  INF_nwc.csv: 53 wpisów
+  INF_stacking.csv: 53 wpisów
+  RMSD.csv: 53 wpisów
+
+Zestaw: PZ8
+------------------------------
+  INF_all.csv: 43 wpisów
+  INF_wc.csv: 43 wpisów
+  INF_nwc.csv: 43 wpisów
+  INF_stacking.csv: 43 wpisów
+  RMSD.csv: 43 wpisów
+
