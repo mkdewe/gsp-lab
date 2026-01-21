@@ -1,0 +1,141 @@
+========================================================================================================================
+ŁĄCZNA ANALIZA DANYCH DLA 65 TARGETÓW
+========================================================================================================================
+
+📊 STATYSTYKI OGÓLNE:
+   Targety z danymi gGSP: 65/65
+   Łączna liczba modeli gGSP: 4841
+
+================================================================================
+ANALIZA METRYKI: RMSD
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU RMSD.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: DI_all
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU DI_all.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: INF_all
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU INF_all.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: INF_wc
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU INF_wc.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: INF_stacking
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU INF_stacking.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: INF_nwc
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU INF_nwc.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: Clash_Score
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU Clash_Score.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: P-value
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU P-value.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: mcq
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU mcq.csv LUB BŁĘDNY ODCZYT:
+
+================================================================================
+ANALIZA METRYKI: TM-score
+================================================================================
+
+📈 PODSUMOWANIE:
+   Targety z kompletem danych: 0/65
+   Targety z częściowymi danymi: 0/65
+   Targety bez pliku/pełnych danych: 65/65
+   Łączna liczba brakujących modeli (sumarycznie): 4841
+
+📁 TARGETY BEZ PLIKU TM-score.csv LUB BŁĘDNY ODCZYT:
+
+========================================================================================================================
+PODSUMOWANIE Z PLIKU correlations.csv
+========================================================================================================================
+✅ RMSD: 65 targetów, Spearman=0.713, Pearson=0.702, avg_coverage=0.000
+✅ DI_all: 65 targetów, Spearman=0.769, Pearson=0.684, avg_coverage=0.000
+✅ INF_all: 65 targetów, Spearman=0.613, Pearson=0.583, avg_coverage=0.000
+⚠️ INF_wc: 59 targetów, Spearman=0.507, Pearson=0.530, avg_coverage=0.000
+✅ INF_stacking: 65 targetów, Spearman=0.569, Pearson=0.560, avg_coverage=0.000
+⚠️ INF_nwc: 50 targetów, Spearman=0.096, Pearson=0.156, avg_coverage=0.000
+✅ Clash_Score: 65 targetów, Spearman=0.148, Pearson=0.219, avg_coverage=0.000
+✅ P-value: 65 targetów, Spearman=0.667, Pearson=0.384, avg_coverage=0.000
+✅ mcq: 65 targetów, Spearman=0.382, Pearson=0.354, avg_coverage=0.000
+✅ TM-score: 65 targetów, Spearman=0.594, Pearson=0.638, avg_coverage=0.000
