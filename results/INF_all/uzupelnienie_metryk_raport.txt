@@ -3,7 +3,7 @@ RAPORT UZUPEŁNIENIA METRYK RNA PUZZLES
 
 UWAGA: Skrypt NIE dodawał nowych rekordów, tylko uzupełniał brakujące wartości.
 Łącznie zaktualizowano: 0 brakujących wartości
-Łącznie bez dopasowania: 17303 wyników INF nie znalazło dopasowania
+Łącznie bez dopasowania: 20748 wyników INF nie znalazło dopasowania
 
 BRAKUJĄCE MODELE W METRYKACH:
 (Modele te mają wyniki w plikach INF, ale nie istnieją w plikach metryk)
@@ -142,7 +142,21 @@ PZ12:
   INF_stacking.csv: 1 modeli
   RMSD.csv: 1 modeli
 
+PZ13:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
 PZ14Bound:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ14Free:
   INF_all.csv: 1 modeli
   INF_wc.csv: 1 modeli
   INF_nwc.csv: 1 modeli
@@ -184,7 +198,28 @@ PZ16b:
   INF_stacking.csv: 16 modeli
   RMSD.csv: 16 modeli
 
+PZ17:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ18:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
 PZ19:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ2:
   INF_all.csv: 1 modeli
   INF_wc.csv: 1 modeli
   INF_nwc.csv: 1 modeli
@@ -205,12 +240,33 @@ PZ21:
   INF_stacking.csv: 1 modeli
   RMSD.csv: 1 modeli
 
+PZ22:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
+PZ22Dimer:
+  INF_all.csv: 9 modeli
+  INF_wc.csv: 9 modeli
+  INF_nwc.csv: 9 modeli
+  INF_stacking.csv: 9 modeli
+  RMSD.csv: 9 modeli
+
 PZ23:
   INF_all.csv: 10 modeli
   INF_wc.csv: 10 modeli
   INF_nwc.csv: 10 modeli
   INF_stacking.csv: 10 modeli
   RMSD.csv: 10 modeli
+
+PZ24:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
 
 PZ25:
   INF_all.csv: 11 modeli
@@ -282,6 +338,13 @@ PZ28tRNA:
   INF_stacking.csv: 1 modeli
   RMSD.csv: 1 modeli
 
+PZ29:
+  INF_all.csv: 10 modeli
+  INF_wc.csv: 10 modeli
+  INF_nwc.csv: 10 modeli
+  INF_stacking.csv: 10 modeli
+  RMSD.csv: 10 modeli
+
 PZ3:
   INF_all.csv: 1 modeli
   INF_wc.csv: 1 modeli
@@ -317,6 +380,20 @@ PZ33:
   INF_stacking.csv: 12 modeli
   RMSD.csv: 12 modeli
 
+PZ34:
+  INF_all.csv: 12 modeli
+  INF_wc.csv: 12 modeli
+  INF_nwc.csv: 12 modeli
+  INF_stacking.csv: 12 modeli
+  RMSD.csv: 12 modeli
+
+PZ35:
+  INF_all.csv: 19 modeli
+  INF_wc.csv: 19 modeli
+  INF_nwc.csv: 19 modeli
+  INF_stacking.csv: 19 modeli
+  RMSD.csv: 19 modeli
+
 PZ36:
   INF_all.csv: 10 modeli
   INF_wc.csv: 10 modeli
@@ -344,6 +421,27 @@ PZ39:
   INF_nwc.csv: 14 modeli
   INF_stacking.csv: 14 modeli
   RMSD.csv: 14 modeli
+
+PZ4:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ5:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
+
+PZ6:
+  INF_all.csv: 1 modeli
+  INF_wc.csv: 1 modeli
+  INF_nwc.csv: 1 modeli
+  INF_stacking.csv: 1 modeli
+  RMSD.csv: 1 modeli
 
 PZ7:
   INF_all.csv: 1 modeli
@@ -515,6 +613,14 @@ Zestaw: PZ12
   INF_stacking.csv: 52 wpisów
   RMSD.csv: 52 wpisów
 
+Zestaw: PZ13
+------------------------------
+  INF_all.csv: 56 wpisów
+  INF_wc.csv: 56 wpisów
+  INF_nwc.csv: 56 wpisów
+  INF_stacking.csv: 56 wpisów
+  RMSD.csv: 56 wpisów
+
 Zestaw: PZ14Bound
 ------------------------------
   INF_all.csv: 65 wpisów
@@ -522,6 +628,14 @@ Zestaw: PZ14Bound
   INF_nwc.csv: 65 wpisów
   INF_stacking.csv: 65 wpisów
   RMSD.csv: 65 wpisów
+
+Zestaw: PZ14Free
+------------------------------
+  INF_all.csv: 53 wpisów
+  INF_wc.csv: 53 wpisów
+  INF_nwc.csv: 53 wpisów
+  INF_stacking.csv: 53 wpisów
+  RMSD.csv: 53 wpisów
 
 Zestaw: PZ15
 ------------------------------
@@ -563,6 +677,22 @@ Zestaw: PZ16b
   INF_stacking.csv: 93 wpisów
   RMSD.csv: 93 wpisów
 
+Zestaw: PZ17
+------------------------------
+  INF_all.csv: 108 wpisów
+  INF_wc.csv: 108 wpisów
+  INF_nwc.csv: 108 wpisów
+  INF_stacking.csv: 108 wpisów
+  RMSD.csv: 108 wpisów
+
+Zestaw: PZ18
+------------------------------
+  INF_all.csv: 63 wpisów
+  INF_wc.csv: 63 wpisów
+  INF_nwc.csv: 63 wpisów
+  INF_stacking.csv: 63 wpisów
+  RMSD.csv: 63 wpisów
+
 Zestaw: PZ19
 ------------------------------
   INF_all.csv: 60 wpisów
@@ -570,6 +700,14 @@ Zestaw: PZ19
   INF_nwc.csv: 60 wpisów
   INF_stacking.csv: 60 wpisów
   RMSD.csv: 60 wpisów
+
+Zestaw: PZ2
+------------------------------
+  INF_all.csv: 14 wpisów
+  INF_wc.csv: 14 wpisów
+  INF_nwc.csv: 14 wpisów
+  INF_stacking.csv: 14 wpisów
+  RMSD.csv: 14 wpisów
 
 Zestaw: PZ20
 ------------------------------
@@ -587,6 +725,22 @@ Zestaw: PZ21
   INF_stacking.csv: 60 wpisów
   RMSD.csv: 60 wpisów
 
+Zestaw: PZ22
+------------------------------
+  INF_all.csv: 46 wpisów
+  INF_wc.csv: 46 wpisów
+  INF_nwc.csv: 46 wpisów
+  INF_stacking.csv: 46 wpisów
+  RMSD.csv: 46 wpisów
+
+Zestaw: PZ22Dimer
+------------------------------
+  INF_all.csv: 41 wpisów
+  INF_wc.csv: 41 wpisów
+  INF_nwc.csv: 41 wpisów
+  INF_stacking.csv: 41 wpisów
+  RMSD.csv: 41 wpisów
+
 Zestaw: PZ23
 ------------------------------
   INF_all.csv: 36 wpisów
@@ -594,6 +748,14 @@ Zestaw: PZ23
   INF_nwc.csv: 36 wpisów
   INF_stacking.csv: 36 wpisów
   RMSD.csv: 36 wpisów
+
+Zestaw: PZ24
+------------------------------
+  INF_all.csv: 91 wpisów
+  INF_wc.csv: 91 wpisów
+  INF_nwc.csv: 91 wpisów
+  INF_stacking.csv: 91 wpisów
+  RMSD.csv: 91 wpisów
 
 Zestaw: PZ25
 ------------------------------
@@ -675,6 +837,14 @@ Zestaw: PZ28tRNA
   INF_stacking.csv: 73 wpisów
   RMSD.csv: 73 wpisów
 
+Zestaw: PZ29
+------------------------------
+  INF_all.csv: 37 wpisów
+  INF_wc.csv: 37 wpisów
+  INF_nwc.csv: 37 wpisów
+  INF_stacking.csv: 37 wpisów
+  RMSD.csv: 37 wpisów
+
 Zestaw: PZ3
 ------------------------------
   INF_all.csv: 13 wpisów
@@ -715,6 +885,22 @@ Zestaw: PZ33
   INF_stacking.csv: 101 wpisów
   RMSD.csv: 101 wpisów
 
+Zestaw: PZ34
+------------------------------
+  INF_all.csv: 102 wpisów
+  INF_wc.csv: 102 wpisów
+  INF_nwc.csv: 102 wpisów
+  INF_stacking.csv: 102 wpisów
+  RMSD.csv: 102 wpisów
+
+Zestaw: PZ35
+------------------------------
+  INF_all.csv: 52 wpisów
+  INF_wc.csv: 52 wpisów
+  INF_nwc.csv: 52 wpisów
+  INF_stacking.csv: 52 wpisów
+  RMSD.csv: 52 wpisów
+
 Zestaw: PZ36
 ------------------------------
   INF_all.csv: 34 wpisów
@@ -746,6 +932,30 @@ Zestaw: PZ39
   INF_nwc.csv: 106 wpisów
   INF_stacking.csv: 106 wpisów
   RMSD.csv: 106 wpisów
+
+Zestaw: PZ4
+------------------------------
+  INF_all.csv: 31 wpisów
+  INF_wc.csv: 31 wpisów
+  INF_nwc.csv: 31 wpisów
+  INF_stacking.csv: 31 wpisów
+  RMSD.csv: 31 wpisów
+
+Zestaw: PZ5
+------------------------------
+  INF_all.csv: 26 wpisów
+  INF_wc.csv: 26 wpisów
+  INF_nwc.csv: 26 wpisów
+  INF_stacking.csv: 26 wpisów
+  RMSD.csv: 26 wpisów
+
+Zestaw: PZ6
+------------------------------
+  INF_all.csv: 35 wpisów
+  INF_wc.csv: 35 wpisów
+  INF_nwc.csv: 35 wpisów
+  INF_stacking.csv: 35 wpisów
+  RMSD.csv: 35 wpisów
 
 Zestaw: PZ7
 ------------------------------

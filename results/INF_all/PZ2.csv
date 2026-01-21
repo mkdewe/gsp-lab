@@ -1,0 +1,13 @@
+Lab,Num,INF-all,INF-wc,INF-nwc,INF-stack,RMSD,Solution
+bujnicki,1,0.8938,0.9608,,0.8725,2.6582,2_bujnicki_1_rpr_solution.pdb
+bujnicki,2,0.8198,0.9193,,0.7944,2.2967,2_bujnicki_2_rpr_solution.pdb
+bujnicki,3,0.8161,0.9193,,0.7831,2.3256,2_bujnicki_3_rpr_solution.pdb
+chen,1,0.7603,0.9042,,0.6987,2.8242,2_chen_1_rpr_solution.pdb
+das,1,0.8988,0.9608,,0.9042,2.4965,2_das_1_rpr_solution.pdb
+das,2,0.8602,0.9733,,0.8708,3.0421,2_das_2_rpr_solution.pdb
+das,3,0.8640,0.9733,,0.8556,3.0291,2_das_3_rpr_solution.pdb
+das,4,0.8648,0.9733,,0.8514,2.8312,2_das_4_rpr_solution.pdb
+das,5,0.8662,0.9590,,0.8667,3.4556,2_das_5_rpr_solution.pdb
+dokholyan,1,0.8274,0.9042,,0.8055,2.5459,2_dokholyan_1_rpr_solution.pdb
+santalucia,1,0.8462,0.9223,,0.8186,3.6605,2_santalucia_1_rpr_solution.pdb
+wildauer,1,0.7902,0.8889,,0.7718,3.4597,2_wildauer_1_rpr_solution.pdb
