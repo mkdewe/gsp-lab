@@ -129,13 +129,13 @@ ANALIZA METRYKI: TM-score
 ========================================================================================================================
 PODSUMOWANIE Z PLIKU correlations.csv
 ========================================================================================================================
-✅ RMSD: 65 targetów, Spearman=0.714, Pearson=0.694, avg_coverage=0.000
-✅ DI_all: 65 targetów, Spearman=0.770, Pearson=0.679, avg_coverage=0.000
-✅ INF_all: 65 targetów, Spearman=0.617, Pearson=0.592, avg_coverage=0.000
-⚠️ INF_wc: 59 targetów, Spearman=0.509, Pearson=0.538, avg_coverage=0.000
-✅ INF_stacking: 65 targetów, Spearman=0.573, Pearson=0.569, avg_coverage=0.000
-⚠️ INF_nwc: 50 targetów, Spearman=0.096, Pearson=0.156, avg_coverage=0.000
-✅ Clash_Score: 65 targetów, Spearman=0.150, Pearson=0.224, avg_coverage=0.000
-✅ P-value: 65 targetów, Spearman=0.667, Pearson=0.384, avg_coverage=0.000
-✅ mcq: 65 targetów, Spearman=0.385, Pearson=0.362, avg_coverage=0.000
-✅ TM-score: 65 targetów, Spearman=0.591, Pearson=0.630, avg_coverage=0.000
+✅ RMSD: 65 targetów, Spearman=0.697, Pearson=0.676, avg_coverage=0.000
+✅ DI_all: 65 targetów, Spearman=0.754, Pearson=0.660, avg_coverage=0.000
+✅ INF_all: 65 targetów, Spearman=0.600, Pearson=0.573, avg_coverage=0.000
+⚠️ INF_wc: 59 targetów, Spearman=0.498, Pearson=0.525, avg_coverage=0.000
+✅ INF_stacking: 65 targetów, Spearman=0.556, Pearson=0.551, avg_coverage=0.000
+⚠️ INF_nwc: 50 targetów, Spearman=0.099, Pearson=0.163, avg_coverage=0.000
+✅ Clash_Score: 65 targetów, Spearman=0.147, Pearson=0.214, avg_coverage=0.000
+✅ P-value: 65 targetów, Spearman=0.656, Pearson=0.377, avg_coverage=0.000
+✅ mcq: 65 targetów, Spearman=0.372, Pearson=0.355, avg_coverage=0.000
+✅ TM-score: 65 targetów, Spearman=0.580, Pearson=0.615, avg_coverage=0.000
