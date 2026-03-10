@@ -1,0 +1,7 @@
+{
+  "puzzle_set": "standardized_dataset/CR1116",
+  "total_models": 145,
+  "successful_models": 145,
+  "failed_models": [],
+  "success_rate": "100.00%"
+}

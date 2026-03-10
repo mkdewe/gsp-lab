@@ -3,369 +3,337 @@ import sys
 import subprocess
 import pathlib
 import re
+import csv
+import time
+import multiprocessing as mp
 import shutil
 
 # Get the absolute path to the compute.py script
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
 COMPUTE_SCRIPT = BASE_DIR / "src" / "gsp" / "compute.py"
 
-# Base directories
-BASE_PROCESSED_DIR = pathlib.Path("data/processed")
-BASE_EXTERNAL_DIR = pathlib.Path("data/external")
+def extract_base_id(filename, puzzle_name=None):
+    """
+    Extracts base identifier from a filename.
+    Removes typical suffixes (_refined, _solution, _rpr),
+    then removes an optional leading number (e.g., "1_")
+    and an optional puzzle prefix (e.g., "PZ16a_").
+    For solutions: if after removing the prefix we get "solution" or "solution_", return "solution_0".
+    """
+    name = pathlib.Path(filename).stem
+    # Remove typical suffixes
+    for suffix in ['_refined', '_solution', '_rpr']:
+        if name.endswith(suffix):
+            name = name[:-len(suffix)]
+    
+    # Check if it is a solution (contains "solution" in original name)
+    is_solution = 'solution' in filename.lower()
+    
+    # Remove leading number and underscore (if present)
+    name = re.sub(r'^\d+_', '', name)
+    
+    # Remove puzzle prefix (if provided and present)
+    if puzzle_name and name.startswith(puzzle_name + '_'):
+        name = name[len(puzzle_name)+1:]
+    
+    # For solutions: if it became "solution" or "solution_", treat as generic
+    if is_solution:
+        if name in ("solution", "solution_"):
+            return "solution_0"
+    
+    # If after all removals it is empty, it's a generic solution
+    if name == "":
+        return "solution_0"
+    return name
 
-def extract_base_id(filename):
-    """Extracts the base ID from filename (e.g., Bujnicki_1 from Bujnicki_1.pdb)"""
-    base_name = pathlib.Path(filename).stem
-    
-    # Lista patternów do usuwania typowych sufiksów
-    patterns_to_remove = [
-        r'_refined$', r'_model$', r'_solution$', r'_clean$', r'_processed$',
-        r'_predicted$', r'_optimized$', r'_final$'
-    ]
-    
-    for pattern in patterns_to_remove:
-        base_name = re.sub(pattern, '', base_name)
-    
-    # Usuwanie prefixu solution_ jeśli istnieje
-    if base_name.startswith('solution_'):
-        base_name = base_name.replace('solution_', '', 1)
-    
-    # Usuwanie prefixu puzzle (np. PZ3_) jeśli istnieje
-    puzzle_prefix_pattern = r'^(PZ\d+_|RP\d+_)'
-    base_name = re.sub(puzzle_prefix_pattern, '', base_name)
-    
-    return base_name
-
-def find_processed_files_by_base_id(repo_name, puzzle_name, base_id):
+def collect_files(pdb_dir):
     """
-    Znajduje przetworzone pliki dla danego base_id w katalogu processed.
-    Zwraca krotkę (processed_model, processed_solution) - każdy może być None.
-    """
-    processed_dir = BASE_PROCESSED_DIR / repo_name / "data" / puzzle_name / "pdb"
-    if not processed_dir.exists():
-        return None, None
-    
-    processed_model = None
-    processed_solution = None
-    
-    for candidate in processed_dir.iterdir():
-        if candidate.is_file() and candidate.suffix in ['.pdb', '.cif']:
-            candidate_base_name = candidate.stem
-            candidate_base_id = extract_base_id(candidate.name)
-            
-            # Debug info
-            # print(f"  [DEBUG] Checking {candidate.name}: base_id={candidate_base_id}, target={base_id}")
-            
-            if candidate_base_id == base_id:
-                # Sprawdzamy czy to jest solution czy model
-                if 'solution' in candidate.name.lower():
-                    processed_solution = candidate
-                    # print(f"  [DEBUG] Found solution: {candidate.name}")
-                else:
-                    # To jest model
-                    processed_model = candidate
-                    # print(f"  [DEBUG] Found model: {candidate.name}")
-    
-    return processed_model, processed_solution
-
-def find_default_solution_in_processed(repo_name, puzzle_name, model_base_id=None):
-    """
-    Znajduje domyślny solution w processed.
-    Jeśli podano model_base_id, szuka solution z tym samym base_id.
-    W przeciwnym razie szuka dowolnego solution.
-    """
-    processed_dir = BASE_PROCESSED_DIR / repo_name / "data" / puzzle_name / "pdb"
-    if not processed_dir.exists():
-        return None
-    
-    solutions = []
-    
-    for candidate in processed_dir.iterdir():
-        if candidate.is_file() and candidate.suffix in ['.pdb', '.cif']:
-            if 'solution' in candidate.name.lower():
-                candidate_base_id = extract_base_id(candidate.name)
-                
-                if model_base_id:
-                    # Szukamy solution z tym samym base_id co model
-                    if candidate_base_id == model_base_id:
-                        return candidate
-                else:
-                    solutions.append(candidate)
-    
-    # Jeśli nie znaleziono solution z tym samym base_id, zwróć pierwszy znaleziony
-    if solutions and not model_base_id:
-        return solutions[0]
-    
-    return None
-
-def find_default_solution_in_external(puzzle_path, model_base_id=None):
-    """
-    Znajduje domyślny solution w katalogu external.
-    """
-    solutions = []
-    
-    for fname in os.listdir(puzzle_path):
-        if 'solution' in fname.lower() and pathlib.Path(fname).suffix in ['.pdb', '.cif']:
-            if model_base_id:
-                # Sprawdzamy czy solution ma ten sam base_id co model
-                solution_base_id = extract_base_id(fname)
-                if solution_base_id == model_base_id:
-                    return fname
-            else:
-                solutions.append(fname)
-    
-    # Jeśli nie znaleziono solution z tym samym base_id, zwróć pierwszy znaleziony
-    if solutions and not model_base_id:
-        return solutions[0]
-    
-    return None
-
-def collect_model_files_from_external(puzzle_path):
-    """
-    Zbiera wszystkie pliki modeli z katalogu external.
+    Returns a tuple (models, solutions) for .pdb/.cif files in the given directory.
+    Models: files without '_solution' in the name.
+    Solutions: files with '_solution' in the name.
     """
     models = []
-    for fname in os.listdir(puzzle_path):
-        if pathlib.Path(fname).suffix in ['.pdb', '.cif']:
-            # Pomijamy pliki z 'solution' w nazwie
-            if 'solution' in fname.lower():
-                continue
-            models.append(fname)
-    return models
+    solutions = []
 
-def copy_file_to_working_dir(source_path, dest_dir, new_name=None):
+    for f in pdb_dir.iterdir():
+        if f.is_file() and f.suffix.lower() in ['.pdb', '.cif']:
+            if 'solution' in f.name.lower():
+                solutions.append(f)
+            else:
+                models.append(f)
+
+    return models, solutions
+
+def read_gGSP_from_csv(csv_path):
     """
-    Kopiuje plik do katalogu roboczego.
+    Reads the gGSP value from a CSV file.
+    Assumes the file has a header and a column containing 'gGSP' (case-insensitive).
     """
-    source_path = pathlib.Path(source_path)
-    if new_name:
-        dest_path = dest_dir / new_name
-    else:
-        dest_path = dest_dir / source_path.name
-    
-    try:
-        shutil.copy2(source_path, dest_path)
-        return dest_path.name
-    except Exception as e:
-        print(f"  [ERROR] Failed to copy {source_path}: {e}")
+    if csv_path is None or not csv_path.exists():
         return None
+    try:
+        with open(csv_path, 'r') as f:
+            reader = csv.reader(f)
+            header = next(reader)
+            # Find column with 'gGSP'
+            col_index = None
+            for i, col in enumerate(header):
+                if 'ggsp' in col.lower():
+                    col_index = i
+                    break
+            if col_index is None:
+                # If not found, take the first column
+                col_index = 0
 
-def run_compute_simple(target_file, model_file, output_dir, cwd):
-    """
-    Uruchamia compute.py bez fallbacków (pliki są już przygotowane).
-    """
-    model_stem = pathlib.Path(model_file).stem
-    target_stem = pathlib.Path(target_file).stem
-    output_filename = f"{model_stem}_vs_{target_stem}.csv"
-    output_path = pathlib.Path(output_dir) / output_filename
+            first_row = next(reader, None)
+            if first_row and col_index < len(first_row):
+                return first_row[col_index].strip()
+    except Exception as e:
+        return f"READ_ERROR: {e}"
+    return None
 
-    if output_path.exists():
-        print(f"  [SKIP] Output file {output_filename} already exists. Overwriting...")
-        output_path.unlink()
+def run_compute_single(args):
+    """
+    Function executed in a child process.
+    args: (model_file, solution_file, output_dir, cwd, puzzle_name)
+    Returns a tuple (model_name, solution_name, status, details, csv_path).
+    """
+    model_file, solution_file, output_dir, cwd, puzzle_name = args
+    model_name = model_file.name
+    solution_name = solution_file.name
+    model_stem = model_file.stem
+    target_stem = solution_file.stem
 
     cmd = [
         "python",
         str(COMPUTE_SCRIPT),
-        "-t", target_file,
-        "-m", model_file
+        "-t", solution_name,
+        "-m", model_name
     ]
-    
+
     env = os.environ.copy()
     env["OUTPUT_DIR"] = os.path.abspath(output_dir)
-    
-    result = subprocess.run(cmd, cwd=cwd, env=env)
-    
-    if result.returncode == 0:
-        print(f"  [SUCCESS] Created {output_filename}")
-        return True
-    else:
-        print(f"  [ERROR] Processing {model_file} vs {target_file} (exit {result.returncode})")
-        return False
 
-def process_single_model(model_file, puzzle_path, repo_name, puzzle_name, output_dir):
-    """
-    Przetwarza pojedynczy model zgodnie z nowym flow.
-    """
-    print(f"\n  [PROCESSING] Model: {model_file}")
-    
-    # 1. Pobierz base_id z pliku w external
-    base_id = extract_base_id(model_file)
-    print(f"  [BASE_ID] {base_id}")
-    
-    # 2. Szukaj przetworzonego modelu i predefiniowanego solution w processed
-    processed_model, processed_solution = find_processed_files_by_base_id(
-        repo_name, puzzle_name, base_id
-    )
-    
-    # 3. Przygotuj pliki do użycia
-    files_to_cleanup = []
-    
-    # Przygotuj model
-    model_to_use = None
-    if processed_model:
-        print(f"  [FOUND] Processed model: {processed_model.name}")
-        model_to_use = copy_file_to_working_dir(
-            processed_model, puzzle_path, f"processed_{model_file}"
-        )
-        if model_to_use:
-            files_to_cleanup.append(model_to_use)
-    else:
-        print(f"  [INFO] Using original model from external")
-        model_to_use = model_file
-    
-    if not model_to_use:
-        print(f"  [ERROR] Failed to prepare model file")
-        return False
-    
-    # Przygotuj solution
-    solution_to_use = None
-    
-    # Najpierw spróbuj predefiniowany solution z processed
-    if processed_solution:
-        print(f"  [FOUND] Predefined solution for base_id {base_id}: {processed_solution.name}")
-        solution_to_use = copy_file_to_working_dir(
-            processed_solution, puzzle_path, f"solution_{base_id}.pdb"
-        )
-        if solution_to_use:
-            files_to_cleanup.append(solution_to_use)
-    
-    # Jeśli nie ma predefiniowanego, spróbuj domyślny solution z processed z tym samym base_id
-    if not solution_to_use:
-        default_solution_processed = find_default_solution_in_processed(repo_name, puzzle_name, base_id)
-        if default_solution_processed:
-            print(f"  [FOUND] Default solution in processed with matching base_id: {default_solution_processed.name}")
-            solution_to_use = copy_file_to_working_dir(
-                default_solution_processed, puzzle_path, f"default_solution_{base_id}.pdb"
-            )
-            if solution_to_use:
-                files_to_cleanup.append(solution_to_use)
-    
-    # Jeśli nadal nie ma, spróbuj jakikolwiek solution z processed
-    if not solution_to_use:
-        any_solution_processed = find_default_solution_in_processed(repo_name, puzzle_name)
-        if any_solution_processed:
-            print(f"  [FOUND] Any solution in processed: {any_solution_processed.name}")
-            solution_to_use = copy_file_to_working_dir(
-                any_solution_processed, puzzle_path, f"any_solution.pdb"
-            )
-            if solution_to_use:
-                files_to_cleanup.append(solution_to_use)
-    
-    # Jeśli nadal nie ma, spróbuj solution z external z tym samym base_id
-    if not solution_to_use:
-        default_solution_external = find_default_solution_in_external(puzzle_path, base_id)
-        if default_solution_external:
-            print(f"  [FOUND] Default solution in external with matching base_id: {default_solution_external}")
-            solution_to_use = default_solution_external
-    
-    # Jeśli nadal nie ma, spróbuj jakikolwiek solution z external
-    if not solution_to_use:
-        any_solution_external = find_default_solution_in_external(puzzle_path)
-        if any_solution_external:
-            print(f"  [FOUND] Any solution in external: {any_solution_external}")
-            solution_to_use = any_solution_external
-    
-    if not solution_to_use:
-        print(f"  [ERROR] No solution found for model {model_file} (base_id: {base_id})")
-        # Wyczyść tymczasowe pliki
-        for temp_file in files_to_cleanup:
-            try:
-                temp_path = puzzle_path / temp_file
-                if temp_path.exists():
-                    temp_path.unlink()
-            except:
-                pass
-        return False
-    
-    # 4. Uruchom compute.py
-    success = run_compute_simple(
-        solution_to_use, model_to_use, output_dir, puzzle_path
-    )
-    
-    # 5. Wyczyść tymczasowe pliki
-    for temp_file in files_to_cleanup:
-        try:
-            temp_path = puzzle_path / temp_file
-            if temp_path.exists():
-                temp_path.unlink()
-                # print(f"  [CLEANUP] Removed temporary file: {temp_file}")
-        except Exception as e:
-            print(f"  [WARNING] Failed to remove {temp_file}: {e}")
-    
-    return success
+    try:
+        result = subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, text=True, timeout=600)
+    except subprocess.TimeoutExpired:
+        return (model_name, solution_name, "TIMEOUT", "Timeout after 600s", None)
 
-def process_puzzle_set_new(puzzle_path, repo_name):
-    """
-    Nowy flow przetwarzania zestawu puzzli.
-    """
-    pdb_path = pathlib.Path(puzzle_path) / "pdb"
-    if not pdb_path.exists():
-        print(f"  [WARNING] No pdb directory found in {puzzle_path}")
-        return False
-    
-    puzzle_name = pdb_path.parent.name
-    
-    print(f"  [INFO] Processing puzzle: {puzzle_name}")
-    print(f"  [INFO] Looking in: {pdb_path}")
-    
-    # Zbierz modele z external
-    models = collect_model_files_from_external(pdb_path)
-    
-    if not models:
-        print(f"  [ERROR] No models found in {pdb_path}")
-        return False
-    
-    print(f"  [INFO] Found {len(models)} model(s)")
-    
-    # Przygotuj katalog wyników
-    output_dir = pathlib.Path("./results/gsp") / repo_name / puzzle_name
-    output_dir.mkdir(parents=True, exist_ok=True)
-    print(f"  [INFO] Results will be saved to: {output_dir}")
-    
-    # Przetwórz każdy model
-    success_count = 0
-    for i, model_file in enumerate(models, 1):
-        print(f"\n  [{i}/{len(models)}] Processing model: {model_file}")
-        
+    if result.returncode != 0:
+        details = f"exit {result.returncode}: {result.stderr[:200]}"
+        return (model_name, solution_name, "COMPUTE_ERROR", details, None)
+
+    # Expected CSV file names (various combinations)
+    possible_names = [
+        f"{target_stem}_{model_stem}_C1'-gGSP.csv",
+        f"{model_stem}_{target_stem}_C1'-gGSP.csv",
+        f"{target_stem}_{model_stem}_gGSP.csv",
+        f"{model_stem}_{target_stem}_gGSP.csv",
+    ]
+
+    # Search in cwd and output_dir
+    found = None
+    for loc in (cwd, output_dir):
+        if not loc.exists():
+            continue
+        for name in possible_names:
+            candidate = loc / name
+            if candidate.exists():
+                found = candidate
+                break
+        if found:
+            break
+
+    if not found:
+        # Fallback: find any CSV file containing both stems
+        for loc in (cwd, output_dir):
+            if not loc.exists():
+                continue
+            for f in loc.glob("*.csv"):
+                if model_stem in f.name and target_stem in f.name:
+                    found = f
+                    break
+            if found:
+                break
+
+    if found:
+        gGSP = read_gGSP_from_csv(found)
+        if gGSP is None or gGSP.startswith("READ_ERROR"):
+            return (model_name, solution_name, "CSV_READ_ERROR", str(gGSP), found)
+        # Success
+        print(f"  [OK] {model_name} -> {gGSP}")
+        return (model_name, solution_name, "SUCCESS", gGSP, found)
+    else:
+        return (model_name, solution_name, "NO_CSV", "No CSV file found after computation", None)
+
+def safe_move(src, dst, max_retries=3, delay=0.5):
+    """Safely move a file with retries."""
+    for attempt in range(max_retries):
         try:
-            success = process_single_model(
-                model_file=model_file,
-                puzzle_path=pdb_path,
-                repo_name=repo_name,
-                puzzle_name=puzzle_name,
-                output_dir=output_dir
-            )
-            
-            if success:
-                success_count += 1
+            shutil.copy2(src, dst)
+            os.unlink(src)
+            return True
+        except (PermissionError, OSError) as e:
+            if attempt < max_retries - 1:
+                time.sleep(delay)
             else:
-                print(f"  [FAILED] Failed to process {model_file}")
-                
-        except Exception as e:
-            print(f"  [EXCEPTION] Error processing {model_file}: {str(e)}")
-            import traceback
-            traceback.print_exc()
-    
-    # Przenieś pozostałe CSV (jeśli jakieś zostały w pdb_path)
-    move_remaining_csv_files(pdb_path, output_dir)
-    
-    print(f"\n  [SUMMARY] Successfully processed {success_count}/{len(models)} models")
-    return success_count > 0
+                print(f"  [WARNING] Could not move {src} to {dst}: {e}")
+                return False
+    return False
 
-def move_remaining_csv_files(source_dir, dest_dir):
-    """Moves any remaining CSV files from source to destination directory."""
-    for filename in os.listdir(source_dir):
-        if filename.endswith(".csv"):
-            source_path = os.path.join(source_dir, filename)
-            dest_path = os.path.join(dest_dir, filename)
-            if os.path.exists(dest_path):
-                print(f"  [OVERWRITE] Overwriting existing file: {filename}")
-                os.remove(dest_path)
-            try:
-                shutil.move(source_path, dest_path)
-                print(f"  [MOVE] Moved {filename} to results directory")
-            except Exception as e:
-                print(f"  [ERROR] Failed to move {filename}: {str(e)}")
+def safe_unlink(path, max_retries=3, delay=0.5):
+    """Try to delete a file, retrying on error."""
+    for attempt in range(max_retries):
+        try:
+            path.unlink()
+            return True
+        except PermissionError:
+            if attempt < max_retries - 1:
+                time.sleep(delay)
+            else:
+                print(f"  [WARNING] Could not delete {path} (still in use)")
+                return False
+        except Exception as e:
+            print(f"  [WARNING] Failed to delete {path}: {e}")
+            return False
+    return False
+
+def process_puzzle_set_parallel(puzzle_path, puzzle_name, global_results):
+    """
+    Processes a single puzzle set in parallel.
+    """
+    pdb_dir = pathlib.Path(puzzle_path)
+    if not pdb_dir.exists():
+        print(f"  [ERROR] Directory {pdb_dir} does not exist.")
+        return False
+
+    print(f"  [INFO] Processing puzzle: {puzzle_name}")
+    print(f"  [INFO] Looking in: {pdb_dir}")
+
+    models, solutions = collect_files(pdb_dir)
+
+    if not models:
+        print(f"  [ERROR] No model files found in {pdb_dir}")
+        return False
+
+    if not solutions:
+        print(f"  [ERROR] No solution files found in {pdb_dir}")
+        return False
+
+    print(f"  [INFO] Found {len(models)} model(s) and {len(solutions)} solution(s)")
+
+    # Prepare temporary directory for results
+    temp_output_dir = pathlib.Path("./results/gsp") / puzzle_name
+    temp_output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"  [INFO] Temporary results will be saved to: {temp_output_dir}")
+
+    # Index solutions by base_id
+    solution_by_baseid = {}
+    for sol in solutions:
+        base_id = extract_base_id(sol.name, puzzle_name)
+        solution_by_baseid[base_id] = sol
+        # print(f"  [DEBUG] Solution: {sol.name} -> base_id: {base_id}")
+
+    # Prepare list of tasks for each model
+    tasks = []
+    missing_solution_count = 0
+    for model_file in models:
+        base_id = extract_base_id(model_file.name, puzzle_name)
+        solution_file = solution_by_baseid.get(base_id)
+        if not solution_file:
+            # Try generic solution
+            solution_file = solution_by_baseid.get('solution_0')
+        if not solution_file:
+            print(f"  [WARNING] No solution for model {model_file.name}, skipping.")
+            missing_solution_count += 1
+            continue
+        tasks.append((model_file, solution_file, temp_output_dir, pdb_dir, puzzle_name))
+
+    if not tasks:
+        print(f"  [INFO] No tasks to process (missing solution for {missing_solution_count} models).")
+        return False
+
+    print(f"  [INFO] Submitting {len(tasks)} tasks to process pool...")
+
+    # Run in parallel
+    pool = mp.Pool(processes=mp.cpu_count())
+    results = pool.map(run_compute_single, tasks)
+    pool.close()
+    pool.join()
+
+    # Summary
+    total = len(tasks)
+    success = sum(1 for r in results if r[2] == "SUCCESS")
+    errors = total - success
+    print(f"  [INFO] All tasks completed. Successfully processed {success}/{total} models (errors: {errors}).")
+
+    # Move CSV files to temp_output_dir
+    moved_csv = 0
+    for res in results:
+        if res[4] is not None:  # csv_path
+            src = pathlib.Path(res[4])
+            if src.exists():
+                dest = temp_output_dir / src.name
+                if dest.exists():
+                    dest.unlink()
+                if safe_move(src, dest):
+                    moved_csv += 1
+                else:
+                    print(f"  [WARNING] Failed to move {src.name}")
+
+    # Save report for the set
+    if results:
+        report_path = temp_output_dir / "report.txt"
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(f"Report for set: {puzzle_name}\n")
+            f.write(f"Processed {success} / {total} models (missing solution for {missing_solution_count} models)\n")
+            f.write("=" * 120 + "\n")
+            f.write(f"{'Model':<50} {'Solution':<50} {'Status':<15} {'Details':<30}\n")
+            f.write("-" * 120 + "\n")
+            for model, sol, status, details, _ in results:
+                f.write(f"{model:<50} {sol:<50} {status:<15} {details:<30}\n")
+        print(f"  [REPORT] Saved to {report_path}")
+
+        # Add to global results
+        global_results[puzzle_name] = {
+            "total": total,
+            "success": success,
+            "missing": missing_solution_count,
+            "results": [(model, sol, status, details) for model, sol, status, details, _ in results]
+        }
+
+    # Move all CSV files from temp_output_dir to the final directory
+    final_dir = pathlib.Path("results/gsp/finished") / puzzle_name
+    final_dir.mkdir(parents=True, exist_ok=True)
+    final_moved = 0
+    for csv_file in temp_output_dir.glob("*.csv"):
+        if csv_file.name == "report.txt":
+            continue
+        dest = final_dir / csv_file.name
+        if dest.exists():
+            dest.unlink()
+        csv_file.rename(dest)
+        final_moved += 1
+    print(f"  [MOVE] Moved {final_moved} CSV files to {final_dir}")
+
+    # Move report
+    report_src = temp_output_dir / "report.txt"
+    if report_src.exists():
+        report_dest = final_dir / "report.txt"
+        if report_dest.exists():
+            report_dest.unlink()
+        report_src.rename(report_dest)
+        print(f"  [MOVE] Moved report to {report_dest}")
+
+    # Clean up: delete all CSV files from the source directory (pdb_dir)
+    cleaned = 0
+    for csv_file in pdb_dir.glob("*.csv"):
+        if safe_unlink(csv_file):
+            cleaned += 1
+    if cleaned:
+        print(f"  [CLEAN] Removed {cleaned} CSV files from {pdb_dir}")
+
+    return success > 0
 
 def parse_selection(input_str, max_value):
     """Parses user input like '1', '1-5', '1,3,5' into list of indices."""
@@ -406,67 +374,70 @@ def select_from_list(items, prompt):
         return [items[idx-1] for idx in selected_indices]
 
 def main():
-    print("RNA Puzzle Processing - NEW FLOW")
-    print("=" * 50)
-    print("Flow: external base_id -> processed lookup -> predef. solution or default")
-    
-    data_root = "data/external"
+    print("RNA Puzzle Processing – FINISHED DATA FLOW (PARALLEL)")
+    print("=" * 60)
+    print("Processing files from data/finished/<puzzle>/pdb/")
+
+    data_root = "data/finished"
     if not os.path.exists(data_root):
         print(f"Error: Data directory '{data_root}' not found!")
         sys.exit(1)
-    
-    repositories = [d for d in os.listdir(data_root) 
-                  if os.path.isdir(os.path.join(data_root, d))]
-    if not repositories:
-        print("No repositories found in data directory.")
+
+    # Find all puzzles (directories in data_root)
+    puzzles = [d for d in os.listdir(data_root)
+               if os.path.isdir(os.path.join(data_root, d)) and
+               os.path.isdir(os.path.join(data_root, d, "pdb"))]
+
+    if not puzzles:
+        print("No puzzle directories with 'pdb' subfolder found in data/finished.")
         sys.exit(1)
-    
-    selected_repos = select_from_list(
-        repositories, 
-        "Select repositories to process (enter numbers/ranges)"
+
+    selected_puzzles = select_from_list(
+        puzzles,
+        "Select puzzles to process"
     )
-    if not selected_repos:
-        print("No repositories selected. Exiting.")
+    if not selected_puzzles:
+        print("No puzzles selected. Exiting.")
         sys.exit(0)
-    
-    for repo_name in selected_repos:
-        repo_path = os.path.join(data_root, repo_name)
-        puzzles_path = os.path.join(repo_path, "data")
-        if not os.path.exists(puzzles_path):
-            print(f"\n[WARNING] No 'data' directory found in {repo_name}. Skipping.")
-            continue
-        
-        puzzle_sets = [d for d in os.listdir(puzzles_path) 
-                      if os.path.isdir(os.path.join(puzzles_path, d))]
-        if not puzzle_sets:
-            print(f"\n[WARNING] No puzzle sets found in {repo_name}/data. Skipping.")
-            continue
-        
-        print(f"\nRepository: {repo_name}")
-        selected_sets = select_from_list(
-            puzzle_sets, 
-            f"Select puzzle sets in '{repo_name}' to process"
-        )
-        if not selected_sets:
-            print(f"  [SKIP] No puzzle sets selected for {repo_name}. Skipping.")
-            continue
-        
-        print(f"\nProcessing {len(selected_sets)} puzzle sets in {repo_name}")
-        for puzzle_set in selected_sets:
-            puzzle_path = os.path.join(puzzles_path, puzzle_set)
-            print(f"\n{'='*60}")
-            print(f"Puzzle set: {puzzle_set}")
-            print('-'*60)
-            
-            success = process_puzzle_set_new(puzzle_path, repo_name)
-            
-            if success:
-                print(f"\n  [COMPLETED] Finished processing {puzzle_set}")
-            else:
-                print(f"\n  [FAILED] Failed to process {puzzle_set}")
-    
+
+    # Dictionary for global results
+    manager = mp.Manager()
+    global_results = manager.dict()
+
+    for puzzle_name in selected_puzzles:
+        puzzle_path = os.path.join(data_root, puzzle_name, "pdb")
+        print(f"\n{'='*60}")
+        print(f"Puzzle: {puzzle_name}")
+        print('-' * 60)
+
+        success = process_puzzle_set_parallel(puzzle_path, puzzle_name, global_results)
+
+        if success:
+            print(f"\n  [COMPLETED] Finished processing {puzzle_name}")
+        else:
+            print(f"\n  [FAILED] Failed to process {puzzle_name}")
+
+    # Generate global report
+    if global_results:
+        global_report_path = pathlib.Path("results/gsp/finished/global_report.txt")
+        global_report_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(global_report_path, 'w', encoding='utf-8') as f:
+            f.write("Global report for all processed sets\n")
+            f.write("=" * 60 + "\n")
+            for puzzle_name, data in global_results.items():
+                f.write(f"\n{puzzle_name}\n")
+                f.write(f"Processed {data['success']} / {data['total']} models (missing solution for {data['missing']})\n")
+                f.write("-" * 120 + "\n")
+                f.write(f"{'Model':<50} {'Solution':<50} {'Status':<15} {'Details':<30}\n")
+                f.write("-" * 120 + "\n")
+                for model, sol, status, details in data['results']:
+                    f.write(f"{model:<50} {sol:<50} {status:<15} {details:<30}\n")
+        print(f"\nGlobal report saved to: {global_report_path}")
+
     print("\n" + "="*60)
     print("Processing completed!")
 
 if __name__ == "__main__":
+    # Required for multiprocessing on Windows
+    mp.freeze_support()
     main()

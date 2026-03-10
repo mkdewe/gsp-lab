@@ -45,7 +45,7 @@ Bujnicki,2,0.315
 DasARESapo,5,0.897
 DasFARFAR2ARESholo,3,0.929
 DasFARFAR2apo,4,0.929
-Yang,9,-
+Yang,9,-1.000
 Chen,9,0.964
 SimRNA,1,0.000
 Yang,8,0.463
@@ -82,5 +82,5 @@ Dokholyan,4,0.000
 Xiao,5,0.000
 SimRNA,5,0.324
 Dfold,5,0.000
-Zhou,1,-
+Zhou,1,-1.000
 Dfold,10,0.000

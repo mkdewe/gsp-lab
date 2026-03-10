@@ -1,0 +1,832 @@
+2026-03-10 00:32:59 	 START case: PZ26tRNA
+2026-03-10 00:32:59 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA
+2026-03-10 00:32:59 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA\pdb
+2026-03-10 00:32:59 	 Found pdb count: 135
+2026-03-10 00:32:59 	 Global solution: PZ26tRNA_solution_0.pdb
+2026-03-10 00:32:59 	 RUN refined_pair target=PZ26tRNA_Adamiak_1_solution.pdb model=PZ26tRNA_Adamiak_1_refined.pdb -> id=Adamiak_1
+2026-03-10 00:32:59 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_1_refined.pdb
+2026-03-10 00:33:02 	 Docker exit code: 0
+2026-03-10 00:33:02 	 Docker output length: 378
+2026-03-10 00:33:02 	 Saved CSV: PZ26tRNA,Adamiak_1,Adamiak,1,refined_pair,0.8198070874566453,0.9689042833036098,0.4472135954999579,PZ26tRNA_Adamiak_1_solution.pdb,PZ26tRNA_Adamiak_1_refined.pdb
+2026-03-10 00:33:02 	 RUN refined_pair target=PZ26tRNA_Adamiak_2_solution.pdb model=PZ26tRNA_Adamiak_2_refined.pdb -> id=Adamiak_2
+2026-03-10 00:33:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_2_refined.pdb
+2026-03-10 00:33:05 	 Docker exit code: 0
+2026-03-10 00:33:05 	 Docker output length: 377
+2026-03-10 00:33:05 	 Saved CSV: PZ26tRNA,Adamiak_2,Adamiak,2,refined_pair,0.8216476627908349,0.9689042833036098,0.5773502691896257,PZ26tRNA_Adamiak_2_solution.pdb,PZ26tRNA_Adamiak_2_refined.pdb
+2026-03-10 00:33:05 	 RUN refined_pair target=PZ26tRNA_Adamiak_3_solution.pdb model=PZ26tRNA_Adamiak_3_refined.pdb -> id=Adamiak_3
+2026-03-10 00:33:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_3_refined.pdb
+2026-03-10 00:33:08 	 Docker exit code: 0
+2026-03-10 00:33:08 	 Docker output length: 378
+2026-03-10 00:33:08 	 Saved CSV: PZ26tRNA,Adamiak_3,Adamiak,3,refined_pair,0.8516624609365033,0.9689042833036098,0.6666666666666666,PZ26tRNA_Adamiak_3_solution.pdb,PZ26tRNA_Adamiak_3_refined.pdb
+2026-03-10 00:33:08 	 RUN refined_pair target=PZ26tRNA_Adamiak_4_solution.pdb model=PZ26tRNA_Adamiak_4_refined.pdb -> id=Adamiak_4
+2026-03-10 00:33:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Adamiak_4_refined.pdb
+2026-03-10 00:33:11 	 Docker exit code: 0
+2026-03-10 00:33:11 	 Docker output length: 378
+2026-03-10 00:33:11 	 Saved CSV: PZ26tRNA,Adamiak_4,Adamiak,4,refined_pair,0.8307269181118627,0.9689042833036098,0.5773502691896257,PZ26tRNA_Adamiak_4_solution.pdb,PZ26tRNA_Adamiak_4_refined.pdb
+2026-03-10 00:33:11 	 RUN refined_pair target=PZ26tRNA_Bujnicki_1_solution.pdb model=PZ26tRNA_Bujnicki_1_refined.pdb -> id=Bujnicki_1
+2026-03-10 00:33:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_1_refined.pdb
+2026-03-10 00:33:15 	 Docker exit code: 0
+2026-03-10 00:33:15 	 Docker output length: 377
+2026-03-10 00:33:15 	 Saved CSV: PZ26tRNA,Bujnicki_1,Bujnicki,1,refined_pair,0.8661618609512486,0.989743318610787,0.629940788348712,PZ26tRNA_Bujnicki_1_solution.pdb,PZ26tRNA_Bujnicki_1_refined.pdb
+2026-03-10 00:33:15 	 RUN refined_pair target=PZ26tRNA_Bujnicki_2_solution.pdb model=PZ26tRNA_Bujnicki_2_refined.pdb -> id=Bujnicki_2
+2026-03-10 00:33:15 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_2_refined.pdb
+2026-03-10 00:33:17 	 Docker exit code: 0
+2026-03-10 00:33:17 	 Docker output length: 380
+2026-03-10 00:33:17 	 Saved CSV: PZ26tRNA,Bujnicki_2,Bujnicki,2,refined_pair,0.8547821036505565,0.9293403409880339,0.6804138174397717,PZ26tRNA_Bujnicki_2_solution.pdb,PZ26tRNA_Bujnicki_2_refined.pdb
+2026-03-10 00:33:17 	 RUN refined_pair target=PZ26tRNA_Bujnicki_3_solution.pdb model=PZ26tRNA_Bujnicki_3_refined.pdb -> id=Bujnicki_3
+2026-03-10 00:33:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_3_refined.pdb
+2026-03-10 00:33:20 	 Docker exit code: 0
+2026-03-10 00:33:20 	 Docker output length: 379
+2026-03-10 00:33:20 	 Saved CSV: PZ26tRNA,Bujnicki_3,Bujnicki,3,refined_pair,0.857322323526012,0.9691236661397289,0.6804138174397717,PZ26tRNA_Bujnicki_3_solution.pdb,PZ26tRNA_Bujnicki_3_refined.pdb
+2026-03-10 00:33:20 	 RUN refined_pair target=PZ26tRNA_Bujnicki_4_solution.pdb model=PZ26tRNA_Bujnicki_4_refined.pdb -> id=Bujnicki_4
+2026-03-10 00:33:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_4_refined.pdb
+2026-03-10 00:33:23 	 Docker exit code: 0
+2026-03-10 00:33:23 	 Docker output length: 379
+2026-03-10 00:33:23 	 Saved CSV: PZ26tRNA,Bujnicki_4,Bujnicki,4,refined_pair,0.8610213890786628,0.989743318610787,0.7453559924999299,PZ26tRNA_Bujnicki_4_solution.pdb,PZ26tRNA_Bujnicki_4_refined.pdb
+2026-03-10 00:33:23 	 RUN refined_pair target=PZ26tRNA_Bujnicki_5_solution.pdb model=PZ26tRNA_Bujnicki_5_refined.pdb -> id=Bujnicki_5
+2026-03-10 00:33:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Bujnicki_5_refined.pdb
+2026-03-10 00:33:27 	 Docker exit code: 0
+2026-03-10 00:33:27 	 Docker output length: 379
+2026-03-10 00:33:27 	 Saved CSV: PZ26tRNA,Bujnicki_5,Bujnicki,5,refined_pair,0.8411910241920598,0.9793792286287205,0.629940788348712,PZ26tRNA_Bujnicki_5_solution.pdb,PZ26tRNA_Bujnicki_5_refined.pdb
+2026-03-10 00:33:27 	 RUN refined_pair target=PZ26tRNA_Chen_1_solution.pdb model=PZ26tRNA_Chen_1_refined.pdb -> id=Chen_1
+2026-03-10 00:33:27 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_1_refined.pdb
+2026-03-10 00:33:31 	 Docker exit code: 0
+2026-03-10 00:33:31 	 Docker output length: 371
+2026-03-10 00:33:31 	 Saved CSV: PZ26tRNA,Chen_1,Chen,1,refined_pair,0.8256707308193716,0.9689042833036098,0.6804138174397717,PZ26tRNA_Chen_1_solution.pdb,PZ26tRNA_Chen_1_refined.pdb
+2026-03-10 00:33:31 	 RUN refined_pair target=PZ26tRNA_Chen_10_solution.pdb model=PZ26tRNA_Chen_10_refined.pdb -> id=Chen_10
+2026-03-10 00:33:31 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_10_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_10_refined.pdb
+2026-03-10 00:33:34 	 Docker exit code: 0
+2026-03-10 00:33:34 	 Docker output length: 373
+2026-03-10 00:33:34 	 Saved CSV: PZ26tRNA,Chen_10,Chen,10,refined_pair,0.8235470023452034,0.9583148474999099,0.5892556509887896,PZ26tRNA_Chen_10_solution.pdb,PZ26tRNA_Chen_10_refined.pdb
+2026-03-10 00:33:34 	 RUN refined_pair target=PZ26tRNA_Chen_2_solution.pdb model=PZ26tRNA_Chen_2_refined.pdb -> id=Chen_2
+2026-03-10 00:33:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_2_refined.pdb
+2026-03-10 00:33:37 	 Docker exit code: 0
+2026-03-10 00:33:37 	 Docker output length: 372
+2026-03-10 00:33:37 	 Saved CSV: PZ26tRNA,Chen_2,Chen,2,refined_pair,0.8079647378096768,0.9585413727004499,0.7453559924999299,PZ26tRNA_Chen_2_solution.pdb,PZ26tRNA_Chen_2_refined.pdb
+2026-03-10 00:33:37 	 RUN refined_pair target=PZ26tRNA_Chen_3_solution.pdb model=PZ26tRNA_Chen_3_refined.pdb -> id=Chen_3
+2026-03-10 00:33:37 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_3_refined.pdb
+2026-03-10 00:33:41 	 Docker exit code: 0
+2026-03-10 00:33:41 	 Docker output length: 372
+2026-03-10 00:33:41 	 Saved CSV: PZ26tRNA,Chen_3,Chen,3,refined_pair,0.8278327231656524,0.9793792286287205,0.7453559924999299,PZ26tRNA_Chen_3_solution.pdb,PZ26tRNA_Chen_3_refined.pdb
+2026-03-10 00:33:41 	 RUN refined_pair target=PZ26tRNA_Chen_4_solution.pdb model=PZ26tRNA_Chen_4_refined.pdb -> id=Chen_4
+2026-03-10 00:33:41 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_4_refined.pdb
+2026-03-10 00:33:44 	 Docker exit code: 0
+2026-03-10 00:33:44 	 Docker output length: 372
+2026-03-10 00:33:44 	 Saved CSV: PZ26tRNA,Chen_4,Chen,4,refined_pair,0.8161676358069048,0.9793792286287205,0.7453559924999299,PZ26tRNA_Chen_4_solution.pdb,PZ26tRNA_Chen_4_refined.pdb
+2026-03-10 00:33:44 	 RUN refined_pair target=PZ26tRNA_Chen_5_solution.pdb model=PZ26tRNA_Chen_5_refined.pdb -> id=Chen_5
+2026-03-10 00:33:44 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_5_refined.pdb
+2026-03-10 00:33:47 	 Docker exit code: 0
+2026-03-10 00:33:47 	 Docker output length: 372
+2026-03-10 00:33:47 	 Saved CSV: PZ26tRNA,Chen_5,Chen,5,refined_pair,0.8362373317693695,0.9585413727004499,0.6804138174397717,PZ26tRNA_Chen_5_solution.pdb,PZ26tRNA_Chen_5_refined.pdb
+2026-03-10 00:33:47 	 RUN refined_pair target=PZ26tRNA_Chen_6_solution.pdb model=PZ26tRNA_Chen_6_refined.pdb -> id=Chen_6
+2026-03-10 00:33:47 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_6_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_6_refined.pdb
+2026-03-10 00:33:50 	 Docker exit code: 0
+2026-03-10 00:33:50 	 Docker output length: 372
+2026-03-10 00:33:50 	 Saved CSV: PZ26tRNA,Chen_6,Chen,6,refined_pair,0.8067383799322808,0.9793792286287205,0.6804138174397717,PZ26tRNA_Chen_6_solution.pdb,PZ26tRNA_Chen_6_refined.pdb
+2026-03-10 00:33:50 	 RUN refined_pair target=PZ26tRNA_Chen_7_solution.pdb model=PZ26tRNA_Chen_7_refined.pdb -> id=Chen_7
+2026-03-10 00:33:50 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_7_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_7_refined.pdb
+2026-03-10 00:33:54 	 Docker exit code: 0
+2026-03-10 00:33:54 	 Docker output length: 371
+2026-03-10 00:33:54 	 Saved CSV: PZ26tRNA,Chen_7,Chen,7,refined_pair,0.8043478797733642,0.9583148474999099,0.6804138174397717,PZ26tRNA_Chen_7_solution.pdb,PZ26tRNA_Chen_7_refined.pdb
+2026-03-10 00:33:54 	 RUN refined_pair target=PZ26tRNA_Chen_8_solution.pdb model=PZ26tRNA_Chen_8_refined.pdb -> id=Chen_8
+2026-03-10 00:33:54 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_8_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_8_refined.pdb
+2026-03-10 00:33:57 	 Docker exit code: 0
+2026-03-10 00:33:57 	 Docker output length: 371
+2026-03-10 00:33:57 	 Saved CSV: PZ26tRNA,Chen_8,Chen,8,refined_pair,0.7975886538929158,0.9476070829586857,0.5270462766947299,PZ26tRNA_Chen_8_solution.pdb,PZ26tRNA_Chen_8_refined.pdb
+2026-03-10 00:33:58 	 RUN refined_pair target=PZ26tRNA_Chen_9_solution.pdb model=PZ26tRNA_Chen_9_refined.pdb -> id=Chen_9
+2026-03-10 00:33:58 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_9_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Chen_9_refined.pdb
+2026-03-10 00:34:01 	 Docker exit code: 0
+2026-03-10 00:34:01 	 Docker output length: 369
+2026-03-10 00:34:01 	 Saved CSV: PZ26tRNA,Chen_9,Chen,9,refined_pair,0.8306060398892665,0.9689042833036098,0.629940788348712,PZ26tRNA_Chen_9_solution.pdb,PZ26tRNA_Chen_9_refined.pdb
+2026-03-10 00:34:01 	 RUN refined_pair target=PZ26tRNA_Das_1_solution.pdb model=PZ26tRNA_Das_1_refined.pdb -> id=Das_1
+2026-03-10 00:34:01 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_1_refined.pdb
+2026-03-10 00:34:04 	 Docker exit code: 0
+2026-03-10 00:34:04 	 Docker output length: 369
+2026-03-10 00:34:04 	 Saved CSV: PZ26tRNA,Das_1,Das,1,refined_pair,0.8324139943329636,0.989743318610787,0.5555555555555556,PZ26tRNA_Das_1_solution.pdb,PZ26tRNA_Das_1_refined.pdb
+2026-03-10 00:34:04 	 RUN refined_pair target=PZ26tRNA_Das_10_solution.pdb model=PZ26tRNA_Das_10_refined.pdb -> id=Das_10
+2026-03-10 00:34:04 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_10_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_10_refined.pdb
+2026-03-10 00:34:07 	 Docker exit code: 0
+2026-03-10 00:34:07 	 Docker output length: 369
+2026-03-10 00:34:07 	 Saved CSV: PZ26tRNA,Das_10,Das,10,refined_pair,0.8431552643058035,0.989743318610787,0.629940788348712,PZ26tRNA_Das_10_solution.pdb,PZ26tRNA_Das_10_refined.pdb
+2026-03-10 00:34:07 	 RUN refined_pair target=PZ26tRNA_Das_2_solution.pdb model=PZ26tRNA_Das_2_refined.pdb -> id=Das_2
+2026-03-10 00:34:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_2_refined.pdb
+2026-03-10 00:34:11 	 Docker exit code: 0
+2026-03-10 00:34:11 	 Docker output length: 370
+2026-03-10 00:34:11 	 Saved CSV: PZ26tRNA,Das_2,Das,2,refined_pair,0.8225562820921754,0.9691236661397289,0.5555555555555556,PZ26tRNA_Das_2_solution.pdb,PZ26tRNA_Das_2_refined.pdb
+2026-03-10 00:34:11 	 RUN refined_pair target=PZ26tRNA_Das_3_solution.pdb model=PZ26tRNA_Das_3_refined.pdb -> id=Das_3
+2026-03-10 00:34:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_3_refined.pdb
+2026-03-10 00:34:13 	 Docker exit code: 0
+2026-03-10 00:34:13 	 Docker output length: 368
+2026-03-10 00:34:13 	 Saved CSV: PZ26tRNA,Das_3,Das,3,refined_pair,0.8385488419889461,0.989743318610787,0.5270462766947299,PZ26tRNA_Das_3_solution.pdb,PZ26tRNA_Das_3_refined.pdb
+2026-03-10 00:34:13 	 RUN refined_pair target=PZ26tRNA_Das_4_solution.pdb model=PZ26tRNA_Das_4_refined.pdb -> id=Das_4
+2026-03-10 00:34:13 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_4_refined.pdb
+2026-03-10 00:34:16 	 Docker exit code: 0
+2026-03-10 00:34:16 	 Docker output length: 369
+2026-03-10 00:34:16 	 Saved CSV: PZ26tRNA,Das_4,Das,4,refined_pair,0.8285026496055422,0.9691236661397289,0.5892556509887896,PZ26tRNA_Das_4_solution.pdb,PZ26tRNA_Das_4_refined.pdb
+2026-03-10 00:34:16 	 RUN refined_pair target=PZ26tRNA_Das_5_solution.pdb model=PZ26tRNA_Das_5_refined.pdb -> id=Das_5
+2026-03-10 00:34:16 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_5_refined.pdb
+2026-03-10 00:34:20 	 Docker exit code: 0
+2026-03-10 00:34:20 	 Docker output length: 369
+2026-03-10 00:34:20 	 Saved CSV: PZ26tRNA,Das_5,Das,5,refined_pair,0.8309943925237004,0.989743318610787,0.5892556509887896,PZ26tRNA_Das_5_solution.pdb,PZ26tRNA_Das_5_refined.pdb
+2026-03-10 00:34:20 	 RUN refined_pair target=PZ26tRNA_Das_6_solution.pdb model=PZ26tRNA_Das_6_refined.pdb -> id=Das_6
+2026-03-10 00:34:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_6_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_6_refined.pdb
+2026-03-10 00:34:23 	 Docker exit code: 0
+2026-03-10 00:34:23 	 Docker output length: 370
+2026-03-10 00:34:23 	 Saved CSV: PZ26tRNA,Das_6,Das,6,refined_pair,0.8184035683945534,0.9585413727004499,0.5892556509887896,PZ26tRNA_Das_6_solution.pdb,PZ26tRNA_Das_6_refined.pdb
+2026-03-10 00:34:23 	 RUN refined_pair target=PZ26tRNA_Das_7_solution.pdb model=PZ26tRNA_Das_7_refined.pdb -> id=Das_7
+2026-03-10 00:34:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_7_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_7_refined.pdb
+2026-03-10 00:34:26 	 Docker exit code: 0
+2026-03-10 00:34:26 	 Docker output length: 369
+2026-03-10 00:34:26 	 Saved CSV: PZ26tRNA,Das_7,Das,7,refined_pair,0.8298249619381315,0.989743318610787,0.5892556509887896,PZ26tRNA_Das_7_solution.pdb,PZ26tRNA_Das_7_refined.pdb
+2026-03-10 00:34:26 	 RUN refined_pair target=PZ26tRNA_Das_8_solution.pdb model=PZ26tRNA_Das_8_refined.pdb -> id=Das_8
+2026-03-10 00:34:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_8_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_8_refined.pdb
+2026-03-10 00:34:30 	 Docker exit code: 0
+2026-03-10 00:34:30 	 Docker output length: 370
+2026-03-10 00:34:30 	 Saved CSV: PZ26tRNA,Das_8,Das,8,refined_pair,0.8187552203212656,0.9591836734693877,0.5555555555555556,PZ26tRNA_Das_8_solution.pdb,PZ26tRNA_Das_8_refined.pdb
+2026-03-10 00:34:30 	 RUN refined_pair target=PZ26tRNA_Das_9_solution.pdb model=PZ26tRNA_Das_9_refined.pdb -> id=Das_9
+2026-03-10 00:34:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_9_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Das_9_refined.pdb
+2026-03-10 00:34:33 	 Docker exit code: 0
+2026-03-10 00:34:33 	 Docker output length: 368
+2026-03-10 00:34:33 	 Saved CSV: PZ26tRNA,Das_9,Das,9,refined_pair,0.8377329877141364,0.989743318610787,0.629940788348712,PZ26tRNA_Das_9_solution.pdb,PZ26tRNA_Das_9_refined.pdb
+2026-03-10 00:34:33 	 RUN refined_pair target=PZ26tRNA_Ding_1_solution.pdb model=PZ26tRNA_Ding_1_refined.pdb -> id=Ding_1
+2026-03-10 00:34:33 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_1_refined.pdb
+2026-03-10 00:34:36 	 Docker exit code: 0
+2026-03-10 00:34:36 	 Docker output length: 356
+2026-03-10 00:34:36 	 Saved CSV: PZ26tRNA,Ding_1,Ding,1,refined_pair,0.756988385478056,0.9583148474999099,0,PZ26tRNA_Ding_1_solution.pdb,PZ26tRNA_Ding_1_refined.pdb
+2026-03-10 00:34:36 	 RUN refined_pair target=PZ26tRNA_Ding_2_solution.pdb model=PZ26tRNA_Ding_2_refined.pdb -> id=Ding_2
+2026-03-10 00:34:36 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_2_refined.pdb
+2026-03-10 00:34:39 	 Docker exit code: 0
+2026-03-10 00:34:39 	 Docker output length: 357
+2026-03-10 00:34:39 	 Saved CSV: PZ26tRNA,Ding_2,Ding,2,refined_pair,0.6944166908915425,0.9147320339189784,0,PZ26tRNA_Ding_2_solution.pdb,PZ26tRNA_Ding_2_refined.pdb
+2026-03-10 00:34:39 	 RUN refined_pair target=PZ26tRNA_Ding_3_solution.pdb model=PZ26tRNA_Ding_3_refined.pdb -> id=Ding_3
+2026-03-10 00:34:39 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Ding_3_refined.pdb
+2026-03-10 00:34:42 	 Docker exit code: 0
+2026-03-10 00:34:42 	 Docker output length: 357
+2026-03-10 00:34:42 	 Saved CSV: PZ26tRNA,Ding_3,Ding,3,refined_pair,0.7292503918683461,0.9689042833036098,0,PZ26tRNA_Ding_3_solution.pdb,PZ26tRNA_Ding_3_refined.pdb
+2026-03-10 00:34:42 	 RUN refined_pair target=PZ26tRNA_FARFAR2_1_solution.pdb model=PZ26tRNA_FARFAR2_1_refined.pdb -> id=FARFAR2_1
+2026-03-10 00:34:42 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_1_refined.pdb
+2026-03-10 00:34:45 	 Docker exit code: 0
+2026-03-10 00:34:45 	 Docker output length: 378
+2026-03-10 00:34:45 	 Saved CSV: PZ26tRNA,FARFAR2_1,FARFAR2,1,refined_pair,0.8225562820921754,0.9691236661397289,0.5555555555555556,PZ26tRNA_FARFAR2_1_solution.pdb,PZ26tRNA_FARFAR2_1_refined.pdb
+2026-03-10 00:34:45 	 RUN refined_pair target=PZ26tRNA_FARFAR2_10_solution.pdb model=PZ26tRNA_FARFAR2_10_refined.pdb -> id=FARFAR2_10
+2026-03-10 00:34:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_10_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_10_refined.pdb
+2026-03-10 00:34:48 	 Docker exit code: 0
+2026-03-10 00:34:48 	 Docker output length: 378
+2026-03-10 00:34:48 	 Saved CSV: PZ26tRNA,FARFAR2_10,FARFAR2,10,refined_pair,0.8385488419889461,0.989743318610787,0.5270462766947299,PZ26tRNA_FARFAR2_10_solution.pdb,PZ26tRNA_FARFAR2_10_refined.pdb
+2026-03-10 00:34:48 	 RUN refined_pair target=PZ26tRNA_FARFAR2_2_solution.pdb model=PZ26tRNA_FARFAR2_2_refined.pdb -> id=FARFAR2_2
+2026-03-10 00:34:48 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_2_refined.pdb
+2026-03-10 00:34:51 	 Docker exit code: 0
+2026-03-10 00:34:51 	 Docker output length: 377
+2026-03-10 00:34:51 	 Saved CSV: PZ26tRNA,FARFAR2_2,FARFAR2,2,refined_pair,0.8285026496055422,0.9691236661397289,0.5892556509887896,PZ26tRNA_FARFAR2_2_solution.pdb,PZ26tRNA_FARFAR2_2_refined.pdb
+2026-03-10 00:34:51 	 RUN refined_pair target=PZ26tRNA_FARFAR2_3_solution.pdb model=PZ26tRNA_FARFAR2_3_refined.pdb -> id=FARFAR2_3
+2026-03-10 00:34:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_3_refined.pdb
+2026-03-10 00:34:55 	 Docker exit code: 0
+2026-03-10 00:34:55 	 Docker output length: 377
+2026-03-10 00:34:55 	 Saved CSV: PZ26tRNA,FARFAR2_3,FARFAR2,3,refined_pair,0.8309943925237004,0.989743318610787,0.5892556509887896,PZ26tRNA_FARFAR2_3_solution.pdb,PZ26tRNA_FARFAR2_3_refined.pdb
+2026-03-10 00:34:55 	 RUN refined_pair target=PZ26tRNA_FARFAR2_4_solution.pdb model=PZ26tRNA_FARFAR2_4_refined.pdb -> id=FARFAR2_4
+2026-03-10 00:34:55 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_4_refined.pdb
+2026-03-10 00:34:59 	 Docker exit code: 0
+2026-03-10 00:34:59 	 Docker output length: 378
+2026-03-10 00:34:59 	 Saved CSV: PZ26tRNA,FARFAR2_4,FARFAR2,4,refined_pair,0.8184035683945534,0.9585413727004499,0.5892556509887896,PZ26tRNA_FARFAR2_4_solution.pdb,PZ26tRNA_FARFAR2_4_refined.pdb
+2026-03-10 00:34:59 	 RUN refined_pair target=PZ26tRNA_FARFAR2_5_solution.pdb model=PZ26tRNA_FARFAR2_5_refined.pdb -> id=FARFAR2_5
+2026-03-10 00:34:59 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_5_refined.pdb
+2026-03-10 00:35:02 	 Docker exit code: 0
+2026-03-10 00:35:02 	 Docker output length: 376
+2026-03-10 00:35:02 	 Saved CSV: PZ26tRNA,FARFAR2_5,FARFAR2,5,refined_pair,0.836046076697931,0.9585413727004499,0.5892556509887896,PZ26tRNA_FARFAR2_5_solution.pdb,PZ26tRNA_FARFAR2_5_refined.pdb
+2026-03-10 00:35:02 	 RUN refined_pair target=PZ26tRNA_FARFAR2_6_solution.pdb model=PZ26tRNA_FARFAR2_6_refined.pdb -> id=FARFAR2_6
+2026-03-10 00:35:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_6_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_6_refined.pdb
+2026-03-10 00:35:05 	 Docker exit code: 0
+2026-03-10 00:35:05 	 Docker output length: 377
+2026-03-10 00:35:05 	 Saved CSV: PZ26tRNA,FARFAR2_6,FARFAR2,6,refined_pair,0.8298249619381315,0.989743318610787,0.5892556509887896,PZ26tRNA_FARFAR2_6_solution.pdb,PZ26tRNA_FARFAR2_6_refined.pdb
+2026-03-10 00:35:05 	 RUN refined_pair target=PZ26tRNA_FARFAR2_7_solution.pdb model=PZ26tRNA_FARFAR2_7_refined.pdb -> id=FARFAR2_7
+2026-03-10 00:35:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_7_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_7_refined.pdb
+2026-03-10 00:35:08 	 Docker exit code: 0
+2026-03-10 00:35:08 	 Docker output length: 378
+2026-03-10 00:35:08 	 Saved CSV: PZ26tRNA,FARFAR2_7,FARFAR2,7,refined_pair,0.8187552203212656,0.9591836734693877,0.5555555555555556,PZ26tRNA_FARFAR2_7_solution.pdb,PZ26tRNA_FARFAR2_7_refined.pdb
+2026-03-10 00:35:08 	 RUN refined_pair target=PZ26tRNA_FARFAR2_8_solution.pdb model=PZ26tRNA_FARFAR2_8_refined.pdb -> id=FARFAR2_8
+2026-03-10 00:35:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_8_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_8_refined.pdb
+2026-03-10 00:35:11 	 Docker exit code: 0
+2026-03-10 00:35:11 	 Docker output length: 378
+2026-03-10 00:35:11 	 Saved CSV: PZ26tRNA,FARFAR2_8,FARFAR2,8,refined_pair,0.8197753604518802,0.9793792286287205,0.5892556509887896,PZ26tRNA_FARFAR2_8_solution.pdb,PZ26tRNA_FARFAR2_8_refined.pdb
+2026-03-10 00:35:11 	 RUN refined_pair target=PZ26tRNA_FARFAR2_9_solution.pdb model=PZ26tRNA_FARFAR2_9_refined.pdb -> id=FARFAR2_9
+2026-03-10 00:35:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_9_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_FARFAR2_9_refined.pdb
+2026-03-10 00:35:14 	 Docker exit code: 0
+2026-03-10 00:35:14 	 Docker output length: 376
+2026-03-10 00:35:14 	 Saved CSV: PZ26tRNA,FARFAR2_9,FARFAR2,9,refined_pair,0.8222261143812577,0.9691236661397289,0.629940788348712,PZ26tRNA_FARFAR2_9_solution.pdb,PZ26tRNA_FARFAR2_9_refined.pdb
+2026-03-10 00:35:14 	 RUN refined_pair target=PZ26tRNA_iFoldRNA_1_solution.pdb model=PZ26tRNA_iFoldRNA_1_refined.pdb -> id=iFoldRNA_1
+2026-03-10 00:35:14 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_iFoldRNA_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_iFoldRNA_1_refined.pdb
+2026-03-10 00:35:17 	 Docker exit code: 0
+2026-03-10 00:35:17 	 Docker output length: 365
+2026-03-10 00:35:17 	 Saved CSV: PZ26tRNA,iFoldRNA_1,iFoldRNA,1,refined_pair,0.7291989533028903,0.8866450562554967,0,PZ26tRNA_iFoldRNA_1_solution.pdb,PZ26tRNA_iFoldRNA_1_refined.pdb
+2026-03-10 00:35:17 	 RUN refined_pair target=PZ26tRNA_iFoldRNA_2_solution.pdb model=PZ26tRNA_iFoldRNA_2_refined.pdb -> id=iFoldRNA_2
+2026-03-10 00:35:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_iFoldRNA_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_iFoldRNA_2_refined.pdb
+2026-03-10 00:35:20 	 Docker exit code: 0
+2026-03-10 00:35:20 	 Docker output length: 364
+2026-03-10 00:35:20 	 Saved CSV: PZ26tRNA,iFoldRNA_2,iFoldRNA,2,refined_pair,0.6986302914538675,0.766651877999928,0,PZ26tRNA_iFoldRNA_2_solution.pdb,PZ26tRNA_iFoldRNA_2_refined.pdb
+2026-03-10 00:35:20 	 RUN refined_pair target=PZ26tRNA_RNAComposer_1_solution.pdb model=PZ26tRNA_RNAComposer_1_refined.pdb -> id=RNAComposer_1
+2026-03-10 00:35:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_1_refined.pdb
+2026-03-10 00:35:23 	 Docker exit code: 0
+2026-03-10 00:35:23 	 Docker output length: 386
+2026-03-10 00:35:23 	 Saved CSV: PZ26tRNA,RNAComposer_1,RNAComposer,1,refined_pair,0.7998463958573198,0.9367769320431429,0.5962847939999439,PZ26tRNA_RNAComposer_1_solution.pdb,PZ26tRNA_RNAComposer_1_refined.pdb
+2026-03-10 00:35:23 	 RUN refined_pair target=PZ26tRNA_RNAComposer_2_solution.pdb model=PZ26tRNA_RNAComposer_2_refined.pdb -> id=RNAComposer_2
+2026-03-10 00:35:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_2_refined.pdb
+2026-03-10 00:35:26 	 Docker exit code: 0
+2026-03-10 00:35:26 	 Docker output length: 386
+2026-03-10 00:35:26 	 Saved CSV: PZ26tRNA,RNAComposer_2,RNAComposer,2,refined_pair,0.7877173445839877,0.9367769320431429,0.3849001794597505,PZ26tRNA_RNAComposer_2_solution.pdb,PZ26tRNA_RNAComposer_2_refined.pdb
+2026-03-10 00:35:26 	 RUN refined_pair target=PZ26tRNA_RNAComposer_3_solution.pdb model=PZ26tRNA_RNAComposer_3_refined.pdb -> id=RNAComposer_3
+2026-03-10 00:35:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_RNAComposer_3_refined.pdb
+2026-03-10 00:35:30 	 Docker exit code: 0
+2026-03-10 00:35:30 	 Docker output length: 386
+2026-03-10 00:35:30 	 Saved CSV: PZ26tRNA,RNAComposer_3,RNAComposer,3,refined_pair,0.8078384583741822,0.9476070829586857,0.6666666666666666,PZ26tRNA_RNAComposer_3_solution.pdb,PZ26tRNA_RNAComposer_3_refined.pdb
+2026-03-10 00:35:30 	 RUN refined_pair target=PZ26tRNA_SimRNA_1_solution.pdb model=PZ26tRNA_SimRNA_1_refined.pdb -> id=SimRNA_1
+2026-03-10 00:35:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_1_refined.pdb
+2026-03-10 00:35:33 	 Docker exit code: 0
+2026-03-10 00:35:33 	 Docker output length: 360
+2026-03-10 00:35:33 	 Saved CSV: PZ26tRNA,SimRNA_1,SimRNA,1,refined_pair,0.778705964227451,0.9201840552184065,0,PZ26tRNA_SimRNA_1_solution.pdb,PZ26tRNA_SimRNA_1_refined.pdb
+2026-03-10 00:35:33 	 RUN refined_pair target=PZ26tRNA_SimRNA_2_solution.pdb model=PZ26tRNA_SimRNA_2_refined.pdb -> id=SimRNA_2
+2026-03-10 00:35:33 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_2_refined.pdb
+2026-03-10 00:35:37 	 Docker exit code: 0
+2026-03-10 00:35:37 	 Docker output length: 361
+2026-03-10 00:35:37 	 Saved CSV: PZ26tRNA,SimRNA_2,SimRNA,2,refined_pair,0.7309333151025545,0.9183673469387755,0,PZ26tRNA_SimRNA_2_solution.pdb,PZ26tRNA_SimRNA_2_refined.pdb
+2026-03-10 00:35:37 	 RUN refined_pair target=PZ26tRNA_SimRNA_3_solution.pdb model=PZ26tRNA_SimRNA_3_refined.pdb -> id=SimRNA_3
+2026-03-10 00:35:37 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_3_refined.pdb
+2026-03-10 00:35:40 	 Docker exit code: 0
+2026-03-10 00:35:40 	 Docker output length: 359
+2026-03-10 00:35:40 	 Saved CSV: PZ26tRNA,SimRNA_3,SimRNA,3,refined_pair,0.7054131098174972,0.8846517369293827,0,PZ26tRNA_SimRNA_3_solution.pdb,PZ26tRNA_SimRNA_3_refined.pdb
+2026-03-10 00:35:40 	 RUN refined_pair target=PZ26tRNA_SimRNA_4_solution.pdb model=PZ26tRNA_SimRNA_4_refined.pdb -> id=SimRNA_4
+2026-03-10 00:35:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_4_refined.pdb
+2026-03-10 00:35:43 	 Docker exit code: 0
+2026-03-10 00:35:43 	 Docker output length: 361
+2026-03-10 00:35:43 	 Saved CSV: PZ26tRNA,SimRNA_4,SimRNA,4,refined_pair,0.6874726222731293,0.7924288517503273,0,PZ26tRNA_SimRNA_4_solution.pdb,PZ26tRNA_SimRNA_4_refined.pdb
+2026-03-10 00:35:43 	 RUN refined_pair target=PZ26tRNA_SimRNA_5_solution.pdb model=PZ26tRNA_SimRNA_5_refined.pdb -> id=SimRNA_5
+2026-03-10 00:35:43 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_SimRNA_5_refined.pdb
+2026-03-10 00:35:46 	 Docker exit code: 0
+2026-03-10 00:35:46 	 Docker output length: 360
+2026-03-10 00:35:46 	 Saved CSV: PZ26tRNA,SimRNA_5,SimRNA,5,refined_pair,0.7773109762515704,0.9183673469387755,0,PZ26tRNA_SimRNA_5_solution.pdb,PZ26tRNA_SimRNA_5_refined.pdb
+2026-03-10 00:35:46 	 RUN refined_pair target=PZ26tRNA_TFN_1_solution.pdb model=PZ26tRNA_TFN_1_refined.pdb -> id=TFN_1
+2026-03-10 00:35:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_1_refined.pdb
+2026-03-10 00:35:50 	 Docker exit code: 0
+2026-03-10 00:35:50 	 Docker output length: 369
+2026-03-10 00:35:50 	 Saved CSV: PZ26tRNA,TFN_1,TFN,1,refined_pair,0.8170450295002507,0.989743318610787,0.5270462766947299,PZ26tRNA_TFN_1_solution.pdb,PZ26tRNA_TFN_1_refined.pdb
+2026-03-10 00:35:50 	 RUN refined_pair target=PZ26tRNA_TFN_10_solution.pdb model=PZ26tRNA_TFN_10_refined.pdb -> id=TFN_10
+2026-03-10 00:35:50 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_10_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_10_refined.pdb
+2026-03-10 00:35:53 	 Docker exit code: 0
+2026-03-10 00:35:53 	 Docker output length: 371
+2026-03-10 00:35:53 	 Saved CSV: PZ26tRNA,TFN_10,TFN,10,refined_pair,0.8197753604518802,0.9585413727004499,0.5892556509887896,PZ26tRNA_TFN_10_solution.pdb,PZ26tRNA_TFN_10_refined.pdb
+2026-03-10 00:35:53 	 RUN refined_pair target=PZ26tRNA_TFN_2_solution.pdb model=PZ26tRNA_TFN_2_refined.pdb -> id=TFN_2
+2026-03-10 00:35:53 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_2_refined.pdb
+2026-03-10 00:35:56 	 Docker exit code: 0
+2026-03-10 00:35:56 	 Docker output length: 370
+2026-03-10 00:35:56 	 Saved CSV: PZ26tRNA,TFN_2,TFN,2,refined_pair,0.8309943925237004,0.9691236661397289,0.6804138174397717,PZ26tRNA_TFN_2_solution.pdb,PZ26tRNA_TFN_2_refined.pdb
+2026-03-10 00:35:56 	 RUN refined_pair target=PZ26tRNA_TFN_3_solution.pdb model=PZ26tRNA_TFN_3_refined.pdb -> id=TFN_3
+2026-03-10 00:35:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_3_refined.pdb
+2026-03-10 00:35:59 	 Docker exit code: 0
+2026-03-10 00:35:59 	 Docker output length: 369
+2026-03-10 00:35:59 	 Saved CSV: PZ26tRNA,TFN_3,TFN,3,refined_pair,0.8448066691679681,0.989743318610787,0.5555555555555556,PZ26tRNA_TFN_3_solution.pdb,PZ26tRNA_TFN_3_refined.pdb
+2026-03-10 00:35:59 	 RUN refined_pair target=PZ26tRNA_TFN_4_solution.pdb model=PZ26tRNA_TFN_4_refined.pdb -> id=TFN_4
+2026-03-10 00:35:59 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_4_refined.pdb
+2026-03-10 00:36:02 	 Docker exit code: 0
+2026-03-10 00:36:02 	 Docker output length: 368
+2026-03-10 00:36:02 	 Saved CSV: PZ26tRNA,TFN_4,TFN,4,refined_pair,0.8398232137200248,0.989743318610787,0.5270462766947299,PZ26tRNA_TFN_4_solution.pdb,PZ26tRNA_TFN_4_refined.pdb
+2026-03-10 00:36:02 	 RUN refined_pair target=PZ26tRNA_TFN_5_solution.pdb model=PZ26tRNA_TFN_5_refined.pdb -> id=TFN_5
+2026-03-10 00:36:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_5_refined.pdb
+2026-03-10 00:36:06 	 Docker exit code: 0
+2026-03-10 00:36:06 	 Docker output length: 369
+2026-03-10 00:36:07 	 Saved CSV: PZ26tRNA,TFN_5,TFN,5,refined_pair,0.8461376739735587,0.9691236661397289,0.5892556509887896,PZ26tRNA_TFN_5_solution.pdb,PZ26tRNA_TFN_5_refined.pdb
+2026-03-10 00:36:07 	 RUN refined_pair target=PZ26tRNA_TFN_6_solution.pdb model=PZ26tRNA_TFN_6_refined.pdb -> id=TFN_6
+2026-03-10 00:36:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_6_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_6_refined.pdb
+2026-03-10 00:36:10 	 Docker exit code: 0
+2026-03-10 00:36:10 	 Docker output length: 369
+2026-03-10 00:36:10 	 Saved CSV: PZ26tRNA,TFN_6,TFN,6,refined_pair,0.8335087534664907,0.9793792286287205,0.5555555555555556,PZ26tRNA_TFN_6_solution.pdb,PZ26tRNA_TFN_6_refined.pdb
+2026-03-10 00:36:10 	 RUN refined_pair target=PZ26tRNA_TFN_7_solution.pdb model=PZ26tRNA_TFN_7_refined.pdb -> id=TFN_7
+2026-03-10 00:36:10 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_7_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_7_refined.pdb
+2026-03-10 00:36:13 	 Docker exit code: 0
+2026-03-10 00:36:13 	 Docker output length: 368
+2026-03-10 00:36:13 	 Saved CSV: PZ26tRNA,TFN_7,TFN,7,refined_pair,0.8246989804591269,0.9691236661397289,0.629940788348712,PZ26tRNA_TFN_7_solution.pdb,PZ26tRNA_TFN_7_refined.pdb
+2026-03-10 00:36:13 	 RUN refined_pair target=PZ26tRNA_TFN_8_solution.pdb model=PZ26tRNA_TFN_8_refined.pdb -> id=TFN_8
+2026-03-10 00:36:13 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_8_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_8_refined.pdb
+2026-03-10 00:36:16 	 Docker exit code: 0
+2026-03-10 00:36:16 	 Docker output length: 369
+2026-03-10 00:36:16 	 Saved CSV: PZ26tRNA,TFN_8,TFN,8,refined_pair,0.8170450295002507,0.9691236661397289,0.5892556509887896,PZ26tRNA_TFN_8_solution.pdb,PZ26tRNA_TFN_8_refined.pdb
+2026-03-10 00:36:16 	 RUN refined_pair target=PZ26tRNA_TFN_9_solution.pdb model=PZ26tRNA_TFN_9_refined.pdb -> id=TFN_9
+2026-03-10 00:36:16 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_9_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_TFN_9_refined.pdb
+2026-03-10 00:36:20 	 Docker exit code: 0
+2026-03-10 00:36:20 	 Docker output length: 368
+2026-03-10 00:36:20 	 Saved CSV: PZ26tRNA,TFN_9,TFN,9,refined_pair,0.8285026496055422,0.9691236661397289,0.629940788348712,PZ26tRNA_TFN_9_solution.pdb,PZ26tRNA_TFN_9_refined.pdb
+2026-03-10 00:36:20 	 RUN refined_pair target=PZ26tRNA_Xiao_1_solution.pdb model=PZ26tRNA_Xiao_1_refined.pdb -> id=Xiao_1
+2026-03-10 00:36:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_1_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_1_refined.pdb
+2026-03-10 00:36:23 	 Docker exit code: 0
+2026-03-10 00:36:23 	 Docker output length: 357
+2026-03-10 00:36:23 	 Saved CSV: PZ26tRNA,Xiao_1,Xiao,1,refined_pair,0.5594896472800314,0.5939441718716427,0,PZ26tRNA_Xiao_1_solution.pdb,PZ26tRNA_Xiao_1_refined.pdb
+2026-03-10 00:36:23 	 RUN refined_pair target=PZ26tRNA_Xiao_2_solution.pdb model=PZ26tRNA_Xiao_2_refined.pdb -> id=Xiao_2
+2026-03-10 00:36:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_2_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_2_refined.pdb
+2026-03-10 00:36:26 	 Docker exit code: 0
+2026-03-10 00:36:26 	 Docker output length: 357
+2026-03-10 00:36:26 	 Saved CSV: PZ26tRNA,Xiao_2,Xiao,2,refined_pair,0.5213827272083664,0.42931483143468957,0,PZ26tRNA_Xiao_2_solution.pdb,PZ26tRNA_Xiao_2_refined.pdb
+2026-03-10 00:36:26 	 RUN refined_pair target=PZ26tRNA_Xiao_3_solution.pdb model=PZ26tRNA_Xiao_3_refined.pdb -> id=Xiao_3
+2026-03-10 00:36:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_3_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_3_refined.pdb
+2026-03-10 00:36:29 	 Docker exit code: 0
+2026-03-10 00:36:29 	 Docker output length: 356
+2026-03-10 00:36:29 	 Saved CSV: PZ26tRNA,Xiao_3,Xiao,3,refined_pair,0.5265724662943427,0.4361843049221676,0,PZ26tRNA_Xiao_3_solution.pdb,PZ26tRNA_Xiao_3_refined.pdb
+2026-03-10 00:36:29 	 RUN refined_pair target=PZ26tRNA_Xiao_4_solution.pdb model=PZ26tRNA_Xiao_4_refined.pdb -> id=Xiao_4
+2026-03-10 00:36:29 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_4_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_4_refined.pdb
+2026-03-10 00:36:32 	 Docker exit code: 0
+2026-03-10 00:36:32 	 Docker output length: 356
+2026-03-10 00:36:32 	 Saved CSV: PZ26tRNA,Xiao_4,Xiao,4,refined_pair,0.5309064691552228,0.4361843049221676,0,PZ26tRNA_Xiao_4_solution.pdb,PZ26tRNA_Xiao_4_refined.pdb
+2026-03-10 00:36:32 	 RUN refined_pair target=PZ26tRNA_Xiao_5_solution.pdb model=PZ26tRNA_Xiao_5_refined.pdb -> id=Xiao_5
+2026-03-10 00:36:32 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_5_solution.pdb /work/data/finished/PZ26tRNA/pdb/PZ26tRNA_Xiao_5_refined.pdb
+2026-03-10 00:36:36 	 Docker exit code: 0
+2026-03-10 00:36:36 	 Docker output length: 356
+2026-03-10 00:36:36 	 Saved CSV: PZ26tRNA,Xiao_5,Xiao,5,refined_pair,0.5309064691552228,0.4361843049221676,0,PZ26tRNA_Xiao_5_solution.pdb,PZ26tRNA_Xiao_5_refined.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_10_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_6_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_7_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_8_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Chen_9_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_10_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_6_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_7_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_8_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Das_9_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Ding_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Ding_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_Ding_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_10_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_6_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_7_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_8_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_9_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_solution_0.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_1_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_10_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_2_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_3_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_4_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_5_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_6_solution.pdb
+2026-03-10 00:36:36 	 SKIP (model is a solution file): PZ26tRNA_TFN_7_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_TFN_8_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_TFN_9_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_Xiao_1_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_Xiao_2_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_Xiao_3_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_Xiao_4_solution.pdb
+2026-03-10 00:36:37 	 SKIP (model is a solution file): PZ26tRNA_Xiao_5_solution.pdb
+2026-03-10 00:36:37 	 DONE case: PZ26tRNA
+2026-03-10 01:12:42 	 START case: PZ26tRNA
+2026-03-10 01:12:42 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA
+2026-03-10 01:12:42 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA\pdb
+2026-03-10 01:12:42 	 Found pdb count: 135
+2026-03-10 01:12:42 	 Global solution: PZ26tRNA_solution_0.pdb
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_10
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_6
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_7
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_8
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Chen_9
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Ding_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Ding_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): Ding_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_1
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_10
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_2
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_3
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_4
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_5
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_6
+2026-03-10 01:12:42 	 SKIP already recorded (refined): FARFAR2_7
+2026-03-10 01:12:43 	 SKIP already recorded (refined): FARFAR2_8
+2026-03-10 01:12:43 	 SKIP already recorded (refined): FARFAR2_9
+2026-03-10 01:12:43 	 SKIP already recorded (refined): iFoldRNA_1
+2026-03-10 01:12:43 	 SKIP already recorded (refined): iFoldRNA_2
+2026-03-10 01:12:43 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:12:43 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:12:43 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:12:43 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:12:43 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:12:43 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:12:43 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:12:43 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_1
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_10
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_2
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_3
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_4
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_5
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_6
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_7
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_8
+2026-03-10 01:12:43 	 SKIP already recorded (refined): TFN_9
+2026-03-10 01:12:43 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:12:43 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:12:43 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:12:43 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:12:43 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_4_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_4_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_5_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_10_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_4_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_5_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_6_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_7_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_8_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Chen_9_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_10_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_4_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_5_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_6_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_7_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_8_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Das_9_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Ding_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Ding_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_Ding_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_10_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_4_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_5_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_6_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_7_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_8_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_9_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_1_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_2_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_3_solution.pdb
+2026-03-10 01:12:43 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_1_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_2_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_3_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_4_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_5_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_solution_0.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_1_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_10_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_2_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_3_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_4_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_5_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_6_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_7_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_8_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_TFN_9_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_Xiao_1_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_Xiao_2_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_Xiao_3_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_Xiao_4_solution.pdb
+2026-03-10 01:12:44 	 SKIP (model is a solution file): PZ26tRNA_Xiao_5_solution.pdb
+2026-03-10 01:12:44 	 DONE case: PZ26tRNA
+2026-03-10 01:17:25 	 START case: PZ26tRNA
+2026-03-10 01:17:25 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA
+2026-03-10 01:17:25 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA\pdb
+2026-03-10 01:17:26 	 Found pdb count: 135
+2026-03-10 01:17:26 	 Global solution: PZ26tRNA_solution_0.pdb
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_10
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_6
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_7
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_8
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Chen_9
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Ding_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Ding_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): Ding_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_10
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_4
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_5
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_6
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_7
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_8
+2026-03-10 01:17:26 	 SKIP already recorded (refined): FARFAR2_9
+2026-03-10 01:17:26 	 SKIP already recorded (refined): iFoldRNA_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): iFoldRNA_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:17:26 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:17:26 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:17:26 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:17:27 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:17:27 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:17:27 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:17:27 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_1
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_10
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_2
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_3
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_4
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_5
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_6
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_7
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_8
+2026-03-10 01:17:27 	 SKIP already recorded (refined): TFN_9
+2026-03-10 01:17:27 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:17:27 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:17:27 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:17:27 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:17:27 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_5_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_10_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_5_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_6_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_7_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_8_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Chen_9_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_10_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_5_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_6_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_7_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_8_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Das_9_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Ding_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Ding_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_Ding_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_10_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_5_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_6_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_7_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_8_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_9_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_3_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_4_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_5_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_solution_0.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_TFN_1_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_TFN_10_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_TFN_2_solution.pdb
+2026-03-10 01:17:27 	 SKIP (model is a solution file): PZ26tRNA_TFN_3_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_4_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_5_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_6_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_7_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_8_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_TFN_9_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_Xiao_1_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_Xiao_2_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_Xiao_3_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_Xiao_4_solution.pdb
+2026-03-10 01:17:28 	 SKIP (model is a solution file): PZ26tRNA_Xiao_5_solution.pdb
+2026-03-10 01:17:28 	 DONE case: PZ26tRNA
+2026-03-10 01:21:53 	 START case: PZ26tRNA
+2026-03-10 01:21:53 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA
+2026-03-10 01:21:53 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ26tRNA\pdb
+2026-03-10 01:21:53 	 Found pdb count: 135
+2026-03-10 01:21:53 	 Global solution: PZ26tRNA_solution_0.pdb
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_10
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_6
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_7
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_8
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Chen_9
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Ding_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Ding_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): Ding_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_10
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_3
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_4
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_5
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_6
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_7
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_8
+2026-03-10 01:21:53 	 SKIP already recorded (refined): FARFAR2_9
+2026-03-10 01:21:53 	 SKIP already recorded (refined): iFoldRNA_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): iFoldRNA_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:21:53 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:21:53 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:21:54 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:21:54 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:21:54 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:21:54 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:21:54 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_1
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_10
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_2
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_3
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_4
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_5
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_6
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_7
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_8
+2026-03-10 01:21:54 	 SKIP already recorded (refined): TFN_9
+2026-03-10 01:21:54 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:21:54 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:21:54 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:21:54 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:21:54 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Adamiak_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Bujnicki_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_10_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_6_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_7_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_8_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Chen_9_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_10_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_6_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_7_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_8_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Das_9_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Ding_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Ding_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Ding_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_10_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_6_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_7_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_8_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_FARFAR2_9_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_iFoldRNA_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_RNAComposer_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_SimRNA_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_solution_0.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_1_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_10_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_2_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_3_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_4_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_5_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_6_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_7_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_8_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_TFN_9_solution.pdb
+2026-03-10 01:21:54 	 SKIP (model is a solution file): PZ26tRNA_Xiao_1_solution.pdb
+2026-03-10 01:21:55 	 SKIP (model is a solution file): PZ26tRNA_Xiao_2_solution.pdb
+2026-03-10 01:21:55 	 SKIP (model is a solution file): PZ26tRNA_Xiao_3_solution.pdb
+2026-03-10 01:21:55 	 SKIP (model is a solution file): PZ26tRNA_Xiao_4_solution.pdb
+2026-03-10 01:21:55 	 SKIP (model is a solution file): PZ26tRNA_Xiao_5_solution.pdb
+2026-03-10 01:21:55 	 DONE case: PZ26tRNA

@@ -1,0 +1,572 @@
+2026-03-10 00:30:51 	 START case: PZ22
+2026-03-10 00:30:51 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22
+2026-03-10 00:30:51 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22\pdb
+2026-03-10 00:30:51 	 Found pdb count: 92
+2026-03-10 00:30:51 	 Global solution: PZ22_solution_0.pdb
+2026-03-10 00:30:51 	 RUN refined_pair target=PZ22_Adamiak_1_solution.pdb model=PZ22_Adamiak_1_refined.pdb -> id=Adamiak_1
+2026-03-10 00:30:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Adamiak_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Adamiak_1_refined.pdb
+2026-03-10 00:30:55 	 Docker exit code: 0
+2026-03-10 00:30:55 	 Docker output length: 355
+2026-03-10 00:30:55 	 Saved CSV: PZ22,Adamiak_1,Adamiak,1,refined_pair,0.6751399510385769,0.7505683356701915,0,PZ22_Adamiak_1_solution.pdb,PZ22_Adamiak_1_refined.pdb
+2026-03-10 00:30:55 	 RUN refined_pair target=PZ22_Adamiak_2_solution.pdb model=PZ22_Adamiak_2_refined.pdb -> id=Adamiak_2
+2026-03-10 00:30:55 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Adamiak_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Adamiak_2_refined.pdb
+2026-03-10 00:30:58 	 Docker exit code: 0
+2026-03-10 00:30:58 	 Docker output length: 370
+2026-03-10 00:30:58 	 Saved CSV: PZ22,Adamiak_2,Adamiak,2,refined_pair,0.6744186046511628,0.6748819059987713,0.2672612419124244,PZ22_Adamiak_2_solution.pdb,PZ22_Adamiak_2_refined.pdb
+2026-03-10 00:30:58 	 RUN refined_pair target=PZ22_Adamiak_3_solution.pdb model=PZ22_Adamiak_3_refined.pdb -> id=Adamiak_3
+2026-03-10 00:30:58 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Adamiak_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Adamiak_3_refined.pdb
+2026-03-10 00:31:01 	 Docker exit code: 0
+2026-03-10 00:31:01 	 Docker output length: 367
+2026-03-10 00:31:01 	 Saved CSV: PZ22,Adamiak_3,Adamiak,3,refined_pair,0.627906976744186,0.539905524799017,0.21821789023599236,PZ22_Adamiak_3_solution.pdb,PZ22_Adamiak_3_refined.pdb
+2026-03-10 00:31:01 	 RUN refined_pair target=PZ22_Adamiak_4_solution.pdb model=PZ22_Adamiak_4_refined.pdb -> id=Adamiak_4
+2026-03-10 00:31:01 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Adamiak_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Adamiak_4_refined.pdb
+2026-03-10 00:31:03 	 Docker exit code: 0
+2026-03-10 00:31:03 	 Docker output length: 354
+2026-03-10 00:31:03 	 Saved CSV: PZ22,Adamiak_4,Adamiak,4,refined_pair,0.6478946224969497,0.780398972571708,0,PZ22_Adamiak_4_solution.pdb,PZ22_Adamiak_4_refined.pdb
+2026-03-10 00:31:03 	 RUN refined_pair target=PZ22_Adamiak_5_solution.pdb model=PZ22_Adamiak_5_refined.pdb -> id=Adamiak_5
+2026-03-10 00:31:03 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Adamiak_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Adamiak_5_refined.pdb
+2026-03-10 00:31:06 	 Docker exit code: 0
+2026-03-10 00:31:06 	 Docker output length: 370
+2026-03-10 00:31:06 	 Saved CSV: PZ22,Adamiak_5,Adamiak,5,refined_pair,0.6782367663050285,0.7947194142390263,0.1543033499620919,PZ22_Adamiak_5_solution.pdb,PZ22_Adamiak_5_refined.pdb
+2026-03-10 00:31:06 	 RUN refined_pair target=PZ22_Bujnicki_1_solution.pdb model=PZ22_Bujnicki_1_refined.pdb -> id=Bujnicki_1
+2026-03-10 00:31:06 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Bujnicki_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Bujnicki_1_refined.pdb
+2026-03-10 00:31:09 	 Docker exit code: 0
+2026-03-10 00:31:09 	 Docker output length: 356
+2026-03-10 00:31:09 	 Saved CSV: PZ22,Bujnicki_1,Bujnicki,1,refined_pair,0.6524508696599647,0.766825781116149,0,PZ22_Bujnicki_1_solution.pdb,PZ22_Bujnicki_1_refined.pdb
+2026-03-10 00:31:09 	 RUN refined_pair target=PZ22_Bujnicki_2_solution.pdb model=PZ22_Bujnicki_2_refined.pdb -> id=Bujnicki_2
+2026-03-10 00:31:09 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Bujnicki_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Bujnicki_2_refined.pdb
+2026-03-10 00:31:12 	 Docker exit code: 0
+2026-03-10 00:31:12 	 Docker output length: 355
+2026-03-10 00:31:12 	 Saved CSV: PZ22,Bujnicki_2,Bujnicki,2,refined_pair,0.6577799165409743,0.780398972571708,0,PZ22_Bujnicki_2_solution.pdb,PZ22_Bujnicki_2_refined.pdb
+2026-03-10 00:31:12 	 RUN refined_pair target=PZ22_Bujnicki_3_solution.pdb model=PZ22_Bujnicki_3_refined.pdb -> id=Bujnicki_3
+2026-03-10 00:31:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Bujnicki_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Bujnicki_3_refined.pdb
+2026-03-10 00:31:15 	 Docker exit code: 0
+2026-03-10 00:31:15 	 Docker output length: 371
+2026-03-10 00:31:15 	 Saved CSV: PZ22,Bujnicki_3,Bujnicki,3,refined_pair,0.6093818810370116,0.678914604256241,0.1889822365046136,PZ22_Bujnicki_3_solution.pdb,PZ22_Bujnicki_3_refined.pdb
+2026-03-10 00:31:15 	 RUN refined_pair target=PZ22_Bujnicki_4_solution.pdb model=PZ22_Bujnicki_4_refined.pdb -> id=Bujnicki_4
+2026-03-10 00:31:15 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Bujnicki_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Bujnicki_4_refined.pdb
+2026-03-10 00:31:17 	 Docker exit code: 0
+2026-03-10 00:31:17 	 Docker output length: 356
+2026-03-10 00:31:17 	 Saved CSV: PZ22,Bujnicki_4,Bujnicki,4,refined_pair,0.6840210730306082,0.7505683356701915,0,PZ22_Bujnicki_4_solution.pdb,PZ22_Bujnicki_4_refined.pdb
+2026-03-10 00:31:17 	 RUN refined_pair target=PZ22_Bujnicki_5_solution.pdb model=PZ22_Bujnicki_5_refined.pdb -> id=Bujnicki_5
+2026-03-10 00:31:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Bujnicki_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Bujnicki_5_refined.pdb
+2026-03-10 00:31:20 	 Docker exit code: 0
+2026-03-10 00:31:20 	 Docker output length: 357
+2026-03-10 00:31:20 	 Saved CSV: PZ22,Bujnicki_5,Bujnicki,5,refined_pair,0.6524508696599647,0.6701662532667128,0,PZ22_Bujnicki_5_solution.pdb,PZ22_Bujnicki_5_refined.pdb
+2026-03-10 00:31:20 	 RUN refined_pair target=PZ22_Chen_1_solution.pdb model=PZ22_Chen_1_refined.pdb -> id=Chen_1
+2026-03-10 00:31:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Chen_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Chen_1_refined.pdb
+2026-03-10 00:31:23 	 Docker exit code: 0
+2026-03-10 00:31:23 	 Docker output length: 364
+2026-03-10 00:31:23 	 Saved CSV: PZ22,Chen_1,Chen,1,refined_pair,0.7307523444215928,0.7947194142390263,0.2672612419124244,PZ22_Chen_1_solution.pdb,PZ22_Chen_1_refined.pdb
+2026-03-10 00:31:23 	 RUN refined_pair target=PZ22_Chen_2_solution.pdb model=PZ22_Chen_2_refined.pdb -> id=Chen_2
+2026-03-10 00:31:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Chen_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Chen_2_refined.pdb
+2026-03-10 00:31:26 	 Docker exit code: 0
+2026-03-10 00:31:26 	 Docker output length: 364
+2026-03-10 00:31:26 	 Saved CSV: PZ22,Chen_2,Chen,2,refined_pair,0.7191215911882335,0.7947194142390263,0.3779644730092272,PZ22_Chen_2_solution.pdb,PZ22_Chen_2_refined.pdb
+2026-03-10 00:31:26 	 RUN refined_pair target=PZ22_Chen_3_solution.pdb model=PZ22_Chen_3_refined.pdb -> id=Chen_3
+2026-03-10 00:31:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Chen_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Chen_3_refined.pdb
+2026-03-10 00:31:29 	 Docker exit code: 0
+2026-03-10 00:31:29 	 Docker output length: 363
+2026-03-10 00:31:29 	 Saved CSV: PZ22,Chen_3,Chen,3,refined_pair,0.7379946876771947,0.7947194142390263,0.2672612419124244,PZ22_Chen_3_solution.pdb,PZ22_Chen_3_refined.pdb
+2026-03-10 00:31:29 	 RUN refined_pair target=PZ22_Chen_4_solution.pdb model=PZ22_Chen_4_refined.pdb -> id=Chen_4
+2026-03-10 00:31:29 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Chen_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Chen_4_refined.pdb
+2026-03-10 00:31:32 	 Docker exit code: 0
+2026-03-10 00:31:32 	 Docker output length: 364
+2026-03-10 00:31:32 	 Saved CSV: PZ22,Chen_4,Chen,4,refined_pair,0.7160940564439972,0.7947194142390263,0.2672612419124244,PZ22_Chen_4_solution.pdb,PZ22_Chen_4_refined.pdb
+2026-03-10 00:31:32 	 RUN refined_pair target=PZ22_Chen_5_solution.pdb model=PZ22_Chen_5_refined.pdb -> id=Chen_5
+2026-03-10 00:31:32 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Chen_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Chen_5_refined.pdb
+2026-03-10 00:31:35 	 Docker exit code: 0
+2026-03-10 00:31:35 	 Docker output length: 348
+2026-03-10 00:31:35 	 Saved CSV: PZ22,Chen_5,Chen,5,refined_pair,0.701195747054347,0.7947194142390263,0.3779644730092272,PZ22_Chen_5_solution.pdb,PZ22_Chen_5_refined.pdb
+2026-03-10 00:31:35 	 RUN refined_pair target=PZ22_Das_1_solution.pdb model=PZ22_Das_1_refined.pdb -> id=Das_1
+2026-03-10 00:31:35 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_1_refined.pdb
+2026-03-10 00:31:38 	 Docker exit code: 0
+2026-03-10 00:31:38 	 Docker output length: 346
+2026-03-10 00:31:38 	 Saved CSV: PZ22,Das_1,Das,1,refined_pair,0.6317797913779336,0.693687975619296,0,PZ22_Das_1_solution.pdb,PZ22_Das_1_refined.pdb
+2026-03-10 00:31:38 	 RUN refined_pair target=PZ22_Das_10_solution.pdb model=PZ22_Das_10_refined.pdb -> id=Das_10
+2026-03-10 00:31:38 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_10_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_10_refined.pdb
+2026-03-10 00:31:41 	 Docker exit code: 0
+2026-03-10 00:31:41 	 Docker output length: 347
+2026-03-10 00:31:41 	 Saved CSV: PZ22,Das_10,Das,10,refined_pair,0.6085910260065495,0.766825781116149,0,PZ22_Das_10_solution.pdb,PZ22_Das_10_refined.pdb
+2026-03-10 00:31:41 	 RUN refined_pair target=PZ22_Das_2_solution.pdb model=PZ22_Das_2_refined.pdb -> id=Das_2
+2026-03-10 00:31:41 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_2_refined.pdb
+2026-03-10 00:31:43 	 Docker exit code: 0
+2026-03-10 00:31:43 	 Docker output length: 346
+2026-03-10 00:31:43 	 Saved CSV: PZ22,Das_2,Das,2,refined_pair,0.6317797913779336,0.7242243488319184,0,PZ22_Das_2_solution.pdb,PZ22_Das_2_refined.pdb
+2026-03-10 00:31:43 	 RUN refined_pair target=PZ22_Das_3_solution.pdb model=PZ22_Das_3_refined.pdb -> id=Das_3
+2026-03-10 00:31:43 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_3_refined.pdb
+2026-03-10 00:31:47 	 Docker exit code: 0
+2026-03-10 00:31:47 	 Docker output length: 346
+2026-03-10 00:31:47 	 Saved CSV: PZ22,Das_3,Das,3,refined_pair,0.6469966392206306,0.766825781116149,0,PZ22_Das_3_solution.pdb,PZ22_Das_3_refined.pdb
+2026-03-10 00:31:47 	 RUN refined_pair target=PZ22_Das_4_solution.pdb model=PZ22_Das_4_refined.pdb -> id=Das_4
+2026-03-10 00:31:47 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_4_refined.pdb
+2026-03-10 00:31:50 	 Docker exit code: 0
+2026-03-10 00:31:50 	 Docker output length: 346
+2026-03-10 00:31:50 	 Saved CSV: PZ22,Das_4,Das,4,refined_pair,0.6394184872829825,0.766825781116149,0,PZ22_Das_4_solution.pdb,PZ22_Das_4_refined.pdb
+2026-03-10 00:31:50 	 RUN refined_pair target=PZ22_Das_5_solution.pdb model=PZ22_Das_5_refined.pdb -> id=Das_5
+2026-03-10 00:31:50 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_5_refined.pdb
+2026-03-10 00:31:53 	 Docker exit code: 0
+2026-03-10 00:31:53 	 Docker output length: 346
+2026-03-10 00:31:53 	 Saved CSV: PZ22,Das_5,Das,5,refined_pair,0.6085910260065495,0.770551750371122,0,PZ22_Das_5_solution.pdb,PZ22_Das_5_refined.pdb
+2026-03-10 00:31:53 	 RUN refined_pair target=PZ22_Das_6_solution.pdb model=PZ22_Das_6_refined.pdb -> id=Das_6
+2026-03-10 00:31:53 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_6_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_6_refined.pdb
+2026-03-10 00:31:56 	 Docker exit code: 0
+2026-03-10 00:31:56 	 Docker output length: 347
+2026-03-10 00:31:56 	 Saved CSV: PZ22,Das_6,Das,6,refined_pair,0.6317797913779336,0.7539370349250519,0,PZ22_Das_6_solution.pdb,PZ22_Das_6_refined.pdb
+2026-03-10 00:31:56 	 RUN refined_pair target=PZ22_Das_7_solution.pdb model=PZ22_Das_7_refined.pdb -> id=Das_7
+2026-03-10 00:31:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_7_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_7_refined.pdb
+2026-03-10 00:31:58 	 Docker exit code: 0
+2026-03-10 00:31:58 	 Docker output length: 347
+2026-03-10 00:31:58 	 Saved CSV: PZ22,Das_7,Das,7,refined_pair,0.6317797913779336,0.8094272134003795,0,PZ22_Das_7_solution.pdb,PZ22_Das_7_refined.pdb
+2026-03-10 00:31:58 	 RUN refined_pair target=PZ22_Das_8_solution.pdb model=PZ22_Das_8_refined.pdb -> id=Das_8
+2026-03-10 00:31:58 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_8_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_8_refined.pdb
+2026-03-10 00:32:01 	 Docker exit code: 0
+2026-03-10 00:32:01 	 Docker output length: 346
+2026-03-10 00:32:01 	 Saved CSV: PZ22,Das_8,Das,8,refined_pair,0.6146468072595989,0.766825781116149,0,PZ22_Das_8_solution.pdb,PZ22_Das_8_refined.pdb
+2026-03-10 00:32:02 	 RUN refined_pair target=PZ22_Das_9_solution.pdb model=PZ22_Das_9_refined.pdb -> id=Das_9
+2026-03-10 00:32:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Das_9_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Das_9_refined.pdb
+2026-03-10 00:32:04 	 Docker exit code: 0
+2026-03-10 00:32:04 	 Docker output length: 345
+2026-03-10 00:32:04 	 Saved CSV: PZ22,Das_9,Das,9,refined_pair,0.5822969752985675,0.65033247714309,0,PZ22_Das_9_solution.pdb,PZ22_Das_9_refined.pdb
+2026-03-10 00:32:04 	 RUN refined_pair target=PZ22_Dokholyan_1_solution.pdb model=PZ22_Dokholyan_1_refined.pdb -> id=Dokholyan_1
+2026-03-10 00:32:04 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Dokholyan_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Dokholyan_1_refined.pdb
+2026-03-10 00:32:07 	 Docker exit code: 0
+2026-03-10 00:32:07 	 Docker output length: 359
+2026-03-10 00:32:07 	 Saved CSV: PZ22,Dokholyan_1,Dokholyan,1,refined_pair,0.6390116197662725,0.8314971796756814,0,PZ22_Dokholyan_1_solution.pdb,PZ22_Dokholyan_1_refined.pdb
+2026-03-10 00:32:07 	 RUN refined_pair target=PZ22_Dokholyan_2_solution.pdb model=PZ22_Dokholyan_2_refined.pdb -> id=Dokholyan_2
+2026-03-10 00:32:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Dokholyan_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Dokholyan_2_refined.pdb
+2026-03-10 00:32:10 	 Docker exit code: 0
+2026-03-10 00:32:10 	 Docker output length: 359
+2026-03-10 00:32:10 	 Saved CSV: PZ22,Dokholyan_2,Dokholyan,2,refined_pair,0.5860635486066053,0.8258966419340223,0,PZ22_Dokholyan_2_solution.pdb,PZ22_Dokholyan_2_refined.pdb
+2026-03-10 00:32:10 	 RUN refined_pair target=PZ22_Dokholyan_3_solution.pdb model=PZ22_Dokholyan_3_refined.pdb -> id=Dokholyan_3
+2026-03-10 00:32:10 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Dokholyan_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Dokholyan_3_refined.pdb
+2026-03-10 00:32:12 	 Docker exit code: 0
+2026-03-10 00:32:12 	 Docker output length: 359
+2026-03-10 00:32:12 	 Saved CSV: PZ22,Dokholyan_3,Dokholyan,3,refined_pair,0.6949223161999364,0.8804087784801333,0,PZ22_Dokholyan_3_solution.pdb,PZ22_Dokholyan_3_refined.pdb
+2026-03-10 00:32:12 	 RUN refined_pair target=PZ22_Dokholyan_4_solution.pdb model=PZ22_Dokholyan_4_refined.pdb -> id=Dokholyan_4
+2026-03-10 00:32:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Dokholyan_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Dokholyan_4_refined.pdb
+2026-03-10 00:32:15 	 Docker exit code: 0
+2026-03-10 00:32:15 	 Docker output length: 359
+2026-03-10 00:32:15 	 Saved CSV: PZ22,Dokholyan_4,Dokholyan,4,refined_pair,0.6515243126478526,0.8098582871985256,0,PZ22_Dokholyan_4_solution.pdb,PZ22_Dokholyan_4_refined.pdb
+2026-03-10 00:32:15 	 RUN refined_pair target=PZ22_Dokholyan_5_solution.pdb model=PZ22_Dokholyan_5_refined.pdb -> id=Dokholyan_5
+2026-03-10 00:32:15 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Dokholyan_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Dokholyan_5_refined.pdb
+2026-03-10 00:32:17 	 Docker exit code: 0
+2026-03-10 00:32:17 	 Docker output length: 358
+2026-03-10 00:32:17 	 Saved CSV: PZ22,Dokholyan_5,Dokholyan,5,refined_pair,0.627317781325511,0.8717797887081347,0,PZ22_Dokholyan_5_solution.pdb,PZ22_Dokholyan_5_refined.pdb
+2026-03-10 00:32:17 	 RUN refined_pair target=PZ22_RNAComposer_1_solution.pdb model=PZ22_RNAComposer_1_refined.pdb -> id=RNAComposer_1
+2026-03-10 00:32:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_RNAComposer_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_RNAComposer_1_refined.pdb
+2026-03-10 00:32:20 	 Docker exit code: 0
+2026-03-10 00:32:20 	 Docker output length: 378
+2026-03-10 00:32:20 	 Saved CSV: PZ22,RNAComposer_1,RNAComposer,1,refined_pair,0.6285808858036099,0.6748819059987713,0.12598815766974242,PZ22_RNAComposer_1_solution.pdb,PZ22_RNAComposer_1_refined.pdb
+2026-03-10 00:32:20 	 RUN refined_pair target=PZ22_RNAComposer_2_solution.pdb model=PZ22_RNAComposer_2_refined.pdb -> id=RNAComposer_2
+2026-03-10 00:32:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_RNAComposer_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_RNAComposer_2_refined.pdb
+2026-03-10 00:32:23 	 Docker exit code: 0
+2026-03-10 00:32:23 	 Docker output length: 377
+2026-03-10 00:32:23 	 Saved CSV: PZ22,RNAComposer_2,RNAComposer,2,refined_pair,0.6971363215204784,0.780398972571708,0.1690308509457033,PZ22_RNAComposer_2_solution.pdb,PZ22_RNAComposer_2_refined.pdb
+2026-03-10 00:32:23 	 RUN refined_pair target=PZ22_RNAComposer_3_solution.pdb model=PZ22_RNAComposer_3_refined.pdb -> id=RNAComposer_3
+2026-03-10 00:32:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_RNAComposer_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_RNAComposer_3_refined.pdb
+2026-03-10 00:32:26 	 Docker exit code: 0
+2026-03-10 00:32:26 	 Docker output length: 378
+2026-03-10 00:32:26 	 Saved CSV: PZ22,RNAComposer_3,RNAComposer,3,refined_pair,0.6743848148460229,0.6882472016116853,0.1889822365046136,PZ22_RNAComposer_3_solution.pdb,PZ22_RNAComposer_3_refined.pdb
+2026-03-10 00:32:26 	 RUN refined_pair target=PZ22_RNAComposer_4_solution.pdb model=PZ22_RNAComposer_4_refined.pdb -> id=RNAComposer_4
+2026-03-10 00:32:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_RNAComposer_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_RNAComposer_4_refined.pdb
+2026-03-10 00:32:28 	 Docker exit code: 0
+2026-03-10 00:32:28 	 Docker output length: 377
+2026-03-10 00:32:28 	 Saved CSV: PZ22,RNAComposer_4,RNAComposer,4,refined_pair,0.6549475738156189,0.7024393586862705,0.1690308509457033,PZ22_RNAComposer_4_solution.pdb,PZ22_RNAComposer_4_refined.pdb
+2026-03-10 00:32:28 	 RUN refined_pair target=PZ22_RNAComposer_5_solution.pdb model=PZ22_RNAComposer_5_refined.pdb -> id=RNAComposer_5
+2026-03-10 00:32:28 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_RNAComposer_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_RNAComposer_5_refined.pdb
+2026-03-10 00:32:31 	 Docker exit code: 0
+2026-03-10 00:32:31 	 Docker output length: 378
+2026-03-10 00:32:31 	 Saved CSV: PZ22,RNAComposer_5,RNAComposer,5,refined_pair,0.6162790697674418,0.539905524799017,0.21821789023599236,PZ22_RNAComposer_5_solution.pdb,PZ22_RNAComposer_5_refined.pdb
+2026-03-10 00:32:31 	 RUN refined_pair target=PZ22_SimRNA_1_solution.pdb model=PZ22_SimRNA_1_refined.pdb -> id=SimRNA_1
+2026-03-10 00:32:31 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_SimRNA_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_SimRNA_1_refined.pdb
+2026-03-10 00:32:34 	 Docker exit code: 0
+2026-03-10 00:32:34 	 Docker output length: 368
+2026-03-10 00:32:34 	 Saved CSV: PZ22,SimRNA_1,SimRNA,1,refined_pair,0.6018203794858673,0.6882472016116853,0.21821789023599236,PZ22_SimRNA_1_solution.pdb,PZ22_SimRNA_1_refined.pdb
+2026-03-10 00:32:34 	 RUN refined_pair target=PZ22_SimRNA_2_solution.pdb model=PZ22_SimRNA_2_refined.pdb -> id=SimRNA_2
+2026-03-10 00:32:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_SimRNA_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_SimRNA_2_refined.pdb
+2026-03-10 00:32:37 	 Docker exit code: 0
+2026-03-10 00:32:37 	 Docker output length: 353
+2026-03-10 00:32:37 	 Saved CSV: PZ22,SimRNA_2,SimRNA,2,refined_pair,0.6640776601223363,0.7242243488319184,0,PZ22_SimRNA_2_solution.pdb,PZ22_SimRNA_2_refined.pdb
+2026-03-10 00:32:37 	 RUN refined_pair target=PZ22_SimRNA_3_solution.pdb model=PZ22_SimRNA_3_refined.pdb -> id=SimRNA_3
+2026-03-10 00:32:37 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_SimRNA_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_SimRNA_3_refined.pdb
+2026-03-10 00:32:40 	 Docker exit code: 0
+2026-03-10 00:32:40 	 Docker output length: 353
+2026-03-10 00:32:40 	 Saved CSV: PZ22,SimRNA_3,SimRNA,3,refined_pair,0.6344324016567203,0.6592685147442633,0,PZ22_SimRNA_3_solution.pdb,PZ22_SimRNA_3_refined.pdb
+2026-03-10 00:32:40 	 RUN refined_pair target=PZ22_SimRNA_4_solution.pdb model=PZ22_SimRNA_4_refined.pdb -> id=SimRNA_4
+2026-03-10 00:32:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_SimRNA_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_SimRNA_4_refined.pdb
+2026-03-10 00:32:43 	 Docker exit code: 0
+2026-03-10 00:32:43 	 Docker output length: 353
+2026-03-10 00:32:43 	 Saved CSV: PZ22,SimRNA_4,SimRNA,4,refined_pair,0.6177432843242373,0.7505683356701915,0,PZ22_SimRNA_4_solution.pdb,PZ22_SimRNA_4_refined.pdb
+2026-03-10 00:32:43 	 RUN refined_pair target=PZ22_SimRNA_5_solution.pdb model=PZ22_SimRNA_5_refined.pdb -> id=SimRNA_5
+2026-03-10 00:32:43 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_SimRNA_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_SimRNA_5_refined.pdb
+2026-03-10 00:32:45 	 Docker exit code: 0
+2026-03-10 00:32:45 	 Docker output length: 351
+2026-03-10 00:32:45 	 Saved CSV: PZ22,SimRNA_5,SimRNA,5,refined_pair,0.6163156344279367,0.693687975619296,0,PZ22_SimRNA_5_solution.pdb,PZ22_SimRNA_5_refined.pdb
+2026-03-10 00:32:45 	 RUN refined_pair target=PZ22_Xiao_1_solution.pdb model=PZ22_Xiao_1_refined.pdb -> id=Xiao_1
+2026-03-10 00:32:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Xiao_1_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Xiao_1_refined.pdb
+2026-03-10 00:32:48 	 Docker exit code: 0
+2026-03-10 00:32:48 	 Docker output length: 362
+2026-03-10 00:32:48 	 Saved CSV: PZ22,Xiao_1,Xiao,1,refined_pair,0.6267652632048752,0.7570332986102252,0.21821789023599236,PZ22_Xiao_1_solution.pdb,PZ22_Xiao_1_refined.pdb
+2026-03-10 00:32:48 	 RUN refined_pair target=PZ22_Xiao_2_solution.pdb model=PZ22_Xiao_2_refined.pdb -> id=Xiao_2
+2026-03-10 00:32:48 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Xiao_2_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Xiao_2_refined.pdb
+2026-03-10 00:32:51 	 Docker exit code: 0
+2026-03-10 00:32:51 	 Docker output length: 364
+2026-03-10 00:32:51 	 Saved CSV: PZ22,Xiao_2,Xiao,2,refined_pair,0.6184227025724593,0.6488856845230502,0.2672612419124244,PZ22_Xiao_2_solution.pdb,PZ22_Xiao_2_refined.pdb
+2026-03-10 00:32:51 	 RUN refined_pair target=PZ22_Xiao_3_solution.pdb model=PZ22_Xiao_3_refined.pdb -> id=Xiao_3
+2026-03-10 00:32:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Xiao_3_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Xiao_3_refined.pdb
+2026-03-10 00:32:54 	 Docker exit code: 0
+2026-03-10 00:32:54 	 Docker output length: 348
+2026-03-10 00:32:54 	 Saved CSV: PZ22,Xiao_3,Xiao,3,refined_pair,0.6184633699941169,0.7368421052631579,0,PZ22_Xiao_3_solution.pdb,PZ22_Xiao_3_refined.pdb
+2026-03-10 00:32:54 	 RUN refined_pair target=PZ22_Xiao_4_solution.pdb model=PZ22_Xiao_4_refined.pdb -> id=Xiao_4
+2026-03-10 00:32:54 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Xiao_4_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Xiao_4_refined.pdb
+2026-03-10 00:32:56 	 Docker exit code: 0
+2026-03-10 00:32:56 	 Docker output length: 364
+2026-03-10 00:32:56 	 Saved CSV: PZ22,Xiao_4,Xiao,4,refined_pair,0.7421560439929402,0.8947368421052632,0.21821789023599236,PZ22_Xiao_4_solution.pdb,PZ22_Xiao_4_refined.pdb
+2026-03-10 00:32:56 	 RUN refined_pair target=PZ22_Xiao_5_solution.pdb model=PZ22_Xiao_5_refined.pdb -> id=Xiao_5
+2026-03-10 00:32:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ22/pdb/PZ22_Xiao_5_solution.pdb /work/data/finished/PZ22/pdb/PZ22_Xiao_5_refined.pdb
+2026-03-10 00:32:59 	 Docker exit code: 0
+2026-03-10 00:32:59 	 Docker output length: 363
+2026-03-10 00:32:59 	 Saved CSV: PZ22,Xiao_5,Xiao,5,refined_pair,0.6769064842612653,0.7509392614826383,0.2672612419124244,PZ22_Xiao_5_solution.pdb,PZ22_Xiao_5_refined.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Adamiak_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Adamiak_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Adamiak_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Adamiak_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Adamiak_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Bujnicki_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Bujnicki_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Bujnicki_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Bujnicki_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Bujnicki_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Chen_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Chen_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Chen_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Chen_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Chen_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_10_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_6_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_7_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_8_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Das_9_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Dokholyan_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Dokholyan_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Dokholyan_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Dokholyan_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Dokholyan_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_RNAComposer_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_RNAComposer_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_RNAComposer_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_RNAComposer_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_RNAComposer_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_SimRNA_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_SimRNA_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_SimRNA_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_SimRNA_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_SimRNA_5_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_solution_0.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_solution_1.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Xiao_1_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Xiao_2_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Xiao_3_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Xiao_4_solution.pdb
+2026-03-10 00:32:59 	 SKIP (model is a solution file): PZ22_Xiao_5_solution.pdb
+2026-03-10 00:32:59 	 DONE case: PZ22
+2026-03-10 01:12:40 	 START case: PZ22
+2026-03-10 01:12:40 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22
+2026-03-10 01:12:40 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22\pdb
+2026-03-10 01:12:40 	 Found pdb count: 92
+2026-03-10 01:12:40 	 Global solution: PZ22_solution_0.pdb
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Adamiak_5
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:12:40 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Dokholyan_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Dokholyan_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Dokholyan_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Dokholyan_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Dokholyan_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): RNAComposer_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): RNAComposer_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:12:41 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Adamiak_1_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Adamiak_2_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Adamiak_3_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Adamiak_4_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Adamiak_5_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Bujnicki_1_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Bujnicki_2_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Bujnicki_3_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Bujnicki_4_solution.pdb
+2026-03-10 01:12:41 	 SKIP (model is a solution file): PZ22_Bujnicki_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Chen_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Chen_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Chen_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Chen_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Chen_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_10_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_6_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_7_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_8_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Das_9_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Dokholyan_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Dokholyan_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Dokholyan_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Dokholyan_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Dokholyan_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_RNAComposer_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_RNAComposer_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_RNAComposer_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_RNAComposer_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_RNAComposer_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_SimRNA_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_SimRNA_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_SimRNA_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_SimRNA_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_SimRNA_5_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_solution_0.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_solution_1.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Xiao_1_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Xiao_2_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Xiao_3_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Xiao_4_solution.pdb
+2026-03-10 01:12:42 	 SKIP (model is a solution file): PZ22_Xiao_5_solution.pdb
+2026-03-10 01:12:42 	 DONE case: PZ22
+2026-03-10 01:17:25 	 START case: PZ22
+2026-03-10 01:17:25 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22
+2026-03-10 01:17:25 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22\pdb
+2026-03-10 01:17:25 	 Found pdb count: 92
+2026-03-10 01:17:25 	 Global solution: PZ22_solution_0.pdb
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Adamiak_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Dokholyan_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Dokholyan_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Dokholyan_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Dokholyan_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Dokholyan_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): RNAComposer_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): RNAComposer_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:17:25 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Adamiak_1_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Adamiak_2_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Adamiak_3_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Adamiak_4_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Adamiak_5_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Bujnicki_1_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Bujnicki_2_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Bujnicki_3_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Bujnicki_4_solution.pdb
+2026-03-10 01:17:25 	 SKIP (model is a solution file): PZ22_Bujnicki_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Chen_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Chen_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Chen_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Chen_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Chen_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_10_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_6_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_7_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_8_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Das_9_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Dokholyan_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Dokholyan_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Dokholyan_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Dokholyan_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Dokholyan_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_RNAComposer_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_RNAComposer_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_RNAComposer_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_RNAComposer_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_RNAComposer_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_SimRNA_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_SimRNA_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_SimRNA_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_SimRNA_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_SimRNA_5_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_solution_0.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_solution_1.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Xiao_1_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Xiao_2_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Xiao_3_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Xiao_4_solution.pdb
+2026-03-10 01:17:26 	 SKIP (model is a solution file): PZ22_Xiao_5_solution.pdb
+2026-03-10 01:17:26 	 DONE case: PZ22
+2026-03-10 01:21:51 	 START case: PZ22
+2026-03-10 01:21:51 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22
+2026-03-10 01:21:51 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ22\pdb
+2026-03-10 01:21:51 	 Found pdb count: 92
+2026-03-10 01:21:51 	 Global solution: PZ22_solution_0.pdb
+2026-03-10 01:21:51 	 SKIP already recorded (refined): Adamiak_1
+2026-03-10 01:21:51 	 SKIP already recorded (refined): Adamiak_2
+2026-03-10 01:21:51 	 SKIP already recorded (refined): Adamiak_3
+2026-03-10 01:21:51 	 SKIP already recorded (refined): Adamiak_4
+2026-03-10 01:21:51 	 SKIP already recorded (refined): Adamiak_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Bujnicki_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Bujnicki_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Bujnicki_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Bujnicki_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Bujnicki_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Chen_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Chen_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Chen_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Chen_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Chen_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_10
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_6
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_7
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_8
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Das_9
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Dokholyan_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Dokholyan_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Dokholyan_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Dokholyan_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Dokholyan_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): RNAComposer_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): RNAComposer_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): RNAComposer_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): RNAComposer_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): RNAComposer_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): SimRNA_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): SimRNA_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): SimRNA_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): SimRNA_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): SimRNA_5
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Xiao_1
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Xiao_2
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Xiao_3
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Xiao_4
+2026-03-10 01:21:52 	 SKIP already recorded (refined): Xiao_5
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Adamiak_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Adamiak_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Adamiak_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Adamiak_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Adamiak_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Bujnicki_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Bujnicki_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Bujnicki_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Bujnicki_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Bujnicki_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Chen_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Chen_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Chen_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Chen_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Chen_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_10_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_6_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_7_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_8_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Das_9_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Dokholyan_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Dokholyan_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Dokholyan_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Dokholyan_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Dokholyan_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_RNAComposer_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_RNAComposer_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_RNAComposer_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_RNAComposer_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_RNAComposer_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_SimRNA_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_SimRNA_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_SimRNA_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_SimRNA_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_SimRNA_5_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_solution_0.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_solution_1.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Xiao_1_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Xiao_2_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Xiao_3_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Xiao_4_solution.pdb
+2026-03-10 01:21:52 	 SKIP (model is a solution file): PZ22_Xiao_5_solution.pdb
+2026-03-10 01:21:52 	 DONE case: PZ22

@@ -1,3 +1,4 @@
+Lab,Num,INF nwc
 Adamiak,1,0.387
 Adamiak,2,0.600
 Bujnicki,1,0.559
@@ -31,11 +32,10 @@ FARFAR2,3,0.843
 FARFAR2,4,0.800
 FARFAR2,5,0.800
 FARFAR2,6,0.800
-FARFAR2,7,-
-FARFAR2,8,-
-FARFAR2,9,-
-FARFAR2,10,-
-Lab,Num,INF nwc
+FARFAR2,7,0.609
+FARFAR2,8,0.667
+FARFAR2,9,0.690
+FARFAR2,10,0.716
 RNAComposer,1,0.224
 RNAComposer,2,0.598
 RNAComposer,3,0.566
@@ -59,10 +59,10 @@ TFN,10,0.800
 Xiao,1,0.000
 Xiao,2,0.000
 Xiao,3,0.000
-Xiao,4,-
-Xiao,5,-
-iFoldRNA,1,-
-iFoldRNA,2,-
+Xiao,4,0.000
+Xiao,5,0.000
+iFoldRNA,1,0.000
+iFoldRNA,2,0.000
 iFoldRNA,3,0.316
-iFoldRNA,4,-
+iFoldRNA,4,0.000
 iFoldRNA,5,0.000

@@ -1,0 +1,17 @@
+Report for set: PZ3
+Processed 12 / 12 models (missing solution for 0 models)
+========================================================================================================================
+Model                                              Solution                                           Status          Details                       
+------------------------------------------------------------------------------------------------------------------------
+3_bujnicki_1_refined.pdb                           3_bujnicki_1_solution.pdb                          SUCCESS         30.622                        
+3_bujnicki_2_refined.pdb                           3_bujnicki_2_solution.pdb                          SUCCESS         28.616                        
+3_chen_1_refined.pdb                               3_chen_1_solution.pdb                              SUCCESS         42.273                        
+3_das_1_refined.pdb                                3_das_1_solution.pdb                               SUCCESS         28.328                        
+3_das_2_refined.pdb                                3_das_2_solution.pdb                               SUCCESS         29.76                         
+3_das_3_refined.pdb                                3_das_3_solution.pdb                               SUCCESS         29.035                        
+3_das_4_refined.pdb                                3_das_4_solution.pdb                               SUCCESS         30.01                         
+3_das_5_refined.pdb                                3_das_5_solution.pdb                               SUCCESS         29.092                        
+3_dokholyan_1_refined.pdb                          3_dokholyan_1_solution.pdb                         SUCCESS         20.314                        
+3_dokholyan_2_refined.pdb                          3_dokholyan_2_solution.pdb                         SUCCESS         22.779                        
+3_major_1_refined.pdb                              3_major_1_solution.pdb                             SUCCESS         7.341                         
+3_major_2_refined.pdb                              3_major_2_solution.pdb                             SUCCESS         29.834                        

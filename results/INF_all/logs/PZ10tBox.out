@@ -1,0 +1,1156 @@
+{
+  "native_pdb": "/tmp/rna_inf_v93mn9nm/PZ10tBox_Bujnicki_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vovgjfi0/PZ10tBox_Bujnicki_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.26440409389308,
+  "inf_all": 0.22619193331698287,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.28207446466604613
+}
+{
+  "native_pdb": "/tmp/rna_inf_kmgdszrf/PZ10tBox_Bujnicki_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__p6fux3j/PZ10tBox_Bujnicki_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.348633757961274,
+  "inf_all": 0.15018209124041412,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.1968903826620542
+}
+{
+  "native_pdb": "/tmp/rna_inf_e4z9sps2/PZ10tBox_Bujnicki_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_f9fgwiqm/PZ10tBox_Bujnicki_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.349211311357184,
+  "inf_all": 0.22360679774997896,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.28581071308311756
+}
+{
+  "native_pdb": "/tmp/rna_inf_7q11k3ie/PZ10tBox_Bujnicki_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1zljz1xb/PZ10tBox_Bujnicki_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.31107170643695,
+  "inf_all": 0.18838100796551374,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.24034206324146912
+}
+{
+  "native_pdb": "/tmp/rna_inf_yoaln5_m/PZ10tBox_Bujnicki_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zhy0j_5p/PZ10tBox_Bujnicki_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.904342965994726,
+  "inf_all": 0.20651853013277321,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.26252051021607226
+}
+{
+  "native_pdb": "/tmp/rna_inf_5od_vbp8/PZ10tBox_Bujnicki_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_x5d3wa4f/PZ10tBox_Bujnicki_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.337357094714395,
+  "inf_all": 0.23377074310225074,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.29489603124177555
+}
+{
+  "native_pdb": "/tmp/rna_inf_ellr2ltr/PZ10tBox_Bujnicki_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_g5e4tt4u/PZ10tBox_Bujnicki_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.36380268045577,
+  "inf_all": 0.20100756305184242,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.2564313315145874
+}
+{
+  "native_pdb": "/tmp/rna_inf_dwo1hafx/PZ10tBox_Bujnicki_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_abwrblix/PZ10tBox_Bujnicki_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.296866840484782,
+  "inf_all": 0.21591048180257455,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.27465650490996973
+}
+{
+  "native_pdb": "/tmp/rna_inf_lw8h82ar/PZ10tBox_Bujnicki_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kcab1_g5/PZ10tBox_Bujnicki_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.30133791935717,
+  "inf_all": 0.20762587603385801,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.2609148651219738
+}
+{
+  "native_pdb": "/tmp/rna_inf_bx656wlo/PZ10tBox_Bujnicki_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_35hljlpn/PZ10tBox_Bujnicki_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.333884356664647,
+  "inf_all": 0.19422164675152884,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.24683652493541977
+}
+{
+  "native_pdb": "/tmp/rna_inf_7ygwvn46/PZ10tBox_Chen_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_si7pjm30/PZ10tBox_Chen_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.38150212363126,
+  "inf_all": 0.18637439158825295,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.24273091458028256
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_53heeon6/PZ10tBox_Das_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yuf63i2g/PZ10tBox_Das_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.235406117060894,
+  "inf_all": 0.026444294267397254,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.035578403348241
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_3mhhlon3/PZ10tBox_Das_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_f1mxs_o1/PZ10tBox_Das_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.652550038846496,
+  "inf_all": 0.027524094128159014,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.03750293003086746
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_pds_t41f/PZ10tBox_Das_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o92w343e/PZ10tBox_Das_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.279543894637715,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_98kwhjyf/PZ10tBox_Das_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_m91mm2i_/PZ10tBox_Das_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.679959184707787,
+  "inf_all": 0.027524094128159014,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.03750293003086746
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_yls1y0b7/PZ10tBox_Das_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1let0u1j/PZ10tBox_Das_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.305575912515046,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_x6o3fx8t/PZ10tBox_Dokholyan_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_sel_2vqt/PZ10tBox_Dokholyan_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.39929718615792,
+  "inf_all": 0.033709993123162106,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.04252432555625623
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_1w59w3vq/PZ10tBox_Dokholyan_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ewsinbtc/PZ10tBox_Dokholyan_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.077798250049277,
+  "inf_all": 0.033709993123162106,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.04593152121746253
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_892pdpjx/PZ10tBox_Dokholyan_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4ii9b7qf/PZ10tBox_Dokholyan_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.08579055524074,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf__939wl2q/PZ10tBox_Dokholyan_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3pesfah8/PZ10tBox_Dokholyan_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.71332428820132,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_qd0fqq7h/PZ10tBox_Dokholyan_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fva8dug2/PZ10tBox_Dokholyan_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.95094001673286,
+  "inf_all": 0.036037498507822355,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.05031546054266276
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_amwep9qz/PZ10tBox_Dokholyan_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vqm495c_/PZ10tBox_Dokholyan_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.834645072606097,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_q3sb99y6/PZ10tBox_Dokholyan_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_n0t_bwvo/PZ10tBox_Dokholyan_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.81184399779359,
+  "inf_all": 0.036037498507822355,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.05031546054266276
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_xlt43pub/PZ10tBox_Dokholyan_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o2692k3p/PZ10tBox_Dokholyan_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.398601778389892,
+  "inf_all": 0.02874797872880345,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.03750293003086746
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_gx7ub1jk/PZ10tBox_Dokholyan_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p45lk9b3/PZ10tBox_Dokholyan_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.308768433533015,
+  "inf_all": 0.0,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.0
+}
+WARNING    >> Atom N9 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 19, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 21, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 36, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 39, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 44, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 43, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 51, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 55, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 53, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 54, ' ') not found in target atom list
+WARNING    >> Atom O6 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N2 from residue (' ', 67, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 66, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 72, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 73, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 82, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 89, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 96, ' ') not found in target atom list
+WARNING    >> Atom N9 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom C8 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N7 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom N6 from residue (' ', 101, ' ') not found in target atom list
+WARNING    >> Atom O4 from residue (' ', 158, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 157, ' ') not found in target atom list
+WARNING    >> Atom O2 from residue (' ', 170, ' ') not found in target atom list
+WARNING    >> Atom N4 from residue (' ', 170, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_nxjjn2e5/PZ10tBox_Dokholyan_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_z32tv70z/PZ10tBox_Dokholyan_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 21.1471184466028,
+  "inf_all": 0.036037498507822355,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.04593152121746253
+}

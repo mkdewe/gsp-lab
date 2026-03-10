@@ -1,0 +1,268 @@
+2026-03-10 00:36:51 	 START case: PZ4
+2026-03-10 00:36:51 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4
+2026-03-10 00:36:51 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4\pdb
+2026-03-10 00:36:51 	 Found pdb count: 31
+2026-03-10 00:36:51 	 Global solution: 4_solution_0.pdb
+2026-03-10 00:36:51 	 RUN fallback_pair: model=4_adamiak_1.pdb against global=4_solution_0.pdb -> id=adamiak_1
+2026-03-10 00:36:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_adamiak_1.pdb
+2026-03-10 00:36:56 	 Docker exit code: 0
+2026-03-10 00:36:56 	 Docker output length: 348
+2026-03-10 00:36:56 	 Saved CSV: PZ4,adamiak_1,adamiak,1,fallback_pair,0.8189581378568729,0.9451120118672948,0.4714045207910317,4_solution_0.pdb,4_adamiak_1.pdb
+2026-03-10 00:36:56 	 RUN fallback_pair: model=4_adamiak_2.pdb against global=4_solution_0.pdb -> id=adamiak_2
+2026-03-10 00:36:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_adamiak_2.pdb
+2026-03-10 00:36:59 	 Docker exit code: 0
+2026-03-10 00:36:59 	 Docker output length: 346
+2026-03-10 00:36:59 	 Saved CSV: PZ4,adamiak_2,adamiak,2,fallback_pair,0.8396041413322562,0.9565217391304348,0.4714045207910317,4_solution_0.pdb,4_adamiak_2.pdb
+2026-03-10 00:36:59 	 RUN fallback_pair: model=4_adamiak_3.pdb against global=4_solution_0.pdb -> id=adamiak_3
+2026-03-10 00:36:59 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_adamiak_3.pdb
+2026-03-10 00:37:02 	 Docker exit code: 0
+2026-03-10 00:37:02 	 Docker output length: 349
+2026-03-10 00:37:02 	 Saved CSV: PZ4,adamiak_3,adamiak,3,fallback_pair,0.8210496260894182,0.9335638713962128,0.23570226039551584,4_solution_0.pdb,4_adamiak_3.pdb
+2026-03-10 00:37:02 	 RUN fallback_pair: model=4_adamiak_4.pdb against global=4_solution_0.pdb -> id=adamiak_4
+2026-03-10 00:37:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_adamiak_4.pdb
+2026-03-10 00:37:05 	 Docker exit code: 0
+2026-03-10 00:37:05 	 Docker output length: 346
+2026-03-10 00:37:05 	 Saved CSV: PZ4,adamiak_4,adamiak,4,fallback_pair,0.6778277412775349,0.6687338550904234,0.408248290463863,4_solution_0.pdb,4_adamiak_4.pdb
+2026-03-10 00:37:05 	 RUN fallback_pair: model=4_adamiak_5.pdb against global=4_solution_0.pdb -> id=adamiak_5
+2026-03-10 00:37:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_adamiak_5.pdb
+2026-03-10 00:37:08 	 Docker exit code: 0
+2026-03-10 00:37:08 	 Docker output length: 349
+2026-03-10 00:37:08 	 Saved CSV: PZ4,adamiak_5,adamiak,5,fallback_pair,0.5965587590013045,0.5363989048891137,0.18257418583505536,4_solution_0.pdb,4_adamiak_5.pdb
+2026-03-10 00:37:08 	 RUN fallback_pair: model=4_bujnicki_1.pdb against global=4_solution_0.pdb -> id=bujnicki_1
+2026-03-10 00:37:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_bujnicki_1.pdb
+2026-03-10 00:37:11 	 Docker exit code: 0
+2026-03-10 00:37:11 	 Docker output length: 349
+2026-03-10 00:37:11 	 Saved CSV: PZ4,bujnicki_1,bujnicki,1,fallback_pair,0.8820097371744761,0.9789450103725609,0.7302967433402214,4_solution_0.pdb,4_bujnicki_1.pdb
+2026-03-10 00:37:11 	 RUN fallback_pair: model=4_bujnicki_2.pdb against global=4_solution_0.pdb -> id=bujnicki_2
+2026-03-10 00:37:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_bujnicki_2.pdb
+2026-03-10 00:37:14 	 Docker exit code: 0
+2026-03-10 00:37:14 	 Docker output length: 348
+2026-03-10 00:37:14 	 Saved CSV: PZ4,bujnicki_2,bujnicki,2,fallback_pair,0.8728948148850961,0.9789450103725609,0.7302967433402214,4_solution_0.pdb,4_bujnicki_2.pdb
+2026-03-10 00:37:14 	 RUN fallback_pair: model=4_bujnicki_3.pdb against global=4_solution_0.pdb -> id=bujnicki_3
+2026-03-10 00:37:14 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_bujnicki_3.pdb
+2026-03-10 00:37:17 	 Docker exit code: 0
+2026-03-10 00:37:17 	 Docker output length: 347
+2026-03-10 00:37:17 	 Saved CSV: PZ4,bujnicki_3,bujnicki,3,fallback_pair,0.8728948148850961,0.9789450103725609,0.6123724356957945,4_solution_0.pdb,4_bujnicki_3.pdb
+2026-03-10 00:37:17 	 RUN fallback_pair: model=4_bujnicki_4.pdb against global=4_solution_0.pdb -> id=bujnicki_4
+2026-03-10 00:37:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_bujnicki_4.pdb
+2026-03-10 00:37:20 	 Docker exit code: 0
+2026-03-10 00:37:20 	 Docker output length: 348
+2026-03-10 00:37:20 	 Saved CSV: PZ4,bujnicki_4,bujnicki,4,fallback_pair,0.8728948148850961,0.9789450103725609,0.7302967433402214,4_solution_0.pdb,4_bujnicki_4.pdb
+2026-03-10 00:37:20 	 RUN fallback_pair: model=4_bujnicki_5.pdb against global=4_solution_0.pdb -> id=bujnicki_5
+2026-03-10 00:37:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_bujnicki_5.pdb
+2026-03-10 00:37:24 	 Docker exit code: 0
+2026-03-10 00:37:24 	 Docker output length: 348
+2026-03-10 00:37:24 	 Saved CSV: PZ4,bujnicki_5,bujnicki,5,fallback_pair,0.8783675632621365,0.9789450103725609,0.7302967433402214,4_solution_0.pdb,4_bujnicki_5.pdb
+2026-03-10 00:37:24 	 RUN fallback_pair: model=4_chen_1.pdb against global=4_solution_0.pdb -> id=chen_1
+2026-03-10 00:37:24 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_1.pdb
+2026-03-10 00:37:27 	 Docker exit code: 0
+2026-03-10 00:37:27 	 Docker output length: 345
+2026-03-10 00:37:27 	 Saved CSV: PZ4,chen_1,chen,1,fallback_pair,0.9181813868863318,0.9893045053244826,0.7216878364870323,4_solution_0.pdb,4_chen_1.pdb
+2026-03-10 00:37:27 	 RUN fallback_pair: model=4_chen_10.pdb against global=4_solution_0.pdb -> id=chen_10
+2026-03-10 00:37:27 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_10.pdb
+2026-03-10 00:37:30 	 Docker exit code: 0
+2026-03-10 00:37:30 	 Docker output length: 345
+2026-03-10 00:37:30 	 Saved CSV: PZ4,chen_10,chen,10,fallback_pair,0.9238667748783864,0.9893045053244826,0.7216878364870323,4_solution_0.pdb,4_chen_10.pdb
+2026-03-10 00:37:30 	 RUN fallback_pair: model=4_chen_2.pdb against global=4_solution_0.pdb -> id=chen_2
+2026-03-10 00:37:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_2.pdb
+2026-03-10 00:37:33 	 Docker exit code: 0
+2026-03-10 00:37:33 	 Docker output length: 344
+2026-03-10 00:37:33 	 Saved CSV: PZ4,chen_2,chen,2,fallback_pair,0.9216907232122604,0.9893045053244826,0.6804138174397717,4_solution_0.pdb,4_chen_2.pdb
+2026-03-10 00:37:33 	 RUN fallback_pair: model=4_chen_3.pdb against global=4_solution_0.pdb -> id=chen_3
+2026-03-10 00:37:33 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_3.pdb
+2026-03-10 00:37:36 	 Docker exit code: 0
+2026-03-10 00:37:36 	 Docker output length: 345
+2026-03-10 00:37:36 	 Saved CSV: PZ4,chen_3,chen,3,fallback_pair,0.9238667748783864,0.9893045053244826,0.6172133998483676,4_solution_0.pdb,4_chen_3.pdb
+2026-03-10 00:37:36 	 RUN fallback_pair: model=4_chen_4.pdb against global=4_solution_0.pdb -> id=chen_4
+2026-03-10 00:37:36 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_4.pdb
+2026-03-10 00:37:39 	 Docker exit code: 0
+2026-03-10 00:37:39 	 Docker output length: 344
+2026-03-10 00:37:39 	 Saved CSV: PZ4,chen_4,chen,4,fallback_pair,0.9273627196594922,0.9893045053244826,0.7216878364870323,4_solution_0.pdb,4_chen_4.pdb
+2026-03-10 00:37:39 	 RUN fallback_pair: model=4_chen_5.pdb against global=4_solution_0.pdb -> id=chen_5
+2026-03-10 00:37:39 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_5.pdb
+2026-03-10 00:37:42 	 Docker exit code: 0
+2026-03-10 00:37:42 	 Docker output length: 344
+2026-03-10 00:37:42 	 Saved CSV: PZ4,chen_5,chen,5,fallback_pair,0.9261647192148876,0.9893045053244826,0.7715167498104596,4_solution_0.pdb,4_chen_5.pdb
+2026-03-10 00:37:42 	 RUN fallback_pair: model=4_chen_6.pdb against global=4_solution_0.pdb -> id=chen_6
+2026-03-10 00:37:42 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_6.pdb
+2026-03-10 00:37:45 	 Docker exit code: 0
+2026-03-10 00:37:45 	 Docker output length: 344
+2026-03-10 00:37:45 	 Saved CSV: PZ4,chen_6,chen,6,fallback_pair,0.9261647192148876,0.9893045053244826,0.6172133998483676,4_solution_0.pdb,4_chen_6.pdb
+2026-03-10 00:37:45 	 RUN fallback_pair: model=4_chen_7.pdb against global=4_solution_0.pdb -> id=chen_7
+2026-03-10 00:37:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_7.pdb
+2026-03-10 00:37:48 	 Docker exit code: 0
+2026-03-10 00:37:48 	 Docker output length: 345
+2026-03-10 00:37:48 	 Saved CSV: PZ4,chen_7,chen,7,fallback_pair,0.9139666117097831,0.9893045053244826,0.6172133998483676,4_solution_0.pdb,4_chen_7.pdb
+2026-03-10 00:37:48 	 RUN fallback_pair: model=4_chen_8.pdb against global=4_solution_0.pdb -> id=chen_8
+2026-03-10 00:37:48 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_8.pdb
+2026-03-10 00:37:51 	 Docker exit code: 0
+2026-03-10 00:37:51 	 Docker output length: 344
+2026-03-10 00:37:51 	 Saved CSV: PZ4,chen_8,chen,8,fallback_pair,0.9308459577399364,0.9893045053244826,0.7216878364870323,4_solution_0.pdb,4_chen_8.pdb
+2026-03-10 00:37:51 	 RUN fallback_pair: model=4_chen_9.pdb against global=4_solution_0.pdb -> id=chen_9
+2026-03-10 00:37:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_chen_9.pdb
+2026-03-10 00:37:54 	 Docker exit code: 0
+2026-03-10 00:37:54 	 Docker output length: 345
+2026-03-10 00:37:54 	 Saved CSV: PZ4,chen_9,chen,9,fallback_pair,0.9261647192148876,0.9893045053244826,0.7715167498104596,4_solution_0.pdb,4_chen_9.pdb
+2026-03-10 00:37:54 	 RUN fallback_pair: model=4_das_1.pdb against global=4_solution_0.pdb -> id=das_1
+2026-03-10 00:37:54 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_das_1.pdb
+2026-03-10 00:37:57 	 Docker exit code: 0
+2026-03-10 00:37:57 	 Docker output length: 342
+2026-03-10 00:37:57 	 Saved CSV: PZ4,das_1,das,1,fallback_pair,0.8928522451791226,0.9789450103725609,0.5773502691896257,4_solution_0.pdb,4_das_1.pdb
+2026-03-10 00:37:57 	 RUN fallback_pair: model=4_das_2.pdb against global=4_solution_0.pdb -> id=das_2
+2026-03-10 00:37:57 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_das_2.pdb
+2026-03-10 00:38:00 	 Docker exit code: 0
+2026-03-10 00:38:00 	 Docker output length: 342
+2026-03-10 00:38:00 	 Saved CSV: PZ4,das_2,das,2,fallback_pair,0.8956037224108795,0.9789450103725609,0.5773502691896257,4_solution_0.pdb,4_das_2.pdb
+2026-03-10 00:38:00 	 RUN fallback_pair: model=4_das_3.pdb against global=4_solution_0.pdb -> id=das_3
+2026-03-10 00:38:00 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_das_3.pdb
+2026-03-10 00:38:03 	 Docker exit code: 0
+2026-03-10 00:38:03 	 Docker output length: 343
+2026-03-10 00:38:03 	 Saved CSV: PZ4,das_3,das,3,fallback_pair,0.8956037224108795,0.9789450103725609,0.5773502691896257,4_solution_0.pdb,4_das_3.pdb
+2026-03-10 00:38:03 	 RUN fallback_pair: model=4_das_4.pdb against global=4_solution_0.pdb -> id=das_4
+2026-03-10 00:38:03 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_das_4.pdb
+2026-03-10 00:38:06 	 Docker exit code: 0
+2026-03-10 00:38:06 	 Docker output length: 343
+2026-03-10 00:38:06 	 Saved CSV: PZ4,das_4,das,4,fallback_pair,0.8956037224108795,0.9789450103725609,0.5773502691896257,4_solution_0.pdb,4_das_4.pdb
+2026-03-10 00:38:06 	 RUN fallback_pair: model=4_das_5.pdb against global=4_solution_0.pdb -> id=das_5
+2026-03-10 00:38:06 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_das_5.pdb
+2026-03-10 00:38:09 	 Docker exit code: 0
+2026-03-10 00:38:09 	 Docker output length: 342
+2026-03-10 00:38:09 	 Saved CSV: PZ4,das_5,das,5,fallback_pair,0.8956037224108795,0.9789450103725609,0.5773502691896257,4_solution_0.pdb,4_das_5.pdb
+2026-03-10 00:38:09 	 RUN fallback_pair: model=4_dokholyan_1.pdb against global=4_solution_0.pdb -> id=dokholyan_1
+2026-03-10 00:38:09 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_dokholyan_1.pdb
+2026-03-10 00:38:12 	 Docker exit code: 0
+2026-03-10 00:38:12 	 Docker output length: 348
+2026-03-10 00:38:12 	 Saved CSV: PZ4,dokholyan_1,dokholyan,1,fallback_pair,0.9001800540180063,0.9893045053244826,0.7715167498104596,4_solution_0.pdb,4_dokholyan_1.pdb
+2026-03-10 00:38:12 	 RUN fallback_pair: model=4_dokholyan_2.pdb against global=4_solution_0.pdb -> id=dokholyan_2
+2026-03-10 00:38:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_dokholyan_2.pdb
+2026-03-10 00:38:14 	 Docker exit code: 0
+2026-03-10 00:38:14 	 Docker output length: 348
+2026-03-10 00:38:14 	 Saved CSV: PZ4,dokholyan_2,dokholyan,2,fallback_pair,0.9001800540180063,0.9893045053244826,0.7715167498104596,4_solution_0.pdb,4_dokholyan_2.pdb
+2026-03-10 00:38:14 	 RUN fallback_pair: model=4_major_1.pdb against global=4_solution_0.pdb -> id=major_1
+2026-03-10 00:38:14 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_major_1.pdb
+2026-03-10 00:38:17 	 Docker exit code: 0
+2026-03-10 00:38:17 	 Docker output length: 345
+2026-03-10 00:38:17 	 Saved CSV: PZ4,major_1,major,1,fallback_pair,0.8903967062452103,0.9789450103725609,0.7216878364870323,4_solution_0.pdb,4_major_1.pdb
+2026-03-10 00:38:17 	 RUN fallback_pair: model=4_mikolajczak_1.pdb against global=4_solution_0.pdb -> id=mikolajczak_1
+2026-03-10 00:38:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_mikolajczak_1.pdb
+2026-03-10 00:38:20 	 Docker exit code: 0
+2026-03-10 00:38:20 	 Docker output length: 353
+2026-03-10 00:38:20 	 Saved CSV: PZ4,mikolajczak_1,mikolajczak,1,fallback_pair,0.7202263595024049,0.7392406655610813,0.28867513459481287,4_solution_0.pdb,4_mikolajczak_1.pdb
+2026-03-10 00:38:20 	 RUN fallback_pair: model=4_santalucia_1.pdb against global=4_solution_0.pdb -> id=santalucia_1
+2026-03-10 00:38:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/PZ4/pdb/4_solution_0.pdb /work/data/finished/PZ4/pdb/4_santalucia_1.pdb
+2026-03-10 00:38:23 	 Docker exit code: 0
+2026-03-10 00:38:23 	 Docker output length: 350
+2026-03-10 00:38:23 	 Saved CSV: PZ4,santalucia_1,santalucia,1,fallback_pair,0.8825601911044338,0.9893045053244826,0.6172133998483676,4_solution_0.pdb,4_santalucia_1.pdb
+2026-03-10 00:38:23 	 SKIP (model is a solution file): 4_solution_0.pdb
+2026-03-10 00:38:23 	 DONE case: PZ4
+2026-03-10 01:12:44 	 START case: PZ4
+2026-03-10 01:12:44 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4
+2026-03-10 01:12:44 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4\pdb
+2026-03-10 01:12:44 	 Found pdb count: 31
+2026-03-10 01:12:44 	 Global solution: 4_solution_0.pdb
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): adamiak_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): adamiak_2
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): adamiak_3
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): adamiak_4
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): adamiak_5
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): bujnicki_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): bujnicki_2
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): bujnicki_3
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): bujnicki_4
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): bujnicki_5
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_10
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_2
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_3
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_4
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_5
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_6
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_7
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_8
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): chen_9
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): das_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): das_2
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): das_3
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): das_4
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): das_5
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): dokholyan_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): dokholyan_2
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): major_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): mikolajczak_1
+2026-03-10 01:12:44 	 SKIP already recorded (fallback): santalucia_1
+2026-03-10 01:12:44 	 SKIP (model is a solution file): 4_solution_0.pdb
+2026-03-10 01:12:44 	 DONE case: PZ4
+2026-03-10 01:17:28 	 START case: PZ4
+2026-03-10 01:17:28 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4
+2026-03-10 01:17:28 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4\pdb
+2026-03-10 01:17:28 	 Found pdb count: 31
+2026-03-10 01:17:28 	 Global solution: 4_solution_0.pdb
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): adamiak_1
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): adamiak_2
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): adamiak_3
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): adamiak_4
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): adamiak_5
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): bujnicki_1
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): bujnicki_2
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): bujnicki_3
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): bujnicki_4
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): bujnicki_5
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_1
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_10
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_2
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_3
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_4
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_5
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_6
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_7
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_8
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): chen_9
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): das_1
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): das_2
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): das_3
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): das_4
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): das_5
+2026-03-10 01:17:28 	 SKIP already recorded (fallback): dokholyan_1
+2026-03-10 01:17:29 	 SKIP already recorded (fallback): dokholyan_2
+2026-03-10 01:17:29 	 SKIP already recorded (fallback): major_1
+2026-03-10 01:17:29 	 SKIP already recorded (fallback): mikolajczak_1
+2026-03-10 01:17:29 	 SKIP already recorded (fallback): santalucia_1
+2026-03-10 01:17:29 	 SKIP (model is a solution file): 4_solution_0.pdb
+2026-03-10 01:17:29 	 DONE case: PZ4
+2026-03-10 01:21:55 	 START case: PZ4
+2026-03-10 01:21:55 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4
+2026-03-10 01:21:55 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\PZ4\pdb
+2026-03-10 01:21:55 	 Found pdb count: 31
+2026-03-10 01:21:55 	 Global solution: 4_solution_0.pdb
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): adamiak_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): adamiak_2
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): adamiak_3
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): adamiak_4
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): adamiak_5
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): bujnicki_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): bujnicki_2
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): bujnicki_3
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): bujnicki_4
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): bujnicki_5
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_10
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_2
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_3
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_4
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_5
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_6
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_7
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_8
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): chen_9
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): das_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): das_2
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): das_3
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): das_4
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): das_5
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): dokholyan_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): dokholyan_2
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): major_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): mikolajczak_1
+2026-03-10 01:21:55 	 SKIP already recorded (fallback): santalucia_1
+2026-03-10 01:21:55 	 SKIP (model is a solution file): 4_solution_0.pdb
+2026-03-10 01:21:55 	 DONE case: PZ4

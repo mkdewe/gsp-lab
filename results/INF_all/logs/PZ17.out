@@ -1,0 +1,1177 @@
+{
+  "native_pdb": "/tmp/rna_inf_qtltgpan/17_Adamiak_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_419_jdgt/17_Adamiak_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.328821195521142,
+  "inf_all": 0.5890150893739515,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5312532024908597
+}
+{
+  "native_pdb": "/tmp/rna_inf_m2chedoj/17_Adamiak_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2o_om90p/17_Adamiak_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.79445358093395,
+  "inf_all": 0.6002450479987809,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5607672692959075
+}
+{
+  "native_pdb": "/tmp/rna_inf_sn02vf9f/17_Adamiak_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1a67wdi6/17_Adamiak_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.377008863943063,
+  "inf_all": 0.6301260378126045,
+  "inf_wc": 0.8,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5902813361009553
+}
+{
+  "native_pdb": "/tmp/rna_inf_te1owwwd/17_Bujnicki_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_039mrg0r/17_Bujnicki_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.973562920198855,
+  "inf_all": 0.6618225213558055,
+  "inf_wc": 0.7759402897989853,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6585365853658537
+}
+{
+  "native_pdb": "/tmp/rna_inf_d_2u29ma/17_Bujnicki_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_faplsh_u/17_Bujnicki_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.400283418935022,
+  "inf_all": 0.6317396794759962,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6265515005254438
+}
+{
+  "native_pdb": "/tmp/rna_inf_xwuzxum2/17_Bujnicki_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zls0v1q3/17_Bujnicki_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.400283418935022,
+  "inf_all": 0.6317396794759962,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6265515005254438
+}
+{
+  "native_pdb": "/tmp/rna_inf_p93tssc5/17_Bujnicki_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7n9x58ya/17_Bujnicki_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.64015816282228,
+  "inf_all": 0.6269355057278587,
+  "inf_wc": 0.8,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6192231606984032
+}
+{
+  "native_pdb": "/tmp/rna_inf_hvzri15w/17_Bujnicki_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ghcgf7tf/17_Bujnicki_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.08076090249678,
+  "inf_all": 0.6377481392176932,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6311687442672026
+}
+{
+  "native_pdb": "/tmp/rna_inf_m0i3d2m3/17_Bujnicki_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tm0om0x0/17_Bujnicki_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.950277270082916,
+  "inf_all": 0.6764705882352942,
+  "inf_wc": 0.7627700713964739,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6984302957695782
+}
+{
+  "native_pdb": "/tmp/rna_inf_zb788c31/17_Bujnicki_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jfdmqbcs/17_Bujnicki_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.351423900459022,
+  "inf_all": 0.6717027918081596,
+  "inf_wc": 0.8104432008587534,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6625891564490792
+}
+{
+  "native_pdb": "/tmp/rna_inf_svoh4civ/17_Bujnicki_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jilnl0ss/17_Bujnicki_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 10.851881759510572,
+  "inf_all": 0.6946598757457398,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6932198240501807
+}
+{
+  "native_pdb": "/tmp/rna_inf_smbtotpv/17_Bujnicki_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1l_13cup/17_Bujnicki_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.222747057805918,
+  "inf_all": 0.7180804893387656,
+  "inf_wc": 0.8392543274162824,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.7161039575709525
+}
+{
+  "native_pdb": "/tmp/rna_inf_6_blma3f/17_Bujnicki_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fjhgjbp0/17_Bujnicki_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.973562920198855,
+  "inf_all": 0.6618225213558055,
+  "inf_wc": 0.7759402897989853,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6585365853658537
+}
+{
+  "native_pdb": "/tmp/rna_inf_cpf1ibwk/17_Chen_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e4vv2_2c/17_Chen_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.109237708131076,
+  "inf_all": 0.6472967023994394,
+  "inf_wc": 0.7905694150420949,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6420242378222333
+}
+{
+  "native_pdb": "/tmp/rna_inf_sjkjpeva/17_Chen_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kb8vmxs0/17_Chen_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.98979637213764,
+  "inf_all": 0.36667939881128453,
+  "inf_wc": 0.14301938838683884,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5185580382410345
+}
+{
+  "native_pdb": "/tmp/rna_inf_nmnxon9p/17_Chen_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_dcyrli2h/17_Chen_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.623637252879881,
+  "inf_all": 0.7247137945655605,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7517493868524993
+}
+{
+  "native_pdb": "/tmp/rna_inf_ijbvxwzx/17_Chen_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zdnd85lm/17_Chen_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.345436773053343,
+  "inf_all": 0.6174969805662238,
+  "inf_wc": 0.7826237921249264,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5934602951767031
+}
+{
+  "native_pdb": "/tmp/rna_inf_are1tewr/17_Chen_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__veki8rv/17_Chen_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.137032635565294,
+  "inf_all": 0.604457345628574,
+  "inf_wc": 0.6674238124719146,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6668557115213574
+}
+{
+  "native_pdb": "/tmp/rna_inf_kh5e__lk/17_Chen_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vcgwsain/17_Chen_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 9.444260561025807,
+  "inf_all": 0.5744898369911966,
+  "inf_wc": 0.75,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6170919847985359
+}
+{
+  "native_pdb": "/tmp/rna_inf_e3wv5xmt/17_Chen_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_phmmck7m/17_Chen_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.750976062246515,
+  "inf_all": 0.600640076042855,
+  "inf_wc": 0.7592566023652966,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6173309979059936
+}
+{
+  "native_pdb": "/tmp/rna_inf_4jaj_uo5/17_Chen_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_manunhux/17_Chen_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.50437672103524,
+  "inf_all": 0.6630844268482062,
+  "inf_wc": 0.8207826816681233,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6420242378222333
+}
+{
+  "native_pdb": "/tmp/rna_inf_dd6bvqod/17_Chen_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_72pxvyy4/17_Chen_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.611272318514832,
+  "inf_all": 0.6662966046527696,
+  "inf_wc": 0.8677218312746247,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6246950475544242
+}
+{
+  "native_pdb": "/tmp/rna_inf_v6vnz_rs/17_Chen_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_80nys7y0/17_Chen_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.594934118807739,
+  "inf_all": 0.6470588235294118,
+  "inf_wc": 0.75,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6751492859105923
+}
+{
+  "native_pdb": "/tmp/rna_inf_a1g2ul29/17_Das_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ta2wllh6/17_Das_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 8.64238088453304,
+  "inf_all": 0.7452841128534442,
+  "inf_wc": 0.9057894597833127,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7347071583103029
+}
+{
+  "native_pdb": "/tmp/rna_inf_jfbbmmuy/17_Das_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8fdigzw1/17_Das_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.4287701087496,
+  "inf_all": 0.6746171945133973,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.679659059783796
+}
+{
+  "native_pdb": "/tmp/rna_inf_g1xjjze7/17_Das_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yya02qqv/17_Das_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.266960286191058,
+  "inf_all": 0.7104476001945066,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7391491482878365
+}
+{
+  "native_pdb": "/tmp/rna_inf_9rl322hp/17_Das_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ab02vbh4/17_Das_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.896719617372387,
+  "inf_all": 0.6846994869458681,
+  "inf_wc": 0.85,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6863527805529911
+}
+{
+  "native_pdb": "/tmp/rna_inf_04y6_cd5/17_Das_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xz9h5udb/17_Das_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.1547458362749765,
+  "inf_all": 0.7180804893387656,
+  "inf_wc": 0.8581163303210332,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7347071583103029
+}
+{
+  "native_pdb": "/tmp/rna_inf_w43v938l/17_Das_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3ry667is/17_Das_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.37956861153001,
+  "inf_all": 0.6776452139970671,
+  "inf_wc": 0.8104432008587534,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7027819284987273
+}
+{
+  "native_pdb": "/tmp/rna_inf_5gi_lvh3/17_Das_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_qxn2b8qg/17_Das_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.522701558346704,
+  "inf_all": 0.706741822823559,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7231566384075332
+}
+{
+  "native_pdb": "/tmp/rna_inf_85dlxpwd/17_Das_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_z7vtbebu/17_Das_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 10.951919762380964,
+  "inf_all": 0.672245564487355,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6752110364284798
+}
+{
+  "native_pdb": "/tmp/rna_inf_qwxt4p1c/17_Das_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o_vis_x8/17_Das_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 8.698553982962002,
+  "inf_all": 0.708447269178752,
+  "inf_wc": 0.8783100656536799,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7002188525924975
+}
+{
+  "native_pdb": "/tmp/rna_inf_wuf8vwaf/17_Das_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2zkiafbz/17_Das_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 8.778691260786369,
+  "inf_all": 0.7219882051154243,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7470421737034139
+}
+{
+  "native_pdb": "/tmp/rna_inf_34d1ujug/17_DasExtraInfo_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2_g833p_/17_DasExtraInfo_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.023209731567539,
+  "inf_all": 0.6930462415879096,
+  "inf_wc": 0.8295150620062532,
+  "inf_nwc": 0.21821789023599236,
+  "inf_stack": 0.6840376991164889
+}
+{
+  "native_pdb": "/tmp/rna_inf_6mxx7iv9/17_DasExtraInfo_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_22k2hv_2/17_DasExtraInfo_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.07268494100692,
+  "inf_all": 0.7238482967695944,
+  "inf_wc": 0.8392543274162824,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7347071583103029
+}
+{
+  "native_pdb": "/tmp/rna_inf_6cbjj2up/17_DasExtraInfo_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ksenr28r/17_DasExtraInfo_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.222727096487326,
+  "inf_all": 0.7142306081512174,
+  "inf_wc": 0.8104432008587534,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.7252266687565152
+}
+{
+  "native_pdb": "/tmp/rna_inf_pbetjkhg/17_Ding_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_54ipov67/17_Ding_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.024603658420327,
+  "inf_all": 0.5943056237379929,
+  "inf_wc": 0.55,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6767529681839596
+}
+{
+  "native_pdb": "/tmp/rna_inf_ln3ih7ey/17_Ding_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_u7g3fjel/17_Ding_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.388853659717233,
+  "inf_all": 0.5717718748968657,
+  "inf_wc": 0.7378647873726218,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5521576303742327
+}
+{
+  "native_pdb": "/tmp/rna_inf_wto41n9r/17_Ding_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_m9tgfdjc/17_Ding_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.092786609114107,
+  "inf_all": 0.5264075983787764,
+  "inf_wc": 0.5270462766947299,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5797655118929443
+}
+{
+  "native_pdb": "/tmp/rna_inf_u8of_wbd/17_Ding_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_281t0rex/17_Ding_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.533841465610234,
+  "inf_all": 0.5509731650193397,
+  "inf_wc": 0.5797509043642028,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5905205908575614
+}
+{
+  "native_pdb": "/tmp/rna_inf_455kgskt/17_Ding_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_r2au0njf/17_Ding_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.740106395668981,
+  "inf_all": 0.5951190357119042,
+  "inf_wc": 0.5423261445466404,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6843191382146412
+}
+{
+  "native_pdb": "/tmp/rna_inf_26anluhk/17_Ding_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ypqs8_n_/17_Ding_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.010557303756347,
+  "inf_all": 0.6416889479197478,
+  "inf_wc": 0.5642880936468347,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.7298664944894172
+}
+{
+  "native_pdb": "/tmp/rna_inf_khxq6deo/17_Ding_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_z6_94zzr/17_Ding_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.937035584751467,
+  "inf_all": 0.5549550550469577,
+  "inf_wc": 0.7694837640638655,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.513239353660981
+}
+{
+  "native_pdb": "/tmp/rna_inf_zyav9734/17_Ding_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_etlysnk6/17_Ding_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.858735460406145,
+  "inf_all": 0.611312049730192,
+  "inf_wc": 0.7694837640638655,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.589042349125875
+}
+{
+  "native_pdb": "/tmp/rna_inf__hund9gj/17_Ding_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0r2ju28n/17_Ding_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.814825918966047,
+  "inf_all": 0.6050832675335579,
+  "inf_wc": 0.7694837640638655,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5905205908575614
+}
+{
+  "native_pdb": "/tmp/rna_inf_gn1qcrzj/17_Ding_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vsgv5asd/17_Ding_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.74030590546735,
+  "inf_all": 0.6424925662032355,
+  "inf_wc": 0.8,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6246950475544242
+}
+{
+  "native_pdb": "/tmp/rna_inf__3f_3sf5/17_Dokholyan_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_s5g6xbz2/17_Dokholyan_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 21.784841441447696,
+  "inf_all": 0.4742007066216032,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5466081666101212
+}
+{
+  "native_pdb": "/tmp/rna_inf_fclyj2em/17_Dokholyan_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vaikx9wk/17_Dokholyan_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.27155000686486,
+  "inf_all": 0.6054055145966812,
+  "inf_wc": 0.6928203230275509,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6246950475544242
+}
+{
+  "native_pdb": "/tmp/rna_inf_m9k15ydj/17_Dokholyan_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_exa5bd5i/17_Dokholyan_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.024732491485555,
+  "inf_all": 0.6731911129165357,
+  "inf_wc": 0.85,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.650203220264462
+}
+{
+  "native_pdb": "/tmp/rna_inf_rtgmkwmq/17_Major_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_5pp2kaa7/17_Major_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.8487393781539,
+  "inf_all": 0.5735294117647058,
+  "inf_wc": 0.5720775535473553,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.635690172619815
+}
+{
+  "native_pdb": "/tmp/rna_inf_amk4grlr/17_Major_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_cscyzetq/17_Major_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.396807211101613,
+  "inf_all": 0.2990445835608375,
+  "inf_wc": 0.21213203435596426,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.37481702853265453
+}
+{
+  "native_pdb": "/tmp/rna_inf_47vr0kfk/17_Major_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ydvoj2id/17_Major_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.05395828171763,
+  "inf_all": 0.56086363289652,
+  "inf_wc": 0.5366563145999496,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6251954041004442
+}
+{
+  "native_pdb": "/tmp/rna_inf_jax9pe2w/17_Major_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_j6zopr29/17_Major_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.048345687059918,
+  "inf_all": 0.5693582334119391,
+  "inf_wc": 0.5477225575051661,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6285872661926204
+}
+{
+  "native_pdb": "/tmp/rna_inf_bzkys2wb/17_Major_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_05wqd82h/17_Major_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.6662239252526,
+  "inf_all": 0.5652974065007302,
+  "inf_wc": 0.5477225575051661,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6251954041004442
+}
+{
+  "native_pdb": "/tmp/rna_inf_4gm_cafm/17_Major_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fuvmapgo/17_Major_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.46480116006536,
+  "inf_all": 0.5194624816493197,
+  "inf_wc": 0.5367450401216933,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5609756097560976
+}
+{
+  "native_pdb": "/tmp/rna_inf_14130c9g/17_Major_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ni9a1r28/17_Major_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.943541141254842,
+  "inf_all": 0.5363018730550991,
+  "inf_wc": 0.34641016151377546,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6912800532450314
+}
+{
+  "native_pdb": "/tmp/rna_inf_yqfdqlz3/17_Major_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ij3bzwp9/17_Major_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.471958255256407,
+  "inf_all": 0.4545324114471421,
+  "inf_wc": 0.39528470752104744,
+  "inf_nwc": 0.21821789023599236,
+  "inf_stack": 0.513239353660981
+}
+{
+  "native_pdb": "/tmp/rna_inf_1ko3978g/17_Major_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8o_c49w0/17_Major_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.691937540774198,
+  "inf_all": 0.4253428648368027,
+  "inf_wc": 0.43412157106222954,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.4722250688807642
+}
+{
+  "native_pdb": "/tmp/rna_inf_ad0mlaxw/17_Major_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2o4jm774/17_Major_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.5885716779723,
+  "inf_all": 0.2853908964926965,
+  "inf_wc": 0.3380617018914066,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.3030216076314281
+}
+{
+  "native_pdb": "/tmp/rna_inf_re6or8qc/17_RNAComposerAS1_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nxkbx_20/17_RNAComposerAS1_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.775208260656722,
+  "inf_all": 0.5479462546995058,
+  "inf_wc": 0.4338609156373123,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6430394361098802
+}
+{
+  "native_pdb": "/tmp/rna_inf_c1kdnlpc/17_RNAComposerAS1_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_y04r0imy/17_RNAComposerAS1_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.45231242637391,
+  "inf_all": 0.48941945791177127,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5477743344639721
+}
+{
+  "native_pdb": "/tmp/rna_inf_rgw0p3_q/17_RNAComposerAS1_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yiao8sh_/17_RNAComposerAS1_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 21.578055571892534,
+  "inf_all": 0.4277926319464986,
+  "inf_wc": 0.15811388300841897,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5954068852869262
+}
+{
+  "native_pdb": "/tmp/rna_inf_jfc1wsdw/17_RNAComposerAS1_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tilpbt4s/17_RNAComposerAS1_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.954706819925565,
+  "inf_all": 0.5115762305379483,
+  "inf_wc": 0.5031152949374527,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5648457825594065
+}
+{
+  "native_pdb": "/tmp/rna_inf__m502we5/17_RNAComposerAS1_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8tm8_jrk/17_RNAComposerAS1_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.062286462290395,
+  "inf_all": 0.4861527926641233,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5501719556083909
+}
+{
+  "native_pdb": "/tmp/rna_inf_6rn6n33z/17_RNAComposerAS1_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xl29clky/17_RNAComposerAS1_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.029932274542983,
+  "inf_all": 0.4830650383732579,
+  "inf_wc": 0.4880935300919764,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5356715840055801
+}
+{
+  "native_pdb": "/tmp/rna_inf_gdif5q58/17_RNAComposerAS1_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_b0aq5z6b/17_RNAComposerAS1_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.90688965039752,
+  "inf_all": 0.4785713124387259,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.532029321535047
+}
+{
+  "native_pdb": "/tmp/rna_inf_ztzmhvtm/17_RNAComposerAS1_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yniqlryt/17_RNAComposerAS1_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.653601168566517,
+  "inf_all": 0.3946931112191704,
+  "inf_wc": 0.1538967528127731,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5501719556083909
+}
+{
+  "native_pdb": "/tmp/rna_inf_ujezjequ/17_RNAComposerAS1_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kuaw2yvg/17_RNAComposerAS1_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.601235962291106,
+  "inf_all": 0.4785713124387259,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5391709742612516
+}
+{
+  "native_pdb": "/tmp/rna_inf_ky2qksv9/17_RNAComposerAS1_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zqscv5tc/17_RNAComposerAS1_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.673282357533086,
+  "inf_all": 0.4979317388075076,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5751797717724086
+}
+{
+  "native_pdb": "/tmp/rna_inf__8bfg870/17_RNAComposerAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ss4bms1q/17_RNAComposerAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.311129316993663,
+  "inf_all": 0.5659453309702792,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.501739135685812
+}
+{
+  "native_pdb": "/tmp/rna_inf_n4glw2hb/17_RNAComposerAS2_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3ttv985k/17_RNAComposerAS2_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.588006103509777,
+  "inf_all": 0.548454318095348,
+  "inf_wc": 0.6821910402406465,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5329430777805537
+}
+{
+  "native_pdb": "/tmp/rna_inf_ndsk9dim/17_RNAComposerAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_k_b76yqf/17_RNAComposerAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.011405147246043,
+  "inf_all": 0.6126225367622542,
+  "inf_wc": 0.8207826816681233,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5510140510374545
+}
+{
+  "native_pdb": "/tmp/rna_inf_uuo4c7rf/17_RNAComposerAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_v3ht3pxy/17_RNAComposerAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.916345506835524,
+  "inf_all": 0.4973458969132756,
+  "inf_wc": 0.5031152949374527,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5521576303742327
+}
+{
+  "native_pdb": "/tmp/rna_inf_nrrxjct0/17_RNAComposerAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_5i94j8oi/17_RNAComposerAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.52487445933925,
+  "inf_all": 0.6014167670256413,
+  "inf_wc": 0.7181848464596078,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5902813361009553
+}
+{
+  "native_pdb": "/tmp/rna_inf_f9yrrkt1/17_RNAComposerAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tu5mic2v/17_RNAComposerAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.560425954167647,
+  "inf_all": 0.5426085325608538,
+  "inf_wc": 0.75,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.48089047182263056
+}
+{
+  "native_pdb": "/tmp/rna_inf_ak9hqbm5/17_RNAComposerAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6z4if1fj/17_RNAComposerAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.790846652539626,
+  "inf_all": 0.5483505816998494,
+  "inf_wc": 0.75,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.48089047182263056
+}
+{
+  "native_pdb": "/tmp/rna_inf_eazya716/17_RNAComposerAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zb6f0jiv/17_RNAComposerAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.828660748388463,
+  "inf_all": 0.577615534661554,
+  "inf_wc": 0.75,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5312532024908597
+}
+{
+  "native_pdb": "/tmp/rna_inf_2o_pkz7p/17_RNAComposerAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_arm7he61/17_RNAComposerAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.512781995028465,
+  "inf_all": 0.5363018730550991,
+  "inf_wc": 0.7592566023652966,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.4685212856658182
+}
+{
+  "native_pdb": "/tmp/rna_inf_ss2dyaty/17_RNAComposerAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_f4jo0of5/17_RNAComposerAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.096868544132835,
+  "inf_all": 0.5370431697233087,
+  "inf_wc": 0.7171371656006361,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.516540885435685
+}
+{
+  "native_pdb": "/tmp/rna_inf_n5_ti45c/17_SimRNAAS1_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8xrjodzy/17_SimRNAAS1_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.623372244950929,
+  "inf_all": 0.5362882079785147,
+  "inf_wc": 0.55,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6341463414634146
+}
+{
+  "native_pdb": "/tmp/rna_inf_48dqxqpl/17_SimRNAAS1_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_r7c9y4jx/17_SimRNAAS1_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.597242762668795,
+  "inf_all": 0.5797710356524484,
+  "inf_wc": 0.6831300510639732,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6420242378222333
+}
+{
+  "native_pdb": "/tmp/rna_inf_o1ycyjaf/17_SimRNAAS1_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7osa8ve8/17_SimRNAAS1_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.970087922052283,
+  "inf_all": 0.5756736625034038,
+  "inf_wc": 0.65,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.635690172619815
+}
+{
+  "native_pdb": "/tmp/rna_inf__bdaeuu_/17_SimRNAAS1_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_uxt4b_lk/17_SimRNAAS1_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.8188785885675,
+  "inf_all": 0.5859534992369051,
+  "inf_wc": 0.65,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6592342530872156
+}
+{
+  "native_pdb": "/tmp/rna_inf_k8il15k9/17_SimRNAAS1_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_uvgcpxij/17_SimRNAAS1_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.054576410128664,
+  "inf_all": 0.5859534992369051,
+  "inf_wc": 0.6831300510639732,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.635690172619815
+}
+{
+  "native_pdb": "/tmp/rna_inf_5moklvsm/17_SimRNAAS1_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_5_jh6lm8/17_SimRNAAS1_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.172269820303004,
+  "inf_all": 0.604457345628574,
+  "inf_wc": 0.6831300510639732,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6447438186819057
+}
+{
+  "native_pdb": "/tmp/rna_inf_c3jlf7jq/17_SimRNAAS1_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2agd5uqf/17_SimRNAAS1_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.06959070922577,
+  "inf_all": 0.3806216152433556,
+  "inf_wc": 0.13693063937629152,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5410017808004594
+}
+{
+  "native_pdb": "/tmp/rna_inf_sm_8wgzi/17_SimRNAAS1_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rxogi1jb/17_SimRNAAS1_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.59376662402414,
+  "inf_all": 0.6074240722196088,
+  "inf_wc": 0.6668859288553503,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6518682760516064
+}
+{
+  "native_pdb": "/tmp/rna_inf_n88harjf/17_SimRNAAS1_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6rgn8kmc/17_SimRNAAS1_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.540647314324346,
+  "inf_all": 0.4466298001344306,
+  "inf_wc": 0.2564945880212885,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5853658536585366
+}
+{
+  "native_pdb": "/tmp/rna_inf_pnpb_6j6/17_SimRNAAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wkg4b2hh/17_SimRNAAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.161289942859673,
+  "inf_all": 0.6911764705882353,
+  "inf_wc": 0.8392543274162824,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6988459044322258
+}
+{
+  "native_pdb": "/tmp/rna_inf_rb__jcf5/17_SimRNAAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_s5ris0rq/17_SimRNAAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.095475651478072,
+  "inf_all": 0.6476328703163292,
+  "inf_wc": 0.7602631123499285,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6447438186819057
+}
+{
+  "native_pdb": "/tmp/rna_inf_lyi5vrhy/17_SimRNAAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ujj1hwcl/17_SimRNAAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.58665041076085,
+  "inf_all": 0.6120084698771954,
+  "inf_wc": 0.746003846592251,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6024533658898499
+}
+{
+  "native_pdb": "/tmp/rna_inf_e82yyez4/17_SimRNAAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_v7f411um/17_SimRNAAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.069482153343257,
+  "inf_all": 0.6476328703163292,
+  "inf_wc": 0.7926290870042667,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6378479646021206
+}
+{
+  "native_pdb": "/tmp/rna_inf_uxbhdkif/17_SimRNAAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_r8shqs64/17_SimRNAAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.584402738555557,
+  "inf_all": 0.6416889479197478,
+  "inf_wc": 0.746003846592251,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.658702969519582
+}
+{
+  "native_pdb": "/tmp/rna_inf_6nvtilhh/17_SimRNAAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wubq7gsp/17_SimRNAAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.201333428877476,
+  "inf_all": 0.613155020597473,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6121460921524144
+}
+{
+  "native_pdb": "/tmp/rna_inf_5bmsxc37/17_SimRNAAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vj6f8j77/17_SimRNAAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.656728513401668,
+  "inf_all": 0.6667366910003157,
+  "inf_wc": 0.7807200583588266,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7063224140220167
+}
+{
+  "native_pdb": "/tmp/rna_inf_ibf6ps1_/17_SimRNAAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zhsvz9_1/17_SimRNAAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.763742989294306,
+  "inf_all": 0.6476328703163292,
+  "inf_wc": 0.8104432008587534,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6311687442672026
+}
+{
+  "native_pdb": "/tmp/rna_inf_lojaq6mz/17_SimRNAAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yd5rmvjj/17_SimRNAAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.281036673451089,
+  "inf_all": 0.6343693587389261,
+  "inf_wc": 0.7302967433402214,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6606282490521962
+}
+{
+  "native_pdb": "/tmp/rna_inf_iw_ok6_w/17_Xiao_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__pycdxtg/17_Xiao_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.011443911649687,
+  "inf_all": 0.5052248022814558,
+  "inf_wc": 0.6454972243679028,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.510946126311545
+}
+{
+  "native_pdb": "/tmp/rna_inf_w5ofqzsk/17_Xiao_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zhjfpj61/17_Xiao_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.523104631203298,
+  "inf_all": 0.5048781642974013,
+  "inf_wc": 0.6067798762169179,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5309907904212606
+}
+{
+  "native_pdb": "/tmp/rna_inf_pedrg_hl/17_Xiao_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jjggarnd/17_Xiao_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.554380972141477,
+  "inf_all": 0.6079187588743288,
+  "inf_wc": 0.7171371656006361,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.607373393411656
+}
+{
+  "native_pdb": "/tmp/rna_inf_vsyipks4/17_Xiao_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_en507_k7/17_Xiao_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.501891768980121,
+  "inf_all": 0.5775860667363933,
+  "inf_wc": 0.5773502691896257,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6599545966855683
+}
+{
+  "native_pdb": "/tmp/rna_inf_ze3iimwd/17_Xiao_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_hz35tzrw/17_Xiao_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.423717320340963,
+  "inf_all": 0.48553038055886144,
+  "inf_wc": 0.47193990372426947,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5452785412727976
+}
+{
+  "native_pdb": "/tmp/rna_inf_u1qaxun9/17_Xiao_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_lsrvzpbx/17_Xiao_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.543632708968024,
+  "inf_all": 0.5547950410914818,
+  "inf_wc": 0.674199862463242,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.570265948512201
+}
+{
+  "native_pdb": "/tmp/rna_inf_4ahq3da_/17_Xiao_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_cuo018zs/17_Xiao_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.257151094800463,
+  "inf_all": 0.49241011240107063,
+  "inf_wc": 0.5393598899705937,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5410017808004594
+}
+{
+  "native_pdb": "/tmp/rna_inf_rnp_hmsi/17_Xiao_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2tdat_xl/17_Xiao_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.843702620984057,
+  "inf_all": 0.42720460055933956,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5100613704506706
+}
+{
+  "native_pdb": "/tmp/rna_inf_604ftib5/17_Xiao_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4tmxrv_i/17_Xiao_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.927063232125189,
+  "inf_all": 0.4991341984846218,
+  "inf_wc": 0.4472135954999579,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5622255427989818
+}
+{
+  "native_pdb": "/tmp/rna_inf_3qmcilrz/17_Xiao_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vwtdc71w/17_Xiao_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.098647778652314,
+  "inf_all": 0.5368754921931593,
+  "inf_wc": 0.558156305651438,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5934602951767031
+}

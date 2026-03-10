@@ -1,0 +1,1138 @@
+{
+  "native_pdb": "/tmp/rna_inf_ng6gmf7_/PZ16b_3dRNAAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xu9bx173/PZ16b_3dRNAAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.601677072403572,
+  "inf_all": 0.8113480845393759,
+  "inf_wc": 0.816496580927726,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.7819290527140303
+}
+{
+  "native_pdb": "/tmp/rna_inf_b0undt87/PZ16b_3dRNAAS2_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_k2rldh23/PZ16b_3dRNAAS2_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.795239438547164,
+  "inf_all": 0.9276336570439174,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9335638713962128
+}
+{
+  "native_pdb": "/tmp/rna_inf_2i67t48v/PZ16b_3dRNAAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_v8vow3qv/PZ16b_3dRNAAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.47083437886596,
+  "inf_all": 0.8949594297801331,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8858795678282981
+}
+{
+  "native_pdb": "/tmp/rna_inf_08p6h293/PZ16b_3dRNAAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fnqj9r3t/PZ16b_3dRNAAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.761688657216278,
+  "inf_all": 0.7207499701564472,
+  "inf_wc": 0.7071067811865476,
+  "inf_nwc": 0.7302967433402214,
+  "inf_stack": 0.7244616763479587
+}
+{
+  "native_pdb": "/tmp/rna_inf_65gmdvrm/PZ16b_3dRNAAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0be7sl08/PZ16b_3dRNAAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.6366610214736514,
+  "inf_all": 0.8788707488040823,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8610567718228918
+}
+{
+  "native_pdb": "/tmp/rna_inf_hdqpevs6/PZ16b_3dRNAAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jjj450l1/PZ16b_3dRNAAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8735790394144727,
+  "inf_all": 0.926302172234155,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9100315103865801
+}
+{
+  "native_pdb": "/tmp/rna_inf_gu33u0kw/PZ16b_3dRNAAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3yrshrvd/PZ16b_3dRNAAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8735790394144727,
+  "inf_all": 0.926302172234155,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9100315103865801
+}
+{
+  "native_pdb": "/tmp/rna_inf_de2_dizi/PZ16b_3dRNAAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tbtvovxl/PZ16b_3dRNAAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8735790394144727,
+  "inf_all": 0.926302172234155,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9100315103865801
+}
+{
+  "native_pdb": "/tmp/rna_inf_9p2hllj1/PZ16b_3dRNAAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1r1rismd/PZ16b_3dRNAAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.0235942513170375,
+  "inf_all": 0.7935753932437073,
+  "inf_wc": 0.7071067811865476,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.7819290527140303
+}
+{
+  "native_pdb": "/tmp/rna_inf_nrh02r79/PZ16b_3dRNAAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rwso2j0e/PZ16b_3dRNAAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.876743537344212,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.8333333333333334,
+  "inf_stack": 0.8645299348672512
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_gu06oz_6/PZ16b_Chen_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fkd3vgmu/PZ16b_Chen_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.2951952443820134,
+  "inf_all": 0.9428571428571428,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9363821838346235
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_v5hcdvnx/PZ16b_Chen_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_931fg78w/PZ16b_Chen_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.717331744640116,
+  "inf_all": 0.2958039891549808,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.4615663313770509
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_x6_1ck3i/PZ16b_Chen_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wco2hcap/PZ16b_Chen_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.19536477850531,
+  "inf_all": 0.5669467095138409,
+  "inf_wc": 0.7715167498104596,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5783149319662402
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_caojnyx2/PZ16b_Chen_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_d0hq7h6p/PZ16b_Chen_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.274223159384635,
+  "inf_all": 0.6126374746329801,
+  "inf_wc": 0.7715167498104596,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6460582824697987
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_avhkhc1c/PZ16b_Chen_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7usxu44h/PZ16b_Chen_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.802141234582596,
+  "inf_all": 0.19920476822239894,
+  "inf_wc": 0.0,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.34752402342845795
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_s3j9g7xi/PZ16b_Chen_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tsf8_iqk/PZ16b_Chen_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.429191043780946,
+  "inf_all": 0.3187276291558383,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5029556907695452
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_7hmo_8g_/PZ16b_Chen_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vv_3wadp/PZ16b_Chen_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.564713558391816,
+  "inf_all": 0.3102266937317925,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5275043787166296
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_ehvvdc8l/PZ16b_Chen_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_a3tjgvw_/PZ16b_Chen_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.39385824031111,
+  "inf_all": 0.29508444542532697,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.44582257006028225
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_kzee5bj4/PZ16b_Chen_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8bxgudcl/PZ16b_Chen_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.73557211553109,
+  "inf_all": 0.3187276291558383,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.46265194557299216
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_7j20wxdc/PZ16b_Chen_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xmlgt2le/PZ16b_Chen_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.299680536194398,
+  "inf_all": 0.33149677206589795,
+  "inf_wc": 0.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5383819020581655
+}
+{
+  "native_pdb": "/tmp/rna_inf_yeq4vmld/PZ16b_Lee_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ydj1diee/PZ16b_Lee_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.036697613656776,
+  "inf_all": 0.6179143806533246,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6370220572706061
+}
+{
+  "native_pdb": "/tmp/rna_inf_itons_ce/PZ16b_Lee_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_5fd6ko1y/PZ16b_Lee_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.882355026800265,
+  "inf_all": 0.56498833851691,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5897678246195885
+}
+{
+  "native_pdb": "/tmp/rna_inf_3z26hx_u/PZ16b_Lee_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o3zho8gp/PZ16b_Lee_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 3.9556053250157226,
+  "inf_all": 0.6172133998483676,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6389151433378876
+}
+{
+  "native_pdb": "/tmp/rna_inf_5hf4lbug/PZ16b_Lee_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_w_cc2kgl/PZ16b_Lee_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 3.6116428916861607,
+  "inf_all": 0.6071767407189163,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6218743352054218
+}
+{
+  "native_pdb": "/tmp/rna_inf_48tceu__/PZ16b_Lee_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_x4q0u3qk/PZ16b_Lee_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.247191937302048,
+  "inf_all": 0.6473388749701496,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6825236327899351
+}
+{
+  "native_pdb": "/tmp/rna_inf_zgc5x2kb/PZ16b_Lee_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p460c95d/PZ16b_Lee_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.723914822440499,
+  "inf_all": 0.648074069840786,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6880624620561867
+}
+{
+  "native_pdb": "/tmp/rna_inf_cg35681d/PZ16b_Lee_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8pcxq5c4/PZ16b_Lee_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 3.812351776240857,
+  "inf_all": 0.6071767407189163,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6218743352054218
+}
+{
+  "native_pdb": "/tmp/rna_inf_ht1hqqas/PZ16b_Lee_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rjpucj33/PZ16b_Lee_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.065628032490904,
+  "inf_all": 0.5884898863364997,
+  "inf_wc": 0.7071067811865476,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6370220572706061
+}
+{
+  "native_pdb": "/tmp/rna_inf_4g1zay82/PZ16b_Lee_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vjpecurs/PZ16b_Lee_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 3.7951241214444043,
+  "inf_all": 0.5963765795456272,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6389151433378876
+}
+{
+  "native_pdb": "/tmp/rna_inf_w90a0ov5/PZ16b_Lee_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0fnx_kd3/PZ16b_Lee_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.0473906935832344,
+  "inf_all": 0.6172133998483676,
+  "inf_wc": 0.7385489458759964,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6697108225289158
+}
+{
+  "native_pdb": "/tmp/rna_inf_xzvr7ubm/PZ16b_RNAComposerAS1_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8ol432ux/PZ16b_RNAComposerAS1_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.4565573192158254,
+  "inf_all": 0.8332380897952963,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8132202844993978
+}
+{
+  "native_pdb": "/tmp/rna_inf_2bibbkjz/PZ16b_RNAComposerAS1_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xyw0dvfq/PZ16b_RNAComposerAS1_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7813436074742386,
+  "inf_all": 0.8238858408710996,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.7302967433402214,
+  "inf_stack": 0.8001976040538967
+}
+{
+  "native_pdb": "/tmp/rna_inf_5kfz5wqo/PZ16b_RNAComposerAS1_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_h6ssoqyo/PZ16b_RNAComposerAS1_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.677062980795443,
+  "inf_all": 0.8533103351879245,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8446530265013354
+}
+{
+  "native_pdb": "/tmp/rna_inf_fb3a7d_p/PZ16b_RNAComposerAS1_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_48nlbk31/PZ16b_RNAComposerAS1_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.3856761104912927,
+  "inf_all": 0.8696565534786727,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8695652173913043
+}
+{
+  "native_pdb": "/tmp/rna_inf_sc_tgtqv/PZ16b_RNAComposerAS1_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_k14md5em/PZ16b_RNAComposerAS1_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.774762594921775,
+  "inf_all": 0.8964214570007952,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8645299348672512
+}
+{
+  "native_pdb": "/tmp/rna_inf_ykuowmbv/PZ16b_RNAComposerAS1_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_gtl9fd4b/PZ16b_RNAComposerAS1_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8382058312362446,
+  "inf_all": 0.9296696802013682,
+  "inf_wc": 1.0,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.893819357296686
+}
+{
+  "native_pdb": "/tmp/rna_inf_8mo606_9/PZ16b_RNAComposerAS1_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_d9de1ziz/PZ16b_RNAComposerAS1_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.5926073955966418,
+  "inf_all": 0.8305395344999219,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.7863570994927847
+}
+{
+  "native_pdb": "/tmp/rna_inf_rk_c269z/PZ16b_RNAComposerAS1_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3_w_anhh/PZ16b_RNAComposerAS1_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7093634026793976,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.889108448948774
+}
+{
+  "native_pdb": "/tmp/rna_inf_n5zvvtm_/PZ16b_RNAComposerAS1_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9zodrgl0/PZ16b_RNAComposerAS1_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7552152432605002,
+  "inf_all": 0.8332380897952963,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8132202844993978
+}
+{
+  "native_pdb": "/tmp/rna_inf_1h8sv19d/PZ16b_RNAComposerAS1_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_umqq46yy/PZ16b_RNAComposerAS1_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.369989674486426,
+  "inf_all": 0.7768985960673559,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.7557421816064579
+}
+{
+  "native_pdb": "/tmp/rna_inf_eefo4v8l/PZ16b_RNAComposerAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_pgfv4ki_/PZ16b_RNAComposerAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.2406565381778794,
+  "inf_all": 0.9121593238215745,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.9130434782608695
+}
+{
+  "native_pdb": "/tmp/rna_inf_09h2cs_h/PZ16b_RNAComposerAS2_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2mgg4tbb/PZ16b_RNAComposerAS2_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.658176917815074,
+  "inf_all": 0.8305395344999219,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.8392543274162824
+}
+{
+  "native_pdb": "/tmp/rna_inf_d73a0443/PZ16b_RNAComposerAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_tl5kl614/PZ16b_RNAComposerAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.6681553446221729,
+  "inf_all": 0.9121593238215745,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.889108448948774
+}
+{
+  "native_pdb": "/tmp/rna_inf_fm03la_f/PZ16b_RNAComposerAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ijjj_g13/PZ16b_RNAComposerAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.5970853044196442,
+  "inf_all": 0.8949594297801331,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8858795678282981
+}
+{
+  "native_pdb": "/tmp/rna_inf_c0qbmxt5/PZ16b_RNAComposerAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9alwnh1p/PZ16b_RNAComposerAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.5367784295305285,
+  "inf_all": 0.8804062740424285,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.889108448948774
+}
+{
+  "native_pdb": "/tmp/rna_inf_p8p_c7ek/PZ16b_RNAComposerAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7pa_7o_d/PZ16b_RNAComposerAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.647708945252462,
+  "inf_all": 0.8804062740424285,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8645299348672512
+}
+{
+  "native_pdb": "/tmp/rna_inf_iphrdwz2/PZ16b_RNAComposerAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nu2qen9s/PZ16b_RNAComposerAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7847145038776333,
+  "inf_all": 0.9107651110783744,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9100315103865801
+}
+{
+  "native_pdb": "/tmp/rna_inf_v9wt2170/PZ16b_RNAComposerAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1ubvjevw/PZ16b_RNAComposerAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.6150344490641373,
+  "inf_all": 0.9276336570439174,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9130434782608695
+}
+{
+  "native_pdb": "/tmp/rna_inf_kbmp1k5f/PZ16b_RNAComposerAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xlct36th/PZ16b_RNAComposerAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7231900844523247,
+  "inf_all": 0.8949594297801331,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8858795678282981
+}
+{
+  "native_pdb": "/tmp/rna_inf_wn3rz_zv/PZ16b_RNAComposerAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3lvi2846/PZ16b_RNAComposerAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.7185802430712864,
+  "inf_all": 0.8305395344999219,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_920mhf_w/PZ16b_RW3DAS1_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p3ffamfp/PZ16b_RW3DAS1_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.854000062207116,
+  "inf_all": 0.9014978717104176,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8695652173913043
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_4vik10nj/PZ16b_RW3DAS1_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ir6hfod2/PZ16b_RW3DAS1_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.9766623075256478,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_o7u9i7lk/PZ16b_RW3DAS1_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_docll14f/PZ16b_RW3DAS1_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7917041282550163,
+  "inf_all": 0.8366600265340756,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.7653837971759038
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_hw_t0r7h/PZ16b_RW3DAS1_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8kukw_ur/PZ16b_RW3DAS1_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.5429747400706408,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_gkqry51d/PZ16b_RW3DAS1_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fjc8e26g/PZ16b_RW3DAS1_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.112699965793133,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_khp20__1/PZ16b_RW3DAS1_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__hvfubfq/PZ16b_RW3DAS1_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.9018875624266474,
+  "inf_all": 0.8332380897952963,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.7585826061362605
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_tg4xvz0e/PZ16b_RW3DAS1_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ge_ej6ur/PZ16b_RW3DAS1_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.3895715511975228,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_yvdieoq1/PZ16b_RW3DAS1_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_i871kthy/PZ16b_RW3DAS1_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.9981328165636485,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_69cjscw0/PZ16b_RW3DAS1_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kzfloh8a/PZ16b_RW3DAS1_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8341804163364681,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_6t3swn7y/PZ16b_RW3DAS1_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_gz6as63h/PZ16b_RW3DAS1_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8892581281612382,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8645299348672512
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_bsdg0po1/PZ16b_RW3DAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o3e5k5h1/PZ16b_RW3DAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.8957414011765468,
+  "inf_all": 0.8986451052612949,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8645299348672512
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_w_bu50mf/PZ16b_RW3DAS2_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_n86lcpvp/PZ16b_RW3DAS2_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.4976695109393745,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_x240i1z_/PZ16b_RW3DAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rpu72gyx/PZ16b_RW3DAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7575342940651069,
+  "inf_all": 0.8366600265340756,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.7653837971759038
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_5zi7_bda/PZ16b_RW3DAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_c4ugu4mm/PZ16b_RW3DAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.6195530131976053,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_lygih1rc/PZ16b_RW3DAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e2nacyab/PZ16b_RW3DAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.737662407153698,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_fz7uxrcv/PZ16b_RW3DAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_m07_hn18/PZ16b_RW3DAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.019381075240156,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_le0tb13n/PZ16b_RW3DAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e7au5kro/PZ16b_RW3DAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.018333231323304,
+  "inf_all": 0.8696565534786727,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8446530265013354
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_hv3_mnow/PZ16b_RW3DAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_bi0zb8rg/PZ16b_RW3DAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.526432336141101,
+  "inf_all": 0.8827348295047495,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8392543274162824
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_22ay2otl/PZ16b_RW3DAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_lehnbjwg/PZ16b_RW3DAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.4472312979210962,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_ny4cbqur/PZ16b_RW3DAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_il3ggbvi/PZ16b_RW3DAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.058306648291951,
+  "inf_all": 0.8665407417674353,
+  "inf_wc": 0.9258200997725514,
+  "inf_nwc": 1.0,
+  "inf_stack": 0.8132202844993978
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_9iv0lqgt/PZ16b_simRNAAS1_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7uty3k55/PZ16b_simRNAAS1_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.224882321304839,
+  "inf_all": 0.6274950199005567,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6370220572706061
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_7t9ps85p/PZ16b_simRNAAS1_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_dw_5pna5/PZ16b_simRNAAS1_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.939384537500314,
+  "inf_all": 0.6678944147908079,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.4714045207910317,
+  "inf_stack": 0.6880624620561867
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_djn4ivs3/PZ16b_simRNAAS1_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wfh8estd/PZ16b_simRNAAS1_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.793018654717744,
+  "inf_all": 0.6479515952918626,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6672461249826392
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_yr_l5_n2/PZ16b_simRNAAS2_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_c66y0mlp/PZ16b_simRNAAS2_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 3.8686043389326046,
+  "inf_all": 0.6767633692869747,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.7112867591590193
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_032ehhw7/PZ16b_simRNAAS2_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kny3a1lm/PZ16b_simRNAAS2_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.6126492885606005,
+  "inf_all": 0.7428571428571429,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.5773502691896257,
+  "inf_stack": 0.782608695652174
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_nje7r1vm/PZ16b_simRNAAS2_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9teog3n4/PZ16b_simRNAAS2_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.057971912012424,
+  "inf_all": 0.6274950199005567,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6370220572706061
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_ygeoxtvk/PZ16b_simRNAAS2_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2vduqisl/PZ16b_simRNAAS2_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.680777679951164,
+  "inf_all": 0.6274950199005567,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6370220572706061
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_kuis5vol/PZ16b_simRNAAS2_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_riax_ecg/PZ16b_simRNAAS2_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.186831335192392,
+  "inf_all": 0.648074069840786,
+  "inf_wc": 0.816496580927726,
+  "inf_nwc": 0.28867513459481287,
+  "inf_stack": 0.6697108225289158
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_drkj4yjz/PZ16b_simRNAAS2_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9z34scbm/PZ16b_simRNAAS2_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.4673838162284785,
+  "inf_all": 0.7171371656006361,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.5773502691896257,
+  "inf_stack": 0.746003846592251
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_dgg3mi1w/PZ16b_simRNAAS2_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_zwpuvwzw/PZ16b_simRNAAS2_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.589051173933372,
+  "inf_all": 0.6473388749701496,
+  "inf_wc": 0.816496580927726,
+  "inf_nwc": 0.5773502691896257,
+  "inf_stack": 0.622375914264142
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_1qr1opwe/PZ16b_simRNAAS2_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_u025561v/PZ16b_simRNAAS2_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 4.398083670824329,
+  "inf_all": 0.6071767407189163,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.6370220572706061
+}
+WARNING    >> Atom P from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP1 from residue (' ', 1, ' ') not found in target atom list
+WARNING    >> Atom OP2 from residue (' ', 1, ' ') not found in target atom list
+{
+  "native_pdb": "/tmp/rna_inf_pw7f0w6o/PZ16b_simRNAAS2_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_m6rnly_e/PZ16b_simRNAAS2_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.6878452910211434,
+  "inf_all": 0.637535577754862,
+  "inf_wc": 0.7745966692414834,
+  "inf_nwc": 0.4714045207910317,
+  "inf_stack": 0.6389151433378876
+}
+{
+  "native_pdb": "/tmp/rna_inf_5atwmaw1/PZ16b_Szachniuk_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_f3p9bwwd/PZ16b_Szachniuk_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.2406565381778794,
+  "inf_all": 0.9121593238215745,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.9130434782608695
+}
+{
+  "native_pdb": "/tmp/rna_inf_1nu9nfjy/PZ16b_Szachniuk_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_y9z9jkwh/PZ16b_Szachniuk_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.658176917815074,
+  "inf_all": 0.8305395344999219,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.8392543274162824
+}
+{
+  "native_pdb": "/tmp/rna_inf_wt816p0m/PZ16b_Szachniuk_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6pohqpmm/PZ16b_Szachniuk_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.6681553446221729,
+  "inf_all": 0.9121593238215745,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.889108448948774
+}
+{
+  "native_pdb": "/tmp/rna_inf_96mz0rdb/PZ16b_Szachniuk_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1yj5rmhx/PZ16b_Szachniuk_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.5970853044196442,
+  "inf_all": 0.8949594297801331,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8858795678282981
+}
+{
+  "native_pdb": "/tmp/rna_inf_qn9lrdc8/PZ16b_Szachniuk_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_55s0l7ud/PZ16b_Szachniuk_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.5367784295305285,
+  "inf_all": 0.8804062740424285,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.889108448948774
+}
+{
+  "native_pdb": "/tmp/rna_inf_pc33c22a/PZ16b_Szachniuk_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fm16f34n/PZ16b_Szachniuk_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.647708945252462,
+  "inf_all": 0.8804062740424285,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8645299348672512
+}
+{
+  "native_pdb": "/tmp/rna_inf_c6gb3j29/PZ16b_Szachniuk_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vuhm4rj9/PZ16b_Szachniuk_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7847145038776333,
+  "inf_all": 0.9107651110783744,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9100315103865801
+}
+{
+  "native_pdb": "/tmp/rna_inf_01hln651/PZ16b_Szachniuk_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ktx10kh7/PZ16b_Szachniuk_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.6150344490641373,
+  "inf_all": 0.9276336570439174,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.9130434782608695
+}
+{
+  "native_pdb": "/tmp/rna_inf_1j3q3bts/PZ16b_Szachniuk_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xxlwvmw3/PZ16b_Szachniuk_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 1.7231900844523247,
+  "inf_all": 0.8949594297801331,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.9128709291752769,
+  "inf_stack": 0.8858795678282981
+}
+{
+  "native_pdb": "/tmp/rna_inf_q6b5d4iw/PZ16b_Szachniuk_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rfvfkypx/PZ16b_Szachniuk_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 2.7185802430712864,
+  "inf_all": 0.8305395344999219,
+  "inf_wc": 0.9128709291752769,
+  "inf_nwc": 0.816496580927726,
+  "inf_stack": 0.8132202844993978
+}

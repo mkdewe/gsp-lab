@@ -1,0 +1,31 @@
+Report for set: PZ10tRNA
+Processed 26 / 26 models (missing solution for 0 models)
+========================================================================================================================
+Model                                              Solution                                           Status          Details                       
+------------------------------------------------------------------------------------------------------------------------
+PZ10tRNA_Bujnicki_10_refined.pdb                   PZ10tRNA_Bujnicki_10_solution.pdb                  SUCCESS         4.392                         
+PZ10tRNA_Bujnicki_1_refined.pdb                    PZ10tRNA_Bujnicki_1_solution.pdb                   SUCCESS         4.532                         
+PZ10tRNA_Bujnicki_2_refined.pdb                    PZ10tRNA_Bujnicki_2_solution.pdb                   SUCCESS         4.495                         
+PZ10tRNA_Bujnicki_3_refined.pdb                    PZ10tRNA_Bujnicki_3_solution.pdb                   SUCCESS         4.47                          
+PZ10tRNA_Bujnicki_4_refined.pdb                    PZ10tRNA_Bujnicki_4_solution.pdb                   SUCCESS         4.486                         
+PZ10tRNA_Bujnicki_5_refined.pdb                    PZ10tRNA_Bujnicki_5_solution.pdb                   SUCCESS         4.478                         
+PZ10tRNA_Bujnicki_6_refined.pdb                    PZ10tRNA_Bujnicki_6_solution.pdb                   SUCCESS         4.51                          
+PZ10tRNA_Bujnicki_7_refined.pdb                    PZ10tRNA_Bujnicki_7_solution.pdb                   SUCCESS         4.487                         
+PZ10tRNA_Bujnicki_8_refined.pdb                    PZ10tRNA_Bujnicki_8_solution.pdb                   SUCCESS         4.494                         
+PZ10tRNA_Bujnicki_9_refined.pdb                    PZ10tRNA_Bujnicki_9_solution.pdb                   SUCCESS         4.439                         
+PZ10tRNA_Chen_1_refined.pdb                        PZ10tRNA_Chen_1_solution.pdb                       SUCCESS         4.332                         
+PZ10tRNA_Das_1_refined.pdb                         PZ10tRNA_Das_1_solution.pdb                        SUCCESS         4.339                         
+PZ10tRNA_Das_2_refined.pdb                         PZ10tRNA_Das_2_solution.pdb                        SUCCESS         4.368                         
+PZ10tRNA_Das_3_refined.pdb                         PZ10tRNA_Das_3_solution.pdb                        SUCCESS         4.41                          
+PZ10tRNA_Das_4_refined.pdb                         PZ10tRNA_Das_4_solution.pdb                        SUCCESS         4.326                         
+PZ10tRNA_Das_5_refined.pdb                         PZ10tRNA_Das_5_solution.pdb                        SUCCESS         4.334                         
+PZ10tRNA_Dokholyan_10_refined.pdb                  PZ10tRNA_Dokholyan_10_solution.pdb                 SUCCESS         4.384                         
+PZ10tRNA_Dokholyan_1_refined.pdb                   PZ10tRNA_Dokholyan_1_solution.pdb                  SUCCESS         4.275                         
+PZ10tRNA_Dokholyan_2_refined.pdb                   PZ10tRNA_Dokholyan_2_solution.pdb                  SUCCESS         4.389                         
+PZ10tRNA_Dokholyan_3_refined.pdb                   PZ10tRNA_Dokholyan_3_solution.pdb                  SUCCESS         4.445                         
+PZ10tRNA_Dokholyan_4_refined.pdb                   PZ10tRNA_Dokholyan_4_solution.pdb                  SUCCESS         4.604                         
+PZ10tRNA_Dokholyan_5_refined.pdb                   PZ10tRNA_Dokholyan_5_solution.pdb                  SUCCESS         4.445                         
+PZ10tRNA_Dokholyan_6_refined.pdb                   PZ10tRNA_Dokholyan_6_solution.pdb                  SUCCESS         4.468                         
+PZ10tRNA_Dokholyan_7_refined.pdb                   PZ10tRNA_Dokholyan_7_solution.pdb                  SUCCESS         4.187                         
+PZ10tRNA_Dokholyan_8_refined.pdb                   PZ10tRNA_Dokholyan_8_solution.pdb                  SUCCESS         4.458                         
+PZ10tRNA_Dokholyan_9_refined.pdb                   PZ10tRNA_Dokholyan_9_solution.pdb                  SUCCESS         4.548                         

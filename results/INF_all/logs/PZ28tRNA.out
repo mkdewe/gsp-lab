@@ -1,0 +1,792 @@
+{
+  "native_pdb": "/tmp/rna_inf_n_tj8l9y/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_d3ldt0ph/PZ28tRNA_Adamiak_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.96716423148207,
+  "inf_all": 0.7865439358257224,
+  "inf_wc": 0.9299676884052652,
+  "inf_nwc": 0.5368754921931593,
+  "inf_stack": 0.7500106102296766
+}
+{
+  "native_pdb": "/tmp/rna_inf_weq730qf/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0ptnt55o/PZ28tRNA_Adamiak_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 18.171945761513953,
+  "inf_all": 0.7756630173800768,
+  "inf_wc": 0.9361344502232992,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.7223607177772163
+}
+{
+  "native_pdb": "/tmp/rna_inf_oeieca23/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_efu2hmep/PZ28tRNA_Adamiak_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 23.588518082917297,
+  "inf_all": 0.7756630173800768,
+  "inf_wc": 0.9456108576893003,
+  "inf_nwc": 0.53813823519705,
+  "inf_stack": 0.7287252523618719
+}
+{
+  "native_pdb": "/tmp/rna_inf_3ddvyfi6/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_dxd0w_hp/PZ28tRNA_Adamiak_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.02203403587584,
+  "inf_all": 0.7835343275736114,
+  "inf_wc": 0.9475142485638551,
+  "inf_nwc": 0.5144957554275266,
+  "inf_stack": 0.7389335066653341
+}
+{
+  "native_pdb": "/tmp/rna_inf_bvfau8o6/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_igcijmzb/PZ28tRNA_Adamiak_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.66028480053201,
+  "inf_all": 0.7835343275736114,
+  "inf_wc": 0.9642857142857143,
+  "inf_nwc": 0.4287464628562721,
+  "inf_stack": 0.7407317712102527
+}
+{
+  "native_pdb": "/tmp/rna_inf_om9icwm8/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_qjp_yby5/PZ28tRNA_Bujnicki_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.001324060375524,
+  "inf_all": 0.7128324356402512,
+  "inf_wc": 0.8351913809763263,
+  "inf_nwc": 0.3834824944236852,
+  "inf_stack": 0.6938929379265296
+}
+{
+  "native_pdb": "/tmp/rna_inf__92ic08g/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9fjlnc2v/PZ28tRNA_Bujnicki_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.44431552874432,
+  "inf_all": 0.700732001151539,
+  "inf_wc": 0.8422348876123157,
+  "inf_nwc": 0.3834824944236852,
+  "inf_stack": 0.6742405737861538
+}
+{
+  "native_pdb": "/tmp/rna_inf_covrs7ks/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ywbwa3oq/PZ28tRNA_Bujnicki_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 27.48085531148214,
+  "inf_all": 0.7268292682926829,
+  "inf_wc": 0.8554823885364436,
+  "inf_nwc": 0.45834924851410563,
+  "inf_stack": 0.6990055184947306
+}
+{
+  "native_pdb": "/tmp/rna_inf__1667_sh/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wwxzs40b/PZ28tRNA_Bujnicki_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 20.049553931573044,
+  "inf_all": 0.7036655313593446,
+  "inf_wc": 0.8249579113843054,
+  "inf_nwc": 0.3834824944236852,
+  "inf_stack": 0.6841330606544171
+}
+{
+  "native_pdb": "/tmp/rna_inf_s4uoqpqm/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_mhtcfxsf/PZ28tRNA_Bujnicki_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.281476145848394,
+  "inf_all": 0.718124412140701,
+  "inf_wc": 0.8586296628693791,
+  "inf_nwc": 0.45834924851410563,
+  "inf_stack": 0.6841194928661809
+}
+{
+  "native_pdb": "/tmp/rna_inf_p0c00n69/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_802s79ry/PZ28tRNA_Chen_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 38.39028047957009,
+  "inf_all": 0.7660103651279797,
+  "inf_wc": 0.9274260335029676,
+  "inf_nwc": 0.6054055145966812,
+  "inf_stack": 0.7118238160125436
+}
+{
+  "native_pdb": "/tmp/rna_inf_eiqd35kj/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_t2xyqxpo/PZ28tRNA_Chen_10_normalized.pdb",
+  "model_index": null,
+  "rmsd": 37.05726654906009,
+  "inf_all": 0.7920977985961543,
+  "inf_wc": 0.9549937104572924,
+  "inf_nwc": 0.6467616667635545,
+  "inf_stack": 0.7371567694338408
+}
+{
+  "native_pdb": "/tmp/rna_inf_e_6dbcqg/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_uu736iv0/PZ28tRNA_Chen_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 38.57457563625733,
+  "inf_all": 0.8107509316496231,
+  "inf_wc": 0.9557896392964647,
+  "inf_nwc": 0.6902684899626335,
+  "inf_stack": 0.7586495031754352
+}
+{
+  "native_pdb": "/tmp/rna_inf_rm656sd1/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_bvr0i93r/PZ28tRNA_Chen_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.237822354583706,
+  "inf_all": 0.7874585364780666,
+  "inf_wc": 0.963795681875633,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.7336390799938275
+}
+{
+  "native_pdb": "/tmp/rna_inf_ak1hf6bo/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ujt_1j8m/PZ28tRNA_Chen_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.35248158368479,
+  "inf_all": 0.8124402829186254,
+  "inf_wc": 0.963795681875633,
+  "inf_nwc": 0.7701540462154054,
+  "inf_stack": 0.7488781376326007
+}
+{
+  "native_pdb": "/tmp/rna_inf_70iu8_ok/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ibj1jwmi/PZ28tRNA_Chen_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 33.895266198557856,
+  "inf_all": 0.7949570823317732,
+  "inf_wc": 0.9642857142857143,
+  "inf_nwc": 0.6726727939963125,
+  "inf_stack": 0.7320494154386097
+}
+{
+  "native_pdb": "/tmp/rna_inf_41in4ade/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e7dvgga3/PZ28tRNA_Chen_6_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.774464967104755,
+  "inf_all": 0.7852434588510765,
+  "inf_wc": 0.9265616458263765,
+  "inf_nwc": 0.6726727939963125,
+  "inf_stack": 0.7369131765457132
+}
+{
+  "native_pdb": "/tmp/rna_inf_uckc14es/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_v7rq6q7v/PZ28tRNA_Chen_7_normalized.pdb",
+  "model_index": null,
+  "rmsd": 37.98637367524835,
+  "inf_all": 0.8166531972051196,
+  "inf_wc": 0.963795681875633,
+  "inf_nwc": 0.7399400733959437,
+  "inf_stack": 0.7600451155481349
+}
+{
+  "native_pdb": "/tmp/rna_inf_ica6cay_/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_t9llt6in/PZ28tRNA_Chen_8_normalized.pdb",
+  "model_index": null,
+  "rmsd": 39.14654044875525,
+  "inf_all": 0.7972749083909003,
+  "inf_wc": 0.9361344502232992,
+  "inf_nwc": 0.6262242910851494,
+  "inf_stack": 0.7581297814690037
+}
+{
+  "native_pdb": "/tmp/rna_inf_8fnf0jbr/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_xepqxi0f/PZ28tRNA_Chen_9_normalized.pdb",
+  "model_index": null,
+  "rmsd": 37.78562595467299,
+  "inf_all": 0.7881711997056079,
+  "inf_wc": 0.9544900276786581,
+  "inf_nwc": 0.6726727939963125,
+  "inf_stack": 0.7270404145828628
+}
+{
+  "native_pdb": "/tmp/rna_inf_hj08q4dm/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_cbih3hj6/PZ28tRNA_Das_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.826871233329815,
+  "inf_all": 0.8202594630642389,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.8001976040538967
+}
+{
+  "native_pdb": "/tmp/rna_inf_m5wwmo0r/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nreix1ek/PZ28tRNA_Das_10_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.84015171062616,
+  "inf_all": 0.8318172931885258,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.8120790737744387
+}
+{
+  "native_pdb": "/tmp/rna_inf_p3cl37xa/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8j5sn3vp/PZ28tRNA_Das_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.36664824107103,
+  "inf_all": 0.8031245441546832,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.5636018619766345,
+  "inf_stack": 0.7769791116025916
+}
+{
+  "native_pdb": "/tmp/rna_inf_yv427yky/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e7gip3oc/PZ28tRNA_Das_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.446774210893352,
+  "inf_all": 0.8335696394016966,
+  "inf_wc": 0.9394501508629484,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.818063253134435
+}
+{
+  "native_pdb": "/tmp/rna_inf_p_rhit_b/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_yektg4z1/PZ28tRNA_Das_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.44035908119934,
+  "inf_all": 0.8259662196686594,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.809173593712687
+}
+{
+  "native_pdb": "/tmp/rna_inf_e7fxvqxh/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_shok42ig/PZ28tRNA_Das_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.63371798256804,
+  "inf_all": 0.8355149620925746,
+  "inf_wc": 0.9299676884052652,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.8253673893231352
+}
+{
+  "native_pdb": "/tmp/rna_inf_6z269qoa/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1j7jst1v/PZ28tRNA_Das_6_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.70324589321528,
+  "inf_all": 0.8058347374809701,
+  "inf_wc": 0.9220529258469679,
+  "inf_nwc": 0.6054055145966812,
+  "inf_stack": 0.7790753966241908
+}
+{
+  "native_pdb": "/tmp/rna_inf_jq_zvuf1/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7t3dhrvq/PZ28tRNA_Das_7_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.223907968141752,
+  "inf_all": 0.8211918484567018,
+  "inf_wc": 0.9299676884052652,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.7978559231302818
+}
+{
+  "native_pdb": "/tmp/rna_inf_7y1tw8wv/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__h5rvo9r/PZ28tRNA_Das_8_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.970998595692155,
+  "inf_all": 0.7962752682377993,
+  "inf_wc": 0.9299676884052652,
+  "inf_nwc": 0.5144957554275266,
+  "inf_stack": 0.7762058642344917
+}
+{
+  "native_pdb": "/tmp/rna_inf_qb0sewb6/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_vccaj5sk/PZ28tRNA_Das_9_normalized.pdb",
+  "model_index": null,
+  "rmsd": 33.13168826531891,
+  "inf_all": 0.8183317060794199,
+  "inf_wc": 0.9475142485638551,
+  "inf_nwc": 0.5457051563317492,
+  "inf_stack": 0.7973139997058125
+}
+{
+  "native_pdb": "/tmp/rna_inf_nb4405gq/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_76xxa4ro/PZ28tRNA_Ding_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.346619381797176,
+  "inf_all": 0.660528220954389,
+  "inf_wc": 0.8288624656799142,
+  "inf_nwc": 0.32539568672798425,
+  "inf_stack": 0.6149087828947706
+}
+{
+  "native_pdb": "/tmp/rna_inf_z265y0_1/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ox9nc_u2/PZ28tRNA_Ding_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 39.45629018591865,
+  "inf_all": 0.7091753772429563,
+  "inf_wc": 0.875,
+  "inf_nwc": 0.36380343755449945,
+  "inf_stack": 0.6669446181762069
+}
+{
+  "native_pdb": "/tmp/rna_inf__1u42aw4/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_qtc62u0n/PZ28tRNA_FARFAR2_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.825173530764026,
+  "inf_all": 0.8297194126316894,
+  "inf_wc": 0.9394501508629484,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.8123623944599232
+}
+{
+  "native_pdb": "/tmp/rna_inf_y5m9zr9s/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_bgd45_j5/PZ28tRNA_FARFAR2_10_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.969520058330538,
+  "inf_all": 0.8318172931885258,
+  "inf_wc": 0.9475142485638551,
+  "inf_nwc": 0.6054055145966812,
+  "inf_stack": 0.809173593712687
+}
+{
+  "native_pdb": "/tmp/rna_inf_vq8qlw08/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rm1rdtgw/PZ28tRNA_FARFAR2_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.222508510264348,
+  "inf_all": 0.8430961495662874,
+  "inf_wc": 0.9394501508629484,
+  "inf_nwc": 0.6482037235521644,
+  "inf_stack": 0.8253673893231352
+}
+{
+  "native_pdb": "/tmp/rna_inf_1c2ij049/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4f4i2n1y/PZ28tRNA_FARFAR2_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 22.172946161818622,
+  "inf_all": 0.8211918484567018,
+  "inf_wc": 0.9299676884052652,
+  "inf_nwc": 0.6726727939963125,
+  "inf_stack": 0.7933622165797498
+}
+{
+  "native_pdb": "/tmp/rna_inf_az4ly0ot/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ni_mzsb0/PZ28tRNA_FARFAR2_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 33.950543476345736,
+  "inf_all": 0.8088927316593926,
+  "inf_wc": 0.9239209796193592,
+  "inf_nwc": 0.5457051563317492,
+  "inf_stack": 0.7916390948403764
+}
+{
+  "native_pdb": "/tmp/rna_inf_3ytrpyj3/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_etiurm_c/PZ28tRNA_FARFAR2_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.170312129200376,
+  "inf_all": 0.8250563020295268,
+  "inf_wc": 0.9239209796193592,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.8046965367401255
+}
+{
+  "native_pdb": "/tmp/rna_inf_xswdwbfp/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__b2nxtnl/PZ28tRNA_FARFAR2_6_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.36664824107103,
+  "inf_all": 0.8031245441546832,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.5636018619766345,
+  "inf_stack": 0.7769791116025916
+}
+{
+  "native_pdb": "/tmp/rna_inf_4e8tf12k/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_34tsnbwf/PZ28tRNA_FARFAR2_7_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.5633006365942,
+  "inf_all": 0.8298531409948148,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.809173593712687
+}
+{
+  "native_pdb": "/tmp/rna_inf_vl0kahgm/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1xtkhx99/PZ28tRNA_FARFAR2_8_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.84015171062616,
+  "inf_all": 0.8318172931885258,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.8120790737744387
+}
+{
+  "native_pdb": "/tmp/rna_inf_3skhftdh/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8lddusbw/PZ28tRNA_FARFAR2_9_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.97608625082096,
+  "inf_all": 0.8106891636103735,
+  "inf_wc": 0.9464285714285714,
+  "inf_nwc": 0.6262242910851494,
+  "inf_stack": 0.7762058642344917
+}
+{
+  "native_pdb": "/tmp/rna_inf_5wpp3fxt/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_72euvr3q/PZ28tRNA_iFoldRNA_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 34.22512792312535,
+  "inf_all": 0.6254045254066467,
+  "inf_wc": 0.7127180599416806,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6385371094552885
+}
+{
+  "native_pdb": "/tmp/rna_inf_rmytw503/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_2uru8n2g/PZ28tRNA_iFoldRNA_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.628571961098874,
+  "inf_all": 0.6361907543796814,
+  "inf_wc": 0.7787915579452676,
+  "inf_nwc": 0.06262242910851495,
+  "inf_stack": 0.6446036254878612
+}
+{
+  "native_pdb": "/tmp/rna_inf_d_jb5ve6/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_cwf9l63s/PZ28tRNA_iFoldRNA_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.28738219055074,
+  "inf_all": 0.6068032661754292,
+  "inf_wc": 0.7576144084141581,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6107048165524593
+}
+{
+  "native_pdb": "/tmp/rna_inf_y15my6dl/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_eih8j7xj/PZ28tRNA_iFoldRNA_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 22.390331247280766,
+  "inf_all": 0.6183715870648644,
+  "inf_wc": 0.7186052063706126,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6331217169742315
+}
+{
+  "native_pdb": "/tmp/rna_inf_ctjolxkt/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7cnml8wl/PZ28tRNA_iFoldRNA_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.51261029170429,
+  "inf_all": 0.6183715870648644,
+  "inf_wc": 0.7787915579452676,
+  "inf_nwc": 0.14625448482542613,
+  "inf_stack": 0.5994441870043727
+}
+{
+  "native_pdb": "/tmp/rna_inf_s83m7v_u/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8gtadl9h/PZ28tRNA_RNAComposer_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 19.6297878771259,
+  "inf_all": 0.8094132155889688,
+  "inf_wc": 0.9642857142857143,
+  "inf_nwc": 0.6482037235521644,
+  "inf_stack": 0.7612586017792846
+}
+{
+  "native_pdb": "/tmp/rna_inf_hekvujui/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p8z9sq3o/PZ28tRNA_RNAComposer_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.17396612461027,
+  "inf_all": 0.7950935776044273,
+  "inf_wc": 0.9557896392964647,
+  "inf_nwc": 0.49009802940980346,
+  "inf_stack": 0.7581297814690037
+}
+{
+  "native_pdb": "/tmp/rna_inf_2d96h74f/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o0lfl094/PZ28tRNA_RNAComposer_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 26.825563837765422,
+  "inf_all": 0.7328938949276714,
+  "inf_wc": 0.9456108576893003,
+  "inf_nwc": 0.46017899330842227,
+  "inf_stack": 0.6684585169941752
+}
+{
+  "native_pdb": "/tmp/rna_inf_d5u0x6fd/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_c87_nrjr/PZ28tRNA_RNAComposer_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 24.60313695113918,
+  "inf_all": 0.7236050967505415,
+  "inf_wc": 0.9464285714285714,
+  "inf_nwc": 0.3429971702850177,
+  "inf_stack": 0.6626708884311169
+}
+{
+  "native_pdb": "/tmp/rna_inf_i2jkcz17/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_issi9i0x/PZ28tRNA_RNAComposer_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 21.473916470376082,
+  "inf_all": 0.7317211048004449,
+  "inf_wc": 0.938089831161345,
+  "inf_nwc": 0.27500954910846337,
+  "inf_stack": 0.6815632488566367
+}
+{
+  "native_pdb": "/tmp/rna_inf_93ld7r55/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_aivepbw6/PZ28tRNA_SimRNA_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 27.808687603718734,
+  "inf_all": 0.6634557603685637,
+  "inf_wc": 0.8249579113843054,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6520128625624343
+}
+{
+  "native_pdb": "/tmp/rna_inf_lge8zyi9/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_iwpvx_2o/PZ28tRNA_SimRNA_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 22.169989865299783,
+  "inf_all": 0.6468942765449536,
+  "inf_wc": 0.8017837257372731,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6383691342124489
+}
+{
+  "native_pdb": "/tmp/rna_inf_bwalqy_7/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1hf3ybm8/PZ28tRNA_SimRNA_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.67899040812082,
+  "inf_all": 0.6377109256136226,
+  "inf_wc": 0.7940495613514014,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6240777909042708
+}
+{
+  "native_pdb": "/tmp/rna_inf_9ankiyha/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_aeydhv68/PZ28tRNA_SimRNA_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 28.14543029870343,
+  "inf_all": 0.6535804088874066,
+  "inf_wc": 0.7516722428786936,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6666666666666666
+}
+{
+  "native_pdb": "/tmp/rna_inf_9aog29eq/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_um5xram0/PZ28tRNA_SimRNA_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.09958623112896,
+  "inf_all": 0.6328797822377619,
+  "inf_wc": 0.8059908263257171,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6212121212121212
+}
+{
+  "native_pdb": "/tmp/rna_inf_hwlo0okl/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_axd5vgxf/PZ28tRNA_TFN_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 25.15366884291926,
+  "inf_all": 0.7954635987433334,
+  "inf_wc": 0.9124211282466754,
+  "inf_nwc": 0.6063390625908325,
+  "inf_stack": 0.7696491199836993
+}
+{
+  "native_pdb": "/tmp/rna_inf_lpyhk45l/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_k_5_tipy/PZ28tRNA_TFN_10_normalized.pdb",
+  "model_index": null,
+  "rmsd": 23.03893156117393,
+  "inf_all": 0.8241562045373145,
+  "inf_wc": 0.9220529258469679,
+  "inf_nwc": 0.6581451817144176,
+  "inf_stack": 0.8018174701334809
+}
+{
+  "native_pdb": "/tmp/rna_inf_ran3dqgv/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_gr8u4w8b/PZ28tRNA_TFN_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 35.99228960994528,
+  "inf_all": 0.8212024952811154,
+  "inf_wc": 0.9143368661286193,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.8095562983566902
+}
+{
+  "native_pdb": "/tmp/rna_inf_op5yp6nb/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_mwrg4ntx/PZ28tRNA_TFN_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.503519409328845,
+  "inf_all": 0.8297194126316894,
+  "inf_wc": 0.9220529258469679,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.819615630124744
+}
+{
+  "native_pdb": "/tmp/rna_inf_38x9egx7/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kpblrkbh/PZ28tRNA_TFN_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.913213921530104,
+  "inf_all": 0.8058689461683751,
+  "inf_wc": 0.9068113318486303,
+  "inf_nwc": 0.6301260378126045,
+  "inf_stack": 0.7825489256371864
+}
+{
+  "native_pdb": "/tmp/rna_inf_m_5v_gxe/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nuad_1q3/PZ28tRNA_TFN_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.06929260886188,
+  "inf_all": 0.8430961495662874,
+  "inf_wc": 0.9394501508629484,
+  "inf_nwc": 0.6482037235521644,
+  "inf_stack": 0.8253673893231352
+}
+{
+  "native_pdb": "/tmp/rna_inf_mlu3wt96/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__qf2857i/PZ28tRNA_TFN_6_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.363552613207236,
+  "inf_all": 0.8221334091050898,
+  "inf_wc": 0.9143368661286193,
+  "inf_nwc": 0.5636018619766345,
+  "inf_stack": 0.8136290696970536
+}
+{
+  "native_pdb": "/tmp/rna_inf_zmly3cq2/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0m6pi4ai/PZ28tRNA_TFN_7_normalized.pdb",
+  "model_index": null,
+  "rmsd": 30.51770970774874,
+  "inf_all": 0.8087605750141634,
+  "inf_wc": 0.9068113318486303,
+  "inf_nwc": 0.583383351196948,
+  "inf_stack": 0.7927883669793235
+}
+{
+  "native_pdb": "/tmp/rna_inf_lnsct1jz/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_42zprs3j/PZ28tRNA_TFN_8_normalized.pdb",
+  "model_index": null,
+  "rmsd": 33.06146839356529,
+  "inf_all": 0.8183317060794199,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.6054055145966812,
+  "inf_stack": 0.7944613465542747
+}
+{
+  "native_pdb": "/tmp/rna_inf_ejfz0m9e/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4uo5oy47/PZ28tRNA_TFN_9_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.104314012779852,
+  "inf_all": 0.8211918484567018,
+  "inf_wc": 0.9315885051121782,
+  "inf_nwc": 0.5882352941176471,
+  "inf_stack": 0.8031127233769245
+}
+{
+  "native_pdb": "/tmp/rna_inf_kp9hf8gm/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_os4__m7d/PZ28tRNA_Xiao_1_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.581640582208585,
+  "inf_all": 0.5312453004061719,
+  "inf_wc": 0.47425200683433544,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6087309419470925
+}
+{
+  "native_pdb": "/tmp/rna_inf_u4vuvayp/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_rarq8g2b/PZ28tRNA_Xiao_2_normalized.pdb",
+  "model_index": null,
+  "rmsd": 29.40316274568384,
+  "inf_all": 0.5142296580847199,
+  "inf_wc": 0.42882464657199776,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6002501563585861
+}
+{
+  "native_pdb": "/tmp/rna_inf_a6bbimrj/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__7nhdpxk/PZ28tRNA_Xiao_3_normalized.pdb",
+  "model_index": null,
+  "rmsd": 31.670473754842714,
+  "inf_all": 0.5399286092011687,
+  "inf_wc": 0.46334820431459367,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6141827746434741
+}
+{
+  "native_pdb": "/tmp/rna_inf_yr9qad1g/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3qp8dxq6/PZ28tRNA_Xiao_4_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.31349297235944,
+  "inf_all": 0.5406858170054862,
+  "inf_wc": 0.5361109642475097,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5946473740283672
+}
+{
+  "native_pdb": "/tmp/rna_inf_6js7v778/PZ28tRNA_solution_0_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_80dqrihc/PZ28tRNA_Xiao_5_normalized.pdb",
+  "model_index": null,
+  "rmsd": 32.122363621650535,
+  "inf_all": 0.6652342334590529,
+  "inf_wc": 0.807813166395078,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6670822799096824
+}

@@ -7,13 +7,13 @@ Adamiak,3,0.447
 RNAComposerAS1,2,0.447
 Chen,3,0.671
 Chen,6,0.316
-Adamiak,7,-
-Adamiak,5,-
-RNAComposerAS2,2,-
+Adamiak,7,-1.000
+Adamiak,5,-1.000
+RNAComposerAS2,2,-1.000
 SimRNAAS1,1,0.224
 Adamiak,4,0.000
 RNAComposerAS2,1,0.000
-Adamiak,9,-
+Adamiak,9,-1.000
 Adamiak,6,0.000
 Adamiak,1,0.000
 Chen,1,0.316
@@ -22,7 +22,7 @@ Chen,4,0.632
 SimRNAAS2,7,0.316
 SimRNAAS2,4,0.258
 RW3DAS2,5,0.224
-Chen,7,-
+Chen,7,-1.000
 RW3DAS2,1,0.258
 RW3DAS2,4,0.000
 RW3DAS1,5,0.258

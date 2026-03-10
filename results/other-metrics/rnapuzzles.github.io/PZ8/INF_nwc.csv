@@ -1,3 +1,4 @@
+Lab,Num,INF nwc
 Adamiak,1,0.6124
 Adamiak,2,0.000
 Bujnicki,1,0.000
@@ -26,18 +27,17 @@ Das,3,0.000
 Das,4,0.000
 Das,5,0.000
 Das,6,0.000
-Ding,1,-
-Ding,2,-
-Ding,3,-
-Ding,4,-
-Ding,5,-
-Ding,6,-
-Ding,7,-
-Ding,8,-
-Ding,9,-
-Ding,10,-
+Ding,1,-1.000
+Ding,2,0.000
+Ding,3,0.000
+Ding,4,0.000
+Ding,5,0.000
+Ding,6,0.000
+Ding,7,-1.000
+Ding,8,0.000
+Ding,9,0.000
+Ding,10,-1.000
 Dokholyan,1,0.2887
-Dokholyan,2,-
-Dokholyan,3,-
-Dokholyan,4,-
-Lab,Num,INF nwc
+Dokholyan,2,0.000
+Dokholyan,3,-1.000
+Dokholyan,4,0.000

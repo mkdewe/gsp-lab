@@ -1,3 +1,4 @@
+Lab,Num,INF nwc
 Adamiak,1,0.500
 Adamiak,2,0.1291
 Adamiak,3,0.000
@@ -9,7 +10,7 @@ Bujnicki,3,0.000
 Bujnicki,4,0.000
 Bujnicki,5,0.000
 Bujnicki,6,0.000
-Bujnicki,7,-
+Bujnicki,7,0.000
 Chen,1,0.000
 Chen,2,0.707
 Chen,3,0.500
@@ -28,19 +29,18 @@ Das,5,0.354
 Das,6,0.289
 Das,7,0.354
 Das,8,0.000
-Ding,1,-
-Ding,2,-
-Ding,3,-
-Ding,4,-
-Ding,5,-
-Ding,6,-
-Ding,7,-
-Ding,8,-
-Ding,9,-
-Ding,10,-
+Ding,1,0.000
+Ding,2,0.000
+Ding,3,0.000
+Ding,4,0.000
+Ding,5,0.000
+Ding,6,-1.000
+Ding,7,0.000
+Ding,8,0.000
+Ding,9,-1.000
+Ding,10,0.000
 Dokholyan,1,0.1826
 Dokholyan,2,0.000
-Lab,Num,INF nwc
 Major,1,0.000
 Major,2,0.000
 Major,3,0.000

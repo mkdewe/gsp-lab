@@ -1,0 +1,1584 @@
+2026-03-10 00:20:40 	 START case: CR1138
+2026-03-10 00:20:40 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138
+2026-03-10 00:20:41 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138\pdb
+2026-03-10 00:20:41 	 Found pdb count: 260
+2026-03-10 00:20:41 	 Global solution: CR1138_TS029_1_solution.pdb
+2026-03-10 00:20:41 	 RUN refined_pair target=CR1138_TS029_1_solution.pdb model=CR1138_TS029_1_refined.pdb -> id=TS029_1
+2026-03-10 00:20:41 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS029_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS029_1_refined.pdb
+2026-03-10 00:20:45 	 Docker exit code: 0
+2026-03-10 00:20:45 	 Docker output length: 355
+2026-03-10 00:20:45 	 Saved CSV: CR1138,TS029_1,TS029,1,refined_pair,0.31487173853900796,0.03580574370197164,0,CR1138_TS029_1_solution.pdb,CR1138_TS029_1_refined.pdb
+2026-03-10 00:20:45 	 RUN refined_pair target=CR1138_TS029_2_solution.pdb model=CR1138_TS029_2_refined.pdb -> id=TS029_2
+2026-03-10 00:20:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS029_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS029_2_refined.pdb
+2026-03-10 00:20:51 	 Docker exit code: 0
+2026-03-10 00:20:51 	 Docker output length: 355
+2026-03-10 00:20:51 	 Saved CSV: CR1138,TS029_2,TS029,2,refined_pair,0.31487173853900796,0.03580574370197164,0,CR1138_TS029_2_solution.pdb,CR1138_TS029_2_refined.pdb
+2026-03-10 00:20:51 	 RUN refined_pair target=CR1138_TS035_1_solution.pdb model=CR1138_TS035_1_refined.pdb -> id=TS035_1
+2026-03-10 00:20:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS035_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS035_1_refined.pdb
+2026-03-10 00:20:56 	 Docker exit code: 0
+2026-03-10 00:20:56 	 Docker output length: 354
+2026-03-10 00:20:56 	 Saved CSV: CR1138,TS035_1,TS035,1,refined_pair,0.7255407729575798,0.7732590811786556,0,CR1138_TS035_1_solution.pdb,CR1138_TS035_1_refined.pdb
+2026-03-10 00:20:56 	 RUN refined_pair target=CR1138_TS035_2_solution.pdb model=CR1138_TS035_2_refined.pdb -> id=TS035_2
+2026-03-10 00:20:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS035_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS035_2_refined.pdb
+2026-03-10 00:21:01 	 Docker exit code: 0
+2026-03-10 00:21:01 	 Docker output length: 354
+2026-03-10 00:21:01 	 Saved CSV: CR1138,TS035_2,TS035,2,refined_pair,0.7361485805638545,0.7912861598992318,0,CR1138_TS035_2_solution.pdb,CR1138_TS035_2_refined.pdb
+2026-03-10 00:21:01 	 RUN refined_pair target=CR1138_TS035_3_solution.pdb model=CR1138_TS035_3_refined.pdb -> id=TS035_3
+2026-03-10 00:21:01 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS035_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS035_3_refined.pdb
+2026-03-10 00:21:06 	 Docker exit code: 0
+2026-03-10 00:21:06 	 Docker output length: 354
+2026-03-10 00:21:06 	 Saved CSV: CR1138,TS035_3,TS035,3,refined_pair,0.7441071370846233,0.8129269714127222,0,CR1138_TS035_3_solution.pdb,CR1138_TS035_3_refined.pdb
+2026-03-10 00:21:06 	 RUN refined_pair target=CR1138_TS035_4_solution.pdb model=CR1138_TS035_4_refined.pdb -> id=TS035_4
+2026-03-10 00:21:06 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS035_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS035_4_refined.pdb
+2026-03-10 00:21:11 	 Docker exit code: 0
+2026-03-10 00:21:12 	 Docker output length: 354
+2026-03-10 00:21:12 	 Saved CSV: CR1138,TS035_4,TS035,4,refined_pair,0.7283221362862724,0.7893297629345912,0,CR1138_TS035_4_solution.pdb,CR1138_TS035_4_refined.pdb
+2026-03-10 00:21:12 	 RUN refined_pair target=CR1138_TS035_5_solution.pdb model=CR1138_TS035_5_refined.pdb -> id=TS035_5
+2026-03-10 00:21:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS035_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS035_5_refined.pdb
+2026-03-10 00:21:17 	 Docker exit code: 0
+2026-03-10 00:21:17 	 Docker output length: 354
+2026-03-10 00:21:17 	 Saved CSV: CR1138,TS035_5,TS035,5,refined_pair,0.7282748152591783,0.7866907893604412,0,CR1138_TS035_5_solution.pdb,CR1138_TS035_5_refined.pdb
+2026-03-10 00:21:17 	 RUN refined_pair target=CR1138_TS054_1_solution.pdb model=CR1138_TS054_1_refined.pdb -> id=TS054_1
+2026-03-10 00:21:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS054_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS054_1_refined.pdb
+2026-03-10 00:21:22 	 Docker exit code: 0
+2026-03-10 00:21:22 	 Docker output length: 354
+2026-03-10 00:21:22 	 Saved CSV: CR1138,TS054_1,TS054,1,refined_pair,0.8038413138052994,0.9295786030833244,0,CR1138_TS054_1_solution.pdb,CR1138_TS054_1_refined.pdb
+2026-03-10 00:21:22 	 RUN refined_pair target=CR1138_TS054_2_solution.pdb model=CR1138_TS054_2_refined.pdb -> id=TS054_2
+2026-03-10 00:21:22 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS054_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS054_2_refined.pdb
+2026-03-10 00:21:28 	 Docker exit code: 0
+2026-03-10 00:21:28 	 Docker output length: 354
+2026-03-10 00:21:28 	 Saved CSV: CR1138,TS054_2,TS054,2,refined_pair,0.8306793493166797,0.8791611919318195,0,CR1138_TS054_2_solution.pdb,CR1138_TS054_2_refined.pdb
+2026-03-10 00:21:28 	 RUN refined_pair target=CR1138_TS054_3_solution.pdb model=CR1138_TS054_3_refined.pdb -> id=TS054_3
+2026-03-10 00:21:28 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS054_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS054_3_refined.pdb
+2026-03-10 00:21:34 	 Docker exit code: 0
+2026-03-10 00:21:34 	 Docker output length: 354
+2026-03-10 00:21:34 	 Saved CSV: CR1138,TS054_3,TS054,3,refined_pair,0.7910450315839453,0.9351188947224203,0,CR1138_TS054_3_solution.pdb,CR1138_TS054_3_refined.pdb
+2026-03-10 00:21:34 	 RUN refined_pair target=CR1138_TS054_4_solution.pdb model=CR1138_TS054_4_refined.pdb -> id=TS054_4
+2026-03-10 00:21:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS054_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS054_4_refined.pdb
+2026-03-10 00:21:39 	 Docker exit code: 0
+2026-03-10 00:21:39 	 Docker output length: 355
+2026-03-10 00:21:39 	 Saved CSV: CR1138,TS054_4,TS054,4,refined_pair,0.7851203482908952,0.9039155534753065,0,CR1138_TS054_4_solution.pdb,CR1138_TS054_4_refined.pdb
+2026-03-10 00:21:39 	 RUN refined_pair target=CR1138_TS054_5_solution.pdb model=CR1138_TS054_5_refined.pdb -> id=TS054_5
+2026-03-10 00:21:39 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS054_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS054_5_refined.pdb
+2026-03-10 00:21:44 	 Docker exit code: 0
+2026-03-10 00:21:44 	 Docker output length: 353
+2026-03-10 00:21:44 	 Saved CSV: CR1138,TS054_5,TS054,5,refined_pair,0.8367792343463973,0.926984126984127,0,CR1138_TS054_5_solution.pdb,CR1138_TS054_5_refined.pdb
+2026-03-10 00:21:44 	 RUN refined_pair target=CR1138_TS076_1_solution.pdb model=CR1138_TS076_1_refined.pdb -> id=TS076_1
+2026-03-10 00:21:44 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS076_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS076_1_refined.pdb
+2026-03-10 00:21:49 	 Docker exit code: 0
+2026-03-10 00:21:49 	 Docker output length: 355
+2026-03-10 00:21:49 	 Saved CSV: CR1138,TS076_1,TS076,1,refined_pair,0.8367279853553934,0.8739511798611886,0,CR1138_TS076_1_solution.pdb,CR1138_TS076_1_refined.pdb
+2026-03-10 00:21:49 	 RUN refined_pair target=CR1138_TS076_2_solution.pdb model=CR1138_TS076_2_refined.pdb -> id=TS076_2
+2026-03-10 00:21:49 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS076_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS076_2_refined.pdb
+2026-03-10 00:21:54 	 Docker exit code: 0
+2026-03-10 00:21:54 	 Docker output length: 352
+2026-03-10 00:21:54 	 Saved CSV: CR1138,TS076_2,TS076,2,refined_pair,0.7847428788237444,0.895999773470622,0,CR1138_TS076_2_solution.pdb,CR1138_TS076_2_refined.pdb
+2026-03-10 00:21:54 	 RUN refined_pair target=CR1138_TS076_3_solution.pdb model=CR1138_TS076_3_refined.pdb -> id=TS076_3
+2026-03-10 00:21:54 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS076_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS076_3_refined.pdb
+2026-03-10 00:22:00 	 Docker exit code: 0
+2026-03-10 00:22:00 	 Docker output length: 353
+2026-03-10 00:22:00 	 Saved CSV: CR1138,TS076_3,TS076,3,refined_pair,0.7613960330485906,0.8540258648692162,0,CR1138_TS076_3_solution.pdb,CR1138_TS076_3_refined.pdb
+2026-03-10 00:22:00 	 RUN refined_pair target=CR1138_TS076_4_solution.pdb model=CR1138_TS076_4_refined.pdb -> id=TS076_4
+2026-03-10 00:22:00 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS076_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS076_4_refined.pdb
+2026-03-10 00:22:05 	 Docker exit code: 0
+2026-03-10 00:22:05 	 Docker output length: 355
+2026-03-10 00:22:05 	 Saved CSV: CR1138,TS076_4,TS076,4,refined_pair,0.7834789631600109,0.8317335714554253,0,CR1138_TS076_4_solution.pdb,CR1138_TS076_4_refined.pdb
+2026-03-10 00:22:05 	 RUN refined_pair target=CR1138_TS076_5_solution.pdb model=CR1138_TS076_5_refined.pdb -> id=TS076_5
+2026-03-10 00:22:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS076_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS076_5_refined.pdb
+2026-03-10 00:22:11 	 Docker exit code: 0
+2026-03-10 00:22:11 	 Docker output length: 354
+2026-03-10 00:22:11 	 Saved CSV: CR1138,TS076_5,TS076,5,refined_pair,0.746506134465251,0.7395015100127121,0,CR1138_TS076_5_solution.pdb,CR1138_TS076_5_refined.pdb
+2026-03-10 00:22:11 	 RUN refined_pair target=CR1138_TS081_1_solution.pdb model=CR1138_TS081_1_refined.pdb -> id=TS081_1
+2026-03-10 00:22:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS081_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS081_1_refined.pdb
+2026-03-10 00:22:17 	 Docker exit code: 0
+2026-03-10 00:22:17 	 Docker output length: 353
+2026-03-10 00:22:17 	 Saved CSV: CR1138,TS081_1,TS081,1,refined_pair,0.862892085565691,0.9465830042156109,0,CR1138_TS081_1_solution.pdb,CR1138_TS081_1_refined.pdb
+2026-03-10 00:22:17 	 RUN refined_pair target=CR1138_TS081_2_solution.pdb model=CR1138_TS081_2_refined.pdb -> id=TS081_2
+2026-03-10 00:22:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS081_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS081_2_refined.pdb
+2026-03-10 00:22:23 	 Docker exit code: 0
+2026-03-10 00:22:23 	 Docker output length: 371
+2026-03-10 00:22:23 	 Saved CSV: CR1138,TS081_2,TS081,2,refined_pair,0.8714716761034136,0.9465830042156109,0.29160592175990213,CR1138_TS081_2_solution.pdb,CR1138_TS081_2_refined.pdb
+2026-03-10 00:22:23 	 RUN refined_pair target=CR1138_TS081_3_solution.pdb model=CR1138_TS081_3_refined.pdb -> id=TS081_3
+2026-03-10 00:22:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS081_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS081_3_refined.pdb
+2026-03-10 00:22:28 	 Docker exit code: 0
+2026-03-10 00:22:28 	 Docker output length: 371
+2026-03-10 00:22:28 	 Saved CSV: CR1138,TS081_3,TS081,3,refined_pair,0.8735741409432287,0.9465830042156109,0.25197631533948484,CR1138_TS081_3_solution.pdb,CR1138_TS081_3_refined.pdb
+2026-03-10 00:22:28 	 RUN refined_pair target=CR1138_TS081_4_solution.pdb model=CR1138_TS081_4_refined.pdb -> id=TS081_4
+2026-03-10 00:22:28 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS081_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS081_4_refined.pdb
+2026-03-10 00:22:34 	 Docker exit code: 0
+2026-03-10 00:22:34 	 Docker output length: 370
+2026-03-10 00:22:34 	 Saved CSV: CR1138,TS081_4,TS081,4,refined_pair,0.8863195830711531,0.9465830042156109,0.29160592175990213,CR1138_TS081_4_solution.pdb,CR1138_TS081_4_refined.pdb
+2026-03-10 00:22:34 	 RUN refined_pair target=CR1138_TS081_5_solution.pdb model=CR1138_TS081_5_refined.pdb -> id=TS081_5
+2026-03-10 00:22:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS081_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS081_5_refined.pdb
+2026-03-10 00:22:41 	 Docker exit code: 0
+2026-03-10 00:22:41 	 Docker output length: 369
+2026-03-10 00:22:41 	 Saved CSV: CR1138,TS081_5,TS081,5,refined_pair,0.8837413805161393,0.9465830042156109,0.3026137663344012,CR1138_TS081_5_solution.pdb,CR1138_TS081_5_refined.pdb
+2026-03-10 00:22:41 	 RUN refined_pair target=CR1138_TS097_1_solution.pdb model=CR1138_TS097_1_refined.pdb -> id=TS097_1
+2026-03-10 00:22:41 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS097_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS097_1_refined.pdb
+2026-03-10 00:22:46 	 Docker exit code: 0
+2026-03-10 00:22:46 	 Docker output length: 356
+2026-03-10 00:22:46 	 Saved CSV: CR1138,TS097_1,TS097,1,refined_pair,0.2875864002270057,0.22537446792760443,0,CR1138_TS097_1_solution.pdb,CR1138_TS097_1_refined.pdb
+2026-03-10 00:22:46 	 RUN refined_pair target=CR1138_TS097_2_solution.pdb model=CR1138_TS097_2_refined.pdb -> id=TS097_2
+2026-03-10 00:22:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS097_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS097_2_refined.pdb
+2026-03-10 00:22:51 	 Docker exit code: 0
+2026-03-10 00:22:51 	 Docker output length: 372
+2026-03-10 00:22:51 	 Saved CSV: CR1138,TS097_2,TS097,2,refined_pair,0.29367108244387513,0.19154015513007622,0.03450327796711771,CR1138_TS097_2_solution.pdb,CR1138_TS097_2_refined.pdb
+2026-03-10 00:22:51 	 RUN refined_pair target=CR1138_TS097_3_solution.pdb model=CR1138_TS097_3_refined.pdb -> id=TS097_3
+2026-03-10 00:22:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS097_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS097_3_refined.pdb
+2026-03-10 00:22:57 	 Docker exit code: 0
+2026-03-10 00:22:57 	 Docker output length: 355
+2026-03-10 00:22:57 	 Saved CSV: CR1138,TS097_3,TS097,3,refined_pair,0.279855129754493,0.20594979155639068,0,CR1138_TS097_3_solution.pdb,CR1138_TS097_3_refined.pdb
+2026-03-10 00:22:57 	 RUN refined_pair target=CR1138_TS097_4_solution.pdb model=CR1138_TS097_4_refined.pdb -> id=TS097_4
+2026-03-10 00:22:57 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS097_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS097_4_refined.pdb
+2026-03-10 00:23:02 	 Docker exit code: 0
+2026-03-10 00:23:02 	 Docker output length: 356
+2026-03-10 00:23:02 	 Saved CSV: CR1138,TS097_4,TS097,4,refined_pair,0.2764723961500659,0.20442300944063707,0,CR1138_TS097_4_solution.pdb,CR1138_TS097_4_refined.pdb
+2026-03-10 00:23:02 	 RUN refined_pair target=CR1138_TS097_5_solution.pdb model=CR1138_TS097_5_refined.pdb -> id=TS097_5
+2026-03-10 00:23:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS097_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS097_5_refined.pdb
+2026-03-10 00:23:07 	 Docker exit code: 0
+2026-03-10 00:23:07 	 Docker output length: 373
+2026-03-10 00:23:07 	 Saved CSV: CR1138,TS097_5,TS097,5,refined_pair,0.25965559461923293,0.20602334873357925,0.030556616567607043,CR1138_TS097_5_solution.pdb,CR1138_TS097_5_refined.pdb
+2026-03-10 00:23:07 	 RUN refined_pair target=CR1138_TS119_1_solution.pdb model=CR1138_TS119_1_refined.pdb -> id=TS119_1
+2026-03-10 00:23:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS119_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS119_1_refined.pdb
+2026-03-10 00:23:12 	 Docker exit code: 0
+2026-03-10 00:23:12 	 Docker output length: 355
+2026-03-10 00:23:12 	 Saved CSV: CR1138,TS119_1,TS119,1,refined_pair,0.7014949185391265,0.7545395264048242,0,CR1138_TS119_1_solution.pdb,CR1138_TS119_1_refined.pdb
+2026-03-10 00:23:12 	 RUN refined_pair target=CR1138_TS119_2_solution.pdb model=CR1138_TS119_2_refined.pdb -> id=TS119_2
+2026-03-10 00:23:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS119_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS119_2_refined.pdb
+2026-03-10 00:23:18 	 Docker exit code: 0
+2026-03-10 00:23:18 	 Docker output length: 352
+2026-03-10 00:23:18 	 Saved CSV: CR1138,TS119_2,TS119,2,refined_pair,0.7821555341467914,0.899211242192739,0,CR1138_TS119_2_solution.pdb,CR1138_TS119_2_refined.pdb
+2026-03-10 00:23:18 	 RUN refined_pair target=CR1138_TS119_3_solution.pdb model=CR1138_TS119_3_refined.pdb -> id=TS119_3
+2026-03-10 00:23:18 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS119_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS119_3_refined.pdb
+2026-03-10 00:23:23 	 Docker exit code: 0
+2026-03-10 00:23:23 	 Docker output length: 354
+2026-03-10 00:23:23 	 Saved CSV: CR1138,TS119_3,TS119,3,refined_pair,0.8076084496007666,0.9543602943482988,0,CR1138_TS119_3_solution.pdb,CR1138_TS119_3_refined.pdb
+2026-03-10 00:23:23 	 RUN refined_pair target=CR1138_TS119_4_solution.pdb model=CR1138_TS119_4_refined.pdb -> id=TS119_4
+2026-03-10 00:23:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS119_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS119_4_refined.pdb
+2026-03-10 00:23:30 	 Docker exit code: 0
+2026-03-10 00:23:30 	 Docker output length: 355
+2026-03-10 00:23:30 	 Saved CSV: CR1138,TS119_4,TS119,4,refined_pair,0.8322576876326412,0.8806550947797663,0,CR1138_TS119_4_solution.pdb,CR1138_TS119_4_refined.pdb
+2026-03-10 00:23:30 	 RUN refined_pair target=CR1138_TS119_5_solution.pdb model=CR1138_TS119_5_refined.pdb -> id=TS119_5
+2026-03-10 00:23:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS119_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS119_5_refined.pdb
+2026-03-10 00:23:35 	 Docker exit code: 0
+2026-03-10 00:23:35 	 Docker output length: 355
+2026-03-10 00:23:35 	 Saved CSV: CR1138,TS119_5,TS119,5,refined_pair,0.8335439523406032,0.8729266647324745,0,CR1138_TS119_5_solution.pdb,CR1138_TS119_5_refined.pdb
+2026-03-10 00:23:35 	 RUN refined_pair target=CR1138_TS125_1_solution.pdb model=CR1138_TS125_1_refined.pdb -> id=TS125_1
+2026-03-10 00:23:35 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS125_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS125_1_refined.pdb
+2026-03-10 00:23:40 	 Docker exit code: 0
+2026-03-10 00:23:40 	 Docker output length: 352
+2026-03-10 00:23:40 	 Saved CSV: CR1138,TS125_1,TS125,1,refined_pair,0.7847428788237444,0.895999773470622,0,CR1138_TS125_1_solution.pdb,CR1138_TS125_1_refined.pdb
+2026-03-10 00:23:40 	 RUN refined_pair target=CR1138_TS125_2_solution.pdb model=CR1138_TS125_2_refined.pdb -> id=TS125_2
+2026-03-10 00:23:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS125_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS125_2_refined.pdb
+2026-03-10 00:23:45 	 Docker exit code: 0
+2026-03-10 00:23:45 	 Docker output length: 355
+2026-03-10 00:23:45 	 Saved CSV: CR1138,TS125_2,TS125,2,refined_pair,0.7828296412856761,0.9054158292852328,0,CR1138_TS125_2_solution.pdb,CR1138_TS125_2_refined.pdb
+2026-03-10 00:23:45 	 RUN refined_pair target=CR1138_TS125_3_solution.pdb model=CR1138_TS125_3_refined.pdb -> id=TS125_3
+2026-03-10 00:23:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS125_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS125_3_refined.pdb
+2026-03-10 00:23:50 	 Docker exit code: 0
+2026-03-10 00:23:50 	 Docker output length: 354
+2026-03-10 00:23:50 	 Saved CSV: CR1138,TS125_3,TS125,3,refined_pair,0.7871409042577925,0.9017612769870974,0,CR1138_TS125_3_solution.pdb,CR1138_TS125_3_refined.pdb
+2026-03-10 00:23:50 	 RUN refined_pair target=CR1138_TS125_4_solution.pdb model=CR1138_TS125_4_refined.pdb -> id=TS125_4
+2026-03-10 00:23:50 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS125_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS125_4_refined.pdb
+2026-03-10 00:23:56 	 Docker exit code: 0
+2026-03-10 00:23:56 	 Docker output length: 353
+2026-03-10 00:23:56 	 Saved CSV: CR1138,TS125_4,TS125,4,refined_pair,0.829160804050557,0.8714547195138539,0,CR1138_TS125_4_solution.pdb,CR1138_TS125_4_refined.pdb
+2026-03-10 00:23:56 	 RUN refined_pair target=CR1138_TS125_5_solution.pdb model=CR1138_TS125_5_refined.pdb -> id=TS125_5
+2026-03-10 00:23:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS125_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS125_5_refined.pdb
+2026-03-10 00:24:01 	 Docker exit code: 0
+2026-03-10 00:24:01 	 Docker output length: 355
+2026-03-10 00:24:01 	 Saved CSV: CR1138,TS125_5,TS125,5,refined_pair,0.8367279853553934,0.8739511798611886,0,CR1138_TS125_5_solution.pdb,CR1138_TS125_5_refined.pdb
+2026-03-10 00:24:01 	 RUN refined_pair target=CR1138_TS128_1_solution.pdb model=CR1138_TS128_1_refined.pdb -> id=TS128_1
+2026-03-10 00:24:01 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS128_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS128_1_refined.pdb
+2026-03-10 00:24:07 	 Docker exit code: 0
+2026-03-10 00:24:07 	 Docker output length: 355
+2026-03-10 00:24:07 	 Saved CSV: CR1138,TS128_1,TS128,1,refined_pair,0.7934688315443639,0.9168076557285741,0,CR1138_TS128_1_solution.pdb,CR1138_TS128_1_refined.pdb
+2026-03-10 00:24:07 	 RUN refined_pair target=CR1138_TS128_2_solution.pdb model=CR1138_TS128_2_refined.pdb -> id=TS128_2
+2026-03-10 00:24:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS128_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS128_2_refined.pdb
+2026-03-10 00:24:13 	 Docker exit code: 0
+2026-03-10 00:24:13 	 Docker output length: 354
+2026-03-10 00:24:13 	 Saved CSV: CR1138,TS128_2,TS128,2,refined_pair,0.824995984103842,0.9162820124640553,0,CR1138_TS128_2_solution.pdb,CR1138_TS128_2_refined.pdb
+2026-03-10 00:24:13 	 RUN refined_pair target=CR1138_TS128_3_solution.pdb model=CR1138_TS128_3_refined.pdb -> id=TS128_3
+2026-03-10 00:24:13 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS128_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS128_3_refined.pdb
+2026-03-10 00:24:19 	 Docker exit code: 0
+2026-03-10 00:24:19 	 Docker output length: 352
+2026-03-10 00:24:19 	 Saved CSV: CR1138,TS128_3,TS128,3,refined_pair,0.8300004607761413,0.8714547195138539,0,CR1138_TS128_3_solution.pdb,CR1138_TS128_3_refined.pdb
+2026-03-10 00:24:19 	 RUN refined_pair target=CR1138_TS128_4_solution.pdb model=CR1138_TS128_4_refined.pdb -> id=TS128_4
+2026-03-10 00:24:19 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS128_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS128_4_refined.pdb
+2026-03-10 00:24:24 	 Docker exit code: 0
+2026-03-10 00:24:24 	 Docker output length: 355
+2026-03-10 00:24:24 	 Saved CSV: CR1138,TS128_4,TS128,4,refined_pair,0.8211461759381831,0.9391587091630917,0,CR1138_TS128_4_solution.pdb,CR1138_TS128_4_refined.pdb
+2026-03-10 00:24:24 	 RUN refined_pair target=CR1138_TS128_5_solution.pdb model=CR1138_TS128_5_refined.pdb -> id=TS128_5
+2026-03-10 00:24:24 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS128_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS128_5_refined.pdb
+2026-03-10 00:24:30 	 Docker exit code: 0
+2026-03-10 00:24:30 	 Docker output length: 354
+2026-03-10 00:24:30 	 Saved CSV: CR1138,TS128_5,TS128,5,refined_pair,0.7799443040843768,0.8833203139688703,0,CR1138_TS128_5_solution.pdb,CR1138_TS128_5_refined.pdb
+2026-03-10 00:24:30 	 RUN refined_pair target=CR1138_TS131_1_solution.pdb model=CR1138_TS131_1_refined.pdb -> id=TS131_1
+2026-03-10 00:24:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS131_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS131_1_refined.pdb
+2026-03-10 00:24:36 	 Docker exit code: 0
+2026-03-10 00:24:36 	 Docker output length: 341
+2026-03-10 00:24:36 	 Saved CSV: CR1138,TS131_1,TS131,1,refined_pair,0.6116261828680437,-1,-1,CR1138_TS131_1_solution.pdb,CR1138_TS131_1_refined.pdb
+2026-03-10 00:24:36 	 RUN refined_pair target=CR1138_TS131_2_solution.pdb model=CR1138_TS131_2_refined.pdb -> id=TS131_2
+2026-03-10 00:24:36 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS131_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS131_2_refined.pdb
+2026-03-10 00:24:41 	 Docker exit code: 0
+2026-03-10 00:24:41 	 Docker output length: 341
+2026-03-10 00:24:41 	 Saved CSV: CR1138,TS131_2,TS131,2,refined_pair,0.6024007933493218,-1,0,CR1138_TS131_2_solution.pdb,CR1138_TS131_2_refined.pdb
+2026-03-10 00:24:41 	 RUN refined_pair target=CR1138_TS131_3_solution.pdb model=CR1138_TS131_3_refined.pdb -> id=TS131_3
+2026-03-10 00:24:41 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS131_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS131_3_refined.pdb
+2026-03-10 00:24:46 	 Docker exit code: 0
+2026-03-10 00:24:46 	 Docker output length: 340
+2026-03-10 00:24:46 	 Saved CSV: CR1138,TS131_3,TS131,3,refined_pair,0.6093825177563374,0,0,CR1138_TS131_3_solution.pdb,CR1138_TS131_3_refined.pdb
+2026-03-10 00:24:46 	 RUN refined_pair target=CR1138_TS131_4_solution.pdb model=CR1138_TS131_4_refined.pdb -> id=TS131_4
+2026-03-10 00:24:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS131_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS131_4_refined.pdb
+2026-03-10 00:24:51 	 Docker exit code: 0
+2026-03-10 00:24:51 	 Docker output length: 340
+2026-03-10 00:24:51 	 Saved CSV: CR1138,TS131_4,TS131,4,refined_pair,0.6019790517762994,0,0,CR1138_TS131_4_solution.pdb,CR1138_TS131_4_refined.pdb
+2026-03-10 00:24:51 	 RUN refined_pair target=CR1138_TS131_5_solution.pdb model=CR1138_TS131_5_refined.pdb -> id=TS131_5
+2026-03-10 00:24:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS131_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS131_5_refined.pdb
+2026-03-10 00:24:56 	 Docker exit code: 0
+2026-03-10 00:24:56 	 Docker output length: 340
+2026-03-10 00:24:56 	 Saved CSV: CR1138,TS131_5,TS131,5,refined_pair,0.6081182386738554,-1,-1,CR1138_TS131_5_solution.pdb,CR1138_TS131_5_refined.pdb
+2026-03-10 00:24:56 	 RUN refined_pair target=CR1138_TS147_1_solution.pdb model=CR1138_TS147_1_refined.pdb -> id=TS147_1
+2026-03-10 00:24:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS147_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS147_1_refined.pdb
+2026-03-10 00:25:00 	 Docker exit code: 0
+2026-03-10 00:25:00 	 Docker output length: 354
+2026-03-10 00:25:00 	 Saved CSV: CR1138,TS147_1,TS147,1,refined_pair,0.7900011999652634,0.8488507797727715,0,CR1138_TS147_1_solution.pdb,CR1138_TS147_1_refined.pdb
+2026-03-10 00:25:00 	 RUN refined_pair target=CR1138_TS147_2_solution.pdb model=CR1138_TS147_2_refined.pdb -> id=TS147_2
+2026-03-10 00:25:00 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS147_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS147_2_refined.pdb
+2026-03-10 00:25:05 	 Docker exit code: 0
+2026-03-10 00:25:05 	 Docker output length: 352
+2026-03-10 00:25:05 	 Saved CSV: CR1138,TS147_2,TS147,2,refined_pair,0.798129411192544,0.8678501472972613,0,CR1138_TS147_2_solution.pdb,CR1138_TS147_2_refined.pdb
+2026-03-10 00:25:05 	 RUN refined_pair target=CR1138_TS147_3_solution.pdb model=CR1138_TS147_3_refined.pdb -> id=TS147_3
+2026-03-10 00:25:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS147_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS147_3_refined.pdb
+2026-03-10 00:25:10 	 Docker exit code: 0
+2026-03-10 00:25:10 	 Docker output length: 353
+2026-03-10 00:25:10 	 Saved CSV: CR1138,TS147_3,TS147,3,refined_pair,0.757712023096782,0.8913482586582298,0,CR1138_TS147_3_solution.pdb,CR1138_TS147_3_refined.pdb
+2026-03-10 00:25:10 	 RUN refined_pair target=CR1138_TS147_4_solution.pdb model=CR1138_TS147_4_refined.pdb -> id=TS147_4
+2026-03-10 00:25:10 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS147_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS147_4_refined.pdb
+2026-03-10 00:25:14 	 Docker exit code: 0
+2026-03-10 00:25:14 	 Docker output length: 355
+2026-03-10 00:25:14 	 Saved CSV: CR1138,TS147_4,TS147,4,refined_pair,0.8156732490365348,0.8740830418336487,0,CR1138_TS147_4_solution.pdb,CR1138_TS147_4_refined.pdb
+2026-03-10 00:25:14 	 RUN refined_pair target=CR1138_TS147_5_solution.pdb model=CR1138_TS147_5_refined.pdb -> id=TS147_5
+2026-03-10 00:25:14 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS147_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS147_5_refined.pdb
+2026-03-10 00:25:19 	 Docker exit code: 0
+2026-03-10 00:25:19 	 Docker output length: 354
+2026-03-10 00:25:19 	 Saved CSV: CR1138,TS147_5,TS147,5,refined_pair,0.7639803225180972,0.876735070338608,0,CR1138_TS147_5_solution.pdb,CR1138_TS147_5_refined.pdb
+2026-03-10 00:25:19 	 RUN refined_pair target=CR1138_TS177_1_solution.pdb model=CR1138_TS177_1_refined.pdb -> id=TS177_1
+2026-03-10 00:25:19 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS177_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS177_1_refined.pdb
+2026-03-10 00:25:25 	 Docker exit code: 0
+2026-03-10 00:25:25 	 Docker output length: 372
+2026-03-10 00:25:25 	 Saved CSV: CR1138,TS177_1,TS177,1,refined_pair,0.37049603619989235,0.0751248226425348,0.020901483117353754,CR1138_TS177_1_solution.pdb,CR1138_TS177_1_refined.pdb
+2026-03-10 00:25:25 	 RUN refined_pair target=CR1138_TS185_1_solution.pdb model=CR1138_TS185_1_refined.pdb -> id=TS185_1
+2026-03-10 00:25:25 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS185_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS185_1_refined.pdb
+2026-03-10 00:25:30 	 Docker exit code: 0
+2026-03-10 00:25:30 	 Docker output length: 353
+2026-03-10 00:25:30 	 Saved CSV: CR1138,TS185_1,TS185,1,refined_pair,0.597321760878778,0.5733412928572632,0,CR1138_TS185_1_solution.pdb,CR1138_TS185_1_refined.pdb
+2026-03-10 00:25:30 	 RUN refined_pair target=CR1138_TS185_2_solution.pdb model=CR1138_TS185_2_refined.pdb -> id=TS185_2
+2026-03-10 00:25:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS185_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS185_2_refined.pdb
+2026-03-10 00:25:35 	 Docker exit code: 0
+2026-03-10 00:25:35 	 Docker output length: 353
+2026-03-10 00:25:35 	 Saved CSV: CR1138,TS185_2,TS185,2,refined_pair,0.6609824190750687,0.582755489374437,0,CR1138_TS185_2_solution.pdb,CR1138_TS185_2_refined.pdb
+2026-03-10 00:25:35 	 RUN refined_pair target=CR1138_TS185_3_solution.pdb model=CR1138_TS185_3_refined.pdb -> id=TS185_3
+2026-03-10 00:25:35 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS185_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS185_3_refined.pdb
+2026-03-10 00:25:40 	 Docker exit code: 0
+2026-03-10 00:25:40 	 Docker output length: 354
+2026-03-10 00:25:40 	 Saved CSV: CR1138,TS185_3,TS185,3,refined_pair,0.6349637081295254,0.5632610635731907,0,CR1138_TS185_3_solution.pdb,CR1138_TS185_3_refined.pdb
+2026-03-10 00:25:40 	 RUN refined_pair target=CR1138_TS185_4_solution.pdb model=CR1138_TS185_4_refined.pdb -> id=TS185_4
+2026-03-10 00:25:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS185_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS185_4_refined.pdb
+2026-03-10 00:25:45 	 Docker exit code: 0
+2026-03-10 00:25:45 	 Docker output length: 354
+2026-03-10 00:25:45 	 Saved CSV: CR1138,TS185_4,TS185,4,refined_pair,0.6322385835158986,0.5901688908506539,0,CR1138_TS185_4_solution.pdb,CR1138_TS185_4_refined.pdb
+2026-03-10 00:25:45 	 RUN refined_pair target=CR1138_TS185_5_solution.pdb model=CR1138_TS185_5_refined.pdb -> id=TS185_5
+2026-03-10 00:25:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS185_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS185_5_refined.pdb
+2026-03-10 00:25:51 	 Docker exit code: 0
+2026-03-10 00:25:51 	 Docker output length: 354
+2026-03-10 00:25:51 	 Saved CSV: CR1138,TS185_5,TS185,5,refined_pair,0.485826235154065,0.04507489358552089,0,CR1138_TS185_5_solution.pdb,CR1138_TS185_5_refined.pdb
+2026-03-10 00:25:51 	 RUN refined_pair target=CR1138_TS227_1_solution.pdb model=CR1138_TS227_1_refined.pdb -> id=TS227_1
+2026-03-10 00:25:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS227_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS227_1_refined.pdb
+2026-03-10 00:25:56 	 Docker exit code: 0
+2026-03-10 00:25:56 	 Docker output length: 354
+2026-03-10 00:25:56 	 Saved CSV: CR1138,TS227_1,TS227,1,refined_pair,0.8034966212524493,0.8594784786796147,0,CR1138_TS227_1_solution.pdb,CR1138_TS227_1_refined.pdb
+2026-03-10 00:25:56 	 RUN refined_pair target=CR1138_TS227_2_solution.pdb model=CR1138_TS227_2_refined.pdb -> id=TS227_2
+2026-03-10 00:25:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS227_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS227_2_refined.pdb
+2026-03-10 00:26:02 	 Docker exit code: 0
+2026-03-10 00:26:02 	 Docker output length: 354
+2026-03-10 00:26:02 	 Saved CSV: CR1138,TS227_2,TS227,2,refined_pair,0.7485907908414737,0.8843391595586615,0,CR1138_TS227_2_solution.pdb,CR1138_TS227_2_refined.pdb
+2026-03-10 00:26:02 	 RUN refined_pair target=CR1138_TS227_3_solution.pdb model=CR1138_TS227_3_refined.pdb -> id=TS227_3
+2026-03-10 00:26:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS227_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS227_3_refined.pdb
+2026-03-10 00:26:06 	 Docker exit code: 0
+2026-03-10 00:26:06 	 Docker output length: 354
+2026-03-10 00:26:06 	 Saved CSV: CR1138,TS227_3,TS227,3,refined_pair,0.7873628898202234,0.8561980264709139,0,CR1138_TS227_3_solution.pdb,CR1138_TS227_3_refined.pdb
+2026-03-10 00:26:06 	 RUN refined_pair target=CR1138_TS227_4_solution.pdb model=CR1138_TS227_4_refined.pdb -> id=TS227_4
+2026-03-10 00:26:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS227_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS227_4_refined.pdb
+2026-03-10 00:26:11 	 Docker exit code: 0
+2026-03-10 00:26:11 	 Docker output length: 354
+2026-03-10 00:26:11 	 Saved CSV: CR1138,TS227_4,TS227,4,refined_pair,0.7828279378751456,0.8940136557495454,0,CR1138_TS227_4_solution.pdb,CR1138_TS227_4_refined.pdb
+2026-03-10 00:26:11 	 RUN refined_pair target=CR1138_TS227_5_solution.pdb model=CR1138_TS227_5_refined.pdb -> id=TS227_5
+2026-03-10 00:26:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS227_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS227_5_refined.pdb
+2026-03-10 00:26:16 	 Docker exit code: 0
+2026-03-10 00:26:16 	 Docker output length: 354
+2026-03-10 00:26:16 	 Saved CSV: CR1138,TS227_5,TS227,5,refined_pair,0.7871193358597551,0.8624068635818635,0,CR1138_TS227_5_solution.pdb,CR1138_TS227_5_refined.pdb
+2026-03-10 00:26:16 	 RUN refined_pair target=CR1138_TS229_1_solution.pdb model=CR1138_TS229_1_refined.pdb -> id=TS229_1
+2026-03-10 00:26:16 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS229_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS229_1_refined.pdb
+2026-03-10 00:26:24 	 Docker exit code: 0
+2026-03-10 00:26:24 	 Docker output length: 358
+2026-03-10 00:26:24 	 Saved CSV: CR1138,TS229_1,TS229,1,refined_pair,0.03003760461382797,0.006829479558851913,0,CR1138_TS229_1_solution.pdb,CR1138_TS229_1_refined.pdb
+2026-03-10 00:26:24 	 RUN refined_pair target=CR1138_TS229_2_solution.pdb model=CR1138_TS229_2_refined.pdb -> id=TS229_2
+2026-03-10 00:26:24 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS229_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS229_2_refined.pdb
+2026-03-10 00:26:32 	 Docker exit code: 0
+2026-03-10 00:26:32 	 Docker output length: 360
+2026-03-10 00:26:32 	 Saved CSV: CR1138,TS229_2,TS229,2,refined_pair,0.016346951626236207,0.007340252743933793,0,CR1138_TS229_2_solution.pdb,CR1138_TS229_2_refined.pdb
+2026-03-10 00:26:32 	 RUN refined_pair target=CR1138_TS229_3_solution.pdb model=CR1138_TS229_3_refined.pdb -> id=TS229_3
+2026-03-10 00:26:32 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS229_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS229_3_refined.pdb
+2026-03-10 00:26:37 	 Docker exit code: 0
+2026-03-10 00:26:37 	 Docker output length: 354
+2026-03-10 00:26:37 	 Saved CSV: CR1138,TS229_3,TS229,3,refined_pair,0.6316434526466581,0.6052161667868181,0,CR1138_TS229_3_solution.pdb,CR1138_TS229_3_refined.pdb
+2026-03-10 00:26:37 	 RUN refined_pair target=CR1138_TS229_4_solution.pdb model=CR1138_TS229_4_refined.pdb -> id=TS229_4
+2026-03-10 00:26:37 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS229_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS229_4_refined.pdb
+2026-03-10 00:26:42 	 Docker exit code: 0
+2026-03-10 00:26:42 	 Docker output length: 354
+2026-03-10 00:26:42 	 Saved CSV: CR1138,TS229_4,TS229,4,refined_pair,0.746506134465251,0.7395015100127121,0,CR1138_TS229_4_solution.pdb,CR1138_TS229_4_refined.pdb
+2026-03-10 00:26:42 	 RUN refined_pair target=CR1138_TS229_5_solution.pdb model=CR1138_TS229_5_refined.pdb -> id=TS229_5
+2026-03-10 00:26:42 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS229_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS229_5_refined.pdb
+2026-03-10 00:26:47 	 Docker exit code: 0
+2026-03-10 00:26:47 	 Docker output length: 355
+2026-03-10 00:26:47 	 Saved CSV: CR1138,TS229_5,TS229,5,refined_pair,0.6876209943810188,0.6706095770935714,0,CR1138_TS229_5_solution.pdb,CR1138_TS229_5_refined.pdb
+2026-03-10 00:26:47 	 RUN refined_pair target=CR1138_TS232_1_solution.pdb model=CR1138_TS232_1_refined.pdb -> id=TS232_1
+2026-03-10 00:26:47 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS232_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS232_1_refined.pdb
+2026-03-10 00:26:52 	 Docker exit code: 0
+2026-03-10 00:26:52 	 Docker output length: 355
+2026-03-10 00:26:52 	 Saved CSV: CR1138,TS232_1,TS232,1,refined_pair,0.8552737946642508,0.9575099982900422,0,CR1138_TS232_1_solution.pdb,CR1138_TS232_1_refined.pdb
+2026-03-10 00:26:52 	 RUN refined_pair target=CR1138_TS232_2_solution.pdb model=CR1138_TS232_2_refined.pdb -> id=TS232_2
+2026-03-10 00:26:52 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS232_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS232_2_refined.pdb
+2026-03-10 00:26:58 	 Docker exit code: 0
+2026-03-10 00:26:58 	 Docker output length: 355
+2026-03-10 00:26:58 	 Saved CSV: CR1138,TS232_2,TS232,2,refined_pair,0.8542386438962205,0.9575099982900422,0,CR1138_TS232_2_solution.pdb,CR1138_TS232_2_refined.pdb
+2026-03-10 00:26:58 	 RUN refined_pair target=CR1138_TS232_3_solution.pdb model=CR1138_TS232_3_refined.pdb -> id=TS232_3
+2026-03-10 00:26:58 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS232_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS232_3_refined.pdb
+2026-03-10 00:27:03 	 Docker exit code: 0
+2026-03-10 00:27:03 	 Docker output length: 354
+2026-03-10 00:27:03 	 Saved CSV: CR1138,TS232_3,TS232,3,refined_pair,0.8910645398507901,0.9465830042156109,0,CR1138_TS232_3_solution.pdb,CR1138_TS232_3_refined.pdb
+2026-03-10 00:27:03 	 RUN refined_pair target=CR1138_TS232_4_solution.pdb model=CR1138_TS232_4_refined.pdb -> id=TS232_4
+2026-03-10 00:27:03 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS232_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS232_4_refined.pdb
+2026-03-10 00:27:08 	 Docker exit code: 0
+2026-03-10 00:27:08 	 Docker output length: 369
+2026-03-10 00:27:08 	 Saved CSV: CR1138,TS232_4,TS232,4,refined_pair,0.887028007393935,0.9465830042156109,0.09759000729485333,CR1138_TS232_4_solution.pdb,CR1138_TS232_4_refined.pdb
+2026-03-10 00:27:08 	 RUN refined_pair target=CR1138_TS232_5_solution.pdb model=CR1138_TS232_5_refined.pdb -> id=TS232_5
+2026-03-10 00:27:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS232_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS232_5_refined.pdb
+2026-03-10 00:27:12 	 Docker exit code: 0
+2026-03-10 00:27:12 	 Docker output length: 354
+2026-03-10 00:27:12 	 Saved CSV: CR1138,TS232_5,TS232,5,refined_pair,0.8856007461117896,0.9465830042156109,0,CR1138_TS232_5_solution.pdb,CR1138_TS232_5_refined.pdb
+2026-03-10 00:27:12 	 RUN refined_pair target=CR1138_TS235_1_solution.pdb model=CR1138_TS235_1_refined.pdb -> id=TS235_1
+2026-03-10 00:27:12 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS235_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS235_1_refined.pdb
+2026-03-10 00:27:19 	 Docker exit code: 0
+2026-03-10 00:27:19 	 Docker output length: 354
+2026-03-10 00:27:19 	 Saved CSV: CR1138,TS235_1,TS235,1,refined_pair,0.6293800237653024,0.8678402946415223,0,CR1138_TS235_1_solution.pdb,CR1138_TS235_1_refined.pdb
+2026-03-10 00:27:19 	 RUN refined_pair target=CR1138_TS235_2_solution.pdb model=CR1138_TS235_2_refined.pdb -> id=TS235_2
+2026-03-10 00:27:19 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS235_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS235_2_refined.pdb
+2026-03-10 00:27:25 	 Docker exit code: 0
+2026-03-10 00:27:25 	 Docker output length: 353
+2026-03-10 00:27:25 	 Saved CSV: CR1138,TS235_2,TS235,2,refined_pair,0.6375582929796374,0.8735010201814676,0,CR1138_TS235_2_solution.pdb,CR1138_TS235_2_refined.pdb
+2026-03-10 00:27:25 	 RUN refined_pair target=CR1138_TS238_1_solution.pdb model=CR1138_TS238_1_refined.pdb -> id=TS238_1
+2026-03-10 00:27:25 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS238_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS238_1_refined.pdb
+2026-03-10 00:27:35 	 Docker exit code: 0
+2026-03-10 00:27:35 	 Docker output length: 343
+2026-03-10 00:27:35 	 Saved CSV: CR1138,TS238_1,TS238,1,refined_pair,0.010427598122883026,0,0,CR1138_TS238_1_solution.pdb,CR1138_TS238_1_refined.pdb
+2026-03-10 00:27:35 	 RUN refined_pair target=CR1138_TS238_2_solution.pdb model=CR1138_TS238_2_refined.pdb -> id=TS238_2
+2026-03-10 00:27:35 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS238_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS238_2_refined.pdb
+2026-03-10 00:27:46 	 Docker exit code: 0
+2026-03-10 00:27:46 	 Docker output length: 378
+2026-03-10 00:27:46 	 Saved CSV: CR1138,TS238_2,TS238,2,refined_pair,0.008012686755143616,0.0047282513030220165,0.006463056119412345,CR1138_TS238_2_solution.pdb,CR1138_TS238_2_refined.pdb
+2026-03-10 00:27:46 	 RUN refined_pair target=CR1138_TS238_3_solution.pdb model=CR1138_TS238_3_refined.pdb -> id=TS238_3
+2026-03-10 00:27:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS238_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS238_3_refined.pdb
+2026-03-10 00:28:00 	 Docker exit code: 0
+2026-03-10 00:28:00 	 Docker output length: 342
+2026-03-10 00:28:00 	 Saved CSV: CR1138,TS238_3,TS238,3,refined_pair,0.006112658011492701,0,0,CR1138_TS238_3_solution.pdb,CR1138_TS238_3_refined.pdb
+2026-03-10 00:28:00 	 RUN refined_pair target=CR1138_TS238_4_solution.pdb model=CR1138_TS238_4_refined.pdb -> id=TS238_4
+2026-03-10 00:28:00 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS238_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS238_4_refined.pdb
+2026-03-10 00:28:18 	 Docker exit code: 0
+2026-03-10 00:28:18 	 Docker output length: 358
+2026-03-10 00:28:18 	 Saved CSV: CR1138,TS238_4,TS238,4,refined_pair,0.003682443414309,0.0038036288715636536,0,CR1138_TS238_4_solution.pdb,CR1138_TS238_4_refined.pdb
+2026-03-10 00:28:18 	 RUN refined_pair target=CR1138_TS239_1_solution.pdb model=CR1138_TS239_1_refined.pdb -> id=TS239_1
+2026-03-10 00:28:18 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS239_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS239_1_refined.pdb
+2026-03-10 00:28:26 	 Docker exit code: 0
+2026-03-10 00:28:26 	 Docker output length: 358
+2026-03-10 00:28:26 	 Saved CSV: CR1138,TS239_1,TS239,1,refined_pair,0.03003760461382797,0.006829479558851913,0,CR1138_TS239_1_solution.pdb,CR1138_TS239_1_refined.pdb
+2026-03-10 00:28:26 	 RUN refined_pair target=CR1138_TS239_2_solution.pdb model=CR1138_TS239_2_refined.pdb -> id=TS239_2
+2026-03-10 00:28:26 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS239_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS239_2_refined.pdb
+2026-03-10 00:28:31 	 Docker exit code: 0
+2026-03-10 00:28:31 	 Docker output length: 354
+2026-03-10 00:28:31 	 Saved CSV: CR1138,TS239_2,TS239,2,refined_pair,0.6316434526466581,0.6052161667868181,0,CR1138_TS239_2_solution.pdb,CR1138_TS239_2_refined.pdb
+2026-03-10 00:28:31 	 RUN refined_pair target=CR1138_TS239_3_solution.pdb model=CR1138_TS239_3_refined.pdb -> id=TS239_3
+2026-03-10 00:28:31 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS239_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS239_3_refined.pdb
+2026-03-10 00:28:37 	 Docker exit code: 0
+2026-03-10 00:28:37 	 Docker output length: 355
+2026-03-10 00:28:37 	 Saved CSV: CR1138,TS239_3,TS239,3,refined_pair,0.6876209943810188,0.6706095770935714,0,CR1138_TS239_3_solution.pdb,CR1138_TS239_3_refined.pdb
+2026-03-10 00:28:37 	 RUN refined_pair target=CR1138_TS239_4_solution.pdb model=CR1138_TS239_4_refined.pdb -> id=TS239_4
+2026-03-10 00:28:37 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS239_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS239_4_refined.pdb
+2026-03-10 00:28:42 	 Docker exit code: 0
+2026-03-10 00:28:42 	 Docker output length: 354
+2026-03-10 00:28:42 	 Saved CSV: CR1138,TS239_4,TS239,4,refined_pair,0.746506134465251,0.7395015100127121,0,CR1138_TS239_4_solution.pdb,CR1138_TS239_4_refined.pdb
+2026-03-10 00:28:42 	 RUN refined_pair target=CR1138_TS239_5_solution.pdb model=CR1138_TS239_5_refined.pdb -> id=TS239_5
+2026-03-10 00:28:42 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS239_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS239_5_refined.pdb
+2026-03-10 00:28:47 	 Docker exit code: 0
+2026-03-10 00:28:47 	 Docker output length: 354
+2026-03-10 00:28:47 	 Saved CSV: CR1138,TS239_5,TS239,5,refined_pair,0.6303697920946321,0.5762457573600862,0,CR1138_TS239_5_solution.pdb,CR1138_TS239_5_refined.pdb
+2026-03-10 00:28:47 	 RUN refined_pair target=CR1138_TS245_1_solution.pdb model=CR1138_TS245_1_refined.pdb -> id=TS245_1
+2026-03-10 00:28:47 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS245_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS245_1_refined.pdb
+2026-03-10 00:28:53 	 Docker exit code: 0
+2026-03-10 00:28:53 	 Docker output length: 356
+2026-03-10 00:28:53 	 Saved CSV: CR1138,TS245_1,TS245,1,refined_pair,0.48785854362382725,0.24748737341529164,0,CR1138_TS245_1_solution.pdb,CR1138_TS245_1_refined.pdb
+2026-03-10 00:28:53 	 RUN refined_pair target=CR1138_TS245_2_solution.pdb model=CR1138_TS245_2_refined.pdb -> id=TS245_2
+2026-03-10 00:28:53 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS245_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS245_2_refined.pdb
+2026-03-10 00:28:59 	 Docker exit code: 0
+2026-03-10 00:28:59 	 Docker output length: 354
+2026-03-10 00:28:59 	 Saved CSV: CR1138,TS245_2,TS245,2,refined_pair,0.5555348029732876,0.2397561119080782,0,CR1138_TS245_2_solution.pdb,CR1138_TS245_2_refined.pdb
+2026-03-10 00:28:59 	 RUN refined_pair target=CR1138_TS245_3_solution.pdb model=CR1138_TS245_3_refined.pdb -> id=TS245_3
+2026-03-10 00:28:59 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS245_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS245_3_refined.pdb
+2026-03-10 00:29:05 	 Docker exit code: 0
+2026-03-10 00:29:05 	 Docker output length: 355
+2026-03-10 00:29:05 	 Saved CSV: CR1138,TS245_3,TS245,3,refined_pair,0.5314345175823133,0.25135127446954225,0,CR1138_TS245_3_solution.pdb,CR1138_TS245_3_refined.pdb
+2026-03-10 00:29:05 	 RUN refined_pair target=CR1138_TS245_4_solution.pdb model=CR1138_TS245_4_refined.pdb -> id=TS245_4
+2026-03-10 00:29:05 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS245_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS245_4_refined.pdb
+2026-03-10 00:29:10 	 Docker exit code: 0
+2026-03-10 00:29:10 	 Docker output length: 356
+2026-03-10 00:29:10 	 Saved CSV: CR1138,TS245_4,TS245,4,refined_pair,0.49087302397902277,0.2767546517312798,0,CR1138_TS245_4_solution.pdb,CR1138_TS245_4_refined.pdb
+2026-03-10 00:29:10 	 RUN refined_pair target=CR1138_TS245_5_solution.pdb model=CR1138_TS245_5_refined.pdb -> id=TS245_5
+2026-03-10 00:29:10 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS245_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS245_5_refined.pdb
+2026-03-10 00:29:15 	 Docker exit code: 0
+2026-03-10 00:29:15 	 Docker output length: 354
+2026-03-10 00:29:15 	 Saved CSV: CR1138,TS245_5,TS245,5,refined_pair,0.5459227872809089,0.2524911953946192,0,CR1138_TS245_5_solution.pdb,CR1138_TS245_5_refined.pdb
+2026-03-10 00:29:15 	 RUN refined_pair target=CR1138_TS248_1_solution.pdb model=CR1138_TS248_1_refined.pdb -> id=TS248_1
+2026-03-10 00:29:15 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS248_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS248_1_refined.pdb
+2026-03-10 00:29:22 	 Docker exit code: 0
+2026-03-10 00:29:22 	 Docker output length: 354
+2026-03-10 00:29:22 	 Saved CSV: CR1138,TS248_1,TS248,1,refined_pair,0.7255407729575798,0.7732590811786556,0,CR1138_TS248_1_solution.pdb,CR1138_TS248_1_refined.pdb
+2026-03-10 00:29:22 	 RUN refined_pair target=CR1138_TS248_2_solution.pdb model=CR1138_TS248_2_refined.pdb -> id=TS248_2
+2026-03-10 00:29:22 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS248_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS248_2_refined.pdb
+2026-03-10 00:29:29 	 Docker exit code: 0
+2026-03-10 00:29:29 	 Docker output length: 354
+2026-03-10 00:29:29 	 Saved CSV: CR1138,TS248_2,TS248,2,refined_pair,0.7361485805638545,0.7912861598992318,0,CR1138_TS248_2_solution.pdb,CR1138_TS248_2_refined.pdb
+2026-03-10 00:29:29 	 RUN refined_pair target=CR1138_TS248_3_solution.pdb model=CR1138_TS248_3_refined.pdb -> id=TS248_3
+2026-03-10 00:29:29 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS248_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS248_3_refined.pdb
+2026-03-10 00:29:34 	 Docker exit code: 0
+2026-03-10 00:29:34 	 Docker output length: 354
+2026-03-10 00:29:34 	 Saved CSV: CR1138,TS248_3,TS248,3,refined_pair,0.7441071370846233,0.8129269714127222,0,CR1138_TS248_3_solution.pdb,CR1138_TS248_3_refined.pdb
+2026-03-10 00:29:34 	 RUN refined_pair target=CR1138_TS248_4_solution.pdb model=CR1138_TS248_4_refined.pdb -> id=TS248_4
+2026-03-10 00:29:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS248_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS248_4_refined.pdb
+2026-03-10 00:29:40 	 Docker exit code: 0
+2026-03-10 00:29:40 	 Docker output length: 354
+2026-03-10 00:29:40 	 Saved CSV: CR1138,TS248_4,TS248,4,refined_pair,0.7283221362862724,0.7893297629345912,0,CR1138_TS248_4_solution.pdb,CR1138_TS248_4_refined.pdb
+2026-03-10 00:29:40 	 RUN refined_pair target=CR1138_TS248_5_solution.pdb model=CR1138_TS248_5_refined.pdb -> id=TS248_5
+2026-03-10 00:29:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS248_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS248_5_refined.pdb
+2026-03-10 00:29:46 	 Docker exit code: 0
+2026-03-10 00:29:46 	 Docker output length: 354
+2026-03-10 00:29:46 	 Saved CSV: CR1138,TS248_5,TS248,5,refined_pair,0.7282748152591783,0.7866907893604412,0,CR1138_TS248_5_solution.pdb,CR1138_TS248_5_refined.pdb
+2026-03-10 00:29:46 	 RUN refined_pair target=CR1138_TS287_1_solution.pdb model=CR1138_TS287_1_refined.pdb -> id=TS287_1
+2026-03-10 00:29:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS287_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS287_1_refined.pdb
+2026-03-10 00:29:53 	 Docker exit code: 0
+2026-03-10 00:29:53 	 Docker output length: 354
+2026-03-10 00:29:53 	 Saved CSV: CR1138,TS287_1,TS287,1,refined_pair,0.8847359013037459,0.944911182523068,0,CR1138_TS287_1_solution.pdb,CR1138_TS287_1_refined.pdb
+2026-03-10 00:29:53 	 RUN refined_pair target=CR1138_TS287_2_solution.pdb model=CR1138_TS287_2_refined.pdb -> id=TS287_2
+2026-03-10 00:29:53 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS287_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS287_2_refined.pdb
+2026-03-10 00:29:58 	 Docker exit code: 0
+2026-03-10 00:29:58 	 Docker output length: 371
+2026-03-10 00:29:58 	 Saved CSV: CR1138,TS287_2,TS287,2,refined_pair,0.8243226052325057,0.8929145246408565,0.07715167498104596,CR1138_TS287_2_solution.pdb,CR1138_TS287_2_refined.pdb
+2026-03-10 00:29:58 	 RUN refined_pair target=CR1138_TS287_3_solution.pdb model=CR1138_TS287_3_refined.pdb -> id=TS287_3
+2026-03-10 00:29:58 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS287_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS287_3_refined.pdb
+2026-03-10 00:30:03 	 Docker exit code: 0
+2026-03-10 00:30:03 	 Docker output length: 371
+2026-03-10 00:30:03 	 Saved CSV: CR1138,TS287_3,TS287,3,refined_pair,0.8791287164368781,0.9284590429955815,0.25197631533948484,CR1138_TS287_3_solution.pdb,CR1138_TS287_3_refined.pdb
+2026-03-10 00:30:03 	 RUN refined_pair target=CR1138_TS287_4_solution.pdb model=CR1138_TS287_4_refined.pdb -> id=TS287_4
+2026-03-10 00:30:03 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS287_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS287_4_refined.pdb
+2026-03-10 00:30:09 	 Docker exit code: 0
+2026-03-10 00:30:09 	 Docker output length: 370
+2026-03-10 00:30:09 	 Saved CSV: CR1138,TS287_4,TS287,4,refined_pair,0.8251435028622145,0.7859132198202041,0.12598815766974242,CR1138_TS287_4_solution.pdb,CR1138_TS287_4_refined.pdb
+2026-03-10 00:30:09 	 RUN refined_pair target=CR1138_TS287_5_solution.pdb model=CR1138_TS287_5_refined.pdb -> id=TS287_5
+2026-03-10 00:30:09 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS287_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS287_5_refined.pdb
+2026-03-10 00:30:16 	 Docker exit code: 0
+2026-03-10 00:30:16 	 Docker output length: 370
+2026-03-10 00:30:16 	 Saved CSV: CR1138,TS287_5,TS287,5,refined_pair,0.8228819623038343,0.7839046856893296,0.12598815766974242,CR1138_TS287_5_solution.pdb,CR1138_TS287_5_refined.pdb
+2026-03-10 00:30:16 	 RUN refined_pair target=CR1138_TS385_1_solution.pdb model=CR1138_TS385_1_refined.pdb -> id=TS385_1
+2026-03-10 00:30:16 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS385_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS385_1_refined.pdb
+2026-03-10 00:30:20 	 Docker exit code: 0
+2026-03-10 00:30:20 	 Docker output length: 356
+2026-03-10 00:30:20 	 Saved CSV: CR1138,TS385_1,TS385,1,refined_pair,0.48785854362382725,0.24748737341529164,0,CR1138_TS385_1_solution.pdb,CR1138_TS385_1_refined.pdb
+2026-03-10 00:30:20 	 RUN refined_pair target=CR1138_TS392_1_solution.pdb model=CR1138_TS392_1_refined.pdb -> id=TS392_1
+2026-03-10 00:30:20 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS392_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS392_1_refined.pdb
+2026-03-10 00:30:27 	 Docker exit code: 0
+2026-03-10 00:30:27 	 Docker output length: 354
+2026-03-10 00:30:27 	 Saved CSV: CR1138,TS392_1,TS392,1,refined_pair,0.5989784701805941,0.4385959555373721,0,CR1138_TS392_1_solution.pdb,CR1138_TS392_1_refined.pdb
+2026-03-10 00:30:27 	 RUN refined_pair target=CR1138_TS392_2_solution.pdb model=CR1138_TS392_2_refined.pdb -> id=TS392_2
+2026-03-10 00:30:27 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS392_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS392_2_refined.pdb
+2026-03-10 00:30:34 	 Docker exit code: 0
+2026-03-10 00:30:34 	 Docker output length: 354
+2026-03-10 00:30:34 	 Saved CSV: CR1138,TS392_2,TS392,2,refined_pair,0.7313774410173262,0.7510409442899901,0,CR1138_TS392_2_solution.pdb,CR1138_TS392_2_refined.pdb
+2026-03-10 00:30:34 	 RUN refined_pair target=CR1138_TS392_3_solution.pdb model=CR1138_TS392_3_refined.pdb -> id=TS392_3
+2026-03-10 00:30:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS392_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS392_3_refined.pdb
+2026-03-10 00:30:40 	 Docker exit code: 0
+2026-03-10 00:30:40 	 Docker output length: 351
+2026-03-10 00:30:40 	 Saved CSV: CR1138,TS392_3,TS392,3,refined_pair,0.7261438312192854,0.6954558682445737,0,CR1138_TS392_3_solution.pdb,CR1138_TS392_3_refined.pdb
+2026-03-10 00:30:40 	 RUN refined_pair target=CR1138_TS392_4_solution.pdb model=CR1138_TS392_4_refined.pdb -> id=TS392_4
+2026-03-10 00:30:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS392_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS392_4_refined.pdb
+2026-03-10 00:30:46 	 Docker exit code: 0
+2026-03-10 00:30:46 	 Docker output length: 354
+2026-03-10 00:30:46 	 Saved CSV: CR1138,TS392_4,TS392,4,refined_pair,0.7315812830426853,0.7155055902084081,0,CR1138_TS392_4_solution.pdb,CR1138_TS392_4_refined.pdb
+2026-03-10 00:30:46 	 RUN refined_pair target=CR1138_TS392_5_solution.pdb model=CR1138_TS392_5_refined.pdb -> id=TS392_5
+2026-03-10 00:30:46 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS392_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS392_5_refined.pdb
+2026-03-10 00:30:51 	 Docker exit code: 0
+2026-03-10 00:30:51 	 Docker output length: 353
+2026-03-10 00:30:51 	 Saved CSV: CR1138,TS392_5,TS392,5,refined_pair,0.7566701049081794,0.7849026181029546,0,CR1138_TS392_5_solution.pdb,CR1138_TS392_5_refined.pdb
+2026-03-10 00:30:51 	 RUN refined_pair target=CR1138_TS416_1_solution.pdb model=CR1138_TS416_1_refined.pdb -> id=TS416_1
+2026-03-10 00:30:51 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS416_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS416_1_refined.pdb
+2026-03-10 00:30:56 	 Docker exit code: 0
+2026-03-10 00:30:56 	 Docker output length: 352
+2026-03-10 00:30:56 	 Saved CSV: CR1138,TS416_1,TS416,1,refined_pair,0.7847428788237444,0.895999773470622,0,CR1138_TS416_1_solution.pdb,CR1138_TS416_1_refined.pdb
+2026-03-10 00:30:56 	 RUN refined_pair target=CR1138_TS416_2_solution.pdb model=CR1138_TS416_2_refined.pdb -> id=TS416_2
+2026-03-10 00:30:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS416_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS416_2_refined.pdb
+2026-03-10 00:31:02 	 Docker exit code: 0
+2026-03-10 00:31:02 	 Docker output length: 354
+2026-03-10 00:31:02 	 Saved CSV: CR1138,TS416_2,TS416,2,refined_pair,0.6316434526466581,0.6052161667868181,0,CR1138_TS416_2_solution.pdb,CR1138_TS416_2_refined.pdb
+2026-03-10 00:31:02 	 RUN refined_pair target=CR1138_TS416_3_solution.pdb model=CR1138_TS416_3_refined.pdb -> id=TS416_3
+2026-03-10 00:31:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS416_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS416_3_refined.pdb
+2026-03-10 00:31:08 	 Docker exit code: 0
+2026-03-10 00:31:08 	 Docker output length: 354
+2026-03-10 00:31:08 	 Saved CSV: CR1138,TS416_3,TS416,3,refined_pair,0.7871409042577925,0.9017612769870974,0,CR1138_TS416_3_solution.pdb,CR1138_TS416_3_refined.pdb
+2026-03-10 00:31:08 	 RUN refined_pair target=CR1138_TS416_4_solution.pdb model=CR1138_TS416_4_refined.pdb -> id=TS416_4
+2026-03-10 00:31:08 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS416_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS416_4_refined.pdb
+2026-03-10 00:31:13 	 Docker exit code: 0
+2026-03-10 00:31:13 	 Docker output length: 354
+2026-03-10 00:31:13 	 Saved CSV: CR1138,TS416_4,TS416,4,refined_pair,0.746506134465251,0.7395015100127121,0,CR1138_TS416_4_solution.pdb,CR1138_TS416_4_refined.pdb
+2026-03-10 00:31:13 	 RUN refined_pair target=CR1138_TS416_5_solution.pdb model=CR1138_TS416_5_refined.pdb -> id=TS416_5
+2026-03-10 00:31:13 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS416_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS416_5_refined.pdb
+2026-03-10 00:31:19 	 Docker exit code: 0
+2026-03-10 00:31:19 	 Docker output length: 355
+2026-03-10 00:31:19 	 Saved CSV: CR1138,TS416_5,TS416,5,refined_pair,0.8367279853553934,0.8739511798611886,0,CR1138_TS416_5_solution.pdb,CR1138_TS416_5_refined.pdb
+2026-03-10 00:31:19 	 RUN refined_pair target=CR1138_TS434_1_solution.pdb model=CR1138_TS434_1_refined.pdb -> id=TS434_1
+2026-03-10 00:31:19 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS434_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS434_1_refined.pdb
+2026-03-10 00:31:24 	 Docker exit code: 0
+2026-03-10 00:31:24 	 Docker output length: 370
+2026-03-10 00:31:24 	 Saved CSV: CR1138,TS434_1,TS434,1,refined_pair,0.802548420610519,0.8707970153605898,0.046524210519923545,CR1138_TS434_1_solution.pdb,CR1138_TS434_1_refined.pdb
+2026-03-10 00:31:24 	 RUN refined_pair target=CR1138_TS434_2_solution.pdb model=CR1138_TS434_2_refined.pdb -> id=TS434_2
+2026-03-10 00:31:24 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS434_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS434_2_refined.pdb
+2026-03-10 00:31:30 	 Docker exit code: 0
+2026-03-10 00:31:30 	 Docker output length: 352
+2026-03-10 00:31:30 	 Saved CSV: CR1138,TS434_2,TS434,2,refined_pair,0.80306358612466,0.8740830418336487,0,CR1138_TS434_2_solution.pdb,CR1138_TS434_2_refined.pdb
+2026-03-10 00:31:30 	 RUN refined_pair target=CR1138_TS434_3_solution.pdb model=CR1138_TS434_3_refined.pdb -> id=TS434_3
+2026-03-10 00:31:30 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS434_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS434_3_refined.pdb
+2026-03-10 00:31:36 	 Docker exit code: 0
+2026-03-10 00:31:36 	 Docker output length: 354
+2026-03-10 00:31:36 	 Saved CSV: CR1138,TS434_3,TS434,3,refined_pair,0.8183794762738933,0.8652980646810328,0,CR1138_TS434_3_solution.pdb,CR1138_TS434_3_refined.pdb
+2026-03-10 00:31:36 	 RUN refined_pair target=CR1138_TS434_4_solution.pdb model=CR1138_TS434_4_refined.pdb -> id=TS434_4
+2026-03-10 00:31:36 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS434_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS434_4_refined.pdb
+2026-03-10 00:31:42 	 Docker exit code: 0
+2026-03-10 00:31:42 	 Docker output length: 355
+2026-03-10 00:31:42 	 Saved CSV: CR1138,TS434_4,TS434,4,refined_pair,0.8083568624300678,0.8660393830970162,0,CR1138_TS434_4_solution.pdb,CR1138_TS434_4_refined.pdb
+2026-03-10 00:31:42 	 RUN refined_pair target=CR1138_TS434_5_solution.pdb model=CR1138_TS434_5_refined.pdb -> id=TS434_5
+2026-03-10 00:31:42 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS434_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS434_5_refined.pdb
+2026-03-10 00:31:48 	 Docker exit code: 0
+2026-03-10 00:31:48 	 Docker output length: 355
+2026-03-10 00:31:48 	 Saved CSV: CR1138,TS434_5,TS434,5,refined_pair,0.7830060948330925,0.8440987607988594,0,CR1138_TS434_5_solution.pdb,CR1138_TS434_5_refined.pdb
+2026-03-10 00:31:48 	 RUN refined_pair target=CR1138_TS439_1_solution.pdb model=CR1138_TS439_1_refined.pdb -> id=TS439_1
+2026-03-10 00:31:48 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS439_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS439_1_refined.pdb
+2026-03-10 00:31:55 	 Docker exit code: 0
+2026-03-10 00:31:55 	 Docker output length: 355
+2026-03-10 00:31:55 	 Saved CSV: CR1138,TS439_1,TS439,1,refined_pair,0.8367279853553934,0.8739511798611886,0,CR1138_TS439_1_solution.pdb,CR1138_TS439_1_refined.pdb
+2026-03-10 00:31:55 	 RUN refined_pair target=CR1138_TS439_2_solution.pdb model=CR1138_TS439_2_refined.pdb -> id=TS439_2
+2026-03-10 00:31:55 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS439_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS439_2_refined.pdb
+2026-03-10 00:32:01 	 Docker exit code: 0
+2026-03-10 00:32:01 	 Docker output length: 355
+2026-03-10 00:32:01 	 Saved CSV: CR1138,TS439_2,TS439,2,refined_pair,0.7828296412856761,0.9054158292852328,0,CR1138_TS439_2_solution.pdb,CR1138_TS439_2_refined.pdb
+2026-03-10 00:32:01 	 RUN refined_pair target=CR1138_TS439_3_solution.pdb model=CR1138_TS439_3_refined.pdb -> id=TS439_3
+2026-03-10 00:32:01 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS439_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS439_3_refined.pdb
+2026-03-10 00:32:06 	 Docker exit code: 0
+2026-03-10 00:32:06 	 Docker output length: 352
+2026-03-10 00:32:06 	 Saved CSV: CR1138,TS439_3,TS439,3,refined_pair,0.7847428788237444,0.895999773470622,0,CR1138_TS439_3_solution.pdb,CR1138_TS439_3_refined.pdb
+2026-03-10 00:32:06 	 RUN refined_pair target=CR1138_TS439_4_solution.pdb model=CR1138_TS439_4_refined.pdb -> id=TS439_4
+2026-03-10 00:32:06 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS439_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS439_4_refined.pdb
+2026-03-10 00:32:11 	 Docker exit code: 0
+2026-03-10 00:32:11 	 Docker output length: 354
+2026-03-10 00:32:11 	 Saved CSV: CR1138,TS439_4,TS439,4,refined_pair,0.746506134465251,0.7395015100127121,0,CR1138_TS439_4_solution.pdb,CR1138_TS439_4_refined.pdb
+2026-03-10 00:32:11 	 RUN refined_pair target=CR1138_TS439_5_solution.pdb model=CR1138_TS439_5_refined.pdb -> id=TS439_5
+2026-03-10 00:32:11 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS439_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS439_5_refined.pdb
+2026-03-10 00:32:17 	 Docker exit code: 0
+2026-03-10 00:32:17 	 Docker output length: 355
+2026-03-10 00:32:17 	 Saved CSV: CR1138,TS439_5,TS439,5,refined_pair,0.6876209943810188,0.6706095770935714,0,CR1138_TS439_5_solution.pdb,CR1138_TS439_5_refined.pdb
+2026-03-10 00:32:17 	 RUN refined_pair target=CR1138_TS470_1_solution.pdb model=CR1138_TS470_1_refined.pdb -> id=TS470_1
+2026-03-10 00:32:17 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS470_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS470_1_refined.pdb
+2026-03-10 00:32:23 	 Docker exit code: 0
+2026-03-10 00:32:23 	 Docker output length: 372
+2026-03-10 00:32:23 	 Saved CSV: CR1138,TS470_1,TS470,1,refined_pair,0.48656000887184764,0.5100245681582997,0.020088585092257694,CR1138_TS470_1_solution.pdb,CR1138_TS470_1_refined.pdb
+2026-03-10 00:32:23 	 RUN refined_pair target=CR1138_TS470_2_solution.pdb model=CR1138_TS470_2_refined.pdb -> id=TS470_2
+2026-03-10 00:32:23 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS470_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS470_2_refined.pdb
+2026-03-10 00:32:28 	 Docker exit code: 0
+2026-03-10 00:32:28 	 Docker output length: 357
+2026-03-10 00:32:28 	 Saved CSV: CR1138,TS470_2,TS470,2,refined_pair,0.3347453903540325,0.36353843562236615,0,CR1138_TS470_2_solution.pdb,CR1138_TS470_2_refined.pdb
+2026-03-10 00:32:28 	 RUN refined_pair target=CR1138_TS470_3_solution.pdb model=CR1138_TS470_3_refined.pdb -> id=TS470_3
+2026-03-10 00:32:28 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS470_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS470_3_refined.pdb
+2026-03-10 00:32:34 	 Docker exit code: 0
+2026-03-10 00:32:34 	 Docker output length: 356
+2026-03-10 00:32:34 	 Saved CSV: CR1138,TS470_3,TS470,3,refined_pair,0.37133580319617604,0.3686733608916681,0,CR1138_TS470_3_solution.pdb,CR1138_TS470_3_refined.pdb
+2026-03-10 00:32:34 	 RUN refined_pair target=CR1138_TS470_4_solution.pdb model=CR1138_TS470_4_refined.pdb -> id=TS470_4
+2026-03-10 00:32:34 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS470_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS470_4_refined.pdb
+2026-03-10 00:32:40 	 Docker exit code: 0
+2026-03-10 00:32:40 	 Docker output length: 355
+2026-03-10 00:32:40 	 Saved CSV: CR1138,TS470_4,TS470,4,refined_pair,0.35473822408102546,0.3612614959015874,0,CR1138_TS470_4_solution.pdb,CR1138_TS470_4_refined.pdb
+2026-03-10 00:32:40 	 RUN refined_pair target=CR1138_TS470_5_solution.pdb model=CR1138_TS470_5_refined.pdb -> id=TS470_5
+2026-03-10 00:32:40 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS470_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS470_5_refined.pdb
+2026-03-10 00:32:45 	 Docker exit code: 0
+2026-03-10 00:32:45 	 Docker output length: 355
+2026-03-10 00:32:45 	 Saved CSV: CR1138,TS470_5,TS470,5,refined_pair,0.4194286535392905,0.4974046447280272,0,CR1138_TS470_5_solution.pdb,CR1138_TS470_5_refined.pdb
+2026-03-10 00:32:45 	 RUN refined_pair target=CR1138_TS489_1_solution.pdb model=CR1138_TS489_1_refined.pdb -> id=TS489_1
+2026-03-10 00:32:45 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS489_1_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS489_1_refined.pdb
+2026-03-10 00:32:50 	 Docker exit code: 0
+2026-03-10 00:32:50 	 Docker output length: 354
+2026-03-10 00:32:50 	 Saved CSV: CR1138,TS489_1,TS489,1,refined_pair,0.5077136363619477,0.5750000000000001,0,CR1138_TS489_1_solution.pdb,CR1138_TS489_1_refined.pdb
+2026-03-10 00:32:50 	 RUN refined_pair target=CR1138_TS489_2_solution.pdb model=CR1138_TS489_2_refined.pdb -> id=TS489_2
+2026-03-10 00:32:50 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS489_2_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS489_2_refined.pdb
+2026-03-10 00:32:56 	 Docker exit code: 0
+2026-03-10 00:32:56 	 Docker output length: 355
+2026-03-10 00:32:56 	 Saved CSV: CR1138,TS489_2,TS489,2,refined_pair,0.3453576340558831,0.37455475185334697,0,CR1138_TS489_2_solution.pdb,CR1138_TS489_2_refined.pdb
+2026-03-10 00:32:56 	 RUN refined_pair target=CR1138_TS489_3_solution.pdb model=CR1138_TS489_3_refined.pdb -> id=TS489_3
+2026-03-10 00:32:56 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS489_3_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS489_3_refined.pdb
+2026-03-10 00:33:02 	 Docker exit code: 0
+2026-03-10 00:33:02 	 Docker output length: 353
+2026-03-10 00:33:02 	 Saved CSV: CR1138,TS489_3,TS489,3,refined_pair,0.3693287663843373,0.443970015879451,0,CR1138_TS489_3_solution.pdb,CR1138_TS489_3_refined.pdb
+2026-03-10 00:33:02 	 RUN refined_pair target=CR1138_TS489_4_solution.pdb model=CR1138_TS489_4_refined.pdb -> id=TS489_4
+2026-03-10 00:33:02 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS489_4_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS489_4_refined.pdb
+2026-03-10 00:33:07 	 Docker exit code: 0
+2026-03-10 00:33:07 	 Docker output length: 355
+2026-03-10 00:33:07 	 Saved CSV: CR1138,TS489_4,TS489,4,refined_pair,0.3744319052685966,0.4213749140395263,0,CR1138_TS489_4_solution.pdb,CR1138_TS489_4_refined.pdb
+2026-03-10 00:33:07 	 RUN refined_pair target=CR1138_TS489_5_solution.pdb model=CR1138_TS489_5_refined.pdb -> id=TS489_5
+2026-03-10 00:33:07 	 Docker cmd: docker run --rm -v D:\Studia\Projekty\gsp-lab:/work -v D:\Studia\Projekty\RNA_assessment:/rna_assessment -e RNA_ASSESSMENT_ROOT=/rna_assessment -e PYTHONPATH=/rna_assessment mcannotate-runtime python3 /work/src/utils/INF.py /work/data/finished/CR1138/pdb/CR1138_TS489_5_solution.pdb /work/data/finished/CR1138/pdb/CR1138_TS489_5_refined.pdb
+2026-03-10 00:33:13 	 Docker exit code: 0
+2026-03-10 00:33:13 	 Docker output length: 353
+2026-03-10 00:33:13 	 Saved CSV: CR1138,TS489_5,TS489,5,refined_pair,0.4652601914668652,0.508232998977831,0,CR1138_TS489_5_solution.pdb,CR1138_TS489_5_refined.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS029_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS029_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS035_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS035_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS035_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS035_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS035_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS054_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS054_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS054_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS054_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS054_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS076_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS076_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS076_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS076_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS076_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS081_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS081_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS081_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS081_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS081_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS097_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS097_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS097_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS097_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS097_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS119_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS119_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS119_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS119_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS119_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS125_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS125_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS125_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS125_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS125_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS128_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS128_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS128_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS128_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS128_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS131_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS131_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS131_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS131_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS131_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS147_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS147_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS147_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS147_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS147_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS177_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS185_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS185_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS185_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS185_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS185_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS227_1_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS227_2_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS227_3_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS227_4_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS227_5_solution.pdb
+2026-03-10 00:33:13 	 SKIP (model is a solution file): CR1138_TS229_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS229_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS229_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS229_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS229_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS232_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS232_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS232_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS232_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS232_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS235_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS235_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS238_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS238_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS238_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS238_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS239_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS239_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS239_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS239_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS239_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS245_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS245_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS245_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS245_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS245_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS248_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS248_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS248_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS248_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS248_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS287_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS287_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS287_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS287_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS287_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS385_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS392_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS392_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS392_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS392_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS392_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS416_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS416_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS416_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS416_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS416_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS434_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS434_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS434_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS434_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS434_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS439_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS439_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS439_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS439_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS439_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS470_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS470_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS470_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS470_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS470_5_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS489_1_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS489_2_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS489_3_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS489_4_solution.pdb
+2026-03-10 00:33:14 	 SKIP (model is a solution file): CR1138_TS489_5_solution.pdb
+2026-03-10 00:33:14 	 DONE case: CR1138
+2026-03-10 01:12:35 	 START case: CR1138
+2026-03-10 01:12:35 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138
+2026-03-10 01:12:35 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138\pdb
+2026-03-10 01:12:35 	 Found pdb count: 260
+2026-03-10 01:12:35 	 Global solution: CR1138_TS029_1_solution.pdb
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS029_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS029_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS035_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS035_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS035_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS035_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS035_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS054_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS054_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS054_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS054_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS054_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS076_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS076_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS076_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS076_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS076_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS081_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS081_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS081_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS081_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS081_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS097_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS097_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS097_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS097_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS097_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS119_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS119_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS119_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS119_4
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS119_5
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS125_1
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS125_2
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS125_3
+2026-03-10 01:12:35 	 SKIP already recorded (refined): TS125_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS125_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS128_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS128_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS128_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS128_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS128_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS131_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS131_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS131_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS131_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS131_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS147_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS147_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS147_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS147_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS147_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS177_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS185_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS185_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS185_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS185_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS185_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS227_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS227_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS227_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS227_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS227_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS229_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS229_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS229_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS229_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS229_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS232_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS232_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS232_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS232_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS232_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS235_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS235_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS238_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS238_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS238_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS238_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS239_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS239_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS239_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS239_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS239_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS245_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS245_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS245_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS245_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS245_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS248_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS248_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS248_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS248_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS248_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS287_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS287_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS287_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS287_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS287_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS385_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS392_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS392_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS392_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS392_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS392_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS416_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS416_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS416_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS416_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS416_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS434_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS434_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS434_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS434_4
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS434_5
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS439_1
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS439_2
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS439_3
+2026-03-10 01:12:36 	 SKIP already recorded (refined): TS439_4
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS439_5
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS470_1
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS470_2
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS470_3
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS470_4
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS470_5
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS489_1
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS489_2
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS489_3
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS489_4
+2026-03-10 01:12:37 	 SKIP already recorded (refined): TS489_5
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS029_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS029_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS035_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS035_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS035_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS035_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS035_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS054_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS054_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS054_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS054_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS054_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS076_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS076_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS076_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS076_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS076_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS081_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS081_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS081_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS081_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS081_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS097_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS097_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS097_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS097_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS097_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS119_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS119_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS119_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS119_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS119_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS125_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS125_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS125_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS125_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS125_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS128_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS128_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS128_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS128_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS128_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS131_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS131_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS131_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS131_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS131_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS147_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS147_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS147_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS147_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS147_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS177_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS185_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS185_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS185_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS185_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS185_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS227_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS227_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS227_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS227_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS227_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS229_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS229_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS229_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS229_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS229_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS232_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS232_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS232_3_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS232_4_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS232_5_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS235_1_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS235_2_solution.pdb
+2026-03-10 01:12:37 	 SKIP (model is a solution file): CR1138_TS238_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS238_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS238_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS238_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS239_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS239_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS239_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS239_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS239_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS245_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS245_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS245_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS245_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS245_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS248_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS248_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS248_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS248_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS248_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS287_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS287_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS287_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS287_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS287_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS385_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS392_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS392_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS392_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS392_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS392_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS416_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS416_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS416_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS416_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS416_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS434_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS434_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS434_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS434_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS434_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS439_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS439_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS439_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS439_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS439_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS470_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS470_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS470_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS470_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS470_5_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS489_1_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS489_2_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS489_3_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS489_4_solution.pdb
+2026-03-10 01:12:38 	 SKIP (model is a solution file): CR1138_TS489_5_solution.pdb
+2026-03-10 01:12:38 	 DONE case: CR1138
+2026-03-10 01:17:19 	 START case: CR1138
+2026-03-10 01:17:19 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138
+2026-03-10 01:17:19 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138\pdb
+2026-03-10 01:17:19 	 Found pdb count: 260
+2026-03-10 01:17:19 	 Global solution: CR1138_TS029_1_solution.pdb
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS029_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS029_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS035_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS035_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS035_3
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS035_4
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS035_5
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS054_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS054_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS054_3
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS054_4
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS054_5
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS076_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS076_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS076_3
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS076_4
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS076_5
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS081_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS081_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS081_3
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS081_4
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS081_5
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS097_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS097_2
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS097_3
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS097_4
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS097_5
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS119_1
+2026-03-10 01:17:19 	 SKIP already recorded (refined): TS119_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS119_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS119_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS119_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS125_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS125_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS125_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS125_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS125_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS128_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS128_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS128_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS128_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS128_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS131_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS131_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS131_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS131_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS131_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS147_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS147_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS147_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS147_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS147_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS177_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS185_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS185_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS185_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS185_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS185_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS227_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS227_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS227_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS227_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS227_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS229_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS229_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS229_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS229_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS229_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS232_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS232_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS232_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS232_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS232_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS235_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS235_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS238_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS238_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS238_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS238_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS239_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS239_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS239_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS239_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS239_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS245_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS245_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS245_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS245_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS245_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS248_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS248_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS248_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS248_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS248_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS287_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS287_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS287_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS287_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS287_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS385_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS392_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS392_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS392_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS392_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS392_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS416_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS416_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS416_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS416_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS416_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS434_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS434_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS434_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS434_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS434_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS439_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS439_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS439_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS439_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS439_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS470_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS470_2
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS470_3
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS470_4
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS470_5
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS489_1
+2026-03-10 01:17:20 	 SKIP already recorded (refined): TS489_2
+2026-03-10 01:17:21 	 SKIP already recorded (refined): TS489_3
+2026-03-10 01:17:21 	 SKIP already recorded (refined): TS489_4
+2026-03-10 01:17:21 	 SKIP already recorded (refined): TS489_5
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS029_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS029_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS035_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS035_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS035_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS035_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS035_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS054_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS054_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS054_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS054_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS054_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS076_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS076_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS076_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS076_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS076_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS081_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS081_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS081_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS081_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS081_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS097_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS097_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS097_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS097_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS097_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS119_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS119_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS119_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS119_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS119_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS125_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS125_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS125_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS125_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS125_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS128_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS128_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS128_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS128_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS128_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS131_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS131_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS131_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS131_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS131_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS147_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS147_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS147_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS147_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS147_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS177_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS185_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS185_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS185_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS185_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS185_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS227_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS227_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS227_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS227_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS227_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS229_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS229_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS229_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS229_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS229_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS232_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS232_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS232_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS232_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS232_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS235_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS235_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS238_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS238_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS238_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS238_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS239_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS239_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS239_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS239_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS239_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS245_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS245_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS245_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS245_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS245_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS248_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS248_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS248_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS248_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS248_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS287_1_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS287_2_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS287_3_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS287_4_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS287_5_solution.pdb
+2026-03-10 01:17:21 	 SKIP (model is a solution file): CR1138_TS385_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS392_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS392_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS392_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS392_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS392_5_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS416_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS416_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS416_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS416_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS416_5_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS434_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS434_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS434_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS434_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS434_5_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS439_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS439_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS439_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS439_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS439_5_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS470_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS470_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS470_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS470_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS470_5_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS489_1_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS489_2_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS489_3_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS489_4_solution.pdb
+2026-03-10 01:17:22 	 SKIP (model is a solution file): CR1138_TS489_5_solution.pdb
+2026-03-10 01:17:22 	 DONE case: CR1138
+2026-03-10 01:21:46 	 START case: CR1138
+2026-03-10 01:21:46 	 caseDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138
+2026-03-10 01:21:46 	 pdbDir: D:\Studia\Projekty\gsp-lab\data\finished\CR1138\pdb
+2026-03-10 01:21:46 	 Found pdb count: 260
+2026-03-10 01:21:46 	 Global solution: CR1138_TS029_1_solution.pdb
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS029_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS029_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS035_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS035_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS035_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS035_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS035_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS054_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS054_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS054_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS054_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS054_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS076_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS076_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS076_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS076_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS076_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS081_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS081_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS081_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS081_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS081_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS097_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS097_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS097_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS097_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS097_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS119_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS119_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS119_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS119_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS119_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS125_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS125_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS125_3
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS125_4
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS125_5
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS128_1
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS128_2
+2026-03-10 01:21:46 	 SKIP already recorded (refined): TS128_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS128_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS128_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS131_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS131_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS131_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS131_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS131_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS147_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS147_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS147_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS147_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS147_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS177_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS185_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS185_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS185_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS185_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS185_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS227_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS227_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS227_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS227_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS227_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS229_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS229_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS229_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS229_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS229_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS232_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS232_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS232_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS232_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS232_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS235_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS235_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS238_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS238_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS238_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS238_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS239_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS239_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS239_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS239_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS239_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS245_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS245_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS245_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS245_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS245_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS248_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS248_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS248_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS248_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS248_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS287_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS287_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS287_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS287_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS287_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS385_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS392_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS392_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS392_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS392_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS392_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS416_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS416_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS416_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS416_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS416_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS434_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS434_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS434_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS434_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS434_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS439_1
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS439_2
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS439_3
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS439_4
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS439_5
+2026-03-10 01:21:47 	 SKIP already recorded (refined): TS470_1
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS470_2
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS470_3
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS470_4
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS470_5
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS489_1
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS489_2
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS489_3
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS489_4
+2026-03-10 01:21:48 	 SKIP already recorded (refined): TS489_5
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS029_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS029_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS035_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS035_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS035_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS035_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS035_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS054_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS054_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS054_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS054_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS054_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS076_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS076_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS076_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS076_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS076_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS081_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS081_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS081_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS081_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS081_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS097_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS097_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS097_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS097_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS097_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS119_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS119_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS119_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS119_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS119_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS125_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS125_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS125_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS125_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS125_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS128_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS128_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS128_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS128_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS128_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS131_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS131_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS131_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS131_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS131_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS147_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS147_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS147_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS147_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS147_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS177_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS185_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS185_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS185_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS185_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS185_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS227_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS227_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS227_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS227_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS227_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS229_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS229_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS229_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS229_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS229_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS232_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS232_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS232_3_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS232_4_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS232_5_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS235_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS235_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS238_1_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS238_2_solution.pdb
+2026-03-10 01:21:48 	 SKIP (model is a solution file): CR1138_TS238_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS238_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS239_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS239_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS239_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS239_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS239_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS245_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS245_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS245_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS245_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS245_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS248_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS248_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS248_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS248_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS248_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS287_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS287_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS287_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS287_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS287_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS385_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS392_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS392_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS392_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS392_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS392_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS416_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS416_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS416_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS416_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS416_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS434_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS434_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS434_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS434_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS434_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS439_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS439_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS439_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS439_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS439_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS470_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS470_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS470_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS470_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS470_5_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS489_1_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS489_2_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS489_3_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS489_4_solution.pdb
+2026-03-10 01:21:49 	 SKIP (model is a solution file): CR1138_TS489_5_solution.pdb
+2026-03-10 01:21:49 	 DONE case: CR1138

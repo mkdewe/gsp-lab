@@ -1,0 +1,704 @@
+{
+  "native_pdb": "/tmp/rna_inf_qsc9r90t/14_AdamiakPostExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__5s7fnt7/14_AdamiakPostExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.170136298503282,
+  "inf_all": 0.8004001462322892,
+  "inf_wc": 0.9036961141150639,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.7653837971759038
+}
+{
+  "native_pdb": "/tmp/rna_inf_ipek1z76/14_AdamiakPostExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4sfdqa41/14_AdamiakPostExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.64579447370103,
+  "inf_all": 0.7753981145352655,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.5,
+  "inf_stack": 0.7392406655610813
+}
+{
+  "native_pdb": "/tmp/rna_inf_ghaato6v/14_AdamiakPreExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_3wf5l6wx/14_AdamiakPreExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.912969818238954,
+  "inf_all": 0.769011905203572,
+  "inf_wc": 0.9036961141150639,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.7175473098524098
+}
+{
+  "native_pdb": "/tmp/rna_inf_gdxy10i6/14_AdamiakPreExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0e86cfkm/14_AdamiakPreExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.14976989551003,
+  "inf_all": 0.7219295436604961,
+  "inf_wc": 0.9036961141150639,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.6544613235110215
+}
+{
+  "native_pdb": "/tmp/rna_inf_5oore99s/14_BujnickiPostExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_elmxxkfe/14_BujnickiPostExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.171178795180357,
+  "inf_all": 0.7624670040096094,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.6123724356957945,
+  "inf_stack": 0.7138235135406812
+}
+{
+  "native_pdb": "/tmp/rna_inf_rzrxa2lw/14_BujnickiPostExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1ehqrdim/14_BujnickiPostExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.076361968824937,
+  "inf_all": 0.6374744123285471,
+  "inf_wc": 0.8603090020146067,
+  "inf_nwc": 0.2041241452319315,
+  "inf_stack": 0.6070865630579386
+}
+{
+  "native_pdb": "/tmp/rna_inf_9jha34ac/14_BujnickiPostExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_pxo02h_x/14_BujnickiPostExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.21481905919201,
+  "inf_all": 0.6635044048369952,
+  "inf_wc": 0.8385254915624212,
+  "inf_nwc": 0.5,
+  "inf_stack": 0.6218743352054218
+}
+{
+  "native_pdb": "/tmp/rna_inf_wkp3_c3m/14_BujnickiPostExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_skhbty3n/14_BujnickiPostExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.931877232739113,
+  "inf_all": 0.6121333677828399,
+  "inf_wc": 0.8603090020146067,
+  "inf_nwc": 0.3535533905932738,
+  "inf_stack": 0.5526375588702048
+}
+{
+  "native_pdb": "/tmp/rna_inf_stkqciup/14_BujnickiPostExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1fi2ijzc/14_BujnickiPostExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.773129526870825,
+  "inf_all": 0.70774785727578,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.6447438186819057
+}
+{
+  "native_pdb": "/tmp/rna_inf_9dcppp8q/14_BujnickiPreExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_bohdui3z/14_BujnickiPreExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.93220482138668,
+  "inf_all": 0.8231909676227183,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.6324555320336759,
+  "inf_stack": 0.7841515268245524
+}
+{
+  "native_pdb": "/tmp/rna_inf_wqwjnfyt/14_BujnickiPreExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6rbnybdc/14_BujnickiPreExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.088578342412862,
+  "inf_all": 0.8148217143826667,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.7071067811865476,
+  "inf_stack": 0.7610882466238301
+}
+{
+  "native_pdb": "/tmp/rna_inf_z7qt7ajr/14_BujnickiPreExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_wxsln76z/14_BujnickiPreExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.035768196665994,
+  "inf_all": 0.8314794192830981,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.6324555320336759,
+  "inf_stack": 0.7973099557526506
+}
+{
+  "native_pdb": "/tmp/rna_inf_k3bdcvjr/14_BujnickiPreExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ad99nedq/14_BujnickiPreExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 5.976731979572498,
+  "inf_all": 0.761958238450676,
+  "inf_wc": 0.9176629354822471,
+  "inf_nwc": 0.5773502691896257,
+  "inf_stack": 0.7318978552073228
+}
+{
+  "native_pdb": "/tmp/rna_inf_yefgwd6b/14_BujnickiPreExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1_zl46gb/14_BujnickiPreExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.669822285804909,
+  "inf_all": 0.7857142857142857,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.6324555320336759,
+  "inf_stack": 0.7692772189617516
+}
+{
+  "native_pdb": "/tmp/rna_inf__408r4sh/14_BujnickiPreExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ss6grho0/14_BujnickiPreExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 10.978070429181509,
+  "inf_all": 0.8238858408710996,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.8094487507439182
+}
+{
+  "native_pdb": "/tmp/rna_inf_6vwdbgf_/14_BujnickiPreExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_a5hnxko7/14_BujnickiPreExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.508591662115856,
+  "inf_all": 0.5963765795456272,
+  "inf_wc": 0.7819290527140303,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.5732115042211109
+}
+{
+  "native_pdb": "/tmp/rna_inf_2acf4wee/14_ChenPostExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0ukzg5s5/14_ChenPostExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.32559003847616,
+  "inf_all": 0.643458941088703,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.25,
+  "inf_stack": 0.5828155051501961
+}
+{
+  "native_pdb": "/tmp/rna_inf_sj7w1h4v/14_ChenPostExp_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_q7782nwf/14_ChenPostExp_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.693676534597795,
+  "inf_all": 0.7447041169138257,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.3535533905932738,
+  "inf_stack": 0.7298004491997617
+}
+{
+  "native_pdb": "/tmp/rna_inf_7paby3a0/14_ChenPostExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_r66ilixn/14_ChenPostExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.749151610185942,
+  "inf_all": 0.7282347248904991,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.25,
+  "inf_stack": 0.7082882469748285
+}
+{
+  "native_pdb": "/tmp/rna_inf_z36hcg5k/14_ChenPostExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_o3sg7ryq/14_ChenPostExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.883386389807532,
+  "inf_all": 0.7980986475663052,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.741994688181925
+}
+{
+  "native_pdb": "/tmp/rna_inf_l4e9i536/14_ChenPostExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ehwutm2a/14_ChenPostExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.287872096000564,
+  "inf_all": 0.7980986475663052,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.7507759960689286
+}
+{
+  "native_pdb": "/tmp/rna_inf_edq4vs0a/14_ChenPostExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nzuq9od6/14_ChenPostExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 8.368134667908238,
+  "inf_all": 0.7533177846892134,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.3535533905932738,
+  "inf_stack": 0.7280252083092641
+}
+{
+  "native_pdb": "/tmp/rna_inf_ja9f1feb/14_ChenPostExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0ha84lak/14_ChenPostExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.665897324272151,
+  "inf_all": 0.7282347248904991,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.3535533905932738,
+  "inf_stack": 0.690796948587756
+}
+{
+  "native_pdb": "/tmp/rna_inf_cxpc212c/14_ChenPostExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_nwafoti8/14_ChenPostExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.310458159876815,
+  "inf_all": 0.7187361356249324,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.3535533905932738,
+  "inf_stack": 0.6760659859742275
+}
+{
+  "native_pdb": "/tmp/rna_inf_rol7fene/14_ChenPostExp_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_mlr1gqk5/14_ChenPostExp_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.870655289930854,
+  "inf_all": 0.7957733781176919,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.5303300858899106,
+  "inf_stack": 0.7735267838285931
+}
+{
+  "native_pdb": "/tmp/rna_inf_hikyhjed/14_ChenPostExp_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_oookc0uq/14_ChenPostExp_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.049472895919074,
+  "inf_all": 0.7437915073806723,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.2041241452319315,
+  "inf_stack": 0.7335144703827386
+}
+{
+  "native_pdb": "/tmp/rna_inf_qqf3ulb0/14_DasPostExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_a_lnq3fv/14_DasPostExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.903386412646425,
+  "inf_all": 0.7503246050790371,
+  "inf_wc": 0.8603090020146067,
+  "inf_nwc": 0.6681531047810609,
+  "inf_stack": 0.7226912263862432
+}
+{
+  "native_pdb": "/tmp/rna_inf_rhi3cwwy/14_DasPostExp_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_q8m2tdym/14_DasPostExp_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 9.693608068345544,
+  "inf_all": 0.8142857142857143,
+  "inf_wc": 0.9176629354822471,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.782608695652174
+}
+{
+  "native_pdb": "/tmp/rna_inf_rt_9e6bj/14_DasPostExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_pzwtlkud/14_DasPostExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.655331364166695,
+  "inf_all": 0.8085309728167649,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.782608695652174
+}
+{
+  "native_pdb": "/tmp/rna_inf_4ar3_ic1/14_DasPostExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_1vzuztjk/14_DasPostExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.07582960790588,
+  "inf_all": 0.7537023463481829,
+  "inf_wc": 0.8603090020146067,
+  "inf_nwc": 0.6681531047810609,
+  "inf_stack": 0.7280252083092641
+}
+{
+  "native_pdb": "/tmp/rna_inf_rgzk7578/14_DasPostExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_16znij27/14_DasPostExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.797747547190797,
+  "inf_all": 0.8057762482965359,
+  "inf_wc": 0.8603090020146067,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.7912565680749445
+}
+{
+  "native_pdb": "/tmp/rna_inf_k8fddt8e/14_DasPostExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_aq9tl2yh/14_DasPostExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.776919293973357,
+  "inf_all": 0.7447041169138257,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.6970253131405962
+}
+{
+  "native_pdb": "/tmp/rna_inf_04c2l8ll/14_DasPostExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_z1y12eo9/14_DasPostExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.371087721436696,
+  "inf_all": 0.8197607712056744,
+  "inf_wc": 0.9428090415820634,
+  "inf_nwc": 0.75,
+  "inf_stack": 0.7874122909518425
+}
+{
+  "native_pdb": "/tmp/rna_inf_vzkq7kkc/14_DasPostExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_v300ukf9/14_DasPostExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.543576214435229,
+  "inf_all": 0.7714285714285715,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.6324555320336759,
+  "inf_stack": 0.7472978698485586
+}
+{
+  "native_pdb": "/tmp/rna_inf_m5t74c3v/14_DasPostExp_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6v9amjsb/14_DasPostExp_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.604539460283721,
+  "inf_all": 0.7092376954533025,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.31622776601683794,
+  "inf_stack": 0.6956521739130435
+}
+{
+  "native_pdb": "/tmp/rna_inf_6_r6psze/14_DasPostExp_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_maa230f7/14_DasPostExp_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.74439941867425,
+  "inf_all": 0.6678944147908079,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6217172537289805
+}
+{
+  "native_pdb": "/tmp/rna_inf_bjxnywnk/14_DasPreExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ub_qubp_/14_DasPreExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.371087721436696,
+  "inf_all": 0.8197607712056744,
+  "inf_wc": 0.9428090415820634,
+  "inf_nwc": 0.75,
+  "inf_stack": 0.7874122909518425
+}
+{
+  "native_pdb": "/tmp/rna_inf_flmrdpkj/14_DasPreExp_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_kuq5tnj5/14_DasPreExp_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.74439941867425,
+  "inf_all": 0.6678944147908079,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.408248290463863,
+  "inf_stack": 0.6217172537289805
+}
+{
+  "native_pdb": "/tmp/rna_inf_bwnwqdec/14_DasPreExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_z66tcnwp/14_DasPreExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.543576214435229,
+  "inf_all": 0.7714285714285715,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.6324555320336759,
+  "inf_stack": 0.7472978698485586
+}
+{
+  "native_pdb": "/tmp/rna_inf_xok9rtlm/14_DasPreExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_dny9lssd/14_DasPreExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.604539460283721,
+  "inf_all": 0.7092376954533025,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.31622776601683794,
+  "inf_stack": 0.6956521739130435
+}
+{
+  "native_pdb": "/tmp/rna_inf_fiq1hmz3/14_DasPreExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p59lxf2t/14_DasPreExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.919483035125786,
+  "inf_all": 0.7885102414381684,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.7507759960689286
+}
+{
+  "native_pdb": "/tmp/rna_inf_ky1f6wwi/14_DasPreExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ym9oojvs/14_DasPreExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 9.693608068345544,
+  "inf_all": 0.8142857142857143,
+  "inf_wc": 0.9176629354822471,
+  "inf_nwc": 0.7905694150420949,
+  "inf_stack": 0.782608695652174
+}
+{
+  "native_pdb": "/tmp/rna_inf_03jp9vub/14_DasPreExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_8xfccxr2/14_DasPreExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.574940876056273,
+  "inf_all": 0.7913873867198119,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.7644793757025894
+}
+{
+  "native_pdb": "/tmp/rna_inf_2dhl9bgj/14_DasPreExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_qp0rkog0/14_DasPreExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.916140138057822,
+  "inf_all": 0.8031122829462826,
+  "inf_wc": 0.9176629354822471,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.7735267838285931
+}
+{
+  "native_pdb": "/tmp/rna_inf_qln56npz/14_DasPreExp_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_cmhjoe77/14_DasPreExp_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 8.15501496435539,
+  "inf_all": 0.7714285714285715,
+  "inf_wc": 0.9176629354822471,
+  "inf_nwc": 0.5773502691896257,
+  "inf_stack": 0.7472978698485586
+}
+{
+  "native_pdb": "/tmp/rna_inf_thg4cvbt/14_DasPreExp_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_r95vvg4f/14_DasPreExp_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 7.787552471758739,
+  "inf_all": 0.7857142857142857,
+  "inf_wc": 0.8944271909999159,
+  "inf_nwc": 0.7216878364870323,
+  "inf_stack": 0.7557421816064579
+}
+{
+  "native_pdb": "/tmp/rna_inf_ywjczdcj/14_DingPostExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_p4uc4ljp/14_DingPostExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.229247625039013,
+  "inf_all": 0.6548484791249384,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6302220152328355
+}
+{
+  "native_pdb": "/tmp/rna_inf_8ngb7ioh/14_DingPostExp_10_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf__ftxt020/14_DingPostExp_10_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.293534359672497,
+  "inf_all": 0.6659130823434479,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6355525695988512
+}
+{
+  "native_pdb": "/tmp/rna_inf_getcrebp/14_DingPostExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_eyb7yeou/14_DingPostExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.147966645874758,
+  "inf_all": 0.6961432213383857,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6729004614769563
+}
+{
+  "native_pdb": "/tmp/rna_inf_hh8_kdx6/14_DingPostExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_fnshx89_/14_DingPostExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.346320316017398,
+  "inf_all": 0.7282347248904991,
+  "inf_wc": 0.8838834764831844,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.7414655535141568
+}
+{
+  "native_pdb": "/tmp/rna_inf_1ioj5swf/14_DingPostExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_a8pxla0p/14_DingPostExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.811545081451428,
+  "inf_all": 0.6731268308856965,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6389151433378876
+}
+{
+  "native_pdb": "/tmp/rna_inf_bijbf5_l/14_DingPostExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_9rqmf7jh/14_DingPostExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.911785784565994,
+  "inf_all": 0.6831300510639732,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6729004614769563
+}
+{
+  "native_pdb": "/tmp/rna_inf_y__31wwn/14_DingPostExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_6z90ct5c/14_DingPostExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 17.482562604473305,
+  "inf_all": 0.7413571269033499,
+  "inf_wc": 0.9095085938862486,
+  "inf_nwc": -1.0,
+  "inf_stack": 0.7414655535141568
+}
+{
+  "native_pdb": "/tmp/rna_inf_uux0uphy/14_DingPostExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_4u4e50u5/14_DingPostExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.327550198706566,
+  "inf_all": 0.6795683827350908,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6416587529241817
+}
+{
+  "native_pdb": "/tmp/rna_inf_f__lb9av/14_DingPostExp_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_e9zrar_i/14_DingPostExp_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 11.99499458705252,
+  "inf_all": 0.6895445584682744,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6729004614769563
+}
+{
+  "native_pdb": "/tmp/rna_inf_x01i39qz/14_DingPostExp_9_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jv83ggmf/14_DingPostExp_9_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.598801976560507,
+  "inf_all": 0.6668650498481644,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6479782221629948
+}
+{
+  "native_pdb": "/tmp/rna_inf_yr3q6qgo/14_DingPreExp_1_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_7z8m4mwz/14_DingPreExp_1_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.786366505400055,
+  "inf_all": 0.6567091033031185,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6416587529241817
+}
+{
+  "native_pdb": "/tmp/rna_inf_wt3wnb_h/14_DingPreExp_2_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_hvz7p23z/14_DingPreExp_2_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 12.893432774899232,
+  "inf_all": 0.6629935441317959,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.632152171780217
+}
+{
+  "native_pdb": "/tmp/rna_inf_yr57d6nu/14_DingPreExp_3_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_lkw2m9o0/14_DingPreExp_3_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 13.189821045955025,
+  "inf_all": 0.7196715715299218,
+  "inf_wc": 1.0,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6929914531581163
+}
+{
+  "native_pdb": "/tmp/rna_inf_1vstxw3d/14_DingPreExp_4_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_jzl8z80a/14_DingPreExp_4_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.515439946647929,
+  "inf_all": 0.6359888306543495,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.5994789404140899
+}
+{
+  "native_pdb": "/tmp/rna_inf_720whmgz/14_DingPreExp_5_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_ccujvzes/14_DingPreExp_5_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 16.561949577877847,
+  "inf_all": 0.6629935441317959,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6416587529241817
+}
+{
+  "native_pdb": "/tmp/rna_inf_cbj_habo/14_DingPreExp_6_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_0xcywvcp/14_DingPreExp_6_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.397915651277724,
+  "inf_all": 0.6488383879243851,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6297235299224025
+}
+{
+  "native_pdb": "/tmp/rna_inf_lh4gjsll/14_DingPreExp_7_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_5m4nea_d/14_DingPreExp_7_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 14.368025720490742,
+  "inf_all": 0.6930264888773836,
+  "inf_wc": 0.9375,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.6885152837320888
+}
+{
+  "native_pdb": "/tmp/rna_inf_j_e0g4e4/14_DingPreExp_8_solution_normalized.pdb",
+  "native_index": null,
+  "model_pdb": "/tmp/rna_inf_qhiki46t/14_DingPreExp_8_refined_normalized.pdb",
+  "model_index": null,
+  "rmsd": 15.415039578160803,
+  "inf_all": 0.7000624711815734,
+  "inf_wc": 0.9682458365518543,
+  "inf_nwc": 0.0,
+  "inf_stack": 0.677671845685493
+}

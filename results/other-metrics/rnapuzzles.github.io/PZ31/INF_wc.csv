@@ -1,3 +1,4 @@
+Lab,Num,INF wc
 Bujnicki,1,0.957
 Bujnicki,2,0.930
 Bujnicki,3,0.955
@@ -21,7 +22,7 @@ Dfold,5,0.000
 Dfold,6,0.000
 Dfold,7,0.000
 Dfold,8,0.057
-Dfold,9,-
+Dfold,9,0.000
 Dfold,10,0.373
 Ding,1,0.909
 Ding,2,0.957
@@ -35,7 +36,6 @@ Ding,9,0.831
 Ding,10,0.831
 Dokholyan,1,0.934
 Dokholyan,2,0.906
-Lab,Num,INF wc
 Nithin,1,0.9364
 Nithin,2,0.909
 Nithin,3,0.909
