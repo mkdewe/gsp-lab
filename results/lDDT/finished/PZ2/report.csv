@@ -1,0 +1,14 @@
+ModelGroup,BestModel,BestSolution,lDDT
+bujnicki_1,2_bujnicki_1_refined.pdb,2_bujnicki_1_solution.pdb,0.527
+bujnicki_2,2_bujnicki_2_refined.pdb,2_bujnicki_2_solution.pdb,0.507
+bujnicki_3,2_bujnicki_3_refined.pdb,2_bujnicki_3_solution.pdb,0.503
+chen_1,2_chen_1_refined.pdb,2_chen_1_solution.pdb,0.477
+das_1,2_das_1_refined.pdb,2_das_1_solution.pdb,0.559
+das_2,2_das_2_refined.pdb,2_das_2_solution.pdb,0.541
+das_3,2_das_3_refined.pdb,2_das_3_solution.pdb,0.527
+das_4,2_das_4_refined.pdb,2_das_4_solution.pdb,0.535
+das_5,2_das_5_refined.pdb,2_das_5_solution.pdb,0.533
+dokholyan_1,2_dokholyan_1_refined.pdb,2_dokholyan_1_solution.pdb,0.513
+major_1,2_major_1_refined.pdb,2_major_1_solution.pdb,0.078
+santalucia_1,2_santalucia_1_refined.pdb,2_santalucia_1_solution.pdb,0.471
+wildauer_1,2_wildauer_1_refined.pdb,2_wildauer_1_solution.pdb,0.476

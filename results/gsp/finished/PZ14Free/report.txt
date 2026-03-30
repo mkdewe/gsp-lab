@@ -1,57 +1,60 @@
 Report for set: PZ14Free
-Processed 52 / 52 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-14_BujnickiPostExp_1_refined.pdb                   14_BujnickiPostExp_1_solution.pdb                  SUCCESS         23.97                         
-14_BujnickiPostExp_2_refined.pdb                   14_BujnickiPostExp_2_solution.pdb                  SUCCESS         19.102                        
-14_BujnickiPostExp_3_refined.pdb                   14_BujnickiPostExp_3_solution.pdb                  SUCCESS         13.964                        
-14_BujnickiPostExp_4_refined.pdb                   14_BujnickiPostExp_4_solution.pdb                  SUCCESS         19.264                        
-14_BujnickiPreExp_1_refined.pdb                    14_BujnickiPreExp_1_solution.pdb                   SUCCESS         31.065                        
-14_BujnickiPreExp_2_refined.pdb                    14_BujnickiPreExp_2_solution.pdb                   SUCCESS         21.063                        
-14_BujnickiPreExp_3_refined.pdb                    14_BujnickiPreExp_3_solution.pdb                   SUCCESS         24.981                        
-14_BujnickiPreExp_4_refined.pdb                    14_BujnickiPreExp_4_solution.pdb                   SUCCESS         21.397                        
-14_ChenPostExp_10_refined.pdb                      14_ChenPostExp_10_solution.pdb                     SUCCESS         23.835                        
-14_ChenPostExp_1_refined.pdb                       14_ChenPostExp_1_solution.pdb                      SUCCESS         22.104                        
-14_ChenPostExp_2_refined.pdb                       14_ChenPostExp_2_solution.pdb                      SUCCESS         37.251                        
-14_ChenPostExp_3_refined.pdb                       14_ChenPostExp_3_solution.pdb                      SUCCESS         23.578                        
-14_ChenPostExp_4_refined.pdb                       14_ChenPostExp_4_solution.pdb                      SUCCESS         24.075                        
-14_ChenPostExp_5_refined.pdb                       14_ChenPostExp_5_solution.pdb                      SUCCESS         27.82                         
-14_ChenPostExp_6_refined.pdb                       14_ChenPostExp_6_solution.pdb                      SUCCESS         24.271                        
-14_ChenPostExp_7_refined.pdb                       14_ChenPostExp_7_solution.pdb                      SUCCESS         27.597                        
-14_ChenPostExp_8_refined.pdb                       14_ChenPostExp_8_solution.pdb                      SUCCESS         26.674                        
-14_ChenPostExp_9_refined.pdb                       14_ChenPostExp_9_solution.pdb                      SUCCESS         25.633                        
-14_DasPostExp_10_refined.pdb                       14_DasPostExp_10_solution.pdb                      SUCCESS         30.048                        
-14_DasPostExp_1_refined.pdb                        14_DasPostExp_1_solution.pdb                       SUCCESS         16.442                        
-14_DasPostExp_2_refined.pdb                        14_DasPostExp_2_solution.pdb                       SUCCESS         58.348                        
-14_DasPostExp_3_refined.pdb                        14_DasPostExp_3_solution.pdb                       SUCCESS         56.843                        
-14_DasPostExp_4_refined.pdb                        14_DasPostExp_4_solution.pdb                       SUCCESS         28.682                        
-14_DasPostExp_5_refined.pdb                        14_DasPostExp_5_solution.pdb                       SUCCESS         39.624                        
-14_DasPostExp_6_refined.pdb                        14_DasPostExp_6_solution.pdb                       SUCCESS         55.694                        
-14_DasPostExp_7_refined.pdb                        14_DasPostExp_7_solution.pdb                       SUCCESS         39.627                        
-14_DasPostExp_8_refined.pdb                        14_DasPostExp_8_solution.pdb                       SUCCESS         24.342                        
-14_DasPostExp_9_refined.pdb                        14_DasPostExp_9_solution.pdb                       SUCCESS         23.76                         
-14_DasPreExp_10_refined.pdb                        14_DasPreExp_10_solution.pdb                       SUCCESS         23.76                         
-14_DasPreExp_1_refined.pdb                         14_DasPreExp_1_solution.pdb                        SUCCESS         55.694                        
-14_DasPreExp_2_refined.pdb                         14_DasPreExp_2_solution.pdb                        SUCCESS         39.627                        
-14_DasPreExp_3_refined.pdb                         14_DasPreExp_3_solution.pdb                        SUCCESS         27.279                        
-14_DasPreExp_4_refined.pdb                         14_DasPreExp_4_solution.pdb                        SUCCESS         24.342                        
-14_DasPreExp_5_refined.pdb                         14_DasPreExp_5_solution.pdb                        SUCCESS         30.048                        
-14_DasPreExp_6_refined.pdb                         14_DasPreExp_6_solution.pdb                        SUCCESS         16.442                        
-14_DasPreExp_7_refined.pdb                         14_DasPreExp_7_solution.pdb                        SUCCESS         20.262                        
-14_DasPreExp_8_refined.pdb                         14_DasPreExp_8_solution.pdb                        SUCCESS         25.559                        
-14_DasPreExp_9_refined.pdb                         14_DasPreExp_9_solution.pdb                        SUCCESS         51.773                        
-14_DingPostExp_10_refined.pdb                      14_DingPostExp_10_solution.pdb                     SUCCESS         25.116                        
-14_DingPostExp_1_refined.pdb                       14_DingPostExp_1_solution.pdb                      SUCCESS         24.981                        
-14_DingPostExp_2_refined.pdb                       14_DingPostExp_2_solution.pdb                      SUCCESS         22.57                         
-14_DingPostExp_3_refined.pdb                       14_DingPostExp_3_solution.pdb                      SUCCESS         28.963                        
-14_DingPostExp_4_refined.pdb                       14_DingPostExp_4_solution.pdb                      SUCCESS         34.185                        
-14_DingPostExp_5_refined.pdb                       14_DingPostExp_5_solution.pdb                      SUCCESS         22.462                        
-14_DingPostExp_6_refined.pdb                       14_DingPostExp_6_solution.pdb                      SUCCESS         28.817                        
-14_DingPostExp_7_refined.pdb                       14_DingPostExp_7_solution.pdb                      SUCCESS         22.53                         
-14_DingPostExp_8_refined.pdb                       14_DingPostExp_8_solution.pdb                      SUCCESS         42.619                        
-14_DingPostExp_9_refined.pdb                       14_DingPostExp_9_solution.pdb                      SUCCESS         27.736                        
-14_DingPreExp_1_refined.pdb                        14_DingPreExp_1_solution.pdb                       SUCCESS         29.564                        
-14_DingPreExp_2_refined.pdb                        14_DingPreExp_2_solution.pdb                       SUCCESS         22.405                        
-14_DingPreExp_3_refined.pdb                        14_DingPreExp_3_solution.pdb                       SUCCESS         21.631                        
-14_DingPreExp_4_refined.pdb                        14_DingPreExp_4_solution.pdb                       SUCCESS         34.408                        
+Processed 52 / 52 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+BujnickiPostExp_1                                  14_BujnickiPostExp_1_refined.pdb                   14_BujnickiPostExp_1_solution.pdb                  9.200        18.503       25.972       45.841      
+BujnickiPostExp_2                                  14_BujnickiPostExp_2_refined.pdb                   14_BujnickiPostExp_2_solution.pdb                  10.043       16.339       20.697       33.945      
+BujnickiPostExp_3                                  14_BujnickiPostExp_3_refined.pdb                   14_BujnickiPostExp_3_solution.pdb                  4.974        11.068       15.130       26.129      
+BujnickiPostExp_4                                  14_BujnickiPostExp_4_refined.pdb                   14_BujnickiPostExp_4_solution.pdb                  7.417        14.420       20.873       29.136      
+BujnickiPreExp_1                                   14_BujnickiPreExp_1_refined.pdb                    14_BujnickiPreExp_1_solution.pdb                   22.305       30.502       33.659       48.002      
+BujnickiPreExp_2                                   14_BujnickiPreExp_2_refined.pdb                    14_BujnickiPreExp_2_solution.pdb                   18.738       21.814       22.822       28.213      
+BujnickiPreExp_3                                   14_BujnickiPreExp_3_refined.pdb                    14_BujnickiPreExp_3_solution.pdb                   21.236       25.265       27.067       35.912      
+BujnickiPreExp_4                                   14_BujnickiPreExp_4_refined.pdb                    14_BujnickiPreExp_4_solution.pdb                   9.138        18.679       23.184       30.517      
+ChenPostExp_10                                     14_ChenPostExp_10_refined.pdb                      14_ChenPostExp_10_solution.pdb                     19.214       24.404       25.825       32.689      
+ChenPostExp_1                                      14_ChenPostExp_1_refined.pdb                       14_ChenPostExp_1_solution.pdb                      17.496       22.499       23.950       29.367      
+ChenPostExp_2                                      14_ChenPostExp_2_refined.pdb                       14_ChenPostExp_2_solution.pdb                      20.544       34.751       40.362       72.750      
+ChenPostExp_3                                      14_ChenPostExp_3_refined.pdb                       14_ChenPostExp_3_solution.pdb                      19.632       24.074       25.547       31.293      
+ChenPostExp_4                                      14_ChenPostExp_4_refined.pdb                       14_ChenPostExp_4_solution.pdb                      20.152       24.679       26.085       33.883      
+ChenPostExp_5                                      14_ChenPostExp_5_refined.pdb                       14_ChenPostExp_5_solution.pdb                      18.558       27.502       30.143       39.988      
+ChenPostExp_6                                      14_ChenPostExp_6_refined.pdb                       14_ChenPostExp_6_solution.pdb                      17.024       23.833       26.297       37.597      
+ChenPostExp_7                                      14_ChenPostExp_7_refined.pdb                       14_ChenPostExp_7_solution.pdb                      17.753       26.308       29.901       38.472      
+ChenPostExp_8                                      14_ChenPostExp_8_refined.pdb                       14_ChenPostExp_8_solution.pdb                      20.533       25.972       28.902       34.410      
+ChenPostExp_9                                      14_ChenPostExp_9_refined.pdb                       14_ChenPostExp_9_solution.pdb                      18.496       25.345       27.774       35.502      
+DasPostExp_10                                      14_DasPostExp_10_refined.pdb                       14_DasPostExp_10_solution.pdb                      14.127       25.799       32.557       68.282      
+DasPostExp_1                                       14_DasPostExp_1_refined.pdb                        14_DasPostExp_1_solution.pdb                       11.127       15.694       17.815       27.913      
+DasPostExp_2                                       14_DasPostExp_2_refined.pdb                        14_DasPostExp_2_solution.pdb                       28.407       54.393       63.220       100.000     
+DasPostExp_3                                       14_DasPostExp_3_refined.pdb                        14_DasPostExp_3_solution.pdb                       27.198       55.683       61.590       98.725      
+DasPostExp_4                                       14_DasPostExp_4_refined.pdb                        14_DasPostExp_4_solution.pdb                       18.595       26.627       31.077       54.478      
+DasPostExp_5                                       14_DasPostExp_5_refined.pdb                        14_DasPostExp_5_solution.pdb                       19.734       31.550       42.933       81.738      
+DasPostExp_6                                       14_DasPostExp_6_refined.pdb                        14_DasPostExp_6_solution.pdb                       33.238       53.972       60.345       99.370      
+DasPostExp_7                                       14_DasPostExp_7_refined.pdb                        14_DasPostExp_7_solution.pdb                       16.218       32.139       42.937       65.293      
+DasPostExp_8                                       14_DasPostExp_8_refined.pdb                        14_DasPostExp_8_solution.pdb                       14.705       23.759       26.374       35.901      
+DasPostExp_9                                       14_DasPostExp_9_refined.pdb                        14_DasPostExp_9_solution.pdb                       9.050        20.752       25.744       47.793      
+DasPreExp_10                                       14_DasPreExp_10_refined.pdb                        14_DasPreExp_10_solution.pdb                       9.050        20.752       25.744       47.793      
+DasPreExp_1                                        14_DasPreExp_1_refined.pdb                         14_DasPreExp_1_solution.pdb                        33.238       53.972       60.345       99.370      
+DasPreExp_2                                        14_DasPreExp_2_refined.pdb                         14_DasPreExp_2_solution.pdb                        16.218       32.139       42.937       65.293      
+DasPreExp_3                                        14_DasPreExp_3_refined.pdb                         14_DasPreExp_3_solution.pdb                        13.032       24.155       29.557       59.448      
+DasPreExp_4                                        14_DasPreExp_4_refined.pdb                         14_DasPreExp_4_solution.pdb                        14.705       23.759       26.374       35.901      
+DasPreExp_5                                        14_DasPreExp_5_refined.pdb                         14_DasPreExp_5_solution.pdb                        14.127       25.799       32.557       68.282      
+DasPreExp_6                                        14_DasPreExp_6_refined.pdb                         14_DasPreExp_6_solution.pdb                        11.127       15.694       17.815       27.913      
+DasPreExp_7                                        14_DasPreExp_7_refined.pdb                         14_DasPreExp_7_solution.pdb                        11.149       18.309       21.954       33.630      
+DasPreExp_8                                        14_DasPreExp_8_refined.pdb                         14_DasPreExp_8_solution.pdb                        14.885       24.946       27.693       41.428      
+DasPreExp_9                                        14_DasPreExp_9_refined.pdb                         14_DasPreExp_9_solution.pdb                        22.902       50.874       56.096       82.339      
+DingPostExp_10                                     14_DingPostExp_10_refined.pdb                      14_DingPostExp_10_solution.pdb                     7.530        20.661       27.213       50.624      
+DingPostExp_1                                      14_DingPostExp_1_refined.pdb                       14_DingPostExp_1_solution.pdb                      11.065       23.693       27.067       39.161      
+DingPostExp_2                                      14_DingPostExp_2_refined.pdb                       14_DingPostExp_2_solution.pdb                      10.424       21.049       24.455       34.439      
+DingPostExp_3                                      14_DingPostExp_3_refined.pdb                       14_DingPostExp_3_solution.pdb                      11.534       24.312       31.381       56.851      
+DingPostExp_4                                      14_DingPostExp_4_refined.pdb                       14_DingPostExp_4_solution.pdb                      7.959        25.887       37.040       72.395      
+DingPostExp_5                                      14_DingPostExp_5_refined.pdb                       14_DingPostExp_5_solution.pdb                      8.578        20.807       24.338       35.406      
+DingPostExp_6                                      14_DingPostExp_6_refined.pdb                       14_DingPostExp_6_solution.pdb                      8.065        19.873       31.224       78.863      
+DingPostExp_7                                      14_DingPostExp_7_refined.pdb                       14_DingPostExp_7_solution.pdb                      11.164       20.631       24.411       34.857      
+DingPostExp_8                                      14_DingPostExp_8_refined.pdb                       14_DingPostExp_8_solution.pdb                      8.556        30.898       46.178       96.770      
+DingPostExp_9                                      14_DingPostExp_9_refined.pdb                       14_DingPostExp_9_solution.pdb                      7.105        21.137       30.052       77.581      
+DingPreExp_1                                       14_DingPreExp_1_refined.pdb                        14_DingPreExp_1_solution.pdb                       7.695        22.836       32.033       67.132      
+DingPreExp_2                                       14_DingPreExp_2_refined.pdb                        14_DingPreExp_2_solution.pdb                       11.149       19.295       24.276       35.146      
+DingPreExp_3                                       14_DingPreExp_3_refined.pdb                        14_DingPreExp_3_solution.pdb                       8.929        18.716       23.437       33.700      
+DingPreExp_4                                       14_DingPreExp_4_refined.pdb                        14_DingPreExp_4_solution.pdb                       9.955        30.118       37.282       74.252      
+

@@ -1,79 +1,82 @@
 Report for set: PZ15
-Processed 74 / 74 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-15_3dRNAAS2_1.pdb                                  15_solution_0.pdb                                  SUCCESS         12.314                        
-15_3dRNAAS2_10.pdb                                 15_solution_0.pdb                                  SUCCESS         12.484                        
-15_3dRNAAS2_2.pdb                                  15_solution_0.pdb                                  SUCCESS         12.482                        
-15_3dRNAAS2_3.pdb                                  15_solution_0.pdb                                  SUCCESS         12.482                        
-15_3dRNAAS2_4.pdb                                  15_solution_0.pdb                                  SUCCESS         12.482                        
-15_3dRNAAS2_5.pdb                                  15_solution_0.pdb                                  SUCCESS         12.482                        
-15_3dRNAAS2_6.pdb                                  15_solution_0.pdb                                  SUCCESS         12.425                        
-15_3dRNAAS2_7.pdb                                  15_solution_0.pdb                                  SUCCESS         12.482                        
-15_3dRNAAS2_8.pdb                                  15_solution_0.pdb                                  SUCCESS         11.796                        
-15_3dRNAAS2_9.pdb                                  15_solution_0.pdb                                  SUCCESS         12.462                        
-15_Adamiak_1.pdb                                   15_solution_0.pdb                                  SUCCESS         39.425                        
-15_Adamiak_10.pdb                                  15_solution_0.pdb                                  SUCCESS         53.661                        
-15_Adamiak_2.pdb                                   15_solution_0.pdb                                  SUCCESS         59.472                        
-15_Adamiak_3.pdb                                   15_solution_0.pdb                                  SUCCESS         58.965                        
-15_Adamiak_4.pdb                                   15_solution_0.pdb                                  SUCCESS         50.564                        
-15_Adamiak_5.pdb                                   15_solution_0.pdb                                  SUCCESS         45.228                        
-15_Adamiak_6.pdb                                   15_solution_0.pdb                                  SUCCESS         53.375                        
-15_Adamiak_7.pdb                                   15_solution_0.pdb                                  SUCCESS         55.197                        
-15_Adamiak_8.pdb                                   15_solution_0.pdb                                  SUCCESS         61.581                        
-15_Adamiak_9.pdb                                   15_solution_0.pdb                                  SUCCESS         25.731                        
-15_Chen_1.pdb                                      15_solution_0.pdb                                  SUCCESS         21.044                        
-15_Chen_10.pdb                                     15_solution_0.pdb                                  SUCCESS         23.745                        
-15_Chen_2.pdb                                      15_solution_0.pdb                                  SUCCESS         16.667                        
-15_Chen_3.pdb                                      15_solution_0.pdb                                  SUCCESS         51.488                        
-15_Chen_4.pdb                                      15_solution_0.pdb                                  SUCCESS         20.897                        
-15_Chen_5.pdb                                      15_solution_0.pdb                                  SUCCESS         16.004                        
-15_Chen_6.pdb                                      15_solution_0.pdb                                  SUCCESS         45.617                        
-15_Chen_7.pdb                                      15_solution_0.pdb                                  SUCCESS         19.069                        
-15_Chen_8.pdb                                      15_solution_0.pdb                                  SUCCESS         22.864                        
-15_Chen_9.pdb                                      15_solution_0.pdb                                  SUCCESS         16.202                        
-15_RNAComposerAS1_1.pdb                            15_solution_0.pdb                                  SUCCESS         59.472                        
-15_RNAComposerAS1_2.pdb                            15_solution_0.pdb                                  SUCCESS         58.965                        
-15_RNAComposerAS2_1.pdb                            15_solution_0.pdb                                  SUCCESS         50.564                        
-15_RNAComposerAS2_2.pdb                            15_solution_0.pdb                                  SUCCESS         45.228                        
-15_RW3DAS1_1.pdb                                   15_solution_0.pdb                                  SUCCESS         13.782                        
-15_RW3DAS1_10.pdb                                  15_solution_0.pdb                                  SUCCESS         12.176                        
-15_RW3DAS1_2.pdb                                   15_solution_0.pdb                                  SUCCESS         13.757                        
-15_RW3DAS1_3.pdb                                   15_solution_0.pdb                                  SUCCESS         15.502                        
-15_RW3DAS1_4.pdb                                   15_solution_0.pdb                                  SUCCESS         15.556                        
-15_RW3DAS1_5.pdb                                   15_solution_0.pdb                                  SUCCESS         15.131                        
-15_RW3DAS1_6.pdb                                   15_solution_0.pdb                                  SUCCESS         15.196                        
-15_RW3DAS1_7.pdb                                   15_solution_0.pdb                                  SUCCESS         14.581                        
-15_RW3DAS1_8.pdb                                   15_solution_0.pdb                                  SUCCESS         13.349                        
-15_RW3DAS1_9.pdb                                   15_solution_0.pdb                                  SUCCESS         13.502                        
-15_RW3DAS2_1.pdb                                   15_solution_0.pdb                                  SUCCESS         20.959                        
-15_RW3DAS2_10.pdb                                  15_solution_0.pdb                                  SUCCESS         24.476                        
-15_RW3DAS2_2.pdb                                   15_solution_0.pdb                                  SUCCESS         16.465                        
-15_RW3DAS2_3.pdb                                   15_solution_0.pdb                                  SUCCESS         16.772                        
-15_RW3DAS2_4.pdb                                   15_solution_0.pdb                                  SUCCESS         21.778                        
-15_RW3DAS2_5.pdb                                   15_solution_0.pdb                                  SUCCESS         19.818                        
-15_RW3DAS2_6.pdb                                   15_solution_0.pdb                                  SUCCESS         16.287                        
-15_RW3DAS2_7.pdb                                   15_solution_0.pdb                                  SUCCESS         16.601                        
-15_RW3DAS2_8.pdb                                   15_solution_0.pdb                                  SUCCESS         17.248                        
-15_RW3DAS2_9.pdb                                   15_solution_0.pdb                                  SUCCESS         19.888                        
-15_SimRNAAS1_1.pdb                                 15_solution_0.pdb                                  SUCCESS         43.741                        
-15_SimRNAAS1_10.pdb                                15_solution_0.pdb                                  SUCCESS         15.717                        
-15_SimRNAAS1_2.pdb                                 15_solution_0.pdb                                  SUCCESS         10.781                        
-15_SimRNAAS1_3.pdb                                 15_solution_0.pdb                                  SUCCESS         9.875                         
-15_SimRNAAS1_4.pdb                                 15_solution_0.pdb                                  SUCCESS         7.271                         
-15_SimRNAAS1_5.pdb                                 15_solution_0.pdb                                  SUCCESS         10.178                        
-15_SimRNAAS1_6.pdb                                 15_solution_0.pdb                                  SUCCESS         8.597                         
-15_SimRNAAS1_7.pdb                                 15_solution_0.pdb                                  SUCCESS         19.857                        
-15_SimRNAAS1_8.pdb                                 15_solution_0.pdb                                  SUCCESS         14.36                         
-15_SimRNAAS1_9.pdb                                 15_solution_0.pdb                                  SUCCESS         14.856                        
-15_SimRNAAS2_1.pdb                                 15_solution_0.pdb                                  SUCCESS         21.016                        
-15_SimRNAAS2_10.pdb                                15_solution_0.pdb                                  SUCCESS         17.148                        
-15_SimRNAAS2_2.pdb                                 15_solution_0.pdb                                  SUCCESS         19.837                        
-15_SimRNAAS2_3.pdb                                 15_solution_0.pdb                                  SUCCESS         16.658                        
-15_SimRNAAS2_4.pdb                                 15_solution_0.pdb                                  SUCCESS         24.552                        
-15_SimRNAAS2_5.pdb                                 15_solution_0.pdb                                  SUCCESS         20.101                        
-15_SimRNAAS2_6.pdb                                 15_solution_0.pdb                                  SUCCESS         15.086                        
-15_SimRNAAS2_7.pdb                                 15_solution_0.pdb                                  SUCCESS         22.745                        
-15_SimRNAAS2_8.pdb                                 15_solution_0.pdb                                  SUCCESS         15.264                        
-15_SimRNAAS2_9.pdb                                 15_solution_0.pdb                                  SUCCESS         22.781                        
+Processed 74 / 74 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNAAS2_1                                         15_3dRNAAS2_1.pdb                                  15_solution_0.pdb                                  7.958        11.519       13.343       20.152      
+3dRNAAS2_10                                        15_3dRNAAS2_10.pdb                                 15_solution_0.pdb                                  8.467        11.792       13.527       20.321      
+3dRNAAS2_2                                         15_3dRNAAS2_2.pdb                                  15_solution_0.pdb                                  8.504        11.688       13.524       20.079      
+3dRNAAS2_3                                         15_3dRNAAS2_3.pdb                                  15_solution_0.pdb                                  8.464        11.737       13.524       20.226      
+3dRNAAS2_4                                         15_3dRNAAS2_4.pdb                                  15_solution_0.pdb                                  8.443        11.688       13.524       20.066      
+3dRNAAS2_5                                         15_3dRNAAS2_5.pdb                                  15_solution_0.pdb                                  8.464        11.737       13.524       20.226      
+3dRNAAS2_6                                         15_3dRNAAS2_6.pdb                                  15_solution_0.pdb                                  8.081        11.531       13.462       20.284      
+3dRNAAS2_7                                         15_3dRNAAS2_7.pdb                                  15_solution_0.pdb                                  8.409        11.633       13.524       20.226      
+3dRNAAS2_8                                         15_3dRNAAS2_8.pdb                                  15_solution_0.pdb                                  7.961        10.481       12.781       20.229      
+3dRNAAS2_9                                         15_3dRNAAS2_9.pdb                                  15_solution_0.pdb                                  8.464        11.792       13.502       20.208      
+Adamiak_1                                          15_Adamiak_1.pdb                                   15_solution_0.pdb                                  11.141       24.174       42.718       81.199      
+Adamiak_10                                         15_Adamiak_10.pdb                                  15_solution_0.pdb                                  11.786       37.422       58.142       94.824      
+Adamiak_2                                          15_Adamiak_2.pdb                                   15_solution_0.pdb                                  35.408       49.097       64.439       86.080      
+Adamiak_3                                          15_Adamiak_3.pdb                                   15_solution_0.pdb                                  35.309       48.649       63.889       85.478      
+Adamiak_4                                          15_Adamiak_4.pdb                                   15_solution_0.pdb                                  11.777       39.700       54.786       84.306      
+Adamiak_5                                          15_Adamiak_5.pdb                                   15_solution_0.pdb                                  10.555       29.642       49.005       84.686      
+Adamiak_6                                          15_Adamiak_6.pdb                                   15_solution_0.pdb                                  12.452       40.341       57.832       83.802      
+Adamiak_7                                          15_Adamiak_7.pdb                                   15_solution_0.pdb                                  11.814       39.270       59.806       85.564      
+Adamiak_8                                          15_Adamiak_8.pdb                                   15_solution_0.pdb                                  9.367        39.196       66.723       95.597      
+Adamiak_9                                          15_Adamiak_9.pdb                                   15_solution_0.pdb                                  10.380       19.802       27.880       90.958      
+Chen_1                                             15_Chen_1.pdb                                      15_solution_0.pdb                                  10.604       17.580       22.802       62.692      
+Chen_10                                            15_Chen_10.pdb                                     15_solution_0.pdb                                  9.244        16.063       25.728       66.140      
+Chen_2                                             15_Chen_2.pdb                                      15_solution_0.pdb                                  9.686        14.654       18.058       31.278      
+Chen_3                                             15_Chen_3.pdb                                      15_solution_0.pdb                                  27.020       44.280       55.787       84.376      
+Chen_4                                             15_Chen_4.pdb                                      15_solution_0.pdb                                  9.809        15.308       22.642       56.622      
+Chen_5                                             15_Chen_5.pdb                                      15_solution_0.pdb                                  9.996        14.353       17.340       29.056      
+Chen_6                                             15_Chen_6.pdb                                      15_solution_0.pdb                                  10.337       36.495       49.426       83.725      
+Chen_7                                             15_Chen_7.pdb                                      15_solution_0.pdb                                  9.100        15.157       20.662       49.407      
+Chen_8                                             15_Chen_8.pdb                                      15_solution_0.pdb                                  9.014        16.213       24.773       56.509      
+Chen_9                                             15_Chen_9.pdb                                      15_solution_0.pdb                                  8.252        13.386       17.555       37.121      
+RNAComposerAS1_1                                   15_RNAComposerAS1_1.pdb                            15_solution_0.pdb                                  35.408       49.097       64.439       86.080      
+RNAComposerAS1_2                                   15_RNAComposerAS1_2.pdb                            15_solution_0.pdb                                  35.309       48.649       63.889       85.478      
+RNAComposerAS2_1                                   15_RNAComposerAS2_1.pdb                            15_solution_0.pdb                                  11.777       39.700       54.786       84.306      
+RNAComposerAS2_2                                   15_RNAComposerAS2_2.pdb                            15_solution_0.pdb                                  10.555       29.642       49.005       84.686      
+RW3DAS1_1                                          15_RW3DAS1_1.pdb                                   15_solution_0.pdb                                  8.863        12.379       14.933       21.712      
+RW3DAS1_10                                         15_RW3DAS1_10.pdb                                  15_solution_0.pdb                                  8.274        11.356       13.192       20.244      
+RW3DAS1_2                                          15_RW3DAS1_2.pdb                                   15_solution_0.pdb                                  8.609        12.148       14.905       29.212      
+RW3DAS1_3                                          15_RW3DAS1_3.pdb                                   15_solution_0.pdb                                  8.130        13.275       16.797       26.719      
+RW3DAS1_4                                          15_RW3DAS1_4.pdb                                   15_solution_0.pdb                                  8.179        13.874       16.855       27.935      
+RW3DAS1_5                                          15_RW3DAS1_5.pdb                                   15_solution_0.pdb                                  8.827        13.312       16.394       27.244      
+RW3DAS1_6                                          15_RW3DAS1_6.pdb                                   15_solution_0.pdb                                  8.811        13.779       16.465       25.688      
+RW3DAS1_7                                          15_RW3DAS1_7.pdb                                   15_solution_0.pdb                                  8.707        13.162       15.799       24.917      
+RW3DAS1_8                                          15_RW3DAS1_8.pdb                                   15_solution_0.pdb                                  8.434        12.201       14.463       22.584      
+RW3DAS1_9                                          15_RW3DAS1_9.pdb                                   15_solution_0.pdb                                  8.526        12.041       14.629       24.942      
+RW3DAS2_1                                          15_RW3DAS2_1.pdb                                   15_solution_0.pdb                                  11.120       17.972       22.710       41.585      
+RW3DAS2_10                                         15_RW3DAS2_10.pdb                                  15_solution_0.pdb                                  11.722       20.499       26.520       54.679      
+RW3DAS2_2                                          15_RW3DAS2_2.pdb                                   15_solution_0.pdb                                  10.021       14.764       17.840       28.073      
+RW3DAS2_3                                          15_RW3DAS2_3.pdb                                   15_solution_0.pdb                                  9.640        14.586       18.172       27.659      
+RW3DAS2_4                                          15_RW3DAS2_4.pdb                                   15_solution_0.pdb                                  10.684       18.135       23.597       41.975      
+RW3DAS2_5                                          15_RW3DAS2_5.pdb                                   15_solution_0.pdb                                  11.089       17.223       21.472       50.077      
+RW3DAS2_6                                          15_RW3DAS2_6.pdb                                   15_solution_0.pdb                                  10.128       14.626       17.647       30.950      
+RW3DAS2_7                                          15_RW3DAS2_7.pdb                                   15_solution_0.pdb                                  9.441        14.755       17.988       55.020      
+RW3DAS2_8                                          15_RW3DAS2_8.pdb                                   15_solution_0.pdb                                  10.245       15.240       18.688       31.371      
+RW3DAS2_9                                          15_RW3DAS2_9.pdb                                   15_solution_0.pdb                                  11.267       16.658       21.549       40.194      
+SimRNAAS1_1                                        15_SimRNAAS1_1.pdb                                 15_solution_0.pdb                                  7.546        28.451       47.393       93.476      
+SimRNAAS1_10                                       15_SimRNAAS1_10.pdb                                15_solution_0.pdb                                  8.999        13.825       17.030       27.481      
+SimRNAAS1_2                                        15_SimRNAAS1_2.pdb                                 15_solution_0.pdb                                  8.105        10.610       11.682       19.216      
+SimRNAAS1_3                                        15_SimRNAAS1_3.pdb                                 15_solution_0.pdb                                  4.178        7.255        10.699       20.653      
+SimRNAAS1_4                                        15_SimRNAAS1_4.pdb                                 15_solution_0.pdb                                  5.397        6.702        7.878        13.567      
+SimRNAAS1_5                                        15_SimRNAAS1_5.pdb                                 15_solution_0.pdb                                  7.817        9.646        11.028       17.871      
+SimRNAAS1_6                                        15_SimRNAAS1_6.pdb                                 15_solution_0.pdb                                  4.323        6.874        9.315        16.287      
+SimRNAAS1_7                                        15_SimRNAAS1_7.pdb                                 15_solution_0.pdb                                  9.014        15.848       21.515       39.270      
+SimRNAAS1_8                                        15_SimRNAAS1_8.pdb                                 15_solution_0.pdb                                  8.971        12.947       15.559       25.141      
+SimRNAAS1_9                                        15_SimRNAAS1_9.pdb                                 15_solution_0.pdb                                  8.857        13.420       16.097       22.145      
+SimRNAAS2_1                                        15_SimRNAAS2_1.pdb                                 15_solution_0.pdb                                  10.297       18.233       22.771       40.544      
+SimRNAAS2_10                                       15_SimRNAAS2_10.pdb                                15_solution_0.pdb                                  9.898        14.601       18.580       35.933      
+SimRNAAS2_2                                        15_SimRNAAS2_2.pdb                                 15_solution_0.pdb                                  9.935        15.569       21.494       38.014      
+SimRNAAS2_3                                        15_SimRNAAS2_3.pdb                                 15_solution_0.pdb                                  9.665        14.611       18.049       28.046      
+SimRNAAS2_4                                        15_SimRNAAS2_4.pdb                                 15_solution_0.pdb                                  10.270       19.253       26.603       70.131      
+SimRNAAS2_5                                        15_SimRNAAS2_5.pdb                                 15_solution_0.pdb                                  9.870        15.182       21.779       40.157      
+SimRNAAS2_6                                        15_SimRNAAS2_6.pdb                                 15_solution_0.pdb                                  7.755        13.205       16.345       25.255      
+SimRNAAS2_7                                        15_SimRNAAS2_7.pdb                                 15_solution_0.pdb                                  10.798       19.170       24.644       47.857      
+SimRNAAS2_8                                        15_SimRNAAS2_8.pdb                                 15_solution_0.pdb                                  9.748        13.591       16.539       25.080      
+SimRNAAS2_9                                        15_SimRNAAS2_9.pdb                                 15_solution_0.pdb                                  10.500       17.583       24.684       44.775      
+

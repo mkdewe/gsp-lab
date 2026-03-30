@@ -1,52 +1,55 @@
 Report for set: PZ25
-Processed 47 / 47 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ25_Adamiak_1_refined.pdb                         PZ25_Adamiak_1_solution.pdb                        SUCCESS         99.894                        
-PZ25_Adamiak_2_refined.pdb                         PZ25_Adamiak_2_solution.pdb                        SUCCESS         99.824                        
-PZ25_Adamiak_3_refined.pdb                         PZ25_Adamiak_3_solution.pdb                        SUCCESS         99.86                         
-PZ25_Adamiak_4_refined.pdb                         PZ25_Adamiak_4_solution.pdb                        SUCCESS         100.0                         
-PZ25_Adamiak_5_refined.pdb                         PZ25_Adamiak_5_solution.pdb                        SUCCESS         99.793                        
-PZ25_Bujnicki_1_refined.pdb                        PZ25_Bujnicki_1_solution.pdb                       SUCCESS         99.975                        
-PZ25_Bujnicki_2_refined.pdb                        PZ25_Bujnicki_2_solution.pdb                       SUCCESS         100.0                         
-PZ25_Bujnicki_3_refined.pdb                        PZ25_Bujnicki_3_solution.pdb                       SUCCESS         99.953                        
-PZ25_Bujnicki_4_refined.pdb                        PZ25_Bujnicki_4_solution.pdb                       SUCCESS         99.908                        
-PZ25_Bujnicki_5_refined.pdb                        PZ25_Bujnicki_5_solution.pdb                       SUCCESS         100.0                         
-PZ25_Chen_10_refined.pdb                           PZ25_Chen_10_solution.pdb                          SUCCESS         100.0                         
-PZ25_Chen_1_refined.pdb                            PZ25_Chen_1_solution.pdb                           SUCCESS         99.682                        
-PZ25_Chen_2_refined.pdb                            PZ25_Chen_2_solution.pdb                           SUCCESS         99.243                        
-PZ25_Chen_3_refined.pdb                            PZ25_Chen_3_solution.pdb                           SUCCESS         99.76                         
-PZ25_Chen_4_refined.pdb                            PZ25_Chen_4_solution.pdb                           SUCCESS         99.659                        
-PZ25_Chen_5_refined.pdb                            PZ25_Chen_5_solution.pdb                           SUCCESS         100.0                         
-PZ25_Chen_6_refined.pdb                            PZ25_Chen_6_solution.pdb                           SUCCESS         99.718                        
-PZ25_Chen_7_refined.pdb                            PZ25_Chen_7_solution.pdb                           SUCCESS         99.768                        
-PZ25_Chen_8_refined.pdb                            PZ25_Chen_8_solution.pdb                           SUCCESS         100.0                         
-PZ25_Chen_9_refined.pdb                            PZ25_Chen_9_solution.pdb                           SUCCESS         100.0                         
-PZ25_Das_10_refined.pdb                            PZ25_Das_10_solution.pdb                           SUCCESS         43.146                        
-PZ25_Das_1_refined.pdb                             PZ25_Das_1_solution.pdb                            SUCCESS         50.334                        
-PZ25_Das_2_refined.pdb                             PZ25_Das_2_solution.pdb                            SUCCESS         38.195                        
-PZ25_Das_3_refined.pdb                             PZ25_Das_3_solution.pdb                            SUCCESS         59.462                        
-PZ25_Das_4_refined.pdb                             PZ25_Das_4_solution.pdb                            SUCCESS         48.376                        
-PZ25_Das_5_refined.pdb                             PZ25_Das_5_solution.pdb                            SUCCESS         99.481                        
-PZ25_Das_6_refined.pdb                             PZ25_Das_6_solution.pdb                            SUCCESS         51.864                        
-PZ25_Das_7_refined.pdb                             PZ25_Das_7_solution.pdb                            SUCCESS         99.595                        
-PZ25_Das_8_refined.pdb                             PZ25_Das_8_solution.pdb                            SUCCESS         95.839                        
-PZ25_Das_9_refined.pdb                             PZ25_Das_9_solution.pdb                            SUCCESS         64.779                        
-PZ25_Ding_1_refined.pdb                            PZ25_Ding_1_solution.pdb                           SUCCESS         10.689                        
-PZ25_Ding_2_refined.pdb                            PZ25_Ding_2_solution.pdb                           SUCCESS         13.049                        
-PZ25_Ding_3_refined.pdb                            PZ25_Ding_3_solution.pdb                           SUCCESS         10.519                        
-PZ25_iFoldRNA_1_refined.pdb                        PZ25_iFoldRNA_1_solution.pdb                       SUCCESS         19.798                        
-PZ25_RNAComposer_1_refined.pdb                     PZ25_RNAComposer_1_solution.pdb                    SUCCESS         18.447                        
-PZ25_RNAComposer_2_refined.pdb                     PZ25_RNAComposer_2_solution.pdb                    SUCCESS         32.44                         
-PZ25_RNAComposer_3_refined.pdb                     PZ25_RNAComposer_3_solution.pdb                    SUCCESS         14.465                        
-PZ25_SimRNA_1_refined.pdb                          PZ25_SimRNA_1_solution.pdb                         SUCCESS         14.571                        
-PZ25_SimRNA_2_refined.pdb                          PZ25_SimRNA_2_solution.pdb                         SUCCESS         14.362                        
-PZ25_SimRNA_3_refined.pdb                          PZ25_SimRNA_3_solution.pdb                         SUCCESS         15.364                        
-PZ25_SimRNA_4_refined.pdb                          PZ25_SimRNA_4_solution.pdb                         SUCCESS         11.254                        
-PZ25_SimRNA_5_refined.pdb                          PZ25_SimRNA_5_solution.pdb                         SUCCESS         12.538                        
-PZ25_Xiao_1_refined.pdb                            PZ25_Xiao_1_solution.pdb                           SUCCESS         93.742                        
-PZ25_Xiao_2_refined.pdb                            PZ25_Xiao_2_solution.pdb                           SUCCESS         8.151                         
-PZ25_Xiao_3_refined.pdb                            PZ25_Xiao_3_solution.pdb                           SUCCESS         98.5                          
-PZ25_Xiao_4_refined.pdb                            PZ25_Xiao_4_solution.pdb                           SUCCESS         98.419                        
-PZ25_Xiao_5_refined.pdb                            PZ25_Xiao_5_solution.pdb                           SUCCESS         98.573                        
+Processed 47 / 47 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          PZ25_Adamiak_1_refined.pdb                         PZ25_Adamiak_1_solution.pdb                        42.740       99.767       99.885       100.000     
+Adamiak_2                                          PZ25_Adamiak_2_refined.pdb                         PZ25_Adamiak_2_solution.pdb                        36.368       96.772       99.809       100.000     
+Adamiak_3                                          PZ25_Adamiak_3_refined.pdb                         PZ25_Adamiak_3_solution.pdb                        40.368       97.661       99.849       100.000     
+Adamiak_4                                          PZ25_Adamiak_4_refined.pdb                         PZ25_Adamiak_4_solution.pdb                        41.136       100.000      100.000      100.000     
+Adamiak_5                                          PZ25_Adamiak_5_refined.pdb                         PZ25_Adamiak_5_solution.pdb                        27.818       96.524       99.776       100.000     
+Bujnicki_1                                         PZ25_Bujnicki_1_refined.pdb                        PZ25_Bujnicki_1_solution.pdb                       16.590       99.183       99.973       100.000     
+Bujnicki_2                                         PZ25_Bujnicki_2_refined.pdb                        PZ25_Bujnicki_2_solution.pdb                       18.157       99.846       100.000      100.000     
+Bujnicki_3                                         PZ25_Bujnicki_3_refined.pdb                        PZ25_Bujnicki_3_solution.pdb                       17.240       99.319       99.949       100.000     
+Bujnicki_4                                         PZ25_Bujnicki_4_refined.pdb                        PZ25_Bujnicki_4_solution.pdb                       15.688       98.109       99.900       100.000     
+Bujnicki_5                                         PZ25_Bujnicki_5_refined.pdb                        PZ25_Bujnicki_5_solution.pdb                       32.728       99.791       100.000      100.000     
+Chen_10                                            PZ25_Chen_10_refined.pdb                           PZ25_Chen_10_solution.pdb                          22.356       99.846       100.000      100.000     
+Chen_1                                             PZ25_Chen_1_refined.pdb                            PZ25_Chen_1_solution.pdb                           30.937       97.746       99.655       100.000     
+Chen_2                                             PZ25_Chen_2_refined.pdb                            PZ25_Chen_2_solution.pdb                           30.196       85.964       99.180       100.000     
+Chen_3                                             PZ25_Chen_3_refined.pdb                            PZ25_Chen_3_solution.pdb                           31.391       97.316       99.740       100.000     
+Chen_4                                             PZ25_Chen_4_refined.pdb                            PZ25_Chen_4_solution.pdb                           29.939       96.581       99.631       100.000     
+Chen_5                                             PZ25_Chen_5_refined.pdb                            PZ25_Chen_5_solution.pdb                           30.964       99.785       100.000      100.000     
+Chen_6                                             PZ25_Chen_6_refined.pdb                            PZ25_Chen_6_solution.pdb                           30.184       94.959       99.694       100.000     
+Chen_7                                             PZ25_Chen_7_refined.pdb                            PZ25_Chen_7_solution.pdb                           32.858       97.561       99.749       100.000     
+Chen_8                                             PZ25_Chen_8_refined.pdb                            PZ25_Chen_8_solution.pdb                           29.158       99.809       100.000      100.000     
+Chen_9                                             PZ25_Chen_9_refined.pdb                            PZ25_Chen_9_solution.pdb                           28.429       99.710       100.000      100.000     
+Das_10                                             PZ25_Das_10_refined.pdb                            PZ25_Das_10_solution.pdb                           9.367        35.109       46.749       100.000     
+Das_1                                              PZ25_Das_1_refined.pdb                             PZ25_Das_1_solution.pdb                            10.109       40.891       54.537       100.000     
+Das_2                                              PZ25_Das_2_refined.pdb                             PZ25_Das_2_solution.pdb                            9.261        31.243       41.385       99.579      
+Das_3                                              PZ25_Das_3_refined.pdb                             PZ25_Das_3_solution.pdb                            9.379        47.396       64.428       100.000     
+Das_4                                              PZ25_Das_4_refined.pdb                             PZ25_Das_4_solution.pdb                            9.815        40.928       52.416       99.900      
+Das_5                                              PZ25_Das_5_refined.pdb                             PZ25_Das_5_solution.pdb                            13.104       93.077       99.437       100.000     
+Das_6                                              PZ25_Das_6_refined.pdb                             PZ25_Das_6_solution.pdb                            10.281       43.493       56.195       100.000     
+Das_7                                              PZ25_Das_7_refined.pdb                             PZ25_Das_7_solution.pdb                            12.532       92.448       99.561       100.000     
+Das_8                                              PZ25_Das_8_refined.pdb                             PZ25_Das_8_solution.pdb                            10.508       48.700       95.492       100.000     
+Das_9                                              PZ25_Das_9_refined.pdb                             PZ25_Das_9_solution.pdb                            9.730        49.735       70.188       100.000     
+Ding_1                                             PZ25_Ding_1_refined.pdb                            PZ25_Ding_1_solution.pdb                           6.759        9.791        11.582       23.297      
+Ding_2                                             PZ25_Ding_2_refined.pdb                            PZ25_Ding_2_solution.pdb                           7.319        11.410       14.139       48.483      
+Ding_3                                             PZ25_Ding_3_refined.pdb                            PZ25_Ding_3_solution.pdb                           6.206        9.277        11.398       33.442      
+iFoldRNA_1                                         PZ25_iFoldRNA_1_refined.pdb                        PZ25_iFoldRNA_1_solution.pdb                       6.693        14.444       21.452       90.457      
+RNAComposer_1                                      PZ25_RNAComposer_1_refined.pdb                     PZ25_RNAComposer_1_solution.pdb                    7.010        12.689       19.987       58.824      
+RNAComposer_2                                      PZ25_RNAComposer_2_refined.pdb                     PZ25_RNAComposer_2_solution.pdb                    9.625        25.772       35.149       51.079      
+RNAComposer_3                                      PZ25_RNAComposer_3_refined.pdb                     PZ25_RNAComposer_3_solution.pdb                    6.091        11.818       15.673       55.629      
+SimRNA_1                                           PZ25_SimRNA_1_refined.pdb                          PZ25_SimRNA_1_solution.pdb                         5.685        11.391       15.788       80.545      
+SimRNA_2                                           PZ25_SimRNA_2_refined.pdb                          PZ25_SimRNA_2_solution.pdb                         6.402        11.770       15.561       53.929      
+SimRNA_3                                           PZ25_SimRNA_3_refined.pdb                          PZ25_SimRNA_3_solution.pdb                         5.909        13.095       16.647       37.227      
+SimRNA_4                                           PZ25_SimRNA_4_refined.pdb                          PZ25_SimRNA_4_solution.pdb                         6.759        10.139       12.193       27.588      
+SimRNA_5                                           PZ25_SimRNA_5_refined.pdb                          PZ25_SimRNA_5_solution.pdb                         6.523        10.880       13.585       35.533      
+Xiao_1                                             PZ25_Xiao_1_refined.pdb                            PZ25_Xiao_1_solution.pdb                           9.101        46.153       93.220       100.000     
+Xiao_2                                             PZ25_Xiao_2_refined.pdb                            PZ25_Xiao_2_solution.pdb                           6.378        7.909        8.832        14.323      
+Xiao_3                                             PZ25_Xiao_3_refined.pdb                            PZ25_Xiao_3_solution.pdb                           9.361        42.443       98.375       100.000     
+Xiao_4                                             PZ25_Xiao_4_refined.pdb                            PZ25_Xiao_4_solution.pdb                           9.410        42.235       98.287       100.000     
+Xiao_5                                             PZ25_Xiao_5_refined.pdb                            PZ25_Xiao_5_solution.pdb                           9.395        42.428       98.454       100.000     
+

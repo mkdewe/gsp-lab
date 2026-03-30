@@ -1,31 +1,34 @@
 Report for set: PZ10
-Processed 26 / 26 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-10_Bujnicki_10_refined.pdb                         10_Bujnicki_10_solution.pdb                        SUCCESS         71.728                        
-10_Bujnicki_1_refined.pdb                          10_Bujnicki_1_solution.pdb                         SUCCESS         72.317                        
-10_Bujnicki_2_refined.pdb                          10_Bujnicki_2_solution.pdb                         SUCCESS         72.956                        
-10_Bujnicki_3_refined.pdb                          10_Bujnicki_3_solution.pdb                         SUCCESS         71.453                        
-10_Bujnicki_4_refined.pdb                          10_Bujnicki_4_solution.pdb                         SUCCESS         58.018                        
-10_Bujnicki_5_refined.pdb                          10_Bujnicki_5_solution.pdb                         SUCCESS         73.113                        
-10_Bujnicki_6_refined.pdb                          10_Bujnicki_6_solution.pdb                         SUCCESS         72.813                        
-10_Bujnicki_7_refined.pdb                          10_Bujnicki_7_solution.pdb                         SUCCESS         73.145                        
-10_Bujnicki_8_refined.pdb                          10_Bujnicki_8_solution.pdb                         SUCCESS         73.344                        
-10_Bujnicki_9_refined.pdb                          10_Bujnicki_9_solution.pdb                         SUCCESS         71.987                        
-10_Chen_1_refined.pdb                              10_Chen_1_solution.pdb                             SUCCESS         50.847                        
-10_Das_1_refined.pdb                               10_Das_1_solution.pdb                              SUCCESS         64.283                        
-10_Das_2_refined.pdb                               10_Das_2_solution.pdb                              SUCCESS         58.399                        
-10_Das_3_refined.pdb                               10_Das_3_solution.pdb                              SUCCESS         75.859                        
-10_Das_4_refined.pdb                               10_Das_4_solution.pdb                              SUCCESS         74.407                        
-10_Das_5_refined.pdb                               10_Das_5_solution.pdb                              SUCCESS         71.393                        
-10_Dokholyan_10_refined.pdb                        10_Dokholyan_10_solution.pdb                       SUCCESS         28.33                         
-10_Dokholyan_1_refined.pdb                         10_Dokholyan_1_solution.pdb                        SUCCESS         24.719                        
-10_Dokholyan_2_refined.pdb                         10_Dokholyan_2_solution.pdb                        SUCCESS         18.654                        
-10_Dokholyan_3_refined.pdb                         10_Dokholyan_3_solution.pdb                        SUCCESS         28.268                        
-10_Dokholyan_4_refined.pdb                         10_Dokholyan_4_solution.pdb                        SUCCESS         27.072                        
-10_Dokholyan_5_refined.pdb                         10_Dokholyan_5_solution.pdb                        SUCCESS         21.628                        
-10_Dokholyan_6_refined.pdb                         10_Dokholyan_6_solution.pdb                        SUCCESS         18.495                        
-10_Dokholyan_7_refined.pdb                         10_Dokholyan_7_solution.pdb                        SUCCESS         19.935                        
-10_Dokholyan_8_refined.pdb                         10_Dokholyan_8_solution.pdb                        SUCCESS         17.264                        
-10_Dokholyan_9_refined.pdb                         10_Dokholyan_9_solution.pdb                        SUCCESS         20.274                        
+Processed 26 / 26 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_10                                        10_Bujnicki_10_refined.pdb                         10_Bujnicki_10_solution.pdb                        16.315       58.915       77.718       84.838      
+Bujnicki_1                                         10_Bujnicki_1_refined.pdb                          10_Bujnicki_1_solution.pdb                         18.134       66.520       78.356       84.846      
+Bujnicki_2                                         10_Bujnicki_2_refined.pdb                          10_Bujnicki_2_solution.pdb                         17.526       65.410       79.049       84.711      
+Bujnicki_3                                         10_Bujnicki_3_refined.pdb                          10_Bujnicki_3_solution.pdb                         16.763       58.397       77.420       84.695      
+Bujnicki_4                                         10_Bujnicki_4_refined.pdb                          10_Bujnicki_4_solution.pdb                         15.457       37.013       62.863       83.828      
+Bujnicki_5                                         10_Bujnicki_5_refined.pdb                          10_Bujnicki_5_solution.pdb                         18.419       66.928       79.219       84.832      
+Bujnicki_6                                         10_Bujnicki_6_refined.pdb                          10_Bujnicki_6_solution.pdb                         17.389       65.168       78.893       84.626      
+Bujnicki_7                                         10_Bujnicki_7_refined.pdb                          10_Bujnicki_7_solution.pdb                         18.394       68.947       79.253       85.187      
+Bujnicki_8                                         10_Bujnicki_8_refined.pdb                          10_Bujnicki_8_solution.pdb                         19.002       68.928       79.469       84.761      
+Bujnicki_9                                         10_Bujnicki_9_refined.pdb                          10_Bujnicki_9_solution.pdb                         17.247       59.931       77.998       84.763      
+Chen_1                                             10_Chen_1_refined.pdb                              10_Chen_1_solution.pdb                             9.746        34.939       55.094       83.519      
+Das_1                                              10_Das_1_refined.pdb                               10_Das_1_solution.pdb                              19.247       50.301       69.651       100.000     
+Das_2                                              10_Das_2_refined.pdb                               10_Das_2_solution.pdb                              21.575       43.014       63.275       95.729      
+Das_3                                              10_Das_3_refined.pdb                               10_Das_3_solution.pdb                              26.705       58.172       82.194       100.000     
+Das_4                                              10_Das_4_refined.pdb                               10_Das_4_solution.pdb                              22.076       60.508       80.620       100.000     
+Das_5                                              10_Das_5_refined.pdb                               10_Das_5_solution.pdb                              22.096       62.649       77.355       91.163      
+Dokholyan_10                                       10_Dokholyan_10_refined.pdb                        10_Dokholyan_10_solution.pdb                       7.199        17.220       30.696       51.513      
+Dokholyan_1                                        10_Dokholyan_1_refined.pdb                         10_Dokholyan_1_solution.pdb                        7.149        18.120       26.784       53.679      
+Dokholyan_2                                        10_Dokholyan_2_refined.pdb                         10_Dokholyan_2_solution.pdb                        6.743        13.464       20.212       38.137      
+Dokholyan_3                                        10_Dokholyan_3_refined.pdb                         10_Dokholyan_3_solution.pdb                        7.630        17.187       30.629       72.635      
+Dokholyan_4                                        10_Dokholyan_4_refined.pdb                         10_Dokholyan_4_solution.pdb                        7.500        17.740       29.333       56.899      
+Dokholyan_5                                        10_Dokholyan_5_refined.pdb                         10_Dokholyan_5_solution.pdb                        6.150        15.323       23.434       38.419      
+Dokholyan_6                                        10_Dokholyan_6_refined.pdb                         10_Dokholyan_6_solution.pdb                        6.424        15.430       20.039       34.207      
+Dokholyan_7                                        10_Dokholyan_7_refined.pdb                         10_Dokholyan_7_solution.pdb                        6.792        14.444       21.600       39.085      
+Dokholyan_8                                        10_Dokholyan_8_refined.pdb                         10_Dokholyan_8_solution.pdb                        6.712        13.656       18.705       37.622      
+Dokholyan_9                                        10_Dokholyan_9_refined.pdb                         10_Dokholyan_9_solution.pdb                        6.593        15.632       21.967       37.080      
+

@@ -1,0 +1,31 @@
+Report for set: PZ10tBox
+Processed 26 / 26 models (missing solution for 0 models)
+========================================================================================================================
+Model                                              Solution                                           Status          Details                       
+------------------------------------------------------------------------------------------------------------------------
+PZ10tBox_Bujnicki_10_refined.pdb                   PZ10tBox_Bujnicki_10_solution.pdb                  SUCCESS         4.392                         
+PZ10tBox_Bujnicki_1_refined.pdb                    PZ10tBox_Bujnicki_1_solution.pdb                   SUCCESS         4.532                         
+PZ10tBox_Bujnicki_2_refined.pdb                    PZ10tBox_Bujnicki_2_solution.pdb                   SUCCESS         4.495                         
+PZ10tBox_Bujnicki_3_refined.pdb                    PZ10tBox_Bujnicki_3_solution.pdb                   SUCCESS         4.47                          
+PZ10tBox_Bujnicki_4_refined.pdb                    PZ10tBox_Bujnicki_4_solution.pdb                   SUCCESS         4.486                         
+PZ10tBox_Bujnicki_5_refined.pdb                    PZ10tBox_Bujnicki_5_solution.pdb                   SUCCESS         4.478                         
+PZ10tBox_Bujnicki_6_refined.pdb                    PZ10tBox_Bujnicki_6_solution.pdb                   SUCCESS         4.51                          
+PZ10tBox_Bujnicki_7_refined.pdb                    PZ10tBox_Bujnicki_7_solution.pdb                   SUCCESS         4.487                         
+PZ10tBox_Bujnicki_8_refined.pdb                    PZ10tBox_Bujnicki_8_solution.pdb                   SUCCESS         4.486                         
+PZ10tBox_Bujnicki_9_refined.pdb                    PZ10tBox_Bujnicki_9_solution.pdb                   SUCCESS         4.439                         
+PZ10tBox_Chen_1_refined.pdb                        PZ10tBox_Chen_1_solution.pdb                       SUCCESS         4.337                         
+PZ10tBox_Das_1_refined.pdb                         PZ10tBox_Das_1_solution.pdb                        SUCCESS         4.185                         
+PZ10tBox_Das_2_refined.pdb                         PZ10tBox_Das_2_solution.pdb                        SUCCESS         4.192                         
+PZ10tBox_Das_3_refined.pdb                         PZ10tBox_Das_3_solution.pdb                        SUCCESS         4.211                         
+PZ10tBox_Das_4_refined.pdb                         PZ10tBox_Das_4_solution.pdb                        SUCCESS         4.16                          
+PZ10tBox_Das_5_refined.pdb                         PZ10tBox_Das_5_solution.pdb                        SUCCESS         4.166                         
+PZ10tBox_Dokholyan_10_refined.pdb                  PZ10tBox_Dokholyan_10_solution.pdb                 SUCCESS         4.305                         
+PZ10tBox_Dokholyan_1_refined.pdb                   PZ10tBox_Dokholyan_1_solution.pdb                  SUCCESS         4.275                         
+PZ10tBox_Dokholyan_2_refined.pdb                   PZ10tBox_Dokholyan_2_solution.pdb                  SUCCESS         4.165                         
+PZ10tBox_Dokholyan_3_refined.pdb                   PZ10tBox_Dokholyan_3_solution.pdb                  SUCCESS         4.445                         
+PZ10tBox_Dokholyan_4_refined.pdb                   PZ10tBox_Dokholyan_4_solution.pdb                  SUCCESS         4.515                         
+PZ10tBox_Dokholyan_5_refined.pdb                   PZ10tBox_Dokholyan_5_solution.pdb                  SUCCESS         4.353                         
+PZ10tBox_Dokholyan_6_refined.pdb                   PZ10tBox_Dokholyan_6_solution.pdb                  SUCCESS         4.283                         
+PZ10tBox_Dokholyan_7_refined.pdb                   PZ10tBox_Dokholyan_7_solution.pdb                  SUCCESS         4.187                         
+PZ10tBox_Dokholyan_8_refined.pdb                   PZ10tBox_Dokholyan_8_solution.pdb                  SUCCESS         4.345                         
+PZ10tBox_Dokholyan_9_refined.pdb                   PZ10tBox_Dokholyan_9_solution.pdb                  SUCCESS         4.41                          

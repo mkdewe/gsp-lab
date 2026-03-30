@@ -1,88 +1,91 @@
 Report for set: PZ16a
-Processed 83 / 83 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ16a_3dRNAAS2_10_refined.pdb                      PZ16a_3dRNAAS2_10_solution.pdb                     SUCCESS         86.612                        
-PZ16a_3dRNAAS2_1_refined.pdb                       PZ16a_3dRNAAS2_1_solution.pdb                      SUCCESS         42.275                        
-PZ16a_3dRNAAS2_2_refined.pdb                       PZ16a_3dRNAAS2_2_solution.pdb                      SUCCESS         76.358                        
-PZ16a_3dRNAAS2_3_refined.pdb                       PZ16a_3dRNAAS2_3_solution.pdb                      SUCCESS         76.358                        
-PZ16a_3dRNAAS2_4_refined.pdb                       PZ16a_3dRNAAS2_4_solution.pdb                      SUCCESS         46.657                        
-PZ16a_3dRNAAS2_5_refined.pdb                       PZ16a_3dRNAAS2_5_solution.pdb                      SUCCESS         80.625                        
-PZ16a_3dRNAAS2_6_refined.pdb                       PZ16a_3dRNAAS2_6_solution.pdb                      SUCCESS         100.0                         
-PZ16a_3dRNAAS2_7_refined.pdb                       PZ16a_3dRNAAS2_7_solution.pdb                      SUCCESS         100.0                         
-PZ16a_3dRNAAS2_8_refined.pdb                       PZ16a_3dRNAAS2_8_solution.pdb                      SUCCESS         100.0                         
-PZ16a_3dRNAAS2_9_refined.pdb                       PZ16a_3dRNAAS2_9_solution.pdb                      SUCCESS         86.612                        
-PZ16a_Chen_10_refined.pdb                          PZ16a_Chen_10_solution.pdb                         SUCCESS         5.488                         
-PZ16a_Chen_1_refined.pdb                           PZ16a_Chen_1_solution.pdb                          SUCCESS         100.0                         
-PZ16a_Chen_3_refined.pdb                           PZ16a_Chen_3_solution.pdb                          SUCCESS         26.797                        
-PZ16a_Chen_4_refined.pdb                           PZ16a_Chen_4_solution.pdb                          SUCCESS         30.8                          
-PZ16a_Chen_6_refined.pdb                           PZ16a_Chen_6_solution.pdb                          SUCCESS         3.904                         
-PZ16a_Chen_7_refined.pdb                           PZ16a_Chen_7_solution.pdb                          SUCCESS         3.368                         
-PZ16a_Chen_8_refined.pdb                           PZ16a_Chen_8_solution.pdb                          SUCCESS         3.361                         
-PZ16a_Chen_9_refined.pdb                           PZ16a_Chen_9_solution.pdb                          SUCCESS         4.16                          
-PZ16a_Lee_10_refined.pdb                           PZ16a_Lee_10_solution.pdb                          SUCCESS         39.449                        
-PZ16a_Lee_1_refined.pdb                            PZ16a_Lee_1_solution.pdb                           SUCCESS         93.313                        
-PZ16a_Lee_2_refined.pdb                            PZ16a_Lee_2_solution.pdb                           SUCCESS         99.565                        
-PZ16a_Lee_3_refined.pdb                            PZ16a_Lee_3_solution.pdb                           SUCCESS         97.895                        
-PZ16a_Lee_4_refined.pdb                            PZ16a_Lee_4_solution.pdb                           SUCCESS         99.436                        
-PZ16a_Lee_5_refined.pdb                            PZ16a_Lee_5_solution.pdb                           SUCCESS         48.227                        
-PZ16a_Lee_6_refined.pdb                            PZ16a_Lee_6_solution.pdb                           SUCCESS         97.324                        
-PZ16a_Lee_7_refined.pdb                            PZ16a_Lee_7_solution.pdb                           SUCCESS         98.558                        
-PZ16a_Lee_8_refined.pdb                            PZ16a_Lee_8_solution.pdb                           SUCCESS         32.463                        
-PZ16a_Lee_9_refined.pdb                            PZ16a_Lee_9_solution.pdb                           SUCCESS         27.917                        
-PZ16a_RNAComposerAS1_1_refined.pdb                 PZ16a_RNAComposerAS1_1_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_2_refined.pdb                 PZ16a_RNAComposerAS1_2_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_3_refined.pdb                 PZ16a_RNAComposerAS1_3_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_4_refined.pdb                 PZ16a_RNAComposerAS1_4_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_5_refined.pdb                 PZ16a_RNAComposerAS1_5_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_6_refined.pdb                 PZ16a_RNAComposerAS1_6_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_7_refined.pdb                 PZ16a_RNAComposerAS1_7_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_8_refined.pdb                 PZ16a_RNAComposerAS1_8_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS1_9_refined.pdb                 PZ16a_RNAComposerAS1_9_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_10_refined.pdb                PZ16a_RNAComposerAS2_10_solution.pdb               SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_1_refined.pdb                 PZ16a_RNAComposerAS2_1_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_2_refined.pdb                 PZ16a_RNAComposerAS2_2_solution.pdb                SUCCESS         93.121                        
-PZ16a_RNAComposerAS2_3_refined.pdb                 PZ16a_RNAComposerAS2_3_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_4_refined.pdb                 PZ16a_RNAComposerAS2_4_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_5_refined.pdb                 PZ16a_RNAComposerAS2_5_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_6_refined.pdb                 PZ16a_RNAComposerAS2_6_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_7_refined.pdb                 PZ16a_RNAComposerAS2_7_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_8_refined.pdb                 PZ16a_RNAComposerAS2_8_solution.pdb                SUCCESS         100.0                         
-PZ16a_RNAComposerAS2_9_refined.pdb                 PZ16a_RNAComposerAS2_9_solution.pdb                SUCCESS         100.0                         
-PZ16a_RW3DAS1_10_refined.pdb                       PZ16a_RW3DAS1_10_solution.pdb                      SUCCESS         98.394                        
-PZ16a_RW3DAS1_1_refined.pdb                        PZ16a_RW3DAS1_1_solution.pdb                       SUCCESS         50.161                        
-PZ16a_RW3DAS1_2_refined.pdb                        PZ16a_RW3DAS1_2_solution.pdb                       SUCCESS         97.552                        
-PZ16a_RW3DAS1_3_refined.pdb                        PZ16a_RW3DAS1_3_solution.pdb                       SUCCESS         97.631                        
-PZ16a_RW3DAS1_4_refined.pdb                        PZ16a_RW3DAS1_4_solution.pdb                       SUCCESS         94.855                        
-PZ16a_RW3DAS1_5_refined.pdb                        PZ16a_RW3DAS1_5_solution.pdb                       SUCCESS         91.858                        
-PZ16a_RW3DAS1_6_refined.pdb                        PZ16a_RW3DAS1_6_solution.pdb                       SUCCESS         40.22                         
-PZ16a_RW3DAS1_7_refined.pdb                        PZ16a_RW3DAS1_7_solution.pdb                       SUCCESS         98.066                        
-PZ16a_RW3DAS1_8_refined.pdb                        PZ16a_RW3DAS1_8_solution.pdb                       SUCCESS         98.801                        
-PZ16a_RW3DAS1_9_refined.pdb                        PZ16a_RW3DAS1_9_solution.pdb                       SUCCESS         47.477                        
-PZ16a_RW3DAS2_10_refined.pdb                       PZ16a_RW3DAS2_10_solution.pdb                      SUCCESS         98.901                        
-PZ16a_RW3DAS2_1_refined.pdb                        PZ16a_RW3DAS2_1_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_2_refined.pdb                        PZ16a_RW3DAS2_2_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_3_refined.pdb                        PZ16a_RW3DAS2_3_solution.pdb                       SUCCESS         40.32                         
-PZ16a_RW3DAS2_4_refined.pdb                        PZ16a_RW3DAS2_4_solution.pdb                       SUCCESS         45.886                        
-PZ16a_RW3DAS2_5_refined.pdb                        PZ16a_RW3DAS2_5_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_6_refined.pdb                        PZ16a_RW3DAS2_6_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_7_refined.pdb                        PZ16a_RW3DAS2_7_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_8_refined.pdb                        PZ16a_RW3DAS2_8_solution.pdb                       SUCCESS         100.0                         
-PZ16a_RW3DAS2_9_refined.pdb                        PZ16a_RW3DAS2_9_solution.pdb                       SUCCESS         98.166                        
-PZ16a_simRNAAS1_1_refined.pdb                      PZ16a_simRNAAS1_1_solution.pdb                     SUCCESS         95.875                        
-PZ16a_simRNAAS1_2_refined.pdb                      PZ16a_simRNAAS1_2_solution.pdb                     SUCCESS         82.295                        
-PZ16a_simRNAAS1_3_refined.pdb                      PZ16a_simRNAAS1_3_solution.pdb                     SUCCESS         28.045                        
-PZ16a_simRNAAS2_1_refined.pdb                      PZ16a_simRNAAS2_1_solution.pdb                     SUCCESS         98.459                        
-PZ16a_simRNAAS2_2_refined.pdb                      PZ16a_simRNAAS2_2_solution.pdb                     SUCCESS         87.533                        
-PZ16a_simRNAAS2_3_refined.pdb                      PZ16a_simRNAAS2_3_solution.pdb                     SUCCESS         96.874                        
-PZ16a_Szachniuk_10_refined.pdb                     PZ16a_Szachniuk_10_solution.pdb                    SUCCESS         100.0                         
-PZ16a_Szachniuk_1_refined.pdb                      PZ16a_Szachniuk_1_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_2_refined.pdb                      PZ16a_Szachniuk_2_solution.pdb                     SUCCESS         93.121                        
-PZ16a_Szachniuk_3_refined.pdb                      PZ16a_Szachniuk_3_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_4_refined.pdb                      PZ16a_Szachniuk_4_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_5_refined.pdb                      PZ16a_Szachniuk_5_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_6_refined.pdb                      PZ16a_Szachniuk_6_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_7_refined.pdb                      PZ16a_Szachniuk_7_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_8_refined.pdb                      PZ16a_Szachniuk_8_solution.pdb                     SUCCESS         100.0                         
-PZ16a_Szachniuk_9_refined.pdb                      PZ16a_Szachniuk_9_solution.pdb                     SUCCESS         100.0                         
+Processed 83 / 83 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNAAS2_10                                        PZ16a_3dRNAAS2_10_refined.pdb                      PZ16a_3dRNAAS2_10_solution.pdb                     33.975       46.076       85.494       99.899      
+3dRNAAS2_1                                         PZ16a_3dRNAAS2_1_refined.pdb                       PZ16a_3dRNAAS2_1_solution.pdb                      34.354       42.001       45.805       99.946      
+3dRNAAS2_2                                         PZ16a_3dRNAAS2_2_refined.pdb                       PZ16a_3dRNAAS2_2_solution.pdb                      33.612       44.011       74.383       100.000     
+3dRNAAS2_3                                         PZ16a_3dRNAAS2_3_refined.pdb                       PZ16a_3dRNAAS2_3_solution.pdb                      33.612       44.011       74.383       100.000     
+3dRNAAS2_4                                         PZ16a_3dRNAAS2_4_refined.pdb                       PZ16a_3dRNAAS2_4_solution.pdb                      34.671       42.898       50.553       98.539      
+3dRNAAS2_5                                         PZ16a_3dRNAAS2_5_refined.pdb                       PZ16a_3dRNAAS2_5_solution.pdb                      34.230       44.344       79.007       99.142      
+3dRNAAS2_6                                         PZ16a_3dRNAAS2_6_refined.pdb                       PZ16a_3dRNAAS2_6_solution.pdb                      92.995       100.000      100.000      100.000     
+3dRNAAS2_7                                         PZ16a_3dRNAAS2_7_refined.pdb                       PZ16a_3dRNAAS2_7_solution.pdb                      41.019       96.265       100.000      100.000     
+3dRNAAS2_8                                         PZ16a_3dRNAAS2_8_refined.pdb                       PZ16a_3dRNAAS2_8_solution.pdb                      41.019       96.265       100.000      100.000     
+3dRNAAS2_9                                         PZ16a_3dRNAAS2_9_refined.pdb                       PZ16a_3dRNAAS2_9_solution.pdb                      33.975       46.076       85.494       99.899      
+Chen_10                                            PZ16a_Chen_10_refined.pdb                          PZ16a_Chen_10_solution.pdb                         2.273        4.253        5.946        11.258      
+Chen_1                                             PZ16a_Chen_1_refined.pdb                           PZ16a_Chen_1_solution.pdb                          100.000      100.000      100.000      100.000     
+Chen_3                                             PZ16a_Chen_3_refined.pdb                           PZ16a_Chen_3_solution.pdb                          12.364       22.647       29.034       100.000     
+Chen_4                                             PZ16a_Chen_4_refined.pdb                           PZ16a_Chen_4_solution.pdb                          12.650       23.622       33.372       94.209      
+Chen_6                                             PZ16a_Chen_6_refined.pdb                           PZ16a_Chen_6_solution.pdb                          1.910        2.977        4.229        11.436      
+Chen_7                                             PZ16a_Chen_7_refined.pdb                           PZ16a_Chen_7_solution.pdb                          1.647        2.598        3.650        9.642       
+Chen_8                                             PZ16a_Chen_8_refined.pdb                           PZ16a_Chen_8_solution.pdb                          1.678        2.760        3.642        11.946      
+Chen_9                                             PZ16a_Chen_9_refined.pdb                           PZ16a_Chen_9_solution.pdb                          1.972        3.425        4.508        11.807      
+Lee_10                                             PZ16a_Lee_10_refined.pdb                           PZ16a_Lee_10_solution.pdb                          11.436       25.663       42.743       100.000     
+Lee_1                                              PZ16a_Lee_1_refined.pdb                            PZ16a_Lee_1_solution.pdb                           15.209       32.970       92.755       100.000     
+Lee_2                                              PZ16a_Lee_2_refined.pdb                            PZ16a_Lee_2_solution.pdb                           16.268       90.002       99.528       100.000     
+Lee_3                                              PZ16a_Lee_3_refined.pdb                            PZ16a_Lee_3_solution.pdb                           14.676       26.343       97.719       100.000     
+Lee_4                                              PZ16a_Lee_4_refined.pdb                            PZ16a_Lee_4_solution.pdb                           15.603       65.113       99.389       100.000     
+Lee_5                                              PZ16a_Lee_5_refined.pdb                            PZ16a_Lee_5_solution.pdb                           15.433       27.929       52.254       100.000     
+Lee_6                                              PZ16a_Lee_6_refined.pdb                            PZ16a_Lee_6_solution.pdb                           13.833       31.787       97.100       100.000     
+Lee_7                                              PZ16a_Lee_7_refined.pdb                            PZ16a_Lee_7_solution.pdb                           15.820       32.498       98.438       100.000     
+Lee_8                                              PZ16a_Lee_8_refined.pdb                            PZ16a_Lee_8_solution.pdb                           12.232       22.145       35.174       100.000     
+Lee_9                                              PZ16a_Lee_9_refined.pdb                            PZ16a_Lee_9_solution.pdb                           11.374       22.787       30.248       61.966      
+RNAComposerAS1_1                                   PZ16a_RNAComposerAS1_1_refined.pdb                 PZ16a_RNAComposerAS1_1_solution.pdb                47.097       100.000      100.000      100.000     
+RNAComposerAS1_2                                   PZ16a_RNAComposerAS1_2_refined.pdb                 PZ16a_RNAComposerAS1_2_solution.pdb                46.269       100.000      100.000      100.000     
+RNAComposerAS1_3                                   PZ16a_RNAComposerAS1_3_refined.pdb                 PZ16a_RNAComposerAS1_3_solution.pdb                99.768       100.000      100.000      100.000     
+RNAComposerAS1_4                                   PZ16a_RNAComposerAS1_4_refined.pdb                 PZ16a_RNAComposerAS1_4_solution.pdb                53.383       100.000      100.000      100.000     
+RNAComposerAS1_5                                   PZ16a_RNAComposerAS1_5_refined.pdb                 PZ16a_RNAComposerAS1_5_solution.pdb                50.909       100.000      100.000      100.000     
+RNAComposerAS1_6                                   PZ16a_RNAComposerAS1_6_refined.pdb                 PZ16a_RNAComposerAS1_6_solution.pdb                63.643       100.000      100.000      100.000     
+RNAComposerAS1_7                                   PZ16a_RNAComposerAS1_7_refined.pdb                 PZ16a_RNAComposerAS1_7_solution.pdb                45.040       100.000      100.000      100.000     
+RNAComposerAS1_8                                   PZ16a_RNAComposerAS1_8_refined.pdb                 PZ16a_RNAComposerAS1_8_solution.pdb                78.412       100.000      100.000      100.000     
+RNAComposerAS1_9                                   PZ16a_RNAComposerAS1_9_refined.pdb                 PZ16a_RNAComposerAS1_9_solution.pdb                29.599       100.000      100.000      100.000     
+RNAComposerAS2_10                                  PZ16a_RNAComposerAS2_10_refined.pdb                PZ16a_RNAComposerAS2_10_solution.pdb               75.505       100.000      100.000      100.000     
+RNAComposerAS2_1                                   PZ16a_RNAComposerAS2_1_refined.pdb                 PZ16a_RNAComposerAS2_1_solution.pdb                40.532       100.000      100.000      100.000     
+RNAComposerAS2_2                                   PZ16a_RNAComposerAS2_2_refined.pdb                 PZ16a_RNAComposerAS2_2_solution.pdb                41.599       79.541       92.546       100.000     
+RNAComposerAS2_3                                   PZ16a_RNAComposerAS2_3_refined.pdb                 PZ16a_RNAComposerAS2_3_solution.pdb                45.975       100.000      100.000      100.000     
+RNAComposerAS2_4                                   PZ16a_RNAComposerAS2_4_refined.pdb                 PZ16a_RNAComposerAS2_4_solution.pdb                43.439       100.000      100.000      100.000     
+RNAComposerAS2_5                                   PZ16a_RNAComposerAS2_5_refined.pdb                 PZ16a_RNAComposerAS2_5_solution.pdb                49.084       100.000      100.000      100.000     
+RNAComposerAS2_6                                   PZ16a_RNAComposerAS2_6_refined.pdb                 PZ16a_RNAComposerAS2_6_solution.pdb                44.220       100.000      100.000      100.000     
+RNAComposerAS2_7                                   PZ16a_RNAComposerAS2_7_refined.pdb                 PZ16a_RNAComposerAS2_7_solution.pdb                45.287       100.000      100.000      100.000     
+RNAComposerAS2_8                                   PZ16a_RNAComposerAS2_8_refined.pdb                 PZ16a_RNAComposerAS2_8_solution.pdb                98.330       100.000      100.000      100.000     
+RNAComposerAS2_9                                   PZ16a_RNAComposerAS2_9_refined.pdb                 PZ16a_RNAComposerAS2_9_solution.pdb                43.926       100.000      100.000      100.000     
+RW3DAS1_10                                         PZ16a_RW3DAS1_10_refined.pdb                       PZ16a_RW3DAS1_10_solution.pdb                      15.712       31.006       98.260       100.000     
+RW3DAS1_1                                          PZ16a_RW3DAS1_1_refined.pdb                        PZ16a_RW3DAS1_1_solution.pdb                       14.165       27.766       54.349       100.000     
+RW3DAS1_2                                          PZ16a_RW3DAS1_2_refined.pdb                        PZ16a_RW3DAS1_2_solution.pdb                       13.887       29.753       97.348       100.000     
+RW3DAS1_3                                          PZ16a_RW3DAS1_3_refined.pdb                        PZ16a_RW3DAS1_3_solution.pdb                       13.067       27.673       97.433       100.000     
+RW3DAS1_4                                          PZ16a_RW3DAS1_4_refined.pdb                        PZ16a_RW3DAS1_4_solution.pdb                       13.176       27.488       94.425       100.000     
+RW3DAS1_5                                          PZ16a_RW3DAS1_5_refined.pdb                        PZ16a_RW3DAS1_5_solution.pdb                       15.062       30.774       91.178       100.000     
+RW3DAS1_6                                          PZ16a_RW3DAS1_6_refined.pdb                        PZ16a_RW3DAS1_6_solution.pdb                       11.351       20.088       43.578       100.000     
+RW3DAS1_7                                          PZ16a_RW3DAS1_7_refined.pdb                        PZ16a_RW3DAS1_7_solution.pdb                       15.356       28.508       97.905       100.000     
+RW3DAS1_8                                          PZ16a_RW3DAS1_8_refined.pdb                        PZ16a_RW3DAS1_8_solution.pdb                       15.557       31.393       98.701       100.000     
+RW3DAS1_9                                          PZ16a_RW3DAS1_9_refined.pdb                        PZ16a_RW3DAS1_9_solution.pdb                       15.526       29.305       51.442       100.000     
+RW3DAS2_10                                         PZ16a_RW3DAS2_10_refined.pdb                       PZ16a_RW3DAS2_10_solution.pdb                      16.508       33.078       98.809       100.000     
+RW3DAS2_1                                          PZ16a_RW3DAS2_1_refined.pdb                        PZ16a_RW3DAS2_1_solution.pdb                       99.691       100.000      100.000      100.000     
+RW3DAS2_2                                          PZ16a_RW3DAS2_2_refined.pdb                        PZ16a_RW3DAS2_2_solution.pdb                       21.983       41.761       100.000      100.000     
+RW3DAS2_3                                          PZ16a_RW3DAS2_3_refined.pdb                        PZ16a_RW3DAS2_3_solution.pdb                       14.080       27.836       43.687       100.000     
+RW3DAS2_4                                          PZ16a_RW3DAS2_4_refined.pdb                        PZ16a_RW3DAS2_4_solution.pdb                       16.585       34.864       49.718       100.000     
+RW3DAS2_5                                          PZ16a_RW3DAS2_5_refined.pdb                        PZ16a_RW3DAS2_5_solution.pdb                       21.171       38.243       100.000      100.000     
+RW3DAS2_6                                          PZ16a_RW3DAS2_6_refined.pdb                        PZ16a_RW3DAS2_6_solution.pdb                       99.412       100.000      100.000      100.000     
+RW3DAS2_7                                          PZ16a_RW3DAS2_7_refined.pdb                        PZ16a_RW3DAS2_7_solution.pdb                       99.412       100.000      100.000      100.000     
+RW3DAS2_8                                          PZ16a_RW3DAS2_8_refined.pdb                        PZ16a_RW3DAS2_8_solution.pdb                       99.513       100.000      100.000      100.000     
+RW3DAS2_9                                          PZ16a_RW3DAS2_9_refined.pdb                        PZ16a_RW3DAS2_9_solution.pdb                       15.828       30.921       98.013       100.000     
+simRNAAS1_1                                        PZ16a_simRNAAS1_1_refined.pdb                      PZ16a_simRNAAS1_1_solution.pdb                     12.286       26.769       95.531       100.000     
+simRNAAS1_2                                        PZ16a_simRNAAS1_2_refined.pdb                      PZ16a_simRNAAS1_2_solution.pdb                     13.052       24.542       80.817       100.000     
+simRNAAS1_3                                        PZ16a_simRNAAS1_3_refined.pdb                      PZ16a_simRNAAS1_3_solution.pdb                     8.467        17.846       30.387       100.000     
+simRNAAS2_1                                        PZ16a_simRNAAS2_1_refined.pdb                      PZ16a_simRNAAS2_1_solution.pdb                     15.781       28.810       98.330       100.000     
+simRNAAS2_2                                        PZ16a_simRNAAS2_2_refined.pdb                      PZ16a_simRNAAS2_2_solution.pdb                     13.902       24.488       86.492       100.000     
+simRNAAS2_3                                        PZ16a_simRNAAS2_3_refined.pdb                      PZ16a_simRNAAS2_3_solution.pdb                     13.346       29.173       96.613       100.000     
+Szachniuk_10                                       PZ16a_Szachniuk_10_refined.pdb                     PZ16a_Szachniuk_10_solution.pdb                    75.505       100.000      100.000      100.000     
+Szachniuk_1                                        PZ16a_Szachniuk_1_refined.pdb                      PZ16a_Szachniuk_1_solution.pdb                     40.532       100.000      100.000      100.000     
+Szachniuk_2                                        PZ16a_Szachniuk_2_refined.pdb                      PZ16a_Szachniuk_2_solution.pdb                     41.599       79.541       92.546       100.000     
+Szachniuk_3                                        PZ16a_Szachniuk_3_refined.pdb                      PZ16a_Szachniuk_3_solution.pdb                     45.975       100.000      100.000      100.000     
+Szachniuk_4                                        PZ16a_Szachniuk_4_refined.pdb                      PZ16a_Szachniuk_4_solution.pdb                     43.439       100.000      100.000      100.000     
+Szachniuk_5                                        PZ16a_Szachniuk_5_refined.pdb                      PZ16a_Szachniuk_5_solution.pdb                     49.084       100.000      100.000      100.000     
+Szachniuk_6                                        PZ16a_Szachniuk_6_refined.pdb                      PZ16a_Szachniuk_6_solution.pdb                     44.220       100.000      100.000      100.000     
+Szachniuk_7                                        PZ16a_Szachniuk_7_refined.pdb                      PZ16a_Szachniuk_7_solution.pdb                     45.287       100.000      100.000      100.000     
+Szachniuk_8                                        PZ16a_Szachniuk_8_refined.pdb                      PZ16a_Szachniuk_8_solution.pdb                     98.330       100.000      100.000      100.000     
+Szachniuk_9                                        PZ16a_Szachniuk_9_refined.pdb                      PZ16a_Szachniuk_9_solution.pdb                     43.926       100.000      100.000      100.000     
+

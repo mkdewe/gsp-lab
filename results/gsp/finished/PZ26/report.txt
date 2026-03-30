@@ -1,72 +1,75 @@
 Report for set: PZ26
-Processed 67 / 67 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ26_Adamiak_1_refined.pdb                         PZ26_Adamiak_1_solution.pdb                        SUCCESS         41.427                        
-PZ26_Adamiak_2_refined.pdb                         PZ26_Adamiak_2_solution.pdb                        SUCCESS         41.614                        
-PZ26_Adamiak_3_refined.pdb                         PZ26_Adamiak_3_solution.pdb                        SUCCESS         44.08                         
-PZ26_Adamiak_4_refined.pdb                         PZ26_Adamiak_4_solution.pdb                        SUCCESS         41.14                         
-PZ26_Bujnicki_1_refined.pdb                        PZ26_Bujnicki_1_solution.pdb                       SUCCESS         47.685                        
-PZ26_Bujnicki_2_refined.pdb                        PZ26_Bujnicki_2_solution.pdb                       SUCCESS         48.103                        
-PZ26_Bujnicki_3_refined.pdb                        PZ26_Bujnicki_3_solution.pdb                       SUCCESS         46.588                        
-PZ26_Bujnicki_4_refined.pdb                        PZ26_Bujnicki_4_solution.pdb                       SUCCESS         47.365                        
-PZ26_Bujnicki_5_refined.pdb                        PZ26_Bujnicki_5_solution.pdb                       SUCCESS         45.558                        
-PZ26_Chen_10_refined.pdb                           PZ26_Chen_10_solution.pdb                          SUCCESS         40.569                        
-PZ26_Chen_1_refined.pdb                            PZ26_Chen_1_solution.pdb                           SUCCESS         40.805                        
-PZ26_Chen_2_refined.pdb                            PZ26_Chen_2_solution.pdb                           SUCCESS         44.695                        
-PZ26_Chen_3_refined.pdb                            PZ26_Chen_3_solution.pdb                           SUCCESS         39.25                         
-PZ26_Chen_4_refined.pdb                            PZ26_Chen_4_solution.pdb                           SUCCESS         43.913                        
-PZ26_Chen_5_refined.pdb                            PZ26_Chen_5_solution.pdb                           SUCCESS         43.765                        
-PZ26_Chen_6_refined.pdb                            PZ26_Chen_6_solution.pdb                           SUCCESS         40.124                        
-PZ26_Chen_7_refined.pdb                            PZ26_Chen_7_solution.pdb                           SUCCESS         40.562                        
-PZ26_Chen_8_refined.pdb                            PZ26_Chen_8_solution.pdb                           SUCCESS         42.051                        
-PZ26_Chen_9_refined.pdb                            PZ26_Chen_9_solution.pdb                           SUCCESS         40.187                        
-PZ26_Das_10_refined.pdb                            PZ26_Das_10_solution.pdb                           SUCCESS         46.352                        
-PZ26_Das_1_refined.pdb                             PZ26_Das_1_solution.pdb                            SUCCESS         48.181                        
-PZ26_Das_2_refined.pdb                             PZ26_Das_2_solution.pdb                            SUCCESS         48.828                        
-PZ26_Das_3_refined.pdb                             PZ26_Das_3_solution.pdb                            SUCCESS         48.413                        
-PZ26_Das_4_refined.pdb                             PZ26_Das_4_solution.pdb                            SUCCESS         48.192                        
-PZ26_Das_5_refined.pdb                             PZ26_Das_5_solution.pdb                            SUCCESS         48.075                        
-PZ26_Das_6_refined.pdb                             PZ26_Das_6_solution.pdb                            SUCCESS         47.547                        
-PZ26_Das_7_refined.pdb                             PZ26_Das_7_solution.pdb                            SUCCESS         46.999                        
-PZ26_Das_8_refined.pdb                             PZ26_Das_8_solution.pdb                            SUCCESS         47.42                         
-PZ26_Das_9_refined.pdb                             PZ26_Das_9_solution.pdb                            SUCCESS         47.606                        
-PZ26_Ding_1_refined.pdb                            PZ26_Ding_1_solution.pdb                           SUCCESS         20.956                        
-PZ26_Ding_2_refined.pdb                            PZ26_Ding_2_solution.pdb                           SUCCESS         14.654                        
-PZ26_Ding_3_refined.pdb                            PZ26_Ding_3_solution.pdb                           SUCCESS         20.265                        
-PZ26_FARFAR2_10_refined.pdb                        PZ26_FARFAR2_10_solution.pdb                       SUCCESS         48.413                        
-PZ26_FARFAR2_1_refined.pdb                         PZ26_FARFAR2_1_solution.pdb                        SUCCESS         48.828                        
-PZ26_FARFAR2_2_refined.pdb                         PZ26_FARFAR2_2_solution.pdb                        SUCCESS         48.192                        
-PZ26_FARFAR2_3_refined.pdb                         PZ26_FARFAR2_3_solution.pdb                        SUCCESS         48.075                        
-PZ26_FARFAR2_4_refined.pdb                         PZ26_FARFAR2_4_solution.pdb                        SUCCESS         47.547                        
-PZ26_FARFAR2_5_refined.pdb                         PZ26_FARFAR2_5_solution.pdb                        SUCCESS         48.444                        
-PZ26_FARFAR2_6_refined.pdb                         PZ26_FARFAR2_6_solution.pdb                        SUCCESS         46.999                        
-PZ26_FARFAR2_7_refined.pdb                         PZ26_FARFAR2_7_solution.pdb                        SUCCESS         47.42                         
-PZ26_FARFAR2_8_refined.pdb                         PZ26_FARFAR2_8_solution.pdb                        SUCCESS         47.409                        
-PZ26_FARFAR2_9_refined.pdb                         PZ26_FARFAR2_9_solution.pdb                        SUCCESS         46.361                        
-PZ26_iFoldRNA_1_refined.pdb                        PZ26_iFoldRNA_1_solution.pdb                       SUCCESS         18.467                        
-PZ26_iFoldRNA_2_refined.pdb                        PZ26_iFoldRNA_2_solution.pdb                       SUCCESS         15.967                        
-PZ26_RNAComposer_1_refined.pdb                     PZ26_RNAComposer_1_solution.pdb                    SUCCESS         44.052                        
-PZ26_RNAComposer_2_refined.pdb                     PZ26_RNAComposer_2_solution.pdb                    SUCCESS         43.301                        
-PZ26_RNAComposer_3_refined.pdb                     PZ26_RNAComposer_3_solution.pdb                    SUCCESS         43.834                        
-PZ26_SimRNA_1_refined.pdb                          PZ26_SimRNA_1_solution.pdb                         SUCCESS         19.795                        
-PZ26_SimRNA_2_refined.pdb                          PZ26_SimRNA_2_solution.pdb                         SUCCESS         20.27                         
-PZ26_SimRNA_3_refined.pdb                          PZ26_SimRNA_3_solution.pdb                         SUCCESS         19.354                        
-PZ26_SimRNA_4_refined.pdb                          PZ26_SimRNA_4_solution.pdb                         SUCCESS         12.299                        
-PZ26_SimRNA_5_refined.pdb                          PZ26_SimRNA_5_solution.pdb                         SUCCESS         21.395                        
-PZ26_TFN_10_refined.pdb                            PZ26_TFN_10_solution.pdb                           SUCCESS         48.245                        
-PZ26_TFN_1_refined.pdb                             PZ26_TFN_1_solution.pdb                            SUCCESS         47.547                        
-PZ26_TFN_2_refined.pdb                             PZ26_TFN_2_solution.pdb                            SUCCESS         48.496                        
-PZ26_TFN_3_refined.pdb                             PZ26_TFN_3_solution.pdb                            SUCCESS         48.61                         
-PZ26_TFN_4_refined.pdb                             PZ26_TFN_4_solution.pdb                            SUCCESS         47.593                        
-PZ26_TFN_5_refined.pdb                             PZ26_TFN_5_solution.pdb                            SUCCESS         47.11                         
-PZ26_TFN_6_refined.pdb                             PZ26_TFN_6_solution.pdb                            SUCCESS         48.085                        
-PZ26_TFN_7_refined.pdb                             PZ26_TFN_7_solution.pdb                            SUCCESS         48.485                        
-PZ26_TFN_8_refined.pdb                             PZ26_TFN_8_solution.pdb                            SUCCESS         48.29                         
-PZ26_TFN_9_refined.pdb                             PZ26_TFN_9_solution.pdb                            SUCCESS         47.338                        
-PZ26_Xiao_1_refined.pdb                            PZ26_Xiao_1_solution.pdb                           SUCCESS         34.168                        
-PZ26_Xiao_2_refined.pdb                            PZ26_Xiao_2_solution.pdb                           SUCCESS         31.183                        
-PZ26_Xiao_3_refined.pdb                            PZ26_Xiao_3_solution.pdb                           SUCCESS         36.855                        
-PZ26_Xiao_4_refined.pdb                            PZ26_Xiao_4_solution.pdb                           SUCCESS         31.226                        
-PZ26_Xiao_5_refined.pdb                            PZ26_Xiao_5_solution.pdb                           SUCCESS         36.991                        
+Processed 67 / 67 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          PZ26_Adamiak_1_refined.pdb                         PZ26_Adamiak_1_solution.pdb                        20.806       42.141       44.887       51.972      
+Adamiak_2                                          PZ26_Adamiak_2_refined.pdb                         PZ26_Adamiak_2_solution.pdb                        22.004       42.478       45.089       51.715      
+Adamiak_3                                          PZ26_Adamiak_3_refined.pdb                         PZ26_Adamiak_3_solution.pdb                        37.191       45.059       47.761       52.592      
+Adamiak_4                                          PZ26_Adamiak_4_refined.pdb                         PZ26_Adamiak_4_solution.pdb                        23.291       42.260       44.575       51.704      
+Bujnicki_1                                         PZ26_Bujnicki_1_refined.pdb                        PZ26_Bujnicki_1_solution.pdb                       41.352       49.510       51.667       58.409      
+Bujnicki_2                                         PZ26_Bujnicki_2_refined.pdb                        PZ26_Bujnicki_2_solution.pdb                       42.859       50.137       52.120       59.361      
+Bujnicki_3                                         PZ26_Bujnicki_3_refined.pdb                        PZ26_Bujnicki_3_solution.pdb                       37.752       48.102       50.479       56.393      
+Bujnicki_4                                         PZ26_Bujnicki_4_refined.pdb                        PZ26_Bujnicki_4_solution.pdb                       39.444       48.669       51.320       57.045      
+Bujnicki_5                                         PZ26_Bujnicki_5_refined.pdb                        PZ26_Bujnicki_5_solution.pdb                       37.238       46.478       49.362       55.693      
+Chen_10                                            PZ26_Chen_10_refined.pdb                           PZ26_Chen_10_solution.pdb                          28.500       41.951       43.957       50.621      
+Chen_1                                             PZ26_Chen_1_refined.pdb                            PZ26_Chen_1_solution.pdb                           34.887       41.803       44.212       50.270      
+Chen_2                                             PZ26_Chen_2_refined.pdb                            PZ26_Chen_2_solution.pdb                           36.282       46.383       48.428       52.781      
+Chen_3                                             PZ26_Chen_3_refined.pdb                            PZ26_Chen_3_solution.pdb                           34.639       40.210       42.528       47.183      
+Chen_4                                             PZ26_Chen_4_refined.pdb                            PZ26_Chen_4_solution.pdb                           35.436       44.175       47.580       53.583      
+Chen_5                                             PZ26_Chen_5_refined.pdb                            PZ26_Chen_5_solution.pdb                           35.740       44.402       47.419       53.034      
+Chen_6                                             PZ26_Chen_6_refined.pdb                            PZ26_Chen_6_solution.pdb                           27.956       40.556       43.475       50.517      
+Chen_7                                             PZ26_Chen_7_refined.pdb                            PZ26_Chen_7_solution.pdb                           27.326       41.532       43.949       49.925      
+Chen_8                                             PZ26_Chen_8_refined.pdb                            PZ26_Chen_8_solution.pdb                           27.994       42.260       45.563       51.124      
+Chen_9                                             PZ26_Chen_9_refined.pdb                            PZ26_Chen_9_solution.pdb                           27.705       41.455       43.543       50.120      
+Das_10                                             PZ26_Das_10_refined.pdb                            PZ26_Das_10_solution.pdb                           34.551       48.659       50.223       54.635      
+Das_1                                              PZ26_Das_1_refined.pdb                             PZ26_Das_1_solution.pdb                            34.590       49.958       52.205       59.387      
+Das_2                                              PZ26_Das_2_refined.pdb                             PZ26_Das_2_solution.pdb                            36.013       51.126       52.905       61.039      
+Das_3                                              PZ26_Das_3_refined.pdb                             PZ26_Das_3_solution.pdb                            34.657       50.451       52.455       60.393      
+Das_4                                              PZ26_Das_4_refined.pdb                             PZ26_Das_4_solution.pdb                            35.370       50.189       52.216       59.096      
+Das_5                                              PZ26_Das_5_refined.pdb                             PZ26_Das_5_solution.pdb                            34.623       49.957       52.089       59.399      
+Das_6                                              PZ26_Das_6_refined.pdb                             PZ26_Das_6_solution.pdb                            34.778       49.690       51.518       58.091      
+Das_7                                              PZ26_Das_7_refined.pdb                             PZ26_Das_7_solution.pdb                            35.322       49.295       50.923       55.881      
+Das_8                                              PZ26_Das_8_refined.pdb                             PZ26_Das_8_solution.pdb                            34.866       49.454       51.379       57.267      
+Das_9                                              PZ26_Das_9_refined.pdb                             PZ26_Das_9_solution.pdb                            32.406       48.579       51.582       58.799      
+Ding_1                                             PZ26_Ding_1_refined.pdb                            PZ26_Ding_1_solution.pdb                           9.573        19.097       22.706       54.456      
+Ding_2                                             PZ26_Ding_2_refined.pdb                            PZ26_Ding_2_solution.pdb                           7.146        13.559       15.878       28.099      
+Ding_3                                             PZ26_Ding_3_refined.pdb                            PZ26_Ding_3_solution.pdb                           10.260       19.354       21.958       32.764      
+FARFAR2_10                                         PZ26_FARFAR2_10_refined.pdb                        PZ26_FARFAR2_10_solution.pdb                       34.657       50.451       52.455       60.393      
+FARFAR2_1                                          PZ26_FARFAR2_1_refined.pdb                         PZ26_FARFAR2_1_solution.pdb                        36.013       51.126       52.905       61.039      
+FARFAR2_2                                          PZ26_FARFAR2_2_refined.pdb                         PZ26_FARFAR2_2_solution.pdb                        35.370       50.189       52.216       59.096      
+FARFAR2_3                                          PZ26_FARFAR2_3_refined.pdb                         PZ26_FARFAR2_3_solution.pdb                        34.623       49.957       52.089       59.399      
+FARFAR2_4                                          PZ26_FARFAR2_4_refined.pdb                         PZ26_FARFAR2_4_solution.pdb                        34.778       49.690       51.518       58.091      
+FARFAR2_5                                          PZ26_FARFAR2_5_refined.pdb                         PZ26_FARFAR2_5_solution.pdb                        34.903       50.548       52.489       59.936      
+FARFAR2_6                                          PZ26_FARFAR2_6_refined.pdb                         PZ26_FARFAR2_6_solution.pdb                        35.322       49.295       50.923       55.881      
+FARFAR2_7                                          PZ26_FARFAR2_7_refined.pdb                         PZ26_FARFAR2_7_solution.pdb                        34.866       49.454       51.379       57.267      
+FARFAR2_8                                          PZ26_FARFAR2_8_refined.pdb                         PZ26_FARFAR2_8_solution.pdb                        34.506       49.435       51.368       57.623      
+FARFAR2_9                                          PZ26_FARFAR2_9_refined.pdb                         PZ26_FARFAR2_9_solution.pdb                        34.961       48.545       50.233       55.010      
+iFoldRNA_1                                         PZ26_iFoldRNA_1_refined.pdb                        PZ26_iFoldRNA_1_solution.pdb                       9.539        16.679       20.010       27.591      
+iFoldRNA_2                                         PZ26_iFoldRNA_2_refined.pdb                        PZ26_iFoldRNA_2_solution.pdb                       9.825        15.160       17.300       24.869      
+RNAComposer_1                                      PZ26_RNAComposer_1_refined.pdb                     PZ26_RNAComposer_1_solution.pdb                    36.676       45.616       47.731       51.609      
+RNAComposer_2                                      PZ26_RNAComposer_2_refined.pdb                     PZ26_RNAComposer_2_solution.pdb                    28.926       44.750       46.917       51.225      
+RNAComposer_3                                      PZ26_RNAComposer_3_refined.pdb                     PZ26_RNAComposer_3_solution.pdb                    34.545       45.386       47.495       52.192      
+SimRNA_1                                           PZ26_SimRNA_1_refined.pdb                          PZ26_SimRNA_1_solution.pdb                         9.452        18.701       21.449       30.079      
+SimRNA_2                                           PZ26_SimRNA_2_refined.pdb                          PZ26_SimRNA_2_solution.pdb                         12.269       19.203       21.962       29.345      
+SimRNA_3                                           PZ26_SimRNA_3_refined.pdb                          PZ26_SimRNA_3_solution.pdb                         10.067       17.980       20.970       29.094      
+SimRNA_4                                           PZ26_SimRNA_4_refined.pdb                          PZ26_SimRNA_4_solution.pdb                         7.297        10.846       13.326       20.519      
+SimRNA_5                                           PZ26_SimRNA_5_refined.pdb                          PZ26_SimRNA_5_solution.pdb                         11.988       19.868       23.181       33.477      
+TFN_10                                             PZ26_TFN_10_refined.pdb                            PZ26_TFN_10_solution.pdb                           35.743       50.572       52.274       58.728      
+TFN_1                                              PZ26_TFN_1_refined.pdb                             PZ26_TFN_1_solution.pdb                            35.405       49.709       51.518       57.848      
+TFN_2                                              PZ26_TFN_2_refined.pdb                             PZ26_TFN_2_solution.pdb                            34.591       50.291       52.545       60.387      
+TFN_3                                              PZ26_TFN_3_refined.pdb                             PZ26_TFN_3_solution.pdb                            36.551       50.491       52.669       59.931      
+TFN_4                                              PZ26_TFN_4_refined.pdb                             PZ26_TFN_4_solution.pdb                            34.458       49.595       51.567       58.142      
+TFN_5                                              PZ26_TFN_5_refined.pdb                             PZ26_TFN_5_solution.pdb                            34.358       49.334       51.044       56.522      
+TFN_6                                              PZ26_TFN_6_refined.pdb                             PZ26_TFN_6_solution.pdb                            35.672       50.273       52.101       58.466      
+TFN_7                                              PZ26_TFN_7_refined.pdb                             PZ26_TFN_7_solution.pdb                            36.467       50.808       52.534       60.525      
+TFN_8                                              PZ26_TFN_8_refined.pdb                             PZ26_TFN_8_solution.pdb                            35.399       50.453       52.322       59.353      
+TFN_9                                              PZ26_TFN_9_refined.pdb                             PZ26_TFN_9_solution.pdb                            35.243       49.582       51.291       57.148      
+Xiao_1                                             PZ26_Xiao_1_refined.pdb                            PZ26_Xiao_1_solution.pdb                           11.471       31.245       37.021       42.706      
+Xiao_2                                             PZ26_Xiao_2_refined.pdb                            PZ26_Xiao_2_solution.pdb                           10.630       29.139       33.787       38.365      
+Xiao_3                                             PZ26_Xiao_3_refined.pdb                            PZ26_Xiao_3_solution.pdb                           10.790       32.987       39.933       46.342      
+Xiao_4                                             PZ26_Xiao_4_refined.pdb                            PZ26_Xiao_4_solution.pdb                           10.596       28.820       33.833       38.515      
+Xiao_5                                             PZ26_Xiao_5_refined.pdb                            PZ26_Xiao_5_solution.pdb                           11.158       33.449       40.080       46.083      
+

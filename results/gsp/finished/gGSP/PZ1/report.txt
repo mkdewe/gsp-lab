@@ -1,0 +1,19 @@
+Report for set: PZ1
+Processed 14 / 14 models (missing solution for 0 models)
+========================================================================================================================
+Model                                              Solution                                           Status          Details                       
+------------------------------------------------------------------------------------------------------------------------
+1_bujnicki_1.pdb                                   1_solution_0.pdb                                   SUCCESS         72.38                         
+1_bujnicki_2.pdb                                   1_solution_0.pdb                                   SUCCESS         69.892                        
+1_bujnicki_3.pdb                                   1_solution_0.pdb                                   SUCCESS         84.368                        
+1_bujnicki_4.pdb                                   1_solution_0.pdb                                   SUCCESS         89.503                        
+1_bujnicki_5.pdb                                   1_solution_0.pdb                                   SUCCESS         70.332                        
+1_chen_1.pdb                                       1_solution_0.pdb                                   SUCCESS         99.874                        
+1_das_1.pdb                                        1_solution_0.pdb                                   SUCCESS         99.606                        
+1_das_2.pdb                                        1_solution_0.pdb                                   SUCCESS         99.786                        
+1_das_3.pdb                                        1_solution_0.pdb                                   SUCCESS         100.0                         
+1_das_4.pdb                                        1_solution_0.pdb                                   SUCCESS         99.598                        
+1_das_5.pdb                                        1_solution_0.pdb                                   SUCCESS         97.374                        
+1_dokholyan_1.pdb                                  1_solution_0.pdb                                   SUCCESS         43.462                        
+1_major_1.pdb                                      1_solution_0.pdb                                   SUCCESS         99.736                        
+1_santalucia_1_refined.pdb                         1_santalucia_1_solution.pdb                        SUCCESS         54.582                        

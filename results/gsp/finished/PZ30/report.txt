@@ -1,39 +1,42 @@
 Report for set: PZ30
-Processed 34 / 34 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ30_Bujnicki_1_refined.pdb                        PZ30_Bujnicki_1_solution.pdb                       SUCCESS         33.248                        
-PZ30_Bujnicki_2_refined.pdb                        PZ30_Bujnicki_2_solution.pdb                       SUCCESS         34.563                        
-PZ30_Bujnicki_3_refined.pdb                        PZ30_Bujnicki_3_solution.pdb                       SUCCESS         34.575                        
-PZ30_Bujnicki_4_refined.pdb                        PZ30_Bujnicki_4_solution.pdb                       SUCCESS         34.23                         
-PZ30_Bujnicki_5_refined.pdb                        PZ30_Bujnicki_5_solution.pdb                       SUCCESS         38.536                        
-PZ30_Chen_10_refined.pdb                           PZ30_Chen_10_solution.pdb                          SUCCESS         35.614                        
-PZ30_Chen_1_refined.pdb                            PZ30_Chen_1_solution.pdb                           SUCCESS         82.896                        
-PZ30_Chen_2_refined.pdb                            PZ30_Chen_2_solution.pdb                           SUCCESS         52.657                        
-PZ30_Chen_3_refined.pdb                            PZ30_Chen_3_solution.pdb                           SUCCESS         38.088                        
-PZ30_Chen_4_refined.pdb                            PZ30_Chen_4_solution.pdb                           SUCCESS         47.881                        
-PZ30_Chen_5_refined.pdb                            PZ30_Chen_5_solution.pdb                           SUCCESS         36.047                        
-PZ30_Chen_6_refined.pdb                            PZ30_Chen_6_solution.pdb                           SUCCESS         41.054                        
-PZ30_Chen_7_refined.pdb                            PZ30_Chen_7_solution.pdb                           SUCCESS         42.387                        
-PZ30_Chen_8_refined.pdb                            PZ30_Chen_8_solution.pdb                           SUCCESS         46.78                         
-PZ30_Chen_9_refined.pdb                            PZ30_Chen_9_solution.pdb                           SUCCESS         55.962                        
-PZ30_Ding_1_refined.pdb                            PZ30_Ding_1_solution.pdb                           SUCCESS         40.335                        
-PZ30_Ding_2_refined.pdb                            PZ30_Ding_2_solution.pdb                           SUCCESS         39.81                         
-PZ30_Ding_3_refined.pdb                            PZ30_Ding_3_solution.pdb                           SUCCESS         32.097                        
-PZ30_Ding_4_refined.pdb                            PZ30_Ding_4_solution.pdb                           SUCCESS         38.211                        
-PZ30_Ding_5_refined.pdb                            PZ30_Ding_5_solution.pdb                           SUCCESS         36.577                        
-PZ30_Ding_6_refined.pdb                            PZ30_Ding_6_solution.pdb                           SUCCESS         36.219                        
-PZ30_Ding_7_refined.pdb                            PZ30_Ding_7_solution.pdb                           SUCCESS         32.213                        
-PZ30_Ding_8_refined.pdb                            PZ30_Ding_8_solution.pdb                           SUCCESS         39.788                        
-PZ30_Nithin_1_refined.pdb                          PZ30_Nithin_1_solution.pdb                         SUCCESS         4.725                         
-PZ30_Szachniuk_1_refined.pdb                       PZ30_Szachniuk_1_solution.pdb                      SUCCESS         37.021                        
-PZ30_Szachniuk_2_refined.pdb                       PZ30_Szachniuk_2_solution.pdb                      SUCCESS         33.235                        
-PZ30_Szachniuk_3_refined.pdb                       PZ30_Szachniuk_3_solution.pdb                      SUCCESS         47.782                        
-PZ30_Szachniuk_4_refined.pdb                       PZ30_Szachniuk_4_solution.pdb                      SUCCESS         32.032                        
-PZ30_Szachniuk_5_refined.pdb                       PZ30_Szachniuk_5_solution.pdb                      SUCCESS         34.736                        
-PZ30_Xiao_1_refined.pdb                            PZ30_Xiao_1_solution.pdb                           SUCCESS         37.046                        
-PZ30_Xiao_2_refined.pdb                            PZ30_Xiao_2_solution.pdb                           SUCCESS         32.807                        
-PZ30_Xiao_3_refined.pdb                            PZ30_Xiao_3_solution.pdb                           SUCCESS         37.236                        
-PZ30_Xiao_4_refined.pdb                            PZ30_Xiao_4_solution.pdb                           SUCCESS         38.029                        
-PZ30_Xiao_5_refined.pdb                            PZ30_Xiao_5_solution.pdb                           SUCCESS         25.931                        
+Processed 34 / 34 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_1                                         PZ30_Bujnicki_1_refined.pdb                        PZ30_Bujnicki_1_solution.pdb                       11.443       26.878       36.025       56.732      
+Bujnicki_2                                         PZ30_Bujnicki_2_refined.pdb                        PZ30_Bujnicki_2_solution.pdb                       10.958       24.950       37.450       59.698      
+Bujnicki_3                                         PZ30_Bujnicki_3_refined.pdb                        PZ30_Bujnicki_3_solution.pdb                       10.363       25.297       37.462       56.613      
+Bujnicki_4                                         PZ30_Bujnicki_4_refined.pdb                        PZ30_Bujnicki_4_solution.pdb                       9.844        24.484       37.088       59.713      
+Bujnicki_5                                         PZ30_Bujnicki_5_refined.pdb                        PZ30_Bujnicki_5_solution.pdb                       11.934       32.893       41.754       61.140      
+Chen_10                                            PZ30_Chen_10_refined.pdb                           PZ30_Chen_10_solution.pdb                          6.877        23.591       38.588       65.349      
+Chen_1                                             PZ30_Chen_1_refined.pdb                            PZ30_Chen_1_solution.pdb                           7.584        41.324       89.819       100.000     
+Chen_2                                             PZ30_Chen_2_refined.pdb                            PZ30_Chen_2_solution.pdb                           8.999        34.311       57.054       82.044      
+Chen_3                                             PZ30_Chen_3_refined.pdb                            PZ30_Chen_3_solution.pdb                           7.732        27.334       41.268       67.585      
+Chen_4                                             PZ30_Chen_4_refined.pdb                            PZ30_Chen_4_solution.pdb                           7.596        35.391       51.879       78.157      
+Chen_5                                             PZ30_Chen_5_refined.pdb                            PZ30_Chen_5_solution.pdb                           6.819        22.724       39.057       63.939      
+Chen_6                                             PZ30_Chen_6_refined.pdb                            PZ30_Chen_6_solution.pdb                           7.987        32.626       44.482       63.475      
+Chen_7                                             PZ30_Chen_7_refined.pdb                            PZ30_Chen_7_solution.pdb                           6.918        31.332       45.927       62.516      
+Chen_8                                             PZ30_Chen_8_refined.pdb                            PZ30_Chen_8_solution.pdb                           8.011        27.822       50.687       64.017      
+Chen_9                                             PZ30_Chen_9_refined.pdb                            PZ30_Chen_9_solution.pdb                           8.018        34.653       60.635       99.816      
+Ding_1                                             PZ30_Ding_1_refined.pdb                            PZ30_Ding_1_solution.pdb                           9.528        29.036       43.703       81.473      
+Ding_2                                             PZ30_Ding_2_refined.pdb                            PZ30_Ding_2_solution.pdb                           8.521        30.361       43.135       84.575      
+Ding_3                                             PZ30_Ding_3_refined.pdb                            PZ30_Ding_3_solution.pdb                           6.892        20.093       34.777       78.854      
+Ding_4                                             PZ30_Ding_4_refined.pdb                            PZ30_Ding_4_solution.pdb                           6.732        25.623       41.402       82.862      
+Ding_5                                             PZ30_Ding_5_refined.pdb                            PZ30_Ding_5_solution.pdb                           6.758        22.421       39.632       82.517      
+Ding_6                                             PZ30_Ding_6_refined.pdb                            PZ30_Ding_6_solution.pdb                           7.406        27.205       39.244       79.868      
+Ding_7                                             PZ30_Ding_7_refined.pdb                            PZ30_Ding_7_solution.pdb                           7.008        22.804       34.903       77.023      
+Ding_8                                             PZ30_Ding_8_refined.pdb                            PZ30_Ding_8_solution.pdb                           7.732        24.394       43.111       87.192      
+Nithin_1                                           PZ30_Nithin_1_refined.pdb                          PZ30_Nithin_1_solution.pdb                         2.661        3.831        5.120        10.048      
+Szachniuk_1                                        PZ30_Szachniuk_1_refined.pdb                       PZ30_Szachniuk_1_solution.pdb                      9.149        31.580       40.113       61.419      
+Szachniuk_2                                        PZ30_Szachniuk_2_refined.pdb                       PZ30_Szachniuk_2_solution.pdb                      9.157        30.247       36.010       50.753      
+Szachniuk_3                                        PZ30_Szachniuk_3_refined.pdb                       PZ30_Szachniuk_3_solution.pdb                      10.713       39.273       51.772       92.089      
+Szachniuk_4                                        PZ30_Szachniuk_4_refined.pdb                       PZ30_Szachniuk_4_solution.pdb                      8.771        29.781       34.707       50.272      
+Szachniuk_5                                        PZ30_Szachniuk_5_refined.pdb                       PZ30_Szachniuk_5_solution.pdb                      9.516        30.271       37.637       57.096      
+Xiao_1                                             PZ30_Xiao_1_refined.pdb                            PZ30_Xiao_1_solution.pdb                           12.689       31.706       40.139       64.420      
+Xiao_2                                             PZ30_Xiao_2_refined.pdb                            PZ30_Xiao_2_solution.pdb                           8.926        28.242       35.546       58.763      
+Xiao_3                                             PZ30_Xiao_3_refined.pdb                            PZ30_Xiao_3_solution.pdb                           13.898       34.029       40.346       55.967      
+Xiao_4                                             PZ30_Xiao_4_refined.pdb                            PZ30_Xiao_4_solution.pdb                           13.259       32.318       41.205       60.691      
+Xiao_5                                             PZ30_Xiao_5_refined.pdb                            PZ30_Xiao_5_solution.pdb                           5.989        21.981       28.096       50.901      
+

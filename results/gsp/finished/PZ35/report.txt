@@ -1,56 +1,59 @@
 Report for set: PZ35
-Processed 51 / 51 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ35_Bujnicki_1_refined.pdb                        PZ35_Bujnicki_1_solution.pdb                       SUCCESS         24.883                        
-PZ35_Bujnicki_2_refined.pdb                        PZ35_Bujnicki_2_solution.pdb                       SUCCESS         24.808                        
-PZ35_Bujnicki_3_refined.pdb                        PZ35_Bujnicki_3_solution.pdb                       SUCCESS         63.011                        
-PZ35_Bujnicki_4_refined.pdb                        PZ35_Bujnicki_4_solution.pdb                       SUCCESS         21.611                        
-PZ35_Bujnicki_5_refined.pdb                        PZ35_Bujnicki_5_solution.pdb                       SUCCESS         20.061                        
-PZ35_Chen_10_refined.pdb                           PZ35_Chen_10_solution.pdb                          SUCCESS         26.62                         
-PZ35_Chen_1_refined.pdb                            PZ35_Chen_1_solution.pdb                           SUCCESS         60.839                        
-PZ35_Chen_2_refined.pdb                            PZ35_Chen_2_solution.pdb                           SUCCESS         60.789                        
-PZ35_Chen_3_refined.pdb                            PZ35_Chen_3_solution.pdb                           SUCCESS         25.964                        
-PZ35_Chen_4_refined.pdb                            PZ35_Chen_4_solution.pdb                           SUCCESS         62.648                        
-PZ35_Chen_5_refined.pdb                            PZ35_Chen_5_solution.pdb                           SUCCESS         61.414                        
-PZ35_Chen_6_refined.pdb                            PZ35_Chen_6_solution.pdb                           SUCCESS         25.447                        
-PZ35_Chen_7_refined.pdb                            PZ35_Chen_7_solution.pdb                           SUCCESS         61.626                        
-PZ35_Chen_8_refined.pdb                            PZ35_Chen_8_solution.pdb                           SUCCESS         27.003                        
-PZ35_Chen_9_refined.pdb                            PZ35_Chen_9_solution.pdb                           SUCCESS         61.392                        
-PZ35_Dfold2_1_refined.pdb                          PZ35_Dfold2_1_solution.pdb                         SUCCESS         4.63                          
-PZ35_Dfold2_2_refined.pdb                          PZ35_Dfold2_2_solution.pdb                         SUCCESS         4.605                         
-PZ35_Dfold2_3_refined.pdb                          PZ35_Dfold2_3_solution.pdb                         SUCCESS         4.317                         
-PZ35_Dfold2_4_refined.pdb                          PZ35_Dfold2_4_solution.pdb                         SUCCESS         8.347                         
-PZ35_Dfold2_5_refined.pdb                          PZ35_Dfold2_5_solution.pdb                         SUCCESS         4.68                          
-PZ35_Dfold2_6_refined.pdb                          PZ35_Dfold2_6_solution.pdb                         SUCCESS         7.364                         
-PZ35_Dfold2_7_refined.pdb                          PZ35_Dfold2_7_solution.pdb                         SUCCESS         4.217                         
-PZ35_Dfold2_8_refined.pdb                          PZ35_Dfold2_8_solution.pdb                         SUCCESS         9.637                         
-PZ35_Ding_1_refined.pdb                            PZ35_Ding_1_solution.pdb                           SUCCESS         16.182                        
-PZ35_Ding_2_refined.pdb                            PZ35_Ding_2_solution.pdb                           SUCCESS         16.713                        
-PZ35_Ding_3_refined.pdb                            PZ35_Ding_3_solution.pdb                           SUCCESS         18.232                        
-PZ35_Ding_4_refined.pdb                            PZ35_Ding_4_solution.pdb                           SUCCESS         12.574                        
-PZ35_Ding_5_refined.pdb                            PZ35_Ding_5_solution.pdb                           SUCCESS         13.887                        
-PZ35_Ding_6_refined.pdb                            PZ35_Ding_6_solution.pdb                           SUCCESS         14.141                        
-PZ35_Ding_7_refined.pdb                            PZ35_Ding_7_solution.pdb                           SUCCESS         15.593                        
-PZ35_Dokholyan_1_refined.pdb                       PZ35_Dokholyan_1_solution.pdb                      SUCCESS         12.474                        
-PZ35_Dokholyan_2_refined.pdb                       PZ35_Dokholyan_2_solution.pdb                      SUCCESS         11.161                        
-PZ35_Nithin_1_refined.pdb                          PZ35_Nithin_1_solution.pdb                         SUCCESS         21.993                        
-PZ35_Nithin_2_refined.pdb                          PZ35_Nithin_2_solution.pdb                         SUCCESS         20.96                         
-PZ35_Nithin_3_refined.pdb                          PZ35_Nithin_3_solution.pdb                         SUCCESS         22.811                        
-PZ35_Nithin_4_refined.pdb                          PZ35_Nithin_4_solution.pdb                         SUCCESS         20.943                        
-PZ35_Nithin_5_refined.pdb                          PZ35_Nithin_5_solution.pdb                         SUCCESS         25.015                        
-PZ35_RNAComposer_1_refined.pdb                     PZ35_RNAComposer_1_solution.pdb                    SUCCESS         18.539                        
-PZ35_RNAComposer_2_refined.pdb                     PZ35_RNAComposer_2_solution.pdb                    SUCCESS         15.328                        
-PZ35_RNAComposer_3_refined.pdb                     PZ35_RNAComposer_3_solution.pdb                    SUCCESS         20.12                         
-PZ35_RNAComposer_4_refined.pdb                     PZ35_RNAComposer_4_solution.pdb                    SUCCESS         19.43                         
-PZ35_RNAComposer_5_refined.pdb                     PZ35_RNAComposer_5_solution.pdb                    SUCCESS         18.201                        
-PZ35_SimRNA_1_refined.pdb                          PZ35_SimRNA_1_solution.pdb                         SUCCESS         35.059                        
-PZ35_SimRNA_2_refined.pdb                          PZ35_SimRNA_2_solution.pdb                         SUCCESS         37.377                        
-PZ35_SimRNA_3_refined.pdb                          PZ35_SimRNA_3_solution.pdb                         SUCCESS         35.006                        
-PZ35_SimRNA_4_refined.pdb                          PZ35_SimRNA_4_solution.pdb                         SUCCESS         39.415                        
-PZ35_SimRNA_5_refined.pdb                          PZ35_SimRNA_5_solution.pdb                         SUCCESS         44.707                        
-PZ35_Szachniuk_1_refined.pdb                       PZ35_Szachniuk_1_solution.pdb                      SUCCESS         20.924                        
-PZ35_Szachniuk_2_refined.pdb                       PZ35_Szachniuk_2_solution.pdb                      SUCCESS         20.133                        
-PZ35_Szachniuk_3_refined.pdb                       PZ35_Szachniuk_3_solution.pdb                      SUCCESS         27.131                        
-PZ35_Szachniuk_4_refined.pdb                       PZ35_Szachniuk_4_solution.pdb                      SUCCESS         33.923                        
+Processed 51 / 51 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_1                                         PZ35_Bujnicki_1_refined.pdb                        PZ35_Bujnicki_1_solution.pdb                       18.919       24.586       26.961       32.876      
+Bujnicki_2                                         PZ35_Bujnicki_2_refined.pdb                        PZ35_Bujnicki_2_solution.pdb                       16.021       23.473       26.880       32.414      
+Bujnicki_3                                         PZ35_Bujnicki_3_refined.pdb                        PZ35_Bujnicki_3_solution.pdb                       22.713       49.133       68.273       100.000     
+Bujnicki_4                                         PZ35_Bujnicki_4_refined.pdb                        PZ35_Bujnicki_4_solution.pdb                       9.398        19.373       23.415       41.726      
+Bujnicki_5                                         PZ35_Bujnicki_5_refined.pdb                        PZ35_Bujnicki_5_solution.pdb                       8.033        16.898       21.736       47.433      
+Chen_10                                            PZ35_Chen_10_refined.pdb                           PZ35_Chen_10_solution.pdb                          11.258       23.161       28.843       48.477      
+Chen_1                                             PZ35_Chen_1_refined.pdb                            PZ35_Chen_1_solution.pdb                           20.707       46.670       65.919       100.000     
+Chen_2                                             PZ35_Chen_2_refined.pdb                            PZ35_Chen_2_solution.pdb                           20.611       46.407       65.865       100.000     
+Chen_3                                             PZ35_Chen_3_refined.pdb                            PZ35_Chen_3_solution.pdb                           11.298       23.860       28.132       45.539      
+Chen_4                                             PZ35_Chen_4_refined.pdb                            PZ35_Chen_4_solution.pdb                           20.874       48.020       67.880       100.000     
+Chen_5                                             PZ35_Chen_5_refined.pdb                            PZ35_Chen_5_solution.pdb                           20.514       47.058       66.543       100.000     
+Chen_6                                             PZ35_Chen_6_refined.pdb                            PZ35_Chen_6_solution.pdb                           11.177       22.099       27.573       44.831      
+Chen_7                                             PZ35_Chen_7_refined.pdb                            PZ35_Chen_7_solution.pdb                           20.686       47.073       66.773       100.000     
+Chen_8                                             PZ35_Chen_8_refined.pdb                            PZ35_Chen_8_solution.pdb                           11.313       24.008       29.258       49.856      
+Chen_9                                             PZ35_Chen_9_refined.pdb                            PZ35_Chen_9_solution.pdb                           20.496       46.725       66.518       100.000     
+Dfold2_1                                           PZ35_Dfold2_1_refined.pdb                          PZ35_Dfold2_1_solution.pdb                         2.829        4.330        5.016        8.499       
+Dfold2_2                                           PZ35_Dfold2_2_refined.pdb                          PZ35_Dfold2_2_solution.pdb                         2.944        4.227        4.989        7.183       
+Dfold2_3                                           PZ35_Dfold2_3_refined.pdb                          PZ35_Dfold2_3_solution.pdb                         2.784        3.870        4.678        7.119       
+Dfold2_4                                           PZ35_Dfold2_4_refined.pdb                          PZ35_Dfold2_4_solution.pdb                         6.314        8.230        9.044        12.726      
+Dfold2_5                                           PZ35_Dfold2_5_refined.pdb                          PZ35_Dfold2_5_solution.pdb                         2.829        4.330        5.071        8.659       
+Dfold2_6                                           PZ35_Dfold2_6_refined.pdb                          PZ35_Dfold2_6_solution.pdb                         3.794        6.069        7.979        14.133      
+Dfold2_7                                           PZ35_Dfold2_7_refined.pdb                          PZ35_Dfold2_7_solution.pdb                         2.714        3.961        4.569        7.694       
+Dfold2_8                                           PZ35_Dfold2_8_refined.pdb                          PZ35_Dfold2_8_solution.pdb                         5.380        8.272        10.441       18.474      
+Ding_1                                             PZ35_Ding_1_refined.pdb                            PZ35_Ding_1_solution.pdb                           5.622        12.093       17.534       32.683      
+Ding_2                                             PZ35_Ding_2_refined.pdb                            PZ35_Ding_2_solution.pdb                           5.398        11.721       18.108       35.551      
+Ding_3                                             PZ35_Ding_3_refined.pdb                            PZ35_Ding_3_solution.pdb                           5.897        14.804       19.754       36.238      
+Ding_4                                             PZ35_Ding_4_refined.pdb                            PZ35_Ding_4_solution.pdb                           5.437        10.759       13.624       29.612      
+Ding_5                                             PZ35_Ding_5_refined.pdb                            PZ35_Ding_5_solution.pdb                           5.579        10.629       15.046       30.247      
+Ding_6                                             PZ35_Ding_6_refined.pdb                            PZ35_Ding_6_solution.pdb                           5.322        11.624       15.322       29.984      
+Ding_7                                             PZ35_Ding_7_refined.pdb                            PZ35_Ding_7_solution.pdb                           5.198        10.838       16.895       39.034      
+Dokholyan_1                                        PZ35_Dokholyan_1_refined.pdb                       PZ35_Dokholyan_1_solution.pdb                      4.330        8.684        13.515       27.279      
+Dokholyan_2                                        PZ35_Dokholyan_2_refined.pdb                       PZ35_Dokholyan_2_solution.pdb                      4.190        8.553        12.093       23.337      
+Nithin_1                                           PZ35_Nithin_1_refined.pdb                          PZ35_Nithin_1_solution.pdb                         8.808        17.400       23.830       39.893      
+Nithin_2                                           PZ35_Nithin_2_refined.pdb                          PZ35_Nithin_2_solution.pdb                         8.777        16.677       22.710       39.267      
+Nithin_3                                           PZ35_Nithin_3_refined.pdb                          PZ35_Nithin_3_solution.pdb                         9.098        17.594       24.716       41.681      
+Nithin_4                                           PZ35_Nithin_4_refined.pdb                          PZ35_Nithin_4_solution.pdb                         8.920        16.720       22.692       37.478      
+Nithin_5                                           PZ35_Nithin_5_refined.pdb                          PZ35_Nithin_5_solution.pdb                         11.004       20.828       27.104       43.596      
+RNAComposer_1                                      PZ35_RNAComposer_1_refined.pdb                     PZ35_RNAComposer_1_solution.pdb                    11.310       17.712       20.087       28.374      
+RNAComposer_2                                      PZ35_RNAComposer_2_refined.pdb                     PZ35_RNAComposer_2_solution.pdb                    10.012       14.369       16.608       22.732      
+RNAComposer_3                                      PZ35_RNAComposer_3_refined.pdb                     PZ35_RNAComposer_3_solution.pdb                    11.537       19.657       21.800       29.379      
+RNAComposer_4                                      PZ35_RNAComposer_4_refined.pdb                     PZ35_RNAComposer_4_solution.pdb                    11.857       19.361       21.052       27.715      
+RNAComposer_5                                      PZ35_RNAComposer_5_refined.pdb                     PZ35_RNAComposer_5_solution.pdb                    10.750       18.154       19.721       24.247      
+SimRNA_1                                           PZ35_SimRNA_1_refined.pdb                          PZ35_SimRNA_1_solution.pdb                         11.395       23.996       37.987       95.964      
+SimRNA_2                                           PZ35_SimRNA_2_refined.pdb                          PZ35_SimRNA_2_solution.pdb                         11.192       23.016       40.498       97.961      
+SimRNA_3                                           PZ35_SimRNA_3_refined.pdb                          PZ35_SimRNA_3_solution.pdb                         12.823       27.388       37.929       79.371      
+SimRNA_4                                           PZ35_SimRNA_4_refined.pdb                          PZ35_SimRNA_4_solution.pdb                         12.950       27.972       42.707       99.213      
+SimRNA_5                                           PZ35_SimRNA_5_refined.pdb                          PZ35_SimRNA_5_solution.pdb                         12.635       29.948       48.440       100.000     
+Szachniuk_1                                        PZ35_Szachniuk_1_refined.pdb                       PZ35_Szachniuk_1_solution.pdb                      10.472       17.918       22.671       40.153      
+Szachniuk_2                                        PZ35_Szachniuk_2_refined.pdb                       PZ35_Szachniuk_2_solution.pdb                      10.215       17.406       21.815       39.848      
+Szachniuk_3                                        PZ35_Szachniuk_3_refined.pdb                       PZ35_Szachniuk_3_solution.pdb                      12.260       24.081       29.397       46.065      
+Szachniuk_4                                        PZ35_Szachniuk_4_refined.pdb                       PZ35_Szachniuk_4_solution.pdb                      10.581       28.247       36.755       71.372      
+

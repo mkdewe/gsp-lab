@@ -1,57 +1,60 @@
 Report for set: PZ7
-Processed 52 / 52 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-7_Adamiak_1_refined.pdb                            7_Adamiak_1_solution.pdb                           SUCCESS         21.685                        
-7_Adamiak_2_refined.pdb                            7_Adamiak_2_solution.pdb                           SUCCESS         21.112                        
-7_Adamiak_3_refined.pdb                            7_Adamiak_3_solution.pdb                           SUCCESS         20.266                        
-7_Adamiak_4_refined.pdb                            7_Adamiak_4_solution.pdb                           SUCCESS         21.563                        
-7_Adamiak_5_refined.pdb                            7_Adamiak_5_solution.pdb                           SUCCESS         23.951                        
-7_Bujnicki_1_refined.pdb                           7_Bujnicki_1_solution.pdb                          SUCCESS         17.104                        
-7_Bujnicki_2_refined.pdb                           7_Bujnicki_2_solution.pdb                          SUCCESS         15.423                        
-7_Bujnicki_3_refined.pdb                           7_Bujnicki_3_solution.pdb                          SUCCESS         25.829                        
-7_Bujnicki_4_refined.pdb                           7_Bujnicki_4_solution.pdb                          SUCCESS         29.037                        
-7_Bujnicki_5_refined.pdb                           7_Bujnicki_5_solution.pdb                          SUCCESS         29.037                        
-7_Bujnicki_6_refined.pdb                           7_Bujnicki_6_solution.pdb                          SUCCESS         25.8                          
-7_Bujnicki_7_refined.pdb                           7_Bujnicki_7_solution.pdb                          SUCCESS         26.328                        
-7_Chen_10_refined.pdb                              7_Chen_10_solution.pdb                             SUCCESS         23.973                        
-7_Chen_1_refined.pdb                               7_Chen_1_solution.pdb                              SUCCESS         19.539                        
-7_Chen_2_refined.pdb                               7_Chen_2_solution.pdb                              SUCCESS         23.49                         
-7_Chen_3_refined.pdb                               7_Chen_3_solution.pdb                              SUCCESS         23.112                        
-7_Chen_4_refined.pdb                               7_Chen_4_solution.pdb                              SUCCESS         24.932                        
-7_Chen_5_refined.pdb                               7_Chen_5_solution.pdb                              SUCCESS         24.027                        
-7_Chen_6_refined.pdb                               7_Chen_6_solution.pdb                              SUCCESS         23.209                        
-7_Chen_7_refined.pdb                               7_Chen_7_solution.pdb                              SUCCESS         21.969                        
-7_Chen_8_refined.pdb                               7_Chen_8_solution.pdb                              SUCCESS         24.366                        
-7_Chen_9_refined.pdb                               7_Chen_9_solution.pdb                              SUCCESS         23.936                        
-7_Das_1_refined.pdb                                7_Das_1_solution.pdb                               SUCCESS         28.183                        
-7_Das_2_refined.pdb                                7_Das_2_solution.pdb                               SUCCESS         27.257                        
-7_Das_3_refined.pdb                                7_Das_3_solution.pdb                               SUCCESS         28.001                        
-7_Das_4_refined.pdb                                7_Das_4_solution.pdb                               SUCCESS         25.75                         
-7_Das_5_refined.pdb                                7_Das_5_solution.pdb                               SUCCESS         28.681                        
-7_Das_6_refined.pdb                                7_Das_6_solution.pdb                               SUCCESS         28.058                        
-7_Das_7_refined.pdb                                7_Das_7_solution.pdb                               SUCCESS         26.743                        
-7_Das_8_refined.pdb                                7_Das_8_solution.pdb                               SUCCESS         24.565                        
-7_Ding_10_refined.pdb                              7_Ding_10_solution.pdb                             SUCCESS         20.295                        
-7_Ding_1_refined.pdb                               7_Ding_1_solution.pdb                              SUCCESS         20.089                        
-7_Ding_2_refined.pdb                               7_Ding_2_solution.pdb                              SUCCESS         19.472                        
-7_Ding_3_refined.pdb                               7_Ding_3_solution.pdb                              SUCCESS         18.416                        
-7_Ding_4_refined.pdb                               7_Ding_4_solution.pdb                              SUCCESS         19.488                        
-7_Ding_5_refined.pdb                               7_Ding_5_solution.pdb                              SUCCESS         19.905                        
-7_Ding_6_refined.pdb                               7_Ding_6_solution.pdb                              SUCCESS         21.867                        
-7_Ding_7_refined.pdb                               7_Ding_7_solution.pdb                              SUCCESS         19.211                        
-7_Ding_8_refined.pdb                               7_Ding_8_solution.pdb                              SUCCESS         20.899                        
-7_Ding_9_refined.pdb                               7_Ding_9_solution.pdb                              SUCCESS         21.401                        
-7_Dokholyan_1_refined.pdb                          7_Dokholyan_1_solution.pdb                         SUCCESS         21.112                        
-7_Dokholyan_2_refined.pdb                          7_Dokholyan_2_solution.pdb                         SUCCESS         16.182                        
-7_Major_10_refined.pdb                             7_Major_10_solution.pdb                            SUCCESS         19.217                        
-7_Major_1_refined.pdb                              7_Major_1_solution.pdb                             SUCCESS         19.225                        
-7_Major_2_refined.pdb                              7_Major_2_solution.pdb                             SUCCESS         19.644                        
-7_Major_3_refined.pdb                              7_Major_3_solution.pdb                             SUCCESS         19.046                        
-7_Major_4_refined.pdb                              7_Major_4_solution.pdb                             SUCCESS         19.514                        
-7_Major_5_refined.pdb                              7_Major_5_solution.pdb                             SUCCESS         19.443                        
-7_Major_6_refined.pdb                              7_Major_6_solution.pdb                             SUCCESS         19.475                        
-7_Major_7_refined.pdb                              7_Major_7_solution.pdb                             SUCCESS         19.443                        
-7_Major_8_refined.pdb                              7_Major_8_solution.pdb                             SUCCESS         20.199                        
-7_Major_9_refined.pdb                              7_Major_9_solution.pdb                             SUCCESS         19.663                        
+Processed 52 / 52 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          7_Adamiak_1_refined.pdb                            7_Adamiak_1_solution.pdb                           10.050       16.808       23.496       39.322      
+Adamiak_2                                          7_Adamiak_2_refined.pdb                            7_Adamiak_2_solution.pdb                           10.593       16.373       22.875       38.818      
+Adamiak_3                                          7_Adamiak_3_refined.pdb                            7_Adamiak_3_solution.pdb                           10.489       15.772       21.958       36.960      
+Adamiak_4                                          7_Adamiak_4_refined.pdb                            7_Adamiak_4_solution.pdb                           10.660       16.554       23.364       37.948      
+Adamiak_5                                          7_Adamiak_5_refined.pdb                            7_Adamiak_5_solution.pdb                           11.386       18.512       25.952       37.533      
+Bujnicki_1                                         7_Bujnicki_1_refined.pdb                           7_Bujnicki_1_solution.pdb                          5.268        14.619       18.532       23.382      
+Bujnicki_2                                         7_Bujnicki_2_refined.pdb                           7_Bujnicki_2_solution.pdb                          6.236        12.919       16.710       19.147      
+Bujnicki_3                                         7_Bujnicki_3_refined.pdb                           7_Bujnicki_3_solution.pdb                          11.889       21.546       27.986       38.584      
+Bujnicki_4                                         7_Bujnicki_4_refined.pdb                           7_Bujnicki_4_solution.pdb                          11.676       26.376       31.462       41.334      
+Bujnicki_5                                         7_Bujnicki_5_refined.pdb                           7_Bujnicki_5_solution.pdb                          11.676       26.376       31.462       41.334      
+Bujnicki_6                                         7_Bujnicki_6_refined.pdb                           7_Bujnicki_6_solution.pdb                          10.772       21.337       27.955       38.584      
+Bujnicki_7                                         7_Bujnicki_7_refined.pdb                           7_Bujnicki_7_solution.pdb                          10.530       22.686       28.527       41.799      
+Chen_10                                            7_Chen_10_refined.pdb                              7_Chen_10_solution.pdb                             13.400       22.032       25.975       35.519      
+Chen_1                                             7_Chen_1_refined.pdb                               7_Chen_1_solution.pdb                              6.447        16.876       21.170       33.778      
+Chen_2                                             7_Chen_2_refined.pdb                               7_Chen_2_solution.pdb                              13.389       21.862       25.452       34.735      
+Chen_3                                             7_Chen_3_refined.pdb                               7_Chen_3_solution.pdb                              13.262       21.443       25.042       35.129      
+Chen_4                                             7_Chen_4_refined.pdb                               7_Chen_4_solution.pdb                              13.389       22.442       27.013       37.095      
+Chen_5                                             7_Chen_5_refined.pdb                               7_Chen_5_solution.pdb                              13.316       21.990       26.034       37.979      
+Chen_6                                             7_Chen_6_refined.pdb                               7_Chen_6_solution.pdb                              13.289       21.492       25.147       35.210      
+Chen_7                                             7_Chen_7_refined.pdb                               7_Chen_7_solution.pdb                              13.031       20.749       23.804       33.668      
+Chen_8                                             7_Chen_8_refined.pdb                               7_Chen_8_solution.pdb                              13.555       22.380       26.401       36.897      
+Chen_9                                             7_Chen_9_refined.pdb                               7_Chen_9_solution.pdb                              13.429       22.220       25.935       35.949      
+Das_1                                              7_Das_1_refined.pdb                                7_Das_1_solution.pdb                               12.646       22.565       30.537       41.488      
+Das_2                                              7_Das_2_refined.pdb                                7_Das_2_solution.pdb                               12.575       21.880       29.533       39.127      
+Das_3                                              7_Das_3_refined.pdb                                7_Das_3_solution.pdb                               12.327       22.192       30.339       41.722      
+Das_4                                              7_Das_4_refined.pdb                                7_Das_4_solution.pdb                               10.119       20.457       27.900       40.675      
+Das_5                                              7_Das_5_refined.pdb                                7_Das_5_solution.pdb                               11.542       24.227       31.076       42.900      
+Das_6                                              7_Das_6_refined.pdb                                7_Das_6_solution.pdb                               12.983       22.711       30.401       39.353      
+Das_7                                              7_Das_7_refined.pdb                                7_Das_7_solution.pdb                               10.622       21.645       28.976       40.739      
+Das_8                                              7_Das_8_refined.pdb                                7_Das_8_solution.pdb                               13.378       23.396       26.616       35.600      
+Ding_10                                            7_Ding_10_refined.pdb                              7_Ding_10_solution.pdb                             7.961        17.459       21.990       33.704      
+Ding_1                                             7_Ding_1_refined.pdb                               7_Ding_1_solution.pdb                              8.002        17.270       21.766       34.510      
+Ding_2                                             7_Ding_2_refined.pdb                               7_Ding_2_solution.pdb                              8.731        17.267       21.098       30.140      
+Ding_3                                             7_Ding_3_refined.pdb                               7_Ding_3_solution.pdb                              8.051        16.023       19.954       32.801      
+Ding_4                                             7_Ding_4_refined.pdb                               7_Ding_4_solution.pdb                              8.470        17.666       21.115       33.679      
+Ding_5                                             7_Ding_5_refined.pdb                               7_Ding_5_solution.pdb                              7.432        16.647       21.567       36.316      
+Ding_6                                             7_Ding_6_refined.pdb                               7_Ding_6_solution.pdb                              8.254        17.483       23.694       35.454      
+Ding_7                                             7_Ding_7_refined.pdb                               7_Ding_7_solution.pdb                              8.281        17.657       20.815       30.242      
+Ding_8                                             7_Ding_8_refined.pdb                               7_Ding_8_solution.pdb                              9.290        16.464       22.644       34.465      
+Ding_9                                             7_Ding_9_refined.pdb                               7_Ding_9_solution.pdb                              9.127        17.902       23.188       36.288      
+Dokholyan_1                                        7_Dokholyan_1_refined.pdb                          7_Dokholyan_1_solution.pdb                         7.345        15.275       22.875       35.176      
+Dokholyan_2                                        7_Dokholyan_2_refined.pdb                          7_Dokholyan_2_solution.pdb                         6.482        13.096       17.533       23.886      
+Major_10                                           7_Major_10_refined.pdb                             7_Major_10_solution.pdb                            7.715        15.477       20.822       35.172      
+Major_1                                            7_Major_1_refined.pdb                              7_Major_1_solution.pdb                             7.644        15.473       20.831       32.882      
+Major_2                                            7_Major_2_refined.pdb                              7_Major_2_solution.pdb                             7.766        15.984       21.284       33.183      
+Major_3                                            7_Major_3_refined.pdb                              7_Major_3_solution.pdb                             7.855        15.765       20.636       34.737      
+Major_4                                            7_Major_4_refined.pdb                              7_Major_4_solution.pdb                             7.865        16.554       21.143       33.864      
+Major_5                                            7_Major_5_refined.pdb                              7_Major_5_solution.pdb                             7.828        15.766       21.066       35.116      
+Major_6                                            7_Major_6_refined.pdb                              7_Major_6_solution.pdb                             7.903        15.996       21.101       33.932      
+Major_7                                            7_Major_7_refined.pdb                              7_Major_7_solution.pdb                             7.833        15.766       21.066       35.099      
+Major_8                                            7_Major_8_refined.pdb                              7_Major_8_solution.pdb                             7.867        16.067       21.886       33.997      
+Major_9                                            7_Major_9_refined.pdb                              7_Major_9_solution.pdb                             7.696        15.993       21.305       33.441      
+

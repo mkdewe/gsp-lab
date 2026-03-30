@@ -1,79 +1,82 @@
 Report for set: PZ15noend
-Processed 74 / 74 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ15noend_3dRNAAS2_10_refined.pdb                  PZ15noend_3dRNAAS2_10_solution.pdb                 SUCCESS         12.538                        
-PZ15noend_3dRNAAS2_1_refined.pdb                   PZ15noend_3dRNAAS2_1_solution.pdb                  SUCCESS         12.368                        
-PZ15noend_3dRNAAS2_2_refined.pdb                   PZ15noend_3dRNAAS2_2_solution.pdb                  SUCCESS         12.482                        
-PZ15noend_3dRNAAS2_3_refined.pdb                   PZ15noend_3dRNAAS2_3_solution.pdb                  SUCCESS         12.482                        
-PZ15noend_3dRNAAS2_4_refined.pdb                   PZ15noend_3dRNAAS2_4_solution.pdb                  SUCCESS         12.535                        
-PZ15noend_3dRNAAS2_5_refined.pdb                   PZ15noend_3dRNAAS2_5_solution.pdb                  SUCCESS         12.535                        
-PZ15noend_3dRNAAS2_6_refined.pdb                   PZ15noend_3dRNAAS2_6_solution.pdb                  SUCCESS         12.535                        
-PZ15noend_3dRNAAS2_7_refined.pdb                   PZ15noend_3dRNAAS2_7_solution.pdb                  SUCCESS         12.482                        
-PZ15noend_3dRNAAS2_8_refined.pdb                   PZ15noend_3dRNAAS2_8_solution.pdb                  SUCCESS         12.099                        
-PZ15noend_3dRNAAS2_9_refined.pdb                   PZ15noend_3dRNAAS2_9_solution.pdb                  SUCCESS         12.516                        
-PZ15noend_Adamiak_10_refined.pdb                   PZ15noend_Adamiak_10_solution.pdb                  SUCCESS         53.706                        
-PZ15noend_Adamiak_1_refined.pdb                    PZ15noend_Adamiak_1_solution.pdb                   SUCCESS         39.425                        
-PZ15noend_Adamiak_2_refined.pdb                    PZ15noend_Adamiak_2_solution.pdb                   SUCCESS         59.518                        
-PZ15noend_Adamiak_3_refined.pdb                    PZ15noend_Adamiak_3_solution.pdb                   SUCCESS         58.801                        
-PZ15noend_Adamiak_4_refined.pdb                    PZ15noend_Adamiak_4_solution.pdb                   SUCCESS         50.66                         
-PZ15noend_Adamiak_5_refined.pdb                    PZ15noend_Adamiak_5_solution.pdb                   SUCCESS         45.274                        
-PZ15noend_Adamiak_6_refined.pdb                    PZ15noend_Adamiak_6_solution.pdb                   SUCCESS         53.329                        
-PZ15noend_Adamiak_7_refined.pdb                    PZ15noend_Adamiak_7_solution.pdb                   SUCCESS         55.242                        
-PZ15noend_Adamiak_8_refined.pdb                    PZ15noend_Adamiak_8_solution.pdb                   SUCCESS         61.581                        
-PZ15noend_Adamiak_9_refined.pdb                    PZ15noend_Adamiak_9_solution.pdb                   SUCCESS         25.833                        
-PZ15noend_Chen_10_refined.pdb                      PZ15noend_Chen_10_solution.pdb                     SUCCESS         23.665                        
-PZ15noend_Chen_1_refined.pdb                       PZ15noend_Chen_1_solution.pdb                      SUCCESS         21.081                        
-PZ15noend_Chen_2_refined.pdb                       PZ15noend_Chen_2_solution.pdb                      SUCCESS         16.667                        
-PZ15noend_Chen_3_refined.pdb                       PZ15noend_Chen_3_solution.pdb                      SUCCESS         51.488                        
-PZ15noend_Chen_4_refined.pdb                       PZ15noend_Chen_4_solution.pdb                      SUCCESS         20.897                        
-PZ15noend_Chen_5_refined.pdb                       PZ15noend_Chen_5_solution.pdb                      SUCCESS         16.004                        
-PZ15noend_Chen_6_refined.pdb                       PZ15noend_Chen_6_solution.pdb                      SUCCESS         45.617                        
-PZ15noend_Chen_7_refined.pdb                       PZ15noend_Chen_7_solution.pdb                      SUCCESS         19.069                        
-PZ15noend_Chen_8_refined.pdb                       PZ15noend_Chen_8_solution.pdb                      SUCCESS         22.784                        
-PZ15noend_Chen_9_refined.pdb                       PZ15noend_Chen_9_solution.pdb                      SUCCESS         16.202                        
-PZ15noend_RNAComposerAS1_1_refined.pdb             PZ15noend_RNAComposerAS1_1_solution.pdb            SUCCESS         59.518                        
-PZ15noend_RNAComposerAS1_2_refined.pdb             PZ15noend_RNAComposerAS1_2_solution.pdb            SUCCESS         58.801                        
-PZ15noend_RNAComposerAS2_1_refined.pdb             PZ15noend_RNAComposerAS2_1_solution.pdb            SUCCESS         50.66                         
-PZ15noend_RNAComposerAS2_2_refined.pdb             PZ15noend_RNAComposerAS2_2_solution.pdb            SUCCESS         45.274                        
-PZ15noend_RW3DAS1_10_refined.pdb                   PZ15noend_RW3DAS1_10_solution.pdb                  SUCCESS         12.176                        
-PZ15noend_RW3DAS1_1_refined.pdb                    PZ15noend_RW3DAS1_1_solution.pdb                   SUCCESS         13.782                        
-PZ15noend_RW3DAS1_2_refined.pdb                    PZ15noend_RW3DAS1_2_solution.pdb                   SUCCESS         13.757                        
-PZ15noend_RW3DAS1_3_refined.pdb                    PZ15noend_RW3DAS1_3_solution.pdb                   SUCCESS         15.644                        
-PZ15noend_RW3DAS1_4_refined.pdb                    PZ15noend_RW3DAS1_4_solution.pdb                   SUCCESS         15.556                        
-PZ15noend_RW3DAS1_5_refined.pdb                    PZ15noend_RW3DAS1_5_solution.pdb                   SUCCESS         15.273                        
-PZ15noend_RW3DAS1_6_refined.pdb                    PZ15noend_RW3DAS1_6_solution.pdb                   SUCCESS         15.196                        
-PZ15noend_RW3DAS1_7_refined.pdb                    PZ15noend_RW3DAS1_7_solution.pdb                   SUCCESS         14.629                        
-PZ15noend_RW3DAS1_8_refined.pdb                    PZ15noend_RW3DAS1_8_solution.pdb                   SUCCESS         13.397                        
-PZ15noend_RW3DAS1_9_refined.pdb                    PZ15noend_RW3DAS1_9_solution.pdb                   SUCCESS         13.502                        
-PZ15noend_RW3DAS2_10_refined.pdb                   PZ15noend_RW3DAS2_10_solution.pdb                  SUCCESS         24.476                        
-PZ15noend_RW3DAS2_1_refined.pdb                    PZ15noend_RW3DAS2_1_solution.pdb                   SUCCESS         20.959                        
-PZ15noend_RW3DAS2_2_refined.pdb                    PZ15noend_RW3DAS2_2_solution.pdb                   SUCCESS         16.508                        
-PZ15noend_RW3DAS2_3_refined.pdb                    PZ15noend_RW3DAS2_3_solution.pdb                   SUCCESS         16.772                        
-PZ15noend_RW3DAS2_4_refined.pdb                    PZ15noend_RW3DAS2_4_solution.pdb                   SUCCESS         21.778                        
-PZ15noend_RW3DAS2_5_refined.pdb                    PZ15noend_RW3DAS2_5_solution.pdb                   SUCCESS         19.818                        
-PZ15noend_RW3DAS2_6_refined.pdb                    PZ15noend_RW3DAS2_6_solution.pdb                   SUCCESS         16.287                        
-PZ15noend_RW3DAS2_7_refined.pdb                    PZ15noend_RW3DAS2_7_solution.pdb                   SUCCESS         16.601                        
-PZ15noend_RW3DAS2_8_refined.pdb                    PZ15noend_RW3DAS2_8_solution.pdb                   SUCCESS         17.248                        
-PZ15noend_RW3DAS2_9_refined.pdb                    PZ15noend_RW3DAS2_9_solution.pdb                   SUCCESS         19.888                        
-PZ15noend_SimRNAAS1_10_refined.pdb                 PZ15noend_SimRNAAS1_10_solution.pdb                SUCCESS         15.717                        
-PZ15noend_SimRNAAS1_1_refined.pdb                  PZ15noend_SimRNAAS1_1_solution.pdb                 SUCCESS         43.911                        
-PZ15noend_SimRNAAS1_2_refined.pdb                  PZ15noend_SimRNAAS1_2_solution.pdb                 SUCCESS         10.781                        
-PZ15noend_SimRNAAS1_3_refined.pdb                  PZ15noend_SimRNAAS1_3_solution.pdb                 SUCCESS         9.9                           
-PZ15noend_SimRNAAS1_4_refined.pdb                  PZ15noend_SimRNAAS1_4_solution.pdb                 SUCCESS         7.271                         
-PZ15noend_SimRNAAS1_5_refined.pdb                  PZ15noend_SimRNAAS1_5_solution.pdb                 SUCCESS         10.232                        
-PZ15noend_SimRNAAS1_6_refined.pdb                  PZ15noend_SimRNAAS1_6_solution.pdb                 SUCCESS         8.597                         
-PZ15noend_SimRNAAS1_7_refined.pdb                  PZ15noend_SimRNAAS1_7_solution.pdb                 SUCCESS         19.857                        
-PZ15noend_SimRNAAS1_8_refined.pdb                  PZ15noend_SimRNAAS1_8_solution.pdb                 SUCCESS         14.36                         
-PZ15noend_SimRNAAS1_9_refined.pdb                  PZ15noend_SimRNAAS1_9_solution.pdb                 SUCCESS         14.856                        
-PZ15noend_SimRNAAS2_10_refined.pdb                 PZ15noend_SimRNAAS2_10_solution.pdb                SUCCESS         17.205                        
-PZ15noend_SimRNAAS2_1_refined.pdb                  PZ15noend_SimRNAAS2_1_solution.pdb                 SUCCESS         21.112                        
-PZ15noend_SimRNAAS2_2_refined.pdb                  PZ15noend_SimRNAAS2_2_solution.pdb                 SUCCESS         19.837                        
-PZ15noend_SimRNAAS2_3_refined.pdb                  PZ15noend_SimRNAAS2_3_solution.pdb                 SUCCESS         16.658                        
-PZ15noend_SimRNAAS2_4_refined.pdb                  PZ15noend_SimRNAAS2_4_solution.pdb                 SUCCESS         24.736                        
-PZ15noend_SimRNAAS2_5_refined.pdb                  PZ15noend_SimRNAAS2_5_solution.pdb                 SUCCESS         20.186                        
-PZ15noend_SimRNAAS2_6_refined.pdb                  PZ15noend_SimRNAAS2_6_solution.pdb                 SUCCESS         15.086                        
-PZ15noend_SimRNAAS2_7_refined.pdb                  PZ15noend_SimRNAAS2_7_solution.pdb                 SUCCESS         22.745                        
-PZ15noend_SimRNAAS2_8_refined.pdb                  PZ15noend_SimRNAAS2_8_solution.pdb                 SUCCESS         15.264                        
-PZ15noend_SimRNAAS2_9_refined.pdb                  PZ15noend_SimRNAAS2_9_solution.pdb                 SUCCESS         22.781                        
+Processed 74 / 74 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNAAS2_10                                        PZ15noend_3dRNAAS2_10_refined.pdb                  PZ15noend_3dRNAAS2_10_solution.pdb                 8.578        11.903       13.585       20.266      
+3dRNAAS2_1                                         PZ15noend_3dRNAAS2_1_refined.pdb                   PZ15noend_3dRNAAS2_1_solution.pdb                  7.992        11.620       13.401       20.152      
+3dRNAAS2_2                                         PZ15noend_3dRNAAS2_2_refined.pdb                   PZ15noend_3dRNAAS2_2_solution.pdb                  8.578        11.743       13.524       20.195      
+3dRNAAS2_3                                         PZ15noend_3dRNAAS2_3_refined.pdb                   PZ15noend_3dRNAAS2_3_solution.pdb                  8.538        11.737       13.524       20.171      
+3dRNAAS2_4                                         PZ15noend_3dRNAAS2_4_refined.pdb                   PZ15noend_3dRNAAS2_4_solution.pdb                  8.517        11.792       13.582       20.183      
+3dRNAAS2_5                                         PZ15noend_3dRNAAS2_5_refined.pdb                   PZ15noend_3dRNAAS2_5_solution.pdb                  8.538        11.792       13.582       20.171      
+3dRNAAS2_6                                         PZ15noend_3dRNAAS2_6_refined.pdb                   PZ15noend_3dRNAAS2_6_solution.pdb                  8.114        11.633       13.582       20.284      
+3dRNAAS2_7                                         PZ15noend_3dRNAAS2_7_refined.pdb                   PZ15noend_3dRNAAS2_7_solution.pdb                  8.517        11.688       13.524       20.171      
+3dRNAAS2_8                                         PZ15noend_3dRNAAS2_8_refined.pdb                   PZ15noend_3dRNAAS2_8_solution.pdb                  7.995        10.481       13.109       20.174      
+3dRNAAS2_9                                         PZ15noend_3dRNAAS2_9_refined.pdb                   PZ15noend_3dRNAAS2_9_solution.pdb                  8.538        11.792       13.561       20.208      
+Adamiak_10                                         PZ15noend_Adamiak_10_refined.pdb                   PZ15noend_Adamiak_10_solution.pdb                  11.823       37.569       58.191       95.217      
+Adamiak_1                                          PZ15noend_Adamiak_1_refined.pdb                    PZ15noend_Adamiak_1_solution.pdb                   11.215       24.174       42.718       81.199      
+Adamiak_2                                          PZ15noend_Adamiak_2_refined.pdb                    PZ15noend_Adamiak_2_solution.pdb                   35.441       49.097       64.488       86.080      
+Adamiak_3                                          PZ15noend_Adamiak_3_refined.pdb                    PZ15noend_Adamiak_3_solution.pdb                   35.346       48.649       63.711       85.478      
+Adamiak_4                                          PZ15noend_Adamiak_4_refined.pdb                    PZ15noend_Adamiak_4_solution.pdb                   11.777       39.795       54.891       84.588      
+Adamiak_5                                          PZ15noend_Adamiak_5_refined.pdb                    PZ15noend_Adamiak_5_solution.pdb                   10.592       29.541       49.054       84.754      
+Adamiak_6                                          PZ15noend_Adamiak_6_refined.pdb                    PZ15noend_Adamiak_6_solution.pdb                   12.489       40.437       57.783       83.802      
+Adamiak_7                                          PZ15noend_Adamiak_7_refined.pdb                    PZ15noend_Adamiak_7_solution.pdb                   11.814       39.313       59.855       85.736      
+Adamiak_8                                          PZ15noend_Adamiak_8_refined.pdb                    PZ15noend_Adamiak_8_solution.pdb                   9.404        39.064       66.723       95.597      
+Adamiak_9                                          PZ15noend_Adamiak_9_refined.pdb                    PZ15noend_Adamiak_9_solution.pdb                   10.491       19.802       27.990       90.958      
+Chen_10                                            PZ15noend_Chen_10_refined.pdb                      PZ15noend_Chen_10_solution.pdb                     9.244        16.063       25.642       66.140      
+Chen_1                                             PZ15noend_Chen_1_refined.pdb                       PZ15noend_Chen_1_solution.pdb                      10.604       17.580       22.842       62.581      
+Chen_2                                             PZ15noend_Chen_2_refined.pdb                       PZ15noend_Chen_2_solution.pdb                      9.686        14.654       18.058       31.278      
+Chen_3                                             PZ15noend_Chen_3_refined.pdb                       PZ15noend_Chen_3_solution.pdb                      26.946       44.170       55.787       84.376      
+Chen_4                                             PZ15noend_Chen_4_refined.pdb                       PZ15noend_Chen_4_solution.pdb                      9.809        15.308       22.642       56.622      
+Chen_5                                             PZ15noend_Chen_5_refined.pdb                       PZ15noend_Chen_5_solution.pdb                      9.996        14.353       17.340       29.056      
+Chen_6                                             PZ15noend_Chen_6_refined.pdb                       PZ15noend_Chen_6_solution.pdb                      10.337       36.495       49.426       83.725      
+Chen_7                                             PZ15noend_Chen_7_refined.pdb                       PZ15noend_Chen_7_solution.pdb                      9.100        15.157       20.662       49.340      
+Chen_8                                             PZ15noend_Chen_8_refined.pdb                       PZ15noend_Chen_8_solution.pdb                      9.014        16.213       24.687       56.509      
+Chen_9                                             PZ15noend_Chen_9_refined.pdb                       PZ15noend_Chen_9_solution.pdb                      8.252        13.386       17.555       37.707      
+RNAComposerAS1_1                                   PZ15noend_RNAComposerAS1_1_refined.pdb             PZ15noend_RNAComposerAS1_1_solution.pdb            35.441       49.097       64.488       86.080      
+RNAComposerAS1_2                                   PZ15noend_RNAComposerAS1_2_refined.pdb             PZ15noend_RNAComposerAS1_2_solution.pdb            35.346       48.649       63.711       85.478      
+RNAComposerAS2_1                                   PZ15noend_RNAComposerAS2_1_refined.pdb             PZ15noend_RNAComposerAS2_1_solution.pdb            11.777       39.795       54.891       84.588      
+RNAComposerAS2_2                                   PZ15noend_RNAComposerAS2_2_refined.pdb             PZ15noend_RNAComposerAS2_2_solution.pdb            10.592       29.541       49.054       84.754      
+RW3DAS1_10                                         PZ15noend_RW3DAS1_10_refined.pdb                   PZ15noend_RW3DAS1_10_solution.pdb                  8.274        11.356       13.192       21.902      
+RW3DAS1_1                                          PZ15noend_RW3DAS1_1_refined.pdb                    PZ15noend_RW3DAS1_1_solution.pdb                   8.863        12.379       14.933       21.865      
+RW3DAS1_2                                          PZ15noend_RW3DAS1_2_refined.pdb                    PZ15noend_RW3DAS1_2_solution.pdb                   8.609        12.148       14.905       30.990      
+RW3DAS1_3                                          PZ15noend_RW3DAS1_3_refined.pdb                    PZ15noend_RW3DAS1_3_solution.pdb                   8.130        13.377       16.950       33.695      
+RW3DAS1_4                                          PZ15noend_RW3DAS1_4_refined.pdb                    PZ15noend_RW3DAS1_4_solution.pdb                   8.179        13.874       16.855       28.141      
+RW3DAS1_5                                          PZ15noend_RW3DAS1_5_refined.pdb                    PZ15noend_RW3DAS1_5_solution.pdb                   8.827        13.413       16.548       30.787      
+RW3DAS1_6                                          PZ15noend_RW3DAS1_6_refined.pdb                    PZ15noend_RW3DAS1_6_solution.pdb                   8.811        13.779       16.465       26.501      
+RW3DAS1_7                                          PZ15noend_RW3DAS1_7_refined.pdb                    PZ15noend_RW3DAS1_7_solution.pdb                   8.707        13.162       15.851       25.227      
+RW3DAS1_8                                          PZ15noend_RW3DAS1_8_refined.pdb                    PZ15noend_RW3DAS1_8_solution.pdb                   8.434        12.253       14.516       22.786      
+RW3DAS1_9                                          PZ15noend_RW3DAS1_9_refined.pdb                    PZ15noend_RW3DAS1_9_solution.pdb                   8.526        12.041       14.629       25.946      
+RW3DAS2_10                                         PZ15noend_RW3DAS2_10_refined.pdb                   PZ15noend_RW3DAS2_10_solution.pdb                  11.722       20.499       26.520       54.679      
+RW3DAS2_1                                          PZ15noend_RW3DAS2_1_refined.pdb                    PZ15noend_RW3DAS2_1_solution.pdb                   11.120       17.972       22.710       41.511      
+RW3DAS2_2                                          PZ15noend_RW3DAS2_2_refined.pdb                    PZ15noend_RW3DAS2_2_solution.pdb                   10.021       14.764       17.887       28.073      
+RW3DAS2_3                                          PZ15noend_RW3DAS2_3_refined.pdb                    PZ15noend_RW3DAS2_3_solution.pdb                   9.640        14.586       18.172       27.659      
+RW3DAS2_4                                          PZ15noend_RW3DAS2_4_refined.pdb                    PZ15noend_RW3DAS2_4_solution.pdb                   10.684       18.135       23.597       41.975      
+RW3DAS2_5                                          PZ15noend_RW3DAS2_5_refined.pdb                    PZ15noend_RW3DAS2_5_solution.pdb                   11.089       17.223       21.472       50.077      
+RW3DAS2_6                                          PZ15noend_RW3DAS2_6_refined.pdb                    PZ15noend_RW3DAS2_6_solution.pdb                   10.128       14.626       17.647       30.892      
+RW3DAS2_7                                          PZ15noend_RW3DAS2_7_refined.pdb                    PZ15noend_RW3DAS2_7_solution.pdb                   9.441        14.755       17.988       54.829      
+RW3DAS2_8                                          PZ15noend_RW3DAS2_8_refined.pdb                    PZ15noend_RW3DAS2_8_solution.pdb                   10.294       15.240       18.688       31.371      
+RW3DAS2_9                                          PZ15noend_RW3DAS2_9_refined.pdb                    PZ15noend_RW3DAS2_9_solution.pdb                   11.267       16.658       21.549       40.194      
+SimRNAAS1_10                                       PZ15noend_SimRNAAS1_10_refined.pdb                 PZ15noend_SimRNAAS1_10_solution.pdb                8.999        13.825       17.030       27.481      
+SimRNAAS1_1                                        PZ15noend_SimRNAAS1_1_refined.pdb                  PZ15noend_SimRNAAS1_1_solution.pdb                 7.546        28.703       47.578       93.476      
+SimRNAAS1_2                                        PZ15noend_SimRNAAS1_2_refined.pdb                  PZ15noend_SimRNAAS1_2_solution.pdb                 8.105        10.610       11.682       19.216      
+SimRNAAS1_3                                        PZ15noend_SimRNAAS1_3_refined.pdb                  PZ15noend_SimRNAAS1_3_solution.pdb                 4.178        7.255        10.727       20.653      
+SimRNAAS1_4                                        PZ15noend_SimRNAAS1_4_refined.pdb                  PZ15noend_SimRNAAS1_4_solution.pdb                 5.397        6.702        7.878        13.567      
+SimRNAAS1_5                                        PZ15noend_SimRNAAS1_5_refined.pdb                  PZ15noend_SimRNAAS1_5_solution.pdb                 7.817        9.646        11.086       17.871      
+SimRNAAS1_6                                        PZ15noend_SimRNAAS1_6_refined.pdb                  PZ15noend_SimRNAAS1_6_solution.pdb                 4.323        6.874        9.315        16.287      
+SimRNAAS1_7                                        PZ15noend_SimRNAAS1_7_refined.pdb                  PZ15noend_SimRNAAS1_7_solution.pdb                 9.063        15.848       21.515       39.270      
+SimRNAAS1_8                                        PZ15noend_SimRNAAS1_8_refined.pdb                  PZ15noend_SimRNAAS1_8_solution.pdb                 9.023        12.947       15.559       25.141      
+SimRNAAS1_9                                        PZ15noend_SimRNAAS1_9_refined.pdb                  PZ15noend_SimRNAAS1_9_solution.pdb                 8.857        13.420       16.097       22.145      
+SimRNAAS2_10                                       PZ15noend_SimRNAAS2_10_refined.pdb                 PZ15noend_SimRNAAS2_10_solution.pdb                9.898        14.601       18.642       35.933      
+SimRNAAS2_1                                        PZ15noend_SimRNAAS2_1_refined.pdb                  PZ15noend_SimRNAAS2_1_solution.pdb                 10.343       18.233       22.875       40.544      
+SimRNAAS2_2                                        PZ15noend_SimRNAAS2_2_refined.pdb                  PZ15noend_SimRNAAS2_2_solution.pdb                 9.935        15.569       21.494       38.014      
+SimRNAAS2_3                                        PZ15noend_SimRNAAS2_3_refined.pdb                  PZ15noend_SimRNAAS2_3_solution.pdb                 9.665        14.611       18.049       28.046      
+SimRNAAS2_4                                        PZ15noend_SimRNAAS2_4_refined.pdb                  PZ15noend_SimRNAAS2_4_solution.pdb                 10.509       19.253       26.802       70.217      
+SimRNAAS2_5                                        PZ15noend_SimRNAAS2_5_refined.pdb                  PZ15noend_SimRNAAS2_5_solution.pdb                 9.944        15.182       21.872       40.157      
+SimRNAAS2_6                                        PZ15noend_SimRNAAS2_6_refined.pdb                  PZ15noend_SimRNAAS2_6_solution.pdb                 7.755        13.205       16.345       25.255      
+SimRNAAS2_7                                        PZ15noend_SimRNAAS2_7_refined.pdb                  PZ15noend_SimRNAAS2_7_solution.pdb                 10.798       19.170       24.644       47.857      
+SimRNAAS2_8                                        PZ15noend_SimRNAAS2_8_refined.pdb                  PZ15noend_SimRNAAS2_8_solution.pdb                 9.748        13.591       16.539       25.080      
+SimRNAAS2_9                                        PZ15noend_SimRNAAS2_9_refined.pdb                  PZ15noend_SimRNAAS2_9_solution.pdb                 10.558       17.641       24.684       44.775      
+

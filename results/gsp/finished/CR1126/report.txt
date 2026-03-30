@@ -1,145 +1,148 @@
 Report for set: CR1126
-Processed 140 / 140 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-CR1126_TS029_1_refined.pdb                         CR1126_TS029_1_solution.pdb                        SUCCESS         2.705                         
-CR1126_TS029_2_refined.pdb                         CR1126_TS029_2_solution.pdb                        SUCCESS         3.735                         
-CR1126_TS029_3_refined.pdb                         CR1126_TS029_3_solution.pdb                        SUCCESS         4.276                         
-CR1126_TS035_1_refined.pdb                         CR1126_TS035_1_solution.pdb                        SUCCESS         4.912                         
-CR1126_TS035_2_refined.pdb                         CR1126_TS035_2_solution.pdb                        SUCCESS         4.662                         
-CR1126_TS035_3_refined.pdb                         CR1126_TS035_3_solution.pdb                        SUCCESS         3.277                         
-CR1126_TS035_4_refined.pdb                         CR1126_TS035_4_solution.pdb                        SUCCESS         4.582                         
-CR1126_TS035_5_refined.pdb                         CR1126_TS035_5_solution.pdb                        SUCCESS         4.677                         
-CR1126_TS054_1_refined.pdb                         CR1126_TS054_1_solution.pdb                        SUCCESS         17.472                        
-CR1126_TS054_2_refined.pdb                         CR1126_TS054_2_solution.pdb                        SUCCESS         16.765                        
-CR1126_TS054_3_refined.pdb                         CR1126_TS054_3_solution.pdb                        SUCCESS         16.355                        
-CR1126_TS054_4_refined.pdb                         CR1126_TS054_4_solution.pdb                        SUCCESS         21.671                        
-CR1126_TS054_5_refined.pdb                         CR1126_TS054_5_solution.pdb                        SUCCESS         16.883                        
-CR1126_TS076_1_refined.pdb                         CR1126_TS076_1_solution.pdb                        SUCCESS         16.751                        
-CR1126_TS076_2_refined.pdb                         CR1126_TS076_2_solution.pdb                        SUCCESS         17.054                        
-CR1126_TS076_3_refined.pdb                         CR1126_TS076_3_solution.pdb                        SUCCESS         14.704                        
-CR1126_TS076_4_refined.pdb                         CR1126_TS076_4_solution.pdb                        SUCCESS         14.704                        
-CR1126_TS076_5_refined.pdb                         CR1126_TS076_5_solution.pdb                        SUCCESS         16.597                        
-CR1126_TS081_1_refined.pdb                         CR1126_TS081_1_solution.pdb                        SUCCESS         44.391                        
-CR1126_TS081_2_refined.pdb                         CR1126_TS081_2_solution.pdb                        SUCCESS         44.608                        
-CR1126_TS081_3_refined.pdb                         CR1126_TS081_3_solution.pdb                        SUCCESS         44.559                        
-CR1126_TS097_1_refined.pdb                         CR1126_TS097_1_solution.pdb                        SUCCESS         4.36                          
-CR1126_TS110_1_refined.pdb                         CR1126_TS110_1_solution.pdb                        SUCCESS         19.108                        
-CR1126_TS110_2_refined.pdb                         CR1126_TS110_2_solution.pdb                        SUCCESS         16.746                        
-CR1126_TS110_3_refined.pdb                         CR1126_TS110_3_solution.pdb                        SUCCESS         17.863                        
-CR1126_TS110_4_refined.pdb                         CR1126_TS110_4_solution.pdb                        SUCCESS         19.665                        
-CR1126_TS110_5_refined.pdb                         CR1126_TS110_5_solution.pdb                        SUCCESS         18.121                        
-CR1126_TS119_1_refined.pdb                         CR1126_TS119_1_solution.pdb                        SUCCESS         20.36                         
-CR1126_TS119_2_refined.pdb                         CR1126_TS119_2_solution.pdb                        SUCCESS         17.294                        
-CR1126_TS119_3_refined.pdb                         CR1126_TS119_3_solution.pdb                        SUCCESS         17.011                        
-CR1126_TS119_4_refined.pdb                         CR1126_TS119_4_solution.pdb                        SUCCESS         15.386                        
-CR1126_TS119_5_refined.pdb                         CR1126_TS119_5_solution.pdb                        SUCCESS         14.508                        
-CR1126_TS125_1_refined.pdb                         CR1126_TS125_1_solution.pdb                        SUCCESS         16.751                        
-CR1126_TS125_2_refined.pdb                         CR1126_TS125_2_solution.pdb                        SUCCESS         17.102                        
-CR1126_TS125_3_refined.pdb                         CR1126_TS125_3_solution.pdb                        SUCCESS         22.129                        
-CR1126_TS125_4_refined.pdb                         CR1126_TS125_4_solution.pdb                        SUCCESS         16.673                        
-CR1126_TS125_5_refined.pdb                         CR1126_TS125_5_solution.pdb                        SUCCESS         17.608                        
-CR1126_TS128_1_refined.pdb                         CR1126_TS128_1_solution.pdb                        SUCCESS         25.61                         
-CR1126_TS128_2_refined.pdb                         CR1126_TS128_2_solution.pdb                        SUCCESS         27.38                         
-CR1126_TS128_3_refined.pdb                         CR1126_TS128_3_solution.pdb                        SUCCESS         24.327                        
-CR1126_TS128_4_refined.pdb                         CR1126_TS128_4_solution.pdb                        SUCCESS         25.752                        
-CR1126_TS128_5_refined.pdb                         CR1126_TS128_5_solution.pdb                        SUCCESS         25.287                        
-CR1126_TS131_1_refined.pdb                         CR1126_TS131_1_solution.pdb                        SUCCESS         2.587                         
-CR1126_TS131_2_refined.pdb                         CR1126_TS131_2_solution.pdb                        SUCCESS         2.669                         
-CR1126_TS131_3_refined.pdb                         CR1126_TS131_3_solution.pdb                        SUCCESS         2.703                         
-CR1126_TS131_4_refined.pdb                         CR1126_TS131_4_solution.pdb                        SUCCESS         2.666                         
-CR1126_TS131_5_refined.pdb                         CR1126_TS131_5_solution.pdb                        SUCCESS         2.641                         
-CR1126_TS147_1_refined.pdb                         CR1126_TS147_1_solution.pdb                        SUCCESS         23.282                        
-CR1126_TS147_2_refined.pdb                         CR1126_TS147_2_solution.pdb                        SUCCESS         20.655                        
-CR1126_TS147_3_refined.pdb                         CR1126_TS147_3_solution.pdb                        SUCCESS         20.385                        
-CR1126_TS147_4_refined.pdb                         CR1126_TS147_4_solution.pdb                        SUCCESS         22.329                        
-CR1126_TS147_5_refined.pdb                         CR1126_TS147_5_solution.pdb                        SUCCESS         19.708                        
-CR1126_TS177_1_refined.pdb                         CR1126_TS177_1_solution.pdb                        SUCCESS         3.097                         
-CR1126_TS185_1_refined.pdb                         CR1126_TS185_1_solution.pdb                        SUCCESS         14.081                        
-CR1126_TS185_2_refined.pdb                         CR1126_TS185_2_solution.pdb                        SUCCESS         14.337                        
-CR1126_TS185_3_refined.pdb                         CR1126_TS185_3_solution.pdb                        SUCCESS         15.342                        
-CR1126_TS185_4_refined.pdb                         CR1126_TS185_4_solution.pdb                        SUCCESS         10.905                        
-CR1126_TS185_5_refined.pdb                         CR1126_TS185_5_solution.pdb                        SUCCESS         11.279                        
-CR1126_TS227_1_refined.pdb                         CR1126_TS227_1_solution.pdb                        SUCCESS         20.327                        
-CR1126_TS227_2_refined.pdb                         CR1126_TS227_2_solution.pdb                        SUCCESS         20.281                        
-CR1126_TS227_3_refined.pdb                         CR1126_TS227_3_solution.pdb                        SUCCESS         21.187                        
-CR1126_TS227_4_refined.pdb                         CR1126_TS227_4_solution.pdb                        SUCCESS         20.693                        
-CR1126_TS227_5_refined.pdb                         CR1126_TS227_5_solution.pdb                        SUCCESS         23.639                        
-CR1126_TS229_1_refined.pdb                         CR1126_TS229_1_solution.pdb                        SUCCESS         14.704                        
-CR1126_TS229_2_refined.pdb                         CR1126_TS229_2_solution.pdb                        SUCCESS         14.502                        
-CR1126_TS229_3_refined.pdb                         CR1126_TS229_3_solution.pdb                        SUCCESS         16.597                        
-CR1126_TS229_4_refined.pdb                         CR1126_TS229_4_solution.pdb                        SUCCESS         16.831                        
-CR1126_TS229_5_refined.pdb                         CR1126_TS229_5_solution.pdb                        SUCCESS         15.007                        
-CR1126_TS232_1_refined.pdb                         CR1126_TS232_1_solution.pdb                        SUCCESS         70.594                        
-CR1126_TS232_2_refined.pdb                         CR1126_TS232_2_solution.pdb                        SUCCESS         75.446                        
-CR1126_TS232_3_refined.pdb                         CR1126_TS232_3_solution.pdb                        SUCCESS         74.112                        
-CR1126_TS232_4_refined.pdb                         CR1126_TS232_4_solution.pdb                        SUCCESS         73.523                        
-CR1126_TS232_5_refined.pdb                         CR1126_TS232_5_solution.pdb                        SUCCESS         71.526                        
-CR1126_TS235_1_refined.pdb                         CR1126_TS235_1_solution.pdb                        SUCCESS         19.364                        
-CR1126_TS235_2_refined.pdb                         CR1126_TS235_2_solution.pdb                        SUCCESS         15.812                        
-CR1126_TS235_3_refined.pdb                         CR1126_TS235_3_solution.pdb                        SUCCESS         19.55                         
-CR1126_TS235_4_refined.pdb                         CR1126_TS235_4_solution.pdb                        SUCCESS         17.499                        
-CR1126_TS235_5_refined.pdb                         CR1126_TS235_5_solution.pdb                        SUCCESS         15.247                        
-CR1126_TS238_1_refined.pdb                         CR1126_TS238_1_solution.pdb                        SUCCESS         13.863                        
-CR1126_TS238_2_refined.pdb                         CR1126_TS238_2_solution.pdb                        SUCCESS         9.527                         
-CR1126_TS238_3_refined.pdb                         CR1126_TS238_3_solution.pdb                        SUCCESS         14.26                         
-CR1126_TS239_1_refined.pdb                         CR1126_TS239_1_solution.pdb                        SUCCESS         17.054                        
-CR1126_TS239_2_refined.pdb                         CR1126_TS239_2_solution.pdb                        SUCCESS         15.398                        
-CR1126_TS239_3_refined.pdb                         CR1126_TS239_3_solution.pdb                        SUCCESS         14.502                        
-CR1126_TS239_4_refined.pdb                         CR1126_TS239_4_solution.pdb                        SUCCESS         14.704                        
-CR1126_TS239_5_refined.pdb                         CR1126_TS239_5_solution.pdb                        SUCCESS         16.259                        
-CR1126_TS245_1_refined.pdb                         CR1126_TS245_1_solution.pdb                        SUCCESS         5.636                         
-CR1126_TS245_2_refined.pdb                         CR1126_TS245_2_solution.pdb                        SUCCESS         6.624                         
-CR1126_TS245_3_refined.pdb                         CR1126_TS245_3_solution.pdb                        SUCCESS         7.118                         
-CR1126_TS245_4_refined.pdb                         CR1126_TS245_4_solution.pdb                        SUCCESS         6.57                          
-CR1126_TS245_5_refined.pdb                         CR1126_TS245_5_solution.pdb                        SUCCESS         7.485                         
-CR1126_TS248_1_refined.pdb                         CR1126_TS248_1_solution.pdb                        SUCCESS         4.912                         
-CR1126_TS248_2_refined.pdb                         CR1126_TS248_2_solution.pdb                        SUCCESS         4.662                         
-CR1126_TS248_3_refined.pdb                         CR1126_TS248_3_solution.pdb                        SUCCESS         3.277                         
-CR1126_TS248_4_refined.pdb                         CR1126_TS248_4_solution.pdb                        SUCCESS         4.582                         
-CR1126_TS248_5_refined.pdb                         CR1126_TS248_5_solution.pdb                        SUCCESS         4.677                         
-CR1126_TS287_1_refined.pdb                         CR1126_TS287_1_solution.pdb                        SUCCESS         27.626                        
-CR1126_TS287_2_refined.pdb                         CR1126_TS287_2_solution.pdb                        SUCCESS         48.4                          
-CR1126_TS287_3_refined.pdb                         CR1126_TS287_3_solution.pdb                        SUCCESS         23.376                        
-CR1126_TS287_4_refined.pdb                         CR1126_TS287_4_solution.pdb                        SUCCESS         28.027                        
-CR1126_TS287_5_refined.pdb                         CR1126_TS287_5_solution.pdb                        SUCCESS         31.954                        
-CR1126_TS385_1_refined.pdb                         CR1126_TS385_1_solution.pdb                        SUCCESS         5.636                         
-CR1126_TS392_1_refined.pdb                         CR1126_TS392_1_solution.pdb                        SUCCESS         16.528                        
-CR1126_TS392_2_refined.pdb                         CR1126_TS392_2_solution.pdb                        SUCCESS         15.624                        
-CR1126_TS392_3_refined.pdb                         CR1126_TS392_3_solution.pdb                        SUCCESS         20.057                        
-CR1126_TS416_1_refined.pdb                         CR1126_TS416_1_solution.pdb                        SUCCESS         18.325                        
-CR1126_TS416_2_refined.pdb                         CR1126_TS416_2_solution.pdb                        SUCCESS         17.123                        
-CR1126_TS416_3_refined.pdb                         CR1126_TS416_3_solution.pdb                        SUCCESS         13.367                        
-CR1126_TS416_4_refined.pdb                         CR1126_TS416_4_solution.pdb                        SUCCESS         13.278                        
-CR1126_TS416_5_refined.pdb                         CR1126_TS416_5_solution.pdb                        SUCCESS         16.472                        
-CR1126_TS434_1_refined.pdb                         CR1126_TS434_1_solution.pdb                        SUCCESS         21.198                        
-CR1126_TS434_2_refined.pdb                         CR1126_TS434_2_solution.pdb                        SUCCESS         20.544                        
-CR1126_TS434_3_refined.pdb                         CR1126_TS434_3_solution.pdb                        SUCCESS         23.747                        
-CR1126_TS434_4_refined.pdb                         CR1126_TS434_4_solution.pdb                        SUCCESS         20.738                        
-CR1126_TS434_5_refined.pdb                         CR1126_TS434_5_solution.pdb                        SUCCESS         20.341                        
-CR1126_TS439_1_refined.pdb                         CR1126_TS439_1_solution.pdb                        SUCCESS         14.704                        
-CR1126_TS439_2_refined.pdb                         CR1126_TS439_2_solution.pdb                        SUCCESS         14.502                        
-CR1126_TS439_3_refined.pdb                         CR1126_TS439_3_solution.pdb                        SUCCESS         16.597                        
-CR1126_TS439_4_refined.pdb                         CR1126_TS439_4_solution.pdb                        SUCCESS         16.831                        
-CR1126_TS439_5_refined.pdb                         CR1126_TS439_5_solution.pdb                        SUCCESS         15.007                        
-CR1126_TS444_1_refined.pdb                         CR1126_TS444_1_solution.pdb                        SUCCESS         8.926                         
-CR1126_TS444_2_refined.pdb                         CR1126_TS444_2_solution.pdb                        SUCCESS         14.502                        
-CR1126_TS444_3_refined.pdb                         CR1126_TS444_3_solution.pdb                        SUCCESS         5.636                         
-CR1126_TS444_4_refined.pdb                         CR1126_TS444_4_solution.pdb                        SUCCESS         17.054                        
-CR1126_TS444_5_refined.pdb                         CR1126_TS444_5_solution.pdb                        SUCCESS         6.624                         
-CR1126_TS470_1_refined.pdb                         CR1126_TS470_1_solution.pdb                        SUCCESS         10.596                        
-CR1126_TS470_2_refined.pdb                         CR1126_TS470_2_solution.pdb                        SUCCESS         9.23                          
-CR1126_TS470_3_refined.pdb                         CR1126_TS470_3_solution.pdb                        SUCCESS         10.844                        
-CR1126_TS470_4_refined.pdb                         CR1126_TS470_4_solution.pdb                        SUCCESS         10.726                        
-CR1126_TS470_5_refined.pdb                         CR1126_TS470_5_solution.pdb                        SUCCESS         7.655                         
-CR1126_TS489_1_refined.pdb                         CR1126_TS489_1_solution.pdb                        SUCCESS         8.926                         
-CR1126_TS489_2_refined.pdb                         CR1126_TS489_2_solution.pdb                        SUCCESS         9.23                          
-CR1126_TS489_3_refined.pdb                         CR1126_TS489_3_solution.pdb                        SUCCESS         10.844                        
-CR1126_TS489_4_refined.pdb                         CR1126_TS489_4_solution.pdb                        SUCCESS         10.726                        
-CR1126_TS489_5_refined.pdb                         CR1126_TS489_5_solution.pdb                        SUCCESS         7.655                         
-CR1126_TS490_1_refined.pdb                         CR1126_TS490_1_solution.pdb                        SUCCESS         4.912                         
-CR1126_TS490_2_refined.pdb                         CR1126_TS490_2_solution.pdb                        SUCCESS         4.662                         
-CR1126_TS490_3_refined.pdb                         CR1126_TS490_3_solution.pdb                        SUCCESS         3.277                         
-CR1126_TS490_4_refined.pdb                         CR1126_TS490_4_solution.pdb                        SUCCESS         4.582                         
-CR1126_TS490_5_refined.pdb                         CR1126_TS490_5_solution.pdb                        SUCCESS         4.677                         
+Processed 140 / 140 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TS029_1                                            CR1126_TS029_1_refined.pdb                         CR1126_TS029_1_solution.pdb                        1.885        2.460        2.931        5.291       
+TS029_2                                            CR1126_TS029_2_refined.pdb                         CR1126_TS029_2_solution.pdb                        2.720        3.642        4.047        6.736       
+TS029_3                                            CR1126_TS029_3_refined.pdb                         CR1126_TS029_3_solution.pdb                        2.116        3.176        4.633        7.413       
+TS035_1                                            CR1126_TS035_1_refined.pdb                         CR1126_TS035_1_solution.pdb                        2.238        3.381        5.322        7.013       
+TS035_2                                            CR1126_TS035_2_refined.pdb                         CR1126_TS035_2_solution.pdb                        2.732        4.243        5.051        6.768       
+TS035_3                                            CR1126_TS035_3_refined.pdb                         CR1126_TS035_3_solution.pdb                        2.614        3.271        3.551        5.491       
+TS035_4                                            CR1126_TS035_4_refined.pdb                         CR1126_TS035_4_solution.pdb                        2.749        3.945        4.964        8.304       
+TS035_5                                            CR1126_TS035_5_refined.pdb                         CR1126_TS035_5_solution.pdb                        2.588        3.639        5.068        6.993       
+TS054_1                                            CR1126_TS054_1_refined.pdb                         CR1126_TS054_1_solution.pdb                        8.712        15.719       18.931       27.247      
+TS054_2                                            CR1126_TS054_2_refined.pdb                         CR1126_TS054_2_solution.pdb                        8.554        15.141       18.165       26.337      
+TS054_3                                            CR1126_TS054_3_refined.pdb                         CR1126_TS054_3_solution.pdb                        8.807        14.809       17.721       23.965      
+TS054_4                                            CR1126_TS054_4_refined.pdb                         CR1126_TS054_4_solution.pdb                        10.583       20.218       23.481       29.056      
+TS054_5                                            CR1126_TS054_5_refined.pdb                         CR1126_TS054_5_solution.pdb                        8.752        15.999       18.293       23.779      
+TS076_1                                            CR1126_TS076_1_refined.pdb                         CR1126_TS076_1_solution.pdb                        9.047        15.366       18.150       25.500      
+TS076_2                                            CR1126_TS076_2_refined.pdb                         CR1126_TS076_2_solution.pdb                        8.502        16.020       18.478       25.975      
+TS076_3                                            CR1126_TS076_3_refined.pdb                         CR1126_TS076_3_solution.pdb                        6.783        13.588       15.931       21.922      
+TS076_4                                            CR1126_TS076_4_refined.pdb                         CR1126_TS076_4_solution.pdb                        6.783        13.588       15.931       21.922      
+TS076_5                                            CR1126_TS076_5_refined.pdb                         CR1126_TS076_5_solution.pdb                        7.778        15.660       17.983       23.383      
+TS081_1                                            CR1126_TS081_1_refined.pdb                         CR1126_TS081_1_solution.pdb                        16.110       35.595       48.098       71.648      
+TS081_2                                            CR1126_TS081_2_refined.pdb                         CR1126_TS081_2_solution.pdb                        16.283       35.927       48.333       71.775      
+TS081_3                                            CR1126_TS081_3_refined.pdb                         CR1126_TS081_3_solution.pdb                        16.218       35.800       48.280       71.842      
+TS097_1                                            CR1126_TS097_1_refined.pdb                         CR1126_TS097_1_solution.pdb                        2.059        3.772        4.725        6.092       
+TS110_1                                            CR1126_TS110_1_refined.pdb                         CR1126_TS110_1_solution.pdb                        8.642        16.612       20.703       33.998      
+TS110_2                                            CR1126_TS110_2_refined.pdb                         CR1126_TS110_2_solution.pdb                        8.199        15.252       18.144       26.311      
+TS110_3                                            CR1126_TS110_3_refined.pdb                         CR1126_TS110_3_solution.pdb                        8.330        15.787       19.355       31.636      
+TS110_4                                            CR1126_TS110_4_refined.pdb                         CR1126_TS110_4_solution.pdb                        9.609        17.580       21.307       35.577      
+TS110_5                                            CR1126_TS110_5_refined.pdb                         CR1126_TS110_5_solution.pdb                        9.164        16.679       19.635       32.334      
+TS119_1                                            CR1126_TS119_1_refined.pdb                         CR1126_TS119_1_solution.pdb                        9.912        19.485       22.060       28.424      
+TS119_2                                            CR1126_TS119_2_refined.pdb                         CR1126_TS119_2_solution.pdb                        9.702        15.800       18.738       25.667      
+TS119_3                                            CR1126_TS119_3_refined.pdb                         CR1126_TS119_3_solution.pdb                        8.613        14.990       18.431       26.689      
+TS119_4                                            CR1126_TS119_4_refined.pdb                         CR1126_TS119_4_solution.pdb                        8.192        14.335       16.670       24.388      
+TS119_5                                            CR1126_TS119_5_refined.pdb                         CR1126_TS119_5_solution.pdb                        7.418        12.615       15.719       21.147      
+TS125_1                                            CR1126_TS125_1_refined.pdb                         CR1126_TS125_1_solution.pdb                        9.047        15.366       18.150       25.500      
+TS125_2                                            CR1126_TS125_2_refined.pdb                         CR1126_TS125_2_solution.pdb                        8.884        15.192       18.530       26.474      
+TS125_3                                            CR1126_TS125_3_refined.pdb                         CR1126_TS125_3_solution.pdb                        10.487       19.905       23.977       36.717      
+TS125_4                                            CR1126_TS125_4_refined.pdb                         CR1126_TS125_4_solution.pdb                        8.960        16.065       18.066       23.211      
+TS125_5                                            CR1126_TS125_5_refined.pdb                         CR1126_TS125_5_solution.pdb                        9.465        16.832       19.078       25.206      
+TS128_1                                            CR1126_TS128_1_refined.pdb                         CR1126_TS128_1_solution.pdb                        10.810       21.765       27.748       37.875      
+TS128_2                                            CR1126_TS128_2_refined.pdb                         CR1126_TS128_2_solution.pdb                        13.409       24.523       29.667       39.344      
+TS128_3                                            CR1126_TS128_3_refined.pdb                         CR1126_TS128_3_solution.pdb                        10.557       20.864       26.359       32.882      
+TS128_4                                            CR1126_TS128_4_refined.pdb                         CR1126_TS128_4_solution.pdb                        11.179       23.591       27.902       36.017      
+TS128_5                                            CR1126_TS128_5_refined.pdb                         CR1126_TS128_5_solution.pdb                        10.840       21.238       27.399       34.886      
+TS131_1                                            CR1126_TS131_1_refined.pdb                         CR1126_TS131_1_solution.pdb                        2.131        2.480        2.803        4.229       
+TS131_2                                            CR1126_TS131_2_refined.pdb                         CR1126_TS131_2_solution.pdb                        2.131        2.502        2.892        4.437       
+TS131_3                                            CR1126_TS131_3_refined.pdb                         CR1126_TS131_3_solution.pdb                        2.124        2.552        2.929        4.436       
+TS131_4                                            CR1126_TS131_4_refined.pdb                         CR1126_TS131_4_solution.pdb                        2.119        2.522        2.888        4.224       
+TS131_5                                            CR1126_TS131_5_refined.pdb                         CR1126_TS131_5_solution.pdb                        2.130        2.511        2.861        4.243       
+TS147_1                                            CR1126_TS147_1_refined.pdb                         CR1126_TS147_1_solution.pdb                        10.981       20.069       25.226       34.059      
+TS147_2                                            CR1126_TS147_2_refined.pdb                         CR1126_TS147_2_solution.pdb                        10.728       18.238       22.380       30.889      
+TS147_3                                            CR1126_TS147_3_refined.pdb                         CR1126_TS147_3_solution.pdb                        10.728       17.967       22.087       29.335      
+TS147_4                                            CR1126_TS147_4_refined.pdb                         CR1126_TS147_4_solution.pdb                        10.407       19.210       24.194       32.836      
+TS147_5                                            CR1126_TS147_5_refined.pdb                         CR1126_TS147_5_solution.pdb                        9.951        17.184       21.354       27.251      
+TS177_1                                            CR1126_TS177_1_refined.pdb                         CR1126_TS177_1_solution.pdb                        1.777        2.704        3.356        6.954       
+TS185_1                                            CR1126_TS185_1_refined.pdb                         CR1126_TS185_1_solution.pdb                        6.938        12.279       15.257       24.254      
+TS185_2                                            CR1126_TS185_2_refined.pdb                         CR1126_TS185_2_solution.pdb                        7.340        12.493       15.535       25.019      
+TS185_3                                            CR1126_TS185_3_refined.pdb                         CR1126_TS185_3_solution.pdb                        7.819        13.392       16.623       25.090      
+TS185_4                                            CR1126_TS185_4_refined.pdb                         CR1126_TS185_4_solution.pdb                        5.710        9.234        11.815       17.025      
+TS185_5                                            CR1126_TS185_5_refined.pdb                         CR1126_TS185_5_solution.pdb                        5.523        9.692        12.221       17.486      
+TS227_1                                            CR1126_TS227_1_refined.pdb                         CR1126_TS227_1_solution.pdb                        9.932        17.894       22.025       28.097      
+TS227_2                                            CR1126_TS227_2_refined.pdb                         CR1126_TS227_2_solution.pdb                        11.030       18.088       21.974       27.797      
+TS227_3                                            CR1126_TS227_3_refined.pdb                         CR1126_TS227_3_solution.pdb                        11.443       19.524       22.956       29.700      
+TS227_4                                            CR1126_TS227_4_refined.pdb                         CR1126_TS227_4_solution.pdb                        10.428       18.212       22.421       28.932      
+TS227_5                                            CR1126_TS227_5_refined.pdb                         CR1126_TS227_5_solution.pdb                        10.985       20.716       25.613       34.439      
+TS229_1                                            CR1126_TS229_1_refined.pdb                         CR1126_TS229_1_solution.pdb                        6.783        13.588       15.931       21.922      
+TS229_2                                            CR1126_TS229_2_refined.pdb                         CR1126_TS229_2_solution.pdb                        6.751        13.664       15.713       22.026      
+TS229_3                                            CR1126_TS229_3_refined.pdb                         CR1126_TS229_3_solution.pdb                        7.778        15.660       17.983       23.383      
+TS229_4                                            CR1126_TS229_4_refined.pdb                         CR1126_TS229_4_solution.pdb                        8.477        15.589       18.237       27.785      
+TS229_5                                            CR1126_TS229_5_refined.pdb                         CR1126_TS229_5_solution.pdb                        7.670        13.399       16.260       24.356      
+TS232_1                                            CR1126_TS232_1_refined.pdb                         CR1126_TS232_1_solution.pdb                        17.794       58.698       76.489       99.956      
+TS232_2                                            CR1126_TS232_2_refined.pdb                         CR1126_TS232_2_solution.pdb                        18.136       64.054       81.746       100.000     
+TS232_3                                            CR1126_TS232_3_refined.pdb                         CR1126_TS232_3_solution.pdb                        17.799       62.452       80.300       100.000     
+TS232_4                                            CR1126_TS232_4_refined.pdb                         CR1126_TS232_4_solution.pdb                        17.911       59.008       79.663       99.841      
+TS232_5                                            CR1126_TS232_5_refined.pdb                         CR1126_TS232_5_solution.pdb                        17.883       60.835       77.498       99.746      
+TS235_1                                            CR1126_TS235_1_refined.pdb                         CR1126_TS235_1_solution.pdb                        8.461        15.981       20.981       42.027      
+TS235_2                                            CR1126_TS235_2_refined.pdb                         CR1126_TS235_2_solution.pdb                        8.148        13.541       17.132       27.300      
+TS235_3                                            CR1126_TS235_3_refined.pdb                         CR1126_TS235_3_solution.pdb                        8.811        16.270       21.183       36.000      
+TS235_4                                            CR1126_TS235_4_refined.pdb                         CR1126_TS235_4_solution.pdb                        9.825        15.779       18.960       28.593      
+TS235_5                                            CR1126_TS235_5_refined.pdb                         CR1126_TS235_5_solution.pdb                        8.516        14.324       16.520       21.977      
+TS238_1                                            CR1126_TS238_1_refined.pdb                         CR1126_TS238_1_solution.pdb                        6.139        11.600       15.020       24.384      
+TS238_2                                            CR1126_TS238_2_refined.pdb                         CR1126_TS238_2_solution.pdb                        1.815        6.213        10.323       19.795      
+TS238_3                                            CR1126_TS238_3_refined.pdb                         CR1126_TS238_3_solution.pdb                        4.159        10.558       15.451       29.100      
+TS239_1                                            CR1126_TS239_1_refined.pdb                         CR1126_TS239_1_solution.pdb                        8.502        16.020       18.478       25.975      
+TS239_2                                            CR1126_TS239_2_refined.pdb                         CR1126_TS239_2_solution.pdb                        7.884        14.907       16.684       21.748      
+TS239_3                                            CR1126_TS239_3_refined.pdb                         CR1126_TS239_3_solution.pdb                        6.751        13.664       15.713       22.026      
+TS239_4                                            CR1126_TS239_4_refined.pdb                         CR1126_TS239_4_solution.pdb                        6.783        13.588       15.931       21.922      
+TS239_5                                            CR1126_TS239_5_refined.pdb                         CR1126_TS239_5_solution.pdb                        8.039        14.625       17.616       25.133      
+TS245_1                                            CR1126_TS245_1_refined.pdb                         CR1126_TS245_1_solution.pdb                        3.112        4.937        6.107        12.489      
+TS245_2                                            CR1126_TS245_2_refined.pdb                         CR1126_TS245_2_solution.pdb                        3.094        5.498        7.177        14.827      
+TS245_3                                            CR1126_TS245_3_refined.pdb                         CR1126_TS245_3_solution.pdb                        2.900        5.653        7.713        15.278      
+TS245_4                                            CR1126_TS245_4_refined.pdb                         CR1126_TS245_4_solution.pdb                        2.462        4.929        7.118        17.867      
+TS245_5                                            CR1126_TS245_5_refined.pdb                         CR1126_TS245_5_solution.pdb                        3.088        5.745        8.110        18.171      
+TS248_1                                            CR1126_TS248_1_refined.pdb                         CR1126_TS248_1_solution.pdb                        2.238        3.381        5.322        7.013       
+TS248_2                                            CR1126_TS248_2_refined.pdb                         CR1126_TS248_2_solution.pdb                        2.732        4.243        5.051        6.768       
+TS248_3                                            CR1126_TS248_3_refined.pdb                         CR1126_TS248_3_solution.pdb                        2.614        3.271        3.551        5.491       
+TS248_4                                            CR1126_TS248_4_refined.pdb                         CR1126_TS248_4_solution.pdb                        2.749        3.945        4.964        8.304       
+TS248_5                                            CR1126_TS248_5_refined.pdb                         CR1126_TS248_5_solution.pdb                        2.588        3.639        5.068        6.993       
+TS287_1                                            CR1126_TS287_1_refined.pdb                         CR1126_TS287_1_solution.pdb                        13.089       23.685       29.933       48.774      
+TS287_2                                            CR1126_TS287_2_refined.pdb                         CR1126_TS287_2_solution.pdb                        13.970       37.504       52.442       83.389      
+TS287_3                                            CR1126_TS287_3_refined.pdb                         CR1126_TS287_3_solution.pdb                        11.620       20.692       25.328       32.790      
+TS287_4                                            CR1126_TS287_4_refined.pdb                         CR1126_TS287_4_solution.pdb                        12.101       24.629       30.367       38.295      
+TS287_5                                            CR1126_TS287_5_refined.pdb                         CR1126_TS287_5_solution.pdb                        11.742       24.681       34.622       65.443      
+TS385_1                                            CR1126_TS385_1_refined.pdb                         CR1126_TS385_1_solution.pdb                        3.112        4.937        6.107        12.489      
+TS392_1                                            CR1126_TS392_1_refined.pdb                         CR1126_TS392_1_solution.pdb                        8.398        14.676       17.909       23.548      
+TS392_2                                            CR1126_TS392_2_refined.pdb                         CR1126_TS392_2_solution.pdb                        7.994        13.909       16.929       23.468      
+TS392_3                                            CR1126_TS392_3_refined.pdb                         CR1126_TS392_3_solution.pdb                        9.113        16.984       21.732       29.327      
+TS416_1                                            CR1126_TS416_1_refined.pdb                         CR1126_TS416_1_solution.pdb                        8.619        16.597       19.855       32.281      
+TS416_2                                            CR1126_TS416_2_refined.pdb                         CR1126_TS416_2_solution.pdb                        7.747        14.731       18.553       29.076      
+TS416_3                                            CR1126_TS416_3_refined.pdb                         CR1126_TS416_3_solution.pdb                        6.367        11.881       14.483       18.559      
+TS416_4                                            CR1126_TS416_4_refined.pdb                         CR1126_TS416_4_solution.pdb                        6.247        11.948       14.387       19.188      
+TS416_5                                            CR1126_TS416_5_refined.pdb                         CR1126_TS416_5_solution.pdb                        9.017        14.568       17.848       25.391      
+TS434_1                                            CR1126_TS434_1_refined.pdb                         CR1126_TS434_1_solution.pdb                        10.513       18.936       22.968       30.068      
+TS434_2                                            CR1126_TS434_2_refined.pdb                         CR1126_TS434_2_solution.pdb                        10.609       18.697       22.259       27.804      
+TS434_3                                            CR1126_TS434_3_refined.pdb                         CR1126_TS434_3_solution.pdb                        11.003       21.425       25.730       33.502      
+TS434_4                                            CR1126_TS434_4_refined.pdb                         CR1126_TS434_4_solution.pdb                        10.414       18.789       22.470       29.978      
+TS434_5                                            CR1126_TS434_5_refined.pdb                         CR1126_TS434_5_solution.pdb                        10.325       18.449       22.040       27.466      
+TS439_1                                            CR1126_TS439_1_refined.pdb                         CR1126_TS439_1_solution.pdb                        6.783        13.588       15.931       21.922      
+TS439_2                                            CR1126_TS439_2_refined.pdb                         CR1126_TS439_2_solution.pdb                        6.751        13.664       15.713       22.026      
+TS439_3                                            CR1126_TS439_3_refined.pdb                         CR1126_TS439_3_solution.pdb                        7.778        15.660       17.983       23.383      
+TS439_4                                            CR1126_TS439_4_refined.pdb                         CR1126_TS439_4_solution.pdb                        8.477        15.589       18.237       27.785      
+TS439_5                                            CR1126_TS439_5_refined.pdb                         CR1126_TS439_5_solution.pdb                        7.670        13.399       16.260       24.356      
+TS444_1                                            CR1126_TS444_1_refined.pdb                         CR1126_TS444_1_solution.pdb                        3.326        7.457        9.672        17.650      
+TS444_2                                            CR1126_TS444_2_refined.pdb                         CR1126_TS444_2_solution.pdb                        6.751        13.664       15.713       22.026      
+TS444_3                                            CR1126_TS444_3_refined.pdb                         CR1126_TS444_3_solution.pdb                        3.112        4.937        6.107        12.489      
+TS444_4                                            CR1126_TS444_4_refined.pdb                         CR1126_TS444_4_solution.pdb                        8.502        16.020       18.478       25.975      
+TS444_5                                            CR1126_TS444_5_refined.pdb                         CR1126_TS444_5_solution.pdb                        3.094        5.498        7.177        14.827      
+TS470_1                                            CR1126_TS470_1_refined.pdb                         CR1126_TS470_1_solution.pdb                        4.422        7.975        11.481       18.772      
+TS470_2                                            CR1126_TS470_2_refined.pdb                         CR1126_TS470_2_solution.pdb                        3.571        7.103        10.001       18.050      
+TS470_3                                            CR1126_TS470_3_refined.pdb                         CR1126_TS470_3_solution.pdb                        4.388        8.001        11.749       18.150      
+TS470_4                                            CR1126_TS470_4_refined.pdb                         CR1126_TS470_4_solution.pdb                        4.358        8.359        11.622       18.856      
+TS470_5                                            CR1126_TS470_5_refined.pdb                         CR1126_TS470_5_solution.pdb                        3.121        6.218        8.294        16.066      
+TS489_1                                            CR1126_TS489_1_refined.pdb                         CR1126_TS489_1_solution.pdb                        3.326        7.457        9.672        17.650      
+TS489_2                                            CR1126_TS489_2_refined.pdb                         CR1126_TS489_2_solution.pdb                        3.571        7.103        10.001       18.050      
+TS489_3                                            CR1126_TS489_3_refined.pdb                         CR1126_TS489_3_solution.pdb                        4.388        8.001        11.749       18.150      
+TS489_4                                            CR1126_TS489_4_refined.pdb                         CR1126_TS489_4_solution.pdb                        4.358        8.359        11.622       18.856      
+TS489_5                                            CR1126_TS489_5_refined.pdb                         CR1126_TS489_5_solution.pdb                        3.121        6.218        8.294        16.066      
+TS490_1                                            CR1126_TS490_1_refined.pdb                         CR1126_TS490_1_solution.pdb                        2.238        3.381        5.322        7.013       
+TS490_2                                            CR1126_TS490_2_refined.pdb                         CR1126_TS490_2_solution.pdb                        2.732        4.243        5.051        6.768       
+TS490_3                                            CR1126_TS490_3_refined.pdb                         CR1126_TS490_3_solution.pdb                        2.614        3.271        3.551        5.491       
+TS490_4                                            CR1126_TS490_4_refined.pdb                         CR1126_TS490_4_solution.pdb                        2.749        3.945        4.964        8.304       
+TS490_5                                            CR1126_TS490_5_refined.pdb                         CR1126_TS490_5_solution.pdb                        2.588        3.639        5.068        6.993       
+

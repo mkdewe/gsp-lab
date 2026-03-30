@@ -1,31 +1,34 @@
 Report for set: PZ10tBox
-Processed 26 / 26 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ10tBox_Bujnicki_10_refined.pdb                   PZ10tBox_Bujnicki_10_solution.pdb                  SUCCESS         4.392                         
-PZ10tBox_Bujnicki_1_refined.pdb                    PZ10tBox_Bujnicki_1_solution.pdb                   SUCCESS         4.532                         
-PZ10tBox_Bujnicki_2_refined.pdb                    PZ10tBox_Bujnicki_2_solution.pdb                   SUCCESS         4.495                         
-PZ10tBox_Bujnicki_3_refined.pdb                    PZ10tBox_Bujnicki_3_solution.pdb                   SUCCESS         4.47                          
-PZ10tBox_Bujnicki_4_refined.pdb                    PZ10tBox_Bujnicki_4_solution.pdb                   SUCCESS         4.486                         
-PZ10tBox_Bujnicki_5_refined.pdb                    PZ10tBox_Bujnicki_5_solution.pdb                   SUCCESS         4.478                         
-PZ10tBox_Bujnicki_6_refined.pdb                    PZ10tBox_Bujnicki_6_solution.pdb                   SUCCESS         4.51                          
-PZ10tBox_Bujnicki_7_refined.pdb                    PZ10tBox_Bujnicki_7_solution.pdb                   SUCCESS         4.487                         
-PZ10tBox_Bujnicki_8_refined.pdb                    PZ10tBox_Bujnicki_8_solution.pdb                   SUCCESS         4.486                         
-PZ10tBox_Bujnicki_9_refined.pdb                    PZ10tBox_Bujnicki_9_solution.pdb                   SUCCESS         4.439                         
-PZ10tBox_Chen_1_refined.pdb                        PZ10tBox_Chen_1_solution.pdb                       SUCCESS         4.337                         
-PZ10tBox_Das_1_refined.pdb                         PZ10tBox_Das_1_solution.pdb                        SUCCESS         4.185                         
-PZ10tBox_Das_2_refined.pdb                         PZ10tBox_Das_2_solution.pdb                        SUCCESS         4.192                         
-PZ10tBox_Das_3_refined.pdb                         PZ10tBox_Das_3_solution.pdb                        SUCCESS         4.211                         
-PZ10tBox_Das_4_refined.pdb                         PZ10tBox_Das_4_solution.pdb                        SUCCESS         4.16                          
-PZ10tBox_Das_5_refined.pdb                         PZ10tBox_Das_5_solution.pdb                        SUCCESS         4.166                         
-PZ10tBox_Dokholyan_10_refined.pdb                  PZ10tBox_Dokholyan_10_solution.pdb                 SUCCESS         4.305                         
-PZ10tBox_Dokholyan_1_refined.pdb                   PZ10tBox_Dokholyan_1_solution.pdb                  SUCCESS         4.275                         
-PZ10tBox_Dokholyan_2_refined.pdb                   PZ10tBox_Dokholyan_2_solution.pdb                  SUCCESS         4.165                         
-PZ10tBox_Dokholyan_3_refined.pdb                   PZ10tBox_Dokholyan_3_solution.pdb                  SUCCESS         4.445                         
-PZ10tBox_Dokholyan_4_refined.pdb                   PZ10tBox_Dokholyan_4_solution.pdb                  SUCCESS         4.515                         
-PZ10tBox_Dokholyan_5_refined.pdb                   PZ10tBox_Dokholyan_5_solution.pdb                  SUCCESS         4.353                         
-PZ10tBox_Dokholyan_6_refined.pdb                   PZ10tBox_Dokholyan_6_solution.pdb                  SUCCESS         4.283                         
-PZ10tBox_Dokholyan_7_refined.pdb                   PZ10tBox_Dokholyan_7_solution.pdb                  SUCCESS         4.187                         
-PZ10tBox_Dokholyan_8_refined.pdb                   PZ10tBox_Dokholyan_8_solution.pdb                  SUCCESS         4.345                         
-PZ10tBox_Dokholyan_9_refined.pdb                   PZ10tBox_Dokholyan_9_solution.pdb                  SUCCESS         4.41                          
+Processed 26 / 26 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_10                                        PZ10tBox_Bujnicki_10_refined.pdb                   PZ10tBox_Bujnicki_10_solution.pdb                  2.508        3.638        4.759        7.949       
+Bujnicki_1                                         PZ10tBox_Bujnicki_1_refined.pdb                    PZ10tBox_Bujnicki_1_solution.pdb                   2.850        4.111        4.910        8.147       
+Bujnicki_2                                         PZ10tBox_Bujnicki_2_refined.pdb                    PZ10tBox_Bujnicki_2_solution.pdb                   2.821        4.083        4.870        8.057       
+Bujnicki_3                                         PZ10tBox_Bujnicki_3_refined.pdb                    PZ10tBox_Bujnicki_3_solution.pdb                   2.697        4.025        4.843        8.035       
+Bujnicki_4                                         PZ10tBox_Bujnicki_4_refined.pdb                    PZ10tBox_Bujnicki_4_solution.pdb                   2.987        4.047        4.860        7.991       
+Bujnicki_5                                         PZ10tBox_Bujnicki_5_refined.pdb                    PZ10tBox_Bujnicki_5_solution.pdb                   2.841        4.039        4.852        8.053       
+Bujnicki_6                                         PZ10tBox_Bujnicki_6_refined.pdb                    PZ10tBox_Bujnicki_6_solution.pdb                   3.005        4.059        4.887        8.141       
+Bujnicki_7                                         PZ10tBox_Bujnicki_7_refined.pdb                    PZ10tBox_Bujnicki_7_solution.pdb                   2.807        4.006        4.861        8.175       
+Bujnicki_8                                         PZ10tBox_Bujnicki_8_refined.pdb                    PZ10tBox_Bujnicki_8_solution.pdb                   2.615        4.101        4.860        8.114       
+Bujnicki_9                                         PZ10tBox_Bujnicki_9_refined.pdb                    PZ10tBox_Bujnicki_9_solution.pdb                   2.665        4.013        4.810        7.997       
+Chen_1                                             PZ10tBox_Chen_1_refined.pdb                        PZ10tBox_Chen_1_solution.pdb                       2.426        3.923        4.699        8.177       
+Das_1                                              PZ10tBox_Das_1_refined.pdb                         PZ10tBox_Das_1_solution.pdb                        2.543        3.631        4.534        8.179       
+Das_2                                              PZ10tBox_Das_2_refined.pdb                         PZ10tBox_Das_2_solution.pdb                        2.564        3.667        4.542        8.176       
+Das_3                                              PZ10tBox_Das_3_refined.pdb                         PZ10tBox_Das_3_solution.pdb                        2.526        3.666        4.562        8.357       
+Das_4                                              PZ10tBox_Das_4_refined.pdb                         PZ10tBox_Das_4_solution.pdb                        2.531        3.617        4.507        8.212       
+Das_5                                              PZ10tBox_Das_5_refined.pdb                         PZ10tBox_Das_5_solution.pdb                        2.541        3.636        4.514        8.140       
+Dokholyan_10                                       PZ10tBox_Dokholyan_10_refined.pdb                  PZ10tBox_Dokholyan_10_solution.pdb                 2.433        3.941        4.665        7.827       
+Dokholyan_1                                        PZ10tBox_Dokholyan_1_refined.pdb                   PZ10tBox_Dokholyan_1_solution.pdb                  2.543        3.957        4.632        7.640       
+Dokholyan_2                                        PZ10tBox_Dokholyan_2_refined.pdb                   PZ10tBox_Dokholyan_2_solution.pdb                  2.448        3.885        4.512        7.838       
+Dokholyan_3                                        PZ10tBox_Dokholyan_3_refined.pdb                   PZ10tBox_Dokholyan_3_solution.pdb                  2.799        3.951        4.816        8.061       
+Dokholyan_4                                        PZ10tBox_Dokholyan_4_refined.pdb                   PZ10tBox_Dokholyan_4_solution.pdb                  2.548        4.024        4.892        8.325       
+Dokholyan_5                                        PZ10tBox_Dokholyan_5_refined.pdb                   PZ10tBox_Dokholyan_5_solution.pdb                  2.660        3.849        4.716        7.878       
+Dokholyan_6                                        PZ10tBox_Dokholyan_6_refined.pdb                   PZ10tBox_Dokholyan_6_solution.pdb                  2.553        3.794        4.641        7.805       
+Dokholyan_7                                        PZ10tBox_Dokholyan_7_refined.pdb                   PZ10tBox_Dokholyan_7_solution.pdb                  2.404        3.638        4.537        7.600       
+Dokholyan_8                                        PZ10tBox_Dokholyan_8_refined.pdb                   PZ10tBox_Dokholyan_8_solution.pdb                  2.452        3.893        4.708        7.827       
+Dokholyan_9                                        PZ10tBox_Dokholyan_9_refined.pdb                   PZ10tBox_Dokholyan_9_solution.pdb                  2.462        3.917        4.778        7.972       
+

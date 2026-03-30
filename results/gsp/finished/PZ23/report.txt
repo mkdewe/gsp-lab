@@ -1,40 +1,43 @@
 Report for set: PZ23
-Processed 35 / 35 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ23_Bujnicki_1_refined.pdb                        PZ23_Bujnicki_1_solution.pdb                       SUCCESS         10.264                        
-PZ23_Bujnicki_2_refined.pdb                        PZ23_Bujnicki_2_solution.pdb                       SUCCESS         10.035                        
-PZ23_Bujnicki_3_refined.pdb                        PZ23_Bujnicki_3_solution.pdb                       SUCCESS         10.576                        
-PZ23_Chen_1_refined.pdb                            PZ23_Chen_1_solution.pdb                           SUCCESS         11.108                        
-PZ23_Chen_2_refined.pdb                            PZ23_Chen_2_solution.pdb                           SUCCESS         10.701                        
-PZ23_Chen_3_refined.pdb                            PZ23_Chen_3_solution.pdb                           SUCCESS         11.608                        
-PZ23_Das_10_refined.pdb                            PZ23_Das_10_solution.pdb                           SUCCESS         11.925                        
-PZ23_Das_1_refined.pdb                             PZ23_Das_1_solution.pdb                            SUCCESS         13.883                        
-PZ23_Das_2_refined.pdb                             PZ23_Das_2_solution.pdb                            SUCCESS         12.3                          
-PZ23_Das_3_refined.pdb                             PZ23_Das_3_solution.pdb                            SUCCESS         11.644                        
-PZ23_Das_4_refined.pdb                             PZ23_Das_4_solution.pdb                            SUCCESS         13.691                        
-PZ23_Das_5_refined.pdb                             PZ23_Das_5_solution.pdb                            SUCCESS         13.014                        
-PZ23_Das_6_refined.pdb                             PZ23_Das_6_solution.pdb                            SUCCESS         13.113                        
-PZ23_Das_7_refined.pdb                             PZ23_Das_7_solution.pdb                            SUCCESS         15.659                        
-PZ23_Das_8_refined.pdb                             PZ23_Das_8_solution.pdb                            SUCCESS         13.826                        
-PZ23_Das_9_refined.pdb                             PZ23_Das_9_solution.pdb                            SUCCESS         10.998                        
-PZ23_Ding_1_refined.pdb                            PZ23_Ding_1_solution.pdb                           SUCCESS         11.759                        
-PZ23_Ding_2_refined.pdb                            PZ23_Ding_2_solution.pdb                           SUCCESS         11.217                        
-PZ23_Ding_3_refined.pdb                            PZ23_Ding_3_solution.pdb                           SUCCESS         11.285                        
-PZ23_Ding_4_refined.pdb                            PZ23_Ding_4_solution.pdb                           SUCCESS         11.68                         
-PZ23_Ding_5_refined.pdb                            PZ23_Ding_5_solution.pdb                           SUCCESS         10.941                        
-PZ23_Dokholyan_1_refined.pdb                       PZ23_Dokholyan_1_solution.pdb                      SUCCESS         10.019                        
-PZ23_SimRNA_1_refined.pdb                          PZ23_SimRNA_1_solution.pdb                         SUCCESS         11.878                        
-PZ23_SimRNA_2_refined.pdb                          PZ23_SimRNA_2_solution.pdb                         SUCCESS         12.618                        
-PZ23_SimRNA_3_refined.pdb                          PZ23_SimRNA_3_solution.pdb                         SUCCESS         11.68                         
-PZ23_SimRNA_4_refined.pdb                          PZ23_SimRNA_4_solution.pdb                         SUCCESS         11.972                        
-PZ23_SimRNA_5_refined.pdb                          PZ23_SimRNA_5_solution.pdb                         SUCCESS         13.477                        
-PZ23_Szachniuk_1_refined.pdb                       PZ23_Szachniuk_1_solution.pdb                      SUCCESS         10.618                        
-PZ23_Szachniuk_2_refined.pdb                       PZ23_Szachniuk_2_solution.pdb                      SUCCESS         10.524                        
-PZ23_Szachniuk_3_refined.pdb                       PZ23_Szachniuk_3_solution.pdb                      SUCCESS         10.603                        
-PZ23_Xiao_1_refined.pdb                            PZ23_Xiao_1_solution.pdb                           SUCCESS         13.31                         
-PZ23_Xiao_2_refined.pdb                            PZ23_Xiao_2_solution.pdb                           SUCCESS         13.06                         
-PZ23_Xiao_3_refined.pdb                            PZ23_Xiao_3_solution.pdb                           SUCCESS         13.222                        
-PZ23_Xiao_4_refined.pdb                            PZ23_Xiao_4_solution.pdb                           SUCCESS         3.656                         
-PZ23_Xiao_5_refined.pdb                            PZ23_Xiao_5_solution.pdb                           SUCCESS         3.958                         
+Processed 35 / 35 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_1                                         PZ23_Bujnicki_1_refined.pdb                        PZ23_Bujnicki_1_solution.pdb                       3.306        9.925        11.121       19.105      
+Bujnicki_2                                         PZ23_Bujnicki_2_refined.pdb                        PZ23_Bujnicki_2_solution.pdb                       3.831        9.299        10.873       17.638      
+Bujnicki_3                                         PZ23_Bujnicki_3_refined.pdb                        PZ23_Bujnicki_3_solution.pdb                       2.573        9.891        11.460       19.359      
+Chen_1                                             PZ23_Chen_1_refined.pdb                            PZ23_Chen_1_solution.pdb                           4.299        10.122       12.035       18.603      
+Chen_2                                             PZ23_Chen_2_refined.pdb                            PZ23_Chen_2_solution.pdb                           7.392        10.004       11.595       17.221      
+Chen_3                                             PZ23_Chen_3_refined.pdb                            PZ23_Chen_3_solution.pdb                           7.053        10.455       12.577       21.402      
+Das_10                                             PZ23_Das_10_refined.pdb                            PZ23_Das_10_solution.pdb                           7.928        11.437       12.921       20.499      
+Das_1                                              PZ23_Das_1_refined.pdb                             PZ23_Das_1_solution.pdb                            8.300        12.109       15.043       27.772      
+Das_2                                              PZ23_Das_2_refined.pdb                             PZ23_Das_2_solution.pdb                            8.627        11.228       13.327       19.844      
+Das_3                                              PZ23_Das_3_refined.pdb                             PZ23_Das_3_solution.pdb                            8.300        10.749       12.616       17.960      
+Das_4                                              PZ23_Das_4_refined.pdb                             PZ23_Das_4_solution.pdb                            7.973        11.849       14.834       26.107      
+Das_5                                              PZ23_Das_5_refined.pdb                             PZ23_Das_5_solution.pdb                            8.921        12.515       14.100       22.925      
+Das_6                                              PZ23_Das_6_refined.pdb                             PZ23_Das_6_solution.pdb                            8.757        12.114       14.208       31.214      
+Das_7                                              PZ23_Das_7_refined.pdb                             PZ23_Das_7_solution.pdb                            9.129        13.553       16.967       36.850      
+Das_8                                              PZ23_Das_8_refined.pdb                             PZ23_Das_8_solution.pdb                            8.458        11.652       14.981       27.134      
+Das_9                                              PZ23_Das_9_refined.pdb                             PZ23_Das_9_solution.pdb                            7.882        10.608       11.917       20.488      
+Ding_1                                             PZ23_Ding_1_refined.pdb                            PZ23_Ding_1_solution.pdb                           8.294        10.625       12.741       20.318      
+Ding_2                                             PZ23_Ding_2_refined.pdb                            PZ23_Ding_2_solution.pdb                           7.973        10.331       12.154       19.636      
+Ding_3                                             PZ23_Ding_3_refined.pdb                            PZ23_Ding_3_solution.pdb                           8.165        10.297       12.227       19.799      
+Ding_4                                             PZ23_Ding_4_refined.pdb                            PZ23_Ding_4_solution.pdb                           7.668        10.596       12.656       19.940      
+Ding_5                                             PZ23_Ding_5_refined.pdb                            PZ23_Ding_5_solution.pdb                           7.538        10.416       11.855       18.806      
+Dokholyan_1                                        PZ23_Dokholyan_1_refined.pdb                       PZ23_Dokholyan_1_solution.pdb                      6.240        9.694        10.856       17.198      
+SimRNA_1                                           PZ23_SimRNA_1_refined.pdb                          PZ23_SimRNA_1_solution.pdb                         7.984        11.657       12.870       24.714      
+SimRNA_2                                           PZ23_SimRNA_2_refined.pdb                          PZ23_SimRNA_2_solution.pdb                         9.124        11.793       13.672       21.955      
+SimRNA_3                                           PZ23_SimRNA_3_refined.pdb                          PZ23_SimRNA_3_solution.pdb                         8.819        11.415       12.656       21.481      
+SimRNA_4                                           PZ23_SimRNA_4_refined.pdb                          PZ23_SimRNA_4_solution.pdb                         8.892        11.415       12.972       24.161      
+SimRNA_5                                           PZ23_SimRNA_5_refined.pdb                          PZ23_SimRNA_5_solution.pdb                         9.045        12.114       14.602       25.329      
+Szachniuk_1                                        PZ23_Szachniuk_1_refined.pdb                       PZ23_Szachniuk_1_solution.pdb                      7.516        10.275       11.505       18.140      
+Szachniuk_2                                        PZ23_Szachniuk_2_refined.pdb                       PZ23_Szachniuk_2_solution.pdb                      7.358        9.902        11.403       17.576      
+Szachniuk_3                                        PZ23_Szachniuk_3_refined.pdb                       PZ23_Szachniuk_3_solution.pdb                      7.392        9.857        11.488       17.311      
+Xiao_1                                             PZ23_Xiao_1_refined.pdb                            PZ23_Xiao_1_solution.pdb                           9.423        12.046       14.422       24.386      
+Xiao_2                                             PZ23_Xiao_2_refined.pdb                            PZ23_Xiao_2_solution.pdb                           9.541        11.996       14.151       24.082      
+Xiao_3                                             PZ23_Xiao_3_refined.pdb                            PZ23_Xiao_3_solution.pdb                           9.474        12.007       14.326       24.279      
+Xiao_4                                             PZ23_Xiao_4_refined.pdb                            PZ23_Xiao_4_solution.pdb                           2.319        3.256        3.961        9.434       
+Xiao_5                                             PZ23_Xiao_5_refined.pdb                            PZ23_Xiao_5_solution.pdb                           2.387        3.549        4.288        9.885       
+

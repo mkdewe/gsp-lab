@@ -1,45 +1,92 @@
 Report for set: PZ22Dimer
-Processed 40 / 40 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ22Dimer_Adamiak_1_refined.pdb                    PZ22Dimer_Adamiak_1_solution.pdb                   SUCCESS         7.719                         
-PZ22Dimer_Adamiak_2_refined.pdb                    PZ22Dimer_Adamiak_2_solution.pdb                   SUCCESS         7.973                         
-PZ22Dimer_Adamiak_3_refined.pdb                    PZ22Dimer_Adamiak_3_solution.pdb                   SUCCESS         8.15                          
-PZ22Dimer_Adamiak_4_refined.pdb                    PZ22Dimer_Adamiak_4_solution.pdb                   SUCCESS         7.988                         
-PZ22Dimer_Adamiak_5_refined.pdb                    PZ22Dimer_Adamiak_5_solution.pdb                   SUCCESS         9.159                         
-PZ22Dimer_Bujnicki_1_refined.pdb                   PZ22Dimer_Bujnicki_1_solution.pdb                  SUCCESS         8.249                         
-PZ22Dimer_Bujnicki_2_refined.pdb                   PZ22Dimer_Bujnicki_2_solution.pdb                  SUCCESS         8.756                         
-PZ22Dimer_Bujnicki_3_refined.pdb                   PZ22Dimer_Bujnicki_3_solution.pdb                  SUCCESS         7.094                         
-PZ22Dimer_Bujnicki_4_refined.pdb                   PZ22Dimer_Bujnicki_4_solution.pdb                  SUCCESS         7.672                         
-PZ22Dimer_Bujnicki_5_refined.pdb                   PZ22Dimer_Bujnicki_5_solution.pdb                  SUCCESS         4.873                         
-PZ22Dimer_Chen_1_refined.pdb                       PZ22Dimer_Chen_1_solution.pdb                      SUCCESS         7.608                         
-PZ22Dimer_Chen_2_refined.pdb                       PZ22Dimer_Chen_2_solution.pdb                      SUCCESS         7.765                         
-PZ22Dimer_Chen_3_refined.pdb                       PZ22Dimer_Chen_3_solution.pdb                      SUCCESS         8.311                         
-PZ22Dimer_Chen_4_refined.pdb                       PZ22Dimer_Chen_4_solution.pdb                      SUCCESS         7.993                         
-PZ22Dimer_Chen_5_refined.pdb                       PZ22Dimer_Chen_5_solution.pdb                      SUCCESS         8.58                          
-PZ22Dimer_Das_10_refined.pdb                       PZ22Dimer_Das_10_solution.pdb                      SUCCESS         9.023                         
-PZ22Dimer_Das_1_refined.pdb                        PZ22Dimer_Das_1_solution.pdb                       SUCCESS         7.915                         
-PZ22Dimer_Das_2_refined.pdb                        PZ22Dimer_Das_2_solution.pdb                       SUCCESS         9.583                         
-PZ22Dimer_Das_3_refined.pdb                        PZ22Dimer_Das_3_solution.pdb                       SUCCESS         10.927                        
-PZ22Dimer_Das_4_refined.pdb                        PZ22Dimer_Das_4_solution.pdb                       SUCCESS         9.145                         
-PZ22Dimer_Das_5_refined.pdb                        PZ22Dimer_Das_5_solution.pdb                       SUCCESS         12.554                        
-PZ22Dimer_Das_6_refined.pdb                        PZ22Dimer_Das_6_solution.pdb                       SUCCESS         10.156                        
-PZ22Dimer_Das_7_refined.pdb                        PZ22Dimer_Das_7_solution.pdb                       SUCCESS         7.965                         
-PZ22Dimer_Das_8_refined.pdb                        PZ22Dimer_Das_8_solution.pdb                       SUCCESS         7.714                         
-PZ22Dimer_Das_9_refined.pdb                        PZ22Dimer_Das_9_solution.pdb                       SUCCESS         9.085                         
-PZ22Dimer_Dokholyan_1_refined.pdb                  PZ22Dimer_Dokholyan_1_solution.pdb                 SUCCESS         6.802                         
-PZ22Dimer_Dokholyan_2_refined.pdb                  PZ22Dimer_Dokholyan_2_solution.pdb                 SUCCESS         7.104                         
-PZ22Dimer_Dokholyan_3_refined.pdb                  PZ22Dimer_Dokholyan_3_solution.pdb                 SUCCESS         7.6                           
-PZ22Dimer_Dokholyan_4_refined.pdb                  PZ22Dimer_Dokholyan_4_solution.pdb                 SUCCESS         7.056                         
-PZ22Dimer_Dokholyan_5_refined.pdb                  PZ22Dimer_Dokholyan_5_solution.pdb                 SUCCESS         7.046                         
-PZ22Dimer_SimRNA_1_refined.pdb                     PZ22Dimer_SimRNA_1_solution.pdb                    SUCCESS         8.416                         
-PZ22Dimer_SimRNA_2_refined.pdb                     PZ22Dimer_SimRNA_2_solution.pdb                    SUCCESS         8.01                          
-PZ22Dimer_SimRNA_3_refined.pdb                     PZ22Dimer_SimRNA_3_solution.pdb                    SUCCESS         8.118                         
-PZ22Dimer_SimRNA_4_refined.pdb                     PZ22Dimer_SimRNA_4_solution.pdb                    SUCCESS         8.121                         
-PZ22Dimer_SimRNA_5_refined.pdb                     PZ22Dimer_SimRNA_5_solution.pdb                    SUCCESS         8.537                         
-PZ22Dimer_Xiao_1_refined.pdb                       PZ22Dimer_Xiao_1_solution.pdb                      SUCCESS         7.555                         
-PZ22Dimer_Xiao_2_refined.pdb                       PZ22Dimer_Xiao_2_solution.pdb                      SUCCESS         7.15                          
-PZ22Dimer_Xiao_3_refined.pdb                       PZ22Dimer_Xiao_3_solution.pdb                      SUCCESS         6.787                         
-PZ22Dimer_Xiao_4_refined.pdb                       PZ22Dimer_Xiao_4_solution.pdb                      SUCCESS         7.35                          
-PZ22Dimer_Xiao_5_refined.pdb                       PZ22Dimer_Xiao_5_solution.pdb                      SUCCESS         7.412                         
+Processed 40 / 40 model groups (best score per group)
+Failed: 40 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          PZ22Dimer_Adamiak_1_vs_PZ22Dimer__0_refined.pdb    PZ22Dimer_Adamiak_1_vs_PZ22Dimer__0_solution.pdb   6.445        7.818        8.364        11.765      
+Adamiak_2                                          PZ22Dimer_Adamiak_2_vs_PZ22Dimer__0_refined.pdb    PZ22Dimer_Adamiak_2_vs_PZ22Dimer__0_solution.pdb   6.401        7.829        8.639        12.835      
+Adamiak_3                                          PZ22Dimer_Adamiak_3_vs_PZ22Dimer__0_refined.pdb    PZ22Dimer_Adamiak_3_vs_PZ22Dimer__0_solution.pdb   6.642        8.095        8.831        11.585      
+Adamiak_4                                          PZ22Dimer_Adamiak_4_vs_PZ22Dimer__0_refined.pdb    PZ22Dimer_Adamiak_4_vs_PZ22Dimer__0_solution.pdb   6.573        7.809        8.656        11.604      
+Adamiak_5                                          PZ22Dimer_Adamiak_5_vs_PZ22Dimer__0_refined.pdb    PZ22Dimer_Adamiak_5_vs_PZ22Dimer__0_solution.pdb   6.367        8.773        9.924        13.861      
+Bujnicki_1                                         PZ22Dimer_Bujnicki_1_vs_PZ22Dimer__1_refined.pdb   PZ22Dimer_Bujnicki_1_vs_PZ22Dimer__1_solution.pdb  6.351        9.668        11.123       15.106      
+Bujnicki_2                                         PZ22Dimer_Bujnicki_2_vs_PZ22Dimer__0_refined.pdb   PZ22Dimer_Bujnicki_2_vs_PZ22Dimer__0_solution.pdb  7.120        8.617        9.487        13.215      
+Bujnicki_3                                         PZ22Dimer_Bujnicki_3_vs_PZ22Dimer__0_refined.pdb   PZ22Dimer_Bujnicki_3_vs_PZ22Dimer__0_solution.pdb  6.382        7.340        7.686        8.549       
+Bujnicki_4                                         PZ22Dimer_Bujnicki_4_vs_PZ22Dimer__0_refined.pdb   PZ22Dimer_Bujnicki_4_vs_PZ22Dimer__0_solution.pdb  5.980        7.887        8.312        9.785       
+Bujnicki_5                                         PZ22Dimer_Bujnicki_5_vs_PZ22Dimer__0_refined.pdb   PZ22Dimer_Bujnicki_5_vs_PZ22Dimer__0_solution.pdb  3.726        4.977        5.279        6.578       
+Chen_1                                             PZ22Dimer_Chen_1_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Chen_1_vs_PZ22Dimer__0_solution.pdb      6.450        7.824        8.243        10.223      
+Chen_2                                             PZ22Dimer_Chen_2_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Chen_2_vs_PZ22Dimer__0_solution.pdb      6.813        8.002        8.413        10.454      
+Chen_3                                             PZ22Dimer_Chen_3_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Chen_3_vs_PZ22Dimer__0_solution.pdb      6.310        8.096        9.005        12.513      
+Chen_4                                             PZ22Dimer_Chen_4_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Chen_4_vs_PZ22Dimer__0_solution.pdb      6.595        7.947        8.661        10.771      
+Chen_5                                             PZ22Dimer_Chen_5_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Chen_5_vs_PZ22Dimer__0_solution.pdb      6.605        8.506        9.296        12.317      
+Das_10                                             PZ22Dimer_Das_10_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Das_10_vs_PZ22Dimer__0_solution.pdb      6.912        8.881        9.776        13.210      
+Das_1                                              PZ22Dimer_Das_1_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_1_vs_PZ22Dimer__0_solution.pdb       6.664        7.813        8.576        11.851      
+Das_2                                              PZ22Dimer_Das_2_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_2_vs_PZ22Dimer__1_solution.pdb       5.959        11.070       12.722       21.413      
+Das_3                                              PZ22Dimer_Das_3_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_3_vs_PZ22Dimer__0_solution.pdb       6.925        9.916        11.840       26.633      
+Das_4                                              PZ22Dimer_Das_4_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_4_vs_PZ22Dimer__1_solution.pdb       6.567        11.361       12.611       18.408      
+Das_5                                              PZ22Dimer_Das_5_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_5_vs_PZ22Dimer__0_solution.pdb       7.552        11.117       13.602       33.207      
+Das_6                                              PZ22Dimer_Das_6_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_6_vs_PZ22Dimer__0_solution.pdb       7.002        9.443        11.005       18.340      
+Das_7                                              PZ22Dimer_Das_7_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_7_vs_PZ22Dimer__0_solution.pdb       7.029        7.966        8.630        11.765      
+Das_8                                              PZ22Dimer_Das_8_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_8_vs_PZ22Dimer__0_solution.pdb       6.973        7.838        8.358        10.675      
+Das_9                                              PZ22Dimer_Das_9_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_9_vs_PZ22Dimer__0_solution.pdb       6.997        8.886        9.844        13.252      
+Dokholyan_1                                        PZ22Dimer_Dokholyan_1_vs_PZ22Dimer__1_refined.pdb  PZ22Dimer_Dokholyan_1_vs_PZ22Dimer__1_solution.pdb 4.749        8.045        9.074        10.406      
+Dokholyan_2                                        PZ22Dimer_Dokholyan_2_vs_PZ22Dimer__0_refined.pdb  PZ22Dimer_Dokholyan_2_vs_PZ22Dimer__0_solution.pdb 6.211        7.416        7.698        8.918       
+Dokholyan_3                                        PZ22Dimer_Dokholyan_3_vs_PZ22Dimer__0_refined.pdb  PZ22Dimer_Dokholyan_3_vs_PZ22Dimer__0_solution.pdb 5.128        7.787        8.234        10.543      
+Dokholyan_4                                        PZ22Dimer_Dokholyan_4_vs_PZ22Dimer__1_refined.pdb  PZ22Dimer_Dokholyan_4_vs_PZ22Dimer__1_solution.pdb 5.268        8.302        9.039        10.253      
+Dokholyan_5                                        PZ22Dimer_Dokholyan_5_vs_PZ22Dimer__0_refined.pdb  PZ22Dimer_Dokholyan_5_vs_PZ22Dimer__0_solution.pdb 5.495        7.148        7.635        9.200       
+SimRNA_1                                           PZ22Dimer_SimRNA_1_vs_PZ22Dimer__0_refined.pdb     PZ22Dimer_SimRNA_1_vs_PZ22Dimer__0_solution.pdb    6.663        8.186        9.119        13.336      
+SimRNA_2                                           PZ22Dimer_SimRNA_2_vs_PZ22Dimer__1_refined.pdb     PZ22Dimer_SimRNA_2_vs_PZ22Dimer__1_solution.pdb    6.012        9.695        10.623       13.944      
+SimRNA_3                                           PZ22Dimer_SimRNA_3_vs_PZ22Dimer__0_refined.pdb     PZ22Dimer_SimRNA_3_vs_PZ22Dimer__0_solution.pdb    6.695        8.007        8.796        13.630      
+SimRNA_4                                           PZ22Dimer_SimRNA_4_vs_PZ22Dimer__0_refined.pdb     PZ22Dimer_SimRNA_4_vs_PZ22Dimer__0_solution.pdb    6.281        8.006        8.799        13.047      
+SimRNA_5                                           PZ22Dimer_SimRNA_5_vs_PZ22Dimer__0_refined.pdb     PZ22Dimer_SimRNA_5_vs_PZ22Dimer__0_solution.pdb    6.236        8.179        9.250        14.979      
+Xiao_1                                             PZ22Dimer_Xiao_1_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Xiao_1_vs_PZ22Dimer__0_solution.pdb      6.232        7.511        8.186        10.328      
+Xiao_2                                             PZ22Dimer_Xiao_2_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Xiao_2_vs_PZ22Dimer__0_solution.pdb      5.847        7.131        7.747        9.528       
+Xiao_3                                             PZ22Dimer_Xiao_3_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Xiao_3_vs_PZ22Dimer__0_solution.pdb      5.893        6.874        7.354        8.323       
+Xiao_4                                             PZ22Dimer_Xiao_4_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Xiao_4_vs_PZ22Dimer__0_solution.pdb      6.368        7.487        7.964        9.496       
+Xiao_5                                             PZ22Dimer_Xiao_5_vs_PZ22Dimer__0_refined.pdb       PZ22Dimer_Xiao_5_vs_PZ22Dimer__0_solution.pdb      6.321        7.289        8.031        9.378       
+
+=== FAILED MODELS ===
+Model                                              Solution                                           Status               Details                       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PZ22Dimer_Adamiak_1_vs_PZ22Dimer__1_refined.pdb    PZ22Dimer_Adamiak_1_vs_PZ22Dimer__1_solution.pdb   SUCCESS              2.0A: 5.639, 4.0A: 9.505, 5.0A: 10.304, 8.0A: 13.343
+PZ22Dimer_Adamiak_2_vs_PZ22Dimer__1_refined.pdb    PZ22Dimer_Adamiak_2_vs_PZ22Dimer__1_solution.pdb   SUCCESS              2.0A: 5.65, 4.0A: 9.25, 5.0A: 10.188, 8.0A: 12.763
+PZ22Dimer_Adamiak_3_vs_PZ22Dimer__1_refined.pdb    PZ22Dimer_Adamiak_3_vs_PZ22Dimer__1_solution.pdb   SUCCESS              2.0A: 5.907, 4.0A: 9.709, 5.0A: 10.701, 8.0A: 13.338
+PZ22Dimer_Adamiak_4_vs_PZ22Dimer__1_refined.pdb    PZ22Dimer_Adamiak_4_vs_PZ22Dimer__1_solution.pdb   SUCCESS              2.0A: 5.773, 4.0A: 9.428, 5.0A: 10.224, 8.0A: 13.186
+PZ22Dimer_Adamiak_5_vs_PZ22Dimer__1_refined.pdb    PZ22Dimer_Adamiak_5_vs_PZ22Dimer__1_solution.pdb   SUCCESS              2.0A: 5.626, 4.0A: 10.846, 5.0A: 12.297, 8.0A: 16.949
+PZ22Dimer_Bujnicki_1_vs_PZ22Dimer__0_refined.pdb   PZ22Dimer_Bujnicki_1_vs_PZ22Dimer__0_solution.pdb  SUCCESS              2.0A: 6.304, 4.0A: 7.817, 5.0A: 8.937, 8.0A: 12.949
+PZ22Dimer_Bujnicki_2_vs_PZ22Dimer__1_refined.pdb   PZ22Dimer_Bujnicki_2_vs_PZ22Dimer__1_solution.pdb  SUCCESS              2.0A: 6.608, 4.0A: 10.326, 5.0A: 11.128, 8.0A: 14.395
+PZ22Dimer_Bujnicki_3_vs_PZ22Dimer__1_refined.pdb   PZ22Dimer_Bujnicki_3_vs_PZ22Dimer__1_solution.pdb  SUCCESS              2.0A: 5.647, 4.0A: 9.035, 5.0A: 9.31, 8.0A: 10.324
+PZ22Dimer_Bujnicki_4_vs_PZ22Dimer__1_refined.pdb   PZ22Dimer_Bujnicki_4_vs_PZ22Dimer__1_solution.pdb  SUCCESS              2.0A: 5.829, 4.0A: 9.442, 5.0A: 10.373, 8.0A: 12.396
+PZ22Dimer_Bujnicki_5_vs_PZ22Dimer__1_refined.pdb   PZ22Dimer_Bujnicki_5_vs_PZ22Dimer__1_solution.pdb  SUCCESS              2.0A: 3.44, 4.0A: 5.901, 5.0A: 6.41, 8.0A: 7.995
+PZ22Dimer_Chen_1_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Chen_1_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 6.056, 4.0A: 9.808, 5.0A: 10.659, 8.0A: 13.977
+PZ22Dimer_Chen_2_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Chen_2_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 6.316, 4.0A: 9.713, 5.0A: 10.391, 8.0A: 13.437
+PZ22Dimer_Chen_3_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Chen_3_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.963, 4.0A: 9.853, 5.0A: 10.873, 8.0A: 15.419
+PZ22Dimer_Chen_4_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Chen_4_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.897, 4.0A: 9.798, 5.0A: 10.637, 8.0A: 13.976
+PZ22Dimer_Chen_5_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Chen_5_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 6.005, 4.0A: 10.275, 5.0A: 11.953, 8.0A: 17.004
+PZ22Dimer_Das_10_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Das_10_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 6.567, 4.0A: 11.338, 5.0A: 12.776, 8.0A: 17.472
+PZ22Dimer_Das_1_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_1_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.125, 4.0A: 9.993, 5.0A: 10.727, 8.0A: 14.634
+PZ22Dimer_Das_2_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_2_vs_PZ22Dimer__0_solution.pdb       SUCCESS              2.0A: 5.538, 4.0A: 9.045, 5.0A: 10.383, 8.0A: 17.479
+PZ22Dimer_Das_3_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_3_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.364, 4.0A: 12.225, 5.0A: 14.856, 8.0A: 30.71
+PZ22Dimer_Das_4_vs_PZ22Dimer__0_refined.pdb        PZ22Dimer_Das_4_vs_PZ22Dimer__0_solution.pdb       SUCCESS              2.0A: 6.459, 4.0A: 8.946, 5.0A: 9.908, 8.0A: 13.916
+PZ22Dimer_Das_5_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_5_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 7.034, 4.0A: 14.087, 5.0A: 17.596, 8.0A: 37.31
+PZ22Dimer_Das_6_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_6_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.304, 4.0A: 11.634, 5.0A: 13.503, 8.0A: 21.905
+PZ22Dimer_Das_7_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_7_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.508, 4.0A: 10.129, 5.0A: 10.879, 8.0A: 14.565
+PZ22Dimer_Das_8_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_8_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.302, 4.0A: 9.985, 5.0A: 10.82, 8.0A: 14.065
+PZ22Dimer_Das_9_vs_PZ22Dimer__1_refined.pdb        PZ22Dimer_Das_9_vs_PZ22Dimer__1_solution.pdb       SUCCESS              2.0A: 6.34, 4.0A: 11.451, 5.0A: 12.753, 8.0A: 18.328
+PZ22Dimer_Dokholyan_1_vs_PZ22Dimer__0_refined.pdb  PZ22Dimer_Dokholyan_1_vs_PZ22Dimer__0_solution.pdb SUCCESS              2.0A: 4.375, 4.0A: 6.611, 5.0A: 7.37, 8.0A: 8.626
+PZ22Dimer_Dokholyan_2_vs_PZ22Dimer__1_refined.pdb  PZ22Dimer_Dokholyan_2_vs_PZ22Dimer__1_solution.pdb SUCCESS              2.0A: 5.562, 4.0A: 8.8, 5.0A: 9.295, 8.0A: 10.797
+PZ22Dimer_Dokholyan_3_vs_PZ22Dimer__1_refined.pdb  PZ22Dimer_Dokholyan_3_vs_PZ22Dimer__1_solution.pdb SUCCESS              2.0A: 5.061, 4.0A: 8.584, 5.0A: 9.735, 8.0A: 12.389
+PZ22Dimer_Dokholyan_4_vs_PZ22Dimer__0_refined.pdb  PZ22Dimer_Dokholyan_4_vs_PZ22Dimer__0_solution.pdb SUCCESS              2.0A: 4.807, 4.0A: 7.201, 5.0A: 7.645, 8.0A: 8.645
+PZ22Dimer_Dokholyan_5_vs_PZ22Dimer__1_refined.pdb  PZ22Dimer_Dokholyan_5_vs_PZ22Dimer__1_solution.pdb SUCCESS              2.0A: 5.097, 4.0A: 8.512, 5.0A: 9.098, 8.0A: 10.775
+PZ22Dimer_SimRNA_1_vs_PZ22Dimer__1_refined.pdb     PZ22Dimer_SimRNA_1_vs_PZ22Dimer__1_solution.pdb    SUCCESS              2.0A: 5.806, 4.0A: 9.504, 5.0A: 10.468, 8.0A: 13.856
+PZ22Dimer_SimRNA_2_vs_PZ22Dimer__0_refined.pdb     PZ22Dimer_SimRNA_2_vs_PZ22Dimer__0_solution.pdb    SUCCESS              2.0A: 5.957, 4.0A: 7.713, 5.0A: 8.679, 8.0A: 12.757
+PZ22Dimer_SimRNA_3_vs_PZ22Dimer__1_refined.pdb     PZ22Dimer_SimRNA_3_vs_PZ22Dimer__1_solution.pdb    SUCCESS              2.0A: 5.986, 4.0A: 9.62, 5.0A: 10.237, 8.0A: 13.208
+PZ22Dimer_SimRNA_4_vs_PZ22Dimer__1_refined.pdb     PZ22Dimer_SimRNA_4_vs_PZ22Dimer__1_solution.pdb    SUCCESS              2.0A: 5.764, 4.0A: 9.578, 5.0A: 10.526, 8.0A: 13.919
+PZ22Dimer_SimRNA_5_vs_PZ22Dimer__1_refined.pdb     PZ22Dimer_SimRNA_5_vs_PZ22Dimer__1_solution.pdb    SUCCESS              2.0A: 6.117, 4.0A: 9.965, 5.0A: 10.884, 8.0A: 14.53
+PZ22Dimer_Xiao_1_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Xiao_1_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.397, 4.0A: 8.838, 5.0A: 9.562, 8.0A: 12.049
+PZ22Dimer_Xiao_2_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Xiao_2_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.039, 4.0A: 8.41, 5.0A: 9.178, 8.0A: 11.137
+PZ22Dimer_Xiao_3_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Xiao_3_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.035, 4.0A: 8.428, 5.0A: 8.923, 8.0A: 9.83
+PZ22Dimer_Xiao_4_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Xiao_4_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.601, 4.0A: 8.688, 5.0A: 9.487, 8.0A: 11.348
+PZ22Dimer_Xiao_5_vs_PZ22Dimer__1_refined.pdb       PZ22Dimer_Xiao_5_vs_PZ22Dimer__1_solution.pdb      SUCCESS              2.0A: 5.432, 4.0A: 8.621, 5.0A: 9.286, 8.0A: 11.292
+

@@ -1,0 +1,9 @@
+Type,Ntargets,Nmodels_total,median_abs_delta,mean_abs_delta
+Aptamer,5,473,12.0,22.41860465116279
+Nano construct,1,13,2.0,2.769230769230769
+RNA-binding protein,3,302,22.0,30.337748344370862
+Regulatory element,3,121,6.0,9.809917355371901
+Riboswitch,27,1590,7.0,9.984276729559749
+Ribozyme,15,1133,8.0,11.195939982347749
+Synthetic construct,4,442,14.0,19.228506787330318
+Viral element,7,757,11.0,18.583883751651253

@@ -1,79 +1,82 @@
 Report for set: PZ15reconstruct
-Processed 74 / 74 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ15reconstruct_3dRNAAS2_10_refined.pdb            PZ15reconstruct_3dRNAAS2_10_solution.pdb           SUCCESS         14.55                         
-PZ15reconstruct_3dRNAAS2_1_refined.pdb             PZ15reconstruct_3dRNAAS2_1_solution.pdb            SUCCESS         14.244                        
-PZ15reconstruct_3dRNAAS2_2_refined.pdb             PZ15reconstruct_3dRNAAS2_2_solution.pdb            SUCCESS         14.768                        
-PZ15reconstruct_3dRNAAS2_3_refined.pdb             PZ15reconstruct_3dRNAAS2_3_solution.pdb            SUCCESS         14.576                        
-PZ15reconstruct_3dRNAAS2_4_refined.pdb             PZ15reconstruct_3dRNAAS2_4_solution.pdb            SUCCESS         14.805                        
-PZ15reconstruct_3dRNAAS2_5_refined.pdb             PZ15reconstruct_3dRNAAS2_5_solution.pdb            SUCCESS         14.714                        
-PZ15reconstruct_3dRNAAS2_6_refined.pdb             PZ15reconstruct_3dRNAAS2_6_solution.pdb            SUCCESS         14.513                        
-PZ15reconstruct_3dRNAAS2_7_refined.pdb             PZ15reconstruct_3dRNAAS2_7_solution.pdb            SUCCESS         14.697                        
-PZ15reconstruct_3dRNAAS2_8_refined.pdb             PZ15reconstruct_3dRNAAS2_8_solution.pdb            SUCCESS         13.896                        
-PZ15reconstruct_3dRNAAS2_9_refined.pdb             PZ15reconstruct_3dRNAAS2_9_solution.pdb            SUCCESS         14.661                        
-PZ15reconstruct_Adamiak_10_refined.pdb             PZ15reconstruct_Adamiak_10_solution.pdb            SUCCESS         80.367                        
-PZ15reconstruct_Adamiak_1_refined.pdb              PZ15reconstruct_Adamiak_1_solution.pdb             SUCCESS         43.865                        
-PZ15reconstruct_Adamiak_2_refined.pdb              PZ15reconstruct_Adamiak_2_solution.pdb             SUCCESS         66.539                        
-PZ15reconstruct_Adamiak_3_refined.pdb              PZ15reconstruct_Adamiak_3_solution.pdb             SUCCESS         65.465                        
-PZ15reconstruct_Adamiak_4_refined.pdb              PZ15reconstruct_Adamiak_4_solution.pdb             SUCCESS         55.352                        
-PZ15reconstruct_Adamiak_5_refined.pdb              PZ15reconstruct_Adamiak_5_solution.pdb             SUCCESS         49.901                        
-PZ15reconstruct_Adamiak_6_refined.pdb              PZ15reconstruct_Adamiak_6_solution.pdb             SUCCESS         58.041                        
-PZ15reconstruct_Adamiak_7_refined.pdb              PZ15reconstruct_Adamiak_7_solution.pdb             SUCCESS         60.495                        
-PZ15reconstruct_Adamiak_8_refined.pdb              PZ15reconstruct_Adamiak_8_solution.pdb             SUCCESS         89.323                        
-PZ15reconstruct_Adamiak_9_refined.pdb              PZ15reconstruct_Adamiak_9_solution.pdb             SUCCESS         35.368                        
-PZ15reconstruct_Chen_10_refined.pdb                PZ15reconstruct_Chen_10_solution.pdb               SUCCESS         26.34                         
-PZ15reconstruct_Chen_1_refined.pdb                 PZ15reconstruct_Chen_1_solution.pdb                SUCCESS         25.402                        
-PZ15reconstruct_Chen_2_refined.pdb                 PZ15reconstruct_Chen_2_solution.pdb                SUCCESS         20.815                        
-PZ15reconstruct_Chen_3_refined.pdb                 PZ15reconstruct_Chen_3_solution.pdb                SUCCESS         56.792                        
-PZ15reconstruct_Chen_4_refined.pdb                 PZ15reconstruct_Chen_4_solution.pdb                SUCCESS         24.779                        
-PZ15reconstruct_Chen_5_refined.pdb                 PZ15reconstruct_Chen_5_solution.pdb                SUCCESS         20.313                        
-PZ15reconstruct_Chen_6_refined.pdb                 PZ15reconstruct_Chen_6_solution.pdb                SUCCESS         50.734                        
-PZ15reconstruct_Chen_7_refined.pdb                 PZ15reconstruct_Chen_7_solution.pdb                SUCCESS         23.997                        
-PZ15reconstruct_Chen_8_refined.pdb                 PZ15reconstruct_Chen_8_solution.pdb                SUCCESS         25.912                        
-PZ15reconstruct_Chen_9_refined.pdb                 PZ15reconstruct_Chen_9_solution.pdb                SUCCESS         18.415                        
-PZ15reconstruct_RNAComposerAS1_1_refined.pdb       PZ15reconstruct_RNAComposerAS1_1_solution.pdb      SUCCESS         66.539                        
-PZ15reconstruct_RNAComposerAS1_2_refined.pdb       PZ15reconstruct_RNAComposerAS1_2_solution.pdb      SUCCESS         65.465                        
-PZ15reconstruct_RNAComposerAS2_1_refined.pdb       PZ15reconstruct_RNAComposerAS2_1_solution.pdb      SUCCESS         55.352                        
-PZ15reconstruct_RNAComposerAS2_2_refined.pdb       PZ15reconstruct_RNAComposerAS2_2_solution.pdb      SUCCESS         49.901                        
-PZ15reconstruct_RW3DAS1_10_refined.pdb             PZ15reconstruct_RW3DAS1_10_solution.pdb            SUCCESS         16.511                        
-PZ15reconstruct_RW3DAS1_1_refined.pdb              PZ15reconstruct_RW3DAS1_1_solution.pdb             SUCCESS         18.338                        
-PZ15reconstruct_RW3DAS1_2_refined.pdb              PZ15reconstruct_RW3DAS1_2_solution.pdb             SUCCESS         19.16                         
-PZ15reconstruct_RW3DAS1_3_refined.pdb              PZ15reconstruct_RW3DAS1_3_solution.pdb             SUCCESS         20.316                        
-PZ15reconstruct_RW3DAS1_4_refined.pdb              PZ15reconstruct_RW3DAS1_4_solution.pdb             SUCCESS         20.243                        
-PZ15reconstruct_RW3DAS1_5_refined.pdb              PZ15reconstruct_RW3DAS1_5_solution.pdb             SUCCESS         19.789                        
-PZ15reconstruct_RW3DAS1_6_refined.pdb              PZ15reconstruct_RW3DAS1_6_solution.pdb             SUCCESS         19.818                        
-PZ15reconstruct_RW3DAS1_7_refined.pdb              PZ15reconstruct_RW3DAS1_7_solution.pdb             SUCCESS         19.826                        
-PZ15reconstruct_RW3DAS1_8_refined.pdb              PZ15reconstruct_RW3DAS1_8_solution.pdb             SUCCESS         17.709                        
-PZ15reconstruct_RW3DAS1_9_refined.pdb              PZ15reconstruct_RW3DAS1_9_solution.pdb             SUCCESS         18.542                        
-PZ15reconstruct_RW3DAS2_10_refined.pdb             PZ15reconstruct_RW3DAS2_10_solution.pdb            SUCCESS         28.973                        
-PZ15reconstruct_RW3DAS2_1_refined.pdb              PZ15reconstruct_RW3DAS2_1_solution.pdb             SUCCESS         26.335                        
-PZ15reconstruct_RW3DAS2_2_refined.pdb              PZ15reconstruct_RW3DAS2_2_solution.pdb             SUCCESS         21.135                        
-PZ15reconstruct_RW3DAS2_3_refined.pdb              PZ15reconstruct_RW3DAS2_3_solution.pdb             SUCCESS         21.693                        
-PZ15reconstruct_RW3DAS2_4_refined.pdb              PZ15reconstruct_RW3DAS2_4_solution.pdb             SUCCESS         25.213                        
-PZ15reconstruct_RW3DAS2_5_refined.pdb              PZ15reconstruct_RW3DAS2_5_solution.pdb             SUCCESS         24.966                        
-PZ15reconstruct_RW3DAS2_6_refined.pdb              PZ15reconstruct_RW3DAS2_6_solution.pdb             SUCCESS         20.659                        
-PZ15reconstruct_RW3DAS2_7_refined.pdb              PZ15reconstruct_RW3DAS2_7_solution.pdb             SUCCESS         19.741                        
-PZ15reconstruct_RW3DAS2_8_refined.pdb              PZ15reconstruct_RW3DAS2_8_solution.pdb             SUCCESS         21.79                         
-PZ15reconstruct_RW3DAS2_9_refined.pdb              PZ15reconstruct_RW3DAS2_9_solution.pdb             SUCCESS         22.288                        
-PZ15reconstruct_SimRNAAS1_10_refined.pdb           PZ15reconstruct_SimRNAAS1_10_solution.pdb          SUCCESS         20.328                        
-PZ15reconstruct_SimRNAAS1_1_refined.pdb            PZ15reconstruct_SimRNAAS1_1_solution.pdb           SUCCESS         48.442                        
-PZ15reconstruct_SimRNAAS1_2_refined.pdb            PZ15reconstruct_SimRNAAS1_2_solution.pdb           SUCCESS         8.787                         
-PZ15reconstruct_SimRNAAS1_3_refined.pdb            PZ15reconstruct_SimRNAAS1_3_solution.pdb           SUCCESS         14.224                        
-PZ15reconstruct_SimRNAAS1_4_refined.pdb            PZ15reconstruct_SimRNAAS1_4_solution.pdb           SUCCESS         5.67                          
-PZ15reconstruct_SimRNAAS1_5_refined.pdb            PZ15reconstruct_SimRNAAS1_5_solution.pdb           SUCCESS         8.515                         
-PZ15reconstruct_SimRNAAS1_6_refined.pdb            PZ15reconstruct_SimRNAAS1_6_solution.pdb           SUCCESS         13.561                        
-PZ15reconstruct_SimRNAAS1_7_refined.pdb            PZ15reconstruct_SimRNAAS1_7_solution.pdb           SUCCESS         24.739                        
-PZ15reconstruct_SimRNAAS1_8_refined.pdb            PZ15reconstruct_SimRNAAS1_8_solution.pdb           SUCCESS         17.845                        
-PZ15reconstruct_SimRNAAS1_9_refined.pdb            PZ15reconstruct_SimRNAAS1_9_solution.pdb           SUCCESS         19.245                        
-PZ15reconstruct_SimRNAAS2_10_refined.pdb           PZ15reconstruct_SimRNAAS2_10_solution.pdb          SUCCESS         21.886                        
-PZ15reconstruct_SimRNAAS2_1_refined.pdb            PZ15reconstruct_SimRNAAS2_1_solution.pdb           SUCCESS         26.74                         
-PZ15reconstruct_SimRNAAS2_2_refined.pdb            PZ15reconstruct_SimRNAAS2_2_solution.pdb           SUCCESS         24.819                        
-PZ15reconstruct_SimRNAAS2_3_refined.pdb            PZ15reconstruct_SimRNAAS2_3_solution.pdb           SUCCESS         21.373                        
-PZ15reconstruct_SimRNAAS2_4_refined.pdb            PZ15reconstruct_SimRNAAS2_4_solution.pdb           SUCCESS         31.392                        
-PZ15reconstruct_SimRNAAS2_5_refined.pdb            PZ15reconstruct_SimRNAAS2_5_solution.pdb           SUCCESS         23.391                        
-PZ15reconstruct_SimRNAAS2_6_refined.pdb            PZ15reconstruct_SimRNAAS2_6_solution.pdb           SUCCESS         17.389                        
-PZ15reconstruct_SimRNAAS2_7_refined.pdb            PZ15reconstruct_SimRNAAS2_7_solution.pdb           SUCCESS         29.134                        
-PZ15reconstruct_SimRNAAS2_8_refined.pdb            PZ15reconstruct_SimRNAAS2_8_solution.pdb           SUCCESS         17.769                        
-PZ15reconstruct_SimRNAAS2_9_refined.pdb            PZ15reconstruct_SimRNAAS2_9_solution.pdb           SUCCESS         29.633                        
+Processed 74 / 74 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNAAS2_10                                        PZ15reconstruct_3dRNAAS2_10_refined.pdb            PZ15reconstruct_3dRNAAS2_10_solution.pdb           9.738        14.021       15.765       22.366      
+3dRNAAS2_1                                         PZ15reconstruct_3dRNAAS2_1_refined.pdb             PZ15reconstruct_3dRNAAS2_1_solution.pdb            8.025        13.816       15.434       22.366      
+3dRNAAS2_2                                         PZ15reconstruct_3dRNAAS2_2_refined.pdb             PZ15reconstruct_3dRNAAS2_2_solution.pdb            10.279       14.077       16.001       22.562      
+3dRNAAS2_3                                         PZ15reconstruct_3dRNAAS2_3_refined.pdb             PZ15reconstruct_3dRNAAS2_3_solution.pdb            9.907        14.021       15.793       22.538      
+3dRNAAS2_4                                         PZ15reconstruct_3dRNAAS2_4_refined.pdb             PZ15reconstruct_3dRNAAS2_4_solution.pdb            10.220       14.077       16.041       22.550      
+3dRNAAS2_5                                         PZ15reconstruct_3dRNAAS2_5_refined.pdb             PZ15reconstruct_3dRNAAS2_5_solution.pdb            10.098       14.021       15.943       22.538      
+3dRNAAS2_6                                         PZ15reconstruct_3dRNAAS2_6_refined.pdb             PZ15reconstruct_3dRNAAS2_6_solution.pdb            9.269        14.021       15.725       22.329      
+3dRNAAS2_7                                         PZ15reconstruct_3dRNAAS2_7_refined.pdb             PZ15reconstruct_3dRNAAS2_7_solution.pdb            10.079       14.021       15.925       22.538      
+3dRNAAS2_8                                         PZ15reconstruct_3dRNAAS2_8_refined.pdb             PZ15reconstruct_3dRNAAS2_8_solution.pdb            7.982        11.255       15.056       22.329      
+3dRNAAS2_9                                         PZ15reconstruct_3dRNAAS2_9_refined.pdb             PZ15reconstruct_3dRNAAS2_9_solution.pdb            9.947        14.021       15.885       22.575      
+Adamiak_10                                         PZ15reconstruct_Adamiak_10_refined.pdb             PZ15reconstruct_Adamiak_10_solution.pdb            14.190       41.695       78.727       100.000     
+Adamiak_1                                          PZ15reconstruct_Adamiak_1_refined.pdb              PZ15reconstruct_Adamiak_1_solution.pdb             13.561       27.542       47.529       95.217      
+Adamiak_2                                          PZ15reconstruct_Adamiak_2_refined.pdb              PZ15reconstruct_Adamiak_2_solution.pdb             38.045       53.141       72.096       100.000     
+Adamiak_3                                          PZ15reconstruct_Adamiak_3_refined.pdb              PZ15reconstruct_Adamiak_3_solution.pdb             37.741       52.410       70.932       100.000     
+Adamiak_4                                          PZ15reconstruct_Adamiak_4_refined.pdb              PZ15reconstruct_Adamiak_4_solution.pdb             13.791       43.065       59.975       100.000     
+Adamiak_5                                          PZ15reconstruct_Adamiak_5_refined.pdb              PZ15reconstruct_Adamiak_5_solution.pdb             13.088       32.909       54.068       100.000     
+Adamiak_6                                          PZ15reconstruct_Adamiak_6_refined.pdb              PZ15reconstruct_Adamiak_6_solution.pdb             14.506       43.682       62.888       100.000     
+Adamiak_7                                          PZ15reconstruct_Adamiak_7_refined.pdb              PZ15reconstruct_Adamiak_7_solution.pdb             11.749       41.809       65.547       100.000     
+Adamiak_8                                          PZ15reconstruct_Adamiak_8_refined.pdb              PZ15reconstruct_Adamiak_8_solution.pdb             11.455       42.736       88.432       100.000     
+Adamiak_9                                          PZ15reconstruct_Adamiak_9_refined.pdb              PZ15reconstruct_Adamiak_9_solution.pdb             13.091       23.290       38.321       100.000     
+Chen_10                                            PZ15reconstruct_Chen_10_refined.pdb                PZ15reconstruct_Chen_10_solution.pdb               9.183        18.015       28.540       75.009      
+Chen_1                                             PZ15reconstruct_Chen_1_refined.pdb                 PZ15reconstruct_Chen_1_solution.pdb                12.937       20.398       27.524       73.640      
+Chen_2                                             PZ15reconstruct_Chen_2_refined.pdb                 PZ15reconstruct_Chen_2_solution.pdb                11.762       17.288       22.553       34.422      
+Chen_3                                             PZ15reconstruct_Chen_3_refined.pdb                 PZ15reconstruct_Chen_3_solution.pdb                29.007       47.022       61.534       100.000     
+Chen_4                                             PZ15reconstruct_Chen_4_refined.pdb                 PZ15reconstruct_Chen_4_solution.pdb                9.969        17.997       26.848       60.620      
+Chen_5                                             PZ15reconstruct_Chen_5_refined.pdb                 PZ15reconstruct_Chen_5_solution.pdb                10.070       17.104       22.010       32.743      
+Chen_6                                             PZ15reconstruct_Chen_6_refined.pdb                 PZ15reconstruct_Chen_6_solution.pdb                10.181       38.791       54.971       100.000     
+Chen_7                                             PZ15reconstruct_Chen_7_refined.pdb                 PZ15reconstruct_Chen_7_solution.pdb                8.943        17.546       26.001       65.854      
+Chen_8                                             PZ15reconstruct_Chen_8_refined.pdb                 PZ15reconstruct_Chen_8_solution.pdb                8.781        18.467       28.076       60.266      
+Chen_9                                             PZ15reconstruct_Chen_9_refined.pdb                 PZ15reconstruct_Chen_9_solution.pdb                8.102        15.123       19.953       40.608      
+RNAComposerAS1_1                                   PZ15reconstruct_RNAComposerAS1_1_refined.pdb       PZ15reconstruct_RNAComposerAS1_1_solution.pdb      38.045       53.141       72.096       100.000     
+RNAComposerAS1_2                                   PZ15reconstruct_RNAComposerAS1_2_refined.pdb       PZ15reconstruct_RNAComposerAS1_2_solution.pdb      37.741       52.410       70.932       100.000     
+RNAComposerAS2_1                                   PZ15reconstruct_RNAComposerAS2_1_refined.pdb       PZ15reconstruct_RNAComposerAS2_1_solution.pdb      13.791       43.065       59.975       100.000     
+RNAComposerAS2_2                                   PZ15reconstruct_RNAComposerAS2_2_refined.pdb       PZ15reconstruct_RNAComposerAS2_2_solution.pdb      13.088       32.909       54.068       100.000     
+RW3DAS1_10                                         PZ15reconstruct_RW3DAS1_10_refined.pdb             PZ15reconstruct_RW3DAS1_10_solution.pdb            11.065       15.298       17.890       24.493      
+RW3DAS1_1                                          PZ15reconstruct_RW3DAS1_1_refined.pdb              PZ15reconstruct_RW3DAS1_1_solution.pdb             12.554       17.788       19.870       25.169      
+RW3DAS1_2                                          PZ15reconstruct_RW3DAS1_2_refined.pdb              PZ15reconstruct_RW3DAS1_2_solution.pdb             12.133       17.635       20.760       35.791      
+RW3DAS1_3                                          PZ15reconstruct_RW3DAS1_3_refined.pdb              PZ15reconstruct_RW3DAS1_3_solution.pdb             11.670       18.261       22.013       36.909      
+RW3DAS1_4                                          PZ15reconstruct_RW3DAS1_4_refined.pdb              PZ15reconstruct_RW3DAS1_4_solution.pdb             10.896       19.415       21.933       32.909      
+RW3DAS1_5                                          PZ15reconstruct_RW3DAS1_5_refined.pdb              PZ15reconstruct_RW3DAS1_5_solution.pdb             12.241       18.697       21.442       33.725      
+RW3DAS1_6                                          PZ15reconstruct_RW3DAS1_6_refined.pdb              PZ15reconstruct_RW3DAS1_6_solution.pdb             12.950       19.811       21.472       30.578      
+RW3DAS1_7                                          PZ15reconstruct_RW3DAS1_7_refined.pdb              PZ15reconstruct_RW3DAS1_7_solution.pdb             12.870       19.188       21.482       29.866      
+RW3DAS1_8                                          PZ15reconstruct_RW3DAS1_8_refined.pdb              PZ15reconstruct_RW3DAS1_8_solution.pdb             11.313       16.078       19.188       25.583      
+RW3DAS1_9                                          PZ15reconstruct_RW3DAS1_9_refined.pdb              PZ15reconstruct_RW3DAS1_9_solution.pdb             11.338       16.001       20.091       32.000      
+RW3DAS2_10                                         PZ15reconstruct_RW3DAS2_10_refined.pdb             PZ15reconstruct_RW3DAS2_10_solution.pdb            14.651       24.595       31.392       58.682      
+RW3DAS2_1                                          PZ15reconstruct_RW3DAS2_1_refined.pdb              PZ15reconstruct_RW3DAS2_1_solution.pdb             14.755       23.827       28.534       47.676      
+RW3DAS2_2                                          PZ15reconstruct_RW3DAS2_2_refined.pdb              PZ15reconstruct_RW3DAS2_2_solution.pdb             12.962       19.108       22.900       31.156      
+RW3DAS2_3                                          PZ15reconstruct_RW3DAS2_3_refined.pdb              PZ15reconstruct_RW3DAS2_3_solution.pdb             11.903       19.974       23.505       31.687      
+RW3DAS2_4                                          PZ15reconstruct_RW3DAS2_4_refined.pdb              PZ15reconstruct_RW3DAS2_4_solution.pdb             13.951       21.951       27.318       45.809      
+RW3DAS2_5                                          PZ15reconstruct_RW3DAS2_5_refined.pdb              PZ15reconstruct_RW3DAS2_5_solution.pdb             13.935       21.819       27.051       56.423      
+RW3DAS2_6                                          PZ15reconstruct_RW3DAS2_6_refined.pdb              PZ15reconstruct_RW3DAS2_6_solution.pdb             13.036       18.461       22.384       34.269      
+RW3DAS2_7                                          PZ15reconstruct_RW3DAS2_7_refined.pdb              PZ15reconstruct_RW3DAS2_7_solution.pdb             11.676       17.951       21.390       58.716      
+RW3DAS2_8                                          PZ15reconstruct_RW3DAS2_8_refined.pdb              PZ15reconstruct_RW3DAS2_8_solution.pdb             13.502       19.498       23.609       35.300      
+RW3DAS2_9                                          PZ15reconstruct_RW3DAS2_9_refined.pdb              PZ15reconstruct_RW3DAS2_9_solution.pdb             13.819       19.419       24.150       42.346      
+SimRNAAS1_10                                       PZ15reconstruct_SimRNAAS1_10_refined.pdb           PZ15reconstruct_SimRNAAS1_10_solution.pdb          10.988       18.795       22.025       30.244      
+SimRNAAS1_1                                        PZ15reconstruct_SimRNAAS1_1_refined.pdb            PZ15reconstruct_SimRNAAS1_1_solution.pdb           8.544        31.395       52.487       100.000     
+SimRNAAS1_2                                        PZ15reconstruct_SimRNAAS1_2_refined.pdb            PZ15reconstruct_SimRNAAS1_2_solution.pdb           7.061        8.805        9.520        15.320      
+SimRNAAS1_3                                        PZ15reconstruct_SimRNAAS1_3_refined.pdb            PZ15reconstruct_SimRNAAS1_3_solution.pdb           6.189        10.426       15.412       22.105      
+SimRNAAS1_4                                        PZ15reconstruct_SimRNAAS1_4_refined.pdb            PZ15reconstruct_SimRNAAS1_4_solution.pdb           3.927        5.004        6.143        11.516      
+SimRNAAS1_5                                        PZ15reconstruct_SimRNAAS1_5_refined.pdb            PZ15reconstruct_SimRNAAS1_5_solution.pdb           6.724        8.136        9.226        15.099      
+SimRNAAS1_6                                        PZ15reconstruct_SimRNAAS1_6_refined.pdb            PZ15reconstruct_SimRNAAS1_6_solution.pdb           6.318        10.349       14.694       18.310      
+SimRNAAS1_7                                        PZ15reconstruct_SimRNAAS1_7_refined.pdb            PZ15reconstruct_SimRNAAS1_7_solution.pdb           11.433       20.401       26.805       41.487      
+SimRNAAS1_8                                        PZ15reconstruct_SimRNAAS1_8_refined.pdb            PZ15reconstruct_SimRNAAS1_8_solution.pdb           11.077       15.375       19.336       27.155      
+SimRNAAS1_9                                        PZ15reconstruct_SimRNAAS1_9_refined.pdb            PZ15reconstruct_SimRNAAS1_9_solution.pdb           10.678       18.976       20.852       24.024      
+SimRNAAS2_10                                       PZ15reconstruct_SimRNAAS2_10_refined.pdb           PZ15reconstruct_SimRNAAS2_10_solution.pdb          12.023       18.114       23.714       36.906      
+SimRNAAS2_1                                        PZ15reconstruct_SimRNAAS2_1_refined.pdb            PZ15reconstruct_SimRNAAS2_1_solution.pdb           12.459       23.143       28.973       45.066      
+SimRNAAS2_2                                        PZ15reconstruct_SimRNAAS2_2_refined.pdb            PZ15reconstruct_SimRNAAS2_2_solution.pdb           11.636       19.845       26.891       40.581      
+SimRNAAS2_3                                        PZ15reconstruct_SimRNAAS2_3_refined.pdb            PZ15reconstruct_SimRNAAS2_3_solution.pdb           12.118       19.348       23.158       29.221      
+SimRNAAS2_4                                        PZ15reconstruct_SimRNAAS2_4_refined.pdb            PZ15reconstruct_SimRNAAS2_4_solution.pdb           10.748       23.044       34.014       88.297      
+SimRNAAS2_5                                        PZ15reconstruct_SimRNAAS2_5_refined.pdb            PZ15reconstruct_SimRNAAS2_5_solution.pdb           10.122       17.058       25.344       41.892      
+SimRNAAS2_6                                        PZ15reconstruct_SimRNAAS2_6_refined.pdb            PZ15reconstruct_SimRNAAS2_6_solution.pdb           8.213        16.232       18.841       26.879      
+SimRNAAS2_7                                        PZ15reconstruct_SimRNAAS2_7_refined.pdb            PZ15reconstruct_SimRNAAS2_7_solution.pdb           13.085       24.899       31.567       54.547      
+SimRNAAS2_8                                        PZ15reconstruct_SimRNAAS2_8_refined.pdb            PZ15reconstruct_SimRNAAS2_8_solution.pdb           11.777       16.867       19.253       27.032      
+SimRNAAS2_9                                        PZ15reconstruct_SimRNAAS2_9_refined.pdb            PZ15reconstruct_SimRNAAS2_9_solution.pdb           12.839       24.306       32.107       52.125      
+

@@ -1,106 +1,109 @@
 Report for set: PZ34
-Processed 101 / 101 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ34_ARESapo_10_refined.pdb                        PZ34_ARESapo_10_solution.pdb                       SUCCESS         26.337                        
-PZ34_ARESapo_1_refined.pdb                         PZ34_ARESapo_1_solution.pdb                        SUCCESS         28.448                        
-PZ34_ARESapo_2_refined.pdb                         PZ34_ARESapo_2_solution.pdb                        SUCCESS         25.995                        
-PZ34_ARESapo_3_refined.pdb                         PZ34_ARESapo_3_solution.pdb                        SUCCESS         27.998                        
-PZ34_ARESapo_4_refined.pdb                         PZ34_ARESapo_4_solution.pdb                        SUCCESS         25.272                        
-PZ34_ARESapo_5_refined.pdb                         PZ34_ARESapo_5_solution.pdb                        SUCCESS         28.907                        
-PZ34_ARESapo_6_refined.pdb                         PZ34_ARESapo_6_solution.pdb                        SUCCESS         25.252                        
-PZ34_ARESapo_7_refined.pdb                         PZ34_ARESapo_7_solution.pdb                        SUCCESS         24.751                        
-PZ34_ARESapo_8_refined.pdb                         PZ34_ARESapo_8_solution.pdb                        SUCCESS         25.442                        
-PZ34_ARESapo_9_refined.pdb                         PZ34_ARESapo_9_solution.pdb                        SUCCESS         27.326                        
-PZ34_ARESgua_10_refined.pdb                        PZ34_ARESgua_10_solution.pdb                       SUCCESS         25.499                        
-PZ34_ARESgua_1_refined.pdb                         PZ34_ARESgua_1_solution.pdb                        SUCCESS         25.711                        
-PZ34_ARESgua_2_refined.pdb                         PZ34_ARESgua_2_solution.pdb                        SUCCESS         26.312                        
-PZ34_ARESgua_3_refined.pdb                         PZ34_ARESgua_3_solution.pdb                        SUCCESS         25.275                        
-PZ34_ARESgua_4_refined.pdb                         PZ34_ARESgua_4_solution.pdb                        SUCCESS         30.863                        
-PZ34_ARESgua_5_refined.pdb                         PZ34_ARESgua_5_solution.pdb                        SUCCESS         27.267                        
-PZ34_ARESgua_6_refined.pdb                         PZ34_ARESgua_6_solution.pdb                        SUCCESS         25.757                        
-PZ34_ARESgua_7_refined.pdb                         PZ34_ARESgua_7_solution.pdb                        SUCCESS         25.088                        
-PZ34_ARESgua_8_refined.pdb                         PZ34_ARESgua_8_solution.pdb                        SUCCESS         25.669                        
-PZ34_ARESgua_9_refined.pdb                         PZ34_ARESgua_9_solution.pdb                        SUCCESS         25.19                         
-PZ34_Bujnicki_1_refined.pdb                        PZ34_Bujnicki_1_solution.pdb                       SUCCESS         26.193                        
-PZ34_Bujnicki_2_refined.pdb                        PZ34_Bujnicki_2_solution.pdb                       SUCCESS         25.354                        
-PZ34_Bujnicki_3_refined.pdb                        PZ34_Bujnicki_3_solution.pdb                       SUCCESS         17.97                         
-PZ34_Bujnicki_4_refined.pdb                        PZ34_Bujnicki_4_solution.pdb                       SUCCESS         18.273                        
-PZ34_Bujnicki_5_refined.pdb                        PZ34_Bujnicki_5_solution.pdb                       SUCCESS         28.066                        
-PZ34_Chen_10_refined.pdb                           PZ34_Chen_10_solution.pdb                          SUCCESS         21.039                        
-PZ34_Chen_1_refined.pdb                            PZ34_Chen_1_solution.pdb                           SUCCESS         26.72                         
-PZ34_Chen_2_refined.pdb                            PZ34_Chen_2_solution.pdb                           SUCCESS         25.674                        
-PZ34_Chen_3_refined.pdb                            PZ34_Chen_3_solution.pdb                           SUCCESS         35.994                        
-PZ34_Chen_4_refined.pdb                            PZ34_Chen_4_solution.pdb                           SUCCESS         22.283                        
-PZ34_Chen_5_refined.pdb                            PZ34_Chen_5_solution.pdb                           SUCCESS         26.363                        
-PZ34_Chen_6_refined.pdb                            PZ34_Chen_6_solution.pdb                           SUCCESS         25.028                        
-PZ34_Chen_7_refined.pdb                            PZ34_Chen_7_solution.pdb                           SUCCESS         27.394                        
-PZ34_Chen_8_refined.pdb                            PZ34_Chen_8_solution.pdb                           SUCCESS         22.39                         
-PZ34_Chen_9_refined.pdb                            PZ34_Chen_9_solution.pdb                           SUCCESS         22.898                        
-PZ34_Das_10_refined.pdb                            PZ34_Das_10_solution.pdb                           SUCCESS         25.162                        
-PZ34_Das_1_refined.pdb                             PZ34_Das_1_solution.pdb                            SUCCESS         25.207                        
-PZ34_Das_2_refined.pdb                             PZ34_Das_2_solution.pdb                            SUCCESS         28.893                        
-PZ34_Das_3_refined.pdb                             PZ34_Das_3_solution.pdb                            SUCCESS         28.233                        
-PZ34_Das_4_refined.pdb                             PZ34_Das_4_solution.pdb                            SUCCESS         31.874                        
-PZ34_Das_5_refined.pdb                             PZ34_Das_5_solution.pdb                            SUCCESS         23.442                        
-PZ34_Das_6_refined.pdb                             PZ34_Das_6_solution.pdb                            SUCCESS         23.025                        
-PZ34_Das_7_refined.pdb                             PZ34_Das_7_solution.pdb                            SUCCESS         22.447                        
-PZ34_Das_8_refined.pdb                             PZ34_Das_8_solution.pdb                            SUCCESS         25.669                        
-PZ34_Das_9_refined.pdb                             PZ34_Das_9_solution.pdb                            SUCCESS         27.377                        
-PZ34_Dokholyan_1_refined.pdb                       PZ34_Dokholyan_1_solution.pdb                      SUCCESS         19.409                        
-PZ34_FARFAR2apo_10_refined.pdb                     PZ34_FARFAR2apo_10_solution.pdb                    SUCCESS         25.485                        
-PZ34_FARFAR2apo_1_refined.pdb                      PZ34_FARFAR2apo_1_solution.pdb                     SUCCESS         29.233                        
-PZ34_FARFAR2apo_2_refined.pdb                      PZ34_FARFAR2apo_2_solution.pdb                     SUCCESS         31.027                        
-PZ34_FARFAR2apo_3_refined.pdb                      PZ34_FARFAR2apo_3_solution.pdb                     SUCCESS         28.944                        
-PZ34_FARFAR2apo_4_refined.pdb                      PZ34_FARFAR2apo_4_solution.pdb                     SUCCESS         24.524                        
-PZ34_FARFAR2apo_5_refined.pdb                      PZ34_FARFAR2apo_5_solution.pdb                     SUCCESS         27.326                        
-PZ34_FARFAR2apo_6_refined.pdb                      PZ34_FARFAR2apo_6_solution.pdb                     SUCCESS         25.261                        
-PZ34_FARFAR2apo_7_refined.pdb                      PZ34_FARFAR2apo_7_solution.pdb                     SUCCESS         25.207                        
-PZ34_FARFAR2apo_8_refined.pdb                      PZ34_FARFAR2apo_8_solution.pdb                     SUCCESS         27.936                        
-PZ34_FARFAR2apo_9_refined.pdb                      PZ34_FARFAR2apo_9_solution.pdb                     SUCCESS         24.79                         
-PZ34_FARFAR2gua_10_refined.pdb                     PZ34_FARFAR2gua_10_solution.pdb                    SUCCESS         25.751                        
-PZ34_FARFAR2gua_1_refined.pdb                      PZ34_FARFAR2gua_1_solution.pdb                     SUCCESS         25.241                        
-PZ34_FARFAR2gua_2_refined.pdb                      PZ34_FARFAR2gua_2_solution.pdb                     SUCCESS         25.207                        
-PZ34_FARFAR2gua_3_refined.pdb                      PZ34_FARFAR2gua_3_solution.pdb                     SUCCESS         25.731                        
-PZ34_FARFAR2gua_4_refined.pdb                      PZ34_FARFAR2gua_4_solution.pdb                     SUCCESS         27.267                        
-PZ34_FARFAR2gua_5_refined.pdb                      PZ34_FARFAR2gua_5_solution.pdb                     SUCCESS         24.671                        
-PZ34_FARFAR2gua_6_refined.pdb                      PZ34_FARFAR2gua_6_solution.pdb                     SUCCESS         29.148                        
-PZ34_FARFAR2gua_7_refined.pdb                      PZ34_FARFAR2gua_7_solution.pdb                     SUCCESS         24.598                        
-PZ34_FARFAR2gua_8_refined.pdb                      PZ34_FARFAR2gua_8_solution.pdb                     SUCCESS         27.377                        
-PZ34_FARFAR2gua_9_refined.pdb                      PZ34_FARFAR2gua_9_solution.pdb                     SUCCESS         25.162                        
-PZ34_Nithin_1_refined.pdb                          PZ34_Nithin_1_solution.pdb                         SUCCESS         23.994                        
-PZ34_Nithin_2_refined.pdb                          PZ34_Nithin_2_solution.pdb                         SUCCESS         24.725                        
-PZ34_Nithin_3_refined.pdb                          PZ34_Nithin_3_solution.pdb                         SUCCESS         27.026                        
-PZ34_Nithin_4_refined.pdb                          PZ34_Nithin_4_solution.pdb                         SUCCESS         20.359                        
-PZ34_Nithin_5_refined.pdb                          PZ34_Nithin_5_solution.pdb                         SUCCESS         26.692                        
-PZ34_RNAComposer_1_refined.pdb                     PZ34_RNAComposer_1_solution.pdb                    SUCCESS         29.811                        
-PZ34_RNAComposer_2_refined.pdb                     PZ34_RNAComposer_2_solution.pdb                    SUCCESS         27.255                        
-PZ34_RNAComposer_3_refined.pdb                     PZ34_RNAComposer_3_solution.pdb                    SUCCESS         25.81                         
-PZ34_RNAComposer_4_refined.pdb                     PZ34_RNAComposer_4_solution.pdb                    SUCCESS         25.995                        
-PZ34_RNAComposer_5_refined.pdb                     PZ34_RNAComposer_5_solution.pdb                    SUCCESS         25.06                         
-PZ34_SimRNA_1_refined.pdb                          PZ34_SimRNA_1_solution.pdb                         SUCCESS         25.785                        
-PZ34_SimRNA_2_refined.pdb                          PZ34_SimRNA_2_solution.pdb                         SUCCESS         28.389                        
-PZ34_SimRNA_3_refined.pdb                          PZ34_SimRNA_3_solution.pdb                         SUCCESS         25.425                        
-PZ34_SimRNA_4_refined.pdb                          PZ34_SimRNA_4_solution.pdb                         SUCCESS         26.658                        
-PZ34_SimRNA_5_refined.pdb                          PZ34_SimRNA_5_solution.pdb                         SUCCESS         26.102                        
-PZ34_SWMapo_10_refined.pdb                         PZ34_SWMapo_10_solution.pdb                        SUCCESS         22.793                        
-PZ34_SWMapo_1_refined.pdb                          PZ34_SWMapo_1_solution.pdb                         SUCCESS         28.233                        
-PZ34_SWMapo_2_refined.pdb                          PZ34_SWMapo_2_solution.pdb                         SUCCESS         31.874                        
-PZ34_SWMapo_3_refined.pdb                          PZ34_SWMapo_3_solution.pdb                         SUCCESS         24.603                        
-PZ34_SWMapo_4_refined.pdb                          PZ34_SWMapo_4_solution.pdb                         SUCCESS         28.893                        
-PZ34_SWMapo_5_refined.pdb                          PZ34_SWMapo_5_solution.pdb                         SUCCESS         23.96                         
-PZ34_SWMapo_6_refined.pdb                          PZ34_SWMapo_6_solution.pdb                         SUCCESS         23.796                        
-PZ34_SWMapo_7_refined.pdb                          PZ34_SWMapo_7_solution.pdb                         SUCCESS         23.025                        
-PZ34_SWMapo_8_refined.pdb                          PZ34_SWMapo_8_solution.pdb                         SUCCESS         23.442                        
-PZ34_SWMapo_9_refined.pdb                          PZ34_SWMapo_9_solution.pdb                         SUCCESS         22.447                        
-PZ34_Szachniuk_1_refined.pdb                       PZ34_Szachniuk_1_solution.pdb                      SUCCESS         23.218                        
-PZ34_Szachniuk_2_refined.pdb                       PZ34_Szachniuk_2_solution.pdb                      SUCCESS         24.164                        
-PZ34_Szachniuk_3_refined.pdb                       PZ34_Szachniuk_3_solution.pdb                      SUCCESS         24.779                        
-PZ34_Szachniuk_4_refined.pdb                       PZ34_Szachniuk_4_solution.pdb                      SUCCESS         24.892                        
-PZ34_Szachniuk_5_refined.pdb                       PZ34_Szachniuk_5_solution.pdb                      SUCCESS         27.21                         
-PZ34_Xiao_1_refined.pdb                            PZ34_Xiao_1_solution.pdb                           SUCCESS         20.143                        
-PZ34_Xiao_2_refined.pdb                            PZ34_Xiao_2_solution.pdb                           SUCCESS         20.9                          
-PZ34_Xiao_3_refined.pdb                            PZ34_Xiao_3_solution.pdb                           SUCCESS         20.302                        
-PZ34_Xiao_4_refined.pdb                            PZ34_Xiao_4_solution.pdb                           SUCCESS         20.33                         
-PZ34_Xiao_5_refined.pdb                            PZ34_Xiao_5_solution.pdb                           SUCCESS         21.832                        
+Processed 101 / 101 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ARESapo_10                                         PZ34_ARESapo_10_refined.pdb                        PZ34_ARESapo_10_solution.pdb                       12.796       24.671       28.537       43.031      
+ARESapo_1                                          PZ34_ARESapo_1_refined.pdb                         PZ34_ARESapo_1_solution.pdb                        14.955       26.501       30.824       53.104      
+ARESapo_2                                          PZ34_ARESapo_2_refined.pdb                         PZ34_ARESapo_2_solution.pdb                        13.186       24.991       28.165       40.523      
+ARESapo_3                                          PZ34_ARESapo_3_refined.pdb                         PZ34_ARESapo_3_solution.pdb                        12.566       26.560       30.336       40.651      
+ARESapo_4                                          PZ34_ARESapo_4_refined.pdb                         PZ34_ARESapo_4_solution.pdb                        13.358       24.982       27.382       37.250      
+ARESapo_5                                          PZ34_ARESapo_5_refined.pdb                         PZ34_ARESapo_5_solution.pdb                        12.081       24.484       31.321       50.138      
+ARESapo_6                                          PZ34_ARESapo_6_refined.pdb                         PZ34_ARESapo_6_solution.pdb                        9.606        22.357       27.361       38.561      
+ARESapo_7                                          PZ34_ARESapo_7_refined.pdb                         PZ34_ARESapo_7_solution.pdb                        11.412       23.268       26.818       35.828      
+ARESapo_8                                          PZ34_ARESapo_8_refined.pdb                         PZ34_ARESapo_8_solution.pdb                        11.599       25.513       27.567       37.778      
+ARESapo_9                                          PZ34_ARESapo_9_refined.pdb                         PZ34_ARESapo_9_solution.pdb                        19.858       26.744       29.608       45.014      
+ARESgua_10                                         PZ34_ARESgua_10_refined.pdb                        PZ34_ARESgua_10_solution.pdb                       11.556       25.608       27.628       38.364      
+ARESgua_1                                          PZ34_ARESgua_1_refined.pdb                         PZ34_ARESgua_1_solution.pdb                        13.677       25.537       27.858       37.541      
+ARESgua_2                                          PZ34_ARESgua_2_refined.pdb                         PZ34_ARESgua_2_solution.pdb                        13.027       24.748       28.509       45.312      
+ARESgua_3                                          PZ34_ARESgua_3_refined.pdb                         PZ34_ARESgua_3_solution.pdb                        12.584       25.068       27.385       36.498      
+ARESgua_4                                          PZ34_ARESgua_4_refined.pdb                         PZ34_ARESgua_4_solution.pdb                        14.298       28.733       33.440       43.421      
+ARESgua_5                                          PZ34_ARESgua_5_refined.pdb                         PZ34_ARESgua_5_solution.pdb                        14.405       26.225       29.544       49.097      
+ARESgua_6                                          PZ34_ARESgua_6_refined.pdb                         PZ34_ARESgua_6_solution.pdb                        12.502       24.371       27.907       39.172      
+ARESgua_7                                          PZ34_ARESgua_7_refined.pdb                         PZ34_ARESgua_7_solution.pdb                        13.456       25.325       27.183       36.421      
+ARESgua_8                                          PZ34_ARESgua_8_refined.pdb                         PZ34_ARESgua_8_solution.pdb                        12.984       25.055       27.812       38.736      
+ARESgua_9                                          PZ34_ARESgua_9_refined.pdb                         PZ34_ARESgua_9_solution.pdb                        12.370       17.776       27.293       42.745      
+Bujnicki_1                                         PZ34_Bujnicki_1_refined.pdb                        PZ34_Bujnicki_1_solution.pdb                       14.436       25.593       28.380       42.211      
+Bujnicki_2                                         PZ34_Bujnicki_2_refined.pdb                        PZ34_Bujnicki_2_solution.pdb                       12.910       25.375       27.471       36.559      
+Bujnicki_3                                         PZ34_Bujnicki_3_refined.pdb                        PZ34_Bujnicki_3_solution.pdb                       7.774        12.695       19.471       31.782      
+Bujnicki_4                                         PZ34_Bujnicki_4_refined.pdb                        PZ34_Bujnicki_4_solution.pdb                       7.620        13.358       19.799       30.557      
+Bujnicki_5                                         PZ34_Bujnicki_5_refined.pdb                        PZ34_Bujnicki_5_solution.pdb                       14.371       26.593       30.410       41.849      
+Chen_10                                            PZ34_Chen_10_refined.pdb                           PZ34_Chen_10_solution.pdb                          7.945        17.015       22.796       31.951      
+Chen_1                                             PZ34_Chen_1_refined.pdb                            PZ34_Chen_1_solution.pdb                           9.207        25.246       28.951       43.946      
+Chen_2                                             PZ34_Chen_2_refined.pdb                            PZ34_Chen_2_solution.pdb                           9.407        23.858       27.818       38.149      
+Chen_3                                             PZ34_Chen_3_refined.pdb                            PZ34_Chen_3_solution.pdb                           10.549       31.711       39.000       63.165      
+Chen_4                                             PZ34_Chen_4_refined.pdb                            PZ34_Chen_4_solution.pdb                           8.050        18.494       24.143       34.127      
+Chen_5                                             PZ34_Chen_5_refined.pdb                            PZ34_Chen_5_solution.pdb                           9.425        25.289       28.564       37.112      
+Chen_6                                             PZ34_Chen_6_refined.pdb                            PZ34_Chen_6_solution.pdb                           11.335       22.955       27.118       39.687      
+Chen_7                                             PZ34_Chen_7_refined.pdb                            PZ34_Chen_7_solution.pdb                           8.790        20.435       29.682       41.680      
+Chen_8                                             PZ34_Chen_8_refined.pdb                            PZ34_Chen_8_solution.pdb                           12.649       22.099       24.260       34.775      
+Chen_9                                             PZ34_Chen_9_refined.pdb                            PZ34_Chen_9_solution.pdb                           8.971        20.576       24.810       32.043      
+Das_10                                             PZ34_Das_10_refined.pdb                            PZ34_Das_10_solution.pdb                           13.241       25.221       27.263       37.069      
+Das_1                                              PZ34_Das_1_refined.pdb                             PZ34_Das_1_solution.pdb                            13.159       18.111       27.312       37.830      
+Das_2                                              PZ34_Das_2_refined.pdb                             PZ34_Das_2_solution.pdb                            13.057       26.418       31.306       53.214      
+Das_3                                              PZ34_Das_3_refined.pdb                             PZ34_Das_3_solution.pdb                            14.700       27.404       30.591       47.820      
+Das_4                                              PZ34_Das_4_refined.pdb                             PZ34_Das_4_solution.pdb                            13.877       28.159       34.536       92.730      
+Das_5                                              PZ34_Das_5_refined.pdb                             PZ34_Das_5_solution.pdb                            11.316       21.859       25.399       35.865      
+Das_6                                              PZ34_Das_6_refined.pdb                             PZ34_Das_6_solution.pdb                            11.363       22.372       24.948       32.055      
+Das_7                                              PZ34_Das_7_refined.pdb                             PZ34_Das_7_solution.pdb                            10.902       17.837       24.322       37.879      
+Das_8                                              PZ34_Das_8_refined.pdb                             PZ34_Das_8_solution.pdb                            12.984       25.055       27.812       38.736      
+Das_9                                              PZ34_Das_9_refined.pdb                             PZ34_Das_9_solution.pdb                            13.687       25.998       29.664       45.106      
+Dokholyan_1                                        PZ34_Dokholyan_1_refined.pdb                       PZ34_Dokholyan_1_solution.pdb                      7.408        16.812       21.030       31.288      
+FARFAR2apo_10                                      PZ34_FARFAR2apo_10_refined.pdb                     PZ34_FARFAR2apo_10_solution.pdb                    12.176       24.825       27.613       34.941      
+FARFAR2apo_1                                       PZ34_FARFAR2apo_1_refined.pdb                      PZ34_FARFAR2apo_1_solution.pdb                     14.479       27.180       31.674       50.801      
+FARFAR2apo_2                                       PZ34_FARFAR2apo_2_refined.pdb                      PZ34_FARFAR2apo_2_solution.pdb                     14.921       27.886       33.618       66.416      
+FARFAR2apo_3                                       PZ34_FARFAR2apo_3_refined.pdb                      PZ34_FARFAR2apo_3_solution.pdb                     11.728       25.196       31.361       43.329      
+FARFAR2apo_4                                       PZ34_FARFAR2apo_4_refined.pdb                      PZ34_FARFAR2apo_4_solution.pdb                     12.471       24.088       26.572       34.533      
+FARFAR2apo_5                                       PZ34_FARFAR2apo_5_refined.pdb                      PZ34_FARFAR2apo_5_solution.pdb                     19.858       26.744       29.608       45.014      
+FARFAR2apo_6                                       PZ34_FARFAR2apo_6_refined.pdb                      PZ34_FARFAR2apo_6_solution.pdb                     13.954       24.834       27.370       37.047      
+FARFAR2apo_7                                       PZ34_FARFAR2apo_7_refined.pdb                      PZ34_FARFAR2apo_7_solution.pdb                     13.159       18.111       27.312       37.830      
+FARFAR2apo_8                                       PZ34_FARFAR2apo_8_refined.pdb                      PZ34_FARFAR2apo_8_solution.pdb                     14.374       26.879       30.268       47.366      
+FARFAR2apo_9                                       PZ34_FARFAR2apo_9_refined.pdb                      PZ34_FARFAR2apo_9_solution.pdb                     11.580       20.183       26.860       36.102      
+FARFAR2gua_10                                      PZ34_FARFAR2gua_10_refined.pdb                     PZ34_FARFAR2gua_10_solution.pdb                    13.671       25.123       27.901       40.618      
+FARFAR2gua_1                                       PZ34_FARFAR2gua_1_refined.pdb                      PZ34_FARFAR2gua_1_solution.pdb                     10.101       23.717       27.349       39.190      
+FARFAR2gua_2                                       PZ34_FARFAR2gua_2_refined.pdb                      PZ34_FARFAR2gua_2_solution.pdb                     11.372       21.433       27.312       37.250      
+FARFAR2gua_3                                       PZ34_FARFAR2gua_3_refined.pdb                      PZ34_FARFAR2gua_3_solution.pdb                     12.268       25.335       27.880       42.137      
+FARFAR2gua_4                                       PZ34_FARFAR2gua_4_refined.pdb                      PZ34_FARFAR2gua_4_solution.pdb                     14.405       26.225       29.544       49.097      
+FARFAR2gua_5                                       PZ34_FARFAR2gua_5_refined.pdb                      PZ34_FARFAR2gua_5_solution.pdb                     11.590       23.041       26.732       35.948      
+FARFAR2gua_6                                       PZ34_FARFAR2gua_6_refined.pdb                      PZ34_FARFAR2gua_6_solution.pdb                     11.875       23.081       31.582       54.234      
+FARFAR2gua_7                                       PZ34_FARFAR2gua_7_refined.pdb                      PZ34_FARFAR2gua_7_solution.pdb                     12.855       24.558       26.652       34.201      
+FARFAR2gua_8                                       PZ34_FARFAR2gua_8_refined.pdb                      PZ34_FARFAR2gua_8_solution.pdb                     13.687       25.998       29.664       45.106      
+FARFAR2gua_9                                       PZ34_FARFAR2gua_9_refined.pdb                      PZ34_FARFAR2gua_9_solution.pdb                     13.241       25.221       27.263       37.069      
+Nithin_1                                           PZ34_Nithin_1_refined.pdb                          PZ34_Nithin_1_solution.pdb                         8.366        14.058       25.998       45.822      
+Nithin_2                                           PZ34_Nithin_2_refined.pdb                          PZ34_Nithin_2_solution.pdb                         8.133        15.409       26.790       48.477      
+Nithin_3                                           PZ34_Nithin_3_refined.pdb                          PZ34_Nithin_3_solution.pdb                         6.856        20.680       29.283       41.041      
+Nithin_4                                           PZ34_Nithin_4_refined.pdb                          PZ34_Nithin_4_solution.pdb                         6.770        17.555       22.059       31.545      
+Nithin_5                                           PZ34_Nithin_5_refined.pdb                          PZ34_Nithin_5_solution.pdb                         9.797        25.368       28.921       39.644      
+RNAComposer_1                                      PZ34_RNAComposer_1_refined.pdb                     PZ34_RNAComposer_1_solution.pdb                    23.189       29.237       32.301       44.342      
+RNAComposer_2                                      PZ34_RNAComposer_2_refined.pdb                     PZ34_RNAComposer_2_solution.pdb                    18.986       26.624       29.531       40.925      
+RNAComposer_3                                      PZ34_RNAComposer_3_refined.pdb                     PZ34_RNAComposer_3_solution.pdb                    16.588       24.450       27.966       37.818      
+RNAComposer_4                                      PZ34_RNAComposer_4_refined.pdb                     PZ34_RNAComposer_4_solution.pdb                    18.166       25.479       28.165       33.992      
+RNAComposer_5                                      PZ34_RNAComposer_5_refined.pdb                     PZ34_RNAComposer_5_solution.pdb                    16.459       24.641       27.152       36.528      
+SimRNA_1                                           PZ34_SimRNA_1_refined.pdb                          PZ34_SimRNA_1_solution.pdb                         11.863       25.043       27.938       39.457      
+SimRNA_2                                           PZ34_SimRNA_2_refined.pdb                          PZ34_SimRNA_2_solution.pdb                         14.838       26.735       30.760       42.592      
+SimRNA_3                                           PZ34_SimRNA_3_refined.pdb                          PZ34_SimRNA_3_solution.pdb                         13.413       25.286       27.548       37.345      
+SimRNA_4                                           PZ34_SimRNA_4_refined.pdb                          PZ34_SimRNA_4_solution.pdb                         13.149       26.062       28.884       43.746      
+SimRNA_5                                           PZ34_SimRNA_5_refined.pdb                          PZ34_SimRNA_5_solution.pdb                         9.784        22.565       28.282       43.933      
+SWMapo_10                                          PZ34_SWMapo_10_refined.pdb                         PZ34_SWMapo_10_solution.pdb                        11.277       21.669       24.696       36.482      
+SWMapo_1                                           PZ34_SWMapo_1_refined.pdb                          PZ34_SWMapo_1_solution.pdb                         14.700       27.404       30.591       47.820      
+SWMapo_2                                           PZ34_SWMapo_2_refined.pdb                          PZ34_SWMapo_2_solution.pdb                         13.877       28.159       34.536       92.730      
+SWMapo_3                                           PZ34_SWMapo_3_refined.pdb                          PZ34_SWMapo_3_solution.pdb                         12.330       23.443       26.658       37.529      
+SWMapo_4                                           PZ34_SWMapo_4_refined.pdb                          PZ34_SWMapo_4_solution.pdb                         13.057       26.418       31.306       53.214      
+SWMapo_5                                           PZ34_SWMapo_5_refined.pdb                          PZ34_SWMapo_5_solution.pdb                         12.885       22.965       25.961       37.170      
+SWMapo_6                                           PZ34_SWMapo_6_refined.pdb                          PZ34_SWMapo_6_solution.pdb                         10.497       22.691       25.783       36.016      
+SWMapo_7                                           PZ34_SWMapo_7_refined.pdb                          PZ34_SWMapo_7_solution.pdb                         11.363       22.372       24.948       32.055      
+SWMapo_8                                           PZ34_SWMapo_8_refined.pdb                          PZ34_SWMapo_8_solution.pdb                         11.316       21.859       25.399       35.865      
+SWMapo_9                                           PZ34_SWMapo_9_refined.pdb                          PZ34_SWMapo_9_solution.pdb                         10.902       17.837       24.322       37.879      
+Szachniuk_1                                        PZ34_Szachniuk_1_refined.pdb                       PZ34_Szachniuk_1_solution.pdb                      17.374       22.790       25.157       33.759      
+Szachniuk_2                                        PZ34_Szachniuk_2_refined.pdb                       PZ34_Szachniuk_2_solution.pdb                      19.059       24.254       26.182       34.131      
+Szachniuk_3                                        PZ34_Szachniuk_3_refined.pdb                       PZ34_Szachniuk_3_solution.pdb                      19.158       24.564       26.848       37.646      
+Szachniuk_4                                        PZ34_Szachniuk_4_refined.pdb                       PZ34_Szachniuk_4_solution.pdb                      18.430       24.862       26.971       35.699      
+Szachniuk_5                                        PZ34_Szachniuk_5_refined.pdb                       PZ34_Szachniuk_5_solution.pdb                      18.230       26.388       29.482       40.618      
+Xiao_1                                             PZ34_Xiao_1_refined.pdb                            PZ34_Xiao_1_solution.pdb                           12.919       19.882       21.825       27.677      
+Xiao_2                                             PZ34_Xiao_2_refined.pdb                            PZ34_Xiao_2_solution.pdb                           14.915       20.754       22.645       29.074      
+Xiao_3                                             PZ34_Xiao_3_refined.pdb                            PZ34_Xiao_3_solution.pdb                           10.441       17.690       21.997       28.282      
+Xiao_4                                             PZ34_Xiao_4_refined.pdb                            PZ34_Xiao_4_solution.pdb                           7.924        19.759       22.028       28.663      
+Xiao_5                                             PZ34_Xiao_5_refined.pdb                            PZ34_Xiao_5_solution.pdb                           15.332       21.319       23.655       30.916      
+

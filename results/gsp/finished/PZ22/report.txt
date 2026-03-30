@@ -1,50 +1,53 @@
 Report for set: PZ22
-Processed 45 / 45 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ22_Adamiak_1_refined.pdb                         PZ22_Adamiak_1_solution.pdb                        SUCCESS         10.386                        
-PZ22_Adamiak_2_refined.pdb                         PZ22_Adamiak_2_solution.pdb                        SUCCESS         11.321                        
-PZ22_Adamiak_3_refined.pdb                         PZ22_Adamiak_3_solution.pdb                        SUCCESS         10.153                        
-PZ22_Adamiak_4_refined.pdb                         PZ22_Adamiak_4_solution.pdb                        SUCCESS         11.739                        
-PZ22_Adamiak_5_refined.pdb                         PZ22_Adamiak_5_solution.pdb                        SUCCESS         11.664                        
-PZ22_Bujnicki_1_refined.pdb                        PZ22_Bujnicki_1_solution.pdb                       SUCCESS         11.699                        
-PZ22_Bujnicki_2_refined.pdb                        PZ22_Bujnicki_2_solution.pdb                       SUCCESS         11.784                        
-PZ22_Bujnicki_3_refined.pdb                        PZ22_Bujnicki_3_solution.pdb                       SUCCESS         9.31                          
-PZ22_Bujnicki_4_refined.pdb                        PZ22_Bujnicki_4_solution.pdb                       SUCCESS         9.446                         
-PZ22_Bujnicki_5_refined.pdb                        PZ22_Bujnicki_5_solution.pdb                       SUCCESS         9.836                         
-PZ22_Chen_1_refined.pdb                            PZ22_Chen_1_solution.pdb                           SUCCESS         10.165                        
-PZ22_Chen_2_refined.pdb                            PZ22_Chen_2_solution.pdb                           SUCCESS         10.52                         
-PZ22_Chen_3_refined.pdb                            PZ22_Chen_3_solution.pdb                           SUCCESS         11.288                        
-PZ22_Chen_4_refined.pdb                            PZ22_Chen_4_solution.pdb                           SUCCESS         10.113                        
-PZ22_Chen_5_refined.pdb                            PZ22_Chen_5_solution.pdb                           SUCCESS         10.158                        
-PZ22_Das_10_refined.pdb                            PZ22_Das_10_solution.pdb                           SUCCESS         12.228                        
-PZ22_Das_1_refined.pdb                             PZ22_Das_1_solution.pdb                            SUCCESS         14.488                        
-PZ22_Das_2_refined.pdb                             PZ22_Das_2_solution.pdb                            SUCCESS         13.159                        
-PZ22_Das_3_refined.pdb                             PZ22_Das_3_solution.pdb                            SUCCESS         10.193                        
-PZ22_Das_4_refined.pdb                             PZ22_Das_4_solution.pdb                            SUCCESS         10.111                        
-PZ22_Das_5_refined.pdb                             PZ22_Das_5_solution.pdb                            SUCCESS         15.388                        
-PZ22_Das_6_refined.pdb                             PZ22_Das_6_solution.pdb                            SUCCESS         12.371                        
-PZ22_Das_7_refined.pdb                             PZ22_Das_7_solution.pdb                            SUCCESS         11.507                        
-PZ22_Das_8_refined.pdb                             PZ22_Das_8_solution.pdb                            SUCCESS         13.532                        
-PZ22_Das_9_refined.pdb                             PZ22_Das_9_solution.pdb                            SUCCESS         11.149                        
-PZ22_Dokholyan_1_refined.pdb                       PZ22_Dokholyan_1_solution.pdb                      SUCCESS         10.94                         
-PZ22_Dokholyan_2_refined.pdb                       PZ22_Dokholyan_2_solution.pdb                      SUCCESS         9.082                         
-PZ22_Dokholyan_3_refined.pdb                       PZ22_Dokholyan_3_solution.pdb                      SUCCESS         11.105                        
-PZ22_Dokholyan_4_refined.pdb                       PZ22_Dokholyan_4_solution.pdb                      SUCCESS         11.004                        
-PZ22_Dokholyan_5_refined.pdb                       PZ22_Dokholyan_5_solution.pdb                      SUCCESS         11.147                        
-PZ22_RNAComposer_1_refined.pdb                     PZ22_RNAComposer_1_solution.pdb                    SUCCESS         11.518                        
-PZ22_RNAComposer_2_refined.pdb                     PZ22_RNAComposer_2_solution.pdb                    SUCCESS         11.396                        
-PZ22_RNAComposer_3_refined.pdb                     PZ22_RNAComposer_3_solution.pdb                    SUCCESS         10.647                        
-PZ22_RNAComposer_4_refined.pdb                     PZ22_RNAComposer_4_solution.pdb                    SUCCESS         11.742                        
-PZ22_RNAComposer_5_refined.pdb                     PZ22_RNAComposer_5_solution.pdb                    SUCCESS         9.975                         
-PZ22_SimRNA_1_refined.pdb                          PZ22_SimRNA_1_solution.pdb                         SUCCESS         9.31                          
-PZ22_SimRNA_2_refined.pdb                          PZ22_SimRNA_2_solution.pdb                         SUCCESS         9.446                         
-PZ22_SimRNA_3_refined.pdb                          PZ22_SimRNA_3_solution.pdb                         SUCCESS         9.836                         
-PZ22_SimRNA_4_refined.pdb                          PZ22_SimRNA_4_solution.pdb                         SUCCESS         9.65                          
-PZ22_SimRNA_5_refined.pdb                          PZ22_SimRNA_5_solution.pdb                         SUCCESS         11.328                        
-PZ22_Xiao_1_refined.pdb                            PZ22_Xiao_1_solution.pdb                           SUCCESS         11.511                        
-PZ22_Xiao_2_refined.pdb                            PZ22_Xiao_2_solution.pdb                           SUCCESS         11.436                        
-PZ22_Xiao_3_refined.pdb                            PZ22_Xiao_3_solution.pdb                           SUCCESS         9.164                         
-PZ22_Xiao_4_refined.pdb                            PZ22_Xiao_4_solution.pdb                           SUCCESS         10.228                        
-PZ22_Xiao_5_refined.pdb                            PZ22_Xiao_5_solution.pdb                           SUCCESS         10.398                        
+Processed 45 / 45 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          PZ22_Adamiak_1_refined.pdb                         PZ22_Adamiak_1_solution.pdb                        6.930        8.977        11.253       17.893      
+Adamiak_2                                          PZ22_Adamiak_2_refined.pdb                         PZ22_Adamiak_2_solution.pdb                        7.096        10.018       12.266       19.848      
+Adamiak_3                                          PZ22_Adamiak_3_refined.pdb                         PZ22_Adamiak_3_solution.pdb                        6.808        9.311        11.001       18.952      
+Adamiak_4                                          PZ22_Adamiak_4_refined.pdb                         PZ22_Adamiak_4_solution.pdb                        7.294        10.566       12.720       19.451      
+Adamiak_5                                          PZ22_Adamiak_5_refined.pdb                         PZ22_Adamiak_5_solution.pdb                        7.299        10.461       12.638       21.918      
+Bujnicki_1                                         PZ22_Bujnicki_1_refined.pdb                        PZ22_Bujnicki_1_solution.pdb                       7.615        10.729       12.676       19.382      
+Bujnicki_2                                         PZ22_Bujnicki_2_refined.pdb                        PZ22_Bujnicki_2_solution.pdb                       7.327        10.497       12.768       19.662      
+Bujnicki_3                                         PZ22_Bujnicki_3_refined.pdb                        PZ22_Bujnicki_3_solution.pdb                       7.228        9.232        10.087       15.482      
+Bujnicki_4                                         PZ22_Bujnicki_4_refined.pdb                        PZ22_Bujnicki_4_solution.pdb                       7.373        9.392        10.235       15.818      
+Bujnicki_5                                         PZ22_Bujnicki_5_refined.pdb                        PZ22_Bujnicki_5_solution.pdb                       7.546        9.685        10.657       16.233      
+Chen_1                                             PZ22_Chen_1_refined.pdb                            PZ22_Chen_1_solution.pdb                           6.732        9.392        11.014       18.374      
+Chen_2                                             PZ22_Chen_2_refined.pdb                            PZ22_Chen_2_solution.pdb                           6.991        9.204        11.398       18.652      
+Chen_3                                             PZ22_Chen_3_refined.pdb                            PZ22_Chen_3_solution.pdb                           7.396        10.260       12.231       18.216      
+Chen_4                                             PZ22_Chen_4_refined.pdb                            PZ22_Chen_4_solution.pdb                           6.775        9.242        10.958       17.908      
+Chen_5                                             PZ22_Chen_5_refined.pdb                            PZ22_Chen_5_solution.pdb                           6.856        9.339        11.006       18.173      
+Das_10                                             PZ22_Das_10_refined.pdb                            PZ22_Das_10_solution.pdb                           6.950        10.688       13.249       21.595      
+Das_1                                              PZ22_Das_1_refined.pdb                             PZ22_Das_1_solution.pdb                            7.213        12.539       15.698       36.201      
+Das_2                                              PZ22_Das_2_refined.pdb                             PZ22_Das_2_solution.pdb                            6.090        11.515       14.257       25.139      
+Das_3                                              PZ22_Das_3_refined.pdb                             PZ22_Das_3_solution.pdb                            7.391        9.183        11.044       19.703      
+Das_4                                              PZ22_Das_4_refined.pdb                             PZ22_Das_4_solution.pdb                            7.299        9.395        10.955       18.267      
+Das_5                                              PZ22_Das_5_refined.pdb                             PZ22_Das_5_solution.pdb                            7.849        13.127       16.673       39.582      
+Das_6                                              PZ22_Das_6_refined.pdb                             PZ22_Das_6_solution.pdb                            7.424        11.004       13.404       21.070      
+Das_7                                              PZ22_Das_7_refined.pdb                             PZ22_Das_7_solution.pdb                            7.577        10.003       12.468       20.182      
+Das_8                                              PZ22_Das_8_refined.pdb                             PZ22_Das_8_solution.pdb                            7.284        11.770       14.662       25.908      
+Das_9                                              PZ22_Das_9_refined.pdb                             PZ22_Das_9_solution.pdb                            7.312        10.197       12.081       20.044      
+Dokholyan_1                                        PZ22_Dokholyan_1_refined.pdb                       PZ22_Dokholyan_1_solution.pdb                      6.566        10.199       11.854       16.185      
+Dokholyan_2                                        PZ22_Dokholyan_2_refined.pdb                       PZ22_Dokholyan_2_solution.pdb                      5.176        8.842        9.840        15.243      
+Dokholyan_3                                        PZ22_Dokholyan_3_refined.pdb                       PZ22_Dokholyan_3_solution.pdb                      7.378        9.815        12.032       17.883      
+Dokholyan_4                                        PZ22_Dokholyan_4_refined.pdb                       PZ22_Dokholyan_4_solution.pdb                      7.075        9.601        11.923       18.876      
+Dokholyan_5                                        PZ22_Dokholyan_5_refined.pdb                       PZ22_Dokholyan_5_solution.pdb                      6.164        9.514        12.078       17.152      
+RNAComposer_1                                      PZ22_RNAComposer_1_refined.pdb                     PZ22_RNAComposer_1_solution.pdb                    7.256        10.400       12.480       19.347      
+RNAComposer_2                                      PZ22_RNAComposer_2_refined.pdb                     PZ22_RNAComposer_2_solution.pdb                    7.424        10.382       12.348       19.219      
+RNAComposer_3                                      PZ22_RNAComposer_3_refined.pdb                     PZ22_RNAComposer_3_solution.pdb                    7.215        9.934        11.536       19.051      
+RNAComposer_4                                      PZ22_RNAComposer_4_refined.pdb                     PZ22_RNAComposer_4_solution.pdb                    6.459        10.102       12.722       19.492      
+RNAComposer_5                                      PZ22_RNAComposer_5_refined.pdb                     PZ22_RNAComposer_5_solution.pdb                    6.808        9.173        10.808       18.960      
+SimRNA_1                                           PZ22_SimRNA_1_refined.pdb                          PZ22_SimRNA_1_solution.pdb                         7.241        9.232        10.087       15.482      
+SimRNA_2                                           PZ22_SimRNA_2_refined.pdb                          PZ22_SimRNA_2_solution.pdb                         7.365        9.392        10.235       15.818      
+SimRNA_3                                           PZ22_SimRNA_3_refined.pdb                          PZ22_SimRNA_3_solution.pdb                         7.569        9.685        10.657       16.246      
+SimRNA_4                                           PZ22_SimRNA_4_refined.pdb                          PZ22_SimRNA_4_solution.pdb                         7.213        9.305        10.456       15.841      
+SimRNA_5                                           PZ22_SimRNA_5_refined.pdb                          PZ22_SimRNA_5_solution.pdb                         7.513        10.316       12.274       19.000      
+Xiao_1                                             PZ22_Xiao_1_refined.pdb                            PZ22_Xiao_1_solution.pdb                           6.971        10.214       12.473       21.154      
+Xiao_2                                             PZ22_Xiao_2_refined.pdb                            PZ22_Xiao_2_solution.pdb                           6.665        9.995        12.391       20.531      
+Xiao_3                                             PZ22_Xiao_3_refined.pdb                            PZ22_Xiao_3_solution.pdb                           6.541        8.397        9.929        17.109      
+Xiao_4                                             PZ22_Xiao_4_refined.pdb                            PZ22_Xiao_4_solution.pdb                           7.174        9.237        11.083       19.219      
+Xiao_5                                             PZ22_Xiao_5_refined.pdb                            PZ22_Xiao_5_solution.pdb                           7.040        8.852        11.266       19.410      
+

@@ -1,67 +1,70 @@
 Report for set: PZ18
-Processed 62 / 62 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-18_3dRNA_1_refined.pdb                             18_3dRNA_1_solution.pdb                            SUCCESS         14.274                        
-18_3dRNA_2.pdb                                     18_solution_0.pdb                                  SUCCESS         14.508                        
-18_3dRNA_3.pdb                                     18_solution_0.pdb                                  SUCCESS         12.614                        
-18_3dRNA_4.pdb                                     18_solution_0.pdb                                  SUCCESS         31.947                        
-18_3dRNA_5.pdb                                     18_solution_0.pdb                                  SUCCESS         11.805                        
-18_Chen_1.pdb                                      18_solution_0.pdb                                  SUCCESS         99.46                         
-18_Chen_2.pdb                                      18_solution_0.pdb                                  SUCCESS         70.916                        
-18_Chen_3.pdb                                      18_solution_0.pdb                                  SUCCESS         38.297                        
-18_Chen_4.pdb                                      18_solution_0.pdb                                  SUCCESS         21.613                        
-18_Chen_5.pdb                                      18_solution_0.pdb                                  SUCCESS         13.558                        
-18_Das_1.pdb                                       18_solution_0.pdb                                  SUCCESS         90.198                        
-18_Das_2.pdb                                       18_solution_0.pdb                                  SUCCESS         100.0                         
-18_Das_3.pdb                                       18_solution_0.pdb                                  SUCCESS         88.646                        
-18_Das_4.pdb                                       18_solution_0.pdb                                  SUCCESS         85.091                        
-18_Das_5.pdb                                       18_solution_0.pdb                                  SUCCESS         51.82                         
-18_Ding_1.pdb                                      18_solution_0.pdb                                  SUCCESS         14.079                        
-18_Ding_2.pdb                                      18_solution_0.pdb                                  SUCCESS         13.531                        
-18_Ding_3.pdb                                      18_solution_0.pdb                                  SUCCESS         14.141                        
-18_Ding_4.pdb                                      18_solution_0.pdb                                  SUCCESS         7.335                         
-18_Ding_5.pdb                                      18_solution_0.pdb                                  SUCCESS         13.542                        
-18_Dokholyan_1.pdb                                 18_solution_0.pdb                                  SUCCESS         27.751                        
-18_Dokholyan_2.pdb                                 18_solution_0.pdb                                  SUCCESS         33.713                        
-18_Dokholyan_3.pdb                                 18_solution_0.pdb                                  SUCCESS         41.572                        
-18_Lee_1.pdb                                       18_solution_0.pdb                                  SUCCESS         8.898                         
-18_Lee_2.pdb                                       18_solution_0.pdb                                  SUCCESS         13.167                        
-18_Lee_3.pdb                                       18_solution_0.pdb                                  SUCCESS         6.901                         
-18_Lee_4.pdb                                       18_solution_0.pdb                                  SUCCESS         9.892                         
-18_Lee_5.pdb                                       18_solution_0.pdb                                  SUCCESS         9.156                         
-18_RNAComposer_1.pdb                               18_solution_0.pdb                                  SUCCESS         12.676                        
-18_RNAComposer_2.pdb                               18_solution_0.pdb                                  SUCCESS         12.657                        
-18_RNAComposer_3.pdb                               18_solution_0.pdb                                  SUCCESS         12.562                        
-18_RNAComposer_4.pdb                               18_solution_0.pdb                                  SUCCESS         12.681                        
-18_RNAComposer_5.pdb                               18_solution_0.pdb                                  SUCCESS         13.268                        
-18_RW3D_1.pdb                                      18_solution_0.pdb                                  SUCCESS         15.053                        
-18_RW3D_10.pdb                                     18_solution_0.pdb                                  SUCCESS         19.184                        
-18_RW3D_2.pdb                                      18_solution_0.pdb                                  SUCCESS         19.14                         
-18_RW3D_3.pdb                                      18_solution_0.pdb                                  SUCCESS         16.462                        
-18_RW3D_4.pdb                                      18_solution_0.pdb                                  SUCCESS         19.1                          
-18_RW3D_5.pdb                                      18_solution_0.pdb                                  SUCCESS         15.938                        
-18_RW3D_6.pdb                                      18_solution_0.pdb                                  SUCCESS         19.007                        
-18_RW3D_7.pdb                                      18_solution_0.pdb                                  SUCCESS         19.952                        
-18_RW3D_8.pdb                                      18_solution_0.pdb                                  SUCCESS         12.568                        
-18_RW3D_9.pdb                                      18_solution_0.pdb                                  SUCCESS         11.949                        
-18_simRNA_1.pdb                                    18_solution_0.pdb                                  SUCCESS         7.585                         
-18_simRNA_2.pdb                                    18_solution_0.pdb                                  SUCCESS         30.611                        
-18_simRNA_3.pdb                                    18_solution_0.pdb                                  SUCCESS         8.993                         
-18_YagoubAli_1.pdb                                 18_solution_0.pdb                                  SUCCESS         11.335                        
-PZ18_DasORIGINAL_1.pdb                             18_solution_0.pdb                                  SUCCESS         88.646                        
-PZ18_DasORIGINAL_2.pdb                             18_solution_0.pdb                                  SUCCESS         100.0                         
-PZ18_DasORIGINAL_3.pdb                             18_solution_0.pdb                                  SUCCESS         100.0                         
-PZ18_DasORIGINAL_4.pdb                             18_solution_0.pdb                                  SUCCESS         85.091                        
-PZ18_DasORIGINAL_5.pdb                             18_solution_0.pdb                                  SUCCESS         51.82                         
-PZ18_LeeAS_1.pdb                                   18_solution_0.pdb                                  SUCCESS         8.082                         
-PZ18_LeeAS_2.pdb                                   18_solution_0.pdb                                  SUCCESS         11.916                        
-PZ18_LeeAS_3.pdb                                   18_solution_0.pdb                                  SUCCESS         6.532                         
-PZ18_LeeAS_4.pdb                                   18_solution_0.pdb                                  SUCCESS         9.371                         
-PZ18_LeeAS_5.pdb                                   18_solution_0.pdb                                  SUCCESS         8.974                         
-PZ18_Szachniuk_1.pdb                               18_solution_0.pdb                                  SUCCESS         23.029                        
-PZ18_Szachniuk_2.pdb                               18_solution_0.pdb                                  SUCCESS         23.29                         
-PZ18_Szachniuk_3.pdb                               18_solution_0.pdb                                  SUCCESS         23.509                        
-PZ18_Szachniuk_4.pdb                               18_solution_0.pdb                                  SUCCESS         25.314                        
-PZ18_Szachniuk_5.pdb                               18_solution_0.pdb                                  SUCCESS         23.993                        
+Processed 62 / 62 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNA_1                                            18_3dRNA_1_refined.pdb                             18_3dRNA_1_solution.pdb                            10.929       13.923       15.466       24.217      
+3dRNA_2                                            18_3dRNA_2.pdb                                     18_solution_0.pdb                                  11.365       13.893       15.719       23.217      
+3dRNA_3                                            18_3dRNA_3.pdb                                     18_solution_0.pdb                                  10.441       12.788       13.667       19.354      
+3dRNA_4                                            18_3dRNA_4.pdb                                     18_solution_0.pdb                                  9.677        21.874       34.614       57.670      
+3dRNA_5                                            18_3dRNA_5.pdb                                     18_solution_0.pdb                                  9.694        12.053       12.791       15.637      
+Chen_1                                             18_Chen_1.pdb                                      18_solution_0.pdb                                  22.027       97.004       99.415       100.000     
+Chen_2                                             18_Chen_2.pdb                                      18_solution_0.pdb                                  20.997       54.700       76.838       100.000     
+Chen_3                                             18_Chen_3.pdb                                      18_solution_0.pdb                                  14.246       24.943       41.495       65.230      
+Chen_4                                             18_Chen_4.pdb                                      18_solution_0.pdb                                  13.638       18.716       23.417       61.354      
+Chen_5                                             18_Chen_5.pdb                                      18_solution_0.pdb                                  10.977       13.388       14.690       22.979      
+Das_1                                              18_Das_1.pdb                                       18_solution_0.pdb                                  33.473       85.248       97.730       100.000     
+Das_2                                              18_Das_2.pdb                                       18_solution_0.pdb                                  32.386       99.841       100.000      100.000     
+Das_3                                              18_Das_3.pdb                                       18_solution_0.pdb                                  31.398       79.444       96.048       100.000     
+Das_4                                              18_Das_4.pdb                                       18_solution_0.pdb                                  24.108       60.616       92.196       100.000     
+Das_5                                              18_Das_5.pdb                                       18_solution_0.pdb                                  23.976       47.611       56.147       77.103      
+Ding_1                                             18_Ding_1.pdb                                      18_solution_0.pdb                                  9.039        13.843       15.255       21.994      
+Ding_2                                             18_Ding_2.pdb                                      18_solution_0.pdb                                  7.430        13.446       14.661       19.827      
+Ding_3                                             18_Ding_3.pdb                                      18_solution_0.pdb                                  4.769        13.385       15.322       23.064      
+Ding_4                                             18_Ding_4.pdb                                      18_solution_0.pdb                                  6.619        7.183        7.948        10.885      
+Ding_5                                             18_Ding_5.pdb                                      18_solution_0.pdb                                  7.974        13.223       14.673       21.706      
+Dokholyan_1                                        18_Dokholyan_1.pdb                                 18_solution_0.pdb                                  5.760        20.089       30.069       98.900      
+Dokholyan_2                                        18_Dokholyan_2.pdb                                 18_solution_0.pdb                                  12.014       22.935       36.529       77.973      
+Dokholyan_3                                        18_Dokholyan_3.pdb                                 18_solution_0.pdb                                  5.546        22.862       45.044       86.157      
+Lee_1                                              18_Lee_1.pdb                                       18_solution_0.pdb                                  7.339        9.015        9.642        16.366      
+Lee_2                                              18_Lee_2.pdb                                       18_solution_0.pdb                                  4.975        12.938       14.267       22.009      
+Lee_3                                              18_Lee_3.pdb                                       18_solution_0.pdb                                  2.990        6.848        7.477        9.521       
+Lee_4                                              18_Lee_4.pdb                                       18_solution_0.pdb                                  4.458        8.924        10.718       15.458      
+Lee_5                                              18_Lee_5.pdb                                       18_solution_0.pdb                                  7.360        8.906        9.921        14.267      
+RNAComposer_1                                      18_RNAComposer_1.pdb                               18_solution_0.pdb                                  10.818       12.655       13.735       18.089      
+RNAComposer_2                                      18_RNAComposer_2.pdb                               18_solution_0.pdb                                  10.677       12.361       13.714       18.298      
+RNAComposer_3                                      18_RNAComposer_3.pdb                               18_solution_0.pdb                                  8.571        12.423       13.611       18.375      
+RNAComposer_4                                      18_RNAComposer_4.pdb                               18_solution_0.pdb                                  10.721       12.591       13.740       18.483      
+RNAComposer_5                                      18_RNAComposer_5.pdb                               18_solution_0.pdb                                  10.465       13.049       14.376       22.309      
+RW3D_1                                             18_RW3D_1.pdb                                      18_solution_0.pdb                                  11.450       14.364       16.310       26.622      
+RW3D_10                                            18_RW3D_10.pdb                                     18_solution_0.pdb                                  11.406       16.181       20.786       57.350      
+RW3D_2                                             18_RW3D_2.pdb                                      18_solution_0.pdb                                  12.226       17.066       20.739       63.280      
+RW3D_3                                             18_RW3D_3.pdb                                      18_solution_0.pdb                                  11.723       15.472       17.836       33.344      
+RW3D_4                                             18_RW3D_4.pdb                                      18_solution_0.pdb                                  11.650       16.443       20.695       56.038      
+RW3D_5                                             18_RW3D_5.pdb                                      18_solution_0.pdb                                  11.688       14.937       17.269       31.353      
+RW3D_6                                             18_RW3D_6.pdb                                      18_solution_0.pdb                                  8.877        16.202       20.595       61.892      
+RW3D_7                                             18_RW3D_7.pdb                                      18_solution_0.pdb                                  11.829       16.740       21.618       41.589      
+RW3D_8                                             18_RW3D_8.pdb                                      18_solution_0.pdb                                  10.871       12.558       13.617       18.095      
+RW3D_9                                             18_RW3D_9.pdb                                      18_solution_0.pdb                                  10.288       12.129       12.947       16.469      
+simRNA_1                                           18_simRNA_1.pdb                                    18_solution_0.pdb                                  6.725        7.386        8.218        10.533      
+simRNA_2                                           18_simRNA_2.pdb                                    18_solution_0.pdb                                  15.590       27.963       33.168       48.217      
+simRNA_3                                           18_simRNA_3.pdb                                    18_solution_0.pdb                                  7.654        8.956        9.744        14.670      
+YagoubAli_1                                        18_YagoubAli_1.pdb                                 18_solution_0.pdb                                  9.398        11.644       12.282       15.308      
+DasORIGINAL_1                                      PZ18_DasORIGINAL_1.pdb                             18_solution_0.pdb                                  31.398       79.444       96.048       100.000     
+DasORIGINAL_2                                      PZ18_DasORIGINAL_2.pdb                             18_solution_0.pdb                                  35.458       99.841       100.000      100.000     
+DasORIGINAL_3                                      PZ18_DasORIGINAL_3.pdb                             18_solution_0.pdb                                  32.703       99.841       100.000      100.000     
+DasORIGINAL_4                                      PZ18_DasORIGINAL_4.pdb                             18_solution_0.pdb                                  24.108       60.616       92.196       100.000     
+DasORIGINAL_5                                      PZ18_DasORIGINAL_5.pdb                             18_solution_0.pdb                                  23.976       47.611       56.147       77.103      
+LeeAS_1                                            PZ18_LeeAS_1.pdb                                   18_solution_0.pdb                                  4.125        6.331        8.757        16.163      
+LeeAS_2                                            PZ18_LeeAS_2.pdb                                   18_solution_0.pdb                                  4.234        10.944       12.911       16.181      
+LeeAS_3                                            PZ18_LeeAS_3.pdb                                   18_solution_0.pdb                                  2.402        3.631        7.078        9.300       
+LeeAS_4                                            PZ18_LeeAS_4.pdb                                   18_solution_0.pdb                                  4.440        8.980        10.153       16.228      
+LeeAS_5                                            PZ18_LeeAS_5.pdb                                   18_solution_0.pdb                                  4.343        8.709        9.724        15.419      
+Szachniuk_1                                        PZ18_Szachniuk_1.pdb                               18_solution_0.pdb                                  14.361       20.292       24.952       61.190      
+Szachniuk_2                                        PZ18_Szachniuk_2.pdb                               18_solution_0.pdb                                  14.361       20.374       25.234       62.201      
+Szachniuk_3                                        PZ18_Szachniuk_3.pdb                               18_solution_0.pdb                                  14.158       20.289       25.473       63.269      
+Szachniuk_4                                        PZ18_Szachniuk_4.pdb                               18_solution_0.pdb                                  14.337       21.968       27.428       58.632      
+Szachniuk_5                                        PZ18_Szachniuk_5.pdb                               18_solution_0.pdb                                  14.596       20.480       25.996       62.292      
+

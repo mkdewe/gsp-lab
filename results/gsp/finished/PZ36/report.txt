@@ -1,38 +1,41 @@
 Report for set: PZ36
-Processed 33 / 33 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ36_Bujnicki_1_refined.pdb                        PZ36_Bujnicki_1_solution.pdb                       SUCCESS         19.065                        
-PZ36_Bujnicki_2_refined.pdb                        PZ36_Bujnicki_2_solution.pdb                       SUCCESS         18.357                        
-PZ36_Bujnicki_3_refined.pdb                        PZ36_Bujnicki_3_solution.pdb                       SUCCESS         29.016                        
-PZ36_Bujnicki_4_refined.pdb                        PZ36_Bujnicki_4_solution.pdb                       SUCCESS         15.779                        
-PZ36_Bujnicki_5_refined.pdb                        PZ36_Bujnicki_5_solution.pdb                       SUCCESS         15.191                        
-PZ36_Chen_10_refined.pdb                           PZ36_Chen_10_solution.pdb                          SUCCESS         16.436                        
-PZ36_Chen_1_refined.pdb                            PZ36_Chen_1_solution.pdb                           SUCCESS         36.476                        
-PZ36_Chen_2_refined.pdb                            PZ36_Chen_2_solution.pdb                           SUCCESS         31.64                         
-PZ36_Chen_3_refined.pdb                            PZ36_Chen_3_solution.pdb                           SUCCESS         16.178                        
-PZ36_Chen_4_refined.pdb                            PZ36_Chen_4_solution.pdb                           SUCCESS         36.33                         
-PZ36_Chen_5_refined.pdb                            PZ36_Chen_5_solution.pdb                           SUCCESS         32.343                        
-PZ36_Chen_6_refined.pdb                            PZ36_Chen_6_solution.pdb                           SUCCESS         16.267                        
-PZ36_Chen_7_refined.pdb                            PZ36_Chen_7_solution.pdb                           SUCCESS         31.779                        
-PZ36_Chen_8_refined.pdb                            PZ36_Chen_8_solution.pdb                           SUCCESS         16.787                        
-PZ36_Chen_9_refined.pdb                            PZ36_Chen_9_solution.pdb                           SUCCESS         31.575                        
-PZ36_Ding_1_refined.pdb                            PZ36_Ding_1_solution.pdb                           SUCCESS         13.245                        
-PZ36_Ding_2_refined.pdb                            PZ36_Ding_2_solution.pdb                           SUCCESS         11.026                        
-PZ36_Ding_3_refined.pdb                            PZ36_Ding_3_solution.pdb                           SUCCESS         10.886                        
-PZ36_Ding_4_refined.pdb                            PZ36_Ding_4_solution.pdb                           SUCCESS         10.882                        
-PZ36_Nithin_1_refined.pdb                          PZ36_Nithin_1_solution.pdb                         SUCCESS         10.744                        
-PZ36_Nithin_2_refined.pdb                          PZ36_Nithin_2_solution.pdb                         SUCCESS         10.639                        
-PZ36_Nithin_3_refined.pdb                          PZ36_Nithin_3_solution.pdb                         SUCCESS         10.544                        
-PZ36_Nithin_4_refined.pdb                          PZ36_Nithin_4_solution.pdb                         SUCCESS         10.713                        
-PZ36_Nithin_5_refined.pdb                          PZ36_Nithin_5_solution.pdb                         SUCCESS         10.294                        
-PZ36_RNAComposer_1_refined.pdb                     PZ36_RNAComposer_1_solution.pdb                    SUCCESS         12.725                        
-PZ36_RNAComposer_2_refined.pdb                     PZ36_RNAComposer_2_solution.pdb                    SUCCESS         12.549                        
-PZ36_RNAComposer_3_refined.pdb                     PZ36_RNAComposer_3_solution.pdb                    SUCCESS         12.531                        
-PZ36_RNAComposer_4_refined.pdb                     PZ36_RNAComposer_4_solution.pdb                    SUCCESS         12.464                        
-PZ36_RNAComposer_5_refined.pdb                     PZ36_RNAComposer_5_solution.pdb                    SUCCESS         12.66                         
-PZ36_Szachniuk_1_refined.pdb                       PZ36_Szachniuk_1_solution.pdb                      SUCCESS         15.543                        
-PZ36_Szachniuk_2_refined.pdb                       PZ36_Szachniuk_2_solution.pdb                      SUCCESS         15.928                        
-PZ36_Szachniuk_3_refined.pdb                       PZ36_Szachniuk_3_solution.pdb                      SUCCESS         17.221                        
-PZ36_Szachniuk_4_refined.pdb                       PZ36_Szachniuk_4_solution.pdb                      SUCCESS         19.817                        
+Processed 33 / 33 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bujnicki_1                                         PZ36_Bujnicki_1_refined.pdb                        PZ36_Bujnicki_1_solution.pdb                       12.547       19.503       20.657       23.119      
+Bujnicki_2                                         PZ36_Bujnicki_2_refined.pdb                        PZ36_Bujnicki_2_solution.pdb                       10.370       17.671       19.890       23.293      
+Bujnicki_3                                         PZ36_Bujnicki_3_refined.pdb                        PZ36_Bujnicki_3_solution.pdb                       20.235       30.578       31.439       33.768      
+Bujnicki_4                                         PZ36_Bujnicki_4_refined.pdb                        PZ36_Bujnicki_4_solution.pdb                       8.629        14.239       17.096       25.498      
+Bujnicki_5                                         PZ36_Bujnicki_5_refined.pdb                        PZ36_Bujnicki_5_solution.pdb                       8.243        13.611       16.459       28.621      
+Chen_10                                            PZ36_Chen_10_refined.pdb                           PZ36_Chen_10_solution.pdb                          9.606        15.797       17.809       20.992      
+Chen_1                                             PZ36_Chen_1_refined.pdb                            PZ36_Chen_1_solution.pdb                           21.396       33.914       39.522       54.944      
+Chen_2                                             PZ36_Chen_2_refined.pdb                            PZ36_Chen_2_solution.pdb                           20.919       31.488       34.282       45.201      
+Chen_3                                             PZ36_Chen_3_refined.pdb                            PZ36_Chen_3_solution.pdb                           9.608        15.565       17.529       20.863      
+Chen_4                                             PZ36_Chen_4_refined.pdb                            PZ36_Chen_4_solution.pdb                           21.535       34.008       39.363       55.106      
+Chen_5                                             PZ36_Chen_5_refined.pdb                            PZ36_Chen_5_solution.pdb                           21.149       31.550       35.044       47.301      
+Chen_6                                             PZ36_Chen_6_refined.pdb                            PZ36_Chen_6_solution.pdb                           9.511        15.668       17.626       21.235      
+Chen_7                                             PZ36_Chen_7_refined.pdb                            PZ36_Chen_7_solution.pdb                           21.423       31.438       34.433       45.068      
+Chen_8                                             PZ36_Chen_8_refined.pdb                            PZ36_Chen_8_solution.pdb                           9.673        16.434       18.189       21.757      
+Chen_9                                             PZ36_Chen_9_refined.pdb                            PZ36_Chen_9_solution.pdb                           20.966       31.395       34.212       44.179      
+Ding_1                                             PZ36_Ding_1_refined.pdb                            PZ36_Ding_1_solution.pdb                           5.523        11.084       14.351       22.049      
+Ding_2                                             PZ36_Ding_2_refined.pdb                            PZ36_Ding_2_solution.pdb                           5.563        9.538        11.947       18.095      
+Ding_3                                             PZ36_Ding_3_refined.pdb                            PZ36_Ding_3_solution.pdb                           5.144        9.137        11.795       18.948      
+Ding_4                                             PZ36_Ding_4_refined.pdb                            PZ36_Ding_4_solution.pdb                           5.906        9.573        11.791       17.711      
+Nithin_1                                           PZ36_Nithin_1_refined.pdb                          PZ36_Nithin_1_solution.pdb                         6.304        9.679        11.641       18.968      
+Nithin_2                                           PZ36_Nithin_2_refined.pdb                          PZ36_Nithin_2_solution.pdb                         6.262        9.617        11.528       18.402      
+Nithin_3                                           PZ36_Nithin_3_refined.pdb                          PZ36_Nithin_3_solution.pdb                         6.324        9.454        11.425       18.546      
+Nithin_4                                           PZ36_Nithin_4_refined.pdb                          PZ36_Nithin_4_solution.pdb                         6.195        9.553        11.608       18.606      
+Nithin_5                                           PZ36_Nithin_5_refined.pdb                          PZ36_Nithin_5_solution.pdb                         6.676        9.696        11.154       17.647      
+RNAComposer_1                                      PZ36_RNAComposer_1_refined.pdb                     PZ36_RNAComposer_1_solution.pdb                    8.109        12.804       13.788       16.950      
+RNAComposer_2                                      PZ36_RNAComposer_2_refined.pdb                     PZ36_RNAComposer_2_solution.pdb                    7.808        12.431       13.597       16.832      
+RNAComposer_3                                      PZ36_RNAComposer_3_refined.pdb                     PZ36_RNAComposer_3_solution.pdb                    7.293        12.396       13.578       17.266      
+RNAComposer_4                                      PZ36_RNAComposer_4_refined.pdb                     PZ36_RNAComposer_4_solution.pdb                    7.824        12.466       13.505       16.697      
+RNAComposer_5                                      PZ36_RNAComposer_5_refined.pdb                     PZ36_RNAComposer_5_solution.pdb                    9.673        12.953       13.717       16.668      
+Szachniuk_1                                        PZ36_Szachniuk_1_refined.pdb                       PZ36_Szachniuk_1_solution.pdb                      9.376        14.934       16.841       21.579      
+Szachniuk_2                                        PZ36_Szachniuk_2_refined.pdb                       PZ36_Szachniuk_2_solution.pdb                      9.428        15.116       17.258       21.254      
+Szachniuk_3                                        PZ36_Szachniuk_3_refined.pdb                       PZ36_Szachniuk_3_solution.pdb                      9.889        16.878       18.659       22.526      
+Szachniuk_4                                        PZ36_Szachniuk_4_refined.pdb                       PZ36_Szachniuk_4_solution.pdb                      9.668        18.762       21.471       28.403      
+

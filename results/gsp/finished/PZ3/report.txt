@@ -1,17 +1,20 @@
 Report for set: PZ3
-Processed 12 / 12 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-3_bujnicki_1_refined.pdb                           3_bujnicki_1_solution.pdb                          SUCCESS         30.622                        
-3_bujnicki_2_refined.pdb                           3_bujnicki_2_solution.pdb                          SUCCESS         28.616                        
-3_chen_1_refined.pdb                               3_chen_1_solution.pdb                              SUCCESS         42.273                        
-3_das_1_refined.pdb                                3_das_1_solution.pdb                               SUCCESS         28.328                        
-3_das_2_refined.pdb                                3_das_2_solution.pdb                               SUCCESS         29.76                         
-3_das_3_refined.pdb                                3_das_3_solution.pdb                               SUCCESS         29.035                        
-3_das_4_refined.pdb                                3_das_4_solution.pdb                               SUCCESS         30.01                         
-3_das_5_refined.pdb                                3_das_5_solution.pdb                               SUCCESS         29.092                        
-3_dokholyan_1_refined.pdb                          3_dokholyan_1_solution.pdb                         SUCCESS         20.314                        
-3_dokholyan_2_refined.pdb                          3_dokholyan_2_solution.pdb                         SUCCESS         22.779                        
-3_major_1_refined.pdb                              3_major_1_solution.pdb                             SUCCESS         7.341                         
-3_major_2_refined.pdb                              3_major_2_solution.pdb                             SUCCESS         29.834                        
+Processed 12 / 12 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+bujnicki_1                                         3_bujnicki_1_refined.pdb                           3_bujnicki_1_solution.pdb                          11.694       29.068       33.179       45.723      
+bujnicki_2                                         3_bujnicki_2_refined.pdb                           3_bujnicki_2_solution.pdb                          10.480       29.289       31.006       35.070      
+chen_1                                             3_chen_1_refined.pdb                               3_chen_1_solution.pdb                              10.248       29.663       45.803       98.482      
+das_1                                              3_das_1_refined.pdb                                3_das_1_solution.pdb                               12.188       25.678       30.694       35.988      
+das_2                                              3_das_2_refined.pdb                                3_das_2_solution.pdb                               13.774       29.815       32.246       37.818      
+das_3                                              3_das_3_refined.pdb                                3_das_3_solution.pdb                               13.217       27.392       31.460       36.480      
+das_4                                              3_das_4_refined.pdb                                3_das_4_solution.pdb                               11.139       30.173       32.516       39.096      
+das_5                                              3_das_5_refined.pdb                                3_das_5_solution.pdb                               14.250       29.403       31.521       36.967      
+dokholyan_1                                        3_dokholyan_1_refined.pdb                          3_dokholyan_1_solution.pdb                         10.230       17.186       22.011       36.519      
+dokholyan_2                                        3_dokholyan_2_refined.pdb                          3_dokholyan_2_solution.pdb                         9.467        19.488       24.681       54.200      
+major_1                                            3_major_1_refined.pdb                              3_major_1_solution.pdb                             4.866        7.114        7.954        11.047      
+major_2                                            3_major_2_refined.pdb                              3_major_2_solution.pdb                             8.377        22.016       32.326       40.586      
+

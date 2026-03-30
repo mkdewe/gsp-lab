@@ -1,0 +1,30 @@
+Report for set: PZ5
+Processed 25 / 25 models (missing solution for 0 models)
+========================================================================================================================
+Model                                              Solution                                           Status          Details                       
+------------------------------------------------------------------------------------------------------------------------
+5_adamiak_1_refined.pdb                            5_adamiak_1_solution.pdb                           SUCCESS         12.599                        
+5_bujnicki_1_refined.pdb                           5_bujnicki_1_solution.pdb                          SUCCESS         8.901                         
+5_bujnicki_2_refined.pdb                           5_bujnicki_2_solution.pdb                          SUCCESS         11.402                        
+5_bujnicki_3_refined.pdb                           5_bujnicki_3_solution.pdb                          SUCCESS         11.87                         
+5_bujnicki_4_refined.pdb                           5_bujnicki_4_solution.pdb                          SUCCESS         11.502                        
+5_bujnicki_5_refined.pdb                           5_bujnicki_5_solution.pdb                          SUCCESS         10.113                        
+5_chen_1_refined.pdb                               5_chen_1_solution.pdb                              SUCCESS         14.158                        
+5_chen_2_refined.pdb                               5_chen_2_solution.pdb                              SUCCESS         13.944                        
+5_chen_3_refined.pdb                               5_chen_3_solution.pdb                              SUCCESS         13.091                        
+5_chen_4_refined.pdb                               5_chen_4_solution.pdb                              SUCCESS         13.756                        
+5_chen_5_refined.pdb                               5_chen_5_solution.pdb                              SUCCESS         14.024                        
+5_chen_6_refined.pdb                               5_chen_6_solution.pdb                              SUCCESS         13.381                        
+5_chen_7_refined.pdb                               5_chen_7_solution.pdb                              SUCCESS         13.67                         
+5_das_1_refined.pdb                                5_das_1_solution.pdb                               SUCCESS         28.025                        
+5_das_2_refined.pdb                                5_das_2_solution.pdb                               SUCCESS         33.283                        
+5_dokholyan_1_refined.pdb                          5_dokholyan_1_solution.pdb                         SUCCESS         11.336                        
+5_dokholyan_2_refined.pdb                          5_dokholyan_2_solution.pdb                         SUCCESS         10.723                        
+5_dokholyan_3_refined.pdb                          5_dokholyan_3_solution.pdb                         SUCCESS         10.519                        
+5_dokholyan_4_refined.pdb                          5_dokholyan_4_solution.pdb                         SUCCESS         10.723                        
+5_dokholyan_5_refined.pdb                          5_dokholyan_5_solution.pdb                         SUCCESS         11.973                        
+5_dokholyan_6_refined.pdb                          5_dokholyan_6_solution.pdb                         SUCCESS         9.185                         
+5_dokholyan_7_refined.pdb                          5_dokholyan_7_solution.pdb                         SUCCESS         9.606                         
+5_dokholyan_8_refined.pdb                          5_dokholyan_8_solution.pdb                         SUCCESS         10.53                         
+5_xiao_1_refined.pdb                               5_xiao_1_solution.pdb                              SUCCESS         8.061                         
+5_xiao_2_refined.pdb                               5_xiao_2_solution.pdb                              SUCCESS         7.921                         

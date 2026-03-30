@@ -1,121 +1,2736 @@
 ========================================================================================================================
-OVERALL DATA ANALYSIS FOR 65 TARGETS
+DETAILED MISSING DATA ANALYSIS
 ========================================================================================================================
 
-📊 OVERALL STATISTICS:
-   Targets with gGSP data: 65/65
-   Total number of gGSP models: 4831
+Total targets: 61
+Targets with correlation results: 61
+Missing targets: []
+
 
 ================================================================================
-ANALYSIS FOR METRIC: RMSD
+METRIC: Clash_Score
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: DI_all
+METRIC: DI_all
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: INF_all
+METRIC: INF_all
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: INF_wc
+METRIC: INF_nwc
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: INF_nwc
+METRIC: INF_stacking
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: INF_stacking
+METRIC: INF_wc
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: Clash_Score
+METRIC: P-value
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: P-value
+METRIC: RMSD
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: mcq
+METRIC: TM-score
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
 
 ================================================================================
-ANALYSIS FOR METRIC: TM-score
+METRIC: lDDT
 ================================================================================
 
-📈 SUMMARY:
-   Targets with complete data: 65/65
-   Targets with partial data: 0/65
-   Targets missing file: 0/65
-   Total number of missing models: 0
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
 
-========================================================================================================================
-SUMMARY FROM correlations.csv
-========================================================================================================================
-✅ RMSD: 65 targets, Spearman=0.697, Pearson=0.678
-✅ DI_all: 65 targets, Spearman=0.753, Pearson=0.660
-✅ INF_all: 65 targets, Spearman=0.600, Pearson=0.571
-✅ INF_wc: 65 targets, Spearman=0.512, Pearson=0.516
-✅ INF_nwc: 65 targets, Spearman=0.264, Pearson=0.280
-✅ INF_stacking: 65 targets, Spearman=0.556, Pearson=0.551
-✅ Clash_Score: 65 targets, Spearman=0.149, Pearson=0.214
-✅ P-value: 65 targets, Spearman=0.655, Pearson=0.379
-✅ mcq: 65 targets, Spearman=0.385, Pearson=0.361
-✅ TM-score: 65 targets, Spearman=0.587, Pearson=0.624
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE
+
+================================================================================
+METRIC: mcq
+================================================================================
+
+CR1107:
+  gGSP models: 180
+  Status: COMPLETE
+
+CR1108:
+  gGSP models: 163
+  Status: COMPLETE
+
+CR1116:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1117:
+  gGSP models: 153
+  Status: COMPLETE
+
+CR1126:
+  gGSP models: 140
+  Status: COMPLETE
+
+CR1128:
+  gGSP models: 137
+  Status: COMPLETE
+
+CR1136:
+  gGSP models: 158
+  Status: COMPLETE
+
+CR1138:
+  gGSP models: 130
+  Status: COMPLETE
+
+CR1149:
+  gGSP models: 138
+  Status: COMPLETE
+
+CR1156:
+  gGSP models: 145
+  Status: COMPLETE
+
+CR1189:
+  gGSP models: 136
+  Status: COMPLETE
+
+CR1190:
+  gGSP models: 132
+  Status: COMPLETE
+
+PZ1:
+  gGSP models: 14
+  Status: COMPLETE
+
+PZ10:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ10tBox:
+  gGSP models: 26
+  Status: COMPLETE
+
+PZ11:
+  gGSP models: 54
+  Status: COMPLETE
+
+PZ11NMR:
+  gGSP models: 53
+  Status: COMPLETE
+
+PZ12:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ13:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ14Bound:
+  gGSP models: 64
+  Status: COMPLETE
+
+PZ14Free:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ15:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15noend:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ15reconstruct:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ16a:
+  gGSP models: 83
+  Status: COMPLETE
+
+PZ16b:
+  gGSP models: 92
+  Status: COMPLETE
+
+PZ17:
+  gGSP models: 107
+  Status: COMPLETE
+
+PZ18:
+  gGSP models: 62
+  Status: COMPLETE
+
+PZ19:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ2:
+  gGSP models: 13
+  Status: COMPLETE
+
+PZ20:
+  gGSP models: 55
+  Status: COMPLETE
+
+PZ21:
+  gGSP models: 59
+  Status: COMPLETE
+
+PZ22:
+  gGSP models: 45
+  Status: COMPLETE
+
+PZ22Dimer:
+  gGSP models: 40
+  Status: COMPLETE
+
+PZ23:
+  gGSP models: 35
+  Status: COMPLETE
+
+PZ24:
+  gGSP models: 90
+  Status: COMPLETE
+
+PZ25:
+  gGSP models: 47
+  Status: COMPLETE
+
+PZ26:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ26tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ27tBox:
+  gGSP models: 67
+  Status: COMPLETE
+
+PZ28:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ28tBox:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ29:
+  gGSP models: 36
+  Status: COMPLETE
+
+PZ3:
+  gGSP models: 12
+  Status: COMPLETE
+
+PZ30:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ31:
+  gGSP models: 72
+  Status: COMPLETE
+
+PZ32:
+  gGSP models: 106
+  Status: COMPLETE
+
+PZ33:
+  gGSP models: 100
+  Status: COMPLETE
+
+PZ34:
+  gGSP models: 101
+  Status: COMPLETE
+
+PZ35:
+  gGSP models: 51
+  Status: COMPLETE
+
+PZ36:
+  gGSP models: 33
+  Status: COMPLETE
+
+PZ37:
+  gGSP models: 85
+  Status: COMPLETE
+
+PZ38:
+  gGSP models: 74
+  Status: COMPLETE
+
+PZ39:
+  gGSP models: 105
+  Status: COMPLETE
+
+PZ4:
+  gGSP models: 30
+  Status: COMPLETE
+
+PZ5:
+  gGSP models: 25
+  Status: COMPLETE
+
+PZ6:
+  gGSP models: 34
+  Status: COMPLETE
+
+PZ7:
+  gGSP models: 52
+  Status: COMPLETE
+
+PZ8:
+  gGSP models: 42
+  Status: COMPLETE
+
+PZ9:
+  gGSP models: 34
+  Status: COMPLETE

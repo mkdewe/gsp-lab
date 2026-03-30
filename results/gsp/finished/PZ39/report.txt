@@ -1,110 +1,113 @@
 Report for set: PZ39
-Processed 105 / 105 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ39_Chen_10_refined.pdb                           PZ39_Chen_10_solution.pdb                          SUCCESS         18.367                        
-PZ39_Chen_1_refined.pdb                            PZ39_Chen_1_solution.pdb                           SUCCESS         91.43                         
-PZ39_Chen_2_refined.pdb                            PZ39_Chen_2_solution.pdb                           SUCCESS         69.931                        
-PZ39_Chen_3_refined.pdb                            PZ39_Chen_3_solution.pdb                           SUCCESS         55.455                        
-PZ39_Chen_4_refined.pdb                            PZ39_Chen_4_solution.pdb                           SUCCESS         28.812                        
-PZ39_Chen_5_refined.pdb                            PZ39_Chen_5_solution.pdb                           SUCCESS         18.223                        
-PZ39_Chen_6_refined.pdb                            PZ39_Chen_6_solution.pdb                           SUCCESS         19.131                        
-PZ39_Chen_7_refined.pdb                            PZ39_Chen_7_solution.pdb                           SUCCESS         18.221                        
-PZ39_Chen_8_refined.pdb                            PZ39_Chen_8_solution.pdb                           SUCCESS         18.508                        
-PZ39_Chen_9_refined.pdb                            PZ39_Chen_9_solution.pdb                           SUCCESS         21.873                        
-PZ39_DasEMinfo_1_refined.pdb                       PZ39_DasEMinfo_1_solution.pdb                      SUCCESS         17.825                        
-PZ39_DasEMinfo_2_refined.pdb                       PZ39_DasEMinfo_2_solution.pdb                      SUCCESS         18.352                        
-PZ39_DasEMinfo_3_refined.pdb                       PZ39_DasEMinfo_3_solution.pdb                      SUCCESS         21.691                        
-PZ39_DasEMinfo_4_refined.pdb                       PZ39_DasEMinfo_4_solution.pdb                      SUCCESS         18.96                         
-PZ39_DasEMinfo_5_refined.pdb                       PZ39_DasEMinfo_5_solution.pdb                      SUCCESS         20.336                        
-PZ39_DasSWM_1_refined.pdb                          PZ39_DasSWM_1_solution.pdb                         SUCCESS         49.3                          
-PZ39_DasSWM_2_refined.pdb                          PZ39_DasSWM_2_solution.pdb                         SUCCESS         56.498                        
-PZ39_DasSWM_3_refined.pdb                          PZ39_DasSWM_3_solution.pdb                         SUCCESS         52.428                        
-PZ39_DasSWM_4_refined.pdb                          PZ39_DasSWM_4_solution.pdb                         SUCCESS         47.039                        
-PZ39_DasSWM_5_refined.pdb                          PZ39_DasSWM_5_solution.pdb                         SUCCESS         85.252                        
-PZ39_Dfold_1_refined.pdb                           PZ39_Dfold_1_solution.pdb                          SUCCESS         12.766                        
-PZ39_Dfold_2_refined.pdb                           PZ39_Dfold_2_solution.pdb                          SUCCESS         8.161                         
-PZ39_Dfold_3_refined.pdb                           PZ39_Dfold_3_solution.pdb                          SUCCESS         12.158                        
-PZ39_Dfold_4_refined.pdb                           PZ39_Dfold_4_solution.pdb                          SUCCESS         8.24                          
-PZ39_Dfold_5_refined.pdb                           PZ39_Dfold_5_solution.pdb                          SUCCESS         6.281                         
-PZ39_Ding_1_refined.pdb                            PZ39_Ding_1_solution.pdb                           SUCCESS         30.781                        
-PZ39_Ding_2_refined.pdb                            PZ39_Ding_2_solution.pdb                           SUCCESS         22.762                        
-PZ39_Ding_3_refined.pdb                            PZ39_Ding_3_solution.pdb                           SUCCESS         20.826                        
-PZ39_Ding_4_refined.pdb                            PZ39_Ding_4_solution.pdb                           SUCCESS         55.96                         
-PZ39_Ding_5_refined.pdb                            PZ39_Ding_5_solution.pdb                           SUCCESS         18.844                        
-PZ39_Ding_6_refined.pdb                            PZ39_Ding_6_solution.pdb                           SUCCESS         22.143                        
-PZ39_Ding_7_refined.pdb                            PZ39_Ding_7_solution.pdb                           SUCCESS         44.091                        
-PZ39_Ding_8_refined.pdb                            PZ39_Ding_8_solution.pdb                           SUCCESS         34.549                        
-PZ39_Dokholyan_1_refined.pdb                       PZ39_Dokholyan_1_solution.pdb                      SUCCESS         21.359                        
-PZ39_Dokholyan_2_refined.pdb                       PZ39_Dokholyan_2_solution.pdb                      SUCCESS         46.765                        
-PZ39_Dokholyan_3_refined.pdb                       PZ39_Dokholyan_3_solution.pdb                      SUCCESS         18.206                        
-PZ39_Dokholyan_4_refined.pdb                       PZ39_Dokholyan_4_solution.pdb                      SUCCESS         6.812                         
-PZ39_Dokholyan_5_refined.pdb                       PZ39_Dokholyan_5_solution.pdb                      SUCCESS         7.502                         
-PZ39_GeneSilico1_1_refined.pdb                     PZ39_GeneSilico1_1_solution.pdb                    SUCCESS         21.693                        
-PZ39_GeneSilico1_2_refined.pdb                     PZ39_GeneSilico1_2_solution.pdb                    SUCCESS         51.873                        
-PZ39_GeneSilico1_3_refined.pdb                     PZ39_GeneSilico1_3_solution.pdb                    SUCCESS         17.891                        
-PZ39_GeneSilico1_4_refined.pdb                     PZ39_GeneSilico1_4_solution.pdb                    SUCCESS         30.886                        
-PZ39_GeneSilico1_5_refined.pdb                     PZ39_GeneSilico1_5_solution.pdb                    SUCCESS         21.672                        
-PZ39_GeneSilico2_1_refined.pdb                     PZ39_GeneSilico2_1_solution.pdb                    SUCCESS         41.227                        
-PZ39_GeneSilico2_2_refined.pdb                     PZ39_GeneSilico2_2_solution.pdb                    SUCCESS         66.035                        
-PZ39_GeneSilico2_3_refined.pdb                     PZ39_GeneSilico2_3_solution.pdb                    SUCCESS         37.442                        
-PZ39_GeneSilico2_4_refined.pdb                     PZ39_GeneSilico2_4_solution.pdb                    SUCCESS         60.259                        
-PZ39_GeneSilico2_5_refined.pdb                     PZ39_GeneSilico2_5_solution.pdb                    SUCCESS         38.878                        
-PZ39_GeneSilico3_1_refined.pdb                     PZ39_GeneSilico3_1_solution.pdb                    SUCCESS         59.174                        
-PZ39_GeneSilico4_1_refined.pdb                     PZ39_GeneSilico4_1_solution.pdb                    SUCCESS         95.566                        
-PZ39_Perez_10_refined.pdb                          PZ39_Perez_10_solution.pdb                         SUCCESS         20.499                        
-PZ39_Perez_1_refined.pdb                           PZ39_Perez_1_solution.pdb                          SUCCESS         14.761                        
-PZ39_Perez_2_refined.pdb                           PZ39_Perez_2_solution.pdb                          SUCCESS         17.27                         
-PZ39_Perez_3_refined.pdb                           PZ39_Perez_3_solution.pdb                          SUCCESS         28.285                        
-PZ39_Perez_4_refined.pdb                           PZ39_Perez_4_solution.pdb                          SUCCESS         16.592                        
-PZ39_Perez_5_refined.pdb                           PZ39_Perez_5_solution.pdb                          SUCCESS         23.196                        
-PZ39_Perez_6_refined.pdb                           PZ39_Perez_6_solution.pdb                          SUCCESS         17.506                        
-PZ39_Perez_7_refined.pdb                           PZ39_Perez_7_solution.pdb                          SUCCESS         18.6                          
-PZ39_Perez_8_refined.pdb                           PZ39_Perez_8_solution.pdb                          SUCCESS         21.908                        
-PZ39_Perez_9_refined.pdb                           PZ39_Perez_9_solution.pdb                          SUCCESS         18.114                        
-PZ39_RNAComposer_1_refined.pdb                     PZ39_RNAComposer_1_solution.pdb                    SUCCESS         21.068                        
-PZ39_RNAComposer_2_refined.pdb                     PZ39_RNAComposer_2_solution.pdb                    SUCCESS         18.799                        
-PZ39_RNAComposer_3_refined.pdb                     PZ39_RNAComposer_3_solution.pdb                    SUCCESS         21.721                        
-PZ39_RNAComposer_4_refined.pdb                     PZ39_RNAComposer_4_solution.pdb                    SUCCESS         51.415                        
-PZ39_RNAComposer_5_refined.pdb                     PZ39_RNAComposer_5_solution.pdb                    SUCCESS         18.857                        
-PZ39_SimRNA_1_refined.pdb                          PZ39_SimRNA_1_solution.pdb                         SUCCESS         21.464                        
-PZ39_SimRNA_2_refined.pdb                          PZ39_SimRNA_2_solution.pdb                         SUCCESS         48.0                          
-PZ39_SimRNA_3_refined.pdb                          PZ39_SimRNA_3_solution.pdb                         SUCCESS         82.871                        
-PZ39_SimRNA_4_refined.pdb                          PZ39_SimRNA_4_solution.pdb                         SUCCESS         20.942                        
-PZ39_SimRNA_5_refined.pdb                          PZ39_SimRNA_5_solution.pdb                         SUCCESS         22.0                          
-PZ39_SoutheRNA_10_refined.pdb                      PZ39_SoutheRNA_10_solution.pdb                     SUCCESS         44.723                        
-PZ39_SoutheRNA_1_refined.pdb                       PZ39_SoutheRNA_1_solution.pdb                      SUCCESS         21.336                        
-PZ39_SoutheRNA_2_refined.pdb                       PZ39_SoutheRNA_2_solution.pdb                      SUCCESS         18.005                        
-PZ39_SoutheRNA_3_refined.pdb                       PZ39_SoutheRNA_3_solution.pdb                      SUCCESS         18.195                        
-PZ39_SoutheRNA_4_refined.pdb                       PZ39_SoutheRNA_4_solution.pdb                      SUCCESS         21.449                        
-PZ39_SoutheRNA_5_refined.pdb                       PZ39_SoutheRNA_5_solution.pdb                      SUCCESS         68.581                        
-PZ39_SoutheRNA_6_refined.pdb                       PZ39_SoutheRNA_6_solution.pdb                      SUCCESS         20.865                        
-PZ39_SoutheRNA_7_refined.pdb                       PZ39_SoutheRNA_7_solution.pdb                      SUCCESS         22.755                        
-PZ39_SoutheRNA_8_refined.pdb                       PZ39_SoutheRNA_8_solution.pdb                      SUCCESS         19.06                         
-PZ39_SoutheRNA_9_refined.pdb                       PZ39_SoutheRNA_9_solution.pdb                      SUCCESS         20.559                        
-PZ39_Szachniuk_1_refined.pdb                       PZ39_Szachniuk_1_solution.pdb                      SUCCESS         57.133                        
-PZ39_Szachniuk_2_refined.pdb                       PZ39_Szachniuk_2_solution.pdb                      SUCCESS         27.352                        
-PZ39_Szachniuk_3_refined.pdb                       PZ39_Szachniuk_3_solution.pdb                      SUCCESS         25.693                        
-PZ39_Szachniuk_4_refined.pdb                       PZ39_Szachniuk_4_solution.pdb                      SUCCESS         18.831                        
-PZ39_Szachniuk_5_refined.pdb                       PZ39_Szachniuk_5_solution.pdb                      SUCCESS         20.929                        
-PZ39_Xiao_1_refined.pdb                            PZ39_Xiao_1_solution.pdb                           SUCCESS         18.033                        
-PZ39_Xiao_2_refined.pdb                            PZ39_Xiao_2_solution.pdb                           SUCCESS         18.369                        
-PZ39_Xiao_3_refined.pdb                            PZ39_Xiao_3_solution.pdb                           SUCCESS         17.664                        
-PZ39_Xiao_4_refined.pdb                            PZ39_Xiao_4_solution.pdb                           SUCCESS         18.527                        
-PZ39_Xiao_5_refined.pdb                            PZ39_Xiao_5_solution.pdb                           SUCCESS         18.33                         
-PZ39_Xiong_1_refined.pdb                           PZ39_Xiong_1_solution.pdb                          SUCCESS         18.739                        
-PZ39_Xiong_2_refined.pdb                           PZ39_Xiong_2_solution.pdb                          SUCCESS         18.945                        
-PZ39_Xiong_3_refined.pdb                           PZ39_Xiong_3_solution.pdb                          SUCCESS         19.103                        
-PZ39_Xiong_4_refined.pdb                           PZ39_Xiong_4_solution.pdb                          SUCCESS         27.373                        
-PZ39_Xiong_5_refined.pdb                           PZ39_Xiong_5_solution.pdb                          SUCCESS         27.793                        
-PZ39_YangServer_1_refined.pdb                      PZ39_YangServer_1_solution.pdb                     SUCCESS         21.693                        
-PZ39_YangServer_2_refined.pdb                      PZ39_YangServer_2_solution.pdb                     SUCCESS         18.167                        
-PZ39_YangServer_3_refined.pdb                      PZ39_YangServer_3_solution.pdb                     SUCCESS         20.608                        
-PZ39_YangServer_4_refined.pdb                      PZ39_YangServer_4_solution.pdb                     SUCCESS         16.283                        
-PZ39_YangServer_5_refined.pdb                      PZ39_YangServer_5_solution.pdb                     SUCCESS         15.389                        
-PZ39_Zhou_1_refined.pdb                            PZ39_Zhou_1_solution.pdb                           SUCCESS         19.214                        
-PZ39_Zhou_2_refined.pdb                            PZ39_Zhou_2_solution.pdb                           SUCCESS         20.516                        
-PZ39_Zhou_3_refined.pdb                            PZ39_Zhou_3_solution.pdb                           SUCCESS         18.72                         
-PZ39_Zhou_4_refined.pdb                            PZ39_Zhou_4_solution.pdb                           SUCCESS         20.182                        
-PZ39_Zhou_5_refined.pdb                            PZ39_Zhou_5_solution.pdb                           SUCCESS         20.291                        
+Processed 105 / 105 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Chen_10                                            PZ39_Chen_10_refined.pdb                           PZ39_Chen_10_solution.pdb                          13.357       17.882       19.900       29.903      
+Chen_1                                             PZ39_Chen_1_refined.pdb                            PZ39_Chen_1_solution.pdb                           20.404       79.033       90.714       98.947      
+Chen_2                                             PZ39_Chen_2_refined.pdb                            PZ39_Chen_2_solution.pdb                           18.819       44.679       75.771       98.868      
+Chen_3                                             PZ39_Chen_3_refined.pdb                            PZ39_Chen_3_solution.pdb                           18.005       42.099       60.086       99.304      
+Chen_4                                             PZ39_Chen_4_refined.pdb                            PZ39_Chen_4_solution.pdb                           16.855       26.133       31.218       72.519      
+Chen_5                                             PZ39_Chen_5_refined.pdb                            PZ39_Chen_5_solution.pdb                           11.164       16.270       19.745       30.624      
+Chen_6                                             PZ39_Chen_6_refined.pdb                            PZ39_Chen_6_solution.pdb                           11.777       17.212       20.728       30.195      
+Chen_7                                             PZ39_Chen_7_refined.pdb                            PZ39_Chen_7_solution.pdb                           13.057       17.706       19.743       28.699      
+Chen_8                                             PZ39_Chen_8_refined.pdb                            PZ39_Chen_8_solution.pdb                           13.315       18.221       20.053       29.350      
+Chen_9                                             PZ39_Chen_9_refined.pdb                            PZ39_Chen_9_solution.pdb                           15.927       21.628       23.700       32.603      
+DasEMinfo_1                                        PZ39_DasEMinfo_1_refined.pdb                       PZ39_DasEMinfo_1_solution.pdb                      10.550       16.428       19.313       34.853      
+DasEMinfo_2                                        PZ39_DasEMinfo_2_refined.pdb                       PZ39_DasEMinfo_2_solution.pdb                      10.888       16.214       19.884       38.109      
+DasEMinfo_3                                        PZ39_DasEMinfo_3_refined.pdb                       PZ39_DasEMinfo_3_solution.pdb                      16.291       21.452       23.503       33.090      
+DasEMinfo_4                                        PZ39_DasEMinfo_4_refined.pdb                       PZ39_DasEMinfo_4_solution.pdb                      12.911       17.871       20.543       31.529      
+DasEMinfo_5                                        PZ39_DasEMinfo_5_refined.pdb                       PZ39_DasEMinfo_5_solution.pdb                      11.872       17.815       22.034       29.798      
+DasSWM_1                                           PZ39_DasSWM_1_refined.pdb                          PZ39_DasSWM_1_solution.pdb                         22.561       37.694       53.417       91.250      
+DasSWM_2                                           PZ39_DasSWM_2_refined.pdb                          PZ39_DasSWM_2_solution.pdb                         21.403       41.069       61.215       99.037      
+DasSWM_3                                           PZ39_DasSWM_3_refined.pdb                          PZ39_DasSWM_3_solution.pdb                         22.786       39.773       56.806       99.010      
+DasSWM_4                                           PZ39_DasSWM_4_refined.pdb                          PZ39_DasSWM_4_solution.pdb                         19.986       36.112       50.967       92.468      
+DasSWM_5                                           PZ39_DasSWM_5_refined.pdb                          PZ39_DasSWM_5_solution.pdb                         28.163       63.841       92.371       99.070      
+Dfold_1                                            PZ39_Dfold_1_refined.pdb                           PZ39_Dfold_1_solution.pdb                          8.931        12.600       13.832       17.400      
+Dfold_2                                            PZ39_Dfold_2_refined.pdb                           PZ39_Dfold_2_solution.pdb                          4.273        6.711        8.842        11.904      
+Dfold_3                                            PZ39_Dfold_3_refined.pdb                           PZ39_Dfold_3_solution.pdb                          7.161        11.058       13.173       18.682      
+Dfold_4                                            PZ39_Dfold_4_refined.pdb                           PZ39_Dfold_4_solution.pdb                          4.194        7.110        8.928        15.544      
+Dfold_5                                            PZ39_Dfold_5_refined.pdb                           PZ39_Dfold_5_solution.pdb                          3.851        5.563        6.806        10.587      
+Ding_1                                             PZ39_Ding_1_refined.pdb                            PZ39_Ding_1_solution.pdb                           12.341       22.737       33.352       99.142      
+Ding_2                                             PZ39_Ding_2_refined.pdb                            PZ39_Ding_2_solution.pdb                           12.178       20.789       24.662       49.005      
+Ding_3                                             PZ39_Ding_3_refined.pdb                            PZ39_Ding_3_solution.pdb                           12.951       20.355       22.566       31.042      
+Ding_4                                             PZ39_Ding_4_refined.pdb                            PZ39_Ding_4_solution.pdb                           14.134       51.334       60.633       94.528      
+Ding_5                                             PZ39_Ding_5_refined.pdb                            PZ39_Ding_5_solution.pdb                           12.424       17.625       20.418       29.664      
+Ding_6                                             PZ39_Ding_6_refined.pdb                            PZ39_Ding_6_solution.pdb                           13.482       21.264       23.992       36.991      
+Ding_7                                             PZ39_Ding_7_refined.pdb                            PZ39_Ding_7_solution.pdb                           14.823       40.139       47.773       59.933      
+Ding_8                                             PZ39_Ding_8_refined.pdb                            PZ39_Ding_8_solution.pdb                           14.774       27.857       37.434       63.312      
+Dokholyan_1                                        PZ39_Dokholyan_1_refined.pdb                       PZ39_Dokholyan_1_solution.pdb                      13.071       20.114       23.143       33.765      
+Dokholyan_2                                        PZ39_Dokholyan_2_refined.pdb                       PZ39_Dokholyan_2_solution.pdb                      15.644       38.172       50.670       99.035      
+Dokholyan_3                                        PZ39_Dokholyan_3_refined.pdb                       PZ39_Dokholyan_3_solution.pdb                      11.111       16.379       19.726       31.844      
+Dokholyan_4                                        PZ39_Dokholyan_4_refined.pdb                       PZ39_Dokholyan_4_solution.pdb                      3.340        5.382        7.381        16.933      
+Dokholyan_5                                        PZ39_Dokholyan_5_refined.pdb                       PZ39_Dokholyan_5_solution.pdb                      3.663        6.089        8.128        15.440      
+GeneSilico1_1                                      PZ39_GeneSilico1_1_refined.pdb                     PZ39_GeneSilico1_1_solution.pdb                    16.145       21.682       23.505       32.712      
+GeneSilico1_2                                      PZ39_GeneSilico1_2_refined.pdb                     PZ39_GeneSilico1_2_solution.pdb                    17.110       39.745       56.205       98.678      
+GeneSilico1_3                                      PZ39_GeneSilico1_3_refined.pdb                     PZ39_GeneSilico1_3_solution.pdb                    13.531       17.045       19.385       28.912      
+GeneSilico1_4                                      PZ39_GeneSilico1_4_refined.pdb                     PZ39_GeneSilico1_4_solution.pdb                    14.848       25.096       33.466       61.700      
+GeneSilico1_5                                      PZ39_GeneSilico1_5_refined.pdb                     PZ39_GeneSilico1_5_solution.pdb                    15.226       20.916       23.482       34.004      
+GeneSilico2_1                                      PZ39_GeneSilico2_1_refined.pdb                     PZ39_GeneSilico2_1_solution.pdb                    18.128       36.834       44.669       94.637      
+GeneSilico2_2                                      PZ39_GeneSilico2_2_refined.pdb                     PZ39_GeneSilico2_2_solution.pdb                    17.998       49.671       71.550       98.947      
+GeneSilico2_3                                      PZ39_GeneSilico2_3_refined.pdb                     PZ39_GeneSilico2_3_solution.pdb                    16.337       28.877       40.568       98.669      
+GeneSilico2_4                                      PZ39_GeneSilico2_4_refined.pdb                     PZ39_GeneSilico2_4_solution.pdb                    18.288       42.932       65.291       98.854      
+GeneSilico2_5                                      PZ39_GeneSilico2_5_refined.pdb                     PZ39_GeneSilico2_5_solution.pdb                    16.806       28.627       42.125       98.833      
+GeneSilico3_1                                      PZ39_GeneSilico3_1_refined.pdb                     PZ39_GeneSilico3_1_solution.pdb                    18.003       39.107       64.115       98.636      
+GeneSilico4_1                                      PZ39_GeneSilico4_1_refined.pdb                     PZ39_GeneSilico4_1_solution.pdb                    25.959       86.483       95.196       99.010      
+Perez_10                                           PZ39_Perez_10_refined.pdb                          PZ39_Perez_10_solution.pdb                         8.928        15.358       22.211       69.235      
+Perez_1                                            PZ39_Perez_1_refined.pdb                           PZ39_Perez_1_solution.pdb                          8.214        13.510       15.994       29.682      
+Perez_2                                            PZ39_Perez_2_refined.pdb                           PZ39_Perez_2_solution.pdb                          9.515        14.867       18.713       30.849      
+Perez_3                                            PZ39_Perez_3_refined.pdb                           PZ39_Perez_3_solution.pdb                          12.607       22.628       30.647       97.504      
+Perez_4                                            PZ39_Perez_4_refined.pdb                           PZ39_Perez_4_solution.pdb                          8.852        15.161       17.977       28.082      
+Perez_5                                            PZ39_Perez_5_refined.pdb                           PZ39_Perez_5_solution.pdb                          8.956        17.400       25.133       66.894      
+Perez_6                                            PZ39_Perez_6_refined.pdb                           PZ39_Perez_6_solution.pdb                          9.228        14.976       18.968       31.770      
+Perez_7                                            PZ39_Perez_7_refined.pdb                           PZ39_Perez_7_solution.pdb                          10.209       15.961       20.153       29.538      
+Perez_8                                            PZ39_Perez_8_refined.pdb                           PZ39_Perez_8_solution.pdb                          9.290        16.409       23.737       69.362      
+Perez_9                                            PZ39_Perez_9_refined.pdb                           PZ39_Perez_9_solution.pdb                          8.708        16.182       19.627       43.192      
+RNAComposer_1                                      PZ39_RNAComposer_1_refined.pdb                     PZ39_RNAComposer_1_solution.pdb                    13.983       20.135       22.828       31.979      
+RNAComposer_2                                      PZ39_RNAComposer_2_refined.pdb                     PZ39_RNAComposer_2_solution.pdb                    11.450       16.961       20.369       32.607      
+RNAComposer_3                                      PZ39_RNAComposer_3_refined.pdb                     PZ39_RNAComposer_3_solution.pdb                    14.472       20.893       23.535       33.338      
+RNAComposer_4                                      PZ39_RNAComposer_4_refined.pdb                     PZ39_RNAComposer_4_solution.pdb                    17.168       33.628       55.709       98.819      
+RNAComposer_5                                      PZ39_RNAComposer_5_refined.pdb                     PZ39_RNAComposer_5_solution.pdb                    12.981       16.964       20.431       34.969      
+SimRNA_1                                           PZ39_SimRNA_1_refined.pdb                          PZ39_SimRNA_1_solution.pdb                         14.428       20.262       23.257       33.141      
+SimRNA_2                                           PZ39_SimRNA_2_refined.pdb                          PZ39_SimRNA_2_solution.pdb                         15.521       35.089       52.009       98.416      
+SimRNA_3                                           PZ39_SimRNA_3_refined.pdb                          PZ39_SimRNA_3_solution.pdb                         18.344       70.496       89.791       98.861      
+SimRNA_4                                           PZ39_SimRNA_4_refined.pdb                          PZ39_SimRNA_4_solution.pdb                         13.542       19.620       22.691       31.255      
+SimRNA_5                                           PZ39_SimRNA_5_refined.pdb                          PZ39_SimRNA_5_solution.pdb                         14.257       20.626       23.837       41.781      
+SoutheRNA_10                                       PZ39_SoutheRNA_10_refined.pdb                      PZ39_SoutheRNA_10_solution.pdb                     17.288       34.945       48.457       98.536      
+SoutheRNA_1                                        PZ39_SoutheRNA_1_refined.pdb                       PZ39_SoutheRNA_1_solution.pdb                      12.937       20.044       23.118       32.663      
+SoutheRNA_2                                        PZ39_SoutheRNA_2_refined.pdb                       PZ39_SoutheRNA_2_solution.pdb                      11.763       16.931       19.508       29.385      
+SoutheRNA_3                                        PZ39_SoutheRNA_3_refined.pdb                       PZ39_SoutheRNA_3_solution.pdb                      11.624       17.184       19.715       28.947      
+SoutheRNA_4                                        PZ39_SoutheRNA_4_refined.pdb                       PZ39_SoutheRNA_4_solution.pdb                      12.255       20.462       23.241       32.482      
+SoutheRNA_5                                        PZ39_SoutheRNA_5_refined.pdb                       PZ39_SoutheRNA_5_solution.pdb                      17.149       48.900       74.308       98.539      
+SoutheRNA_6                                        PZ39_SoutheRNA_6_refined.pdb                       PZ39_SoutheRNA_6_solution.pdb                      13.967       19.471       22.607       31.376      
+SoutheRNA_7                                        PZ39_SoutheRNA_7_refined.pdb                       PZ39_SoutheRNA_7_solution.pdb                      14.948       21.696       24.656       37.323      
+SoutheRNA_8                                        PZ39_SoutheRNA_8_refined.pdb                       PZ39_SoutheRNA_8_solution.pdb                      12.120       16.936       20.652       29.334      
+SoutheRNA_9                                        PZ39_SoutheRNA_9_refined.pdb                       PZ39_SoutheRNA_9_solution.pdb                      13.630       19.534       22.276       33.651      
+Szachniuk_1                                        PZ39_Szachniuk_1_refined.pdb                       PZ39_Szachniuk_1_solution.pdb                      21.517       44.064       61.904       99.142      
+Szachniuk_2                                        PZ39_Szachniuk_2_refined.pdb                       PZ39_Szachniuk_2_solution.pdb                      17.263       25.493       29.636       70.369      
+Szachniuk_3                                        PZ39_Szachniuk_3_refined.pdb                       PZ39_Szachniuk_3_solution.pdb                      16.091       24.127       27.838       59.942      
+Szachniuk_4                                        PZ39_Szachniuk_4_refined.pdb                       PZ39_Szachniuk_4_solution.pdb                      13.832       17.486       20.404       33.004      
+Szachniuk_5                                        PZ39_Szachniuk_5_refined.pdb                       PZ39_Szachniuk_5_solution.pdb                      15.254       20.452       22.677       33.002      
+Xiao_1                                             PZ39_Xiao_1_refined.pdb                            PZ39_Xiao_1_solution.pdb                           10.035       15.303       19.538       29.132      
+Xiao_2                                             PZ39_Xiao_2_refined.pdb                            PZ39_Xiao_2_solution.pdb                           12.605       17.724       19.903       30.768      
+Xiao_3                                             PZ39_Xiao_3_refined.pdb                            PZ39_Xiao_3_solution.pdb                           10.789       16.486       19.139       30.371      
+Xiao_4                                             PZ39_Xiao_4_refined.pdb                            PZ39_Xiao_4_solution.pdb                           12.405       17.961       20.074       29.703      
+Xiao_5                                             PZ39_Xiao_5_refined.pdb                            PZ39_Xiao_5_solution.pdb                           11.213       17.251       19.861       31.130      
+Xiong_1                                            PZ39_Xiong_1_refined.pdb                           PZ39_Xiong_1_solution.pdb                          13.700       17.949       20.304       31.311      
+Xiong_2                                            PZ39_Xiong_2_refined.pdb                           PZ39_Xiong_2_solution.pdb                          13.709       17.873       20.527       31.895      
+Xiong_3                                            PZ39_Xiong_3_refined.pdb                           PZ39_Xiong_3_solution.pdb                          13.746       17.843       20.698       30.580      
+Xiong_4                                            PZ39_Xiong_4_refined.pdb                           PZ39_Xiong_4_solution.pdb                          16.300       24.876       29.659       77.061      
+Xiong_5                                            PZ39_Xiong_5_refined.pdb                           PZ39_Xiong_5_solution.pdb                          16.291       25.254       30.114       70.213      
+YangServer_1                                       PZ39_YangServer_1_refined.pdb                      PZ39_YangServer_1_solution.pdb                     12.804       18.982       23.505       33.885      
+YangServer_2                                       PZ39_YangServer_2_refined.pdb                      PZ39_YangServer_2_solution.pdb                     11.171       16.235       19.685       29.640      
+YangServer_3                                       PZ39_YangServer_3_refined.pdb                      PZ39_YangServer_3_solution.pdb                     10.835       17.260       22.329       37.509      
+YangServer_4                                       PZ39_YangServer_4_refined.pdb                      PZ39_YangServer_4_solution.pdb                     7.235        13.913       17.643       29.061      
+YangServer_5                                       PZ39_YangServer_5_refined.pdb                      PZ39_YangServer_5_solution.pdb                     9.125        14.551       16.674       25.389      
+Zhou_1                                             PZ39_Zhou_1_refined.pdb                            PZ39_Zhou_1_solution.pdb                           6.351        17.230       20.819       30.288      
+Zhou_2                                             PZ39_Zhou_2_refined.pdb                            PZ39_Zhou_2_solution.pdb                           12.463       19.177       22.229       31.355      
+Zhou_3                                             PZ39_Zhou_3_refined.pdb                            PZ39_Zhou_3_solution.pdb                           6.507        16.152       20.283       29.923      
+Zhou_4                                             PZ39_Zhou_4_refined.pdb                            PZ39_Zhou_4_solution.pdb                           12.559       18.471       21.867       31.338      
+Zhou_5                                             PZ39_Zhou_5_refined.pdb                            PZ39_Zhou_5_solution.pdb                           12.505       17.991       21.986       31.610      
+

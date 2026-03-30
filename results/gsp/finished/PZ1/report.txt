@@ -1,19 +1,22 @@
 Report for set: PZ1
-Processed 14 / 14 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-1_bujnicki_1.pdb                                   1_solution_0.pdb                                   SUCCESS         72.38                         
-1_bujnicki_2.pdb                                   1_solution_0.pdb                                   SUCCESS         69.892                        
-1_bujnicki_3.pdb                                   1_solution_0.pdb                                   SUCCESS         84.368                        
-1_bujnicki_4.pdb                                   1_solution_0.pdb                                   SUCCESS         89.503                        
-1_bujnicki_5.pdb                                   1_solution_0.pdb                                   SUCCESS         70.332                        
-1_chen_1.pdb                                       1_solution_0.pdb                                   SUCCESS         99.874                        
-1_das_1.pdb                                        1_solution_0.pdb                                   SUCCESS         99.606                        
-1_das_2.pdb                                        1_solution_0.pdb                                   SUCCESS         99.786                        
-1_das_3.pdb                                        1_solution_0.pdb                                   SUCCESS         100.0                         
-1_das_4.pdb                                        1_solution_0.pdb                                   SUCCESS         99.598                        
-1_das_5.pdb                                        1_solution_0.pdb                                   SUCCESS         97.374                        
-1_dokholyan_1.pdb                                  1_solution_0.pdb                                   SUCCESS         43.462                        
-1_major_1.pdb                                      1_solution_0.pdb                                   SUCCESS         99.736                        
-1_santalucia_1_refined.pdb                         1_santalucia_1_solution.pdb                        SUCCESS         54.582                        
+Processed 14 / 14 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+bujnicki_1                                         1_bujnicki_1.pdb                                   1_solution_0.pdb                                   19.661       55.364       78.424       100.000     
+bujnicki_2                                         1_bujnicki_2.pdb                                   1_solution_0.pdb                                   18.639       51.684       75.728       100.000     
+bujnicki_3                                         1_bujnicki_3.pdb                                   1_solution_0.pdb                                   19.538       66.842       91.413       100.000     
+bujnicki_4                                         1_bujnicki_4.pdb                                   1_solution_0.pdb                                   17.809       52.578       88.627       100.000     
+bujnicki_5                                         1_bujnicki_5.pdb                                   1_solution_0.pdb                                   18.308       47.885       76.205       100.000     
+chen_1                                             1_chen_1.pdb                                       1_solution_0.pdb                                   19.293       84.233       99.864       100.000     
+das_1                                              1_das_1.pdb                                        1_solution_0.pdb                                   19.887       98.947       99.573       100.000     
+das_2                                              1_das_2.pdb                                        1_solution_0.pdb                                   17.977       69.774       99.769       100.000     
+das_3                                              1_das_3.pdb                                        1_solution_0.pdb                                   23.827       99.809       100.000      100.000     
+das_4                                              1_das_4.pdb                                        1_solution_0.pdb                                   17.087       98.098       99.564       100.000     
+das_5                                              1_das_5.pdb                                        1_solution_0.pdb                                   16.924       51.520       97.154       100.000     
+dokholyan_1                                        1_dokholyan_1.pdb                                  1_solution_0.pdb                                   14.709       31.333       47.091       100.000     
+major_1                                            1_major_1.pdb                                      1_solution_0.pdb                                   16.652       69.688       99.714       100.000     
+santalucia_1                                       1_santalucia_1_refined.pdb                         1_santalucia_1_solution.pdb                        10.398       20.269       59.140       100.000     
+

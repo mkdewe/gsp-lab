@@ -1,72 +1,75 @@
 Report for set: PZ27
-Processed 67 / 67 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ27_Adamiak_1_refined.pdb                         PZ27_Adamiak_1_solution.pdb                        SUCCESS         41.36                         
-PZ27_Adamiak_2_refined.pdb                         PZ27_Adamiak_2_solution.pdb                        SUCCESS         39.333                        
-PZ27_Bujnicki_1_refined.pdb                        PZ27_Bujnicki_1_solution.pdb                       SUCCESS         61.966                        
-PZ27_Bujnicki_2_refined.pdb                        PZ27_Bujnicki_2_solution.pdb                       SUCCESS         59.577                        
-PZ27_Bujnicki_3_refined.pdb                        PZ27_Bujnicki_3_solution.pdb                       SUCCESS         58.279                        
-PZ27_Bujnicki_4_refined.pdb                        PZ27_Bujnicki_4_solution.pdb                       SUCCESS         55.392                        
-PZ27_Bujnicki_5_refined.pdb                        PZ27_Bujnicki_5_solution.pdb                       SUCCESS         58.126                        
-PZ27_Chen_10_refined.pdb                           PZ27_Chen_10_solution.pdb                          SUCCESS         55.16                         
-PZ27_Chen_1_refined.pdb                            PZ27_Chen_1_solution.pdb                           SUCCESS         62.073                        
-PZ27_Chen_2_refined.pdb                            PZ27_Chen_2_solution.pdb                           SUCCESS         63.188                        
-PZ27_Chen_3_refined.pdb                            PZ27_Chen_3_solution.pdb                           SUCCESS         65.119                        
-PZ27_Chen_4_refined.pdb                            PZ27_Chen_4_solution.pdb                           SUCCESS         63.78                         
-PZ27_Chen_5_refined.pdb                            PZ27_Chen_5_solution.pdb                           SUCCESS         63.657                        
-PZ27_Chen_6_refined.pdb                            PZ27_Chen_6_solution.pdb                           SUCCESS         57.933                        
-PZ27_Chen_7_refined.pdb                            PZ27_Chen_7_solution.pdb                           SUCCESS         58.15                         
-PZ27_Chen_8_refined.pdb                            PZ27_Chen_8_solution.pdb                           SUCCESS         56.814                        
-PZ27_Chen_9_refined.pdb                            PZ27_Chen_9_solution.pdb                           SUCCESS         58.325                        
-PZ27_Das_10_refined.pdb                            PZ27_Das_10_solution.pdb                           SUCCESS         61.364                        
-PZ27_Das_1_refined.pdb                             PZ27_Das_1_solution.pdb                            SUCCESS         64.407                        
-PZ27_Das_2_refined.pdb                             PZ27_Das_2_solution.pdb                            SUCCESS         66.845                        
-PZ27_Das_3_refined.pdb                             PZ27_Das_3_solution.pdb                            SUCCESS         65.387                        
-PZ27_Das_4_refined.pdb                             PZ27_Das_4_solution.pdb                            SUCCESS         56.131                        
-PZ27_Das_5_refined.pdb                             PZ27_Das_5_solution.pdb                            SUCCESS         63.649                        
-PZ27_Das_6_refined.pdb                             PZ27_Das_6_solution.pdb                            SUCCESS         64.378                        
-PZ27_Das_7_refined.pdb                             PZ27_Das_7_solution.pdb                            SUCCESS         63.571                        
-PZ27_Das_8_refined.pdb                             PZ27_Das_8_solution.pdb                            SUCCESS         64.596                        
-PZ27_Das_9_refined.pdb                             PZ27_Das_9_solution.pdb                            SUCCESS         59.785                        
-PZ27_FARFAR2_10_refined.pdb                        PZ27_FARFAR2_10_solution.pdb                       SUCCESS         62.822                        
-PZ27_FARFAR2_1_refined.pdb                         PZ27_FARFAR2_1_solution.pdb                        SUCCESS         64.596                        
-PZ27_FARFAR2_2_refined.pdb                         PZ27_FARFAR2_2_solution.pdb                        SUCCESS         66.845                        
-PZ27_FARFAR2_3_refined.pdb                         PZ27_FARFAR2_3_solution.pdb                        SUCCESS         64.407                        
-PZ27_FARFAR2_4_refined.pdb                         PZ27_FARFAR2_4_solution.pdb                        SUCCESS         65.387                        
-PZ27_FARFAR2_5_refined.pdb                         PZ27_FARFAR2_5_solution.pdb                        SUCCESS         56.131                        
-PZ27_FARFAR2_6_refined.pdb                         PZ27_FARFAR2_6_solution.pdb                        SUCCESS         63.998                        
-PZ27_FARFAR2_7_refined.pdb                         PZ27_FARFAR2_7_solution.pdb                        SUCCESS         63.571                        
-PZ27_FARFAR2_8_refined.pdb                         PZ27_FARFAR2_8_solution.pdb                        SUCCESS         63.649                        
-PZ27_FARFAR2_9_refined.pdb                         PZ27_FARFAR2_9_solution.pdb                        SUCCESS         64.378                        
-PZ27_iFoldRNA_1_refined.pdb                        PZ27_iFoldRNA_1_solution.pdb                       SUCCESS         8.728                         
-PZ27_iFoldRNA_2_refined.pdb                        PZ27_iFoldRNA_2_solution.pdb                       SUCCESS         8.442                         
-PZ27_iFoldRNA_3_refined.pdb                        PZ27_iFoldRNA_3_solution.pdb                       SUCCESS         8.876                         
-PZ27_iFoldRNA_4_refined.pdb                        PZ27_iFoldRNA_4_solution.pdb                       SUCCESS         8.722                         
-PZ27_iFoldRNA_5_refined.pdb                        PZ27_iFoldRNA_5_solution.pdb                       SUCCESS         8.696                         
-PZ27_RNAComposer_1_refined.pdb                     PZ27_RNAComposer_1_solution.pdb                    SUCCESS         33.425                        
-PZ27_RNAComposer_2_refined.pdb                     PZ27_RNAComposer_2_solution.pdb                    SUCCESS         24.11                         
-PZ27_RNAComposer_3_refined.pdb                     PZ27_RNAComposer_3_solution.pdb                    SUCCESS         34.055                        
-PZ27_RNAComposer_4_refined.pdb                     PZ27_RNAComposer_4_solution.pdb                    SUCCESS         39.873                        
-PZ27_RNAComposer_5_refined.pdb                     PZ27_RNAComposer_5_solution.pdb                    SUCCESS         31.417                        
-PZ27_SimRNA_1_refined.pdb                          PZ27_SimRNA_1_solution.pdb                         SUCCESS         7.465                         
-PZ27_SimRNA_2_refined.pdb                          PZ27_SimRNA_2_solution.pdb                         SUCCESS         8.634                         
-PZ27_SimRNA_3_refined.pdb                          PZ27_SimRNA_3_solution.pdb                         SUCCESS         8.443                         
-PZ27_SimRNA_4_refined.pdb                          PZ27_SimRNA_4_solution.pdb                         SUCCESS         7.786                         
-PZ27_SimRNA_5_refined.pdb                          PZ27_SimRNA_5_solution.pdb                         SUCCESS         8.514                         
-PZ27_TFN_10_refined.pdb                            PZ27_TFN_10_solution.pdb                           SUCCESS         64.05                         
-PZ27_TFN_1_refined.pdb                             PZ27_TFN_1_solution.pdb                            SUCCESS         55.08                         
-PZ27_TFN_2_refined.pdb                             PZ27_TFN_2_solution.pdb                            SUCCESS         67.808                        
-PZ27_TFN_3_refined.pdb                             PZ27_TFN_3_solution.pdb                            SUCCESS         54.846                        
-PZ27_TFN_4_refined.pdb                             PZ27_TFN_4_solution.pdb                            SUCCESS         64.273                        
-PZ27_TFN_5_refined.pdb                             PZ27_TFN_5_solution.pdb                            SUCCESS         60.506                        
-PZ27_TFN_6_refined.pdb                             PZ27_TFN_6_solution.pdb                            SUCCESS         49.146                        
-PZ27_TFN_7_refined.pdb                             PZ27_TFN_7_solution.pdb                            SUCCESS         62.15                         
-PZ27_TFN_8_refined.pdb                             PZ27_TFN_8_solution.pdb                            SUCCESS         63.585                        
-PZ27_TFN_9_refined.pdb                             PZ27_TFN_9_solution.pdb                            SUCCESS         64.814                        
-PZ27_Xiao_1_refined.pdb                            PZ27_Xiao_1_solution.pdb                           SUCCESS         9.177                         
-PZ27_Xiao_2_refined.pdb                            PZ27_Xiao_2_solution.pdb                           SUCCESS         9.163                         
-PZ27_Xiao_3_refined.pdb                            PZ27_Xiao_3_solution.pdb                           SUCCESS         9.018                         
-PZ27_Xiao_4_refined.pdb                            PZ27_Xiao_4_solution.pdb                           SUCCESS         15.181                        
-PZ27_Xiao_5_refined.pdb                            PZ27_Xiao_5_solution.pdb                           SUCCESS         15.394                        
+Processed 67 / 67 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Adamiak_1                                          PZ27_Adamiak_1_refined.pdb                         PZ27_Adamiak_1_solution.pdb                        15.137       35.023       44.813       71.843      
+Adamiak_2                                          PZ27_Adamiak_2_refined.pdb                         PZ27_Adamiak_2_solution.pdb                        15.147       29.125       42.618       71.785      
+Bujnicki_1                                         PZ27_Bujnicki_1_refined.pdb                        PZ27_Bujnicki_1_solution.pdb                       24.817       52.860       67.141       73.644      
+Bujnicki_2                                         PZ27_Bujnicki_2_refined.pdb                        PZ27_Bujnicki_2_solution.pdb                       24.937       53.625       64.552       72.894      
+Bujnicki_3                                         PZ27_Bujnicki_3_refined.pdb                        PZ27_Bujnicki_3_solution.pdb                       23.475       46.880       63.146       73.393      
+Bujnicki_4                                         PZ27_Bujnicki_4_refined.pdb                        PZ27_Bujnicki_4_solution.pdb                       23.123       46.512       60.017       68.010      
+Bujnicki_5                                         PZ27_Bujnicki_5_refined.pdb                        PZ27_Bujnicki_5_solution.pdb                       25.002       54.277       62.980       68.163      
+Chen_10                                            PZ27_Chen_10_refined.pdb                           PZ27_Chen_10_solution.pdb                          25.231       46.493       59.766       73.352      
+Chen_1                                             PZ27_Chen_1_refined.pdb                            PZ27_Chen_1_solution.pdb                           24.095       51.119       67.257       72.634      
+Chen_2                                             PZ27_Chen_2_refined.pdb                            PZ27_Chen_2_solution.pdb                           25.262       56.216       68.465       75.543      
+Chen_3                                             PZ27_Chen_3_refined.pdb                            PZ27_Chen_3_solution.pdb                           25.190       56.216       70.556       74.540      
+Chen_4                                             PZ27_Chen_4_refined.pdb                            PZ27_Chen_4_solution.pdb                           25.249       55.238       69.106       76.720      
+Chen_5                                             PZ27_Chen_5_refined.pdb                            PZ27_Chen_5_solution.pdb                           24.374       56.536       68.972       73.639      
+Chen_6                                             PZ27_Chen_6_refined.pdb                            PZ27_Chen_6_solution.pdb                           25.821       50.231       62.771       72.121      
+Chen_7                                             PZ27_Chen_7_refined.pdb                            PZ27_Chen_7_solution.pdb                           26.716       51.225       63.006       71.838      
+Chen_8                                             PZ27_Chen_8_refined.pdb                            PZ27_Chen_8_solution.pdb                           25.058       48.667       61.559       72.975      
+Chen_9                                             PZ27_Chen_9_refined.pdb                            PZ27_Chen_9_solution.pdb                           25.772       48.363       63.196       75.775      
+Das_10                                             PZ27_Das_10_refined.pdb                            PZ27_Das_10_solution.pdb                           30.514       53.473       66.488       74.487      
+Das_1                                              PZ27_Das_1_refined.pdb                             PZ27_Das_1_solution.pdb                            31.971       55.975       69.786       75.592      
+Das_2                                              PZ27_Das_2_refined.pdb                             PZ27_Das_2_solution.pdb                            33.309       62.079       72.427       78.613      
+Das_3                                              PZ27_Das_3_refined.pdb                             PZ27_Das_3_solution.pdb                            32.414       66.462       70.848       74.981      
+Das_4                                              PZ27_Das_4_refined.pdb                             PZ27_Das_4_solution.pdb                            28.944       46.752       60.819       73.397      
+Das_5                                              PZ27_Das_5_refined.pdb                             PZ27_Das_5_solution.pdb                            32.026       57.411       68.964       76.273      
+Das_6                                              PZ27_Das_6_refined.pdb                             PZ27_Das_6_solution.pdb                            31.112       55.408       69.754       76.657      
+Das_7                                              PZ27_Das_7_refined.pdb                             PZ27_Das_7_solution.pdb                            31.441       54.198       68.880       76.648      
+Das_8                                              PZ27_Das_8_refined.pdb                             PZ27_Das_8_solution.pdb                            32.284       62.328       69.990       75.782      
+Das_9                                              PZ27_Das_9_refined.pdb                             PZ27_Das_9_solution.pdb                            29.708       52.780       64.777       73.767      
+FARFAR2_10                                         PZ27_FARFAR2_10_refined.pdb                        PZ27_FARFAR2_10_solution.pdb                       29.995       56.976       68.068       73.983      
+FARFAR2_1                                          PZ27_FARFAR2_1_refined.pdb                         PZ27_FARFAR2_1_solution.pdb                        32.284       62.328       69.990       75.782      
+FARFAR2_2                                          PZ27_FARFAR2_2_refined.pdb                         PZ27_FARFAR2_2_solution.pdb                        33.309       62.079       72.427       78.613      
+FARFAR2_3                                          PZ27_FARFAR2_3_refined.pdb                         PZ27_FARFAR2_3_solution.pdb                        31.971       55.975       69.786       75.592      
+FARFAR2_4                                          PZ27_FARFAR2_4_refined.pdb                         PZ27_FARFAR2_4_solution.pdb                        32.414       66.462       70.848       74.981      
+FARFAR2_5                                          PZ27_FARFAR2_5_refined.pdb                         PZ27_FARFAR2_5_solution.pdb                        28.944       46.752       60.819       73.397      
+FARFAR2_6                                          PZ27_FARFAR2_6_refined.pdb                         PZ27_FARFAR2_6_solution.pdb                        33.114       59.526       69.343       76.320      
+FARFAR2_7                                          PZ27_FARFAR2_7_refined.pdb                         PZ27_FARFAR2_7_solution.pdb                        31.441       54.198       68.880       76.648      
+FARFAR2_8                                          PZ27_FARFAR2_8_refined.pdb                         PZ27_FARFAR2_8_solution.pdb                        32.026       57.411       68.964       76.273      
+FARFAR2_9                                          PZ27_FARFAR2_9_refined.pdb                         PZ27_FARFAR2_9_solution.pdb                        31.112       55.408       69.754       76.657      
+iFoldRNA_1                                         PZ27_iFoldRNA_1_refined.pdb                        PZ27_iFoldRNA_1_solution.pdb                       4.765        8.146        9.457        12.605      
+iFoldRNA_2                                         PZ27_iFoldRNA_2_refined.pdb                        PZ27_iFoldRNA_2_solution.pdb                       4.595        7.922        9.147        12.320      
+iFoldRNA_3                                         PZ27_iFoldRNA_3_refined.pdb                        PZ27_iFoldRNA_3_solution.pdb                       4.645        8.082        9.617        12.898      
+iFoldRNA_4                                         PZ27_iFoldRNA_4_refined.pdb                        PZ27_iFoldRNA_4_solution.pdb                       4.765        8.317        9.451        12.750      
+iFoldRNA_5                                         PZ27_iFoldRNA_5_refined.pdb                        PZ27_iFoldRNA_5_solution.pdb                       4.777        8.046        9.423        12.250      
+RNAComposer_1                                      PZ27_RNAComposer_1_refined.pdb                     PZ27_RNAComposer_1_solution.pdb                    14.997       27.565       36.216       52.316      
+RNAComposer_2                                      PZ27_RNAComposer_2_refined.pdb                     PZ27_RNAComposer_2_solution.pdb                    16.590       23.705       26.123       35.412      
+RNAComposer_3                                      PZ27_RNAComposer_3_refined.pdb                     PZ27_RNAComposer_3_solution.pdb                    15.209       28.638       36.898       50.074      
+RNAComposer_4                                      PZ27_RNAComposer_4_refined.pdb                     PZ27_RNAComposer_4_solution.pdb                    16.345       31.578       43.202       55.136      
+RNAComposer_5                                      PZ27_RNAComposer_5_refined.pdb                     PZ27_RNAComposer_5_solution.pdb                    13.332       27.275       34.041       44.086      
+SimRNA_1                                           PZ27_SimRNA_1_refined.pdb                          PZ27_SimRNA_1_solution.pdb                         4.395        6.582        8.088        11.954      
+SimRNA_2                                           PZ27_SimRNA_2_refined.pdb                          PZ27_SimRNA_2_solution.pdb                         4.425        7.539        9.355        13.655      
+SimRNA_3                                           PZ27_SimRNA_3_refined.pdb                          PZ27_SimRNA_3_solution.pdb                         4.858        7.987        9.149        12.433      
+SimRNA_4                                           PZ27_SimRNA_4_refined.pdb                          PZ27_SimRNA_4_solution.pdb                         4.615        6.825        8.436        12.797      
+SimRNA_5                                           PZ27_SimRNA_5_refined.pdb                          PZ27_SimRNA_5_solution.pdb                         4.786        7.880        9.225        12.361      
+TFN_10                                             PZ27_TFN_10_refined.pdb                            PZ27_TFN_10_solution.pdb                           31.262       54.280       69.399       75.702      
+TFN_1                                              PZ27_TFN_1_refined.pdb                             PZ27_TFN_1_solution.pdb                            30.920       47.705       59.680       72.297      
+TFN_2                                              PZ27_TFN_2_refined.pdb                             PZ27_TFN_2_solution.pdb                            31.116       63.171       73.471       79.660      
+TFN_3                                              PZ27_TFN_3_refined.pdb                             PZ27_TFN_3_solution.pdb                            31.171       48.854       59.426       75.251      
+TFN_4                                              PZ27_TFN_4_refined.pdb                             PZ27_TFN_4_solution.pdb                            31.575       54.151       69.641       76.344      
+TFN_5                                              PZ27_TFN_5_refined.pdb                             PZ27_TFN_5_solution.pdb                            29.773       53.993       65.559       74.870      
+TFN_6                                              PZ27_TFN_6_refined.pdb                             PZ27_TFN_6_solution.pdb                            28.542       44.308       53.250       72.714      
+TFN_7                                              PZ27_TFN_7_refined.pdb                             PZ27_TFN_7_solution.pdb                            31.757       56.898       67.340       74.739      
+TFN_8                                              PZ27_TFN_8_refined.pdb                             PZ27_TFN_8_solution.pdb                            31.686       56.423       68.895       73.741      
+TFN_9                                              PZ27_TFN_9_refined.pdb                             PZ27_TFN_9_solution.pdb                            31.860       59.814       70.226       75.659      
+Xiao_1                                             PZ27_Xiao_1_refined.pdb                            PZ27_Xiao_1_solution.pdb                           5.630        8.970        9.944        11.726      
+Xiao_2                                             PZ27_Xiao_2_refined.pdb                            PZ27_Xiao_2_solution.pdb                           5.630        8.948        9.928        12.086      
+Xiao_3                                             PZ27_Xiao_3_refined.pdb                            PZ27_Xiao_3_solution.pdb                           5.630        8.795        9.771        11.595      
+Xiao_4                                             PZ27_Xiao_4_refined.pdb                            PZ27_Xiao_4_solution.pdb                           8.005        14.039       16.449       22.519      
+Xiao_5                                             PZ27_Xiao_5_refined.pdb                            PZ27_Xiao_5_solution.pdb                           7.993        14.211       16.680       23.025      
+

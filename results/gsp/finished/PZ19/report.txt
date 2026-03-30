@@ -1,64 +1,67 @@
 Report for set: PZ19
-Processed 59 / 59 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-19_3dRNA_1.pdb                                     19_solution_0.pdb                                  SUCCESS         17.158                        
-19_3dRNA_2.pdb                                     19_solution_0.pdb                                  SUCCESS         18.982                        
-19_3dRNA_3.pdb                                     19_solution_0.pdb                                  SUCCESS         15.846                        
-19_3dRNA_4.pdb                                     19_solution_0.pdb                                  SUCCESS         18.32                         
-19_3dRNA_5.pdb                                     19_solution_0.pdb                                  SUCCESS         15.918                        
-19_Bujnicki_1.pdb                                  19_solution_0.pdb                                  SUCCESS         18.547                        
-19_Bujnicki_2.pdb                                  19_solution_0.pdb                                  SUCCESS         25.126                        
-19_Bujnicki_3.pdb                                  19_solution_0.pdb                                  SUCCESS         22.052                        
-19_Bujnicki_4.pdb                                  19_solution_0.pdb                                  SUCCESS         17.419                        
-19_Bujnicki_5.pdb                                  19_solution_0.pdb                                  SUCCESS         15.697                        
-19_Chen_1.pdb                                      19_solution_0.pdb                                  SUCCESS         60.168                        
-19_Chen_2.pdb                                      19_solution_0.pdb                                  SUCCESS         37.712                        
-19_Chen_3.pdb                                      19_solution_0.pdb                                  SUCCESS         19.911                        
-19_Chen_4.pdb                                      19_solution_0.pdb                                  SUCCESS         17.329                        
-19_Chen_5.pdb                                      19_solution_0.pdb                                  SUCCESS         4.195                         
-19_Das_1.pdb                                       19_solution_0.pdb                                  SUCCESS         13.537                        
-19_Das_2.pdb                                       19_solution_0.pdb                                  SUCCESS         16.43                         
-19_Das_3.pdb                                       19_solution_0.pdb                                  SUCCESS         15.141                        
-19_Das_4.pdb                                       19_solution_0.pdb                                  SUCCESS         19.14                         
-19_Das_5.pdb                                       19_solution_0.pdb                                  SUCCESS         18.158                        
-19_Ding_1.pdb                                      19_solution_0.pdb                                  SUCCESS         17.736                        
-19_Ding_2.pdb                                      19_solution_0.pdb                                  SUCCESS         18.45                         
-19_Ding_3.pdb                                      19_solution_0.pdb                                  SUCCESS         15.809                        
-19_Ding_4.pdb                                      19_solution_0.pdb                                  SUCCESS         17.552                        
-19_Ding_5.pdb                                      19_solution_0.pdb                                  SUCCESS         15.144                        
-19_Dokholyan_1.pdb                                 19_solution_0.pdb                                  SUCCESS         17.285                        
-19_LeeServer_1.pdb                                 19_solution_0.pdb                                  SUCCESS         14.364                        
-19_LeeServer_2.pdb                                 19_solution_0.pdb                                  SUCCESS         14.233                        
-19_LeeServer_3.pdb                                 19_solution_0.pdb                                  SUCCESS         13.09                         
-19_LeeServer_4.pdb                                 19_solution_0.pdb                                  SUCCESS         11.023                        
-19_LeeServer_5.pdb                                 19_solution_0.pdb                                  SUCCESS         10.955                        
-19_RNAComposer_1.pdb                               19_solution_0.pdb                                  SUCCESS         19.777                        
-19_RNAComposer_2.pdb                               19_solution_0.pdb                                  SUCCESS         26.176                        
-19_RNAComposer_3.pdb                               19_solution_0.pdb                                  SUCCESS         25.794                        
-19_RNAComposer_4.pdb                               19_solution_0.pdb                                  SUCCESS         24.476                        
-19_RNAComposer_5.pdb                               19_solution_0.pdb                                  SUCCESS         25.567                        
-19_RW3D_1.pdb                                      19_solution_0.pdb                                  SUCCESS         9.559                         
-19_RW3D_10.pdb                                     19_solution_0.pdb                                  SUCCESS         9.603                         
-19_RW3D_2.pdb                                      19_solution_0.pdb                                  SUCCESS         10.088                        
-19_RW3D_3.pdb                                      19_solution_0.pdb                                  SUCCESS         10.053                        
-19_RW3D_4.pdb                                      19_solution_0.pdb                                  SUCCESS         9.827                         
-19_RW3D_5.pdb                                      19_solution_0.pdb                                  SUCCESS         9.792                         
-19_RW3D_6.pdb                                      19_solution_0.pdb                                  SUCCESS         10.029                        
-19_RW3D_7.pdb                                      19_solution_0.pdb                                  SUCCESS         9.982                         
-19_RW3D_8.pdb                                      19_solution_0.pdb                                  SUCCESS         9.684                         
-19_RW3D_9.pdb                                      19_solution_0.pdb                                  SUCCESS         9.708                         
-19_simRNA_1.pdb                                    19_solution_0.pdb                                  SUCCESS         22.419                        
-19_simRNA_2.pdb                                    19_solution_0.pdb                                  SUCCESS         17.105                        
-19_simRNA_3.pdb                                    19_solution_0.pdb                                  SUCCESS         10.37                         
-PZ19_Adamiak_1.pdb                                 19_solution_0.pdb                                  SUCCESS         25.424                        
-PZ19_Adamiak_2.pdb                                 19_solution_0.pdb                                  SUCCESS         18.221                        
-PZ19_Adamiak_3.pdb                                 19_solution_0.pdb                                  SUCCESS         15.535                        
-PZ19_Adamiak_4.pdb                                 19_solution_0.pdb                                  SUCCESS         20.352                        
-PZ19_Adamiak_5.pdb                                 19_solution_0.pdb                                  SUCCESS         18.354                        
-PZ19_DasLab_1.pdb                                  19_solution_0.pdb                                  SUCCESS         13.537                        
-PZ19_DasLab_2.pdb                                  19_solution_0.pdb                                  SUCCESS         16.43                         
-PZ19_DasLab_3.pdb                                  19_solution_0.pdb                                  SUCCESS         15.141                        
-PZ19_DasLab_4.pdb                                  19_solution_0.pdb                                  SUCCESS         19.14                         
-PZ19_DasLab_5.pdb                                  19_solution_0.pdb                                  SUCCESS         18.158                        
+Processed 59 / 59 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNA_1                                            19_3dRNA_1.pdb                                     19_solution_0.pdb                                  8.139        15.863       18.590       31.463      
+3dRNA_2                                            19_3dRNA_2.pdb                                     19_solution_0.pdb                                  8.273        16.536       20.567       34.406      
+3dRNA_3                                            19_3dRNA_3.pdb                                     19_solution_0.pdb                                  8.159        14.688       17.170       25.648      
+3dRNA_4                                            19_3dRNA_4.pdb                                     19_solution_0.pdb                                  7.825        15.631       19.850       33.406      
+3dRNA_5                                            19_3dRNA_5.pdb                                     19_solution_0.pdb                                  8.078        14.449       17.247       30.352      
+Bujnicki_1                                         19_Bujnicki_1.pdb                                  19_solution_0.pdb                                  11.816       17.604       20.096       31.578      
+Bujnicki_2                                         19_Bujnicki_2.pdb                                  19_solution_0.pdb                                  12.402       22.102       27.224       55.377      
+Bujnicki_3                                         19_Bujnicki_3.pdb                                  19_solution_0.pdb                                  11.630       19.173       23.894       32.420      
+Bujnicki_4                                         19_Bujnicki_4.pdb                                  19_solution_0.pdb                                  10.294       14.752       18.873       29.069      
+Bujnicki_5                                         19_Bujnicki_5.pdb                                  19_solution_0.pdb                                  9.566        14.944       17.008       22.675      
+Chen_1                                             19_Chen_1.pdb                                      19_solution_0.pdb                                  17.671       49.064       65.193       100.000     
+Chen_2                                             19_Chen_2.pdb                                      19_solution_0.pdb                                  11.162       24.601       40.861       100.000     
+Chen_3                                             19_Chen_3.pdb                                      19_solution_0.pdb                                  10.492       16.661       21.574       31.686      
+Chen_4                                             19_Chen_4.pdb                                      19_solution_0.pdb                                  10.371       16.041       18.776       36.147      
+Chen_5                                             19_Chen_5.pdb                                      19_solution_0.pdb                                  2.916        3.950        4.546        7.819       
+Das_1                                              19_Das_1.pdb                                       19_solution_0.pdb                                  7.957        11.923       14.668       25.446      
+Das_2                                              19_Das_2.pdb                                       19_solution_0.pdb                                  8.812        14.156       17.803       31.490      
+Das_3                                              19_Das_3.pdb                                       19_solution_0.pdb                                  8.536        13.028       16.405       29.393      
+Das_4                                              19_Das_4.pdb                                       19_solution_0.pdb                                  9.465        16.880       20.739       32.403      
+Das_5                                              19_Das_5.pdb                                       19_solution_0.pdb                                  8.708        14.954       19.675       56.182      
+Ding_1                                             19_Ding_1.pdb                                      19_solution_0.pdb                                  9.886        16.223       19.217       30.625      
+Ding_2                                             19_Ding_2.pdb                                      19_solution_0.pdb                                  10.327       16.287       19.991       30.379      
+Ding_3                                             19_Ding_3.pdb                                      19_solution_0.pdb                                  9.731        13.893       17.129       30.635      
+Ding_4                                             19_Ding_4.pdb                                      19_solution_0.pdb                                  9.667        14.839       19.018       29.753      
+Ding_5                                             19_Ding_5.pdb                                      19_solution_0.pdb                                  8.415        13.479       16.409       27.931      
+Dokholyan_1                                        19_Dokholyan_1.pdb                                 19_solution_0.pdb                                  9.711        14.449       18.729       27.012      
+LeeServer_1                                        19_LeeServer_1.pdb                                 19_solution_0.pdb                                  8.573        12.960       15.563       24.254      
+LeeServer_2                                        19_LeeServer_2.pdb                                 19_solution_0.pdb                                  8.583        12.913       15.422       27.197      
+LeeServer_3                                        19_LeeServer_3.pdb                                 19_solution_0.pdb                                  8.280        11.846       14.183       21.355      
+LeeServer_4                                        19_LeeServer_4.pdb                                 19_solution_0.pdb                                  6.401        9.738        11.944       20.288      
+LeeServer_5                                        19_LeeServer_5.pdb                                 19_solution_0.pdb                                  6.852        9.964        11.869       17.776      
+RNAComposer_1                                      19_RNAComposer_1.pdb                               19_solution_0.pdb                                  10.401       16.244       21.429       31.106      
+RNAComposer_2                                      19_RNAComposer_2.pdb                               19_solution_0.pdb                                  10.991       22.951       28.362       44.427      
+RNAComposer_3                                      19_RNAComposer_3.pdb                               19_solution_0.pdb                                  10.644       20.500       27.948       50.697      
+RNAComposer_4                                      19_RNAComposer_4.pdb                               19_solution_0.pdb                                  10.452       21.133       26.520       36.481      
+RNAComposer_5                                      19_RNAComposer_5.pdb                               19_solution_0.pdb                                  11.573       21.914       27.702       41.410      
+RW3D_1                                             19_RW3D_1.pdb                                      19_solution_0.pdb                                  5.512        9.223        10.358       14.014      
+RW3D_10                                            19_RW3D_10.pdb                                     19_solution_0.pdb                                  5.701        9.273        10.405       14.088      
+RW3D_2                                             19_RW3D_2.pdb                                      19_solution_0.pdb                                  5.243        9.135        10.930       15.368      
+RW3D_3                                             19_RW3D_3.pdb                                      19_solution_0.pdb                                  5.872        9.640        10.893       14.577      
+RW3D_4                                             19_RW3D_4.pdb                                      19_solution_0.pdb                                  5.175        9.132        10.647       15.115      
+RW3D_5                                             19_RW3D_5.pdb                                      19_solution_0.pdb                                  5.283        9.240        10.610       14.260      
+RW3D_6                                             19_RW3D_6.pdb                                      19_solution_0.pdb                                  5.546        9.374        10.866       14.809      
+RW3D_7                                             19_RW3D_7.pdb                                      19_solution_0.pdb                                  5.802        9.570        10.816       14.196      
+RW3D_8                                             19_RW3D_8.pdb                                      19_solution_0.pdb                                  5.179        9.364        10.492       13.950      
+RW3D_9                                             19_RW3D_9.pdb                                      19_solution_0.pdb                                  5.667        9.438        10.519       13.745      
+simRNA_1                                           19_simRNA_1.pdb                                    19_solution_0.pdb                                  11.812       20.998       24.291       33.733      
+simRNA_2                                           19_simRNA_2.pdb                                    19_solution_0.pdb                                  11.317       15.338       18.533       30.810      
+simRNA_3                                           19_simRNA_3.pdb                                    19_solution_0.pdb                                  5.478        8.260        11.236       23.638      
+Adamiak_1                                          PZ19_Adamiak_1.pdb                                 19_solution_0.pdb                                  11.903       22.318       27.547       42.811      
+Adamiak_2                                          PZ19_Adamiak_2.pdb                                 19_solution_0.pdb                                  10.051       15.792       19.742       29.531      
+Adamiak_3                                          PZ19_Adamiak_3.pdb                                 19_solution_0.pdb                                  9.095        13.967       16.833       23.901      
+Adamiak_4                                          PZ19_Adamiak_4.pdb                                 19_solution_0.pdb                                  10.344       16.169       22.052       33.554      
+Adamiak_5                                          PZ19_Adamiak_5.pdb                                 19_solution_0.pdb                                  10.395       15.937       19.887       39.228      
+DasLab_1                                           PZ19_DasLab_1.pdb                                  19_solution_0.pdb                                  7.957        11.923       14.668       25.446      
+DasLab_2                                           PZ19_DasLab_2.pdb                                  19_solution_0.pdb                                  8.812        14.156       17.803       31.490      
+DasLab_3                                           PZ19_DasLab_3.pdb                                  19_solution_0.pdb                                  8.536        13.028       16.405       29.393      
+DasLab_4                                           PZ19_DasLab_4.pdb                                  19_solution_0.pdb                                  9.465        16.880       20.739       32.403      
+DasLab_5                                           PZ19_DasLab_5.pdb                                  19_solution_0.pdb                                  8.708        14.954       19.675       56.182      
+

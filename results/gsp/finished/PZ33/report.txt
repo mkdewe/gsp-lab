@@ -1,105 +1,813 @@
 Report for set: PZ33
-Processed 100 / 100 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-PZ33_Ares_10_refined.pdb                           PZ33_Ares_10_solution.pdb                          SUCCESS         29.287                        
-PZ33_Ares_1_refined.pdb                            PZ33_Ares_1_solution.pdb                           SUCCESS         32.1                          
-PZ33_Ares_2_refined.pdb                            PZ33_Ares_2_solution.pdb                           SUCCESS         27.031                        
-PZ33_Ares_3_refined.pdb                            PZ33_Ares_3_solution.pdb                           SUCCESS         38.54                         
-PZ33_Ares_4_refined.pdb                            PZ33_Ares_4_solution.pdb                           SUCCESS         34.078                        
-PZ33_Ares_5_refined.pdb                            PZ33_Ares_5_solution.pdb                           SUCCESS         44.967                        
-PZ33_Ares_6_refined.pdb                            PZ33_Ares_6_solution.pdb                           SUCCESS         28.401                        
-PZ33_Ares_7_refined.pdb                            PZ33_Ares_7_solution.pdb                           SUCCESS         28.221                        
-PZ33_Ares_8_refined.pdb                            PZ33_Ares_8_solution.pdb                           SUCCESS         43.794                        
-PZ33_Ares_9_refined.pdb                            PZ33_Ares_9_solution.pdb                           SUCCESS         40.702                        
-PZ33_Bujnicki_1_refined.pdb                        PZ33_Bujnicki_1_solution.pdb                       SUCCESS         36.412                        
-PZ33_Bujnicki_2_refined.pdb                        PZ33_Bujnicki_2_solution.pdb                       SUCCESS         99.833                        
-PZ33_Bujnicki_3_refined.pdb                        PZ33_Bujnicki_3_solution.pdb                       SUCCESS         46.161                        
-PZ33_Bujnicki_4_refined.pdb                        PZ33_Bujnicki_4_solution.pdb                       SUCCESS         40.796                        
-PZ33_Bujnicki_5_refined.pdb                        PZ33_Bujnicki_5_solution.pdb                       SUCCESS         65.177                        
-PZ33_Chen_10_refined.pdb                           PZ33_Chen_10_solution.pdb                          SUCCESS         25.729                        
-PZ33_Chen_1_refined.pdb                            PZ33_Chen_1_solution.pdb                           SUCCESS         33.933                        
-PZ33_Chen_2_refined.pdb                            PZ33_Chen_2_solution.pdb                           SUCCESS         34.28                         
-PZ33_Chen_3_refined.pdb                            PZ33_Chen_3_solution.pdb                           SUCCESS         35.804                        
-PZ33_Chen_4_refined.pdb                            PZ33_Chen_4_solution.pdb                           SUCCESS         34.25                         
-PZ33_Chen_5_refined.pdb                            PZ33_Chen_5_solution.pdb                           SUCCESS         44.128                        
-PZ33_Chen_6_refined.pdb                            PZ33_Chen_6_solution.pdb                           SUCCESS         31.227                        
-PZ33_Chen_7_refined.pdb                            PZ33_Chen_7_solution.pdb                           SUCCESS         34.896                        
-PZ33_Chen_8_refined.pdb                            PZ33_Chen_8_solution.pdb                           SUCCESS         73.753                        
-PZ33_Chen_9_refined.pdb                            PZ33_Chen_9_solution.pdb                           SUCCESS         25.72                         
-PZ33_Das_10_refined.pdb                            PZ33_Das_10_solution.pdb                           SUCCESS         41.237                        
-PZ33_Das_1_refined.pdb                             PZ33_Das_1_solution.pdb                            SUCCESS         37.487                        
-PZ33_Das_2_refined.pdb                             PZ33_Das_2_solution.pdb                            SUCCESS         100.0                         
-PZ33_Das_3_refined.pdb                             PZ33_Das_3_solution.pdb                            SUCCESS         28.572                        
-PZ33_Das_4_refined.pdb                             PZ33_Das_4_solution.pdb                            SUCCESS         37.628                        
-PZ33_Das_5_refined.pdb                             PZ33_Das_5_solution.pdb                            SUCCESS         22.179                        
-PZ33_Das_6_refined.pdb                             PZ33_Das_6_solution.pdb                            SUCCESS         22.805                        
-PZ33_Das_7_refined.pdb                             PZ33_Das_7_solution.pdb                            SUCCESS         25.528                        
-PZ33_Das_8_refined.pdb                             PZ33_Das_8_solution.pdb                            SUCCESS         34.078                        
-PZ33_Das_9_refined.pdb                             PZ33_Das_9_solution.pdb                            SUCCESS         100.0                         
-PZ33_Dfold2_10_refined.pdb                         PZ33_Dfold2_10_solution.pdb                        SUCCESS         17.461                        
-PZ33_Dfold2_1_refined.pdb                          PZ33_Dfold2_1_solution.pdb                         SUCCESS         99.362                        
-PZ33_Dfold2_2_refined.pdb                          PZ33_Dfold2_2_solution.pdb                         SUCCESS         99.345                        
-PZ33_Dfold2_3_refined.pdb                          PZ33_Dfold2_3_solution.pdb                         SUCCESS         49.72                         
-PZ33_Dfold2_4_refined.pdb                          PZ33_Dfold2_4_solution.pdb                         SUCCESS         49.069                        
-PZ33_Dfold2_5_refined.pdb                          PZ33_Dfold2_5_solution.pdb                         SUCCESS         49.18                         
-PZ33_Dfold2_6_refined.pdb                          PZ33_Dfold2_6_solution.pdb                         SUCCESS         99.572                        
-PZ33_Dfold2_7_refined.pdb                          PZ33_Dfold2_7_solution.pdb                         SUCCESS         88.902                        
-PZ33_Dfold2_8_refined.pdb                          PZ33_Dfold2_8_solution.pdb                         SUCCESS         5.399                         
-PZ33_Dfold2_9_refined.pdb                          PZ33_Dfold2_9_solution.pdb                         SUCCESS         6.157                         
-PZ33_Ding_1_refined.pdb                            PZ33_Ding_1_solution.pdb                           SUCCESS         23.43                         
-PZ33_Ding_2_refined.pdb                            PZ33_Ding_2_solution.pdb                           SUCCESS         14.841                        
-PZ33_Ding_3_refined.pdb                            PZ33_Ding_3_solution.pdb                           SUCCESS         15.881                        
-PZ33_Ding_4_refined.pdb                            PZ33_Ding_4_solution.pdb                           SUCCESS         24.44                         
-PZ33_Ding_5_refined.pdb                            PZ33_Ding_5_solution.pdb                           SUCCESS         22.501                        
-PZ33_Ding_6_refined.pdb                            PZ33_Ding_6_solution.pdb                           SUCCESS         18.476                        
-PZ33_Ding_7_refined.pdb                            PZ33_Ding_7_solution.pdb                           SUCCESS         19.302                        
-PZ33_Ding_8_refined.pdb                            PZ33_Ding_8_solution.pdb                           SUCCESS         19.872                        
-PZ33_Dokholyan_1_refined.pdb                       PZ33_Dokholyan_1_solution.pdb                      SUCCESS         67.446                        
-PZ33_Dokholyan_2_refined.pdb                       PZ33_Dokholyan_2_solution.pdb                      SUCCESS         31.085                        
-PZ33_Farfar2_10_refined.pdb                        PZ33_Farfar2_10_solution.pdb                       SUCCESS         24.954                        
-PZ33_Farfar2_1_refined.pdb                         PZ33_Farfar2_1_solution.pdb                        SUCCESS         28.572                        
-PZ33_Farfar2_2_refined.pdb                         PZ33_Farfar2_2_solution.pdb                        SUCCESS         47.18                         
-PZ33_Farfar2_3_refined.pdb                         PZ33_Farfar2_3_solution.pdb                        SUCCESS         100.0                         
-PZ33_Farfar2_4_refined.pdb                         PZ33_Farfar2_4_solution.pdb                        SUCCESS         26.825                        
-PZ33_Farfar2_5_refined.pdb                         PZ33_Farfar2_5_solution.pdb                        SUCCESS         38.921                        
-PZ33_Farfar2_6_refined.pdb                         PZ33_Farfar2_6_solution.pdb                        SUCCESS         41.738                        
-PZ33_Farfar2_7_refined.pdb                         PZ33_Farfar2_7_solution.pdb                        SUCCESS         26.812                        
-PZ33_Farfar2_8_refined.pdb                         PZ33_Farfar2_8_solution.pdb                        SUCCESS         82.894                        
-PZ33_Farfar2_9_refined.pdb                         PZ33_Farfar2_9_solution.pdb                        SUCCESS         99.657                        
-PZ33_Nithin_1_refined.pdb                          PZ33_Nithin_1_solution.pdb                         SUCCESS         42.312                        
-PZ33_Nithin_2_refined.pdb                          PZ33_Nithin_2_solution.pdb                         SUCCESS         31.424                        
-PZ33_Nithin_3_refined.pdb                          PZ33_Nithin_3_solution.pdb                         SUCCESS         30.105                        
-PZ33_Nithin_4_refined.pdb                          PZ33_Nithin_4_solution.pdb                         SUCCESS         73.637                        
-PZ33_Nithin_5_refined.pdb                          PZ33_Nithin_5_solution.pdb                         SUCCESS         33.252                        
-PZ33_Perez_10_refined.pdb                          PZ33_Perez_10_solution.pdb                         SUCCESS         17.966                        
-PZ33_Perez_1_refined.pdb                           PZ33_Perez_1_solution.pdb                          SUCCESS         27.103                        
-PZ33_Perez_2_refined.pdb                           PZ33_Perez_2_solution.pdb                          SUCCESS         28.786                        
-PZ33_Perez_3_refined.pdb                           PZ33_Perez_3_solution.pdb                          SUCCESS         23.742                        
-PZ33_Perez_4_refined.pdb                           PZ33_Perez_4_solution.pdb                          SUCCESS         19.071                        
-PZ33_Perez_5_refined.pdb                           PZ33_Perez_5_solution.pdb                          SUCCESS         17.996                        
-PZ33_Perez_6_refined.pdb                           PZ33_Perez_6_solution.pdb                          SUCCESS         14.798                        
-PZ33_Perez_7_refined.pdb                           PZ33_Perez_7_solution.pdb                          SUCCESS         30.948                        
-PZ33_Perez_8_refined.pdb                           PZ33_Perez_8_solution.pdb                          SUCCESS         17.345                        
-PZ33_Perez_9_refined.pdb                           PZ33_Perez_9_solution.pdb                          SUCCESS         29.557                        
-PZ33_RNAComposer_1_refined.pdb                     PZ33_RNAComposer_1_solution.pdb                    SUCCESS         34.07                         
-PZ33_RNAComposer_2_refined.pdb                     PZ33_RNAComposer_2_solution.pdb                    SUCCESS         42.227                        
-PZ33_RNAComposer_3_refined.pdb                     PZ33_RNAComposer_3_solution.pdb                    SUCCESS         35.329                        
-PZ33_RNAComposer_4_refined.pdb                     PZ33_RNAComposer_4_solution.pdb                    SUCCESS         26.174                        
-PZ33_RNAComposer_5_refined.pdb                     PZ33_RNAComposer_5_solution.pdb                    SUCCESS         99.944                        
-PZ33_SimRNA_1_refined.pdb                          PZ33_SimRNA_1_solution.pdb                         SUCCESS         99.863                        
-PZ33_SimRNA_2_refined.pdb                          PZ33_SimRNA_2_solution.pdb                         SUCCESS         45.849                        
-PZ33_SimRNA_3_refined.pdb                          PZ33_SimRNA_3_solution.pdb                         SUCCESS         45.913                        
-PZ33_SimRNA_4_refined.pdb                          PZ33_SimRNA_4_solution.pdb                         SUCCESS         40.844                        
-PZ33_SimRNA_5_refined.pdb                          PZ33_SimRNA_5_solution.pdb                         SUCCESS         65.271                        
-PZ33_Szachniuk_1_refined.pdb                       PZ33_Szachniuk_1_solution.pdb                      SUCCESS         36.699                        
-PZ33_Szachniuk_2_refined.pdb                       PZ33_Szachniuk_2_solution.pdb                      SUCCESS         35.072                        
-PZ33_Szachniuk_3_refined.pdb                       PZ33_Szachniuk_3_solution.pdb                      SUCCESS         17.816                        
-PZ33_Szachniuk_4_refined.pdb                       PZ33_Szachniuk_4_solution.pdb                      SUCCESS         25.785                        
-PZ33_Szachniuk_5_refined.pdb                       PZ33_Szachniuk_5_solution.pdb                      SUCCESS         26.076                        
-PZ33_Xiao_1_refined.pdb                            PZ33_Xiao_1_solution.pdb                           SUCCESS         38.005                        
-PZ33_Xiao_2_refined.pdb                            PZ33_Xiao_2_solution.pdb                           SUCCESS         36.557                        
-PZ33_Xiao_3_refined.pdb                            PZ33_Xiao_3_solution.pdb                           SUCCESS         66.238                        
-PZ33_Xiao_4_refined.pdb                            PZ33_Xiao_4_solution.pdb                           SUCCESS         22.779                        
-PZ33_Xiao_5_refined.pdb                            PZ33_Xiao_5_solution.pdb                           SUCCESS         30.846                        
+Processed 100 / 100 model groups (best score per group)
+Failed: 701 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ares_10                                            PZ33_Ares_10_vs_PZ33__2_B_refined.pdb              PZ33_Ares_10_vs_PZ33__2_B_solution.pdb             20.269       27.047       32.772       100.000     
+Ares_1                                             PZ33_Ares_1_refined.pdb                            PZ33_Ares_1_solution.pdb                           18.701       27.562       34.781       100.000     
+Ares_2                                             PZ33_Ares_2_vs_PZ33__2_A_refined.pdb               PZ33_Ares_2_vs_PZ33__2_A_solution.pdb              17.782       24.407       29.269       80.153      
+Ares_3                                             PZ33_Ares_3_vs_PZ33__4_B_refined.pdb               PZ33_Ares_3_vs_PZ33__4_B_solution.pdb              18.576       31.195       53.640       100.000     
+Ares_4                                             PZ33_Ares_4_vs_PZ33__0_B_refined.pdb               PZ33_Ares_4_vs_PZ33__0_B_solution.pdb              20.557       30.536       39.680       100.000     
+Ares_5                                             PZ33_Ares_5_vs_PZ33__2_B_refined.pdb               PZ33_Ares_5_vs_PZ33__2_B_solution.pdb              20.728       33.361       63.215       100.000     
+Ares_6                                             PZ33_Ares_6_vs_PZ33__2_B_refined.pdb               PZ33_Ares_6_vs_PZ33__2_B_solution.pdb              18.771       27.024       33.013       100.000     
+Ares_7                                             PZ33_Ares_7_vs_PZ33__4_B_refined.pdb               PZ33_Ares_7_vs_PZ33__4_B_solution.pdb              19.652       26.156       32.122       100.000     
+Ares_8                                             PZ33_Ares_8_vs_PZ33__2_B_refined.pdb               PZ33_Ares_8_vs_PZ33__2_B_solution.pdb              28.156       42.097       49.237       100.000     
+Ares_9                                             PZ33_Ares_9_vs_PZ33__0_B_refined.pdb               PZ33_Ares_9_vs_PZ33__0_B_solution.pdb              21.290       39.745       46.838       100.000     
+Bujnicki_1                                         PZ33_Bujnicki_1_vs_PZ33__0_B_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__0_B_solution.pdb          18.798       30.842       42.218       100.000     
+Bujnicki_2                                         PZ33_Bujnicki_2_vs_PZ33__4_B_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__4_B_solution.pdb          22.501       84.681       99.903       100.000     
+Bujnicki_3                                         PZ33_Bujnicki_3_vs_PZ33__0_B_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__0_B_solution.pdb          23.002       42.176       55.059       100.000     
+Bujnicki_4                                         PZ33_Bujnicki_4_vs_PZ33__4_B_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__4_B_solution.pdb          20.928       35.008       47.455       100.000     
+Bujnicki_5                                         PZ33_Bujnicki_5_vs_PZ33__4_B_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__4_B_solution.pdb          18.005       38.209       80.093       100.000     
+Chen_10                                            PZ33_Chen_10_vs_PZ33__4_B_refined.pdb              PZ33_Chen_10_vs_PZ33__4_B_solution.pdb             13.241       24.463       28.787       67.488      
+Chen_1                                             PZ33_Chen_1_vs_PZ33__4_B_refined.pdb               PZ33_Chen_1_vs_PZ33__4_B_solution.pdb              12.303       33.087       39.313       97.402      
+Chen_2                                             PZ33_Chen_2_vs_PZ33__0_A_refined.pdb               PZ33_Chen_2_vs_PZ33__0_A_solution.pdb              12.276       28.035       37.142       99.768      
+Chen_3                                             PZ33_Chen_3_vs_PZ33__0_A_refined.pdb               PZ33_Chen_3_vs_PZ33__0_A_solution.pdb              11.074       32.243       38.794       99.643      
+Chen_4                                             PZ33_Chen_4_vs_PZ33__0_A_refined.pdb               PZ33_Chen_4_vs_PZ33__0_A_solution.pdb              11.069       27.325       37.110       100.000     
+Chen_5                                             PZ33_Chen_5_vs_PZ33__0_B_refined.pdb               PZ33_Chen_5_vs_PZ33__0_B_solution.pdb              16.766       36.409       51.598       100.000     
+Chen_6                                             PZ33_Chen_6_vs_PZ33__0_A_refined.pdb               PZ33_Chen_6_vs_PZ33__0_A_solution.pdb              10.476       27.019       33.834       99.012      
+Chen_7                                             PZ33_Chen_7_vs_PZ33__2_A_refined.pdb               PZ33_Chen_7_vs_PZ33__2_A_solution.pdb              9.163        27.107       38.478       100.000     
+Chen_8                                             PZ33_Chen_8_vs_PZ33__4_B_refined.pdb               PZ33_Chen_8_vs_PZ33__4_B_solution.pdb              12.767       38.868       77.583       100.000     
+Chen_9                                             PZ33_Chen_9_vs_PZ33__2_A_refined.pdb               PZ33_Chen_9_vs_PZ33__2_A_solution.pdb              10.007       22.779       28.314       65.219      
+Das_10                                             PZ33_Das_10_vs_PZ33__4_B_refined.pdb               PZ33_Das_10_vs_PZ33__4_B_solution.pdb              20.404       39.838       46.676       69.450      
+Das_1                                              PZ33_Das_1_vs_PZ33__2_B_refined.pdb                PZ33_Das_1_vs_PZ33__2_B_solution.pdb               20.895       35.755       41.758       100.000     
+Das_2                                              PZ33_Das_2_vs_PZ33__2_A_refined.pdb                PZ33_Das_2_vs_PZ33__2_A_solution.pdb               19.346       49.395       100.000      100.000     
+Das_3                                              PZ33_Das_3_vs_PZ33__2_B_refined.pdb                PZ33_Das_3_vs_PZ33__2_B_solution.pdb               20.111       26.824       32.897       100.000     
+Das_4                                              PZ33_Das_4_vs_PZ33__2_A_refined.pdb                PZ33_Das_4_vs_PZ33__2_A_solution.pdb               19.049       36.400       40.919       58.311      
+Das_5                                              PZ33_Das_5_vs_PZ33__4_B_refined.pdb                PZ33_Das_5_vs_PZ33__4_B_solution.pdb               13.250       20.617       25.943       47.441      
+Das_6                                              PZ33_Das_6_vs_PZ33__4_B_refined.pdb                PZ33_Das_6_vs_PZ33__4_B_solution.pdb               17.731       22.366       27.042       56.326      
+Das_7                                              PZ33_Das_7_vs_PZ33__2_B_refined.pdb                PZ33_Das_7_vs_PZ33__2_B_solution.pdb               19.304       25.006       29.376       48.624      
+Das_8                                              PZ33_Das_8_vs_PZ33__0_B_refined.pdb                PZ33_Das_8_vs_PZ33__0_B_solution.pdb               20.557       30.536       39.680       100.000     
+Das_9                                              PZ33_Das_9_vs_PZ33__2_B_refined.pdb                PZ33_Das_9_vs_PZ33__2_B_solution.pdb               34.451       96.075       100.000      100.000     
+Dfold2_10                                          PZ33_Dfold2_10_vs_PZ33__4_B_refined.pdb            PZ33_Dfold2_10_vs_PZ33__4_B_solution.pdb           10.791       17.898       22.083       39.986      
+Dfold2_1                                           PZ33_Dfold2_1_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_1_vs_PZ33__4_B_solution.pdb            19.026       49.061       99.666       100.000     
+Dfold2_2                                           PZ33_Dfold2_2_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_2_vs_PZ33__4_B_solution.pdb            17.727       53.134       99.647       100.000     
+Dfold2_3                                           PZ33_Dfold2_3_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_3_vs_PZ33__4_B_solution.pdb            20.807       44.783       56.409       100.000     
+Dfold2_4                                           PZ33_Dfold2_4_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_4_vs_PZ33__4_B_solution.pdb            21.215       44.839       55.820       100.000     
+Dfold2_5                                           PZ33_Dfold2_5_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_5_vs_PZ33__4_B_solution.pdb            22.876       44.426       55.583       100.000     
+Dfold2_6                                           PZ33_Dfold2_6_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_6_vs_PZ33__4_B_solution.pdb            21.248       51.621       99.865       100.000     
+Dfold2_7                                           PZ33_Dfold2_7_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_7_vs_PZ33__4_B_solution.pdb            22.074       45.038       94.521       100.000     
+Dfold2_8                                           PZ33_Dfold2_8_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_8_vs_PZ33__7_B_solution.pdb            2.890        4.825        6.166        11.775      
+Dfold2_9                                           PZ33_Dfold2_9_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_9_vs_PZ33__7_A_solution.pdb            2.658        5.293        6.954        11.988      
+Ding_1                                             PZ33_Ding_1_vs_PZ33__4_B_refined.pdb               PZ33_Ding_1_vs_PZ33__4_B_solution.pdb              8.100        21.990       26.657       62.988      
+Ding_2                                             PZ33_Ding_2_vs_PZ33__2_A_refined.pdb               PZ33_Ding_2_vs_PZ33__2_A_solution.pdb              7.641        14.298       16.544       22.116      
+Ding_3                                             PZ33_Ding_3_vs_PZ33__0_A_refined.pdb               PZ33_Ding_3_vs_PZ33__0_A_solution.pdb              6.685        11.311       17.207       25.150      
+Ding_4                                             PZ33_Ding_4_vs_PZ33__2_A_refined.pdb               PZ33_Ding_4_vs_PZ33__2_A_solution.pdb              6.750        20.032       28.235       53.723      
+Ding_5                                             PZ33_Ding_5_vs_PZ33__2_B_refined.pdb               PZ33_Ding_5_vs_PZ33__2_B_solution.pdb              13.514       22.556       26.579       48.068      
+Ding_6                                             PZ33_Ding_6_vs_PZ33__4_B_refined.pdb               PZ33_Ding_6_vs_PZ33__4_B_solution.pdb              7.214        12.503       21.396       40.937      
+Ding_7                                             PZ33_Ding_7_vs_PZ33__2_B_refined.pdb               PZ33_Ding_7_vs_PZ33__2_B_solution.pdb              10.234       18.576       24.760       51.501      
+Ding_8                                             PZ33_Ding_8_vs_PZ33__2_A_refined.pdb               PZ33_Ding_8_vs_PZ33__2_A_solution.pdb              7.033        15.119       22.445       38.585      
+Dokholyan_1                                        PZ33_Dokholyan_1_vs_PZ33__4_B_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__4_B_solution.pdb         14.804       34.039       99.160       100.000     
+Dokholyan_2                                        PZ33_Dokholyan_2_vs_PZ33__4_B_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__4_B_solution.pdb         13.547       29.404       37.397       55.815      
+Farfar2_10                                         PZ33_Farfar2_10_vs_PZ33__4_B_refined.pdb           PZ33_Farfar2_10_vs_PZ33__4_B_solution.pdb          18.158       24.203       28.968       96.391      
+Farfar2_1                                          PZ33_Farfar2_1_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_1_vs_PZ33__2_B_solution.pdb           20.111       26.824       32.897       100.000     
+Farfar2_2                                          PZ33_Farfar2_2_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_2_vs_PZ33__2_B_solution.pdb           20.701       33.728       67.576       100.000     
+Farfar2_3                                          PZ33_Farfar2_3_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_3_vs_PZ33__2_B_solution.pdb           34.451       96.075       100.000      100.000     
+Farfar2_4                                          PZ33_Farfar2_4_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_4_vs_PZ33__2_B_solution.pdb           18.914       25.066       29.627       100.000     
+Farfar2_5                                          PZ33_Farfar2_5_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_5_vs_PZ33__4_B_solution.pdb           19.559       34.238       43.531       100.000     
+Farfar2_6                                          PZ33_Farfar2_6_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_6_vs_PZ33__0_B_solution.pdb           22.366       40.436       47.363       100.000     
+Farfar2_7                                          PZ33_Farfar2_7_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_7_vs_PZ33__0_B_solution.pdb           18.321       24.987       30.155       96.173      
+Farfar2_8                                          PZ33_Farfar2_8_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_8_vs_PZ33__7_B_solution.pdb           20.158       33.909       82.436       100.000     
+Farfar2_9                                          PZ33_Farfar2_9_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_9_vs_PZ33__0_B_solution.pdb           24.695       87.952       99.940       100.000     
+Nithin_1                                           PZ33_Nithin_1_vs_PZ33__4_B_refined.pdb             PZ33_Nithin_1_vs_PZ33__4_B_solution.pdb            12.280       33.449       47.762       100.000     
+Nithin_2                                           PZ33_Nithin_2_vs_PZ33__4_B_refined.pdb             PZ33_Nithin_2_vs_PZ33__4_B_solution.pdb            10.448       26.263       41.434       100.000     
+Nithin_3                                           PZ33_Nithin_3_vs_PZ33__2_B_refined.pdb             PZ33_Nithin_3_vs_PZ33__2_B_solution.pdb            11.185       23.192       34.669       100.000     
+Nithin_4                                           PZ33_Nithin_4_vs_PZ33__4_B_refined.pdb             PZ33_Nithin_4_vs_PZ33__4_B_solution.pdb            15.161       39.708       71.672       100.000     
+Nithin_5                                           PZ33_Nithin_5_vs_PZ33__2_B_refined.pdb             PZ33_Nithin_5_vs_PZ33__2_B_solution.pdb            14.270       28.768       38.868       100.000     
+Perez_10                                           PZ33_Perez_10_vs_PZ33__4_B_refined.pdb             PZ33_Perez_10_vs_PZ33__4_B_solution.pdb            7.520        17.073       21.331       31.403      
+Perez_1                                            PZ33_Perez_1_vs_PZ33__4_B_refined.pdb              PZ33_Perez_1_vs_PZ33__4_B_solution.pdb             16.400       23.981       30.002       99.592      
+Perez_2                                            PZ33_Perez_2_vs_PZ33__4_B_refined.pdb              PZ33_Perez_2_vs_PZ33__4_B_solution.pdb             16.451       24.291       30.360       99.513      
+Perez_3                                            PZ33_Perez_3_vs_PZ33__4_B_refined.pdb              PZ33_Perez_3_vs_PZ33__4_B_solution.pdb             5.572        20.789       26.815       40.464      
+Perez_4                                            PZ33_Perez_4_vs_PZ33__4_B_refined.pdb              PZ33_Perez_4_vs_PZ33__4_B_solution.pdb             5.846        17.731       22.000       40.404      
+Perez_5                                            PZ33_Perez_5_vs_PZ33__4_B_refined.pdb              PZ33_Perez_5_vs_PZ33__4_B_solution.pdb             8.430        16.929       20.812       38.627      
+Perez_6                                            PZ33_Perez_6_vs_PZ33__2_B_refined.pdb              PZ33_Perez_6_vs_PZ33__2_B_solution.pdb             5.224        13.473       16.729       25.822      
+Perez_7                                            PZ33_Perez_7_vs_PZ33__0_A_refined.pdb              PZ33_Perez_7_vs_PZ33__0_A_solution.pdb             7.019        25.442       33.533       54.215      
+Perez_8                                            PZ33_Perez_8_vs_PZ33__4_B_refined.pdb              PZ33_Perez_8_vs_PZ33__4_B_solution.pdb             10.972       16.200       20.775       34.465      
+Perez_9                                            PZ33_Perez_9_vs_PZ33__0_A_refined.pdb              PZ33_Perez_9_vs_PZ33__0_A_solution.pdb             6.235        24.129       32.025       47.711      
+RNAComposer_1                                      PZ33_RNAComposer_1_vs_PZ33__0_B_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__0_B_solution.pdb       25.136       34.201       37.717       49.900      
+RNAComposer_2                                      PZ33_RNAComposer_2_vs_PZ33__0_B_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__0_B_solution.pdb       25.683       40.315       49.023       100.000     
+RNAComposer_3                                      PZ33_RNAComposer_3_vs_PZ33__0_B_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__0_B_solution.pdb       21.554       36.697       38.998       50.341      
+RNAComposer_4                                      PZ33_RNAComposer_4_vs_PZ33__0_B_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__0_B_solution.pdb       18.631       25.646       29.093       58.256      
+RNAComposer_5                                      PZ33_RNAComposer_5_vs_PZ33__0_B_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__0_B_solution.pdb       27.112       77.982       99.940       100.000     
+SimRNA_1                                           PZ33_SimRNA_1_vs_PZ33__4_B_refined.pdb             PZ33_SimRNA_1_vs_PZ33__4_B_solution.pdb            22.514       87.428       99.903       100.000     
+SimRNA_2                                           PZ33_SimRNA_2_vs_PZ33__0_B_refined.pdb             PZ33_SimRNA_2_vs_PZ33__0_B_solution.pdb            22.858       42.125       54.451       100.000     
+SimRNA_3                                           PZ33_SimRNA_3_vs_PZ33__4_B_refined.pdb             PZ33_SimRNA_3_vs_PZ33__4_B_solution.pdb            17.165       41.902       54.103       100.000     
+SimRNA_4                                           PZ33_SimRNA_4_vs_PZ33__4_B_refined.pdb             PZ33_SimRNA_4_vs_PZ33__4_B_solution.pdb            20.742       34.994       47.590       100.000     
+SimRNA_5                                           PZ33_SimRNA_5_vs_PZ33__4_B_refined.pdb             PZ33_SimRNA_5_vs_PZ33__4_B_solution.pdb            17.657       37.931       80.779       100.000     
+Szachniuk_1                                        PZ33_Szachniuk_1_vs_PZ33__2_A_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__2_A_solution.pdb         22.352       36.372       40.492       70.740      
+Szachniuk_2                                        PZ33_Szachniuk_2_vs_PZ33__4_B_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__4_B_solution.pdb         13.551       26.059       38.826       75.987      
+Szachniuk_3                                        PZ33_Szachniuk_3_vs_PZ33__4_B_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__4_B_solution.pdb         12.702       17.323       20.830       30.564      
+Szachniuk_4                                        PZ33_Szachniuk_4_vs_PZ33__0_B_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__0_B_solution.pdb         18.075       25.117       28.597       57.124      
+Szachniuk_5                                        PZ33_Szachniuk_5_vs_PZ33__4_B_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__4_B_solution.pdb         19.221       25.335       29.645       52.466      
+Xiao_1                                             PZ33_Xiao_1_vs_PZ33__2_B_refined.pdb               PZ33_Xiao_1_vs_PZ33__2_B_solution.pdb              20.784       30.721       46.388       100.000     
+Xiao_2                                             PZ33_Xiao_2_vs_PZ33__0_B_refined.pdb               PZ33_Xiao_2_vs_PZ33__0_B_solution.pdb              20.919       32.721       42.779       99.805      
+Xiao_3                                             PZ33_Xiao_3_vs_PZ33__0_B_refined.pdb               PZ33_Xiao_3_vs_PZ33__0_B_solution.pdb              21.457       40.835       74.697       100.000     
+Xiao_4                                             PZ33_Xiao_4_vs_PZ33__4_B_refined.pdb               PZ33_Xiao_4_vs_PZ33__4_B_solution.pdb              14.141       20.385       25.479       65.646      
+Xiao_5                                             PZ33_Xiao_5_vs_PZ33__4_B_refined.pdb               PZ33_Xiao_5_vs_PZ33__4_B_solution.pdb              17.778       25.280       34.526       92.939      
+
+=== FAILED MODELS ===
+Model                                              Solution                                           Status               Details                       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+PZ33_Ares_10_vs_PZ33__0_A_refined.pdb              PZ33_Ares_10_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 19.183, 4.0A: 25.716, 5.0A: 31.733, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__0_B_refined.pdb              PZ33_Ares_10_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 19.726, 4.0A: 26.982, 5.0A: 32.568, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__2_A_refined.pdb              PZ33_Ares_10_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 18.933, 4.0A: 25.948, 5.0A: 32.118, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__4_A_refined.pdb              PZ33_Ares_10_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 19.165, 4.0A: 26.119, 5.0A: 31.997, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__4_B_refined.pdb              PZ33_Ares_10_vs_PZ33__4_B_solution.pdb             SUCCESS              2.0A: 19.536, 4.0A: 27.024, 5.0A: 32.702, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__7_A_refined.pdb              PZ33_Ares_10_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 19.049, 4.0A: 26.124, 5.0A: 31.853, 8.0A: 100.0
+PZ33_Ares_10_vs_PZ33__7_B_refined.pdb              PZ33_Ares_10_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 19.086, 4.0A: 26.62, 5.0A: 32.582, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__0_A_refined.pdb               PZ33_Ares_1_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 18.701, 4.0A: 27.562, 5.0A: 34.781, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__0_B_refined.pdb               PZ33_Ares_1_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 18.39, 4.0A: 28.337, 5.0A: 36.071, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__2_A_refined.pdb               PZ33_Ares_1_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 18.534, 4.0A: 27.135, 5.0A: 34.507, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__2_B_refined.pdb               PZ33_Ares_1_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 18.075, 4.0A: 28.272, 5.0A: 35.959, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__4_A_refined.pdb               PZ33_Ares_1_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 18.571, 4.0A: 27.14, 5.0A: 34.971, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__4_B_refined.pdb               PZ33_Ares_1_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 18.205, 4.0A: 28.365, 5.0A: 35.797, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__7_A_refined.pdb               PZ33_Ares_1_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 18.678, 4.0A: 27.794, 5.0A: 34.971, 8.0A: 100.0
+PZ33_Ares_1_vs_PZ33__7_B_refined.pdb               PZ33_Ares_1_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 18.144, 4.0A: 28.133, 5.0A: 36.326, 8.0A: 100.0
+PZ33_Ares_2_vs_PZ33__0_A_refined.pdb               PZ33_Ares_2_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 17.365, 4.0A: 24.333, 5.0A: 29.288, 8.0A: 75.996
+PZ33_Ares_2_vs_PZ33__0_B_refined.pdb               PZ33_Ares_2_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 16.841, 4.0A: 24.969, 5.0A: 29.413, 8.0A: 71.728
+PZ33_Ares_2_vs_PZ33__2_B_refined.pdb               PZ33_Ares_2_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 17.314, 4.0A: 25.358, 5.0A: 29.923, 8.0A: 72.967
+PZ33_Ares_2_vs_PZ33__4_A_refined.pdb               PZ33_Ares_2_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 17.653, 4.0A: 24.212, 5.0A: 29.33, 8.0A: 75.723
+PZ33_Ares_2_vs_PZ33__4_B_refined.pdb               PZ33_Ares_2_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 16.372, 4.0A: 25.164, 5.0A: 30.114, 8.0A: 75.917
+PZ33_Ares_2_vs_PZ33__7_A_refined.pdb               PZ33_Ares_2_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 17.569, 4.0A: 24.431, 5.0A: 29.316, 8.0A: 79.93
+PZ33_Ares_2_vs_PZ33__7_B_refined.pdb               PZ33_Ares_2_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 16.831, 4.0A: 24.992, 5.0A: 29.761, 8.0A: 74.159
+PZ33_Ares_3_vs_PZ33__0_A_refined.pdb               PZ33_Ares_3_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 16.98, 4.0A: 28.986, 5.0A: 41.758, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__0_B_refined.pdb               PZ33_Ares_3_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 18.089, 4.0A: 31.185, 5.0A: 49.571, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__2_A_refined.pdb               PZ33_Ares_3_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 17.787, 4.0A: 29.074, 5.0A: 43.869, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__2_B_refined.pdb               PZ33_Ares_3_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 18.353, 4.0A: 31.106, 5.0A: 49.678, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__4_A_refined.pdb               PZ33_Ares_3_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 17.193, 4.0A: 28.675, 5.0A: 42.347, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__7_A_refined.pdb               PZ33_Ares_3_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 16.938, 4.0A: 29.0, 5.0A: 43.405, 8.0A: 100.0
+PZ33_Ares_3_vs_PZ33__7_B_refined.pdb               PZ33_Ares_3_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 17.722, 4.0A: 30.847, 5.0A: 49.724, 8.0A: 100.0
+PZ33_Ares_4_vs_PZ33__0_A_refined.pdb               PZ33_Ares_4_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 19.137, 4.0A: 28.508, 5.0A: 36.924, 8.0A: 99.93
+PZ33_Ares_4_vs_PZ33__2_A_refined.pdb               PZ33_Ares_4_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 19.327, 4.0A: 28.611, 5.0A: 36.697, 8.0A: 100.0
+PZ33_Ares_4_vs_PZ33__2_B_refined.pdb               PZ33_Ares_4_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 20.445, 4.0A: 31.009, 5.0A: 39.708, 8.0A: 100.0
+PZ33_Ares_4_vs_PZ33__4_A_refined.pdb               PZ33_Ares_4_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 19.165, 4.0A: 28.444, 5.0A: 36.817, 8.0A: 99.968
+PZ33_Ares_4_vs_PZ33__4_B_refined.pdb               PZ33_Ares_4_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.251, 4.0A: 30.489, 5.0A: 39.369, 8.0A: 100.0
+PZ33_Ares_4_vs_PZ33__7_A_refined.pdb               PZ33_Ares_4_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 19.193, 4.0A: 28.791, 5.0A: 36.841, 8.0A: 100.0
+PZ33_Ares_4_vs_PZ33__7_B_refined.pdb               PZ33_Ares_4_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 20.315, 4.0A: 30.67, 5.0A: 39.466, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__0_A_refined.pdb               PZ33_Ares_5_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 19.323, 4.0A: 30.888, 5.0A: 48.722, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__0_B_refined.pdb               PZ33_Ares_5_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 20.603, 4.0A: 33.375, 5.0A: 67.548, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__2_A_refined.pdb               PZ33_Ares_5_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 19.058, 4.0A: 30.313, 5.0A: 45.553, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__4_A_refined.pdb               PZ33_Ares_5_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 19.17, 4.0A: 30.29, 5.0A: 46.657, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__4_B_refined.pdb               PZ33_Ares_5_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.45, 4.0A: 33.129, 5.0A: 52.893, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__7_A_refined.pdb               PZ33_Ares_5_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 19.179, 4.0A: 30.698, 5.0A: 47.228, 8.0A: 100.0
+PZ33_Ares_5_vs_PZ33__7_B_refined.pdb               PZ33_Ares_5_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 20.445, 4.0A: 33.18, 5.0A: 54.512, 8.0A: 100.0
+PZ33_Ares_6_vs_PZ33__0_A_refined.pdb               PZ33_Ares_6_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 15.727, 4.0A: 24.987, 5.0A: 30.772, 8.0A: 100.0
+PZ33_Ares_6_vs_PZ33__0_B_refined.pdb               PZ33_Ares_6_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 18.724, 4.0A: 26.402, 5.0A: 32.67, 8.0A: 99.833
+PZ33_Ares_6_vs_PZ33__2_A_refined.pdb               PZ33_Ares_6_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 17.588, 4.0A: 25.776, 5.0A: 32.526, 8.0A: 100.0
+PZ33_Ares_6_vs_PZ33__4_A_refined.pdb               PZ33_Ares_6_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 15.44, 4.0A: 25.247, 5.0A: 31.037, 8.0A: 99.949
+PZ33_Ares_6_vs_PZ33__4_B_refined.pdb               PZ33_Ares_6_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 18.631, 4.0A: 26.797, 5.0A: 33.036, 8.0A: 100.0
+PZ33_Ares_6_vs_PZ33__7_A_refined.pdb               PZ33_Ares_6_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 15.194, 4.0A: 25.34, 5.0A: 31.25, 8.0A: 100.0
+PZ33_Ares_6_vs_PZ33__7_B_refined.pdb               PZ33_Ares_6_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 17.959, 4.0A: 25.734, 5.0A: 32.09, 8.0A: 99.731
+PZ33_Ares_7_vs_PZ33__0_A_refined.pdb               PZ33_Ares_7_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 17.936, 4.0A: 24.31, 5.0A: 30.578, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__0_B_refined.pdb               PZ33_Ares_7_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 18.993, 4.0A: 25.98, 5.0A: 31.705, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__2_A_refined.pdb               PZ33_Ares_7_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 18.33, 4.0A: 24.718, 5.0A: 30.856, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__2_B_refined.pdb               PZ33_Ares_7_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 19.142, 4.0A: 26.546, 5.0A: 32.104, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__4_A_refined.pdb               PZ33_Ares_7_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 17.926, 4.0A: 24.115, 5.0A: 30.202, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__7_A_refined.pdb               PZ33_Ares_7_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 17.782, 4.0A: 24.44, 5.0A: 30.772, 8.0A: 100.0
+PZ33_Ares_7_vs_PZ33__7_B_refined.pdb               PZ33_Ares_7_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 18.863, 4.0A: 25.46, 5.0A: 31.561, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__0_A_refined.pdb               PZ33_Ares_8_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 23.619, 4.0A: 39.838, 5.0A: 47.451, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__0_B_refined.pdb               PZ33_Ares_8_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 27.321, 4.0A: 42.227, 5.0A: 49.631, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__2_A_refined.pdb               PZ33_Ares_8_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 24.055, 4.0A: 40.125, 5.0A: 46.982, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__4_A_refined.pdb               PZ33_Ares_8_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 23.702, 4.0A: 39.819, 5.0A: 47.196, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__4_B_refined.pdb               PZ33_Ares_8_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 27.859, 4.0A: 41.744, 5.0A: 49.098, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__7_A_refined.pdb               PZ33_Ares_8_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 23.145, 4.0A: 39.828, 5.0A: 47.632, 8.0A: 100.0
+PZ33_Ares_8_vs_PZ33__7_B_refined.pdb               PZ33_Ares_8_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 26.013, 4.0A: 41.192, 5.0A: 48.198, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__0_A_refined.pdb               PZ33_Ares_9_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 15.75, 4.0A: 36.688, 5.0A: 44.101, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__2_A_refined.pdb               PZ33_Ares_9_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 16.984, 4.0A: 37.17, 5.0A: 43.818, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__2_B_refined.pdb               PZ33_Ares_9_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 19.907, 4.0A: 39.068, 5.0A: 46.189, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__4_A_refined.pdb               PZ33_Ares_9_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 15.611, 4.0A: 36.794, 5.0A: 43.883, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__4_B_refined.pdb               PZ33_Ares_9_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.348, 4.0A: 39.072, 5.0A: 46.175, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__7_A_refined.pdb               PZ33_Ares_9_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 15.296, 4.0A: 37.087, 5.0A: 42.941, 8.0A: 100.0
+PZ33_Ares_9_vs_PZ33__7_B_refined.pdb               PZ33_Ares_9_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 19.805, 4.0A: 38.557, 5.0A: 45.052, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__0_A_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 18.743, 4.0A: 30.118, 5.0A: 39.453, 8.0A: 99.977
+PZ33_Bujnicki_1_vs_PZ33__2_A_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 18.511, 4.0A: 29.2, 5.0A: 38.887, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__2_B_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 18.019, 4.0A: 29.668, 5.0A: 40.394, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__4_A_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 18.348, 4.0A: 29.687, 5.0A: 39.221, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__4_B_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__4_B_solution.pdb          SUCCESS              2.0A: 17.871, 4.0A: 29.362, 5.0A: 40.111, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__7_A_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 18.395, 4.0A: 30.397, 5.0A: 39.402, 8.0A: 100.0
+PZ33_Bujnicki_1_vs_PZ33__7_B_refined.pdb           PZ33_Bujnicki_1_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 18.126, 4.0A: 29.872, 5.0A: 40.547, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__0_A_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 18.933, 4.0A: 72.535, 5.0A: 99.819, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__0_B_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__0_B_solution.pdb          SUCCESS              2.0A: 22.129, 4.0A: 91.946, 5.0A: 99.903, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__2_A_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 19.935, 4.0A: 68.87, 5.0A: 99.865, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__2_B_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 21.392, 4.0A: 86.421, 5.0A: 99.903, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__4_A_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 18.348, 4.0A: 71.686, 5.0A: 99.833, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__7_A_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 16.873, 4.0A: 70.397, 5.0A: 99.875, 8.0A: 100.0
+PZ33_Bujnicki_2_vs_PZ33__7_B_refined.pdb           PZ33_Bujnicki_2_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 21.897, 4.0A: 82.473, 5.0A: 99.903, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__0_A_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 20.028, 4.0A: 39.429, 5.0A: 50.016, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__2_A_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 20.121, 4.0A: 39.174, 5.0A: 49.39, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__2_B_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 22.399, 4.0A: 41.42, 5.0A: 53.166, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__4_A_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 19.545, 4.0A: 39.295, 5.0A: 49.719, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__4_B_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__4_B_solution.pdb          SUCCESS              2.0A: 22.811, 4.0A: 40.923, 5.0A: 52.396, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__7_A_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 18.399, 4.0A: 38.826, 5.0A: 48.592, 8.0A: 100.0
+PZ33_Bujnicki_3_vs_PZ33__7_B_refined.pdb           PZ33_Bujnicki_3_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 22.44, 4.0A: 40.65, 5.0A: 51.849, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__0_A_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 15.82, 4.0A: 30.93, 5.0A: 44.203, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__0_B_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__0_B_solution.pdb          SUCCESS              2.0A: 19.954, 4.0A: 33.969, 5.0A: 47.469, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__2_A_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 18.167, 4.0A: 33.473, 5.0A: 49.163, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__2_B_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 20.06, 4.0A: 33.653, 5.0A: 46.968, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__4_A_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 15.621, 4.0A: 31.422, 5.0A: 45.655, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__7_A_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 15.532, 4.0A: 31.784, 5.0A: 46.625, 8.0A: 100.0
+PZ33_Bujnicki_4_vs_PZ33__7_B_refined.pdb           PZ33_Bujnicki_4_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 19.685, 4.0A: 32.74, 5.0A: 44.588, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__0_A_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 16.006, 4.0A: 32.517, 5.0A: 70.619, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__0_B_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__0_B_solution.pdb          SUCCESS              2.0A: 17.634, 4.0A: 37.912, 5.0A: 76.539, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__2_A_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 16.173, 4.0A: 35.249, 5.0A: 79.183, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__2_B_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 17.328, 4.0A: 36.544, 5.0A: 75.152, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__4_A_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 15.866, 4.0A: 33.774, 5.0A: 73.185, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__7_A_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 15.917, 4.0A: 33.714, 5.0A: 76.479, 8.0A: 100.0
+PZ33_Bujnicki_5_vs_PZ33__7_B_refined.pdb           PZ33_Bujnicki_5_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 16.585, 4.0A: 36.233, 5.0A: 76.395, 8.0A: 100.0
+PZ33_Chen_10_vs_PZ33__0_A_refined.pdb              PZ33_Chen_10_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 12.085, 4.0A: 23.271, 5.0A: 27.878, 8.0A: 65.326
+PZ33_Chen_10_vs_PZ33__0_B_refined.pdb              PZ33_Chen_10_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 11.116, 4.0A: 24.175, 5.0A: 28.787, 8.0A: 64.941
+PZ33_Chen_10_vs_PZ33__2_A_refined.pdb              PZ33_Chen_10_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 11.097, 4.0A: 23.595, 5.0A: 27.799, 8.0A: 67.581
+PZ33_Chen_10_vs_PZ33__2_B_refined.pdb              PZ33_Chen_10_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 10.188, 4.0A: 24.519, 5.0A: 29.13, 8.0A: 66.583
+PZ33_Chen_10_vs_PZ33__4_A_refined.pdb              PZ33_Chen_10_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 10.707, 4.0A: 23.071, 5.0A: 27.692, 8.0A: 65.915
+PZ33_Chen_10_vs_PZ33__7_A_refined.pdb              PZ33_Chen_10_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 10.406, 4.0A: 23.303, 5.0A: 27.738, 8.0A: 66.88
+PZ33_Chen_10_vs_PZ33__7_B_refined.pdb              PZ33_Chen_10_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 10.095, 4.0A: 23.906, 5.0A: 28.425, 8.0A: 66.231
+PZ33_Chen_1_vs_PZ33__0_A_refined.pdb               PZ33_Chen_1_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 11.301, 4.0A: 29.664, 5.0A: 36.766, 8.0A: 97.235
+PZ33_Chen_1_vs_PZ33__0_B_refined.pdb               PZ33_Chen_1_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 10.578, 4.0A: 32.336, 5.0A: 38.636, 8.0A: 97.425
+PZ33_Chen_1_vs_PZ33__2_A_refined.pdb               PZ33_Chen_1_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 11.955, 4.0A: 30.828, 5.0A: 37.379, 8.0A: 97.221
+PZ33_Chen_1_vs_PZ33__2_B_refined.pdb               PZ33_Chen_1_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 10.183, 4.0A: 31.942, 5.0A: 38.042, 8.0A: 97.397
+PZ33_Chen_1_vs_PZ33__4_A_refined.pdb               PZ33_Chen_1_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 10.684, 4.0A: 30.466, 5.0A: 37.254, 8.0A: 97.054
+PZ33_Chen_1_vs_PZ33__7_A_refined.pdb               PZ33_Chen_1_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 10.661, 4.0A: 29.891, 5.0A: 37.175, 8.0A: 97.328
+PZ33_Chen_1_vs_PZ33__7_B_refined.pdb               PZ33_Chen_1_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 9.84, 4.0A: 32.855, 5.0A: 38.604, 8.0A: 97.421
+PZ33_Chen_2_vs_PZ33__0_B_refined.pdb               PZ33_Chen_2_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 10.842, 4.0A: 28.109, 5.0A: 36.131, 8.0A: 100.0
+PZ33_Chen_2_vs_PZ33__2_A_refined.pdb               PZ33_Chen_2_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 11.454, 4.0A: 28.374, 5.0A: 37.676, 8.0A: 100.0
+PZ33_Chen_2_vs_PZ33__2_B_refined.pdb               PZ33_Chen_2_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 9.729, 4.0A: 27.692, 5.0A: 35.059, 8.0A: 100.0
+PZ33_Chen_2_vs_PZ33__4_A_refined.pdb               PZ33_Chen_2_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 10.726, 4.0A: 27.608, 5.0A: 36.497, 8.0A: 99.968
+PZ33_Chen_2_vs_PZ33__4_B_refined.pdb               PZ33_Chen_2_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 12.136, 4.0A: 28.601, 5.0A: 36.91, 8.0A: 100.0
+PZ33_Chen_2_vs_PZ33__7_A_refined.pdb               PZ33_Chen_2_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 10.865, 4.0A: 28.054, 5.0A: 37.193, 8.0A: 99.671
+PZ33_Chen_2_vs_PZ33__7_B_refined.pdb               PZ33_Chen_2_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 10.197, 4.0A: 27.771, 5.0A: 35.226, 8.0A: 99.958
+PZ33_Chen_3_vs_PZ33__0_B_refined.pdb               PZ33_Chen_3_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 10.476, 4.0A: 33.797, 5.0A: 40.552, 8.0A: 99.921
+PZ33_Chen_3_vs_PZ33__2_A_refined.pdb               PZ33_Chen_3_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 10.902, 4.0A: 34.461, 5.0A: 39.406, 8.0A: 99.916
+PZ33_Chen_3_vs_PZ33__2_B_refined.pdb               PZ33_Chen_3_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 10.179, 4.0A: 34.043, 5.0A: 40.687, 8.0A: 99.805
+PZ33_Chen_3_vs_PZ33__4_A_refined.pdb               PZ33_Chen_3_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 10.656, 4.0A: 32.429, 5.0A: 38.924, 8.0A: 99.722
+PZ33_Chen_3_vs_PZ33__4_B_refined.pdb               PZ33_Chen_3_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 10.559, 4.0A: 34.72, 5.0A: 40.84, 8.0A: 99.763
+PZ33_Chen_3_vs_PZ33__7_A_refined.pdb               PZ33_Chen_3_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 10.592, 4.0A: 32.893, 5.0A: 38.873, 8.0A: 99.392
+PZ33_Chen_3_vs_PZ33__7_B_refined.pdb               PZ33_Chen_3_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 9.807, 4.0A: 32.174, 5.0A: 39.415, 8.0A: 99.754
+PZ33_Chen_4_vs_PZ33__0_B_refined.pdb               PZ33_Chen_4_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 9.552, 4.0A: 28.977, 5.0A: 38.116, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__2_A_refined.pdb               PZ33_Chen_4_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 10.411, 4.0A: 28.471, 5.0A: 37.486, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__2_B_refined.pdb               PZ33_Chen_4_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 8.624, 4.0A: 28.713, 5.0A: 37.694, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__4_A_refined.pdb               PZ33_Chen_4_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 9.766, 4.0A: 27.543, 5.0A: 37.189, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__4_B_refined.pdb               PZ33_Chen_4_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 10.494, 4.0A: 30.016, 5.0A: 39.504, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__7_A_refined.pdb               PZ33_Chen_4_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 9.752, 4.0A: 28.003, 5.0A: 37.518, 8.0A: 100.0
+PZ33_Chen_4_vs_PZ33__7_B_refined.pdb               PZ33_Chen_4_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 8.861, 4.0A: 28.611, 5.0A: 38.191, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__0_A_refined.pdb               PZ33_Chen_5_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 15.523, 4.0A: 33.18, 5.0A: 47.813, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__2_A_refined.pdb               PZ33_Chen_5_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 16.043, 4.0A: 34.354, 5.0A: 48.105, 8.0A: 99.977
+PZ33_Chen_5_vs_PZ33__2_B_refined.pdb               PZ33_Chen_5_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 16.038, 4.0A: 33.125, 5.0A: 49.673, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__4_A_refined.pdb               PZ33_Chen_5_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 15.282, 4.0A: 33.932, 5.0A: 48.907, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__4_B_refined.pdb               PZ33_Chen_5_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 16.326, 4.0A: 34.785, 5.0A: 51.812, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__7_A_refined.pdb               PZ33_Chen_5_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 15.472, 4.0A: 34.21, 5.0A: 48.379, 8.0A: 100.0
+PZ33_Chen_5_vs_PZ33__7_B_refined.pdb               PZ33_Chen_5_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 15.356, 4.0A: 35.231, 5.0A: 52.559, 8.0A: 100.0
+PZ33_Chen_6_vs_PZ33__0_B_refined.pdb               PZ33_Chen_6_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 9.599, 4.0A: 26.806, 5.0A: 33.426, 8.0A: 99.392
+PZ33_Chen_6_vs_PZ33__2_A_refined.pdb               PZ33_Chen_6_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 10.244, 4.0A: 27.237, 5.0A: 34.632, 8.0A: 99.522
+PZ33_Chen_6_vs_PZ33__2_B_refined.pdb               PZ33_Chen_6_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 9.07, 4.0A: 26.625, 5.0A: 32.786, 8.0A: 99.633
+PZ33_Chen_6_vs_PZ33__4_A_refined.pdb               PZ33_Chen_6_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 9.951, 4.0A: 26.852, 5.0A: 34.113, 8.0A: 99.035
+PZ33_Chen_6_vs_PZ33__4_B_refined.pdb               PZ33_Chen_6_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 10.035, 4.0A: 27.293, 5.0A: 34.164, 8.0A: 99.55
+PZ33_Chen_6_vs_PZ33__7_A_refined.pdb               PZ33_Chen_6_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 10.049, 4.0A: 27.117, 5.0A: 34.651, 8.0A: 98.975
+PZ33_Chen_6_vs_PZ33__7_B_refined.pdb               PZ33_Chen_6_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 9.552, 4.0A: 26.351, 5.0A: 32.489, 8.0A: 99.518
+PZ33_Chen_7_vs_PZ33__0_A_refined.pdb               PZ33_Chen_7_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 9.158, 4.0A: 26.026, 5.0A: 37.81, 8.0A: 99.972
+PZ33_Chen_7_vs_PZ33__0_B_refined.pdb               PZ33_Chen_7_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 8.578, 4.0A: 27.288, 5.0A: 39.787, 8.0A: 100.0
+PZ33_Chen_7_vs_PZ33__2_B_refined.pdb               PZ33_Chen_7_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 7.901, 4.0A: 27.316, 5.0A: 39.504, 8.0A: 100.0
+PZ33_Chen_7_vs_PZ33__4_A_refined.pdb               PZ33_Chen_7_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 8.791, 4.0A: 26.379, 5.0A: 37.699, 8.0A: 100.0
+PZ33_Chen_7_vs_PZ33__4_B_refined.pdb               PZ33_Chen_7_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 8.838, 4.0A: 29.589, 5.0A: 40.575, 8.0A: 100.0
+PZ33_Chen_7_vs_PZ33__7_A_refined.pdb               PZ33_Chen_7_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 8.662, 4.0A: 26.435, 5.0A: 38.126, 8.0A: 100.0
+PZ33_Chen_7_vs_PZ33__7_B_refined.pdb               PZ33_Chen_7_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 8.309, 4.0A: 27.775, 5.0A: 40.074, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__0_A_refined.pdb               PZ33_Chen_8_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 11.751, 4.0A: 36.108, 5.0A: 71.561, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__0_B_refined.pdb               PZ33_Chen_8_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 11.334, 4.0A: 40.172, 5.0A: 82.12, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__2_A_refined.pdb               PZ33_Chen_8_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 11.12, 4.0A: 36.604, 5.0A: 70.995, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__2_B_refined.pdb               PZ33_Chen_8_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 10.155, 4.0A: 38.928, 5.0A: 78.692, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__4_A_refined.pdb               PZ33_Chen_8_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 10.786, 4.0A: 36.066, 5.0A: 72.605, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__7_A_refined.pdb               PZ33_Chen_8_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 10.763, 4.0A: 36.469, 5.0A: 71.946, 8.0A: 100.0
+PZ33_Chen_8_vs_PZ33__7_B_refined.pdb               PZ33_Chen_8_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 10.257, 4.0A: 38.177, 5.0A: 75.175, 8.0A: 100.0
+PZ33_Chen_9_vs_PZ33__0_A_refined.pdb               PZ33_Chen_9_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 9.659, 4.0A: 22.579, 5.0A: 27.868, 8.0A: 63.656
+PZ33_Chen_9_vs_PZ33__0_B_refined.pdb               PZ33_Chen_9_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 9.733, 4.0A: 23.646, 5.0A: 29.153, 8.0A: 64.765
+PZ33_Chen_9_vs_PZ33__2_B_refined.pdb               PZ33_Chen_9_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 9.274, 4.0A: 23.721, 5.0A: 29.241, 8.0A: 65.799
+PZ33_Chen_9_vs_PZ33__4_A_refined.pdb               PZ33_Chen_9_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 9.408, 4.0A: 22.876, 5.0A: 27.989, 8.0A: 63.591
+PZ33_Chen_9_vs_PZ33__4_B_refined.pdb               PZ33_Chen_9_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 9.993, 4.0A: 23.962, 5.0A: 29.093, 8.0A: 68.634
+PZ33_Chen_9_vs_PZ33__7_A_refined.pdb               PZ33_Chen_9_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 9.464, 4.0A: 22.547, 5.0A: 28.068, 8.0A: 64.774
+PZ33_Chen_9_vs_PZ33__7_B_refined.pdb               PZ33_Chen_9_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 9.362, 4.0A: 23.261, 5.0A: 28.754, 8.0A: 66.49
+PZ33_Das_10_vs_PZ33__0_A_refined.pdb               PZ33_Das_10_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 18.877, 4.0A: 37.736, 5.0A: 44.681, 8.0A: 66.379
+PZ33_Das_10_vs_PZ33__0_B_refined.pdb               PZ33_Das_10_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 19.926, 4.0A: 37.801, 5.0A: 44.667, 8.0A: 64.032
+PZ33_Das_10_vs_PZ33__2_A_refined.pdb               PZ33_Das_10_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 20.0, 4.0A: 38.771, 5.0A: 44.899, 8.0A: 66.885
+PZ33_Das_10_vs_PZ33__2_B_refined.pdb               PZ33_Das_10_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 20.251, 4.0A: 38.613, 5.0A: 45.085, 8.0A: 65.386
+PZ33_Das_10_vs_PZ33__4_A_refined.pdb               PZ33_Das_10_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 18.873, 4.0A: 37.611, 5.0A: 44.672, 8.0A: 65.85
+PZ33_Das_10_vs_PZ33__7_A_refined.pdb               PZ33_Das_10_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 18.594, 4.0A: 38.056, 5.0A: 44.704, 8.0A: 66.62
+PZ33_Das_10_vs_PZ33__7_B_refined.pdb               PZ33_Das_10_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 19.787, 4.0A: 38.859, 5.0A: 46.115, 8.0A: 68.778
+PZ33_Das_1_vs_PZ33__0_A_refined.pdb                PZ33_Das_1_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 18.576, 4.0A: 33.899, 5.0A: 40.617, 8.0A: 99.332
+PZ33_Das_1_vs_PZ33__0_B_refined.pdb                PZ33_Das_1_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 19.898, 4.0A: 35.792, 5.0A: 41.596, 8.0A: 100.0
+PZ33_Das_1_vs_PZ33__2_A_refined.pdb                PZ33_Das_1_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 19.397, 4.0A: 34.437, 5.0A: 41.225, 8.0A: 83.373
+PZ33_Das_1_vs_PZ33__4_A_refined.pdb                PZ33_Das_1_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 19.012, 4.0A: 33.723, 5.0A: 40.64, 8.0A: 89.432
+PZ33_Das_1_vs_PZ33__4_B_refined.pdb                PZ33_Das_1_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 20.334, 4.0A: 35.389, 5.0A: 41.712, 8.0A: 96.057
+PZ33_Das_1_vs_PZ33__7_A_refined.pdb                PZ33_Das_1_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 18.979, 4.0A: 33.621, 5.0A: 40.789, 8.0A: 85.841
+PZ33_Das_1_vs_PZ33__7_B_refined.pdb                PZ33_Das_1_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 19.518, 4.0A: 34.739, 5.0A: 41.364, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__0_A_refined.pdb                PZ33_Das_2_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 18.733, 4.0A: 49.297, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__0_B_refined.pdb                PZ33_Das_2_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 19.105, 4.0A: 46.555, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__2_B_refined.pdb                PZ33_Das_2_vs_PZ33__2_B_solution.pdb               SUCCESS              2.0A: 18.812, 4.0A: 47.001, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__4_A_refined.pdb                PZ33_Das_2_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 18.367, 4.0A: 49.033, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__4_B_refined.pdb                PZ33_Das_2_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 19.244, 4.0A: 50.587, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__7_A_refined.pdb                PZ33_Das_2_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 18.9, 4.0A: 49.139, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_2_vs_PZ33__7_B_refined.pdb                PZ33_Das_2_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 18.873, 4.0A: 51.083, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__0_A_refined.pdb                PZ33_Das_3_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 18.733, 4.0A: 25.405, 5.0A: 30.958, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__0_B_refined.pdb                PZ33_Das_3_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 19.814, 4.0A: 26.69, 5.0A: 32.503, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__2_A_refined.pdb                PZ33_Das_3_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 19.026, 4.0A: 25.85, 5.0A: 31.728, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__4_A_refined.pdb                PZ33_Das_3_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 19.04, 4.0A: 25.191, 5.0A: 31.705, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__4_B_refined.pdb                PZ33_Das_3_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 19.865, 4.0A: 26.667, 5.0A: 32.804, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__7_A_refined.pdb                PZ33_Das_3_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 18.933, 4.0A: 25.59, 5.0A: 31.464, 8.0A: 100.0
+PZ33_Das_3_vs_PZ33__7_B_refined.pdb                PZ33_Das_3_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 19.29, 4.0A: 26.56, 5.0A: 32.243, 8.0A: 100.0
+PZ33_Das_4_vs_PZ33__0_A_refined.pdb                PZ33_Das_4_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 19.044, 4.0A: 36.052, 5.0A: 40.77, 8.0A: 58.181
+PZ33_Das_4_vs_PZ33__0_B_refined.pdb                PZ33_Das_4_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 18.919, 4.0A: 36.59, 5.0A: 40.951, 8.0A: 56.465
+PZ33_Das_4_vs_PZ33__2_B_refined.pdb                PZ33_Das_4_vs_PZ33__2_B_solution.pdb               SUCCESS              2.0A: 18.065, 4.0A: 36.224, 5.0A: 40.701, 8.0A: 56.377
+PZ33_Das_4_vs_PZ33__4_A_refined.pdb                PZ33_Das_4_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 18.896, 4.0A: 36.145, 5.0A: 41.169, 8.0A: 57.736
+PZ33_Das_4_vs_PZ33__4_B_refined.pdb                PZ33_Das_4_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 18.506, 4.0A: 36.845, 5.0A: 41.99, 8.0A: 58.469
+PZ33_Das_4_vs_PZ33__7_A_refined.pdb                PZ33_Das_4_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 18.928, 4.0A: 36.507, 5.0A: 41.215, 8.0A: 58.112
+PZ33_Das_4_vs_PZ33__7_B_refined.pdb                PZ33_Das_4_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 18.172, 4.0A: 36.637, 5.0A: 41.536, 8.0A: 57.996
+PZ33_Das_5_vs_PZ33__0_A_refined.pdb                PZ33_Das_5_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 12.257, 4.0A: 19.146, 5.0A: 24.032, 8.0A: 44.732
+PZ33_Das_5_vs_PZ33__0_B_refined.pdb                PZ33_Das_5_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 12.948, 4.0A: 19.749, 5.0A: 25.382, 8.0A: 45.989
+PZ33_Das_5_vs_PZ33__2_A_refined.pdb                PZ33_Das_5_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 13.106, 4.0A: 19.726, 5.0A: 25.215, 8.0A: 45.586
+PZ33_Das_5_vs_PZ33__2_B_refined.pdb                PZ33_Das_5_vs_PZ33__2_B_solution.pdb               SUCCESS              2.0A: 12.791, 4.0A: 20.032, 5.0A: 25.785, 8.0A: 47.107
+PZ33_Das_5_vs_PZ33__4_A_refined.pdb                PZ33_Das_5_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 12.303, 4.0A: 19.448, 5.0A: 24.918, 8.0A: 44.918
+PZ33_Das_5_vs_PZ33__7_A_refined.pdb                PZ33_Das_5_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 12.303, 4.0A: 19.109, 5.0A: 24.449, 8.0A: 45.34
+PZ33_Das_5_vs_PZ33__7_B_refined.pdb                PZ33_Das_5_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 12.48, 4.0A: 19.513, 5.0A: 24.936, 8.0A: 45.716
+PZ33_Das_6_vs_PZ33__0_A_refined.pdb                PZ33_Das_6_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 16.456, 4.0A: 21.113, 5.0A: 24.709, 8.0A: 55.528
+PZ33_Das_6_vs_PZ33__0_B_refined.pdb                PZ33_Das_6_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 17.374, 4.0A: 21.781, 5.0A: 25.906, 8.0A: 53.663
+PZ33_Das_6_vs_PZ33__2_A_refined.pdb                PZ33_Das_6_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 16.966, 4.0A: 21.28, 5.0A: 25.433, 8.0A: 55.866
+PZ33_Das_6_vs_PZ33__2_B_refined.pdb                PZ33_Das_6_vs_PZ33__2_B_solution.pdb               SUCCESS              2.0A: 17.722, 4.0A: 22.533, 5.0A: 27.038, 8.0A: 55.5
+PZ33_Das_6_vs_PZ33__4_A_refined.pdb                PZ33_Das_6_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 16.627, 4.0A: 21.146, 5.0A: 25.405, 8.0A: 55.147
+PZ33_Das_6_vs_PZ33__7_A_refined.pdb                PZ33_Das_6_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 16.233, 4.0A: 21.373, 5.0A: 25.224, 8.0A: 55.305
+PZ33_Das_6_vs_PZ33__7_B_refined.pdb                PZ33_Das_6_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 16.924, 4.0A: 22.134, 5.0A: 26.671, 8.0A: 56.265
+PZ33_Das_7_vs_PZ33__0_A_refined.pdb                PZ33_Das_7_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 17.388, 4.0A: 23.145, 5.0A: 27.659, 8.0A: 47.706
+PZ33_Das_7_vs_PZ33__0_B_refined.pdb                PZ33_Das_7_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 18.506, 4.0A: 24.547, 5.0A: 28.476, 8.0A: 48.133
+PZ33_Das_7_vs_PZ33__2_A_refined.pdb                PZ33_Das_7_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 18.246, 4.0A: 24.189, 5.0A: 28.606, 8.0A: 49.821
+PZ33_Das_7_vs_PZ33__4_A_refined.pdb                PZ33_Das_7_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 17.189, 4.0A: 23.252, 5.0A: 27.664, 8.0A: 48.518
+PZ33_Das_7_vs_PZ33__4_B_refined.pdb                PZ33_Das_7_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 19.119, 4.0A: 25.21, 5.0A: 29.511, 8.0A: 48.624
+PZ33_Das_7_vs_PZ33__7_A_refined.pdb                PZ33_Das_7_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 17.263, 4.0A: 23.498, 5.0A: 27.826, 8.0A: 48.745
+PZ33_Das_7_vs_PZ33__7_B_refined.pdb                PZ33_Das_7_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 18.042, 4.0A: 24.403, 5.0A: 28.36, 8.0A: 46.964
+PZ33_Das_8_vs_PZ33__0_A_refined.pdb                PZ33_Das_8_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 19.137, 4.0A: 28.508, 5.0A: 36.924, 8.0A: 99.93
+PZ33_Das_8_vs_PZ33__2_A_refined.pdb                PZ33_Das_8_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 19.327, 4.0A: 28.611, 5.0A: 36.697, 8.0A: 100.0
+PZ33_Das_8_vs_PZ33__2_B_refined.pdb                PZ33_Das_8_vs_PZ33__2_B_solution.pdb               SUCCESS              2.0A: 20.445, 4.0A: 31.009, 5.0A: 39.708, 8.0A: 100.0
+PZ33_Das_8_vs_PZ33__4_A_refined.pdb                PZ33_Das_8_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 19.165, 4.0A: 28.444, 5.0A: 36.817, 8.0A: 99.968
+PZ33_Das_8_vs_PZ33__4_B_refined.pdb                PZ33_Das_8_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 20.251, 4.0A: 30.489, 5.0A: 39.369, 8.0A: 100.0
+PZ33_Das_8_vs_PZ33__7_A_refined.pdb                PZ33_Das_8_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 19.193, 4.0A: 28.791, 5.0A: 36.841, 8.0A: 100.0
+PZ33_Das_8_vs_PZ33__7_B_refined.pdb                PZ33_Das_8_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 20.315, 4.0A: 30.67, 5.0A: 39.466, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__0_A_refined.pdb                PZ33_Das_9_vs_PZ33__0_A_solution.pdb               SUCCESS              2.0A: 27.279, 4.0A: 90.587, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__0_B_refined.pdb                PZ33_Das_9_vs_PZ33__0_B_solution.pdb               SUCCESS              2.0A: 31.543, 4.0A: 99.81, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__2_A_refined.pdb                PZ33_Das_9_vs_PZ33__2_A_solution.pdb               SUCCESS              2.0A: 26.671, 4.0A: 83.178, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__4_A_refined.pdb                PZ33_Das_9_vs_PZ33__4_A_solution.pdb               SUCCESS              2.0A: 26.602, 4.0A: 87.543, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__4_B_refined.pdb                PZ33_Das_9_vs_PZ33__4_B_solution.pdb               SUCCESS              2.0A: 30.675, 4.0A: 88.559, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__7_A_refined.pdb                PZ33_Das_9_vs_PZ33__7_A_solution.pdb               SUCCESS              2.0A: 26.013, 4.0A: 84.983, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Das_9_vs_PZ33__7_B_refined.pdb                PZ33_Das_9_vs_PZ33__7_B_solution.pdb               SUCCESS              2.0A: 29.803, 4.0A: 88.778, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Dfold2_10_vs_PZ33__0_A_refined.pdb            PZ33_Dfold2_10_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 9.218, 4.0A: 15.31, 5.0A: 18.919, 8.0A: 38.724
+PZ33_Dfold2_10_vs_PZ33__0_B_refined.pdb            PZ33_Dfold2_10_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 10.596, 4.0A: 17.124, 5.0A: 21.336, 8.0A: 39.267
+PZ33_Dfold2_10_vs_PZ33__2_A_refined.pdb            PZ33_Dfold2_10_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 9.548, 4.0A: 16.391, 5.0A: 20.084, 8.0A: 38.979
+PZ33_Dfold2_10_vs_PZ33__2_B_refined.pdb            PZ33_Dfold2_10_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 10.707, 4.0A: 17.574, 5.0A: 22.227, 8.0A: 39.666
+PZ33_Dfold2_10_vs_PZ33__4_A_refined.pdb            PZ33_Dfold2_10_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 8.963, 4.0A: 15.695, 5.0A: 19.313, 8.0A: 38.961
+PZ33_Dfold2_10_vs_PZ33__7_A_refined.pdb            PZ33_Dfold2_10_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 8.94, 4.0A: 15.398, 5.0A: 19.081, 8.0A: 38.965
+PZ33_Dfold2_10_vs_PZ33__7_B_refined.pdb            PZ33_Dfold2_10_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 10.295, 4.0A: 17.04, 5.0A: 21.559, 8.0A: 39.944
+PZ33_Dfold2_1_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_1_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 15.806, 4.0A: 37.88, 5.0A: 99.309, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_1_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 18.279, 4.0A: 49.395, 5.0A: 99.782, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_1_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 15.839, 4.0A: 42.913, 5.0A: 99.402, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_1_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 19.016, 4.0A: 49.121, 5.0A: 99.689, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_1_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 15.718, 4.0A: 40.603, 5.0A: 99.258, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_1_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 15.685, 4.0A: 40.9, 5.0A: 99.471, 8.0A: 100.0
+PZ33_Dfold2_1_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_1_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 17.462, 4.0A: 47.952, 5.0A: 99.814, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_2_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 15.059, 4.0A: 37.676, 5.0A: 99.29, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_2_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 17.147, 4.0A: 51.621, 5.0A: 99.685, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_2_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 15.505, 4.0A: 43.795, 5.0A: 99.448, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_2_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 17.193, 4.0A: 51.793, 5.0A: 99.657, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_2_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 14.86, 4.0A: 38.441, 5.0A: 94.136, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_2_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 14.864, 4.0A: 39.23, 5.0A: 95.458, 8.0A: 100.0
+PZ33_Dfold2_2_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_2_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 16.525, 4.0A: 50.875, 5.0A: 99.685, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_3_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 16.33, 4.0A: 42.273, 5.0A: 53.871, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_3_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 19.893, 4.0A: 44.95, 5.0A: 57.694, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_3_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 16.924, 4.0A: 42.408, 5.0A: 54.15, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_3_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 20.566, 4.0A: 44.644, 5.0A: 57.458, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_3_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 16.214, 4.0A: 42.547, 5.0A: 54.164, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_3_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 16.094, 4.0A: 42.412, 5.0A: 53.542, 8.0A: 100.0
+PZ33_Dfold2_3_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_3_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 18.687, 4.0A: 43.772, 5.0A: 54.683, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_4_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 16.734, 4.0A: 41.986, 5.0A: 53.166, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_4_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 20.362, 4.0A: 44.843, 5.0A: 56.91, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_4_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 17.323, 4.0A: 42.143, 5.0A: 53.811, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_4_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 20.932, 4.0A: 44.565, 5.0A: 56.748, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_4_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 16.576, 4.0A: 42.547, 5.0A: 53.602, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_4_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 16.228, 4.0A: 41.976, 5.0A: 52.661, 8.0A: 100.0
+PZ33_Dfold2_4_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_4_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 19.35, 4.0A: 43.818, 5.0A: 54.447, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_5_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 18.181, 4.0A: 42.102, 5.0A: 53.287, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_5_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 22.617, 4.0A: 44.444, 5.0A: 56.947, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_5_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 19.995, 4.0A: 42.371, 5.0A: 53.593, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_5_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 22.426, 4.0A: 44.417, 5.0A: 57.022, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_5_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 18.399, 4.0A: 42.417, 5.0A: 53.672, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_5_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 17.806, 4.0A: 42.236, 5.0A: 52.916, 8.0A: 100.0
+PZ33_Dfold2_5_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_5_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 21.842, 4.0A: 43.744, 5.0A: 54.688, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_6_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 16.841, 4.0A: 44.556, 5.0A: 99.536, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_6_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 20.923, 4.0A: 63.322, 5.0A: 99.824, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_6_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 18.52, 4.0A: 46.56, 5.0A: 99.564, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_6_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 20.306, 4.0A: 58.808, 5.0A: 99.824, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_6_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 16.562, 4.0A: 44.918, 5.0A: 99.606, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_6_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 16.173, 4.0A: 45.683, 5.0A: 99.726, 8.0A: 100.0
+PZ33_Dfold2_6_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_6_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 20.042, 4.0A: 51.074, 5.0A: 99.903, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_7_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 17.119, 4.0A: 39.703, 5.0A: 87.975, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_7_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 22.055, 4.0A: 46.848, 5.0A: 95.959, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_7_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 18.989, 4.0A: 40.863, 5.0A: 86.282, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_7_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 21.485, 4.0A: 45.985, 5.0A: 95.073, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_7_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 16.831, 4.0A: 40.181, 5.0A: 87.293, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_7_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 16.827, 4.0A: 39.773, 5.0A: 82.607, 8.0A: 100.0
+PZ33_Dfold2_7_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_7_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 21.508, 4.0A: 44.533, 5.0A: 93.231, 8.0A: 100.0
+PZ33_Dfold2_8_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_8_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 2.737, 4.0A: 4.514, 5.0A: 5.85, 8.0A: 11.533
+PZ33_Dfold2_8_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_8_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 2.737, 4.0A: 4.676, 5.0A: 6.138, 8.0A: 11.723
+PZ33_Dfold2_8_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_8_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 2.779, 4.0A: 4.839, 5.0A: 6.319, 8.0A: 12.02
+PZ33_Dfold2_8_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_8_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 2.886, 4.0A: 4.774, 5.0A: 6.068, 8.0A: 11.677
+PZ33_Dfold2_8_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_8_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 2.821, 4.0A: 4.686, 5.0A: 6.212, 8.0A: 11.77
+PZ33_Dfold2_8_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_8_vs_PZ33__4_B_solution.pdb            SUCCESS              2.0A: 2.816, 4.0A: 4.676, 5.0A: 6.059, 8.0A: 12.034
+PZ33_Dfold2_8_vs_PZ33__7_A_refined.pdb             PZ33_Dfold2_8_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 2.876, 4.0A: 4.727, 5.0A: 6.249, 8.0A: 11.83
+PZ33_Dfold2_9_vs_PZ33__0_A_refined.pdb             PZ33_Dfold2_9_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 2.501, 4.0A: 5.191, 5.0A: 6.671, 8.0A: 11.784
+PZ33_Dfold2_9_vs_PZ33__0_B_refined.pdb             PZ33_Dfold2_9_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 2.459, 4.0A: 4.783, 5.0A: 6.546, 8.0A: 12.025
+PZ33_Dfold2_9_vs_PZ33__2_A_refined.pdb             PZ33_Dfold2_9_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 2.63, 4.0A: 5.284, 5.0A: 6.88, 8.0A: 11.932
+PZ33_Dfold2_9_vs_PZ33__2_B_refined.pdb             PZ33_Dfold2_9_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 2.593, 4.0A: 5.094, 5.0A: 6.681, 8.0A: 12.081
+PZ33_Dfold2_9_vs_PZ33__4_A_refined.pdb             PZ33_Dfold2_9_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 2.51, 4.0A: 5.071, 5.0A: 6.597, 8.0A: 11.696
+PZ33_Dfold2_9_vs_PZ33__4_B_refined.pdb             PZ33_Dfold2_9_vs_PZ33__4_B_solution.pdb            SUCCESS              2.0A: 2.505, 4.0A: 4.997, 5.0A: 6.634, 8.0A: 12.039
+PZ33_Dfold2_9_vs_PZ33__7_B_refined.pdb             PZ33_Dfold2_9_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 2.505, 4.0A: 5.071, 5.0A: 6.671, 8.0A: 11.844
+PZ33_Ding_1_vs_PZ33__0_A_refined.pdb               PZ33_Ding_1_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 7.59, 4.0A: 20.622, 5.0A: 25.386, 8.0A: 60.96
+PZ33_Ding_1_vs_PZ33__0_B_refined.pdb               PZ33_Ding_1_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 7.557, 4.0A: 22.106, 5.0A: 26.347, 8.0A: 60.803
+PZ33_Ding_1_vs_PZ33__2_A_refined.pdb               PZ33_Ding_1_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 7.548, 4.0A: 21.512, 5.0A: 25.743, 8.0A: 61.884
+PZ33_Ding_1_vs_PZ33__2_B_refined.pdb               PZ33_Ding_1_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 7.896, 4.0A: 22.547, 5.0A: 26.207, 8.0A: 60.325
+PZ33_Ding_1_vs_PZ33__4_A_refined.pdb               PZ33_Ding_1_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 7.492, 4.0A: 20.557, 5.0A: 25.372, 8.0A: 60.928
+PZ33_Ding_1_vs_PZ33__7_A_refined.pdb               PZ33_Ding_1_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 7.659, 4.0A: 20.97, 5.0A: 25.73, 8.0A: 61.67
+PZ33_Ding_1_vs_PZ33__7_B_refined.pdb               PZ33_Ding_1_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 7.822, 4.0A: 21.962, 5.0A: 26.022, 8.0A: 61.666
+PZ33_Ding_2_vs_PZ33__0_A_refined.pdb               PZ33_Ding_2_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 7.571, 4.0A: 13.913, 5.0A: 16.08, 8.0A: 21.41
+PZ33_Ding_2_vs_PZ33__0_B_refined.pdb               PZ33_Ding_2_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 7.228, 4.0A: 14.08, 5.0A: 16.196, 8.0A: 22.343
+PZ33_Ding_2_vs_PZ33__2_B_refined.pdb               PZ33_Ding_2_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 7.562, 4.0A: 14.057, 5.0A: 16.349, 8.0A: 22.218
+PZ33_Ding_2_vs_PZ33__4_A_refined.pdb               PZ33_Ding_2_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 7.543, 4.0A: 14.025, 5.0A: 16.261, 8.0A: 21.833
+PZ33_Ding_2_vs_PZ33__4_B_refined.pdb               PZ33_Ding_2_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 7.534, 4.0A: 14.461, 5.0A: 16.878, 8.0A: 22.468
+PZ33_Ding_2_vs_PZ33__7_A_refined.pdb               PZ33_Ding_2_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 7.543, 4.0A: 14.034, 5.0A: 16.038, 8.0A: 21.814
+PZ33_Ding_2_vs_PZ33__7_B_refined.pdb               PZ33_Ding_2_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 7.437, 4.0A: 13.964, 5.0A: 15.908, 8.0A: 21.981
+PZ33_Ding_3_vs_PZ33__0_B_refined.pdb               PZ33_Ding_3_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 6.453, 4.0A: 10.856, 5.0A: 17.676, 8.0A: 25.409
+PZ33_Ding_3_vs_PZ33__2_A_refined.pdb               PZ33_Ding_3_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 6.616, 4.0A: 10.81, 5.0A: 17.393, 8.0A: 25.674
+PZ33_Ding_3_vs_PZ33__2_B_refined.pdb               PZ33_Ding_3_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 6.49, 4.0A: 10.851, 5.0A: 17.857, 8.0A: 25.641
+PZ33_Ding_3_vs_PZ33__4_A_refined.pdb               PZ33_Ding_3_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 6.569, 4.0A: 11.042, 5.0A: 17.161, 8.0A: 25.321
+PZ33_Ding_3_vs_PZ33__4_B_refined.pdb               PZ33_Ding_3_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 6.495, 4.0A: 10.601, 5.0A: 18.005, 8.0A: 25.952
+PZ33_Ding_3_vs_PZ33__7_A_refined.pdb               PZ33_Ding_3_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 6.597, 4.0A: 11.283, 5.0A: 17.838, 8.0A: 25.372
+PZ33_Ding_3_vs_PZ33__7_B_refined.pdb               PZ33_Ding_3_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 6.476, 4.0A: 11.441, 5.0A: 17.917, 8.0A: 25.563
+PZ33_Ding_4_vs_PZ33__0_A_refined.pdb               PZ33_Ding_4_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 6.606, 4.0A: 17.778, 5.0A: 26.481, 8.0A: 52.554
+PZ33_Ding_4_vs_PZ33__0_B_refined.pdb               PZ33_Ding_4_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 6.337, 4.0A: 21.48, 5.0A: 29.195, 8.0A: 53.505
+PZ33_Ding_4_vs_PZ33__2_B_refined.pdb               PZ33_Ding_4_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 6.611, 4.0A: 20.863, 5.0A: 29.158, 8.0A: 53.565
+PZ33_Ding_4_vs_PZ33__4_A_refined.pdb               PZ33_Ding_4_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 6.63, 4.0A: 18.348, 5.0A: 26.959, 8.0A: 52.614
+PZ33_Ding_4_vs_PZ33__4_B_refined.pdb               PZ33_Ding_4_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 6.518, 4.0A: 22.366, 5.0A: 30.313, 8.0A: 56.572
+PZ33_Ding_4_vs_PZ33__7_A_refined.pdb               PZ33_Ding_4_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 6.662, 4.0A: 18.376, 5.0A: 27.46, 8.0A: 52.341
+PZ33_Ding_4_vs_PZ33__7_B_refined.pdb               PZ33_Ding_4_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 6.713, 4.0A: 20.668, 5.0A: 29.079, 8.0A: 54.925
+PZ33_Ding_5_vs_PZ33__0_A_refined.pdb               PZ33_Ding_5_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 11.77, 4.0A: 20.501, 5.0A: 24.379, 8.0A: 45.335
+PZ33_Ding_5_vs_PZ33__0_B_refined.pdb               PZ33_Ding_5_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 12.795, 4.0A: 22.375, 5.0A: 26.003, 8.0A: 47.205
+PZ33_Ding_5_vs_PZ33__2_A_refined.pdb               PZ33_Ding_5_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 11.867, 4.0A: 21.146, 5.0A: 25.168, 8.0A: 47.854
+PZ33_Ding_5_vs_PZ33__4_A_refined.pdb               PZ33_Ding_5_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 11.464, 4.0A: 20.742, 5.0A: 24.714, 8.0A: 45.873
+PZ33_Ding_5_vs_PZ33__4_B_refined.pdb               PZ33_Ding_5_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 13.389, 4.0A: 22.705, 5.0A: 26.722, 8.0A: 49.102
+PZ33_Ding_5_vs_PZ33__7_A_refined.pdb               PZ33_Ding_5_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 11.668, 4.0A: 20.817, 5.0A: 24.755, 8.0A: 45.915
+PZ33_Ding_5_vs_PZ33__7_B_refined.pdb               PZ33_Ding_5_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 12.693, 4.0A: 21.833, 5.0A: 25.92, 8.0A: 47.697
+PZ33_Ding_6_vs_PZ33__0_A_refined.pdb               PZ33_Ding_6_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 7.047, 4.0A: 12.062, 5.0A: 20.019, 8.0A: 38.701
+PZ33_Ding_6_vs_PZ33__0_B_refined.pdb               PZ33_Ding_6_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 6.977, 4.0A: 12.048, 5.0A: 21.355, 8.0A: 39.564
+PZ33_Ding_6_vs_PZ33__2_A_refined.pdb               PZ33_Ding_6_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 6.95, 4.0A: 12.415, 5.0A: 20.329, 8.0A: 39.763
+PZ33_Ding_6_vs_PZ33__2_B_refined.pdb               PZ33_Ding_6_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 7.126, 4.0A: 12.048, 5.0A: 21.257, 8.0A: 40.051
+PZ33_Ding_6_vs_PZ33__4_A_refined.pdb               PZ33_Ding_6_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 6.931, 4.0A: 11.886, 5.0A: 19.861, 8.0A: 38.743
+PZ33_Ding_6_vs_PZ33__7_A_refined.pdb               PZ33_Ding_6_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 6.922, 4.0A: 12.327, 5.0A: 20.394, 8.0A: 38.859
+PZ33_Ding_6_vs_PZ33__7_B_refined.pdb               PZ33_Ding_6_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 7.075, 4.0A: 11.946, 5.0A: 21.169, 8.0A: 39.875
+PZ33_Ding_7_vs_PZ33__0_A_refined.pdb               PZ33_Ding_7_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 9.473, 4.0A: 16.655, 5.0A: 20.914, 8.0A: 48.773
+PZ33_Ding_7_vs_PZ33__0_B_refined.pdb               PZ33_Ding_7_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 9.849, 4.0A: 18.2, 5.0A: 24.44, 8.0A: 50.823
+PZ33_Ding_7_vs_PZ33__2_A_refined.pdb               PZ33_Ding_7_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 9.803, 4.0A: 17.583, 5.0A: 23.113, 8.0A: 49.204
+PZ33_Ding_7_vs_PZ33__4_A_refined.pdb               PZ33_Ding_7_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 9.418, 4.0A: 16.817, 5.0A: 20.756, 8.0A: 48.861
+PZ33_Ding_7_vs_PZ33__4_B_refined.pdb               PZ33_Ding_7_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 10.09, 4.0A: 18.947, 5.0A: 24.978, 8.0A: 52.197
+PZ33_Ding_7_vs_PZ33__7_A_refined.pdb               PZ33_Ding_7_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 9.404, 4.0A: 16.864, 5.0A: 21.058, 8.0A: 48.583
+PZ33_Ding_7_vs_PZ33__7_B_refined.pdb               PZ33_Ding_7_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 9.237, 4.0A: 17.555, 5.0A: 23.419, 8.0A: 51.227
+PZ33_Ding_8_vs_PZ33__0_A_refined.pdb               PZ33_Ding_8_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 6.871, 4.0A: 14.999, 5.0A: 21.531, 8.0A: 37.889
+PZ33_Ding_8_vs_PZ33__0_B_refined.pdb               PZ33_Ding_8_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 6.671, 4.0A: 14.887, 5.0A: 22.756, 8.0A: 38.502
+PZ33_Ding_8_vs_PZ33__2_B_refined.pdb               PZ33_Ding_8_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 6.82, 4.0A: 15.356, 5.0A: 22.867, 8.0A: 38.747
+PZ33_Ding_8_vs_PZ33__4_A_refined.pdb               PZ33_Ding_8_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 6.871, 4.0A: 14.405, 5.0A: 21.874, 8.0A: 38.488
+PZ33_Ding_8_vs_PZ33__4_B_refined.pdb               PZ33_Ding_8_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 6.926, 4.0A: 15.607, 5.0A: 23.183, 8.0A: 39.62
+PZ33_Ding_8_vs_PZ33__7_A_refined.pdb               PZ33_Ding_8_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 6.889, 4.0A: 15.17, 5.0A: 22.38, 8.0A: 38.126
+PZ33_Ding_8_vs_PZ33__7_B_refined.pdb               PZ33_Ding_8_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 6.583, 4.0A: 15.212, 5.0A: 23.067, 8.0A: 39.258
+PZ33_Dokholyan_1_vs_PZ33__0_A_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 13.259, 4.0A: 27.534, 5.0A: 73.078, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__0_B_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 14.359, 4.0A: 32.322, 5.0A: 88.68, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__2_A_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 13.375, 4.0A: 29.743, 5.0A: 77.165, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__2_B_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 13.885, 4.0A: 31.761, 5.0A: 90.021, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__4_A_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 12.99, 4.0A: 27.752, 5.0A: 74.196, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__7_A_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 13.009, 4.0A: 27.618, 5.0A: 74.099, 8.0A: 100.0
+PZ33_Dokholyan_1_vs_PZ33__7_B_refined.pdb          PZ33_Dokholyan_1_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 13.602, 4.0A: 31.863, 5.0A: 99.439, 8.0A: 100.0
+PZ33_Dokholyan_2_vs_PZ33__0_A_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 12.016, 4.0A: 25.284, 5.0A: 33.681, 8.0A: 53.106
+PZ33_Dokholyan_2_vs_PZ33__0_B_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 12.707, 4.0A: 28.717, 5.0A: 37.165, 8.0A: 53.704
+PZ33_Dokholyan_2_vs_PZ33__2_A_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 11.849, 4.0A: 26.277, 5.0A: 34.558, 8.0A: 53.264
+PZ33_Dokholyan_2_vs_PZ33__2_B_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 12.939, 4.0A: 28.281, 5.0A: 36.729, 8.0A: 54.396
+PZ33_Dokholyan_2_vs_PZ33__4_A_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 11.723, 4.0A: 25.46, 5.0A: 34.159, 8.0A: 53.213
+PZ33_Dokholyan_2_vs_PZ33__7_A_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 11.742, 4.0A: 25.474, 5.0A: 34.507, 8.0A: 53.426
+PZ33_Dokholyan_2_vs_PZ33__7_B_refined.pdb          PZ33_Dokholyan_2_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 12.61, 4.0A: 28.476, 5.0A: 37.263, 8.0A: 55.978
+PZ33_Farfar2_10_vs_PZ33__0_A_refined.pdb           PZ33_Farfar2_10_vs_PZ33__0_A_solution.pdb          SUCCESS              2.0A: 17.439, 4.0A: 22.909, 5.0A: 27.038, 8.0A: 95.365
+PZ33_Farfar2_10_vs_PZ33__0_B_refined.pdb           PZ33_Farfar2_10_vs_PZ33__0_B_solution.pdb          SUCCESS              2.0A: 18.154, 4.0A: 24.129, 5.0A: 28.675, 8.0A: 80.598
+PZ33_Farfar2_10_vs_PZ33__2_A_refined.pdb           PZ33_Farfar2_10_vs_PZ33__2_A_solution.pdb          SUCCESS              2.0A: 18.047, 4.0A: 23.317, 5.0A: 28.161, 8.0A: 96.405
+PZ33_Farfar2_10_vs_PZ33__2_B_refined.pdb           PZ33_Farfar2_10_vs_PZ33__2_B_solution.pdb          SUCCESS              2.0A: 18.116, 4.0A: 24.264, 5.0A: 28.935, 8.0A: 86.416
+PZ33_Farfar2_10_vs_PZ33__4_A_refined.pdb           PZ33_Farfar2_10_vs_PZ33__4_A_solution.pdb          SUCCESS              2.0A: 17.291, 4.0A: 23.025, 5.0A: 27.256, 8.0A: 94.957
+PZ33_Farfar2_10_vs_PZ33__7_A_refined.pdb           PZ33_Farfar2_10_vs_PZ33__7_A_solution.pdb          SUCCESS              2.0A: 17.476, 4.0A: 23.21, 5.0A: 27.697, 8.0A: 96.321
+PZ33_Farfar2_10_vs_PZ33__7_B_refined.pdb           PZ33_Farfar2_10_vs_PZ33__7_B_solution.pdb          SUCCESS              2.0A: 17.773, 4.0A: 23.869, 5.0A: 28.314, 8.0A: 93.788
+PZ33_Farfar2_1_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_1_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 18.733, 4.0A: 25.405, 5.0A: 30.958, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_1_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 19.814, 4.0A: 26.69, 5.0A: 32.503, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_1_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 19.026, 4.0A: 25.85, 5.0A: 31.728, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_1_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 19.04, 4.0A: 25.191, 5.0A: 31.705, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_1_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 19.865, 4.0A: 26.667, 5.0A: 32.804, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_1_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 18.933, 4.0A: 25.59, 5.0A: 31.464, 8.0A: 100.0
+PZ33_Farfar2_1_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_1_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 19.29, 4.0A: 26.56, 5.0A: 32.243, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_2_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 19.35, 4.0A: 31.371, 5.0A: 51.12, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_2_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 20.367, 4.0A: 33.644, 5.0A: 71.292, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_2_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 19.132, 4.0A: 30.805, 5.0A: 47.525, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_2_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 19.541, 4.0A: 30.847, 5.0A: 49.413, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_2_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 19.94, 4.0A: 32.619, 5.0A: 55.676, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_2_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 19.448, 4.0A: 31.222, 5.0A: 50.234, 8.0A: 100.0
+PZ33_Farfar2_2_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_2_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 20.079, 4.0A: 33.565, 5.0A: 61.211, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_3_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 27.279, 4.0A: 90.587, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_3_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 31.543, 4.0A: 99.81, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_3_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 26.671, 4.0A: 83.178, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_3_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 26.602, 4.0A: 87.543, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_3_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 30.675, 4.0A: 88.559, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_3_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 26.013, 4.0A: 84.983, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_3_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_3_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 29.803, 4.0A: 88.778, 5.0A: 100.0, 8.0A: 100.0
+PZ33_Farfar2_4_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_4_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 18.372, 4.0A: 24.073, 5.0A: 29.065, 8.0A: 99.68
+PZ33_Farfar2_4_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_4_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 18.905, 4.0A: 24.644, 5.0A: 29.91, 8.0A: 100.0
+PZ33_Farfar2_4_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_4_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 18.594, 4.0A: 24.18, 5.0A: 29.26, 8.0A: 99.93
+PZ33_Farfar2_4_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_4_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 18.126, 4.0A: 24.217, 5.0A: 29.265, 8.0A: 99.74
+PZ33_Farfar2_4_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_4_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 18.687, 4.0A: 24.978, 5.0A: 29.803, 8.0A: 100.0
+PZ33_Farfar2_4_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_4_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 18.079, 4.0A: 24.212, 5.0A: 29.418, 8.0A: 99.805
+PZ33_Farfar2_4_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_4_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 18.488, 4.0A: 24.686, 5.0A: 29.77, 8.0A: 99.865
+PZ33_Farfar2_5_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_5_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 18.339, 4.0A: 32.512, 5.0A: 42.171, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_5_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 19.36, 4.0A: 34.108, 5.0A: 43.591, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_5_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 18.362, 4.0A: 32.716, 5.0A: 42.45, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_5_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 19.36, 4.0A: 33.556, 5.0A: 43.452, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_5_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 18.325, 4.0A: 32.359, 5.0A: 42.361, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_5_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 18.01, 4.0A: 32.461, 5.0A: 41.935, 8.0A: 100.0
+PZ33_Farfar2_5_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_5_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 18.413, 4.0A: 33.602, 5.0A: 43.076, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_6_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 21.081, 4.0A: 38.014, 5.0A: 45.224, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_6_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 20.088, 4.0A: 37.713, 5.0A: 44.296, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_6_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 21.842, 4.0A: 40.362, 5.0A: 46.314, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_6_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 20.515, 4.0A: 37.569, 5.0A: 44.69, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_6_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 21.123, 4.0A: 39.903, 5.0A: 46.193, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_6_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 20.83, 4.0A: 37.912, 5.0A: 44.505, 8.0A: 100.0
+PZ33_Farfar2_6_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_6_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 22.171, 4.0A: 40.181, 5.0A: 46.509, 8.0A: 100.0
+PZ33_Farfar2_7_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_7_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 17.458, 4.0A: 23.609, 5.0A: 29.051, 8.0A: 99.044
+PZ33_Farfar2_7_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_7_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 18.042, 4.0A: 24.287, 5.0A: 29.163, 8.0A: 99.248
+PZ33_Farfar2_7_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_7_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 18.214, 4.0A: 24.899, 5.0A: 30.856, 8.0A: 96.089
+PZ33_Farfar2_7_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_7_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 17.458, 4.0A: 23.637, 5.0A: 29.01, 8.0A: 98.766
+PZ33_Farfar2_7_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_7_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 18.205, 4.0A: 24.853, 5.0A: 30.336, 8.0A: 98.979
+PZ33_Farfar2_7_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_7_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 17.597, 4.0A: 23.878, 5.0A: 29.436, 8.0A: 99.174
+PZ33_Farfar2_7_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_7_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 17.847, 4.0A: 24.584, 5.0A: 29.752, 8.0A: 97.954
+PZ33_Farfar2_8_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_8_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 19.875, 4.0A: 32.521, 5.0A: 81.466, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__0_B_refined.pdb            PZ33_Farfar2_8_vs_PZ33__0_B_solution.pdb           SUCCESS              2.0A: 19.981, 4.0A: 34.015, 5.0A: 90.03, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_8_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 19.61, 4.0A: 32.002, 5.0A: 76.469, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_8_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 19.893, 4.0A: 33.375, 5.0A: 82.06, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_8_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 19.545, 4.0A: 32.201, 5.0A: 80.167, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_8_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 19.944, 4.0A: 33.018, 5.0A: 81.536, 8.0A: 100.0
+PZ33_Farfar2_8_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_8_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 19.852, 4.0A: 32.693, 5.0A: 82.037, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__0_A_refined.pdb            PZ33_Farfar2_9_vs_PZ33__0_A_solution.pdb           SUCCESS              2.0A: 22.552, 4.0A: 58.687, 5.0A: 99.629, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__2_A_refined.pdb            PZ33_Farfar2_9_vs_PZ33__2_A_solution.pdb           SUCCESS              2.0A: 21.846, 4.0A: 56.103, 5.0A: 99.666, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__2_B_refined.pdb            PZ33_Farfar2_9_vs_PZ33__2_B_solution.pdb           SUCCESS              2.0A: 24.194, 4.0A: 83.586, 5.0A: 99.903, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__4_A_refined.pdb            PZ33_Farfar2_9_vs_PZ33__4_A_solution.pdb           SUCCESS              2.0A: 22.12, 4.0A: 57.128, 5.0A: 99.722, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__4_B_refined.pdb            PZ33_Farfar2_9_vs_PZ33__4_B_solution.pdb           SUCCESS              2.0A: 23.939, 4.0A: 70.675, 5.0A: 99.861, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__7_A_refined.pdb            PZ33_Farfar2_9_vs_PZ33__7_A_solution.pdb           SUCCESS              2.0A: 22.505, 4.0A: 57.462, 5.0A: 99.842, 8.0A: 100.0
+PZ33_Farfar2_9_vs_PZ33__7_B_refined.pdb            PZ33_Farfar2_9_vs_PZ33__7_B_solution.pdb           SUCCESS              2.0A: 24.635, 4.0A: 75.709, 5.0A: 99.898, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__0_A_refined.pdb             PZ33_Nithin_1_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 12.03, 4.0A: 30.629, 5.0A: 45.846, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__0_B_refined.pdb             PZ33_Nithin_1_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 12.067, 4.0A: 34.113, 5.0A: 48.295, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__2_A_refined.pdb             PZ33_Nithin_1_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 11.728, 4.0A: 30.554, 5.0A: 45.971, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__2_B_refined.pdb             PZ33_Nithin_1_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 12.178, 4.0A: 32.067, 5.0A: 47.219, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__4_A_refined.pdb             PZ33_Nithin_1_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 12.016, 4.0A: 30.624, 5.0A: 45.785, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__7_A_refined.pdb             PZ33_Nithin_1_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 11.714, 4.0A: 31.032, 5.0A: 45.948, 8.0A: 100.0
+PZ33_Nithin_1_vs_PZ33__7_B_refined.pdb             PZ33_Nithin_1_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 12.113, 4.0A: 34.219, 5.0A: 47.966, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__0_A_refined.pdb             PZ33_Nithin_2_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 9.093, 4.0A: 23.66, 5.0A: 34.048, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__0_B_refined.pdb             PZ33_Nithin_2_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 10.179, 4.0A: 25.437, 5.0A: 38.506, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__2_A_refined.pdb             PZ33_Nithin_2_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 9.538, 4.0A: 24.765, 5.0A: 36.65, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__2_B_refined.pdb             PZ33_Nithin_2_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 10.364, 4.0A: 25.266, 5.0A: 38.167, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__4_A_refined.pdb             PZ33_Nithin_2_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 9.279, 4.0A: 23.832, 5.0A: 34.971, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__7_A_refined.pdb             PZ33_Nithin_2_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 9.158, 4.0A: 23.985, 5.0A: 35.133, 8.0A: 100.0
+PZ33_Nithin_2_vs_PZ33__7_B_refined.pdb             PZ33_Nithin_2_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 9.91, 4.0A: 24.714, 5.0A: 37.472, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__0_A_refined.pdb             PZ33_Nithin_3_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 9.492, 4.0A: 22.301, 5.0A: 32.619, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__0_B_refined.pdb             PZ33_Nithin_3_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 10.953, 4.0A: 23.827, 5.0A: 35.89, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__2_A_refined.pdb             PZ33_Nithin_3_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 9.738, 4.0A: 23.336, 5.0A: 34.261, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__4_A_refined.pdb             PZ33_Nithin_3_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 9.659, 4.0A: 22.389, 5.0A: 33.449, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__4_B_refined.pdb             PZ33_Nithin_3_vs_PZ33__4_B_solution.pdb            SUCCESS              2.0A: 10.912, 4.0A: 24.486, 5.0A: 36.321, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__7_A_refined.pdb             PZ33_Nithin_3_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 9.599, 4.0A: 22.45, 5.0A: 33.704, 8.0A: 100.0
+PZ33_Nithin_3_vs_PZ33__7_B_refined.pdb             PZ33_Nithin_3_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 10.174, 4.0A: 23.183, 5.0A: 34.424, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__0_A_refined.pdb             PZ33_Nithin_4_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 11.942, 4.0A: 32.238, 5.0A: 71.436, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__0_B_refined.pdb             PZ33_Nithin_4_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 14.317, 4.0A: 39.824, 5.0A: 78.557, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__2_A_refined.pdb             PZ33_Nithin_4_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 12.076, 4.0A: 34.34, 5.0A: 70.615, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__2_B_refined.pdb             PZ33_Nithin_4_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 14.224, 4.0A: 37.351, 5.0A: 73.398, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__4_A_refined.pdb             PZ33_Nithin_4_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 11.626, 4.0A: 32.911, 5.0A: 72.331, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__7_A_refined.pdb             PZ33_Nithin_4_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 11.529, 4.0A: 33.932, 5.0A: 73.055, 8.0A: 100.0
+PZ33_Nithin_4_vs_PZ33__7_B_refined.pdb             PZ33_Nithin_4_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 14.215, 4.0A: 38.942, 5.0A: 71.784, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__0_A_refined.pdb             PZ33_Nithin_5_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 11.853, 4.0A: 27.26, 5.0A: 36.029, 8.0A: 99.972
+PZ33_Nithin_5_vs_PZ33__0_B_refined.pdb             PZ33_Nithin_5_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 13.259, 4.0A: 28.815, 5.0A: 39.926, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__2_A_refined.pdb             PZ33_Nithin_5_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 12.071, 4.0A: 27.919, 5.0A: 37.179, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__4_A_refined.pdb             PZ33_Nithin_5_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 11.765, 4.0A: 26.903, 5.0A: 36.358, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__4_B_refined.pdb             PZ33_Nithin_5_vs_PZ33__4_B_solution.pdb            SUCCESS              2.0A: 14.076, 4.0A: 29.088, 5.0A: 39.954, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__7_A_refined.pdb             PZ33_Nithin_5_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 11.928, 4.0A: 27.4, 5.0A: 36.711, 8.0A: 100.0
+PZ33_Nithin_5_vs_PZ33__7_B_refined.pdb             PZ33_Nithin_5_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 12.457, 4.0A: 28.481, 5.0A: 39.179, 8.0A: 100.0
+PZ33_Perez_10_vs_PZ33__0_A_refined.pdb             PZ33_Perez_10_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 7.298, 4.0A: 14.85, 5.0A: 19.466, 8.0A: 30.081
+PZ33_Perez_10_vs_PZ33__0_B_refined.pdb             PZ33_Perez_10_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 7.186, 4.0A: 16.302, 5.0A: 20.598, 8.0A: 31.093
+PZ33_Perez_10_vs_PZ33__2_A_refined.pdb             PZ33_Perez_10_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 7.344, 4.0A: 16.298, 5.0A: 20.557, 8.0A: 31.974
+PZ33_Perez_10_vs_PZ33__2_B_refined.pdb             PZ33_Perez_10_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 7.284, 4.0A: 16.205, 5.0A: 20.659, 8.0A: 30.8
+PZ33_Perez_10_vs_PZ33__4_A_refined.pdb             PZ33_Perez_10_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 7.27, 4.0A: 15.444, 5.0A: 19.731, 8.0A: 30.647
+PZ33_Perez_10_vs_PZ33__7_A_refined.pdb             PZ33_Perez_10_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 7.149, 4.0A: 15.356, 5.0A: 19.875, 8.0A: 30.652
+PZ33_Perez_10_vs_PZ33__7_B_refined.pdb             PZ33_Perez_10_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 7.2, 4.0A: 16.071, 5.0A: 20.195, 8.0A: 30.592
+PZ33_Perez_1_vs_PZ33__0_A_refined.pdb              PZ33_Perez_1_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 14.447, 4.0A: 24.366, 5.0A: 29.367, 8.0A: 99.606
+PZ33_Perez_1_vs_PZ33__0_B_refined.pdb              PZ33_Perez_1_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 15.314, 4.0A: 24.514, 5.0A: 29.622, 8.0A: 99.712
+PZ33_Perez_1_vs_PZ33__2_A_refined.pdb              PZ33_Perez_1_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 14.911, 4.0A: 25.145, 5.0A: 30.063, 8.0A: 99.559
+PZ33_Perez_1_vs_PZ33__2_B_refined.pdb              PZ33_Perez_1_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 14.581, 4.0A: 23.646, 5.0A: 28.842, 8.0A: 99.68
+PZ33_Perez_1_vs_PZ33__4_A_refined.pdb              PZ33_Perez_1_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 14.326, 4.0A: 24.514, 5.0A: 29.418, 8.0A: 99.555
+PZ33_Perez_1_vs_PZ33__7_A_refined.pdb              PZ33_Perez_1_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 13.579, 4.0A: 25.043, 5.0A: 29.849, 8.0A: 99.712
+PZ33_Perez_1_vs_PZ33__7_B_refined.pdb              PZ33_Perez_1_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 14.257, 4.0A: 24.199, 5.0A: 29.32, 8.0A: 99.796
+PZ33_Perez_2_vs_PZ33__0_A_refined.pdb              PZ33_Perez_2_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 15.124, 4.0A: 24.973, 5.0A: 31.19, 8.0A: 99.081
+PZ33_Perez_2_vs_PZ33__0_B_refined.pdb              PZ33_Perez_2_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 15.885, 4.0A: 25.094, 5.0A: 31.218, 8.0A: 99.448
+PZ33_Perez_2_vs_PZ33__2_A_refined.pdb              PZ33_Perez_2_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 15.978, 4.0A: 25.164, 5.0A: 31.348, 8.0A: 99.202
+PZ33_Perez_2_vs_PZ33__2_B_refined.pdb              PZ33_Perez_2_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 16.247, 4.0A: 23.846, 5.0A: 29.645, 8.0A: 99.466
+PZ33_Perez_2_vs_PZ33__4_A_refined.pdb              PZ33_Perez_2_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 15.027, 4.0A: 24.69, 5.0A: 30.842, 8.0A: 99.244
+PZ33_Perez_2_vs_PZ33__7_A_refined.pdb              PZ33_Perez_2_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 14.507, 4.0A: 24.932, 5.0A: 31.204, 8.0A: 99.151
+PZ33_Perez_2_vs_PZ33__7_B_refined.pdb              PZ33_Perez_2_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 15.945, 4.0A: 24.199, 5.0A: 30.202, 8.0A: 99.671
+PZ33_Perez_3_vs_PZ33__0_A_refined.pdb              PZ33_Perez_3_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 5.563, 4.0A: 19.842, 5.0A: 25.725, 8.0A: 39.448
+PZ33_Perez_3_vs_PZ33__0_B_refined.pdb              PZ33_Perez_3_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 5.182, 4.0A: 19.995, 5.0A: 25.725, 8.0A: 39.318
+PZ33_Perez_3_vs_PZ33__2_A_refined.pdb              PZ33_Perez_3_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 5.303, 4.0A: 20.714, 5.0A: 26.073, 8.0A: 40.404
+PZ33_Perez_3_vs_PZ33__2_B_refined.pdb              PZ33_Perez_3_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 5.145, 4.0A: 19.87, 5.0A: 25.437, 8.0A: 38.989
+PZ33_Perez_3_vs_PZ33__4_A_refined.pdb              PZ33_Perez_3_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 5.28, 4.0A: 19.907, 5.0A: 25.572, 8.0A: 39.842
+PZ33_Perez_3_vs_PZ33__7_A_refined.pdb              PZ33_Perez_3_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 5.154, 4.0A: 20.046, 5.0A: 25.711, 8.0A: 39.805
+PZ33_Perez_3_vs_PZ33__7_B_refined.pdb              PZ33_Perez_3_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 5.252, 4.0A: 19.68, 5.0A: 25.873, 8.0A: 39.708
+PZ33_Perez_4_vs_PZ33__0_A_refined.pdb              PZ33_Perez_4_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 5.516, 4.0A: 15.913, 5.0A: 20.663, 8.0A: 38.845
+PZ33_Perez_4_vs_PZ33__0_B_refined.pdb              PZ33_Perez_4_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 5.841, 4.0A: 17.175, 5.0A: 21.383, 8.0A: 39.295
+PZ33_Perez_4_vs_PZ33__2_A_refined.pdb              PZ33_Perez_4_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 5.832, 4.0A: 16.817, 5.0A: 21.09, 8.0A: 39.411
+PZ33_Perez_4_vs_PZ33__2_B_refined.pdb              PZ33_Perez_4_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 5.6, 4.0A: 16.65, 5.0A: 21.276, 8.0A: 39.132
+PZ33_Perez_4_vs_PZ33__4_A_refined.pdb              PZ33_Perez_4_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 5.702, 4.0A: 16.122, 5.0A: 20.622, 8.0A: 38.525
+PZ33_Perez_4_vs_PZ33__7_A_refined.pdb              PZ33_Perez_4_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 5.456, 4.0A: 16.103, 5.0A: 20.687, 8.0A: 38.334
+PZ33_Perez_4_vs_PZ33__7_B_refined.pdb              PZ33_Perez_4_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 5.641, 4.0A: 16.516, 5.0A: 21.044, 8.0A: 39.267
+PZ33_Perez_5_vs_PZ33__0_A_refined.pdb              PZ33_Perez_5_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 8.184, 4.0A: 15.866, 5.0A: 19.499, 8.0A: 36.289
+PZ33_Perez_5_vs_PZ33__0_B_refined.pdb              PZ33_Perez_5_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 7.933, 4.0A: 16.112, 5.0A: 19.921, 8.0A: 37.147
+PZ33_Perez_5_vs_PZ33__2_A_refined.pdb              PZ33_Perez_5_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 8.309, 4.0A: 16.711, 5.0A: 20.121, 8.0A: 37.555
+PZ33_Perez_5_vs_PZ33__2_B_refined.pdb              PZ33_Perez_5_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 7.697, 4.0A: 16.228, 5.0A: 19.907, 8.0A: 37.936
+PZ33_Perez_5_vs_PZ33__4_A_refined.pdb              PZ33_Perez_5_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 8.109, 4.0A: 16.01, 5.0A: 19.587, 8.0A: 37.045
+PZ33_Perez_5_vs_PZ33__7_A_refined.pdb              PZ33_Perez_5_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 8.133, 4.0A: 16.117, 5.0A: 19.601, 8.0A: 36.952
+PZ33_Perez_5_vs_PZ33__7_B_refined.pdb              PZ33_Perez_5_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 8.1, 4.0A: 15.978, 5.0A: 19.717, 8.0A: 37.625
+PZ33_Perez_6_vs_PZ33__0_A_refined.pdb              PZ33_Perez_6_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 5.108, 4.0A: 13.143, 5.0A: 16.033, 8.0A: 25.205
+PZ33_Perez_6_vs_PZ33__0_B_refined.pdb              PZ33_Perez_6_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 5.159, 4.0A: 13.296, 5.0A: 16.372, 8.0A: 25.901
+PZ33_Perez_6_vs_PZ33__2_A_refined.pdb              PZ33_Perez_6_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 5.08, 4.0A: 13.468, 5.0A: 16.618, 8.0A: 25.952
+PZ33_Perez_6_vs_PZ33__4_A_refined.pdb              PZ33_Perez_6_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 4.908, 4.0A: 12.976, 5.0A: 16.122, 8.0A: 25.451
+PZ33_Perez_6_vs_PZ33__4_B_refined.pdb              PZ33_Perez_6_vs_PZ33__4_B_solution.pdb             SUCCESS              2.0A: 5.168, 4.0A: 13.514, 5.0A: 16.841, 8.0A: 25.915
+PZ33_Perez_6_vs_PZ33__7_A_refined.pdb              PZ33_Perez_6_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 5.01, 4.0A: 13.241, 5.0A: 16.224, 8.0A: 25.525
+PZ33_Perez_6_vs_PZ33__7_B_refined.pdb              PZ33_Perez_6_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 5.001, 4.0A: 13.231, 5.0A: 16.321, 8.0A: 25.799
+PZ33_Perez_7_vs_PZ33__0_B_refined.pdb              PZ33_Perez_7_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 6.954, 4.0A: 26.936, 5.0A: 34.465, 8.0A: 52.531
+PZ33_Perez_7_vs_PZ33__2_A_refined.pdb              PZ33_Perez_7_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 6.759, 4.0A: 25.414, 5.0A: 33.681, 8.0A: 54.266
+PZ33_Perez_7_vs_PZ33__2_B_refined.pdb              PZ33_Perez_7_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 6.759, 4.0A: 26.569, 5.0A: 34.145, 8.0A: 53.319
+PZ33_Perez_7_vs_PZ33__4_A_refined.pdb              PZ33_Perez_7_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 6.685, 4.0A: 25.623, 5.0A: 33.82, 8.0A: 54.034
+PZ33_Perez_7_vs_PZ33__4_B_refined.pdb              PZ33_Perez_7_vs_PZ33__4_B_solution.pdb             SUCCESS              2.0A: 6.95, 4.0A: 27.182, 5.0A: 34.818, 8.0A: 55.764
+PZ33_Perez_7_vs_PZ33__7_A_refined.pdb              PZ33_Perez_7_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 6.597, 4.0A: 25.437, 5.0A: 33.37, 8.0A: 54.173
+PZ33_Perez_7_vs_PZ33__7_B_refined.pdb              PZ33_Perez_7_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 6.657, 4.0A: 26.681, 5.0A: 34.878, 8.0A: 55.365
+PZ33_Perez_8_vs_PZ33__0_A_refined.pdb              PZ33_Perez_8_vs_PZ33__0_A_solution.pdb             SUCCESS              2.0A: 9.464, 4.0A: 14.99, 5.0A: 18.794, 8.0A: 32.842
+PZ33_Perez_8_vs_PZ33__0_B_refined.pdb              PZ33_Perez_8_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 10.721, 4.0A: 15.973, 5.0A: 19.703, 8.0A: 33.709
+PZ33_Perez_8_vs_PZ33__2_A_refined.pdb              PZ33_Perez_8_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 10.067, 4.0A: 15.876, 5.0A: 19.856, 8.0A: 34.428
+PZ33_Perez_8_vs_PZ33__2_B_refined.pdb              PZ33_Perez_8_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 10.582, 4.0A: 15.611, 5.0A: 19.93, 8.0A: 33.412
+PZ33_Perez_8_vs_PZ33__4_A_refined.pdb              PZ33_Perez_8_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 9.529, 4.0A: 15.412, 5.0A: 19.346, 8.0A: 33.417
+PZ33_Perez_8_vs_PZ33__7_A_refined.pdb              PZ33_Perez_8_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 9.529, 4.0A: 15.157, 5.0A: 18.854, 8.0A: 33.236
+PZ33_Perez_8_vs_PZ33__7_B_refined.pdb              PZ33_Perez_8_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 10.234, 4.0A: 15.389, 5.0A: 19.42, 8.0A: 33.152
+PZ33_Perez_9_vs_PZ33__0_B_refined.pdb              PZ33_Perez_9_vs_PZ33__0_B_solution.pdb             SUCCESS              2.0A: 5.753, 4.0A: 24.616, 5.0A: 31.111, 8.0A: 47.358
+PZ33_Perez_9_vs_PZ33__2_A_refined.pdb              PZ33_Perez_9_vs_PZ33__2_A_solution.pdb             SUCCESS              2.0A: 6.04, 4.0A: 24.727, 5.0A: 32.048, 8.0A: 47.39
+PZ33_Perez_9_vs_PZ33__2_B_refined.pdb              PZ33_Perez_9_vs_PZ33__2_B_solution.pdb             SUCCESS              2.0A: 5.859, 4.0A: 24.89, 5.0A: 32.03, 8.0A: 47.53
+PZ33_Perez_9_vs_PZ33__4_A_refined.pdb              PZ33_Perez_9_vs_PZ33__4_A_solution.pdb             SUCCESS              2.0A: 5.985, 4.0A: 23.967, 5.0A: 31.821, 8.0A: 47.562
+PZ33_Perez_9_vs_PZ33__4_B_refined.pdb              PZ33_Perez_9_vs_PZ33__4_B_solution.pdb             SUCCESS              2.0A: 6.091, 4.0A: 25.113, 5.0A: 32.512, 8.0A: 47.525
+PZ33_Perez_9_vs_PZ33__7_A_refined.pdb              PZ33_Perez_9_vs_PZ33__7_A_solution.pdb             SUCCESS              2.0A: 6.008, 4.0A: 23.874, 5.0A: 31.58, 8.0A: 47.386
+PZ33_Perez_9_vs_PZ33__7_B_refined.pdb              PZ33_Perez_9_vs_PZ33__7_B_solution.pdb             SUCCESS              2.0A: 5.79, 4.0A: 23.665, 5.0A: 31.515, 8.0A: 47.27
+PZ33_RNAComposer_1_vs_PZ33__0_A_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__0_A_solution.pdb       SUCCESS              2.0A: 22.835, 4.0A: 33.301, 5.0A: 36.915, 8.0A: 48.68
+PZ33_RNAComposer_1_vs_PZ33__2_A_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__2_A_solution.pdb       SUCCESS              2.0A: 22.858, 4.0A: 33.588, 5.0A: 37.077, 8.0A: 48.94
+PZ33_RNAComposer_1_vs_PZ33__2_B_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__2_B_solution.pdb       SUCCESS              2.0A: 24.709, 4.0A: 34.275, 5.0A: 37.847, 8.0A: 49.993
+PZ33_RNAComposer_1_vs_PZ33__4_A_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__4_A_solution.pdb       SUCCESS              2.0A: 22.668, 4.0A: 33.296, 5.0A: 36.655, 8.0A: 49.084
+PZ33_RNAComposer_1_vs_PZ33__4_B_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__4_B_solution.pdb       SUCCESS              2.0A: 24.505, 4.0A: 34.317, 5.0A: 37.694, 8.0A: 50.262
+PZ33_RNAComposer_1_vs_PZ33__7_A_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__7_A_solution.pdb       SUCCESS              2.0A: 22.575, 4.0A: 33.013, 5.0A: 36.725, 8.0A: 48.063
+PZ33_RNAComposer_1_vs_PZ33__7_B_refined.pdb        PZ33_RNAComposer_1_vs_PZ33__7_B_solution.pdb       SUCCESS              2.0A: 23.201, 4.0A: 33.83, 5.0A: 37.513, 8.0A: 50.104
+PZ33_RNAComposer_2_vs_PZ33__0_A_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__0_A_solution.pdb       SUCCESS              2.0A: 23.6, 4.0A: 38.488, 5.0A: 45.753, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__2_A_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__2_A_solution.pdb       SUCCESS              2.0A: 23.544, 4.0A: 38.59, 5.0A: 45.238, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__2_B_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__2_B_solution.pdb       SUCCESS              2.0A: 24.468, 4.0A: 39.819, 5.0A: 47.915, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__4_A_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__4_A_solution.pdb       SUCCESS              2.0A: 23.521, 4.0A: 38.687, 5.0A: 45.46, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__4_B_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__4_B_solution.pdb       SUCCESS              2.0A: 23.92, 4.0A: 39.392, 5.0A: 46.156, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__7_A_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__7_A_solution.pdb       SUCCESS              2.0A: 23.289, 4.0A: 38.26, 5.0A: 45.006, 8.0A: 100.0
+PZ33_RNAComposer_2_vs_PZ33__7_B_refined.pdb        PZ33_RNAComposer_2_vs_PZ33__7_B_solution.pdb       SUCCESS              2.0A: 23.976, 4.0A: 39.007, 5.0A: 46.393, 8.0A: 99.981
+PZ33_RNAComposer_3_vs_PZ33__0_A_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__0_A_solution.pdb       SUCCESS              2.0A: 19.814, 4.0A: 34.901, 5.0A: 38.279, 8.0A: 49.664
+PZ33_RNAComposer_3_vs_PZ33__2_A_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__2_A_solution.pdb       SUCCESS              2.0A: 21.262, 4.0A: 35.514, 5.0A: 38.571, 8.0A: 50.151
+PZ33_RNAComposer_3_vs_PZ33__2_B_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__2_B_solution.pdb       SUCCESS              2.0A: 20.005, 4.0A: 36.2, 5.0A: 39.48, 8.0A: 50.786
+PZ33_RNAComposer_3_vs_PZ33__4_A_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__4_A_solution.pdb       SUCCESS              2.0A: 19.805, 4.0A: 34.753, 5.0A: 38.604, 8.0A: 49.807
+PZ33_RNAComposer_3_vs_PZ33__4_B_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__4_B_solution.pdb       SUCCESS              2.0A: 20.469, 4.0A: 36.664, 5.0A: 39.884, 8.0A: 51.329
+PZ33_RNAComposer_3_vs_PZ33__7_A_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__7_A_solution.pdb       SUCCESS              2.0A: 19.977, 4.0A: 35.041, 5.0A: 38.58, 8.0A: 49.664
+PZ33_RNAComposer_3_vs_PZ33__7_B_refined.pdb        PZ33_RNAComposer_3_vs_PZ33__7_B_solution.pdb       SUCCESS              2.0A: 19.518, 4.0A: 35.955, 5.0A: 39.578, 8.0A: 51.594
+PZ33_RNAComposer_4_vs_PZ33__0_A_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__0_A_solution.pdb       SUCCESS              2.0A: 17.476, 4.0A: 24.426, 5.0A: 28.36, 8.0A: 57.128
+PZ33_RNAComposer_4_vs_PZ33__2_A_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__2_A_solution.pdb       SUCCESS              2.0A: 18.089, 4.0A: 25.335, 5.0A: 29.279, 8.0A: 57.88
+PZ33_RNAComposer_4_vs_PZ33__2_B_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__2_B_solution.pdb       SUCCESS              2.0A: 18.381, 4.0A: 25.474, 5.0A: 29.204, 8.0A: 58.019
+PZ33_RNAComposer_4_vs_PZ33__4_A_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__4_A_solution.pdb       SUCCESS              2.0A: 17.467, 4.0A: 24.625, 5.0A: 28.541, 8.0A: 57.875
+PZ33_RNAComposer_4_vs_PZ33__4_B_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__4_B_solution.pdb       SUCCESS              2.0A: 18.497, 4.0A: 25.344, 5.0A: 29.432, 8.0A: 58.297
+PZ33_RNAComposer_4_vs_PZ33__7_A_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__7_A_solution.pdb       SUCCESS              2.0A: 17.402, 4.0A: 24.765, 5.0A: 28.62, 8.0A: 56.896
+PZ33_RNAComposer_4_vs_PZ33__7_B_refined.pdb        PZ33_RNAComposer_4_vs_PZ33__7_B_solution.pdb       SUCCESS              2.0A: 17.852, 4.0A: 25.159, 5.0A: 29.093, 8.0A: 57.221
+PZ33_RNAComposer_5_vs_PZ33__0_A_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__0_A_solution.pdb       SUCCESS              2.0A: 24.533, 4.0A: 67.492, 5.0A: 99.94, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__2_A_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__2_A_solution.pdb       SUCCESS              2.0A: 24.732, 4.0A: 65.655, 5.0A: 99.94, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__2_B_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__2_B_solution.pdb       SUCCESS              2.0A: 26.926, 4.0A: 78.919, 5.0A: 99.916, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__4_A_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__4_A_solution.pdb       SUCCESS              2.0A: 24.403, 4.0A: 56.507, 5.0A: 99.94, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__4_B_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__4_B_solution.pdb       SUCCESS              2.0A: 26.82, 4.0A: 80.445, 5.0A: 99.94, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__7_A_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__7_A_solution.pdb       SUCCESS              2.0A: 24.611, 4.0A: 69.613, 5.0A: 99.94, 8.0A: 100.0
+PZ33_RNAComposer_5_vs_PZ33__7_B_refined.pdb        PZ33_RNAComposer_5_vs_PZ33__7_B_solution.pdb       SUCCESS              2.0A: 25.975, 4.0A: 81.86, 5.0A: 99.879, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__0_A_refined.pdb             PZ33_SimRNA_1_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 18.158, 4.0A: 74.048, 5.0A: 99.852, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__0_B_refined.pdb             PZ33_SimRNA_1_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 22.106, 4.0A: 92.855, 5.0A: 99.903, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__2_A_refined.pdb             PZ33_SimRNA_1_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 19.787, 4.0A: 70.155, 5.0A: 99.903, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__2_B_refined.pdb             PZ33_SimRNA_1_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 21.466, 4.0A: 89.246, 5.0A: 99.903, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__4_A_refined.pdb             PZ33_SimRNA_1_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 17.36, 4.0A: 72.392, 5.0A: 99.903, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__7_A_refined.pdb             PZ33_SimRNA_1_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 16.762, 4.0A: 71.784, 5.0A: 99.875, 8.0A: 100.0
+PZ33_SimRNA_1_vs_PZ33__7_B_refined.pdb             PZ33_SimRNA_1_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 21.768, 4.0A: 85.224, 5.0A: 99.903, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__0_A_refined.pdb             PZ33_SimRNA_2_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 19.842, 4.0A: 39.29, 5.0A: 49.678, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__2_A_refined.pdb             PZ33_SimRNA_2_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 19.722, 4.0A: 38.826, 5.0A: 49.051, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__2_B_refined.pdb             PZ33_SimRNA_2_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 22.171, 4.0A: 41.239, 5.0A: 52.702, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__4_A_refined.pdb             PZ33_SimRNA_2_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 18.817, 4.0A: 39.058, 5.0A: 49.441, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__4_B_refined.pdb             PZ33_SimRNA_2_vs_PZ33__4_B_solution.pdb            SUCCESS              2.0A: 22.463, 4.0A: 40.807, 5.0A: 52.122, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__7_A_refined.pdb             PZ33_SimRNA_2_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 17.407, 4.0A: 38.826, 5.0A: 48.513, 8.0A: 100.0
+PZ33_SimRNA_2_vs_PZ33__7_B_refined.pdb             PZ33_SimRNA_2_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 22.023, 4.0A: 40.501, 5.0A: 51.761, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__0_A_refined.pdb             PZ33_SimRNA_3_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 15.161, 4.0A: 33.588, 5.0A: 49.747, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__0_B_refined.pdb             PZ33_SimRNA_3_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 16.952, 4.0A: 41.396, 5.0A: 53.319, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__2_A_refined.pdb             PZ33_SimRNA_3_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 15.44, 4.0A: 36.804, 5.0A: 50.03, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__2_B_refined.pdb             PZ33_SimRNA_3_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 16.711, 4.0A: 40.942, 5.0A: 53.148, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__4_A_refined.pdb             PZ33_SimRNA_3_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 15.157, 4.0A: 34.28, 5.0A: 49.376, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__7_A_refined.pdb             PZ33_SimRNA_3_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 15.208, 4.0A: 34.275, 5.0A: 49.511, 8.0A: 100.0
+PZ33_SimRNA_3_vs_PZ33__7_B_refined.pdb             PZ33_SimRNA_3_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 16.27, 4.0A: 41.401, 5.0A: 53.909, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__0_A_refined.pdb             PZ33_SimRNA_4_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 15.611, 4.0A: 30.587, 5.0A: 44.254, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__0_B_refined.pdb             PZ33_SimRNA_4_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 19.875, 4.0A: 33.946, 5.0A: 47.497, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__2_A_refined.pdb             PZ33_SimRNA_4_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 17.634, 4.0A: 33.032, 5.0A: 49.265, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__2_B_refined.pdb             PZ33_SimRNA_4_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 19.828, 4.0A: 33.686, 5.0A: 47.112, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__4_A_refined.pdb             PZ33_SimRNA_4_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 15.375, 4.0A: 31.505, 5.0A: 45.725, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__7_A_refined.pdb             PZ33_SimRNA_4_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 15.277, 4.0A: 31.482, 5.0A: 46.606, 8.0A: 100.0
+PZ33_SimRNA_4_vs_PZ33__7_B_refined.pdb             PZ33_SimRNA_4_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 18.998, 4.0A: 32.907, 5.0A: 44.658, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__0_A_refined.pdb             PZ33_SimRNA_5_vs_PZ33__0_A_solution.pdb            SUCCESS              2.0A: 15.843, 4.0A: 32.572, 5.0A: 70.721, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__0_B_refined.pdb             PZ33_SimRNA_5_vs_PZ33__0_B_solution.pdb            SUCCESS              2.0A: 17.499, 4.0A: 37.773, 5.0A: 76.739, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__2_A_refined.pdb             PZ33_SimRNA_5_vs_PZ33__2_A_solution.pdb            SUCCESS              2.0A: 16.01, 4.0A: 35.008, 5.0A: 79.397, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__2_B_refined.pdb             PZ33_SimRNA_5_vs_PZ33__2_B_solution.pdb            SUCCESS              2.0A: 17.281, 4.0A: 36.483, 5.0A: 75.834, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__4_A_refined.pdb             PZ33_SimRNA_5_vs_PZ33__4_A_solution.pdb            SUCCESS              2.0A: 15.713, 4.0A: 33.486, 5.0A: 73.95, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__7_A_refined.pdb             PZ33_SimRNA_5_vs_PZ33__7_A_solution.pdb            SUCCESS              2.0A: 15.709, 4.0A: 33.909, 5.0A: 76.878, 8.0A: 100.0
+PZ33_SimRNA_5_vs_PZ33__7_B_refined.pdb             PZ33_SimRNA_5_vs_PZ33__7_B_solution.pdb            SUCCESS              2.0A: 16.553, 4.0A: 36.321, 5.0A: 76.706, 8.0A: 100.0
+PZ33_Szachniuk_1_vs_PZ33__0_A_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 20.264, 4.0A: 35.676, 5.0A: 39.763, 8.0A: 67.956
+PZ33_Szachniuk_1_vs_PZ33__0_B_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 22.092, 4.0A: 36.493, 5.0A: 40.339, 8.0A: 66.514
+PZ33_Szachniuk_1_vs_PZ33__2_B_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 19.378, 4.0A: 36.084, 5.0A: 39.805, 8.0A: 66.62
+PZ33_Szachniuk_1_vs_PZ33__4_A_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 20.668, 4.0A: 35.783, 5.0A: 39.963, 8.0A: 68.717
+PZ33_Szachniuk_1_vs_PZ33__4_B_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__4_B_solution.pdb         SUCCESS              2.0A: 19.504, 4.0A: 36.34, 5.0A: 40.269, 8.0A: 75.955
+PZ33_Szachniuk_1_vs_PZ33__7_A_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 21.03, 4.0A: 36.038, 5.0A: 39.879, 8.0A: 67.59
+PZ33_Szachniuk_1_vs_PZ33__7_B_refined.pdb          PZ33_Szachniuk_1_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 19.299, 4.0A: 35.212, 5.0A: 39.824, 8.0A: 68.717
+PZ33_Szachniuk_2_vs_PZ33__0_A_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 12.86, 4.0A: 26.518, 5.0A: 38.0, 8.0A: 73.241
+PZ33_Szachniuk_2_vs_PZ33__0_B_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 13.333, 4.0A: 27.59, 5.0A: 38.024, 8.0A: 74.02
+PZ33_Szachniuk_2_vs_PZ33__2_A_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 13.301, 4.0A: 26.732, 5.0A: 38.325, 8.0A: 73.37
+PZ33_Szachniuk_2_vs_PZ33__2_B_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 12.716, 4.0A: 23.929, 5.0A: 37.138, 8.0A: 73.909
+PZ33_Szachniuk_2_vs_PZ33__4_A_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 12.958, 4.0A: 26.704, 5.0A: 38.098, 8.0A: 72.971
+PZ33_Szachniuk_2_vs_PZ33__7_A_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 12.8, 4.0A: 26.973, 5.0A: 38.65, 8.0A: 72.981
+PZ33_Szachniuk_2_vs_PZ33__7_B_refined.pdb          PZ33_Szachniuk_2_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 12.572, 4.0A: 25.201, 5.0A: 38.502, 8.0A: 75.616
+PZ33_Szachniuk_3_vs_PZ33__0_A_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 11.988, 4.0A: 16.186, 5.0A: 19.304, 8.0A: 27.896
+PZ33_Szachniuk_3_vs_PZ33__0_B_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 11.942, 4.0A: 16.706, 5.0A: 19.842, 8.0A: 29.492
+PZ33_Szachniuk_3_vs_PZ33__2_A_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 12.178, 4.0A: 16.873, 5.0A: 20.051, 8.0A: 29.599
+PZ33_Szachniuk_3_vs_PZ33__2_B_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 12.044, 4.0A: 16.65, 5.0A: 19.731, 8.0A: 29.608
+PZ33_Szachniuk_3_vs_PZ33__4_A_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 11.788, 4.0A: 16.173, 5.0A: 19.337, 8.0A: 28.49
+PZ33_Szachniuk_3_vs_PZ33__7_A_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 11.853, 4.0A: 16.112, 5.0A: 19.378, 8.0A: 28.866
+PZ33_Szachniuk_3_vs_PZ33__7_B_refined.pdb          PZ33_Szachniuk_3_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 11.988, 4.0A: 16.363, 5.0A: 19.671, 8.0A: 29.367
+PZ33_Szachniuk_4_vs_PZ33__0_A_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 16.98, 4.0A: 23.758, 5.0A: 27.938, 8.0A: 56.395
+PZ33_Szachniuk_4_vs_PZ33__2_A_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 17.611, 4.0A: 24.44, 5.0A: 28.671, 8.0A: 57.105
+PZ33_Szachniuk_4_vs_PZ33__2_B_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 17.648, 4.0A: 25.071, 5.0A: 28.88, 8.0A: 56.692
+PZ33_Szachniuk_4_vs_PZ33__4_A_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 17.008, 4.0A: 24.027, 5.0A: 27.915, 8.0A: 57.119
+PZ33_Szachniuk_4_vs_PZ33__4_B_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__4_B_solution.pdb         SUCCESS              2.0A: 17.796, 4.0A: 24.969, 5.0A: 28.907, 8.0A: 57.272
+PZ33_Szachniuk_4_vs_PZ33__7_A_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 16.971, 4.0A: 24.245, 5.0A: 27.942, 8.0A: 55.843
+PZ33_Szachniuk_4_vs_PZ33__7_B_refined.pdb          PZ33_Szachniuk_4_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 16.998, 4.0A: 24.778, 5.0A: 28.235, 8.0A: 56.228
+PZ33_Szachniuk_5_vs_PZ33__0_A_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__0_A_solution.pdb         SUCCESS              2.0A: 17.082, 4.0A: 23.275, 5.0A: 28.253, 8.0A: 50.61
+PZ33_Szachniuk_5_vs_PZ33__0_B_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__0_B_solution.pdb         SUCCESS              2.0A: 18.627, 4.0A: 24.881, 5.0A: 29.051, 8.0A: 51.32
+PZ33_Szachniuk_5_vs_PZ33__2_A_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__2_A_solution.pdb         SUCCESS              2.0A: 18.13, 4.0A: 24.547, 5.0A: 29.432, 8.0A: 51.529
+PZ33_Szachniuk_5_vs_PZ33__2_B_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__2_B_solution.pdb         SUCCESS              2.0A: 18.469, 4.0A: 25.21, 5.0A: 29.84, 8.0A: 51.839
+PZ33_Szachniuk_5_vs_PZ33__4_A_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__4_A_solution.pdb         SUCCESS              2.0A: 17.124, 4.0A: 23.679, 5.0A: 28.406, 8.0A: 50.842
+PZ33_Szachniuk_5_vs_PZ33__7_A_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__7_A_solution.pdb         SUCCESS              2.0A: 17.249, 4.0A: 23.772, 5.0A: 28.569, 8.0A: 50.684
+PZ33_Szachniuk_5_vs_PZ33__7_B_refined.pdb          PZ33_Szachniuk_5_vs_PZ33__7_B_solution.pdb         SUCCESS              2.0A: 18.033, 4.0A: 24.482, 5.0A: 28.991, 8.0A: 50.735
+PZ33_Xiao_1_vs_PZ33__0_A_refined.pdb               PZ33_Xiao_1_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 19.248, 4.0A: 28.485, 5.0A: 41.178, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__0_B_refined.pdb               PZ33_Xiao_1_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 20.213, 4.0A: 30.23, 5.0A: 47.567, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__2_A_refined.pdb               PZ33_Xiao_1_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 19.536, 4.0A: 28.847, 5.0A: 41.819, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__4_A_refined.pdb               PZ33_Xiao_1_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 19.332, 4.0A: 28.662, 5.0A: 41.318, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__4_B_refined.pdb               PZ33_Xiao_1_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.464, 4.0A: 30.619, 5.0A: 44.727, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__7_A_refined.pdb               PZ33_Xiao_1_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 19.211, 4.0A: 28.499, 5.0A: 42.394, 8.0A: 100.0
+PZ33_Xiao_1_vs_PZ33__7_B_refined.pdb               PZ33_Xiao_1_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 19.587, 4.0A: 29.91, 5.0A: 43.252, 8.0A: 100.0
+PZ33_Xiao_2_vs_PZ33__0_A_refined.pdb               PZ33_Xiao_2_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 19.012, 4.0A: 30.322, 5.0A: 39.61, 8.0A: 99.745
+PZ33_Xiao_2_vs_PZ33__2_A_refined.pdb               PZ33_Xiao_2_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 19.346, 4.0A: 30.698, 5.0A: 40.297, 8.0A: 99.745
+PZ33_Xiao_2_vs_PZ33__2_B_refined.pdb               PZ33_Xiao_2_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 20.269, 4.0A: 32.716, 5.0A: 42.194, 8.0A: 99.805
+PZ33_Xiao_2_vs_PZ33__4_A_refined.pdb               PZ33_Xiao_2_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 18.849, 4.0A: 30.086, 5.0A: 39.652, 8.0A: 99.745
+PZ33_Xiao_2_vs_PZ33__4_B_refined.pdb               PZ33_Xiao_2_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.682, 4.0A: 32.698, 5.0A: 42.923, 8.0A: 99.745
+PZ33_Xiao_2_vs_PZ33__7_A_refined.pdb               PZ33_Xiao_2_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 19.119, 4.0A: 30.202, 5.0A: 39.513, 8.0A: 99.68
+PZ33_Xiao_2_vs_PZ33__7_B_refined.pdb               PZ33_Xiao_2_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 20.399, 4.0A: 32.438, 5.0A: 42.385, 8.0A: 99.745
+PZ33_Xiao_3_vs_PZ33__0_A_refined.pdb               PZ33_Xiao_3_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 20.399, 4.0A: 37.597, 5.0A: 63.419, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__2_A_refined.pdb               PZ33_Xiao_3_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 21.021, 4.0A: 38.395, 5.0A: 62.566, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__2_B_refined.pdb               PZ33_Xiao_3_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 19.819, 4.0A: 39.262, 5.0A: 71.167, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__4_A_refined.pdb               PZ33_Xiao_3_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 20.668, 4.0A: 37.973, 5.0A: 63.34, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__4_B_refined.pdb               PZ33_Xiao_3_vs_PZ33__4_B_solution.pdb              SUCCESS              2.0A: 20.858, 4.0A: 40.116, 5.0A: 68.615, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__7_A_refined.pdb               PZ33_Xiao_3_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 20.761, 4.0A: 38.334, 5.0A: 61.396, 8.0A: 100.0
+PZ33_Xiao_3_vs_PZ33__7_B_refined.pdb               PZ33_Xiao_3_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 20.088, 4.0A: 38.975, 5.0A: 65.395, 8.0A: 100.0
+PZ33_Xiao_4_vs_PZ33__0_A_refined.pdb               PZ33_Xiao_4_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 13.338, 4.0A: 19.601, 5.0A: 24.681, 8.0A: 62.77
+PZ33_Xiao_4_vs_PZ33__0_B_refined.pdb               PZ33_Xiao_4_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 13.876, 4.0A: 20.473, 5.0A: 25.725, 8.0A: 64.676
+PZ33_Xiao_4_vs_PZ33__2_A_refined.pdb               PZ33_Xiao_4_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 13.421, 4.0A: 20.218, 5.0A: 25.558, 8.0A: 68.949
+PZ33_Xiao_4_vs_PZ33__2_B_refined.pdb               PZ33_Xiao_4_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 13.607, 4.0A: 20.227, 5.0A: 24.811, 8.0A: 64.356
+PZ33_Xiao_4_vs_PZ33__4_A_refined.pdb               PZ33_Xiao_4_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 13.319, 4.0A: 19.912, 5.0A: 24.542, 8.0A: 64.848
+PZ33_Xiao_4_vs_PZ33__7_A_refined.pdb               PZ33_Xiao_4_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 13.417, 4.0A: 19.949, 5.0A: 24.718, 8.0A: 64.783
+PZ33_Xiao_4_vs_PZ33__7_B_refined.pdb               PZ33_Xiao_4_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 13.259, 4.0A: 19.61, 5.0A: 24.537, 8.0A: 62.264
+PZ33_Xiao_5_vs_PZ33__0_A_refined.pdb               PZ33_Xiao_5_vs_PZ33__0_A_solution.pdb              SUCCESS              2.0A: 17.23, 4.0A: 24.63, 5.0A: 33.421, 8.0A: 86.889
+PZ33_Xiao_5_vs_PZ33__0_B_refined.pdb               PZ33_Xiao_5_vs_PZ33__0_B_solution.pdb              SUCCESS              2.0A: 17.272, 4.0A: 25.191, 5.0A: 34.233, 8.0A: 87.492
+PZ33_Xiao_5_vs_PZ33__2_A_refined.pdb               PZ33_Xiao_5_vs_PZ33__2_A_solution.pdb              SUCCESS              2.0A: 17.1, 4.0A: 24.853, 5.0A: 33.389, 8.0A: 82.668
+PZ33_Xiao_5_vs_PZ33__2_B_refined.pdb               PZ33_Xiao_5_vs_PZ33__2_B_solution.pdb              SUCCESS              2.0A: 16.961, 4.0A: 25.28, 5.0A: 34.493, 8.0A: 89.135
+PZ33_Xiao_5_vs_PZ33__4_A_refined.pdb               PZ33_Xiao_5_vs_PZ33__4_A_solution.pdb              SUCCESS              2.0A: 16.785, 4.0A: 24.542, 5.0A: 32.967, 8.0A: 83.735
+PZ33_Xiao_5_vs_PZ33__7_A_refined.pdb               PZ33_Xiao_5_vs_PZ33__7_A_solution.pdb              SUCCESS              2.0A: 16.576, 4.0A: 24.579, 5.0A: 32.981, 8.0A: 86.008
+PZ33_Xiao_5_vs_PZ33__7_B_refined.pdb               PZ33_Xiao_5_vs_PZ33__7_B_solution.pdb              SUCCESS              2.0A: 16.752, 4.0A: 24.755, 5.0A: 32.999, 8.0A: 100.0
+

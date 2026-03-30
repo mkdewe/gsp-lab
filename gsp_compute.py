@@ -11,6 +11,8 @@ import shutil
 # Get the absolute path to the compute.py script
 BASE_DIR = pathlib.Path(__file__).parent.resolve()
 COMPUTE_SCRIPT = BASE_DIR / "src" / "gsp" / "compute.py"
+THRESHOLDS = [2.0, 4.0, 5.0, 8.0]
+CROSS_COMPARE = False   # ustaw na True, jeśli chcesz porównywać każdy model z każdym rozwiązaniem
 
 def extract_base_id(filename, puzzle_name=None):
     """
@@ -21,30 +23,32 @@ def extract_base_id(filename, puzzle_name=None):
     For solutions: if after removing the prefix we get "solution" or "solution_", return "solution_0".
     """
     name = pathlib.Path(filename).stem
-    # Remove typical suffixes
     for suffix in ['_refined', '_solution', '_rpr']:
         if name.endswith(suffix):
             name = name[:-len(suffix)]
     
-    # Check if it is a solution (contains "solution" in original name)
     is_solution = 'solution' in filename.lower()
     
-    # Remove leading number and underscore (if present)
     name = re.sub(r'^\d+_', '', name)
     
-    # Remove puzzle prefix (if provided and present)
     if puzzle_name and name.startswith(puzzle_name + '_'):
         name = name[len(puzzle_name)+1:]
     
-    # For solutions: if it became "solution" or "solution_", treat as generic
     if is_solution:
         if name in ("solution", "solution_"):
             return "solution_0"
     
-    # If after all removals it is empty, it's a generic solution
     if name == "":
         return "solution_0"
     return name
+
+def get_group_base_id(base_id):
+    """
+    Returns common base for variants (e.g., CR1108_TS029_1_vs_CR1108__0 -> CR1108_TS029_1).
+    """
+    if '_vs_' in base_id:
+        return base_id.split('_vs_')[0]
+    return base_id
 
 def collect_files(pdb_dir):
     """
@@ -75,14 +79,12 @@ def read_gGSP_from_csv(csv_path):
         with open(csv_path, 'r') as f:
             reader = csv.reader(f)
             header = next(reader)
-            # Find column with 'gGSP'
             col_index = None
             for i, col in enumerate(header):
                 if 'ggsp' in col.lower():
                     col_index = i
                     break
             if col_index is None:
-                # If not found, take the first column
                 col_index = 0
 
             first_row = next(reader, None)
@@ -92,79 +94,143 @@ def read_gGSP_from_csv(csv_path):
         return f"READ_ERROR: {e}"
     return None
 
+def find_gGSP_files(cwd, output_dir, target_stem, model_stem, thresholds):
+    """
+    For each threshold, finds the gGSP CSV file.
+    Returns dict: {threshold: (path_to_csv, gGSP_value)}.
+    """
+    results = {}
+    for thresh in thresholds:
+        if abs(thresh - 5.0) < 1e-9:
+            prefix = ""
+        else:
+            if thresh.is_integer():
+                prefix = f"{int(thresh)}A_"
+            else:
+                prefix = f"{str(thresh).replace('.', '_')}A_"
+
+        possible_names = [
+            f"{prefix}{target_stem}_{model_stem}_C1'-gGSP.csv",
+            f"{prefix}{model_stem}_{target_stem}_C1'-gGSP.csv",
+            f"{prefix}{target_stem}_{model_stem}_gGSP.csv",
+            f"{prefix}{model_stem}_{target_stem}_gGSP.csv",
+        ]
+
+        found = None
+        for loc in (cwd, output_dir):
+            if not loc.exists():
+                continue
+            for name in possible_names:
+                candidate = loc / name
+                if candidate.exists():
+                    found = candidate
+                    break
+            if found:
+                break
+
+        if not found:
+            for loc in (cwd, output_dir):
+                if not loc.exists():
+                    continue
+                for csv_file in loc.glob("*.csv"):
+                    if 'gGSP' in csv_file.name and target_stem in csv_file.name and model_stem in csv_file.name:
+                        if prefix:
+                            if csv_file.name.startswith(prefix):
+                                found = csv_file
+                                break
+                        else:
+                            if not any(csv_file.name.startswith(f"{int(t)}A_") for t in thresholds if t != 5.0):
+                                found = csv_file
+                                break
+                if found:
+                    break
+
+        if found:
+            gGSP = read_gGSP_from_csv(found)
+            if gGSP is not None and not gGSP.startswith("READ_ERROR"):
+                results[thresh] = (found, gGSP)
+            else:
+                results[thresh] = (found, f"READ_ERROR: {gGSP}")
+        else:
+            results[thresh] = (None, "NO_FILE")
+
+    return results
+
+def select_best_for_group(group_results):
+    """
+    group_results: list of (model_filename, solution_filename, results_dict)
+    results_dict: {threshold: (csv_path, gGSP_value)}
+    Selects the best result according to: highest gGSP for 2A, then 5A, then 8A.
+    Returns (best_model, best_solution, best_results_dict).
+    """
+    best_key = None
+    best_model = None
+    best_solution = None
+    best_results = None
+    for model, sol, res_dict in group_results:
+        key = []
+        for thresh in THRESHOLDS:
+            _, val = res_dict.get(thresh, (None, "N/A"))
+            if val in ("NO_FILE", "READ_ERROR: None") or val is None:
+                key.append(-1e9)
+            else:
+                try:
+                    key.append(float(val))
+                except ValueError:
+                    key.append(-1e9)
+        if best_key is None or key > best_key:
+            best_key = key
+            best_model = model
+            best_solution = sol
+            best_results = res_dict
+    return best_model, best_solution, best_results
+
 def run_compute_single(args):
     """
     Function executed in a child process.
-    args: (model_file, solution_file, output_dir, cwd, puzzle_name)
-    Returns a tuple (model_name, solution_name, status, details, csv_path).
+    args: (model_file, group_base_id, solution_file, output_dir, cwd, puzzle_name)
+    Returns tuple (model_filename, group_base_id, solution_filename, status, details, results_dict).
     """
-    model_file, solution_file, output_dir, cwd, puzzle_name = args
+    model_file, group_base_id, solution_file, output_dir, cwd, puzzle_name = args
     model_name = model_file.name
     solution_name = solution_file.name
-    model_stem = model_file.stem
     target_stem = solution_file.stem
+    model_stem = model_file.stem
+
+    thresholds_str = ','.join(str(t) for t in THRESHOLDS)
 
     cmd = [
         "python",
         str(COMPUTE_SCRIPT),
         "-t", solution_name,
-        "-m", model_name
+        "-m", model_name,
+        "-d", thresholds_str,
+        "--skip_constant_radii",
+        "--radii_tolerance", "1e-9"
     ]
 
     env = os.environ.copy()
     env["OUTPUT_DIR"] = os.path.abspath(output_dir)
 
     try:
-        result = subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, text=True, timeout=600)
+        result = subprocess.run(cmd, cwd=cwd, env=env, capture_output=True, text=True, timeout=6000)
     except subprocess.TimeoutExpired:
-        return (model_name, solution_name, "TIMEOUT", "Timeout after 600s", None)
+        return (model_name, group_base_id, solution_name, "TIMEOUT", "Timeout after 600s", None)
 
     if result.returncode != 0:
         details = f"exit {result.returncode}: {result.stderr[:200]}"
-        return (model_name, solution_name, "COMPUTE_ERROR", details, None)
+        return (model_name, group_base_id, solution_name, "COMPUTE_ERROR", details, None)
 
-    # Expected CSV file names (various combinations)
-    possible_names = [
-        f"{target_stem}_{model_stem}_C1'-gGSP.csv",
-        f"{model_stem}_{target_stem}_C1'-gGSP.csv",
-        f"{target_stem}_{model_stem}_gGSP.csv",
-        f"{model_stem}_{target_stem}_gGSP.csv",
-    ]
+    results_dict = find_gGSP_files(cwd, output_dir, target_stem, model_stem, THRESHOLDS)
+    if not results_dict:
+        return (model_name, group_base_id, solution_name, "NO_CSV", "No CSV file found after computation", None)
 
-    # Search in cwd and output_dir
-    found = None
-    for loc in (cwd, output_dir):
-        if not loc.exists():
-            continue
-        for name in possible_names:
-            candidate = loc / name
-            if candidate.exists():
-                found = candidate
-                break
-        if found:
-            break
+    any_found = any(path is not None for path, _ in results_dict.values())
+    if not any_found:
+        return (model_name, group_base_id, solution_name, "NO_CSV", "No CSV file found after computation", None)
 
-    if not found:
-        # Fallback: find any CSV file containing both stems
-        for loc in (cwd, output_dir):
-            if not loc.exists():
-                continue
-            for f in loc.glob("*.csv"):
-                if model_stem in f.name and target_stem in f.name:
-                    found = f
-                    break
-            if found:
-                break
-
-    if found:
-        gGSP = read_gGSP_from_csv(found)
-        if gGSP is None or gGSP.startswith("READ_ERROR"):
-            return (model_name, solution_name, "CSV_READ_ERROR", str(gGSP), found)
-        # Success
-        print(f"  [OK] {model_name} -> {gGSP}")
-        return (model_name, solution_name, "SUCCESS", gGSP, found)
-    else:
-        return (model_name, solution_name, "NO_CSV", "No CSV file found after computation", None)
+    details = ', '.join(f"{thresh}A: {val}" for thresh, (_, val) in results_dict.items() if val not in ("NO_FILE", "READ_ERROR: None"))
+    return (model_name, group_base_id, solution_name, "SUCCESS", details, results_dict)
 
 def safe_move(src, dst, max_retries=3, delay=0.5):
     """Safely move a file with retries."""
@@ -227,30 +293,39 @@ def process_puzzle_set_parallel(puzzle_path, puzzle_name, global_results):
     temp_output_dir.mkdir(parents=True, exist_ok=True)
     print(f"  [INFO] Temporary results will be saved to: {temp_output_dir}")
 
-    # Index solutions by base_id
-    solution_by_baseid = {}
-    for sol in solutions:
-        base_id = extract_base_id(sol.name, puzzle_name)
-        solution_by_baseid[base_id] = sol
-        # print(f"  [DEBUG] Solution: {sol.name} -> base_id: {base_id}")
-
-    # Prepare list of tasks for each model
+    # Prepare tasks: one task per model, using exact matching (full base ID)
     tasks = []
-    missing_solution_count = 0
-    for model_file in models:
-        base_id = extract_base_id(model_file.name, puzzle_name)
-        solution_file = solution_by_baseid.get(base_id)
-        if not solution_file:
-            # Try generic solution
-            solution_file = solution_by_baseid.get('solution_0')
-        if not solution_file:
-            print(f"  [WARNING] No solution for model {model_file.name}, skipping.")
-            missing_solution_count += 1
-            continue
-        tasks.append((model_file, solution_file, temp_output_dir, pdb_dir, puzzle_name))
+    if CROSS_COMPARE:
+        # Cross-comparison mode: each model vs every solution
+        for model_file in models:
+            base_id = extract_base_id(model_file.name, puzzle_name)
+            group_id = get_group_base_id(base_id)
+            for sol_file in solutions:
+                tasks.append((model_file, group_id, sol_file, temp_output_dir, pdb_dir, puzzle_name))
+    else:
+        # One-to-one mode: each model matched to its exact solution
+        solutions_by_exact = {}
+        for sol in solutions:
+            exact_base = extract_base_id(sol.name, puzzle_name)
+            solutions_by_exact[exact_base] = sol
+
+        missing_solution_count = 0
+        for model_file in models:
+            exact_base = extract_base_id(model_file.name, puzzle_name)
+            solution_file = solutions_by_exact.get(exact_base)
+            if not solution_file:
+                # Fallback to generic solution_0
+                generic_base = "solution_0"
+                solution_file = solutions_by_exact.get(generic_base)
+                if not solution_file:
+                    print(f"  [WARNING] No solution for model {model_file.name}, skipping.")
+                    missing_solution_count += 1
+                    continue
+            group_id = get_group_base_id(exact_base)
+            tasks.append((model_file, group_id, solution_file, temp_output_dir, pdb_dir, puzzle_name))
 
     if not tasks:
-        print(f"  [INFO] No tasks to process (missing solution for {missing_solution_count} models).")
+        print(f"  [INFO] No tasks to process.")
         return False
 
     print(f"  [INFO] Submitting {len(tasks)} tasks to process pool...")
@@ -261,46 +336,107 @@ def process_puzzle_set_parallel(puzzle_path, puzzle_name, global_results):
     pool.close()
     pool.join()
 
-    # Summary
-    total = len(tasks)
-    success = sum(1 for r in results if r[2] == "SUCCESS")
-    errors = total - success
-    print(f"  [INFO] All tasks completed. Successfully processed {success}/{total} models (errors: {errors}).")
-
-    # Move CSV files to temp_output_dir
-    moved_csv = 0
+    # Group results by group_base_id
+    groups = {}
     for res in results:
-        if res[4] is not None:  # csv_path
-            src = pathlib.Path(res[4])
-            if src.exists():
-                dest = temp_output_dir / src.name
-                if dest.exists():
-                    dest.unlink()
-                if safe_move(src, dest):
-                    moved_csv += 1
-                else:
-                    print(f"  [WARNING] Failed to move {src.name}")
+        model_name, group_base_id, sol_name, status, details, res_dict = res
+        if status != "SUCCESS" or res_dict is None:
+            continue
+        groups.setdefault(group_base_id, []).append((model_name, sol_name, res_dict))
+
+    # For each group, select the best solution
+    best_per_group = {}
+    for group_id, group_results in groups.items():
+        best_model, best_sol, best_res_dict = select_best_for_group(group_results)
+        best_per_group[group_id] = (best_model, best_sol, best_res_dict)
+
+    # Compute total number of model groups (unique group_base_id among models)
+    all_group_ids = set()
+    for model_file in models:
+        exact_base = extract_base_id(model_file.name, puzzle_name)
+        group_id = get_group_base_id(exact_base)
+        all_group_ids.add(group_id)
+    total_groups = len(all_group_ids)
+    success = len(best_per_group)
+    errors = total_groups - success
+    print(f"  [INFO] All tasks completed. Best results obtained for {success}/{total_groups} model groups (errors: {errors}).")
+
+    # Prepare detailed failure list
+    successful_models = {best_model for _, (best_model, _, _) in best_per_group.items()}
+    failed_models_files = {model_file.name for model_file in models} - successful_models
+    failure_details = {}
+    for res in results:
+        model_name, _, sol_name, status, details, _ = res
+        if model_name not in successful_models:
+            failure_details[model_name] = (sol_name, status, details)
 
     # Save report for the set
-    if results:
+    if best_per_group or failed_models_files:
         report_path = temp_output_dir / "report.txt"
+        report_path.parent.mkdir(parents=True, exist_ok=True)   # <-- ZABEZPIECZENIE
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(f"Report for set: {puzzle_name}\n")
-            f.write(f"Processed {success} / {total} models (missing solution for {missing_solution_count} models)\n")
-            f.write("=" * 120 + "\n")
-            f.write(f"{'Model':<50} {'Solution':<50} {'Status':<15} {'Details':<30}\n")
-            f.write("-" * 120 + "\n")
-            for model, sol, status, details, _ in results:
-                f.write(f"{model:<50} {sol:<50} {status:<15} {details:<30}\n")
+            f.write(f"Processed {success} / {total_groups} model groups (best score per group)\n")
+            f.write(f"Failed: {len(failed_models_files)} models\n")
+            f.write("\n")
+
+            if best_per_group:
+                f.write("=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===\n")
+                header = f"{'ModelGroup':<50} {'BestModel':<50} {'BestSolution':<50}"
+                for thresh in THRESHOLDS:
+                    header += f" {thresh:<12}"
+                f.write(header + "\n")
+                f.write("-" * (150 + 12 * len(THRESHOLDS)) + "\n")
+                for group_id, (best_model, best_sol, res_dict) in best_per_group.items():
+                    row = f"{group_id:<50} {best_model:<50} {best_sol:<50}"
+                    for thresh in THRESHOLDS:
+                        _, val = res_dict.get(thresh, (None, "N/A"))
+                        if val in ("NO_FILE", "READ_ERROR: None") or val is None or val == "N/A":
+                            row += " N/A        "
+                        else:
+                            try:
+                                num_val = float(val)
+                                row += f" {num_val:<12.3f}"
+                            except ValueError:
+                                row += " N/A        "
+                    f.write(row + "\n")
+                f.write("\n")
+
+            if failed_models_files:
+                f.write("=== FAILED MODELS ===\n")
+                f.write(f"{'Model':<50} {'Solution':<50} {'Status':<20} {'Details':<30}\n")
+                f.write("-" * 150 + "\n")
+                for model in sorted(failed_models_files):
+                    sol, status, details = failure_details.get(model, ("", "UNKNOWN", ""))
+                    f.write(f"{model:<50} {sol:<50} {status:<20} {details:<30}\n")
+                f.write("\n")
+
         print(f"  [REPORT] Saved to {report_path}")
 
-        # Add to global results
+        # Store in global_results
         global_results[puzzle_name] = {
-            "total": total,
+            "total_groups": total_groups,
             "success": success,
-            "missing": missing_solution_count,
-            "results": [(model, sol, status, details) for model, sol, status, details, _ in results]
+            "best_per_group": best_per_group,
+            "failed_models": list(failed_models_files)
         }
+
+    # Move all CSV files from results_dict to temp_output_dir
+    moved_csv = 0
+    for res in results:
+        if res[5] is not None:
+            for thresh, (csv_path, _) in res[5].items():
+                if csv_path is None:
+                    continue
+                src = pathlib.Path(csv_path)
+                if src.exists():
+                    dest = temp_output_dir / src.name
+                    if dest.exists():
+                        dest.unlink()
+                    if safe_move(src, dest):
+                        moved_csv += 1
+                    else:
+                        print(f"  [WARNING] Failed to move {src.name}")
 
     # Move all CSV files from temp_output_dir to the final directory
     final_dir = pathlib.Path("results/gsp/finished") / puzzle_name
@@ -312,8 +448,16 @@ def process_puzzle_set_parallel(puzzle_path, puzzle_name, global_results):
         dest = final_dir / csv_file.name
         if dest.exists():
             dest.unlink()
-        csv_file.rename(dest)
-        final_moved += 1
+        for attempt in range(5):
+            try:
+                shutil.move(str(csv_file), str(dest))
+                final_moved += 1
+                break
+            except PermissionError:
+                if attempt == 4:
+                    print(f"  [ERROR] Failed to move {csv_file.name} after 5 attempts")
+                else:
+                    time.sleep(0.5)
     print(f"  [MOVE] Moved {final_moved} CSV files to {final_dir}")
 
     # Move report
@@ -383,7 +527,6 @@ def main():
         print(f"Error: Data directory '{data_root}' not found!")
         sys.exit(1)
 
-    # Find all puzzles (directories in data_root)
     puzzles = [d for d in os.listdir(data_root)
                if os.path.isdir(os.path.join(data_root, d)) and
                os.path.isdir(os.path.join(data_root, d, "pdb"))]
@@ -400,7 +543,6 @@ def main():
         print("No puzzles selected. Exiting.")
         sys.exit(0)
 
-    # Dictionary for global results
     manager = mp.Manager()
     global_results = manager.dict()
 
@@ -422,22 +564,41 @@ def main():
         global_report_path = pathlib.Path("results/gsp/finished/global_report.txt")
         global_report_path.parent.mkdir(parents=True, exist_ok=True)
         with open(global_report_path, 'w', encoding='utf-8') as f:
-            f.write("Global report for all processed sets\n")
+            f.write("Global report for all processed sets (best per model group)\n")
             f.write("=" * 60 + "\n")
             for puzzle_name, data in global_results.items():
                 f.write(f"\n{puzzle_name}\n")
-                f.write(f"Processed {data['success']} / {data['total']} models (missing solution for {data['missing']})\n")
-                f.write("-" * 120 + "\n")
-                f.write(f"{'Model':<50} {'Solution':<50} {'Status':<15} {'Details':<30}\n")
-                f.write("-" * 120 + "\n")
-                for model, sol, status, details in data['results']:
-                    f.write(f"{model:<50} {sol:<50} {status:<15} {details:<30}\n")
+                f.write(f"Processed {data['success']} / {data['total_groups']} model groups\n")
+                if data['best_per_group']:
+                    f.write("  Successful model groups:\n")
+                    header = f"{'ModelGroup':<50} {'BestModel':<50} {'BestSolution':<50}"
+                    for thresh in THRESHOLDS:
+                        header += f" {thresh:<12}"
+                    f.write(header + "\n")
+                    f.write("-" * (150 + 12 * len(THRESHOLDS)) + "\n")
+                    for group_id, (best_model, best_sol, res_dict) in data['best_per_group'].items():
+                        row = f"{group_id:<50} {best_model:<50} {best_sol:<50}"
+                        for thresh in THRESHOLDS:
+                            _, val = res_dict.get(thresh, (None, "N/A"))
+                            if val in ("NO_FILE", "READ_ERROR: None") or val is None or val == "N/A":
+                                row += " N/A        "
+                            else:
+                                try:
+                                    num_val = float(val)
+                                    row += f" {num_val:<12.3f}"
+                                except ValueError:
+                                    row += " N/A        "
+                        f.write(row + "\n")
+                if data['failed_models']:
+                    f.write("  Failed models:\n")
+                    for model in data['failed_models']:
+                        f.write(f"    {model}\n")
+                f.write("\n")
         print(f"\nGlobal report saved to: {global_report_path}")
 
     print("\n" + "="*60)
     print("Processing completed!")
 
 if __name__ == "__main__":
-    # Required for multiprocessing on Windows
     mp.freeze_support()
     main()

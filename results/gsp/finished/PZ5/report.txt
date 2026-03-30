@@ -1,30 +1,33 @@
 Report for set: PZ5
-Processed 25 / 25 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-5_adamiak_1_refined.pdb                            5_adamiak_1_solution.pdb                           SUCCESS         12.599                        
-5_bujnicki_1_refined.pdb                           5_bujnicki_1_solution.pdb                          SUCCESS         8.901                         
-5_bujnicki_2_refined.pdb                           5_bujnicki_2_solution.pdb                          SUCCESS         11.402                        
-5_bujnicki_3_refined.pdb                           5_bujnicki_3_solution.pdb                          SUCCESS         11.87                         
-5_bujnicki_4_refined.pdb                           5_bujnicki_4_solution.pdb                          SUCCESS         11.502                        
-5_bujnicki_5_refined.pdb                           5_bujnicki_5_solution.pdb                          SUCCESS         10.113                        
-5_chen_1_refined.pdb                               5_chen_1_solution.pdb                              SUCCESS         14.158                        
-5_chen_2_refined.pdb                               5_chen_2_solution.pdb                              SUCCESS         13.944                        
-5_chen_3_refined.pdb                               5_chen_3_solution.pdb                              SUCCESS         13.091                        
-5_chen_4_refined.pdb                               5_chen_4_solution.pdb                              SUCCESS         13.756                        
-5_chen_5_refined.pdb                               5_chen_5_solution.pdb                              SUCCESS         14.024                        
-5_chen_6_refined.pdb                               5_chen_6_solution.pdb                              SUCCESS         13.381                        
-5_chen_7_refined.pdb                               5_chen_7_solution.pdb                              SUCCESS         13.67                         
-5_das_1_refined.pdb                                5_das_1_solution.pdb                               SUCCESS         28.025                        
-5_das_2_refined.pdb                                5_das_2_solution.pdb                               SUCCESS         33.283                        
-5_dokholyan_1_refined.pdb                          5_dokholyan_1_solution.pdb                         SUCCESS         11.336                        
-5_dokholyan_2_refined.pdb                          5_dokholyan_2_solution.pdb                         SUCCESS         10.723                        
-5_dokholyan_3_refined.pdb                          5_dokholyan_3_solution.pdb                         SUCCESS         10.519                        
-5_dokholyan_4_refined.pdb                          5_dokholyan_4_solution.pdb                         SUCCESS         10.723                        
-5_dokholyan_5_refined.pdb                          5_dokholyan_5_solution.pdb                         SUCCESS         11.973                        
-5_dokholyan_6_refined.pdb                          5_dokholyan_6_solution.pdb                         SUCCESS         9.185                         
-5_dokholyan_7_refined.pdb                          5_dokholyan_7_solution.pdb                         SUCCESS         9.606                         
-5_dokholyan_8_refined.pdb                          5_dokholyan_8_solution.pdb                         SUCCESS         10.53                         
-5_xiao_1_refined.pdb                               5_xiao_1_solution.pdb                              SUCCESS         8.061                         
-5_xiao_2_refined.pdb                               5_xiao_2_solution.pdb                              SUCCESS         7.921                         
+Processed 25 / 25 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+adamiak_1                                          5_adamiak_1_refined.pdb                            5_adamiak_1_solution.pdb                           6.585        11.081       13.651       23.264      
+bujnicki_1                                         5_bujnicki_1_refined.pdb                           5_bujnicki_1_solution.pdb                          5.486        8.413        9.645        14.859      
+bujnicki_2                                         5_bujnicki_2_refined.pdb                           5_bujnicki_2_solution.pdb                          6.723        10.248       12.354       24.460      
+bujnicki_3                                         5_bujnicki_3_refined.pdb                           5_bujnicki_3_solution.pdb                          5.173        9.052        12.861       24.948      
+bujnicki_4                                         5_bujnicki_4_refined.pdb                           5_bujnicki_4_solution.pdb                          5.696        9.493        12.462       26.109      
+bujnicki_5                                         5_bujnicki_5_refined.pdb                           5_bujnicki_5_solution.pdb                          5.713        9.104        10.958       22.743      
+chen_1                                             5_chen_1_refined.pdb                               5_chen_1_solution.pdb                              6.700        12.967       15.341       21.655      
+chen_2                                             5_chen_2_refined.pdb                               5_chen_2_solution.pdb                              6.693        12.944       15.108       19.976      
+chen_3                                             5_chen_3_refined.pdb                               5_chen_3_solution.pdb                              6.752        12.372       14.184       18.218      
+chen_4                                             5_chen_4_refined.pdb                               5_chen_4_solution.pdb                              6.754        12.794       14.905       19.786      
+chen_5                                             5_chen_5_refined.pdb                               5_chen_5_solution.pdb                              6.832        12.804       15.195       20.320      
+chen_6                                             5_chen_6_refined.pdb                               5_chen_6_solution.pdb                              6.403        11.288       14.499       19.341      
+chen_7                                             5_chen_7_refined.pdb                               5_chen_7_solution.pdb                              6.083        11.503       14.811       19.507      
+das_1                                              5_das_1_refined.pdb                                5_das_1_solution.pdb                               10.156       18.648       30.365       68.440      
+das_2                                              5_das_2_refined.pdb                                5_das_2_solution.pdb                               10.507       27.457       36.062       77.921      
+dokholyan_1                                        5_dokholyan_1_refined.pdb                          5_dokholyan_1_solution.pdb                         6.100        9.348        12.283       24.042      
+dokholyan_2                                        5_dokholyan_2_refined.pdb                          5_dokholyan_2_solution.pdb                         5.726        9.438        11.618       23.179      
+dokholyan_3                                        5_dokholyan_3_refined.pdb                          5_dokholyan_3_solution.pdb                         5.916        8.877        11.397       21.845      
+dokholyan_4                                        5_dokholyan_4_refined.pdb                          5_dokholyan_4_solution.pdb                         5.726        9.438        11.618       23.179      
+dokholyan_5                                        5_dokholyan_5_refined.pdb                          5_dokholyan_5_solution.pdb                         5.823        9.697        12.973       24.804      
+dokholyan_6                                        5_dokholyan_6_refined.pdb                          5_dokholyan_6_solution.pdb                         5.796        8.628        9.952        15.128      
+dokholyan_7                                        5_dokholyan_7_refined.pdb                          5_dokholyan_7_solution.pdb                         5.859        8.678        10.408       15.432      
+dokholyan_8                                        5_dokholyan_8_refined.pdb                          5_dokholyan_8_solution.pdb                         5.971        9.543        11.410       18.753      
+xiao_1                                             5_xiao_1_refined.pdb                               5_xiao_1_solution.pdb                              5.545        7.414        8.734        14.193      
+xiao_2                                             5_xiao_2_refined.pdb                               5_xiao_2_solution.pdb                              5.483        7.318        8.583        13.915      
+

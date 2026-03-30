@@ -1,95 +1,98 @@
 Report for set: PZ24
-Processed 90 / 90 models (missing solution for 0 models)
-========================================================================================================================
-Model                                              Solution                                           Status          Details                       
-------------------------------------------------------------------------------------------------------------------------
-24_3dRNA_1_refined.pdb                             24_3dRNA_1_solution.pdb                            SUCCESS         42.627                        
-24_3dRNA_2_refined.pdb                             24_3dRNA_2_solution.pdb                            SUCCESS         41.862                        
-24_3dRNA_3_refined.pdb                             24_3dRNA_3_solution.pdb                            SUCCESS         43.677                        
-24_3dRNA_4_refined.pdb                             24_3dRNA_4_solution.pdb                            SUCCESS         39.85                         
-24_3dRNA_5_refined.pdb                             24_3dRNA_5_solution.pdb                            SUCCESS         42.401                        
-24_Adamiak_1_refined.pdb                           24_Adamiak_1_solution.pdb                          SUCCESS         49.169                        
-24_Adamiak_2_refined.pdb                           24_Adamiak_2_solution.pdb                          SUCCESS         53.945                        
-24_Adamiak_3_refined.pdb                           24_Adamiak_3_solution.pdb                          SUCCESS         57.146                        
-24_Adamiak_4_refined.pdb                           24_Adamiak_4_solution.pdb                          SUCCESS         51.334                        
-24_Adamiak_5_refined.pdb                           24_Adamiak_5_solution.pdb                          SUCCESS         54.974                        
-24_Bujnicki_1_refined.pdb                          24_Bujnicki_1_solution.pdb                         SUCCESS         60.852                        
-24_Bujnicki_2_refined.pdb                          24_Bujnicki_2_solution.pdb                         SUCCESS         54.328                        
-24_Bujnicki_3_refined.pdb                          24_Bujnicki_3_solution.pdb                         SUCCESS         52.686                        
-24_Bujnicki_4_refined.pdb                          24_Bujnicki_4_solution.pdb                         SUCCESS         48.812                        
-24_Bujnicki_5_refined.pdb                          24_Bujnicki_5_solution.pdb                         SUCCESS         46.158                        
-24_DasTFN_10_refined.pdb                           24_DasTFN_10_solution.pdb                          SUCCESS         97.849                        
-24_DasTFN_1_refined.pdb                            24_DasTFN_1_solution.pdb                           SUCCESS         65.016                        
-24_DasTFN_2_refined.pdb                            24_DasTFN_2_solution.pdb                           SUCCESS         46.158                        
-24_DasTFN_3_refined.pdb                            24_DasTFN_3_solution.pdb                           SUCCESS         45.826                        
-24_DasTFN_4_refined.pdb                            24_DasTFN_4_solution.pdb                           SUCCESS         39.669                        
-24_DasTFN_5_refined.pdb                            24_DasTFN_5_solution.pdb                           SUCCESS         46.156                        
-24_DasTFN_6_refined.pdb                            24_DasTFN_6_solution.pdb                           SUCCESS         56.434                        
-24_DasTFN_7_refined.pdb                            24_DasTFN_7_solution.pdb                           SUCCESS         52.881                        
-24_DasTFN_8_refined.pdb                            24_DasTFN_8_solution.pdb                           SUCCESS         55.226                        
-24_DasTFN_9_refined.pdb                            24_DasTFN_9_solution.pdb                           SUCCESS         65.155                        
-24_Das_10_refined.pdb                              24_Das_10_solution.pdb                             SUCCESS         58.045                        
-24_Das_1_refined.pdb                               24_Das_1_solution.pdb                              SUCCESS         58.305                        
-24_Das_2_refined.pdb                               24_Das_2_solution.pdb                              SUCCESS         58.336                        
-24_Das_3_refined.pdb                               24_Das_3_solution.pdb                              SUCCESS         57.795                        
-24_Das_4_refined.pdb                               24_Das_4_solution.pdb                              SUCCESS         57.92                         
-24_Das_5_refined.pdb                               24_Das_5_solution.pdb                              SUCCESS         58.579                        
-24_Das_6_refined.pdb                               24_Das_6_solution.pdb                              SUCCESS         58.868                        
-24_Das_7_refined.pdb                               24_Das_7_solution.pdb                              SUCCESS         57.491                        
-24_Das_8_refined.pdb                               24_Das_8_solution.pdb                              SUCCESS         56.545                        
-24_Das_9_refined.pdb                               24_Das_9_solution.pdb                              SUCCESS         58.69                         
-24_Ding_10_refined.pdb                             24_Ding_10_solution.pdb                            SUCCESS         30.535                        
-24_Ding_1_refined.pdb                              24_Ding_1_solution.pdb                             SUCCESS         19.492                        
-24_Ding_2_refined.pdb                              24_Ding_2_solution.pdb                             SUCCESS         30.919                        
-24_Ding_3_refined.pdb                              24_Ding_3_solution.pdb                             SUCCESS         22.384                        
-24_Ding_4_refined.pdb                              24_Ding_4_solution.pdb                             SUCCESS         34.232                        
-24_Ding_5_refined.pdb                              24_Ding_5_solution.pdb                             SUCCESS         19.681                        
-24_Ding_6_refined.pdb                              24_Ding_6_solution.pdb                             SUCCESS         20.676                        
-24_Ding_7_refined.pdb                              24_Ding_7_solution.pdb                             SUCCESS         34.684                        
-24_Ding_8_refined.pdb                              24_Ding_8_solution.pdb                             SUCCESS         21.776                        
-24_Ding_9_refined.pdb                              24_Ding_9_solution.pdb                             SUCCESS         20.965                        
-24_FARFAR2_10_refined.pdb                          24_FARFAR2_10_solution.pdb                         SUCCESS         66.486                        
-24_FARFAR2_1_refined.pdb                           24_FARFAR2_1_solution.pdb                          SUCCESS         45.826                        
-24_FARFAR2_2_refined.pdb                           24_FARFAR2_2_solution.pdb                          SUCCESS         46.524                        
-24_FARFAR2_3_refined.pdb                           24_FARFAR2_3_solution.pdb                          SUCCESS         44.043                        
-24_FARFAR2_4_refined.pdb                           24_FARFAR2_4_solution.pdb                          SUCCESS         48.232                        
-24_FARFAR2_5_refined.pdb                           24_FARFAR2_5_solution.pdb                          SUCCESS         47.519                        
-24_FARFAR2_6_refined.pdb                           24_FARFAR2_6_solution.pdb                          SUCCESS         65.155                        
-24_FARFAR2_7_refined.pdb                           24_FARFAR2_7_solution.pdb                          SUCCESS         52.072                        
-24_FARFAR2_8_refined.pdb                           24_FARFAR2_8_solution.pdb                          SUCCESS         55.441                        
-24_FARFAR2_9_refined.pdb                           24_FARFAR2_9_solution.pdb                          SUCCESS         53.526                        
-24_iFoldRNA_1_refined.pdb                          24_iFoldRNA_1_solution.pdb                         SUCCESS         45.545                        
-24_iFoldRNA_2_refined.pdb                          24_iFoldRNA_2_solution.pdb                         SUCCESS         33.172                        
-24_iFoldRNA_3_refined.pdb                          24_iFoldRNA_3_solution.pdb                         SUCCESS         22.085                        
-24_iFoldRNA_4_refined.pdb                          24_iFoldRNA_4_solution.pdb                         SUCCESS         17.608                        
-24_iFoldRNA_5_refined.pdb                          24_iFoldRNA_5_solution.pdb                         SUCCESS         17.463                        
-24_Kollmann_10_refined.pdb                         24_Kollmann_10_solution.pdb                        SUCCESS         8.832                         
-24_Kollmann_1_refined.pdb                          24_Kollmann_1_solution.pdb                         SUCCESS         13.81                         
-24_Kollmann_2_refined.pdb                          24_Kollmann_2_solution.pdb                         SUCCESS         13.01                         
-24_Kollmann_3_refined.pdb                          24_Kollmann_3_solution.pdb                         SUCCESS         11.958                        
-24_Kollmann_4_refined.pdb                          24_Kollmann_4_solution.pdb                         SUCCESS         10.788                        
-24_Kollmann_5_refined.pdb                          24_Kollmann_5_solution.pdb                         SUCCESS         13.368                        
-24_Kollmann_6_refined.pdb                          24_Kollmann_6_solution.pdb                         SUCCESS         11.071                        
-24_Kollmann_7_refined.pdb                          24_Kollmann_7_solution.pdb                         SUCCESS         9.677                         
-24_Kollmann_8_refined.pdb                          24_Kollmann_8_solution.pdb                         SUCCESS         12.142                        
-24_Kollmann_9_refined.pdb                          24_Kollmann_9_solution.pdb                         SUCCESS         9.146                         
-24_RNAComposer_1_refined.pdb                       24_RNAComposer_1_solution.pdb                      SUCCESS         48.952                        
-24_RNAComposer_2_refined.pdb                       24_RNAComposer_2_solution.pdb                      SUCCESS         49.171                        
-24_RNAComposer_3_refined.pdb                       24_RNAComposer_3_solution.pdb                      SUCCESS         41.771                        
-24_RNAComposer_4_refined.pdb                       24_RNAComposer_4_solution.pdb                      SUCCESS         48.744                        
-24_RNAComposer_5_refined.pdb                       24_RNAComposer_5_solution.pdb                      SUCCESS         45.206                        
-24_SimRNA_1_refined.pdb                            24_SimRNA_1_solution.pdb                           SUCCESS         26.59                         
-24_SimRNA_2_refined.pdb                            24_SimRNA_2_solution.pdb                           SUCCESS         8.285                         
-24_SimRNA_3_refined.pdb                            24_SimRNA_3_solution.pdb                           SUCCESS         18.379                        
-24_SimRNA_4_refined.pdb                            24_SimRNA_4_solution.pdb                           SUCCESS         10.521                        
-24_SimRNA_5_refined.pdb                            24_SimRNA_5_solution.pdb                           SUCCESS         16.471                        
-24_Vfold3D_1_refined.pdb                           24_Vfold3D_1_solution.pdb                          SUCCESS         34.437                        
-24_Vfold3D_2_refined.pdb                           24_Vfold3D_2_solution.pdb                          SUCCESS         42.863                        
-24_Vfold3D_3_refined.pdb                           24_Vfold3D_3_solution.pdb                          SUCCESS         42.584                        
-24_Vfold3D_4_refined.pdb                           24_Vfold3D_4_solution.pdb                          SUCCESS         29.942                        
-24_Vfold3D_5_refined.pdb                           24_Vfold3D_5_solution.pdb                          SUCCESS         49.555                        
-24_VfoldLA_1_refined.pdb                           24_VfoldLA_1_solution.pdb                          SUCCESS         35.271                        
-24_VfoldLA_2_refined.pdb                           24_VfoldLA_2_solution.pdb                          SUCCESS         35.17                         
-24_VfoldLA_3_refined.pdb                           24_VfoldLA_3_solution.pdb                          SUCCESS         29.563                        
-24_VfoldLA_4_refined.pdb                           24_VfoldLA_4_solution.pdb                          SUCCESS         30.743                        
-24_VfoldLA_5_refined.pdb                           24_VfoldLA_5_solution.pdb                          SUCCESS         31.875                        
+Processed 90 / 90 model groups (best score per group)
+Failed: 0 models
+
+=== SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
+ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3dRNA_1                                            24_3dRNA_1_refined.pdb                             24_3dRNA_1_solution.pdb                            19.150       32.214       46.187       51.807      
+3dRNA_2                                            24_3dRNA_2_refined.pdb                             24_3dRNA_2_solution.pdb                            21.069       42.587       45.357       49.931      
+3dRNA_3                                            24_3dRNA_3_refined.pdb                             24_3dRNA_3_solution.pdb                            22.949       43.149       47.325       52.967      
+3dRNA_4                                            24_3dRNA_4_refined.pdb                             24_3dRNA_4_solution.pdb                            18.765       36.828       43.177       50.003      
+3dRNA_5                                            24_3dRNA_5_refined.pdb                             24_3dRNA_5_solution.pdb                            19.056       42.102       45.942       51.737      
+Adamiak_1                                          24_Adamiak_1_refined.pdb                           24_Adamiak_1_solution.pdb                          19.205       35.508       53.275       86.804      
+Adamiak_2                                          24_Adamiak_2_refined.pdb                           24_Adamiak_2_solution.pdb                          17.478       34.435       58.449       94.448      
+Adamiak_3                                          24_Adamiak_3_refined.pdb                           24_Adamiak_3_solution.pdb                          16.741       52.373       61.918       83.780      
+Adamiak_4                                          24_Adamiak_4_refined.pdb                           24_Adamiak_4_solution.pdb                          20.311       49.867       55.621       71.410      
+Adamiak_5                                          24_Adamiak_5_refined.pdb                           24_Adamiak_5_solution.pdb                          20.834       50.765       59.565       92.608      
+Bujnicki_1                                         24_Bujnicki_1_refined.pdb                          24_Bujnicki_1_solution.pdb                         18.887       49.010       65.933       89.200      
+Bujnicki_2                                         24_Bujnicki_2_refined.pdb                          24_Bujnicki_2_solution.pdb                         19.069       49.015       58.865       87.254      
+Bujnicki_3                                         24_Bujnicki_3_refined.pdb                          24_Bujnicki_3_solution.pdb                         16.756       47.780       57.086       77.886      
+Bujnicki_4                                         24_Bujnicki_4_refined.pdb                          24_Bujnicki_4_solution.pdb                         17.781       42.322       52.888       69.035      
+Bujnicki_5                                         24_Bujnicki_5_refined.pdb                          24_Bujnicki_5_solution.pdb                         17.429       36.371       50.012       85.949      
+DasTFN_10                                          24_DasTFN_10_refined.pdb                           24_DasTFN_10_solution.pdb                          24.806       61.109       97.670       100.000     
+DasTFN_1                                           24_DasTFN_1_refined.pdb                            24_DasTFN_1_solution.pdb                           23.051       56.706       70.445       98.161      
+DasTFN_2                                           24_DasTFN_2_refined.pdb                            24_DasTFN_2_solution.pdb                           20.179       46.136       50.012       62.608      
+DasTFN_3                                           24_DasTFN_3_refined.pdb                            24_DasTFN_3_solution.pdb                           20.219       45.850       49.653       61.921      
+DasTFN_4                                           24_DasTFN_4_refined.pdb                            24_DasTFN_4_solution.pdb                           13.568       32.352       42.982       59.514      
+DasTFN_5                                           24_DasTFN_5_refined.pdb                            24_DasTFN_5_solution.pdb                           19.047       46.418       50.010       62.036      
+DasTFN_6                                           24_DasTFN_6_refined.pdb                            24_DasTFN_6_solution.pdb                           17.219       49.407       61.147       100.000     
+DasTFN_7                                           24_DasTFN_7_refined.pdb                            24_DasTFN_7_solution.pdb                           21.879       51.111       57.297       79.048      
+DasTFN_8                                           24_DasTFN_8_refined.pdb                            24_DasTFN_8_solution.pdb                           19.402       52.929       59.837       75.830      
+DasTFN_9                                           24_DasTFN_9_refined.pdb                            24_DasTFN_9_solution.pdb                           24.219       56.747       70.596       99.797      
+Das_10                                             24_Das_10_refined.pdb                              24_Das_10_solution.pdb                             25.789       55.549       62.892       80.773      
+Das_1                                              24_Das_1_refined.pdb                               24_Das_1_solution.pdb                              24.283       56.006       63.174       80.951      
+Das_2                                              24_Das_2_refined.pdb                               24_Das_2_solution.pdb                              25.872       55.910       63.208       80.863      
+Das_3                                              24_Das_3_refined.pdb                               24_Das_3_solution.pdb                              24.119       54.340       62.621       80.885      
+Das_4                                              24_Das_4_refined.pdb                               24_Das_4_solution.pdb                              22.507       53.761       62.756       81.153      
+Das_5                                              24_Das_5_refined.pdb                               24_Das_5_solution.pdb                              24.928       56.302       63.471       81.762      
+Das_6                                              24_Das_6_refined.pdb                               24_Das_6_solution.pdb                              25.485       56.853       63.783       84.156      
+Das_7                                              24_Das_7_refined.pdb                               24_Das_7_solution.pdb                              21.751       53.601       62.292       81.721      
+Das_8                                              24_Das_8_refined.pdb                               24_Das_8_solution.pdb                              22.517       52.551       61.267       80.250      
+Das_9                                              24_Das_9_refined.pdb                               24_Das_9_solution.pdb                              19.592       52.228       63.592       81.890      
+Ding_10                                            24_Ding_10_refined.pdb                             24_Ding_10_solution.pdb                            7.202        19.271       33.085       44.199      
+Ding_1                                             24_Ding_1_refined.pdb                              24_Ding_1_solution.pdb                             7.094        16.267       21.119       46.305      
+Ding_2                                             24_Ding_2_refined.pdb                              24_Ding_2_solution.pdb                             7.751        17.429       33.501       44.601      
+Ding_3                                             24_Ding_3_refined.pdb                              24_Ding_3_solution.pdb                             7.713        18.385       24.253       49.843      
+Ding_4                                             24_Ding_4_refined.pdb                              24_Ding_4_solution.pdb                             8.900        23.621       37.091       46.300      
+Ding_5                                             24_Ding_5_refined.pdb                              24_Ding_5_solution.pdb                             7.202        15.212       21.324       42.547      
+Ding_6                                             24_Ding_6_refined.pdb                              24_Ding_6_solution.pdb                             7.241        14.792       22.402       41.455      
+Ding_7                                             24_Ding_7_refined.pdb                              24_Ding_7_solution.pdb                             8.456        25.622       37.580       47.195      
+Ding_8                                             24_Ding_8_refined.pdb                              24_Ding_8_solution.pdb                             7.070        15.240       23.595       39.450      
+Ding_9                                             24_Ding_9_refined.pdb                              24_Ding_9_solution.pdb                             6.745        17.036       22.716       47.936      
+FARFAR2_10                                         24_FARFAR2_10_refined.pdb                          24_FARFAR2_10_solution.pdb                         23.252       58.760       72.038       97.277      
+FARFAR2_1                                          24_FARFAR2_1_refined.pdb                           24_FARFAR2_1_solution.pdb                          20.219       45.850       49.653       61.921      
+FARFAR2_2                                          24_FARFAR2_2_refined.pdb                           24_FARFAR2_2_solution.pdb                          22.000       46.858       50.409       61.380      
+FARFAR2_3                                          24_FARFAR2_3_refined.pdb                           24_FARFAR2_3_solution.pdb                          21.930       44.864       47.721       55.401      
+FARFAR2_4                                          24_FARFAR2_4_refined.pdb                           24_FARFAR2_4_solution.pdb                          22.378       49.049       52.260       65.019      
+FARFAR2_5                                          24_FARFAR2_5_refined.pdb                           24_FARFAR2_5_solution.pdb                          20.339       42.188       51.487       60.003      
+FARFAR2_6                                          24_FARFAR2_6_refined.pdb                           24_FARFAR2_6_solution.pdb                          24.219       56.747       70.596       99.797      
+FARFAR2_7                                          24_FARFAR2_7_refined.pdb                           24_FARFAR2_7_solution.pdb                          21.783       51.325       56.420       82.078      
+FARFAR2_8                                          24_FARFAR2_8_refined.pdb                           24_FARFAR2_8_solution.pdb                          21.908       52.393       60.071       90.333      
+FARFAR2_9                                          24_FARFAR2_9_refined.pdb                           24_FARFAR2_9_solution.pdb                          23.154       51.472       57.996       100.000     
+iFoldRNA_1                                         24_iFoldRNA_1_refined.pdb                          24_iFoldRNA_1_solution.pdb                         14.302       35.622       49.348       58.427      
+iFoldRNA_2                                         24_iFoldRNA_2_refined.pdb                          24_iFoldRNA_2_solution.pdb                         15.321       26.602       35.942       74.568      
+iFoldRNA_3                                         24_iFoldRNA_3_refined.pdb                          24_iFoldRNA_3_solution.pdb                         11.697       20.160       23.929       37.584      
+iFoldRNA_4                                         24_iFoldRNA_4_refined.pdb                          24_iFoldRNA_4_solution.pdb                         10.186       16.538       19.079       27.535      
+iFoldRNA_5                                         24_iFoldRNA_5_refined.pdb                          24_iFoldRNA_5_solution.pdb                         11.307       15.942       18.921       32.348      
+Kollmann_10                                        24_Kollmann_10_refined.pdb                         24_Kollmann_10_solution.pdb                        6.376        8.986        9.569        11.697      
+Kollmann_1                                         24_Kollmann_1_refined.pdb                          24_Kollmann_1_solution.pdb                         8.862        12.857       14.964       21.885      
+Kollmann_2                                         24_Kollmann_2_refined.pdb                          24_Kollmann_2_solution.pdb                         8.537        12.699       14.097       21.751      
+Kollmann_3                                         24_Kollmann_3_refined.pdb                          24_Kollmann_3_solution.pdb                         8.240        11.751       12.957       17.337      
+Kollmann_4                                         24_Kollmann_4_refined.pdb                          24_Kollmann_4_solution.pdb                         6.968        10.643       11.689       16.557      
+Kollmann_5                                         24_Kollmann_5_refined.pdb                          24_Kollmann_5_solution.pdb                         8.118        13.038       14.484       18.626      
+Kollmann_6                                         24_Kollmann_6_refined.pdb                          24_Kollmann_6_solution.pdb                         6.654        10.773       11.996       15.445      
+Kollmann_7                                         24_Kollmann_7_refined.pdb                          24_Kollmann_7_solution.pdb                         6.224        9.460        10.485       14.145      
+Kollmann_8                                         24_Kollmann_8_refined.pdb                          24_Kollmann_8_solution.pdb                         7.850        11.699       13.156       18.834      
+Kollmann_9                                         24_Kollmann_9_refined.pdb                          24_Kollmann_9_solution.pdb                         5.906        9.071        9.910        15.114      
+RNAComposer_1                                      24_RNAComposer_1_refined.pdb                       24_RNAComposer_1_solution.pdb                      19.878       42.280       53.040       70.844      
+RNAComposer_2                                      24_RNAComposer_2_refined.pdb                       24_RNAComposer_2_solution.pdb                      19.434       46.313       53.277       70.095      
+RNAComposer_3                                      24_RNAComposer_3_refined.pdb                       24_RNAComposer_3_solution.pdb                      18.539       33.341       45.259       63.227      
+RNAComposer_4                                      24_RNAComposer_4_refined.pdb                       24_RNAComposer_4_solution.pdb                      18.868       38.197       52.815       77.207      
+RNAComposer_5                                      24_RNAComposer_5_refined.pdb                       24_RNAComposer_5_solution.pdb                      19.942       33.474       48.982       55.576      
+SimRNA_1                                           24_SimRNA_1_refined.pdb                            24_SimRNA_1_solution.pdb                           10.066       18.940       28.810       35.933      
+SimRNA_2                                           24_SimRNA_2_refined.pdb                            24_SimRNA_2_solution.pdb                           5.654        7.881        8.977        12.778      
+SimRNA_3                                           24_SimRNA_3_refined.pdb                            24_SimRNA_3_solution.pdb                           10.982       17.337       19.914       29.079      
+SimRNA_4                                           24_SimRNA_4_refined.pdb                            24_SimRNA_4_solution.pdb                           7.482        10.275       11.399       15.584      
+SimRNA_5                                           24_SimRNA_5_refined.pdb                            24_SimRNA_5_solution.pdb                           8.704        15.398       17.847       25.573      
+Vfold3D_1                                          24_Vfold3D_1_refined.pdb                           24_Vfold3D_1_solution.pdb                          16.077       29.952       37.313       68.732      
+Vfold3D_2                                          24_Vfold3D_2_refined.pdb                           24_Vfold3D_2_solution.pdb                          13.719       31.046       46.442       89.836      
+Vfold3D_3                                          24_Vfold3D_3_refined.pdb                           24_Vfold3D_3_solution.pdb                          16.384       29.135       46.140       63.520      
+Vfold3D_4                                          24_Vfold3D_4_refined.pdb                           24_Vfold3D_4_solution.pdb                          14.584       26.171       32.442       64.304      
+Vfold3D_5                                          24_Vfold3D_5_refined.pdb                           24_Vfold3D_5_solution.pdb                          17.768       47.343       53.693       72.903      
+VfoldLA_1                                          24_VfoldLA_1_refined.pdb                           24_VfoldLA_1_solution.pdb                          15.438       27.211       38.216       58.598      
+VfoldLA_2                                          24_VfoldLA_2_refined.pdb                           24_VfoldLA_2_solution.pdb                          13.175       27.070       38.107       54.989      
+VfoldLA_3                                          24_VfoldLA_3_refined.pdb                           24_VfoldLA_3_solution.pdb                          13.632       22.807       32.032       58.081      
+VfoldLA_4                                          24_VfoldLA_4_refined.pdb                           24_VfoldLA_4_solution.pdb                          13.474       26.395       33.311       55.779      
+VfoldLA_5                                          24_VfoldLA_5_refined.pdb                           24_VfoldLA_5_solution.pdb                          13.145       26.134       34.537       58.794      
+
