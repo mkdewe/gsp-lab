@@ -5,334 +5,334 @@ Failed: 163 models
 === SUCCESSFUL MODEL GROUPS (BEST SCORES) ===
 ModelGroup                                         BestModel                                          BestSolution                                       2.0          4.0          5.0          8.0         
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-TS029_1                                            CR1108_TS029_1_vs_CR1108__0_refined.pdb            CR1108_TS029_1_vs_CR1108__0_solution.pdb           13.667       25.013       28.344       34.816      
-TS029_2                                            CR1108_TS029_2_vs_CR1108__0_refined.pdb            CR1108_TS029_2_vs_CR1108__0_solution.pdb           5.522        17.276       24.871       35.061      
-TS035_1                                            CR1108_TS035_1_vs_CR1108__1_refined.pdb            CR1108_TS035_1_vs_CR1108__1_solution.pdb           7.510        12.650       15.422       30.402      
-TS035_2                                            CR1108_TS035_2_vs_CR1108__1_refined.pdb            CR1108_TS035_2_vs_CR1108__1_solution.pdb           8.184        12.844       15.473       26.120      
-TS035_3                                            CR1108_TS035_3_vs_CR1108__1_refined.pdb            CR1108_TS035_3_vs_CR1108__1_solution.pdb           7.122        11.334       14.502       30.405      
-TS035_4                                            CR1108_TS035_4_vs_CR1108__1_refined.pdb            CR1108_TS035_4_vs_CR1108__1_solution.pdb           8.466        12.329       14.934       30.114      
-TS035_5                                            CR1108_TS035_5_vs_CR1108__1_refined.pdb            CR1108_TS035_5_vs_CR1108__1_solution.pdb           4.088        6.263        8.212        12.977      
-TS054_1                                            CR1108_TS054_1_vs_CR1108__1_refined.pdb            CR1108_TS054_1_vs_CR1108__1_solution.pdb           11.440       23.564       35.584       100.000     
-TS054_2                                            CR1108_TS054_2_vs_CR1108__1_refined.pdb            CR1108_TS054_2_vs_CR1108__1_solution.pdb           11.395       23.579       35.675       100.000     
-TS054_3                                            CR1108_TS054_3_vs_CR1108__1_refined.pdb            CR1108_TS054_3_vs_CR1108__1_solution.pdb           11.298       23.461       36.029       100.000     
-TS054_4                                            CR1108_TS054_4_vs_CR1108__1_refined.pdb            CR1108_TS054_4_vs_CR1108__1_solution.pdb           16.880       36.135       51.157       100.000     
-TS054_5                                            CR1108_TS054_5_vs_CR1108__1_refined.pdb            CR1108_TS054_5_vs_CR1108__1_solution.pdb           15.682       34.014       49.073       100.000     
-TS081_1                                            CR1108_TS081_1_vs_CR1108__1_refined.pdb            CR1108_TS081_1_vs_CR1108__1_solution.pdb           10.677       18.774       23.630       40.332      
-TS081_2                                            CR1108_TS081_2_vs_CR1108__1_refined.pdb            CR1108_TS081_2_vs_CR1108__1_solution.pdb           10.995       21.137       27.013       41.542      
-TS081_3                                            CR1108_TS081_3_vs_CR1108__1_refined.pdb            CR1108_TS081_3_vs_CR1108__1_solution.pdb           11.876       26.023       30.725       50.147      
-TS081_4                                            CR1108_TS081_4_vs_CR1108__1_refined.pdb            CR1108_TS081_4_vs_CR1108__1_solution.pdb           11.494       29.324       37.158       82.833      
-TS091_1                                            CR1108_TS091_1_vs_CR1108__1_refined.pdb            CR1108_TS091_1_vs_CR1108__1_solution.pdb           1.513        2.560        2.814        4.554       
-TS091_2                                            CR1108_TS091_2_vs_CR1108__1_refined.pdb            CR1108_TS091_2_vs_CR1108__1_solution.pdb           1.337        2.284        2.914        5.709       
-TS091_3                                            CR1108_TS091_3_vs_CR1108__1_refined.pdb            CR1108_TS091_3_vs_CR1108__1_solution.pdb           1.431        2.569        3.083        5.794       
-TS091_4                                            CR1108_TS091_4_vs_CR1108__1_refined.pdb            CR1108_TS091_4_vs_CR1108__1_solution.pdb           1.443        2.487        2.829        4.898       
-TS091_5                                            CR1108_TS091_5_vs_CR1108__1_refined.pdb            CR1108_TS091_5_vs_CR1108__1_solution.pdb           1.352        2.532        2.911        5.004       
-TS097_1                                            CR1108_TS097_1_vs_CR1108__1_refined.pdb            CR1108_TS097_1_vs_CR1108__1_solution.pdb           6.593        10.199       12.027       22.750      
-TS119_1                                            CR1108_TS119_1_vs_CR1108__1_refined.pdb            CR1108_TS119_1_vs_CR1108__1_solution.pdb           7.080        11.631       14.526       24.423      
-TS119_2                                            CR1108_TS119_2_vs_CR1108__1_refined.pdb            CR1108_TS119_2_vs_CR1108__1_solution.pdb           9.909        17.228       21.176       32.096      
-TS119_3                                            CR1108_TS119_3_vs_CR1108__1_refined.pdb            CR1108_TS119_3_vs_CR1108__1_solution.pdb           7.289        12.260       15.301       28.090      
-TS119_4                                            CR1108_TS119_4_vs_CR1108__1_refined.pdb            CR1108_TS119_4_vs_CR1108__1_solution.pdb           7.519        12.039       14.901       27.757      
-TS119_5                                            CR1108_TS119_5_vs_CR1108__1_refined.pdb            CR1108_TS119_5_vs_CR1108__1_solution.pdb           11.476       17.180       20.738       38.174      
-TS125_1                                            CR1108_TS125_1_vs_CR1108__1_refined.pdb            CR1108_TS125_1_vs_CR1108__1_solution.pdb           15.842       33.987       49.030       100.000     
-TS125_2                                            CR1108_TS125_2_vs_CR1108__1_refined.pdb            CR1108_TS125_2_vs_CR1108__1_solution.pdb           15.888       33.672       48.785       100.000     
-TS125_3                                            CR1108_TS125_3_vs_CR1108__1_refined.pdb            CR1108_TS125_3_vs_CR1108__1_solution.pdb           15.878       33.805       48.831       100.000     
-TS125_4                                            CR1108_TS125_4_vs_CR1108__1_refined.pdb            CR1108_TS125_4_vs_CR1108__1_solution.pdb           15.636       33.554       47.760       100.000     
-TS125_5                                            CR1108_TS125_5_vs_CR1108__1_refined.pdb            CR1108_TS125_5_vs_CR1108__1_solution.pdb           15.673       33.209       47.375       100.000     
-TS128_1                                            CR1108_TS128_1_vs_CR1108__0_refined.pdb            CR1108_TS128_1_vs_CR1108__0_solution.pdb           15.615       25.624       28.365       34.144      
-TS128_2                                            CR1108_TS128_2_vs_CR1108__1_refined.pdb            CR1108_TS128_2_vs_CR1108__1_solution.pdb           11.978       23.881       27.185       33.530      
-TS128_3                                            CR1108_TS128_3_vs_CR1108__0_refined.pdb            CR1108_TS128_3_vs_CR1108__0_solution.pdb           24.426       56.174       76.669       100.000     
-TS128_4                                            CR1108_TS128_4_vs_CR1108__1_refined.pdb            CR1108_TS128_4_vs_CR1108__1_solution.pdb           10.581       19.058       22.940       43.947      
-TS128_5                                            CR1108_TS128_5_vs_CR1108__0_refined.pdb            CR1108_TS128_5_vs_CR1108__0_solution.pdb           9.712        16.937       21.364       49.130      
-TS131_1                                            CR1108_TS131_1_vs_CR1108__1_refined.pdb            CR1108_TS131_1_vs_CR1108__1_solution.pdb           2.817        4.060        4.744        7.501       
-TS131_2                                            CR1108_TS131_2_vs_CR1108__1_refined.pdb            CR1108_TS131_2_vs_CR1108__1_solution.pdb           2.953        3.985        4.466        6.917       
-TS131_3                                            CR1108_TS131_3_vs_CR1108__1_refined.pdb            CR1108_TS131_3_vs_CR1108__1_solution.pdb           3.053        4.121        5.062        7.455       
-TS131_4                                            CR1108_TS131_4_vs_CR1108__1_refined.pdb            CR1108_TS131_4_vs_CR1108__1_solution.pdb           3.023        4.284        4.756        6.895       
-TS131_5                                            CR1108_TS131_5_vs_CR1108__1_refined.pdb            CR1108_TS131_5_vs_CR1108__1_solution.pdb           3.059        4.145        4.753        6.917       
-TS147_1                                            CR1108_TS147_1_vs_CR1108__1_refined.pdb            CR1108_TS147_1_vs_CR1108__1_solution.pdb           7.383        15.821       19.667       35.016      
-TS147_2                                            CR1108_TS147_2_vs_CR1108__1_refined.pdb            CR1108_TS147_2_vs_CR1108__1_solution.pdb           9.189        15.388       18.235       35.152      
-TS147_3                                            CR1108_TS147_3_vs_CR1108__1_refined.pdb            CR1108_TS147_3_vs_CR1108__1_solution.pdb           8.662        15.603       19.234       34.795      
-TS147_4                                            CR1108_TS147_4_vs_CR1108__1_refined.pdb            CR1108_TS147_4_vs_CR1108__1_solution.pdb           9.098        15.388       17.945       33.503      
-TS147_5                                            CR1108_TS147_5_vs_CR1108__1_refined.pdb            CR1108_TS147_5_vs_CR1108__1_solution.pdb           8.584        15.083       18.683       34.843      
-TS163_1                                            CR1108_TS163_1_vs_CR1108__1_refined.pdb            CR1108_TS163_1_vs_CR1108__1_solution.pdb           9.059        22.253       38.404       98.826      
-TS227_1                                            CR1108_TS227_1_vs_CR1108__1_refined.pdb            CR1108_TS227_1_vs_CR1108__1_solution.pdb           8.299        16.983       20.311       37.893      
-TS227_2                                            CR1108_TS227_2_vs_CR1108__1_refined.pdb            CR1108_TS227_2_vs_CR1108__1_solution.pdb           7.912        13.050       15.098       25.775      
-TS227_3                                            CR1108_TS227_3_vs_CR1108__1_refined.pdb            CR1108_TS227_3_vs_CR1108__1_solution.pdb           9.485        15.534       18.214       33.808      
-TS227_4                                            CR1108_TS227_4_vs_CR1108__1_refined.pdb            CR1108_TS227_4_vs_CR1108__1_solution.pdb           9.140        15.388       18.154       35.022      
-TS227_5                                            CR1108_TS227_5_vs_CR1108__1_refined.pdb            CR1108_TS227_5_vs_CR1108__1_solution.pdb           8.199        15.258       19.222       35.978      
-TS229_1                                            CR1108_TS229_1_vs_CR1108__1_refined.pdb            CR1108_TS229_1_vs_CR1108__1_solution.pdb           9.310        19.712       36.925       88.451      
-TS229_2                                            CR1108_TS229_2_vs_CR1108__1_refined.pdb            CR1108_TS229_2_vs_CR1108__1_solution.pdb           9.310        19.712       36.925       88.451      
-TS229_3                                            CR1108_TS229_3_vs_CR1108__1_refined.pdb            CR1108_TS229_3_vs_CR1108__1_solution.pdb           9.310        19.712       36.925       88.451      
-TS229_4                                            CR1108_TS229_4_vs_CR1108__1_refined.pdb            CR1108_TS229_4_vs_CR1108__1_solution.pdb           9.310        19.712       36.925       88.451      
-TS229_5                                            CR1108_TS229_5_vs_CR1108__1_refined.pdb            CR1108_TS229_5_vs_CR1108__1_solution.pdb           9.310        19.712       36.925       88.451      
-TS232_1                                            CR1108_TS232_1_vs_CR1108__0_refined.pdb            CR1108_TS232_1_vs_CR1108__0_solution.pdb           22.229       63.656       86.315       100.000     
-TS232_2                                            CR1108_TS232_2_vs_CR1108__0_refined.pdb            CR1108_TS232_2_vs_CR1108__0_solution.pdb           24.822       69.178       96.006       100.000     
-TS232_3                                            CR1108_TS232_3_vs_CR1108__0_refined.pdb            CR1108_TS232_3_vs_CR1108__0_solution.pdb           23.043       58.355       70.700       100.000     
-TS232_4                                            CR1108_TS232_4_vs_CR1108__0_refined.pdb            CR1108_TS232_4_vs_CR1108__0_solution.pdb           22.378       68.455       96.993       100.000     
-TS232_5                                            CR1108_TS232_5_vs_CR1108__0_refined.pdb            CR1108_TS232_5_vs_CR1108__0_solution.pdb           24.822       63.460       88.406       100.000     
-TS235_1                                            CR1108_TS235_1_vs_CR1108__1_refined.pdb            CR1108_TS235_1_vs_CR1108__1_solution.pdb           5.921        8.696        9.204        11.724      
-TS235_2                                            CR1108_TS235_2_vs_CR1108__1_refined.pdb            CR1108_TS235_2_vs_CR1108__1_solution.pdb           6.075        7.945        9.062        14.299      
-TS235_3                                            CR1108_TS235_3_vs_CR1108__1_refined.pdb            CR1108_TS235_3_vs_CR1108__1_solution.pdb           7.982        12.414       16.214       32.020      
-TS235_4                                            CR1108_TS235_4_vs_CR1108__1_refined.pdb            CR1108_TS235_4_vs_CR1108__1_solution.pdb           7.706        11.845       13.909       27.137      
-TS235_5                                            CR1108_TS235_5_vs_CR1108__1_refined.pdb            CR1108_TS235_5_vs_CR1108__1_solution.pdb           8.602        12.399       14.856       28.922      
-TS238_1                                            CR1108_TS238_1_vs_CR1108__1_refined.pdb            CR1108_TS238_1_vs_CR1108__1_solution.pdb           18.148       43.826       55.517       92.660      
-TS245_1                                            CR1108_TS245_1_vs_CR1108__1_refined.pdb            CR1108_TS245_1_vs_CR1108__1_solution.pdb           4.245        7.059        9.857        18.260      
-TS248_1                                            CR1108_TS248_1_vs_CR1108__1_refined.pdb            CR1108_TS248_1_vs_CR1108__1_solution.pdb           5.945        7.422        8.484        11.398      
-TS248_2                                            CR1108_TS248_2_vs_CR1108__1_refined.pdb            CR1108_TS248_2_vs_CR1108__1_solution.pdb           5.960        7.407        8.333        11.727      
-TS248_3                                            CR1108_TS248_3_vs_CR1108__1_refined.pdb            CR1108_TS248_3_vs_CR1108__1_solution.pdb           6.060        7.737        8.862        12.423      
-TS248_4                                            CR1108_TS248_4_vs_CR1108__1_refined.pdb            CR1108_TS248_4_vs_CR1108__1_solution.pdb           6.015        7.410        8.260        11.503      
-TS248_5                                            CR1108_TS248_5_vs_CR1108__1_refined.pdb            CR1108_TS248_5_vs_CR1108__1_solution.pdb           9.749        15.134       18.447       32.238      
-TS285_1                                            CR1108_TS285_1_vs_CR1108__1_refined.pdb            CR1108_TS285_1_vs_CR1108__1_solution.pdb           6.505        12.526       15.222       28.925      
-TS285_2                                            CR1108_TS285_2_vs_CR1108__1_refined.pdb            CR1108_TS285_2_vs_CR1108__1_solution.pdb           5.797        10.838       13.519       23.676      
-TS285_3                                            CR1108_TS285_3_vs_CR1108__1_refined.pdb            CR1108_TS285_3_vs_CR1108__1_solution.pdb           7.361        13.606       16.226       30.498      
-TS285_4                                            CR1108_TS285_4_vs_CR1108__1_refined.pdb            CR1108_TS285_4_vs_CR1108__1_solution.pdb           6.608        12.193       14.928       28.925      
-TS285_5                                            CR1108_TS285_5_vs_CR1108__1_refined.pdb            CR1108_TS285_5_vs_CR1108__1_solution.pdb           6.765        12.296       14.617       28.976      
-TS287_1                                            CR1108_TS287_1_vs_CR1108__0_refined.pdb            CR1108_TS287_1_vs_CR1108__0_solution.pdb           24.305       51.284       73.426       100.000     
-TS287_2                                            CR1108_TS287_2_vs_CR1108__0_refined.pdb            CR1108_TS287_2_vs_CR1108__0_solution.pdb           23.899       52.673       74.158       100.000     
-TS287_3                                            CR1108_TS287_3_vs_CR1108__1_refined.pdb            CR1108_TS287_3_vs_CR1108__1_solution.pdb           11.174       23.582       28.093       44.610      
-TS287_4                                            CR1108_TS287_4_vs_CR1108__0_refined.pdb            CR1108_TS287_4_vs_CR1108__0_solution.pdb           24.223       52.697       74.660       100.000     
-TS287_5                                            CR1108_TS287_5_vs_CR1108__1_refined.pdb            CR1108_TS287_5_vs_CR1108__1_solution.pdb           11.385       24.919       29.476       50.274      
-TS385_1                                            CR1108_TS385_1_vs_CR1108__1_refined.pdb            CR1108_TS385_1_vs_CR1108__1_solution.pdb           3.906        6.121        8.308        17.924      
-TS385_2                                            CR1108_TS385_2_vs_CR1108__1_refined.pdb            CR1108_TS385_2_vs_CR1108__1_solution.pdb           3.961        7.092        9.885        24.326      
-TS385_3                                            CR1108_TS385_3_vs_CR1108__1_refined.pdb            CR1108_TS385_3_vs_CR1108__1_solution.pdb           2.983        5.991        8.160        21.125      
-TS385_4                                            CR1108_TS385_4_vs_CR1108__1_refined.pdb            CR1108_TS385_4_vs_CR1108__1_solution.pdb           4.369        8.396        11.355       22.792      
-TS385_5                                            CR1108_TS385_5_vs_CR1108__1_refined.pdb            CR1108_TS385_5_vs_CR1108__1_solution.pdb           3.041        5.685        7.564        19.539      
-TS416_1                                            CR1108_TS416_1_vs_CR1108__0_refined.pdb            CR1108_TS416_1_vs_CR1108__0_solution.pdb           15.915       39.763       78.409       100.000     
-TS416_2                                            CR1108_TS416_2_vs_CR1108__1_refined.pdb            CR1108_TS416_2_vs_CR1108__1_solution.pdb           14.947       60.658       80.712       100.000     
-TS416_3                                            CR1108_TS416_3_vs_CR1108__1_refined.pdb            CR1108_TS416_3_vs_CR1108__1_solution.pdb           15.894       55.557       79.992       100.000     
-TS416_4                                            CR1108_TS416_4_vs_CR1108__0_refined.pdb            CR1108_TS416_4_vs_CR1108__0_solution.pdb           17.818       61.175       91.326       100.000     
-TS416_5                                            CR1108_TS416_5_vs_CR1108__0_refined.pdb            CR1108_TS416_5_vs_CR1108__0_solution.pdb           11.516       37.224       50.779       100.000     
-TS434_1                                            CR1108_TS434_1_vs_CR1108__1_refined.pdb            CR1108_TS434_1_vs_CR1108__1_solution.pdb           7.594        12.575       14.199       25.579      
-TS434_2                                            CR1108_TS434_2_vs_CR1108__1_refined.pdb            CR1108_TS434_2_vs_CR1108__1_solution.pdb           8.069        13.068       15.349       28.214      
-TS434_3                                            CR1108_TS434_3_vs_CR1108__1_refined.pdb            CR1108_TS434_3_vs_CR1108__1_solution.pdb           8.314        15.234       19.095       35.539      
-TS434_4                                            CR1108_TS434_4_vs_CR1108__1_refined.pdb            CR1108_TS434_4_vs_CR1108__1_solution.pdb           7.715        13.004       15.016       27.149      
-TS434_5                                            CR1108_TS434_5_vs_CR1108__1_refined.pdb            CR1108_TS434_5_vs_CR1108__1_solution.pdb           7.803        13.134       15.146       28.825      
-TS439_1                                            CR1108_TS439_1_vs_CR1108__0_refined.pdb            CR1108_TS439_1_vs_CR1108__0_solution.pdb           9.201        16.369       19.791       33.427      
-TS439_2                                            CR1108_TS439_2_vs_CR1108__1_refined.pdb            CR1108_TS439_2_vs_CR1108__1_solution.pdb           9.092        14.980       19.074       31.291      
-TS439_3                                            CR1108_TS439_3_vs_CR1108__0_refined.pdb            CR1108_TS439_3_vs_CR1108__0_solution.pdb           6.668        16.508       19.887       33.327      
-TS439_4                                            CR1108_TS439_4_vs_CR1108__1_refined.pdb            CR1108_TS439_4_vs_CR1108__1_solution.pdb           4.926        9.304        10.735       19.176      
-TS439_5                                            CR1108_TS439_5_vs_CR1108__1_refined.pdb            CR1108_TS439_5_vs_CR1108__1_solution.pdb           5.658        10.100       11.806       21.128      
-TS470_1                                            CR1108_TS470_1_vs_CR1108__1_refined.pdb            CR1108_TS470_1_vs_CR1108__1_solution.pdb           16.907       64.748       80.521       100.000     
-TS470_2                                            CR1108_TS470_2_vs_CR1108__1_refined.pdb            CR1108_TS470_2_vs_CR1108__1_solution.pdb           12.904       65.453       81.904       100.000     
-TS470_3                                            CR1108_TS470_3_vs_CR1108__1_refined.pdb            CR1108_TS470_3_vs_CR1108__1_solution.pdb           15.273       63.124       78.793       100.000     
-TS470_4                                            CR1108_TS470_4_vs_CR1108__1_refined.pdb            CR1108_TS470_4_vs_CR1108__1_solution.pdb           15.434       67.832       83.843       100.000     
-TS470_5                                            CR1108_TS470_5_vs_CR1108__1_refined.pdb            CR1108_TS470_5_vs_CR1108__1_solution.pdb           11.110       18.940       25.113       65.974      
-TS489_1                                            CR1108_TS489_1_vs_CR1108__1_refined.pdb            CR1108_TS489_1_vs_CR1108__1_solution.pdb           16.907       64.748       80.521       100.000     
-TS489_2                                            CR1108_TS489_2_vs_CR1108__1_refined.pdb            CR1108_TS489_2_vs_CR1108__1_solution.pdb           12.904       65.453       81.904       100.000     
-TS489_3                                            CR1108_TS489_3_vs_CR1108__1_refined.pdb            CR1108_TS489_3_vs_CR1108__1_solution.pdb           15.273       63.124       78.793       100.000     
-TS489_4                                            CR1108_TS489_4_vs_CR1108__1_refined.pdb            CR1108_TS489_4_vs_CR1108__1_solution.pdb           15.434       67.832       83.843       100.000     
-TS489_5                                            CR1108_TS489_5_vs_CR1108__1_refined.pdb            CR1108_TS489_5_vs_CR1108__1_solution.pdb           11.110       18.940       25.113       65.974      
-TSR01_10                                           CR1108_TSR01_10_vs_CR1108__1_refined.pdb           CR1108_TSR01_10_vs_CR1108__1_solution.pdb          11.413       24.632       29.234       49.042      
-TSR01_1                                            CR1108_TSR01_1_vs_CR1108__0_refined.pdb            CR1108_TSR01_1_vs_CR1108__0_solution.pdb           23.987       50.607       71.565       100.000     
-TSR01_2                                            CR1108_TSR01_2_vs_CR1108__0_refined.pdb            CR1108_TSR01_2_vs_CR1108__0_solution.pdb           23.730       51.647       72.437       100.000     
-TSR01_3                                            CR1108_TSR01_3_vs_CR1108__1_refined.pdb            CR1108_TSR01_3_vs_CR1108__1_solution.pdb           11.425       24.771       28.335       45.859      
-TSR01_4                                            CR1108_TSR01_4_vs_CR1108__0_refined.pdb            CR1108_TSR01_4_vs_CR1108__0_solution.pdb           24.653       53.151       74.288       100.000     
-TSR01_5                                            CR1108_TSR01_5_vs_CR1108__0_refined.pdb            CR1108_TSR01_5_vs_CR1108__0_solution.pdb           24.117       52.821       74.536       100.000     
-TSR01_6                                            CR1108_TSR01_6_vs_CR1108__1_refined.pdb            CR1108_TSR01_6_vs_CR1108__1_solution.pdb           11.240       23.651       28.069       44.495      
-TSR01_7                                            CR1108_TSR01_7_vs_CR1108__0_refined.pdb            CR1108_TSR01_7_vs_CR1108__0_solution.pdb           24.296       52.939       74.742       100.000     
-TSR01_8                                            CR1108_TSR01_8_vs_CR1108__1_refined.pdb            CR1108_TSR01_8_vs_CR1108__1_solution.pdb           11.485       24.892       29.518       50.694      
-TSR01_9                                            CR1108_TSR01_9_vs_CR1108__0_refined.pdb            CR1108_TSR01_9_vs_CR1108__0_solution.pdb           24.229       51.605       74.161       100.000     
-TSR02_10                                           CR1108_TSR02_10_vs_CR1108__1_refined.pdb           CR1108_TSR02_10_vs_CR1108__1_solution.pdb          2.929        4.892        6.538        12.835      
-TSR02_1                                            CR1108_TSR02_1_vs_CR1108__1_refined.pdb            CR1108_TSR02_1_vs_CR1108__1_solution.pdb           2.941        4.130        4.841        7.313       
-TSR02_2                                            CR1108_TSR02_2_vs_CR1108__1_refined.pdb            CR1108_TSR02_2_vs_CR1108__1_solution.pdb           2.962        4.889        6.451        12.786      
-TSR02_3                                            CR1108_TSR02_3_vs_CR1108__1_refined.pdb            CR1108_TSR02_3_vs_CR1108__1_solution.pdb           2.968        4.242        5.077        8.596       
-TSR02_4                                            CR1108_TSR02_4_vs_CR1108__1_refined.pdb            CR1108_TSR02_4_vs_CR1108__1_solution.pdb           2.983        4.272        5.171        8.596       
-TSR02_5                                            CR1108_TSR02_5_vs_CR1108__1_refined.pdb            CR1108_TSR02_5_vs_CR1108__1_solution.pdb           5.610        7.788        9.264        14.042      
-TSR02_6                                            CR1108_TSR02_6_vs_CR1108__1_refined.pdb            CR1108_TSR02_6_vs_CR1108__1_solution.pdb           6.200        8.883        10.254       15.186      
-TSR02_7                                            CR1108_TSR02_7_vs_CR1108__1_refined.pdb            CR1108_TSR02_7_vs_CR1108__1_solution.pdb           2.941        4.130        4.841        7.313       
-TSR02_8                                            CR1108_TSR02_8_vs_CR1108__1_refined.pdb            CR1108_TSR02_8_vs_CR1108__1_solution.pdb           11.985       25.636       32.598       56.401      
-TSR02_9                                            CR1108_TSR02_9_vs_CR1108__1_refined.pdb            CR1108_TSR02_9_vs_CR1108__1_solution.pdb           6.351        8.414        9.370        13.074      
-TSR03_1                                            CR1108_TSR03_1_vs_CR1108__1_refined.pdb            CR1108_TSR03_1_vs_CR1108__1_solution.pdb           9.625        14.102       16.732       28.026      
-TSR03_2                                            CR1108_TSR03_2_vs_CR1108__1_refined.pdb            CR1108_TSR03_2_vs_CR1108__1_solution.pdb           9.612        13.981       16.296       25.757      
-TSR03_3                                            CR1108_TSR03_3_vs_CR1108__1_refined.pdb            CR1108_TSR03_3_vs_CR1108__1_solution.pdb           9.243        13.906       16.341       26.698      
-TSR03_4                                            CR1108_TSR03_4_vs_CR1108__1_refined.pdb            CR1108_TSR03_4_vs_CR1108__1_solution.pdb           9.431        14.087       16.426       27.149      
-TSR03_5                                            CR1108_TSR03_5_vs_CR1108__1_refined.pdb            CR1108_TSR03_5_vs_CR1108__1_solution.pdb           9.655        14.057       16.254       25.984      
-TSR04_1                                            CR1108_TSR04_1_vs_CR1108__0_refined.pdb            CR1108_TSR04_1_vs_CR1108__0_solution.pdb           15.615       25.624       28.365       34.144      
-TSR04_2                                            CR1108_TSR04_2_vs_CR1108__1_refined.pdb            CR1108_TSR04_2_vs_CR1108__1_solution.pdb           11.978       23.881       27.185       33.530      
-TSR04_3                                            CR1108_TSR04_3_vs_CR1108__0_refined.pdb            CR1108_TSR04_3_vs_CR1108__0_solution.pdb           24.426       56.174       76.669       100.000     
-TSR04_4                                            CR1108_TSR04_4_vs_CR1108__1_refined.pdb            CR1108_TSR04_4_vs_CR1108__1_solution.pdb           10.581       19.058       22.940       43.947      
-TSR04_5                                            CR1108_TSR04_5_vs_CR1108__0_refined.pdb            CR1108_TSR04_5_vs_CR1108__0_solution.pdb           9.712        16.937       21.364       49.130      
-TSR05_1                                            CR1108_TSR05_1_vs_CR1108__1_refined.pdb            CR1108_TSR05_1_vs_CR1108__1_solution.pdb           6.324        13.512       18.532       33.457      
-TSR05_2                                            CR1108_TSR05_2_vs_CR1108__1_refined.pdb            CR1108_TSR05_2_vs_CR1108__1_solution.pdb           6.457        11.718       15.597       27.116      
-TSR05_3                                            CR1108_TSR05_3_vs_CR1108__1_refined.pdb            CR1108_TSR05_3_vs_CR1108__1_solution.pdb           6.690        12.078       15.252       29.034      
-TSR05_4                                            CR1108_TSR05_4_vs_CR1108__1_refined.pdb            CR1108_TSR05_4_vs_CR1108__1_solution.pdb           7.128        11.900       15.652       24.135      
-TSR06_1                                            CR1108_TSR06_1_vs_CR1108__0_refined.pdb            CR1108_TSR06_1_vs_CR1108__0_solution.pdb           13.512       33.013       46.071       94.735      
-TSR06_2                                            CR1108_TSR06_2_vs_CR1108__0_refined.pdb            CR1108_TSR06_2_vs_CR1108__0_solution.pdb           14.947       35.969       49.932       95.389      
-TSR06_3                                            CR1108_TSR06_3_vs_CR1108__0_refined.pdb            CR1108_TSR06_3_vs_CR1108__0_solution.pdb           14.614       32.574       46.356       92.333      
-TSR06_4                                            CR1108_TSR06_4_vs_CR1108__1_refined.pdb            CR1108_TSR06_4_vs_CR1108__1_solution.pdb           16.366       64.776       74.709       99.861      
-TSR06_5                                            CR1108_TSR06_5_vs_CR1108__0_refined.pdb            CR1108_TSR06_5_vs_CR1108__0_solution.pdb           14.626       29.933       42.335       98.173      
-TSR07_1                                            CR1108_TSR07_1_vs_CR1108__1_refined.pdb            CR1108_TSR07_1_vs_CR1108__1_solution.pdb           10.913       19.754       22.447       29.506      
-TSR07_2                                            CR1108_TSR07_2_vs_CR1108__1_refined.pdb            CR1108_TSR07_2_vs_CR1108__1_solution.pdb           10.992       19.570       21.703       27.309      
-TSR07_3                                            CR1108_TSR07_3_vs_CR1108__1_refined.pdb            CR1108_TSR07_3_vs_CR1108__1_solution.pdb           9.864        19.630       21.539       28.284      
-TSR07_4                                            CR1108_TSR07_4_vs_CR1108__1_refined.pdb            CR1108_TSR07_4_vs_CR1108__1_solution.pdb           11.053       19.422       21.122       27.802      
-TSR07_5                                            CR1108_TSR07_5_vs_CR1108__1_refined.pdb            CR1108_TSR07_5_vs_CR1108__1_solution.pdb           11.210       19.355       21.210       27.212      
-TSR08_1                                            CR1108_TSR08_1_vs_CR1108__1_refined.pdb            CR1108_TSR08_1_vs_CR1108__1_solution.pdb           10.677       18.774       23.630       40.332      
-TSR08_2                                            CR1108_TSR08_2_vs_CR1108__1_refined.pdb            CR1108_TSR08_2_vs_CR1108__1_solution.pdb           10.995       21.137       27.013       41.542      
-TSR08_3                                            CR1108_TSR08_3_vs_CR1108__1_refined.pdb            CR1108_TSR08_3_vs_CR1108__1_solution.pdb           11.876       26.023       30.725       50.147      
-TSR08_4                                            CR1108_TSR08_4_vs_CR1108__1_refined.pdb            CR1108_TSR08_4_vs_CR1108__1_solution.pdb           11.494       29.324       37.158       82.833      
+TS029_1                                            CR1108_TS029_1_vs_CR1108__0_refined.pdb            CR1108_TS029_1_vs_CR1108__0_solution.pdb           12.613       23.085       26.160       32.133      
+TS029_2                                            CR1108_TS029_2_vs_CR1108__0_refined.pdb            CR1108_TS029_2_vs_CR1108__0_solution.pdb           5.096        15.945       22.954       32.359      
+TS035_1                                            CR1108_TS035_1_vs_CR1108__1_refined.pdb            CR1108_TS035_1_vs_CR1108__1_solution.pdb           6.931        11.675       14.233       28.058      
+TS035_2                                            CR1108_TS035_2_vs_CR1108__1_refined.pdb            CR1108_TS035_2_vs_CR1108__1_solution.pdb           7.554        11.854       14.281       24.107      
+TS035_3                                            CR1108_TS035_3_vs_CR1108__1_refined.pdb            CR1108_TS035_3_vs_CR1108__1_solution.pdb           6.573        10.460       13.384       28.061      
+TS035_4                                            CR1108_TS035_4_vs_CR1108__1_refined.pdb            CR1108_TS035_4_vs_CR1108__1_solution.pdb           7.813        11.379       13.783       27.793      
+TS035_5                                            CR1108_TS035_5_vs_CR1108__1_refined.pdb            CR1108_TS035_5_vs_CR1108__1_solution.pdb           3.773        5.780        7.579        11.977      
+TS054_1                                            CR1108_TS054_1_vs_CR1108__1_refined.pdb            CR1108_TS054_1_vs_CR1108__1_solution.pdb           10.558       21.748       32.842       100.000     
+TS054_2                                            CR1108_TS054_2_vs_CR1108__1_refined.pdb            CR1108_TS054_2_vs_CR1108__1_solution.pdb           10.516       21.761       32.926       100.000     
+TS054_3                                            CR1108_TS054_3_vs_CR1108__1_refined.pdb            CR1108_TS054_3_vs_CR1108__1_solution.pdb           10.427       21.653       33.252       100.000     
+TS054_4                                            CR1108_TS054_4_vs_CR1108__1_refined.pdb            CR1108_TS054_4_vs_CR1108__1_solution.pdb           15.579       33.350       47.215       100.000     
+TS054_5                                            CR1108_TS054_5_vs_CR1108__1_refined.pdb            CR1108_TS054_5_vs_CR1108__1_solution.pdb           14.473       31.393       45.291       100.000     
+TS081_1                                            CR1108_TS081_1_vs_CR1108__1_refined.pdb            CR1108_TS081_1_vs_CR1108__1_solution.pdb           9.855        17.327       21.809       37.223      
+TS081_2                                            CR1108_TS081_2_vs_CR1108__1_refined.pdb            CR1108_TS081_2_vs_CR1108__1_solution.pdb           10.148       19.508       24.931       38.340      
+TS081_3                                            CR1108_TS081_3_vs_CR1108__1_refined.pdb            CR1108_TS081_3_vs_CR1108__1_solution.pdb           10.960       24.018       28.357       46.282      
+TS081_4                                            CR1108_TS081_4_vs_CR1108__1_refined.pdb            CR1108_TS081_4_vs_CR1108__1_solution.pdb           10.608       27.064       34.294       84.156      
+TS091_1                                            CR1108_TS091_1_vs_CR1108__1_refined.pdb            CR1108_TS091_1_vs_CR1108__1_solution.pdb           1.396        2.362        2.597        4.203       
+TS091_2                                            CR1108_TS091_2_vs_CR1108__1_refined.pdb            CR1108_TS091_2_vs_CR1108__1_solution.pdb           1.234        2.108        2.689        5.269       
+TS091_3                                            CR1108_TS091_3_vs_CR1108__1_refined.pdb            CR1108_TS091_3_vs_CR1108__1_solution.pdb           1.321        2.371        2.845        5.348       
+TS091_4                                            CR1108_TS091_4_vs_CR1108__1_refined.pdb            CR1108_TS091_4_vs_CR1108__1_solution.pdb           1.332        2.295        2.611        4.521       
+TS091_5                                            CR1108_TS091_5_vs_CR1108__1_refined.pdb            CR1108_TS091_5_vs_CR1108__1_solution.pdb           1.248        2.337        2.686        4.619       
+TS097_1                                            CR1108_TS097_1_vs_CR1108__1_refined.pdb            CR1108_TS097_1_vs_CR1108__1_solution.pdb           6.085        9.413        11.100       20.996      
+TS119_1                                            CR1108_TS119_1_vs_CR1108__1_refined.pdb            CR1108_TS119_1_vs_CR1108__1_solution.pdb           6.534        10.734       13.406       22.541      
+TS119_2                                            CR1108_TS119_2_vs_CR1108__1_refined.pdb            CR1108_TS119_2_vs_CR1108__1_solution.pdb           9.145        15.900       19.544       29.622      
+TS119_3                                            CR1108_TS119_3_vs_CR1108__1_refined.pdb            CR1108_TS119_3_vs_CR1108__1_solution.pdb           6.727        11.315       14.121       25.925      
+TS119_4                                            CR1108_TS119_4_vs_CR1108__1_refined.pdb            CR1108_TS119_4_vs_CR1108__1_solution.pdb           6.939        11.111       13.753       25.618      
+TS119_5                                            CR1108_TS119_5_vs_CR1108__1_refined.pdb            CR1108_TS119_5_vs_CR1108__1_solution.pdb           10.592       15.855       19.139       35.232      
+TS125_1                                            CR1108_TS125_1_vs_CR1108__1_refined.pdb            CR1108_TS125_1_vs_CR1108__1_solution.pdb           14.621       31.367       45.251       100.000     
+TS125_2                                            CR1108_TS125_2_vs_CR1108__1_refined.pdb            CR1108_TS125_2_vs_CR1108__1_solution.pdb           14.663       31.077       45.025       100.000     
+TS125_3                                            CR1108_TS125_3_vs_CR1108__1_refined.pdb            CR1108_TS125_3_vs_CR1108__1_solution.pdb           14.655       31.200       45.067       100.000     
+TS125_4                                            CR1108_TS125_4_vs_CR1108__1_refined.pdb            CR1108_TS125_4_vs_CR1108__1_solution.pdb           14.431       30.968       44.079       100.000     
+TS125_5                                            CR1108_TS125_5_vs_CR1108__1_refined.pdb            CR1108_TS125_5_vs_CR1108__1_solution.pdb           14.465       30.650       43.724       100.000     
+TS128_1                                            CR1108_TS128_1_vs_CR1108__0_refined.pdb            CR1108_TS128_1_vs_CR1108__0_solution.pdb           14.412       23.649       26.179       31.513      
+TS128_2                                            CR1108_TS128_2_vs_CR1108__1_refined.pdb            CR1108_TS128_2_vs_CR1108__1_solution.pdb           11.055       22.041       25.090       30.946      
+TS128_3                                            CR1108_TS128_3_vs_CR1108__0_refined.pdb            CR1108_TS128_3_vs_CR1108__0_solution.pdb           22.543       51.844       70.760       100.000     
+TS128_4                                            CR1108_TS128_4_vs_CR1108__1_refined.pdb            CR1108_TS128_4_vs_CR1108__1_solution.pdb           9.765        17.590       21.172       40.560      
+TS128_5                                            CR1108_TS128_5_vs_CR1108__0_refined.pdb            CR1108_TS128_5_vs_CR1108__0_solution.pdb           8.964        15.632       19.717       45.344      
+TS131_1                                            CR1108_TS131_1_vs_CR1108__1_refined.pdb            CR1108_TS131_1_vs_CR1108__1_solution.pdb           2.600        3.747        4.379        6.922       
+TS131_2                                            CR1108_TS131_2_vs_CR1108__1_refined.pdb            CR1108_TS131_2_vs_CR1108__1_solution.pdb           2.725        3.678        4.122        6.384       
+TS131_3                                            CR1108_TS131_3_vs_CR1108__1_refined.pdb            CR1108_TS131_3_vs_CR1108__1_solution.pdb           2.818        3.803        4.672        6.881       
+TS131_4                                            CR1108_TS131_4_vs_CR1108__1_refined.pdb            CR1108_TS131_4_vs_CR1108__1_solution.pdb           2.790        3.954        4.390        6.364       
+TS131_5                                            CR1108_TS131_5_vs_CR1108__1_refined.pdb            CR1108_TS131_5_vs_CR1108__1_solution.pdb           2.823        3.826        4.387        6.384       
+TS147_1                                            CR1108_TS147_1_vs_CR1108__1_refined.pdb            CR1108_TS147_1_vs_CR1108__1_solution.pdb           6.814        14.602       18.151       32.317      
+TS147_2                                            CR1108_TS147_2_vs_CR1108__1_refined.pdb            CR1108_TS147_2_vs_CR1108__1_solution.pdb           8.481        14.202       16.830       32.443      
+TS147_3                                            CR1108_TS147_3_vs_CR1108__1_refined.pdb            CR1108_TS147_3_vs_CR1108__1_solution.pdb           7.995        14.401       17.752       32.113      
+TS147_4                                            CR1108_TS147_4_vs_CR1108__1_refined.pdb            CR1108_TS147_4_vs_CR1108__1_solution.pdb           8.397        14.202       16.562       30.921      
+TS147_5                                            CR1108_TS147_5_vs_CR1108__1_refined.pdb            CR1108_TS147_5_vs_CR1108__1_solution.pdb           7.922        13.920       17.243       32.158      
+TS163_1                                            CR1108_TS163_1_vs_CR1108__1_refined.pdb            CR1108_TS163_1_vs_CR1108__1_solution.pdb           8.361        20.538       35.444       98.917      
+TS227_1                                            CR1108_TS227_1_vs_CR1108__1_refined.pdb            CR1108_TS227_1_vs_CR1108__1_solution.pdb           7.660        15.674       18.746       34.972      
+TS227_2                                            CR1108_TS227_2_vs_CR1108__1_refined.pdb            CR1108_TS227_2_vs_CR1108__1_solution.pdb           7.302        12.044       13.934       23.789      
+TS227_3                                            CR1108_TS227_3_vs_CR1108__1_refined.pdb            CR1108_TS227_3_vs_CR1108__1_solution.pdb           8.754        14.336       16.810       31.203      
+TS227_4                                            CR1108_TS227_4_vs_CR1108__1_refined.pdb            CR1108_TS227_4_vs_CR1108__1_solution.pdb           8.436        14.202       16.755       32.322      
+TS227_5                                            CR1108_TS227_5_vs_CR1108__1_refined.pdb            CR1108_TS227_5_vs_CR1108__1_solution.pdb           7.568        14.082       17.740       33.205      
+TS229_1                                            CR1108_TS229_1_vs_CR1108__1_refined.pdb            CR1108_TS229_1_vs_CR1108__1_solution.pdb           8.592        18.193       34.079       81.634      
+TS229_2                                            CR1108_TS229_2_vs_CR1108__1_refined.pdb            CR1108_TS229_2_vs_CR1108__1_solution.pdb           8.592        18.193       34.079       81.634      
+TS229_3                                            CR1108_TS229_3_vs_CR1108__1_refined.pdb            CR1108_TS229_3_vs_CR1108__1_solution.pdb           8.592        18.193       34.079       81.634      
+TS229_4                                            CR1108_TS229_4_vs_CR1108__1_refined.pdb            CR1108_TS229_4_vs_CR1108__1_solution.pdb           8.592        18.193       34.079       81.634      
+TS229_5                                            CR1108_TS229_5_vs_CR1108__1_refined.pdb            CR1108_TS229_5_vs_CR1108__1_solution.pdb           8.592        18.193       34.079       81.634      
+TS232_1                                            CR1108_TS232_1_vs_CR1108__0_refined.pdb            CR1108_TS232_1_vs_CR1108__0_solution.pdb           20.516       58.750       79.663       100.000     
+TS232_2                                            CR1108_TS232_2_vs_CR1108__0_refined.pdb            CR1108_TS232_2_vs_CR1108__0_solution.pdb           22.909       63.846       96.314       100.000     
+TS232_3                                            CR1108_TS232_3_vs_CR1108__0_refined.pdb            CR1108_TS232_3_vs_CR1108__0_solution.pdb           21.267       53.858       65.251       100.000     
+TS232_4                                            CR1108_TS232_4_vs_CR1108__0_refined.pdb            CR1108_TS232_4_vs_CR1108__0_solution.pdb           20.653       63.179       97.224       100.000     
+TS232_5                                            CR1108_TS232_5_vs_CR1108__0_refined.pdb            CR1108_TS232_5_vs_CR1108__0_solution.pdb           22.909       58.569       89.299       100.000     
+TS235_1                                            CR1108_TS235_1_vs_CR1108__1_refined.pdb            CR1108_TS235_1_vs_CR1108__1_solution.pdb           5.465        8.025        8.495        10.821      
+TS235_2                                            CR1108_TS235_2_vs_CR1108__1_refined.pdb            CR1108_TS235_2_vs_CR1108__1_solution.pdb           5.607        7.333        8.363        13.197      
+TS235_3                                            CR1108_TS235_3_vs_CR1108__1_refined.pdb            CR1108_TS235_3_vs_CR1108__1_solution.pdb           7.366        11.457       14.965       29.552      
+TS235_4                                            CR1108_TS235_4_vs_CR1108__1_refined.pdb            CR1108_TS235_4_vs_CR1108__1_solution.pdb           7.112        10.932       12.837       25.045      
+TS235_5                                            CR1108_TS235_5_vs_CR1108__1_refined.pdb            CR1108_TS235_5_vs_CR1108__1_solution.pdb           7.939        11.443       13.711       26.693      
+TS238_1                                            CR1108_TS238_1_vs_CR1108__1_refined.pdb            CR1108_TS238_1_vs_CR1108__1_solution.pdb           16.749       40.448       51.238       85.518      
+TS245_1                                            CR1108_TS245_1_vs_CR1108__1_refined.pdb            CR1108_TS245_1_vs_CR1108__1_solution.pdb           3.918        6.515        9.098        16.852      
+TS248_1                                            CR1108_TS248_1_vs_CR1108__1_refined.pdb            CR1108_TS248_1_vs_CR1108__1_solution.pdb           5.487        6.850        7.830        10.519      
+TS248_2                                            CR1108_TS248_2_vs_CR1108__1_refined.pdb            CR1108_TS248_2_vs_CR1108__1_solution.pdb           5.501        6.836        7.690        10.823      
+TS248_3                                            CR1108_TS248_3_vs_CR1108__1_refined.pdb            CR1108_TS248_3_vs_CR1108__1_solution.pdb           5.593        7.140        8.179        11.466      
+TS248_4                                            CR1108_TS248_4_vs_CR1108__1_refined.pdb            CR1108_TS248_4_vs_CR1108__1_solution.pdb           5.551        6.839        7.623        10.617      
+TS248_5                                            CR1108_TS248_5_vs_CR1108__1_refined.pdb            CR1108_TS248_5_vs_CR1108__1_solution.pdb           8.997        13.968       17.025       29.753      
+TS285_1                                            CR1108_TS285_1_vs_CR1108__1_refined.pdb            CR1108_TS285_1_vs_CR1108__1_solution.pdb           6.004        11.561       14.049       26.696      
+TS285_2                                            CR1108_TS285_2_vs_CR1108__1_refined.pdb            CR1108_TS285_2_vs_CR1108__1_solution.pdb           5.350        10.003       12.477       21.851      
+TS285_3                                            CR1108_TS285_3_vs_CR1108__1_refined.pdb            CR1108_TS285_3_vs_CR1108__1_solution.pdb           6.794        12.558       14.976       28.148      
+TS285_4                                            CR1108_TS285_4_vs_CR1108__1_refined.pdb            CR1108_TS285_4_vs_CR1108__1_solution.pdb           6.099        11.254       13.778       26.696      
+TS285_5                                            CR1108_TS285_5_vs_CR1108__1_refined.pdb            CR1108_TS285_5_vs_CR1108__1_solution.pdb           6.244        11.348       13.490       26.743      
+TS287_1                                            CR1108_TS287_1_vs_CR1108__0_refined.pdb            CR1108_TS287_1_vs_CR1108__0_solution.pdb           22.432       47.332       67.767       100.000     
+TS287_2                                            CR1108_TS287_2_vs_CR1108__0_refined.pdb            CR1108_TS287_2_vs_CR1108__0_solution.pdb           22.057       48.614       68.443       100.000     
+TS287_3                                            CR1108_TS287_3_vs_CR1108__1_refined.pdb            CR1108_TS287_3_vs_CR1108__1_solution.pdb           10.312       21.764       25.928       41.172      
+TS287_4                                            CR1108_TS287_4_vs_CR1108__0_refined.pdb            CR1108_TS287_4_vs_CR1108__0_solution.pdb           22.356       48.636       68.906       100.000     
+TS287_5                                            CR1108_TS287_5_vs_CR1108__1_refined.pdb            CR1108_TS287_5_vs_CR1108__1_solution.pdb           10.508       22.999       27.204       46.399      
+TS385_1                                            CR1108_TS385_1_vs_CR1108__1_refined.pdb            CR1108_TS385_1_vs_CR1108__1_solution.pdb           3.605        5.649        7.668        16.542      
+TS385_2                                            CR1108_TS385_2_vs_CR1108__1_refined.pdb            CR1108_TS385_2_vs_CR1108__1_solution.pdb           3.655        6.545        9.123        22.451      
+TS385_3                                            CR1108_TS385_3_vs_CR1108__1_refined.pdb            CR1108_TS385_3_vs_CR1108__1_solution.pdb           2.753        5.529        7.531        19.497      
+TS385_4                                            CR1108_TS385_4_vs_CR1108__1_refined.pdb            CR1108_TS385_4_vs_CR1108__1_solution.pdb           4.032        7.749        10.480       21.035      
+TS385_5                                            CR1108_TS385_5_vs_CR1108__1_refined.pdb            CR1108_TS385_5_vs_CR1108__1_solution.pdb           2.806        5.247        6.981        18.034      
+TS416_1                                            CR1108_TS416_1_vs_CR1108__0_refined.pdb            CR1108_TS416_1_vs_CR1108__0_solution.pdb           14.688       36.698       72.366       100.000     
+TS416_2                                            CR1108_TS416_2_vs_CR1108__1_refined.pdb            CR1108_TS416_2_vs_CR1108__1_solution.pdb           13.795       55.983       82.198       100.000     
+TS416_3                                            CR1108_TS416_3_vs_CR1108__1_refined.pdb            CR1108_TS416_3_vs_CR1108__1_solution.pdb           14.669       51.275       81.534       100.000     
+TS416_4                                            CR1108_TS416_4_vs_CR1108__0_refined.pdb            CR1108_TS416_4_vs_CR1108__0_solution.pdb           16.445       56.460       91.994       100.000     
+TS416_5                                            CR1108_TS416_5_vs_CR1108__0_refined.pdb            CR1108_TS416_5_vs_CR1108__0_solution.pdb           10.628       34.355       46.865       100.000     
+TS434_1                                            CR1108_TS434_1_vs_CR1108__1_refined.pdb            CR1108_TS434_1_vs_CR1108__1_solution.pdb           7.009        11.605       13.105       23.607      
+TS434_2                                            CR1108_TS434_2_vs_CR1108__1_refined.pdb            CR1108_TS434_2_vs_CR1108__1_solution.pdb           7.447        12.061       14.166       26.039      
+TS434_3                                            CR1108_TS434_3_vs_CR1108__1_refined.pdb            CR1108_TS434_3_vs_CR1108__1_solution.pdb           7.674        14.060       17.623       32.800      
+TS434_4                                            CR1108_TS434_4_vs_CR1108__1_refined.pdb            CR1108_TS434_4_vs_CR1108__1_solution.pdb           7.121        12.002       13.859       25.057      
+TS434_5                                            CR1108_TS434_5_vs_CR1108__1_refined.pdb            CR1108_TS434_5_vs_CR1108__1_solution.pdb           7.202        12.122       13.979       26.604      
+TS439_1                                            CR1108_TS439_1_vs_CR1108__0_refined.pdb            CR1108_TS439_1_vs_CR1108__0_solution.pdb           8.492        15.107       18.265       30.851      
+TS439_2                                            CR1108_TS439_2_vs_CR1108__1_refined.pdb            CR1108_TS439_2_vs_CR1108__1_solution.pdb           8.391        13.825       17.604       28.879      
+TS439_3                                            CR1108_TS439_3_vs_CR1108__0_refined.pdb            CR1108_TS439_3_vs_CR1108__0_solution.pdb           6.155        15.236       18.355       30.759      
+TS439_4                                            CR1108_TS439_4_vs_CR1108__1_refined.pdb            CR1108_TS439_4_vs_CR1108__1_solution.pdb           4.546        8.587        9.908        17.698      
+TS439_5                                            CR1108_TS439_5_vs_CR1108__1_refined.pdb            CR1108_TS439_5_vs_CR1108__1_solution.pdb           5.222        9.321        10.896       19.500      
+TS470_1                                            CR1108_TS470_1_vs_CR1108__1_refined.pdb            CR1108_TS470_1_vs_CR1108__1_solution.pdb           15.604       59.758       74.315       100.000     
+TS470_2                                            CR1108_TS470_2_vs_CR1108__1_refined.pdb            CR1108_TS470_2_vs_CR1108__1_solution.pdb           11.910       60.409       75.591       100.000     
+TS470_3                                            CR1108_TS470_3_vs_CR1108__1_refined.pdb            CR1108_TS470_3_vs_CR1108__1_solution.pdb           14.096       58.259       72.721       100.000     
+TS470_4                                            CR1108_TS470_4_vs_CR1108__1_refined.pdb            CR1108_TS470_4_vs_CR1108__1_solution.pdb           14.244       62.604       85.088       100.000     
+TS470_5                                            CR1108_TS470_5_vs_CR1108__1_refined.pdb            CR1108_TS470_5_vs_CR1108__1_solution.pdb           10.254       17.481       23.177       60.889      
+TS489_1                                            CR1108_TS489_1_vs_CR1108__1_refined.pdb            CR1108_TS489_1_vs_CR1108__1_solution.pdb           15.604       59.758       74.315       100.000     
+TS489_2                                            CR1108_TS489_2_vs_CR1108__1_refined.pdb            CR1108_TS489_2_vs_CR1108__1_solution.pdb           11.910       60.409       75.591       100.000     
+TS489_3                                            CR1108_TS489_3_vs_CR1108__1_refined.pdb            CR1108_TS489_3_vs_CR1108__1_solution.pdb           14.096       58.259       72.721       100.000     
+TS489_4                                            CR1108_TS489_4_vs_CR1108__1_refined.pdb            CR1108_TS489_4_vs_CR1108__1_solution.pdb           14.244       62.604       85.088       100.000     
+TS489_5                                            CR1108_TS489_5_vs_CR1108__1_refined.pdb            CR1108_TS489_5_vs_CR1108__1_solution.pdb           10.254       17.481       23.177       60.889      
+TSR01_10                                           CR1108_TSR01_10_vs_CR1108__1_refined.pdb           CR1108_TSR01_10_vs_CR1108__1_solution.pdb          10.533       22.733       26.981       45.263      
+TSR01_1                                            CR1108_TSR01_1_vs_CR1108__0_refined.pdb            CR1108_TSR01_1_vs_CR1108__0_solution.pdb           22.138       46.706       66.050       100.000     
+TSR01_2                                            CR1108_TSR01_2_vs_CR1108__0_refined.pdb            CR1108_TSR01_2_vs_CR1108__0_solution.pdb           21.901       47.667       66.854       100.000     
+TSR01_3                                            CR1108_TSR01_3_vs_CR1108__1_refined.pdb            CR1108_TSR01_3_vs_CR1108__1_solution.pdb           10.544       22.862       26.151       42.325      
+TSR01_4                                            CR1108_TSR01_4_vs_CR1108__0_refined.pdb            CR1108_TSR01_4_vs_CR1108__0_solution.pdb           22.753       49.055       68.563       100.000     
+TSR01_5                                            CR1108_TSR01_5_vs_CR1108__0_refined.pdb            CR1108_TSR01_5_vs_CR1108__0_solution.pdb           22.259       48.750       68.792       100.000     
+TSR01_6                                            CR1108_TSR01_6_vs_CR1108__1_refined.pdb            CR1108_TSR01_6_vs_CR1108__1_solution.pdb           10.374       21.828       25.905       41.066      
+TSR01_7                                            CR1108_TSR01_7_vs_CR1108__0_refined.pdb            CR1108_TSR01_7_vs_CR1108__0_solution.pdb           22.423       48.859       68.982       100.000     
+TSR01_8                                            CR1108_TSR01_8_vs_CR1108__1_refined.pdb            CR1108_TSR01_8_vs_CR1108__1_solution.pdb           10.600       22.973       27.243       46.787      
+TSR01_9                                            CR1108_TSR01_9_vs_CR1108__0_refined.pdb            CR1108_TSR01_9_vs_CR1108__0_solution.pdb           22.362       47.628       68.445       100.000     
+TSR02_10                                           CR1108_TSR02_10_vs_CR1108__1_refined.pdb           CR1108_TSR02_10_vs_CR1108__1_solution.pdb          2.703        4.515        6.034        11.846      
+TSR02_1                                            CR1108_TSR02_1_vs_CR1108__1_refined.pdb            CR1108_TSR02_1_vs_CR1108__1_solution.pdb           2.714        3.812        4.468        6.749       
+TSR02_2                                            CR1108_TSR02_2_vs_CR1108__1_refined.pdb            CR1108_TSR02_2_vs_CR1108__1_solution.pdb           2.734        4.513        5.953        11.801      
+TSR02_3                                            CR1108_TSR02_3_vs_CR1108__1_refined.pdb            CR1108_TSR02_3_vs_CR1108__1_solution.pdb           2.739        3.915        4.686        7.933       
+TSR02_4                                            CR1108_TSR02_4_vs_CR1108__1_refined.pdb            CR1108_TSR02_4_vs_CR1108__1_solution.pdb           2.753        3.943        4.772        7.933       
+TSR02_5                                            CR1108_TSR02_5_vs_CR1108__1_refined.pdb            CR1108_TSR02_5_vs_CR1108__1_solution.pdb           5.177        7.188        8.550        12.960      
+TSR02_6                                            CR1108_TSR02_6_vs_CR1108__1_refined.pdb            CR1108_TSR02_6_vs_CR1108__1_solution.pdb           5.722        8.199        9.464        14.015      
+TSR02_7                                            CR1108_TSR02_7_vs_CR1108__1_refined.pdb            CR1108_TSR02_7_vs_CR1108__1_solution.pdb           2.714        3.812        4.468        6.749       
+TSR02_8                                            CR1108_TSR02_8_vs_CR1108__1_refined.pdb            CR1108_TSR02_8_vs_CR1108__1_solution.pdb           11.061       23.660       30.086       52.054      
+TSR02_9                                            CR1108_TSR02_9_vs_CR1108__1_refined.pdb            CR1108_TSR02_9_vs_CR1108__1_solution.pdb           5.861        7.766        8.648        12.066      
+TSR03_1                                            CR1108_TSR03_1_vs_CR1108__1_refined.pdb            CR1108_TSR03_1_vs_CR1108__1_solution.pdb           8.883        13.016       15.442       25.866      
+TSR03_2                                            CR1108_TSR03_2_vs_CR1108__1_refined.pdb            CR1108_TSR03_2_vs_CR1108__1_solution.pdb           8.872        12.904       15.040       23.772      
+TSR03_3                                            CR1108_TSR03_3_vs_CR1108__1_refined.pdb            CR1108_TSR03_3_vs_CR1108__1_solution.pdb           8.531        12.834       15.082       24.640      
+TSR03_4                                            CR1108_TSR03_4_vs_CR1108__1_refined.pdb            CR1108_TSR03_4_vs_CR1108__1_solution.pdb           8.704        13.002       15.160       25.057      
+TSR03_5                                            CR1108_TSR03_5_vs_CR1108__1_refined.pdb            CR1108_TSR03_5_vs_CR1108__1_solution.pdb           8.911        12.974       15.001       23.981      
+TSR04_1                                            CR1108_TSR04_1_vs_CR1108__0_refined.pdb            CR1108_TSR04_1_vs_CR1108__0_solution.pdb           14.412       23.649       26.179       31.513      
+TSR04_2                                            CR1108_TSR04_2_vs_CR1108__1_refined.pdb            CR1108_TSR04_2_vs_CR1108__1_solution.pdb           11.055       22.041       25.090       30.946      
+TSR04_3                                            CR1108_TSR04_3_vs_CR1108__0_refined.pdb            CR1108_TSR04_3_vs_CR1108__0_solution.pdb           22.543       51.844       70.760       100.000     
+TSR04_4                                            CR1108_TSR04_4_vs_CR1108__1_refined.pdb            CR1108_TSR04_4_vs_CR1108__1_solution.pdb           9.765        17.590       21.172       40.560      
+TSR04_5                                            CR1108_TSR04_5_vs_CR1108__0_refined.pdb            CR1108_TSR04_5_vs_CR1108__0_solution.pdb           8.964        15.632       19.717       45.344      
+TSR05_1                                            CR1108_TSR05_1_vs_CR1108__1_refined.pdb            CR1108_TSR05_1_vs_CR1108__1_solution.pdb           5.836        12.471       17.104       30.879      
+TSR05_2                                            CR1108_TSR05_2_vs_CR1108__1_refined.pdb            CR1108_TSR05_2_vs_CR1108__1_solution.pdb           5.959        10.815       14.395       25.026      
+TSR05_3                                            CR1108_TSR05_3_vs_CR1108__1_refined.pdb            CR1108_TSR05_3_vs_CR1108__1_solution.pdb           6.174        11.147       14.077       26.796      
+TSR05_4                                            CR1108_TSR05_4_vs_CR1108__1_refined.pdb            CR1108_TSR05_4_vs_CR1108__1_solution.pdb           6.579        10.983       14.445       22.275      
+TSR06_1                                            CR1108_TSR06_1_vs_CR1108__0_refined.pdb            CR1108_TSR06_1_vs_CR1108__0_solution.pdb           12.471       30.468       42.520       87.434      
+TSR06_2                                            CR1108_TSR06_2_vs_CR1108__0_refined.pdb            CR1108_TSR06_2_vs_CR1108__0_solution.pdb           13.795       33.197       46.084       88.037      
+TSR06_3                                            CR1108_TSR06_3_vs_CR1108__0_refined.pdb            CR1108_TSR06_3_vs_CR1108__0_solution.pdb           13.487       30.063       42.783       85.217      
+TSR06_4                                            CR1108_TSR06_4_vs_CR1108__1_refined.pdb            CR1108_TSR06_4_vs_CR1108__1_solution.pdb           15.104       59.783       68.951       99.872      
+TSR06_5                                            CR1108_TSR06_5_vs_CR1108__0_refined.pdb            CR1108_TSR06_5_vs_CR1108__0_solution.pdb           13.499       27.626       39.072       98.313      
+TSR07_1                                            CR1108_TSR07_1_vs_CR1108__1_refined.pdb            CR1108_TSR07_1_vs_CR1108__1_solution.pdb           10.072       18.232       20.717       27.232      
+TSR07_2                                            CR1108_TSR07_2_vs_CR1108__1_refined.pdb            CR1108_TSR07_2_vs_CR1108__1_solution.pdb           10.145       18.061       20.030       25.205      
+TSR07_3                                            CR1108_TSR07_3_vs_CR1108__1_refined.pdb            CR1108_TSR07_3_vs_CR1108__1_solution.pdb           9.103        18.117       19.879       26.104      
+TSR07_4                                            CR1108_TSR07_4_vs_CR1108__1_refined.pdb            CR1108_TSR07_4_vs_CR1108__1_solution.pdb           10.201       17.925       19.494       25.660      
+TSR07_5                                            CR1108_TSR07_5_vs_CR1108__1_refined.pdb            CR1108_TSR07_5_vs_CR1108__1_solution.pdb           10.346       17.863       19.575       25.115      
+TSR08_1                                            CR1108_TSR08_1_vs_CR1108__1_refined.pdb            CR1108_TSR08_1_vs_CR1108__1_solution.pdb           9.855        17.327       21.809       37.223      
+TSR08_2                                            CR1108_TSR08_2_vs_CR1108__1_refined.pdb            CR1108_TSR08_2_vs_CR1108__1_solution.pdb           10.148       19.508       24.931       38.340      
+TSR08_3                                            CR1108_TSR08_3_vs_CR1108__1_refined.pdb            CR1108_TSR08_3_vs_CR1108__1_solution.pdb           10.960       24.018       28.357       46.282      
+TSR08_4                                            CR1108_TSR08_4_vs_CR1108__1_refined.pdb            CR1108_TSR08_4_vs_CR1108__1_solution.pdb           10.608       27.064       34.294       84.156      
 
 === FAILED MODELS ===
 Model                                              Solution                                           Status               Details                       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-CR1108_TS029_1_vs_CR1108__1_refined.pdb            CR1108_TS029_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.585, 4.0A: 23.996, 5.0A: 27.597, 8.0A: 34.326
-CR1108_TS029_2_vs_CR1108__1_refined.pdb            CR1108_TS029_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 5.301, 4.0A: 17.352, 5.0A: 23.639, 8.0A: 34.541
-CR1108_TS035_1_vs_CR1108__0_refined.pdb            CR1108_TS035_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.947, 4.0A: 12.453, 5.0A: 15.364, 8.0A: 32.38
-CR1108_TS035_2_vs_CR1108__0_refined.pdb            CR1108_TS035_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.673, 4.0A: 12.532, 5.0A: 15.131, 8.0A: 26.444
-CR1108_TS035_3_vs_CR1108__0_refined.pdb            CR1108_TS035_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.883, 4.0A: 11.016, 5.0A: 14.426, 8.0A: 32.619
-CR1108_TS035_4_vs_CR1108__0_refined.pdb            CR1108_TS035_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.803, 4.0A: 12.003, 5.0A: 14.305, 8.0A: 31.061
-CR1108_TS035_5_vs_CR1108__0_refined.pdb            CR1108_TS035_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.8, 4.0A: 5.924, 5.0A: 7.997, 8.0A: 12.798
-CR1108_TS054_1_vs_CR1108__0_refined.pdb            CR1108_TS054_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.216, 4.0A: 26.865, 5.0A: 43.853, 8.0A: 100.0
-CR1108_TS054_2_vs_CR1108__0_refined.pdb            CR1108_TS054_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.098, 4.0A: 26.919, 5.0A: 44.029, 8.0A: 100.0
-CR1108_TS054_3_vs_CR1108__0_refined.pdb            CR1108_TS054_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.926, 4.0A: 26.71, 5.0A: 44.177, 8.0A: 100.0
-CR1108_TS054_4_vs_CR1108__0_refined.pdb            CR1108_TS054_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 15.8, 4.0A: 38.979, 5.0A: 54.113, 8.0A: 100.0
-CR1108_TS054_5_vs_CR1108__0_refined.pdb            CR1108_TS054_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.06, 4.0A: 36.347, 5.0A: 50.325, 8.0A: 100.0
-CR1108_TS081_1_vs_CR1108__0_refined.pdb            CR1108_TS081_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.565, 4.0A: 19.515, 5.0A: 25.963, 8.0A: 43.387
-CR1108_TS081_2_vs_CR1108__0_refined.pdb            CR1108_TS081_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.862, 4.0A: 22.468, 5.0A: 28.759, 8.0A: 45.508
-CR1108_TS081_3_vs_CR1108__0_refined.pdb            CR1108_TS081_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.779, 4.0A: 28.408, 5.0A: 33.681, 8.0A: 51.717
-CR1108_TS081_4_vs_CR1108__0_refined.pdb            CR1108_TS081_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.777, 4.0A: 31.857, 5.0A: 41.203, 8.0A: 72.319
-CR1108_TS091_1_vs_CR1108__0_refined.pdb            CR1108_TS091_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.437, 4.0A: 2.372, 5.0A: 2.666, 8.0A: 4.378
-CR1108_TS091_2_vs_CR1108__0_refined.pdb            CR1108_TS091_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.292, 4.0A: 2.175, 5.0A: 2.747, 8.0A: 5.534
-CR1108_TS091_3_vs_CR1108__0_refined.pdb            CR1108_TS091_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.377, 4.0A: 2.46, 5.0A: 2.941, 8.0A: 5.673
-CR1108_TS091_4_vs_CR1108__0_refined.pdb            CR1108_TS091_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.38, 4.0A: 2.29, 5.0A: 2.681, 8.0A: 4.774
-CR1108_TS091_5_vs_CR1108__0_refined.pdb            CR1108_TS091_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.298, 4.0A: 2.427, 5.0A: 2.768, 8.0A: 4.989
-CR1108_TS097_1_vs_CR1108__0_refined.pdb            CR1108_TS097_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.861, 4.0A: 9.718, 5.0A: 11.818, 8.0A: 22.441
-CR1108_TS119_1_vs_CR1108__0_refined.pdb            CR1108_TS119_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.605, 4.0A: 10.944, 5.0A: 14.039, 8.0A: 24.042
-CR1108_TS119_2_vs_CR1108__0_refined.pdb            CR1108_TS119_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.561, 4.0A: 17.107, 5.0A: 21.143, 8.0A: 32.656
-CR1108_TS119_3_vs_CR1108__0_refined.pdb            CR1108_TS119_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.977, 4.0A: 11.906, 5.0A: 14.98, 8.0A: 28.737
-CR1108_TS119_4_vs_CR1108__0_refined.pdb            CR1108_TS119_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.062, 4.0A: 11.428, 5.0A: 14.354, 8.0A: 27.93
-CR1108_TS119_5_vs_CR1108__0_refined.pdb            CR1108_TS119_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.829, 4.0A: 16.432, 5.0A: 20.278, 8.0A: 37.484
-CR1108_TS125_1_vs_CR1108__0_refined.pdb            CR1108_TS125_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.326, 4.0A: 35.987, 5.0A: 50.183, 8.0A: 100.0
-CR1108_TS125_2_vs_CR1108__0_refined.pdb            CR1108_TS125_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.287, 4.0A: 35.793, 5.0A: 49.989, 8.0A: 100.0
-CR1108_TS125_3_vs_CR1108__0_refined.pdb            CR1108_TS125_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.484, 4.0A: 35.911, 5.0A: 50.041, 8.0A: 100.0
-CR1108_TS125_4_vs_CR1108__0_refined.pdb            CR1108_TS125_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.121, 4.0A: 35.125, 5.0A: 49.787, 8.0A: 100.0
-CR1108_TS125_5_vs_CR1108__0_refined.pdb            CR1108_TS125_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.151, 4.0A: 34.716, 5.0A: 49.472, 8.0A: 100.0
-CR1108_TS128_1_vs_CR1108__1_refined.pdb            CR1108_TS128_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 14.934, 4.0A: 25.176, 5.0A: 27.542, 8.0A: 34.044
-CR1108_TS128_2_vs_CR1108__0_refined.pdb            CR1108_TS128_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.67, 4.0A: 23.878, 5.0A: 27.845, 8.0A: 33.693
-CR1108_TS128_3_vs_CR1108__1_refined.pdb            CR1108_TS128_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.048, 4.0A: 49.499, 5.0A: 67.06, 8.0A: 100.0
-CR1108_TS128_4_vs_CR1108__0_refined.pdb            CR1108_TS128_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.55, 4.0A: 20.075, 5.0A: 24.069, 8.0A: 42.728
-CR1108_TS128_5_vs_CR1108__1_refined.pdb            CR1108_TS128_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 9.652, 4.0A: 15.585, 5.0A: 20.359, 8.0A: 46.537
-CR1108_TS131_1_vs_CR1108__0_refined.pdb            CR1108_TS131_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.657, 4.0A: 3.894, 5.0A: 4.593, 8.0A: 7.265
-CR1108_TS131_2_vs_CR1108__0_refined.pdb            CR1108_TS131_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.753, 4.0A: 3.855, 5.0A: 4.357, 8.0A: 6.862
-CR1108_TS131_3_vs_CR1108__0_refined.pdb            CR1108_TS131_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.85, 4.0A: 4.063, 5.0A: 4.917, 8.0A: 7.301
-CR1108_TS131_4_vs_CR1108__0_refined.pdb            CR1108_TS131_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.847, 4.0A: 4.154, 5.0A: 4.711, 8.0A: 6.808
-CR1108_TS131_5_vs_CR1108__0_refined.pdb            CR1108_TS131_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.88, 4.0A: 3.936, 5.0A: 4.614, 8.0A: 6.808
-CR1108_TS147_1_vs_CR1108__0_refined.pdb            CR1108_TS147_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.871, 4.0A: 16.372, 5.0A: 20.626, 8.0A: 38.368
-CR1108_TS147_2_vs_CR1108__0_refined.pdb            CR1108_TS147_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.559, 4.0A: 15.195, 5.0A: 17.951, 8.0A: 35.536
-CR1108_TS147_3_vs_CR1108__0_refined.pdb            CR1108_TS147_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.078, 4.0A: 15.715, 5.0A: 19.912, 8.0A: 38.068
-CR1108_TS147_4_vs_CR1108__0_refined.pdb            CR1108_TS147_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.348, 4.0A: 15.213, 5.0A: 17.6, 8.0A: 33.575
-CR1108_TS147_5_vs_CR1108__0_refined.pdb            CR1108_TS147_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.976, 4.0A: 15.152, 5.0A: 19.083, 8.0A: 38.087
-CR1108_TS163_1_vs_CR1108__0_refined.pdb            CR1108_TS163_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.01, 4.0A: 22.877, 5.0A: 39.76, 8.0A: 98.98
-CR1108_TS227_1_vs_CR1108__0_refined.pdb            CR1108_TS227_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.075, 4.0A: 17.358, 5.0A: 21.503, 8.0A: 40.692
-CR1108_TS227_2_vs_CR1108__0_refined.pdb            CR1108_TS227_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.386, 4.0A: 12.929, 5.0A: 14.626, 8.0A: 25.458
-CR1108_TS227_3_vs_CR1108__0_refined.pdb            CR1108_TS227_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.717, 4.0A: 15.249, 5.0A: 17.854, 8.0A: 34.311
-CR1108_TS227_4_vs_CR1108__0_refined.pdb            CR1108_TS227_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.581, 4.0A: 15.231, 5.0A: 17.984, 8.0A: 35.5
-CR1108_TS227_5_vs_CR1108__0_refined.pdb            CR1108_TS227_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.749, 4.0A: 15.137, 5.0A: 19.673, 8.0A: 38.937
-CR1108_TS229_1_vs_CR1108__0_refined.pdb            CR1108_TS229_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.995, 4.0A: 21.987, 5.0A: 39.832, 8.0A: 69.608
-CR1108_TS229_2_vs_CR1108__0_refined.pdb            CR1108_TS229_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.995, 4.0A: 21.987, 5.0A: 39.832, 8.0A: 69.608
-CR1108_TS229_3_vs_CR1108__0_refined.pdb            CR1108_TS229_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.995, 4.0A: 21.987, 5.0A: 39.832, 8.0A: 69.608
-CR1108_TS229_4_vs_CR1108__0_refined.pdb            CR1108_TS229_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.995, 4.0A: 21.987, 5.0A: 39.832, 8.0A: 69.608
-CR1108_TS229_5_vs_CR1108__0_refined.pdb            CR1108_TS229_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.995, 4.0A: 21.987, 5.0A: 39.832, 8.0A: 69.608
-CR1108_TS232_1_vs_CR1108__1_refined.pdb            CR1108_TS232_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 21.046, 4.0A: 56.537, 5.0A: 69.822, 8.0A: 100.0
-CR1108_TS232_2_vs_CR1108__1_refined.pdb            CR1108_TS232_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.505, 4.0A: 61.145, 5.0A: 80.696, 8.0A: 100.0
-CR1108_TS232_3_vs_CR1108__1_refined.pdb            CR1108_TS232_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.247, 4.0A: 55.254, 5.0A: 64.243, 8.0A: 100.0
-CR1108_TS232_4_vs_CR1108__1_refined.pdb            CR1108_TS232_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 21.806, 4.0A: 63.151, 5.0A: 93.649, 8.0A: 100.0
-CR1108_TS232_5_vs_CR1108__1_refined.pdb            CR1108_TS232_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.151, 4.0A: 59.481, 5.0A: 71.583, 8.0A: 100.0
-CR1108_TS235_1_vs_CR1108__0_refined.pdb            CR1108_TS235_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.776, 4.0A: 8.581, 5.0A: 9.252, 8.0A: 11.876
-CR1108_TS235_2_vs_CR1108__0_refined.pdb            CR1108_TS235_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.721, 4.0A: 7.824, 5.0A: 8.771, 8.0A: 13.888
-CR1108_TS235_3_vs_CR1108__0_refined.pdb            CR1108_TS235_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.558, 4.0A: 12.124, 5.0A: 16.895, 8.0A: 34.262
-CR1108_TS235_4_vs_CR1108__0_refined.pdb            CR1108_TS235_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.528, 4.0A: 11.376, 5.0A: 13.458, 8.0A: 27.582
-CR1108_TS235_5_vs_CR1108__0_refined.pdb            CR1108_TS235_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.169, 4.0A: 12.06, 5.0A: 14.399, 8.0A: 28.635
-CR1108_TS238_1_vs_CR1108__0_refined.pdb            CR1108_TS238_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 17.912, 4.0A: 45.454, 5.0A: 55.656, 8.0A: 87.891
-CR1108_TS245_1_vs_CR1108__0_refined.pdb            CR1108_TS245_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.961, 4.0A: 6.856, 5.0A: 9.594, 8.0A: 18.402
-CR1108_TS248_1_vs_CR1108__0_refined.pdb            CR1108_TS248_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.731, 4.0A: 7.367, 5.0A: 8.215, 8.0A: 11.192
-CR1108_TS248_2_vs_CR1108__0_refined.pdb            CR1108_TS248_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.867, 4.0A: 7.37, 5.0A: 8.209, 8.0A: 11.67
-CR1108_TS248_3_vs_CR1108__0_refined.pdb            CR1108_TS248_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.9, 4.0A: 7.664, 5.0A: 8.874, 8.0A: 12.151
-CR1108_TS248_4_vs_CR1108__0_refined.pdb            CR1108_TS248_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.788, 4.0A: 7.249, 5.0A: 8.124, 8.0A: 11.464
-CR1108_TS248_5_vs_CR1108__0_refined.pdb            CR1108_TS248_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.488, 4.0A: 14.756, 5.0A: 18.154, 8.0A: 34.314
-CR1108_TS285_1_vs_CR1108__0_refined.pdb            CR1108_TS285_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.239, 4.0A: 11.83, 5.0A: 14.623, 8.0A: 29.615
-CR1108_TS285_2_vs_CR1108__0_refined.pdb            CR1108_TS285_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.597, 4.0A: 10.384, 5.0A: 12.959, 8.0A: 22.635
-CR1108_TS285_3_vs_CR1108__0_refined.pdb            CR1108_TS285_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.95, 4.0A: 13.41, 5.0A: 16.169, 8.0A: 32.843
-CR1108_TS285_4_vs_CR1108__0_refined.pdb            CR1108_TS285_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.411, 4.0A: 11.624, 5.0A: 14.384, 8.0A: 29.812
-CR1108_TS285_5_vs_CR1108__0_refined.pdb            CR1108_TS285_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.399, 4.0A: 11.894, 5.0A: 14.13, 8.0A: 29.155
-CR1108_TS287_1_vs_CR1108__1_refined.pdb            CR1108_TS287_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.659, 4.0A: 47.811, 5.0A: 65.599, 8.0A: 100.0
-CR1108_TS287_2_vs_CR1108__1_refined.pdb            CR1108_TS287_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.393, 4.0A: 48.017, 5.0A: 65.701, 8.0A: 100.0
-CR1108_TS287_3_vs_CR1108__0_refined.pdb            CR1108_TS287_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.977, 4.0A: 24.253, 5.0A: 30.15, 8.0A: 47.98
-CR1108_TS287_4_vs_CR1108__1_refined.pdb            CR1108_TS287_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.683, 4.0A: 47.92, 5.0A: 65.904, 8.0A: 100.0
-CR1108_TS287_5_vs_CR1108__0_refined.pdb            CR1108_TS287_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.941, 4.0A: 26.728, 5.0A: 32.622, 8.0A: 52.891
-CR1108_TS385_1_vs_CR1108__0_refined.pdb            CR1108_TS385_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.652, 4.0A: 5.933, 5.0A: 8.066, 8.0A: 17.912
-CR1108_TS385_2_vs_CR1108__0_refined.pdb            CR1108_TS385_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.779, 4.0A: 6.711, 5.0A: 9.6, 8.0A: 23.821
-CR1108_TS385_3_vs_CR1108__0_refined.pdb            CR1108_TS385_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.793, 4.0A: 5.576, 5.0A: 7.827, 8.0A: 21.176
-CR1108_TS385_4_vs_CR1108__0_refined.pdb            CR1108_TS385_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 4.194, 4.0A: 8.336, 5.0A: 11.234, 8.0A: 22.123
-CR1108_TS385_5_vs_CR1108__0_refined.pdb            CR1108_TS385_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.974, 4.0A: 5.316, 5.0A: 7.364, 8.0A: 19.645
-CR1108_TS416_1_vs_CR1108__1_refined.pdb            CR1108_TS416_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 15.122, 4.0A: 35.361, 5.0A: 72.24, 8.0A: 100.0
-CR1108_TS416_2_vs_CR1108__0_refined.pdb            CR1108_TS416_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.863, 4.0A: 64.361, 5.0A: 88.345, 8.0A: 100.0
-CR1108_TS416_3_vs_CR1108__0_refined.pdb            CR1108_TS416_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 15.76, 4.0A: 56.827, 5.0A: 83.982, 8.0A: 100.0
-CR1108_TS416_4_vs_CR1108__1_refined.pdb            CR1108_TS416_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 16.956, 4.0A: 53.895, 5.0A: 86.472, 8.0A: 100.0
-CR1108_TS416_5_vs_CR1108__1_refined.pdb            CR1108_TS416_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 11.467, 4.0A: 35.466, 5.0A: 49.92, 8.0A: 100.0
-CR1108_TS434_1_vs_CR1108__0_refined.pdb            CR1108_TS434_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.228, 4.0A: 12.275, 5.0A: 14.03, 8.0A: 25.104
-CR1108_TS434_2_vs_CR1108__0_refined.pdb            CR1108_TS434_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.422, 4.0A: 12.862, 5.0A: 14.998, 8.0A: 28.492
-CR1108_TS434_3_vs_CR1108__0_refined.pdb            CR1108_TS434_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.803, 4.0A: 15.285, 5.0A: 19.591, 8.0A: 38.105
-CR1108_TS434_4_vs_CR1108__0_refined.pdb            CR1108_TS434_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.213, 4.0A: 12.811, 5.0A: 14.644, 8.0A: 27.161
-CR1108_TS434_5_vs_CR1108__0_refined.pdb            CR1108_TS434_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.431, 4.0A: 12.826, 5.0A: 14.928, 8.0A: 29.772
-CR1108_TS439_1_vs_CR1108__1_refined.pdb            CR1108_TS439_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 8.98, 4.0A: 16.965, 5.0A: 20.353, 8.0A: 32.677
-CR1108_TS439_2_vs_CR1108__0_refined.pdb            CR1108_TS439_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.596, 4.0A: 14.705, 5.0A: 18.459, 8.0A: 31.929
-CR1108_TS439_3_vs_CR1108__1_refined.pdb            CR1108_TS439_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 6.538, 4.0A: 16.323, 5.0A: 20.036, 8.0A: 32.746
-CR1108_TS439_4_vs_CR1108__0_refined.pdb            CR1108_TS439_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 4.662, 4.0A: 8.926, 5.0A: 10.245, 8.0A: 19.031
-CR1108_TS439_5_vs_CR1108__0_refined.pdb            CR1108_TS439_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.558, 4.0A: 9.552, 5.0A: 11.643, 8.0A: 21.443
-CR1108_TS470_1_vs_CR1108__0_refined.pdb            CR1108_TS470_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 15.818, 4.0A: 63.332, 5.0A: 83.852, 8.0A: 100.0
-CR1108_TS470_2_vs_CR1108__0_refined.pdb            CR1108_TS470_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.985, 4.0A: 66.279, 5.0A: 88.028, 8.0A: 100.0
-CR1108_TS470_3_vs_CR1108__0_refined.pdb            CR1108_TS470_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.839, 4.0A: 56.074, 5.0A: 81.026, 8.0A: 100.0
-CR1108_TS470_4_vs_CR1108__0_refined.pdb            CR1108_TS470_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.496, 4.0A: 68.715, 5.0A: 86.911, 8.0A: 100.0
-CR1108_TS470_5_vs_CR1108__0_refined.pdb            CR1108_TS470_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.272, 4.0A: 18.35, 5.0A: 25.382, 8.0A: 74.131
-CR1108_TS489_1_vs_CR1108__0_refined.pdb            CR1108_TS489_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 15.818, 4.0A: 63.332, 5.0A: 83.852, 8.0A: 100.0
-CR1108_TS489_2_vs_CR1108__0_refined.pdb            CR1108_TS489_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.985, 4.0A: 66.279, 5.0A: 88.028, 8.0A: 100.0
-CR1108_TS489_3_vs_CR1108__0_refined.pdb            CR1108_TS489_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.839, 4.0A: 56.074, 5.0A: 81.026, 8.0A: 100.0
-CR1108_TS489_4_vs_CR1108__0_refined.pdb            CR1108_TS489_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.496, 4.0A: 68.715, 5.0A: 86.911, 8.0A: 100.0
-CR1108_TS489_5_vs_CR1108__0_refined.pdb            CR1108_TS489_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.272, 4.0A: 18.35, 5.0A: 25.382, 8.0A: 74.131
-CR1108_TSR01_10_vs_CR1108__0_refined.pdb           CR1108_TSR01_10_vs_CR1108__0_solution.pdb          SUCCESS              2.0A: 10.898, 4.0A: 26.102, 5.0A: 32.175, 8.0A: 51.711
-CR1108_TSR01_1_vs_CR1108__1_refined.pdb            CR1108_TSR01_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.263, 4.0A: 47.796, 5.0A: 64.397, 8.0A: 100.0
-CR1108_TSR01_2_vs_CR1108__1_refined.pdb            CR1108_TSR01_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.132, 4.0A: 47.212, 5.0A: 63.635, 8.0A: 100.0
-CR1108_TSR01_3_vs_CR1108__0_refined.pdb            CR1108_TSR01_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.162, 4.0A: 26.659, 5.0A: 31.103, 8.0A: 48.18
-CR1108_TSR01_4_vs_CR1108__1_refined.pdb            CR1108_TSR01_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.822, 4.0A: 48.34, 5.0A: 66.004, 8.0A: 100.0
-CR1108_TSR01_5_vs_CR1108__1_refined.pdb            CR1108_TSR01_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.402, 4.0A: 48.225, 5.0A: 66.225, 8.0A: 100.0
-CR1108_TSR01_6_vs_CR1108__0_refined.pdb            CR1108_TSR01_6_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.935, 4.0A: 24.338, 5.0A: 30.211, 8.0A: 47.859
-CR1108_TSR01_7_vs_CR1108__1_refined.pdb            CR1108_TSR01_7_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.565, 4.0A: 47.92, 5.0A: 65.868, 8.0A: 100.0
-CR1108_TSR01_8_vs_CR1108__0_refined.pdb            CR1108_TSR01_8_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.08, 4.0A: 27.291, 5.0A: 32.722, 8.0A: 53.112
-CR1108_TSR01_9_vs_CR1108__1_refined.pdb            CR1108_TSR01_9_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.568, 4.0A: 47.623, 5.0A: 64.882, 8.0A: 100.0
-CR1108_TSR02_10_vs_CR1108__0_refined.pdb           CR1108_TSR02_10_vs_CR1108__0_solution.pdb          SUCCESS              2.0A: 2.793, 4.0A: 4.75, 5.0A: 6.133, 8.0A: 12.523
-CR1108_TSR02_1_vs_CR1108__0_refined.pdb            CR1108_TSR02_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.762, 4.0A: 4.018, 5.0A: 4.611, 8.0A: 7.15
-CR1108_TSR02_2_vs_CR1108__0_refined.pdb            CR1108_TSR02_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.75, 4.0A: 4.732, 5.0A: 6.103, 8.0A: 12.472
-CR1108_TSR02_3_vs_CR1108__0_refined.pdb            CR1108_TSR02_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.817, 4.0A: 4.036, 5.0A: 5.032, 8.0A: 8.532
-CR1108_TSR02_4_vs_CR1108__0_refined.pdb            CR1108_TSR02_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.787, 4.0A: 4.091, 5.0A: 5.032, 8.0A: 8.532
-CR1108_TSR02_5_vs_CR1108__0_refined.pdb            CR1108_TSR02_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.207, 4.0A: 7.591, 5.0A: 9.156, 8.0A: 13.882
-CR1108_TSR02_6_vs_CR1108__0_refined.pdb            CR1108_TSR02_6_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.755, 4.0A: 8.502, 5.0A: 9.876, 8.0A: 14.889
-CR1108_TSR02_7_vs_CR1108__0_refined.pdb            CR1108_TSR02_7_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.75, 4.0A: 4.015, 5.0A: 4.662, 8.0A: 7.171
-CR1108_TSR02_8_vs_CR1108__0_refined.pdb            CR1108_TSR02_8_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.797, 4.0A: 26.668, 5.0A: 34.613, 8.0A: 62.189
-CR1108_TSR02_9_vs_CR1108__0_refined.pdb            CR1108_TSR02_9_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.779, 4.0A: 7.951, 5.0A: 9.01, 8.0A: 12.774
-CR1108_TSR03_1_vs_CR1108__0_refined.pdb            CR1108_TSR03_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.065, 4.0A: 13.882, 5.0A: 16.009, 8.0A: 26.913
-CR1108_TSR03_2_vs_CR1108__0_refined.pdb            CR1108_TSR03_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.059, 4.0A: 13.47, 5.0A: 15.524, 8.0A: 24.753
-CR1108_TSR03_3_vs_CR1108__0_refined.pdb            CR1108_TSR03_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.762, 4.0A: 13.425, 5.0A: 15.836, 8.0A: 25.845
-CR1108_TSR03_4_vs_CR1108__0_refined.pdb            CR1108_TSR03_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.88, 4.0A: 13.63, 5.0A: 15.76, 8.0A: 26.477
-CR1108_TSR03_5_vs_CR1108__0_refined.pdb            CR1108_TSR03_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.08, 4.0A: 13.685, 5.0A: 15.885, 8.0A: 25.352
-CR1108_TSR04_1_vs_CR1108__1_refined.pdb            CR1108_TSR04_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 14.934, 4.0A: 25.176, 5.0A: 27.542, 8.0A: 34.044
-CR1108_TSR04_2_vs_CR1108__0_refined.pdb            CR1108_TSR04_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.67, 4.0A: 23.878, 5.0A: 27.845, 8.0A: 33.693
-CR1108_TSR04_3_vs_CR1108__1_refined.pdb            CR1108_TSR04_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 22.048, 4.0A: 49.499, 5.0A: 67.06, 8.0A: 100.0
-CR1108_TSR04_4_vs_CR1108__0_refined.pdb            CR1108_TSR04_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.55, 4.0A: 20.075, 5.0A: 24.069, 8.0A: 42.728
-CR1108_TSR04_5_vs_CR1108__1_refined.pdb            CR1108_TSR04_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 9.652, 4.0A: 15.585, 5.0A: 20.359, 8.0A: 46.537
-CR1108_TSR05_1_vs_CR1108__0_refined.pdb            CR1108_TSR05_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.142, 4.0A: 13.948, 5.0A: 19.331, 8.0A: 36.447
-CR1108_TSR05_2_vs_CR1108__0_refined.pdb            CR1108_TSR05_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.19, 4.0A: 11.174, 5.0A: 15.273, 8.0A: 27.113
-CR1108_TSR05_3_vs_CR1108__0_refined.pdb            CR1108_TSR05_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.236, 4.0A: 11.364, 5.0A: 14.877, 8.0A: 28.559
-CR1108_TSR05_4_vs_CR1108__0_refined.pdb            CR1108_TSR05_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.557, 4.0A: 11.522, 5.0A: 15.059, 8.0A: 24.196
-CR1108_TSR06_1_vs_CR1108__1_refined.pdb            CR1108_TSR06_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.334, 4.0A: 29.433, 5.0A: 38.432, 8.0A: 93.44
-CR1108_TSR06_2_vs_CR1108__1_refined.pdb            CR1108_TSR06_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.334, 4.0A: 30.828, 5.0A: 41.04, 8.0A: 91.716
-CR1108_TSR06_3_vs_CR1108__1_refined.pdb            CR1108_TSR06_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.165, 4.0A: 28.017, 5.0A: 38.047, 8.0A: 88.956
-CR1108_TSR06_4_vs_CR1108__0_refined.pdb            CR1108_TSR06_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 15.984, 4.0A: 47.862, 5.0A: 74.794, 8.0A: 99.861
-CR1108_TSR06_5_vs_CR1108__1_refined.pdb            CR1108_TSR06_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.298, 4.0A: 26.828, 5.0A: 36.637, 8.0A: 97.937
-CR1108_TSR07_1_vs_CR1108__0_refined.pdb            CR1108_TSR07_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.302, 4.0A: 19.53, 5.0A: 21.939, 8.0A: 29.309
-CR1108_TSR07_2_vs_CR1108__0_refined.pdb            CR1108_TSR07_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.184, 4.0A: 19.182, 5.0A: 21.464, 8.0A: 27.373
-CR1108_TSR07_3_vs_CR1108__0_refined.pdb            CR1108_TSR07_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.092, 4.0A: 18.816, 5.0A: 21.198, 8.0A: 27.718
-CR1108_TSR07_4_vs_CR1108__0_refined.pdb            CR1108_TSR07_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.03, 4.0A: 18.68, 5.0A: 20.877, 8.0A: 27.594
-CR1108_TSR07_5_vs_CR1108__0_refined.pdb            CR1108_TSR07_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.626, 4.0A: 18.91, 5.0A: 21.101, 8.0A: 26.871
-CR1108_TSR08_1_vs_CR1108__0_refined.pdb            CR1108_TSR08_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.565, 4.0A: 19.515, 5.0A: 25.963, 8.0A: 43.387
-CR1108_TSR08_2_vs_CR1108__0_refined.pdb            CR1108_TSR08_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.862, 4.0A: 22.468, 5.0A: 28.759, 8.0A: 45.508
-CR1108_TSR08_3_vs_CR1108__0_refined.pdb            CR1108_TSR08_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.779, 4.0A: 28.408, 5.0A: 33.681, 8.0A: 51.717
-CR1108_TSR08_4_vs_CR1108__0_refined.pdb            CR1108_TSR08_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.777, 4.0A: 31.857, 5.0A: 41.203, 8.0A: 72.319
+CR1108_TS029_1_vs_CR1108__1_refined.pdb            CR1108_TS029_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 12.538, 4.0A: 22.147, 5.0A: 25.47, 8.0A: 31.68
+CR1108_TS029_2_vs_CR1108__1_refined.pdb            CR1108_TS029_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 4.892, 4.0A: 16.015, 5.0A: 21.817, 8.0A: 31.878
+CR1108_TS035_1_vs_CR1108__0_refined.pdb            CR1108_TS035_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.411, 4.0A: 11.494, 5.0A: 14.18, 8.0A: 29.885
+CR1108_TS035_2_vs_CR1108__0_refined.pdb            CR1108_TS035_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.082, 4.0A: 11.566, 5.0A: 13.965, 8.0A: 24.406
+CR1108_TS035_3_vs_CR1108__0_refined.pdb            CR1108_TS035_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.353, 4.0A: 10.167, 5.0A: 13.314, 8.0A: 30.105
+CR1108_TS035_4_vs_CR1108__0_refined.pdb            CR1108_TS035_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.202, 4.0A: 11.078, 5.0A: 13.203, 8.0A: 28.667
+CR1108_TS035_5_vs_CR1108__0_refined.pdb            CR1108_TS035_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.507, 4.0A: 5.468, 5.0A: 7.38, 8.0A: 11.812
+CR1108_TS054_1_vs_CR1108__0_refined.pdb            CR1108_TS054_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.352, 4.0A: 24.794, 5.0A: 40.474, 8.0A: 100.0
+CR1108_TS054_2_vs_CR1108__0_refined.pdb            CR1108_TS054_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.243, 4.0A: 24.844, 5.0A: 40.636, 8.0A: 100.0
+CR1108_TS054_3_vs_CR1108__0_refined.pdb            CR1108_TS054_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.083, 4.0A: 24.652, 5.0A: 40.772, 8.0A: 100.0
+CR1108_TS054_4_vs_CR1108__0_refined.pdb            CR1108_TS054_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.582, 4.0A: 35.975, 5.0A: 49.943, 8.0A: 100.0
+CR1108_TS054_5_vs_CR1108__0_refined.pdb            CR1108_TS054_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 12.976, 4.0A: 33.546, 5.0A: 46.447, 8.0A: 100.0
+CR1108_TS081_1_vs_CR1108__0_refined.pdb            CR1108_TS081_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.751, 4.0A: 18.011, 5.0A: 23.962, 8.0A: 40.044
+CR1108_TS081_2_vs_CR1108__0_refined.pdb            CR1108_TS081_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.025, 4.0A: 20.737, 5.0A: 26.542, 8.0A: 42.001
+CR1108_TS081_3_vs_CR1108__0_refined.pdb            CR1108_TS081_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.871, 4.0A: 26.218, 5.0A: 31.085, 8.0A: 47.731
+CR1108_TS081_4_vs_CR1108__0_refined.pdb            CR1108_TS081_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.947, 4.0A: 29.402, 5.0A: 38.027, 8.0A: 66.745
+CR1108_TS091_1_vs_CR1108__0_refined.pdb            CR1108_TS091_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.326, 4.0A: 2.189, 5.0A: 2.46, 8.0A: 4.041
+CR1108_TS091_2_vs_CR1108__0_refined.pdb            CR1108_TS091_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.192, 4.0A: 2.008, 5.0A: 2.536, 8.0A: 5.107
+CR1108_TS091_3_vs_CR1108__0_refined.pdb            CR1108_TS091_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.271, 4.0A: 2.27, 5.0A: 2.714, 8.0A: 5.236
+CR1108_TS091_4_vs_CR1108__0_refined.pdb            CR1108_TS091_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.273, 4.0A: 2.114, 5.0A: 2.474, 8.0A: 4.406
+CR1108_TS091_5_vs_CR1108__0_refined.pdb            CR1108_TS091_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 1.198, 4.0A: 2.24, 5.0A: 2.555, 8.0A: 4.605
+CR1108_TS097_1_vs_CR1108__0_refined.pdb            CR1108_TS097_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.409, 4.0A: 8.969, 5.0A: 10.907, 8.0A: 20.712
+CR1108_TS119_1_vs_CR1108__0_refined.pdb            CR1108_TS119_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.096, 4.0A: 10.1, 5.0A: 12.957, 8.0A: 22.189
+CR1108_TS119_2_vs_CR1108__0_refined.pdb            CR1108_TS119_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.824, 4.0A: 15.788, 5.0A: 19.514, 8.0A: 30.139
+CR1108_TS119_3_vs_CR1108__0_refined.pdb            CR1108_TS119_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.439, 4.0A: 10.988, 5.0A: 13.825, 8.0A: 26.523
+CR1108_TS119_4_vs_CR1108__0_refined.pdb            CR1108_TS119_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.518, 4.0A: 10.547, 5.0A: 13.247, 8.0A: 25.777
+CR1108_TS119_5_vs_CR1108__0_refined.pdb            CR1108_TS119_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.994, 4.0A: 15.166, 5.0A: 18.715, 8.0A: 34.596
+CR1108_TS125_1_vs_CR1108__0_refined.pdb            CR1108_TS125_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.222, 4.0A: 33.213, 5.0A: 46.315, 8.0A: 100.0
+CR1108_TS125_2_vs_CR1108__0_refined.pdb            CR1108_TS125_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.186, 4.0A: 33.035, 5.0A: 46.137, 8.0A: 100.0
+CR1108_TS125_3_vs_CR1108__0_refined.pdb            CR1108_TS125_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.367, 4.0A: 33.143, 5.0A: 46.184, 8.0A: 100.0
+CR1108_TS125_4_vs_CR1108__0_refined.pdb            CR1108_TS125_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.032, 4.0A: 32.417, 5.0A: 45.95, 8.0A: 100.0
+CR1108_TS125_5_vs_CR1108__0_refined.pdb            CR1108_TS125_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.06, 4.0A: 32.04, 5.0A: 45.659, 8.0A: 100.0
+CR1108_TS128_1_vs_CR1108__1_refined.pdb            CR1108_TS128_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.783, 4.0A: 23.236, 5.0A: 25.42, 8.0A: 31.421
+CR1108_TS128_2_vs_CR1108__0_refined.pdb            CR1108_TS128_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.77, 4.0A: 22.038, 5.0A: 25.699, 8.0A: 31.097
+CR1108_TS128_3_vs_CR1108__1_refined.pdb            CR1108_TS128_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.348, 4.0A: 45.684, 5.0A: 61.892, 8.0A: 100.0
+CR1108_TS128_4_vs_CR1108__0_refined.pdb            CR1108_TS128_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.737, 4.0A: 18.528, 5.0A: 22.214, 8.0A: 39.435
+CR1108_TS128_5_vs_CR1108__1_refined.pdb            CR1108_TS128_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 8.908, 4.0A: 14.384, 5.0A: 18.79, 8.0A: 42.95
+CR1108_TS131_1_vs_CR1108__0_refined.pdb            CR1108_TS131_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.452, 4.0A: 3.594, 5.0A: 4.239, 8.0A: 6.705
+CR1108_TS131_2_vs_CR1108__0_refined.pdb            CR1108_TS131_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.541, 4.0A: 3.558, 5.0A: 4.021, 8.0A: 6.333
+CR1108_TS131_3_vs_CR1108__0_refined.pdb            CR1108_TS131_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.63, 4.0A: 3.75, 5.0A: 4.538, 8.0A: 6.738
+CR1108_TS131_4_vs_CR1108__0_refined.pdb            CR1108_TS131_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.628, 4.0A: 3.834, 5.0A: 4.348, 8.0A: 6.283
+CR1108_TS131_5_vs_CR1108__0_refined.pdb            CR1108_TS131_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.658, 4.0A: 3.633, 5.0A: 4.258, 8.0A: 6.283
+CR1108_TS147_1_vs_CR1108__0_refined.pdb            CR1108_TS147_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.342, 4.0A: 15.11, 5.0A: 19.036, 8.0A: 35.411
+CR1108_TS147_2_vs_CR1108__0_refined.pdb            CR1108_TS147_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.9, 4.0A: 14.024, 5.0A: 16.568, 8.0A: 32.797
+CR1108_TS147_3_vs_CR1108__0_refined.pdb            CR1108_TS147_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.456, 4.0A: 14.504, 5.0A: 18.377, 8.0A: 35.134
+CR1108_TS147_4_vs_CR1108__0_refined.pdb            CR1108_TS147_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.704, 4.0A: 14.04, 5.0A: 16.244, 8.0A: 30.988
+CR1108_TS147_5_vs_CR1108__0_refined.pdb            CR1108_TS147_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.361, 4.0A: 13.985, 5.0A: 17.612, 8.0A: 35.151
+CR1108_TS163_1_vs_CR1108__0_refined.pdb            CR1108_TS163_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.316, 4.0A: 21.114, 5.0A: 36.695, 8.0A: 99.059
+CR1108_TS227_1_vs_CR1108__0_refined.pdb            CR1108_TS227_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.453, 4.0A: 16.02, 5.0A: 19.846, 8.0A: 37.555
+CR1108_TS227_2_vs_CR1108__0_refined.pdb            CR1108_TS227_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.816, 4.0A: 11.932, 5.0A: 13.499, 8.0A: 23.496
+CR1108_TS227_3_vs_CR1108__0_refined.pdb            CR1108_TS227_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.045, 4.0A: 14.074, 5.0A: 16.478, 8.0A: 31.666
+CR1108_TS227_4_vs_CR1108__0_refined.pdb            CR1108_TS227_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.919, 4.0A: 14.057, 5.0A: 16.598, 8.0A: 32.764
+CR1108_TS227_5_vs_CR1108__0_refined.pdb            CR1108_TS227_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.151, 4.0A: 13.971, 5.0A: 18.156, 8.0A: 35.936
+CR1108_TS229_1_vs_CR1108__0_refined.pdb            CR1108_TS229_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.302, 4.0A: 20.293, 5.0A: 36.762, 8.0A: 64.243
+CR1108_TS229_2_vs_CR1108__0_refined.pdb            CR1108_TS229_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.302, 4.0A: 20.293, 5.0A: 36.762, 8.0A: 64.243
+CR1108_TS229_3_vs_CR1108__0_refined.pdb            CR1108_TS229_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.302, 4.0A: 20.293, 5.0A: 36.762, 8.0A: 64.243
+CR1108_TS229_4_vs_CR1108__0_refined.pdb            CR1108_TS229_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.302, 4.0A: 20.293, 5.0A: 36.762, 8.0A: 64.243
+CR1108_TS229_5_vs_CR1108__0_refined.pdb            CR1108_TS229_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.302, 4.0A: 20.293, 5.0A: 36.762, 8.0A: 64.243
+CR1108_TS232_1_vs_CR1108__1_refined.pdb            CR1108_TS232_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 19.424, 4.0A: 52.179, 5.0A: 64.441, 8.0A: 100.0
+CR1108_TS232_2_vs_CR1108__1_refined.pdb            CR1108_TS232_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.77, 4.0A: 56.432, 5.0A: 74.477, 8.0A: 100.0
+CR1108_TS232_3_vs_CR1108__1_refined.pdb            CR1108_TS232_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 18.687, 4.0A: 50.996, 5.0A: 59.292, 8.0A: 100.0
+CR1108_TS232_4_vs_CR1108__1_refined.pdb            CR1108_TS232_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.125, 4.0A: 58.284, 5.0A: 94.139, 8.0A: 100.0
+CR1108_TS232_5_vs_CR1108__1_refined.pdb            CR1108_TS232_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.443, 4.0A: 54.897, 5.0A: 66.066, 8.0A: 100.0
+CR1108_TS235_1_vs_CR1108__0_refined.pdb            CR1108_TS235_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.331, 4.0A: 7.919, 5.0A: 8.539, 8.0A: 10.96
+CR1108_TS235_2_vs_CR1108__0_refined.pdb            CR1108_TS235_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.281, 4.0A: 7.221, 5.0A: 8.095, 8.0A: 12.817
+CR1108_TS235_3_vs_CR1108__0_refined.pdb            CR1108_TS235_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.976, 4.0A: 11.189, 5.0A: 15.593, 8.0A: 31.622
+CR1108_TS235_4_vs_CR1108__0_refined.pdb            CR1108_TS235_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.948, 4.0A: 10.5, 5.0A: 12.421, 8.0A: 25.456
+CR1108_TS235_5_vs_CR1108__0_refined.pdb            CR1108_TS235_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.54, 4.0A: 11.131, 5.0A: 13.289, 8.0A: 26.428
+CR1108_TS238_1_vs_CR1108__0_refined.pdb            CR1108_TS238_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 16.531, 4.0A: 41.951, 5.0A: 51.367, 8.0A: 81.118
+CR1108_TS245_1_vs_CR1108__0_refined.pdb            CR1108_TS245_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.655, 4.0A: 6.328, 5.0A: 8.855, 8.0A: 16.984
+CR1108_TS248_1_vs_CR1108__0_refined.pdb            CR1108_TS248_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.289, 4.0A: 6.8, 5.0A: 7.581, 8.0A: 10.329
+CR1108_TS248_2_vs_CR1108__0_refined.pdb            CR1108_TS248_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.415, 4.0A: 6.802, 5.0A: 7.576, 8.0A: 10.77
+CR1108_TS248_3_vs_CR1108__0_refined.pdb            CR1108_TS248_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.445, 4.0A: 7.073, 5.0A: 8.19, 8.0A: 11.214
+CR1108_TS248_4_vs_CR1108__0_refined.pdb            CR1108_TS248_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.342, 4.0A: 6.691, 5.0A: 7.498, 8.0A: 10.581
+CR1108_TS248_5_vs_CR1108__0_refined.pdb            CR1108_TS248_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.757, 4.0A: 13.619, 5.0A: 16.755, 8.0A: 31.669
+CR1108_TS285_1_vs_CR1108__0_refined.pdb            CR1108_TS285_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.758, 4.0A: 10.918, 5.0A: 13.496, 8.0A: 27.332
+CR1108_TS285_2_vs_CR1108__0_refined.pdb            CR1108_TS285_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.166, 4.0A: 9.584, 5.0A: 11.96, 8.0A: 20.89
+CR1108_TS285_3_vs_CR1108__0_refined.pdb            CR1108_TS285_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.414, 4.0A: 12.376, 5.0A: 14.923, 8.0A: 30.312
+CR1108_TS285_4_vs_CR1108__0_refined.pdb            CR1108_TS285_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.917, 4.0A: 10.729, 5.0A: 13.275, 8.0A: 27.514
+CR1108_TS285_5_vs_CR1108__0_refined.pdb            CR1108_TS285_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.906, 4.0A: 10.977, 5.0A: 13.041, 8.0A: 26.908
+CR1108_TS287_1_vs_CR1108__1_refined.pdb            CR1108_TS287_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.913, 4.0A: 44.126, 5.0A: 60.543, 8.0A: 100.0
+CR1108_TS287_2_vs_CR1108__1_refined.pdb            CR1108_TS287_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.667, 4.0A: 44.316, 5.0A: 60.638, 8.0A: 100.0
+CR1108_TS287_3_vs_CR1108__0_refined.pdb            CR1108_TS287_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.131, 4.0A: 22.384, 5.0A: 27.827, 8.0A: 44.282
+CR1108_TS287_4_vs_CR1108__1_refined.pdb            CR1108_TS287_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.935, 4.0A: 44.227, 5.0A: 60.825, 8.0A: 100.0
+CR1108_TS287_5_vs_CR1108__0_refined.pdb            CR1108_TS287_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.097, 4.0A: 24.668, 5.0A: 30.108, 8.0A: 48.815
+CR1108_TS385_1_vs_CR1108__0_refined.pdb            CR1108_TS385_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.37, 4.0A: 5.476, 5.0A: 7.445, 8.0A: 16.531
+CR1108_TS385_2_vs_CR1108__0_refined.pdb            CR1108_TS385_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.488, 4.0A: 6.194, 5.0A: 8.86, 8.0A: 21.985
+CR1108_TS385_3_vs_CR1108__0_refined.pdb            CR1108_TS385_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.577, 4.0A: 5.146, 5.0A: 7.224, 8.0A: 19.544
+CR1108_TS385_4_vs_CR1108__0_refined.pdb            CR1108_TS385_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 3.87, 4.0A: 7.693, 5.0A: 10.368, 8.0A: 20.418
+CR1108_TS385_5_vs_CR1108__0_refined.pdb            CR1108_TS385_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.745, 4.0A: 4.906, 5.0A: 6.797, 8.0A: 18.131
+CR1108_TS416_1_vs_CR1108__1_refined.pdb            CR1108_TS416_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.957, 4.0A: 32.635, 5.0A: 66.672, 8.0A: 100.0
+CR1108_TS416_2_vs_CR1108__0_refined.pdb            CR1108_TS416_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 12.795, 4.0A: 59.401, 5.0A: 89.244, 8.0A: 100.0
+CR1108_TS416_3_vs_CR1108__0_refined.pdb            CR1108_TS416_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.546, 4.0A: 52.448, 5.0A: 85.217, 8.0A: 100.0
+CR1108_TS416_4_vs_CR1108__1_refined.pdb            CR1108_TS416_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 15.649, 4.0A: 49.742, 5.0A: 79.808, 8.0A: 100.0
+CR1108_TS416_5_vs_CR1108__1_refined.pdb            CR1108_TS416_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 10.583, 4.0A: 32.733, 5.0A: 46.072, 8.0A: 100.0
+CR1108_TS434_1_vs_CR1108__0_refined.pdb            CR1108_TS434_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.671, 4.0A: 11.329, 5.0A: 12.949, 8.0A: 23.169
+CR1108_TS434_2_vs_CR1108__0_refined.pdb            CR1108_TS434_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.85, 4.0A: 11.871, 5.0A: 13.842, 8.0A: 26.296
+CR1108_TS434_3_vs_CR1108__0_refined.pdb            CR1108_TS434_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.202, 4.0A: 14.107, 5.0A: 18.081, 8.0A: 35.168
+CR1108_TS434_4_vs_CR1108__0_refined.pdb            CR1108_TS434_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.657, 4.0A: 11.823, 5.0A: 13.515, 8.0A: 25.068
+CR1108_TS434_5_vs_CR1108__0_refined.pdb            CR1108_TS434_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.858, 4.0A: 11.837, 5.0A: 13.778, 8.0A: 27.478
+CR1108_TS439_1_vs_CR1108__1_refined.pdb            CR1108_TS439_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 8.288, 4.0A: 15.657, 5.0A: 18.785, 8.0A: 30.158
+CR1108_TS439_2_vs_CR1108__0_refined.pdb            CR1108_TS439_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 7.933, 4.0A: 13.571, 5.0A: 17.037, 8.0A: 29.469
+CR1108_TS439_3_vs_CR1108__1_refined.pdb            CR1108_TS439_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 6.034, 4.0A: 15.065, 5.0A: 18.492, 8.0A: 30.223
+CR1108_TS439_4_vs_CR1108__0_refined.pdb            CR1108_TS439_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 4.303, 4.0A: 8.238, 5.0A: 9.455, 8.0A: 17.564
+CR1108_TS439_5_vs_CR1108__0_refined.pdb            CR1108_TS439_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.13, 4.0A: 8.816, 5.0A: 10.745, 8.0A: 19.79
+CR1108_TS470_1_vs_CR1108__0_refined.pdb            CR1108_TS470_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.599, 4.0A: 58.451, 5.0A: 77.39, 8.0A: 100.0
+CR1108_TS470_2_vs_CR1108__0_refined.pdb            CR1108_TS470_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.061, 4.0A: 61.171, 5.0A: 81.243, 8.0A: 100.0
+CR1108_TS470_3_vs_CR1108__0_refined.pdb            CR1108_TS470_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 12.773, 4.0A: 51.752, 5.0A: 74.781, 8.0A: 100.0
+CR1108_TS470_4_vs_CR1108__0_refined.pdb            CR1108_TS470_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.379, 4.0A: 63.419, 5.0A: 80.213, 8.0A: 100.0
+CR1108_TS470_5_vs_CR1108__0_refined.pdb            CR1108_TS470_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.48, 4.0A: 16.936, 5.0A: 23.426, 8.0A: 68.418
+CR1108_TS489_1_vs_CR1108__0_refined.pdb            CR1108_TS489_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.599, 4.0A: 58.451, 5.0A: 77.39, 8.0A: 100.0
+CR1108_TS489_2_vs_CR1108__0_refined.pdb            CR1108_TS489_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 11.061, 4.0A: 61.171, 5.0A: 81.243, 8.0A: 100.0
+CR1108_TS489_3_vs_CR1108__0_refined.pdb            CR1108_TS489_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 12.773, 4.0A: 51.752, 5.0A: 74.781, 8.0A: 100.0
+CR1108_TS489_4_vs_CR1108__0_refined.pdb            CR1108_TS489_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 13.379, 4.0A: 63.419, 5.0A: 80.213, 8.0A: 100.0
+CR1108_TS489_5_vs_CR1108__0_refined.pdb            CR1108_TS489_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.48, 4.0A: 16.936, 5.0A: 23.426, 8.0A: 68.418
+CR1108_TSR01_10_vs_CR1108__0_refined.pdb           CR1108_TSR01_10_vs_CR1108__0_solution.pdb          SUCCESS              2.0A: 10.058, 4.0A: 24.09, 5.0A: 29.695, 8.0A: 47.726
+CR1108_TSR01_1_vs_CR1108__1_refined.pdb            CR1108_TSR01_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.547, 4.0A: 44.112, 5.0A: 59.434, 8.0A: 100.0
+CR1108_TSR01_2_vs_CR1108__1_refined.pdb            CR1108_TSR01_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.427, 4.0A: 43.573, 5.0A: 58.731, 8.0A: 100.0
+CR1108_TSR01_3_vs_CR1108__0_refined.pdb            CR1108_TSR01_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.301, 4.0A: 24.604, 5.0A: 28.706, 8.0A: 44.467
+CR1108_TSR01_4_vs_CR1108__1_refined.pdb            CR1108_TSR01_4_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 21.063, 4.0A: 44.615, 5.0A: 60.917, 8.0A: 100.0
+CR1108_TSR01_5_vs_CR1108__1_refined.pdb            CR1108_TSR01_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.675, 4.0A: 44.509, 5.0A: 61.121, 8.0A: 100.0
+CR1108_TSR01_6_vs_CR1108__0_refined.pdb            CR1108_TSR01_6_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.092, 4.0A: 22.462, 5.0A: 27.882, 8.0A: 44.171
+CR1108_TSR01_7_vs_CR1108__1_refined.pdb            CR1108_TSR01_7_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.826, 4.0A: 44.227, 5.0A: 60.791, 8.0A: 100.0
+CR1108_TSR01_8_vs_CR1108__0_refined.pdb            CR1108_TSR01_8_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.226, 4.0A: 25.188, 5.0A: 30.2, 8.0A: 49.018
+CR1108_TSR01_9_vs_CR1108__1_refined.pdb            CR1108_TSR01_9_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.829, 4.0A: 43.953, 5.0A: 59.881, 8.0A: 100.0
+CR1108_TSR02_10_vs_CR1108__0_refined.pdb           CR1108_TSR02_10_vs_CR1108__0_solution.pdb          SUCCESS              2.0A: 2.577, 4.0A: 4.384, 5.0A: 5.66, 8.0A: 11.558
+CR1108_TSR02_1_vs_CR1108__0_refined.pdb            CR1108_TSR02_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.549, 4.0A: 3.708, 5.0A: 4.256, 8.0A: 6.599
+CR1108_TSR02_2_vs_CR1108__0_refined.pdb            CR1108_TSR02_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.538, 4.0A: 4.367, 5.0A: 5.632, 8.0A: 11.51
+CR1108_TSR02_3_vs_CR1108__0_refined.pdb            CR1108_TSR02_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.6, 4.0A: 3.725, 5.0A: 4.644, 8.0A: 7.875
+CR1108_TSR02_4_vs_CR1108__0_refined.pdb            CR1108_TSR02_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.572, 4.0A: 3.775, 5.0A: 4.644, 8.0A: 7.875
+CR1108_TSR02_5_vs_CR1108__0_refined.pdb            CR1108_TSR02_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 4.806, 4.0A: 7.006, 5.0A: 8.45, 8.0A: 12.812
+CR1108_TSR02_6_vs_CR1108__0_refined.pdb            CR1108_TSR02_6_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.311, 4.0A: 7.847, 5.0A: 9.115, 8.0A: 13.742
+CR1108_TSR02_7_vs_CR1108__0_refined.pdb            CR1108_TSR02_7_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 2.538, 4.0A: 3.706, 5.0A: 4.303, 8.0A: 6.618
+CR1108_TSR02_8_vs_CR1108__0_refined.pdb            CR1108_TSR02_8_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.888, 4.0A: 24.613, 5.0A: 31.945, 8.0A: 57.396
+CR1108_TSR02_9_vs_CR1108__0_refined.pdb            CR1108_TSR02_9_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.334, 4.0A: 7.339, 5.0A: 8.316, 8.0A: 11.79
+CR1108_TSR03_1_vs_CR1108__0_refined.pdb            CR1108_TSR03_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.366, 4.0A: 12.812, 5.0A: 14.775, 8.0A: 24.839
+CR1108_TSR03_2_vs_CR1108__0_refined.pdb            CR1108_TSR03_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.361, 4.0A: 12.432, 5.0A: 14.328, 8.0A: 22.845
+CR1108_TSR03_3_vs_CR1108__0_refined.pdb            CR1108_TSR03_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.087, 4.0A: 12.39, 5.0A: 14.616, 8.0A: 23.853
+CR1108_TSR03_4_vs_CR1108__0_refined.pdb            CR1108_TSR03_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.196, 4.0A: 12.58, 5.0A: 14.546, 8.0A: 24.437
+CR1108_TSR03_5_vs_CR1108__0_refined.pdb            CR1108_TSR03_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.38, 4.0A: 12.63, 5.0A: 14.66, 8.0A: 23.398
+CR1108_TSR04_1_vs_CR1108__1_refined.pdb            CR1108_TSR04_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 13.783, 4.0A: 23.236, 5.0A: 25.42, 8.0A: 31.421
+CR1108_TSR04_2_vs_CR1108__0_refined.pdb            CR1108_TSR04_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.77, 4.0A: 22.038, 5.0A: 25.699, 8.0A: 31.097
+CR1108_TSR04_3_vs_CR1108__1_refined.pdb            CR1108_TSR04_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 20.348, 4.0A: 45.684, 5.0A: 61.892, 8.0A: 100.0
+CR1108_TSR04_4_vs_CR1108__0_refined.pdb            CR1108_TSR04_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.737, 4.0A: 18.528, 5.0A: 22.214, 8.0A: 39.435
+CR1108_TSR04_5_vs_CR1108__1_refined.pdb            CR1108_TSR04_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 8.908, 4.0A: 14.384, 5.0A: 18.79, 8.0A: 42.95
+CR1108_TSR05_1_vs_CR1108__0_refined.pdb            CR1108_TSR05_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.669, 4.0A: 12.873, 5.0A: 17.841, 8.0A: 33.638
+CR1108_TSR05_2_vs_CR1108__0_refined.pdb            CR1108_TSR05_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.713, 4.0A: 10.312, 5.0A: 14.096, 8.0A: 25.023
+CR1108_TSR05_3_vs_CR1108__0_refined.pdb            CR1108_TSR05_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 5.755, 4.0A: 10.488, 5.0A: 13.73, 8.0A: 26.358
+CR1108_TSR05_4_vs_CR1108__0_refined.pdb            CR1108_TSR05_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 6.051, 4.0A: 10.634, 5.0A: 13.898, 8.0A: 22.331
+CR1108_TSR06_1_vs_CR1108__1_refined.pdb            CR1108_TSR06_1_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 12.306, 4.0A: 27.165, 5.0A: 35.47, 8.0A: 86.239
+CR1108_TSR06_2_vs_CR1108__1_refined.pdb            CR1108_TSR06_2_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 12.306, 4.0A: 28.452, 5.0A: 37.877, 8.0A: 84.647
+CR1108_TSR06_3_vs_CR1108__1_refined.pdb            CR1108_TSR06_3_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 12.15, 4.0A: 25.858, 5.0A: 35.115, 8.0A: 82.1
+CR1108_TSR06_4_vs_CR1108__0_refined.pdb            CR1108_TSR06_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 14.752, 4.0A: 44.174, 5.0A: 69.029, 8.0A: 99.872
+CR1108_TSR06_5_vs_CR1108__1_refined.pdb            CR1108_TSR06_5_vs_CR1108__1_solution.pdb           SUCCESS              2.0A: 12.273, 4.0A: 24.761, 5.0A: 33.814, 8.0A: 98.096
+CR1108_TSR07_1_vs_CR1108__0_refined.pdb            CR1108_TSR07_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.508, 4.0A: 18.025, 5.0A: 20.248, 8.0A: 27.05
+CR1108_TSR07_2_vs_CR1108__0_refined.pdb            CR1108_TSR07_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.399, 4.0A: 17.704, 5.0A: 19.81, 8.0A: 25.263
+CR1108_TSR07_3_vs_CR1108__0_refined.pdb            CR1108_TSR07_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 8.391, 4.0A: 17.366, 5.0A: 19.564, 8.0A: 25.582
+CR1108_TSR07_4_vs_CR1108__0_refined.pdb            CR1108_TSR07_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.257, 4.0A: 17.241, 5.0A: 19.268, 8.0A: 25.467
+CR1108_TSR07_5_vs_CR1108__0_refined.pdb            CR1108_TSR07_5_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.807, 4.0A: 17.453, 5.0A: 19.474, 8.0A: 24.8
+CR1108_TSR08_1_vs_CR1108__0_refined.pdb            CR1108_TSR08_1_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.751, 4.0A: 18.011, 5.0A: 23.962, 8.0A: 40.044
+CR1108_TSR08_2_vs_CR1108__0_refined.pdb            CR1108_TSR08_2_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.025, 4.0A: 20.737, 5.0A: 26.542, 8.0A: 42.001
+CR1108_TSR08_3_vs_CR1108__0_refined.pdb            CR1108_TSR08_3_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 10.871, 4.0A: 26.218, 5.0A: 31.085, 8.0A: 47.731
+CR1108_TSR08_4_vs_CR1108__0_refined.pdb            CR1108_TSR08_4_vs_CR1108__0_solution.pdb           SUCCESS              2.0A: 9.947, 4.0A: 29.402, 5.0A: 38.027, 8.0A: 66.745
 

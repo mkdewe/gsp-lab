@@ -58,39 +58,33 @@ def floatify(s):
 
 def read_config(argv):
     try:
-        opts, args = getopt.getopt(argv,"sht:m:a:r:d:",["save_structures","help","target_path=","model_path=","central_atoms=","sphere_radii=","rmsd_threshold="])
+        # Dodano recompute_from_csv do listy długich opcji
+        opts, args = getopt.getopt(argv,"sht:m:a:r:d:",["save_structures","help","target_path=","model_path=","central_atoms=","sphere_radii=","rmsd_threshold=","skip_constant_radii","radii_tolerance=","recompute_from_csv="])
     except getopt.GetoptError as error:
         print('{}'.format(error))
-        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
         sys.exit(1)
+    
     target_path = None
     model_path = None
+    recompute_path = None # Nowa zmienna
     central_atoms = "CA,C1'".split(',')
     sphere_radii = '2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0,15.0,16.0,17.0,18.0,19.0,20.0,22.0,24.0,26.0,28.0,30.0,32.0,34.0,36.0,38.0,40.0'.split(',')
     sphere_radii[:] = filter(float.__instancecheck__, map(floatify, sphere_radii))
-    rmsd_threshold = 5.0
-    required_arguments_count = 0
-    target_options = 0
-    model_options = 0;
+    rmsd_threshold = '5.0'
     save_structures = False
+    skip_constant_radii = False
+    radii_tolerance = 1e-6
+
     for opt, arg in opts:
         if opt == '-h':
-            print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
+            print('...')
             sys.exit()
+        elif opt == "--recompute_from_csv": 
+            recompute_path = arg
         elif opt in ("-t", "--target_path"):
-            if (os.path.isfile(arg) and os.path.exists(arg)) or (not os.path.isfile(arg) and os.path.exists(arg)):
-                target_path = arg
-                target_options = 1
-            else:
-                print('Target path should reference the existing file or directory that includes PDB or CIF files!')
-                sys.exit(1)
+            target_path = arg
         elif opt in ("-m", "--model_path"):
-            if (os.path.isfile(arg) and os.path.exists(arg)) or (not os.path.isfile(arg) and os.path.exists(arg)):
-                model_path = arg
-                model_options = 1
-            else:
-                print('Model path should reference the existing file or directory that includes PDB or CIF files!')
-                sys.exit(1)
+            model_path = arg
         elif opt in ("-a", "--central_atoms"):
             central_atoms = [atom.strip() for atom in arg.split(',')]
         elif opt in ("-r", "--sphere_radii"):
@@ -98,23 +92,22 @@ def read_config(argv):
             sphere_radii[:] = filter(float.__instancecheck__, map(floatify, sphere_radii))
             sphere_radii.sort()
         elif opt in ("-d", "--rmsd_threshold"):
-            input_value = floatify(arg)
-            if input_value != None:
-                rmsd_threshold = input_value
+            rmsd_threshold = arg
         elif opt in ("-s", "--save_structures"):
             save_structures = True
-    if target_options == 0:
-        print('You have to set a value for the following config parameter: target_path!')
-    else:
-        required_arguments_count = required_arguments_count + 1
-    if model_options == 0:
-        print('You have to set a value for the following config parameter: model_path!')
-    else:
-        required_arguments_count = required_arguments_count + 1
-    if required_arguments_count < 2:
-        print('compute.py -t <target_path> (required) -m <model_path> (required) -a <central_atoms> -r <sphere_radii> -d <rmsd_threshold> -s <save_structures>')
-        sys.exit(1)
-    return target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures
+        elif opt == "--skip_constant_radii":
+            skip_constant_radii = True
+        elif opt == "--radii_tolerance":
+            radii_tolerance = floatify(arg)
+
+    # Walidacja: jeśli nie recompute, to wymagane -t i -m
+    if not recompute_path:
+        if target_path is None or model_path is None:
+            print('Error: -t and -m are required unless --recompute_from_csv is used.')
+            sys.exit(1)
+
+    threshold_list = [float(t.strip()) for t in rmsd_threshold.split(',')]
+    return target_path, model_path, central_atoms, sphere_radii, threshold_list, save_structures, skip_constant_radii, radii_tolerance, recompute_path
     
 def read_structure(path):
     try:
@@ -257,20 +250,26 @@ def save_csv(result_file_path,data):
         writer = csv.writer(file)
         writer.writerows(data)
         
-def compute_ggsp(sphere_radii, selected_scores, rmsd_threshold):
+def compute_ggsp(radii, selected_scores, rmsd_threshold):
+    """
+    Compute global GSP score using filtered radii and selected_scores.
+    """
     ggsp = 0
-    for r in range(len(sphere_radii)):
+    for r in range(len(radii)):
         accept_count = 0
         all_count = 0
         for curr_score in selected_scores[r]:
             if not (curr_score > rmsd_threshold):
                 accept_count += 1
             all_count += 1
-        ggsp += sphere_radii[r] * accept_count / all_count
-    ggsp /= sum(sphere_radii)
+        ggsp += radii[r] * accept_count / all_count
+    ggsp /= sum(radii)
     return round(ggsp * 100.0,3)
     
-def compute_whole_matrix(sphere_radii, target_df, selected_central_atom_idxs, target_central_atoms_df, istpdb, scores):
+def compute_whole_matrix(radii, selected_scores, target_df, selected_central_atom_idxs, target_central_atoms_df, istpdb):
+    """
+    Builds the details matrix from already filtered radii and selected_scores.
+    """
     target_sequence = get_sequence(target_central_atoms_df, istpdb, selected_central_atom_idxs)
     matrix = []
     row = ['']
@@ -278,45 +277,45 @@ def compute_whole_matrix(sphere_radii, target_df, selected_central_atom_idxs, ta
         row.append('"' + get_residue_id(target_central_atoms_df.iloc[selected_central_atom_idxs[i]],istpdb) + '"')
     matrix.append(row)
     matrix.append(['radius'] + [*target_sequence] + ['mean','std dev'])
-    selected_scores = []
-    for r in range(len(sphere_radii)):
-        row = [str(sphere_radii[r])]
-        rows_vect = []
-        for i in range(len(selected_central_atom_idxs)):
-            selected_idx = selected_central_atom_idxs[i]
-            row.append(str(scores[selected_idx][r]))
-            rows_vect.append(scores[selected_idx][r])
+    
+    for r in range(len(radii)):
+        row = [str(radii[r])]
+        rows_vect = selected_scores[r]
+        for val in rows_vect:
+            row.append(str(val))
         row.append(str(round(np.mean(rows_vect),3)))
         row.append(str(round(np.std(rows_vect),3)))
         matrix.append(row)
-        selected_scores.append(rows_vect)
+    
+    # Column statistics
     col_means_row = ['mean']
     col_std_row = ['std dev']
-    for i in range(len(selected_central_atom_idxs)):
-        cols_vect = []
-        for r in range(len(sphere_radii)):
-            cols_vect.append(scores[selected_central_atom_idxs[i]][r])
+    for col in range(len(selected_central_atom_idxs)):
+        cols_vect = [selected_scores[row][col] for row in range(len(radii))]
         col_means_row.append(str(round(np.mean(cols_vect),3)))
         col_std_row.append(str(round(np.std(cols_vect),3)))
     matrix.append(col_means_row)
     matrix.append(col_std_row)
-    return matrix, selected_scores
+    return matrix
     
-def compute_residue_scores(sphere_radii, target_central_atoms_df, selected_central_atom_idxs, rmsd_threshold, istpdb, scores):
+def compute_residue_scores(radii, selected_scores, target_central_atoms_df, selected_central_atom_idxs, rmsd_threshold, istpdb):
+    """
+    Compute per‑residue GSP scores using filtered radii and selected_scores.
+    """
     residue_scores = [['residue','rGSP']]
     for i in range(len(selected_central_atom_idxs)):
         selected_idx = selected_central_atom_idxs[i]
         accept_count = 0
         all_count = 0
         rgsp = 0
-        row = []
-        for r in range(len(sphere_radii)):
-            curr_score = scores[selected_idx][r]
+        for r in range(len(radii)):
+            curr_score = selected_scores[r][i]
             if not (curr_score > rmsd_threshold):
                 accept_count += 1
             all_count += 1
-            rgsp += sphere_radii[r] * accept_count / all_count
-        rgsp /= sum(sphere_radii)
+            rgsp += radii[r] * accept_count / all_count
+        rgsp /= sum(radii)
+        row = []
         row.append('"' + get_residue_id(target_central_atoms_df.iloc[selected_central_atom_idxs[i]],istpdb) + '"')
         row.append(str(round(rgsp * 100.0,3)))
         residue_scores.append(row)
@@ -331,7 +330,7 @@ def update_local_scores(local_scores, ca, model_path, residue_scores):
         for i in range(1,len(local_scores[ca])):
             local_scores[ca][i].append(residue_scores[i][1])
     
-def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures):
+def process_model(target_path, model_path, sphere_radii, central_atoms, thresholds_with_prefix, target_df, target_central_atoms_df, spheres, istpdb, per_threshold_accumulators, target_str, save_structures, skip_constant_radii, radii_tolerance):
     target_filename_without_ext = os.path.splitext(os.path.basename(target_path))[0]
     model_filename_without_ext = os.path.splitext(os.path.basename(model_path))[0]
     print('{} vs. {}'.format(target_filename_without_ext, model_filename_without_ext))
@@ -351,26 +350,68 @@ def process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_thr
             common_filename = '{}_{}'.format(common_filename,model_no)
         for ca in central_atoms:
             if (contains_atom(target_central_atoms_df,ca,istpdb)):
-                if ca not in global_scores:
-                    global_scores[ca] = [['model','gGSP']]
-                if ca not in local_scores:
-                    local_scores[ca] = [['residue']]
-                result_filename = '{}_{}.csv'.format(common_filename,ca)
-                result_file_path = os.path.join(os.path.dirname(model_path),result_filename)
                 selected_central_atom_idxs = get_indices(target_central_atoms_df, ca, istpdb)
                 
-                matrix, selected_scores = compute_whole_matrix(sphere_radii, target_df, selected_central_atom_idxs, target_central_atoms_df, istpdb, scores)
-                save_csv(result_file_path.replace('.csv','-details.csv'), matrix)
+                # ---- Build full selected_scores matrix (rows = radii, cols = residues) ----
+                full_selected_scores = []
+                for r in range(len(sphere_radii)):
+                    row_vals = [scores[i][r] for i in selected_central_atom_idxs]
+                    full_selected_scores.append(row_vals)
                 
-                residue_scores = compute_residue_scores(sphere_radii, target_central_atoms_df, selected_central_atom_idxs, rmsd_threshold, istpdb, scores)
-                save_csv(result_file_path.replace('.csv','-rGSP.csv'), residue_scores)
-                update_local_scores(local_scores, ca, model_path, residue_scores)
+                # ---- Determine which radii to keep (skip constant radii) ----
+                if skip_constant_radii:
+                    radii_mask = []
+                    for r in range(len(sphere_radii)):
+                        row = full_selected_scores[r]
+                        if max(row) - min(row) < radii_tolerance:
+                            radii_mask.append(False)
+                        else:
+                            radii_mask.append(True)
+                    filtered_radii = [sphere_radii[i] for i, keep in enumerate(radii_mask) if keep]
+                    filtered_selected_scores = [row for row, keep in zip(full_selected_scores, radii_mask) if keep]
+                    removed = sum(1 for keep in radii_mask if not keep)
+                    if removed > 0:
+                        print(f"    [INFO] Removed {removed} constant radii (tolerance={radii_tolerance}) for CA {ca}")
+                else:
+                    filtered_radii = sphere_radii
+                    filtered_selected_scores = full_selected_scores
                 
-                ggsp = compute_ggsp(sphere_radii, selected_scores, rmsd_threshold)
-                save_csv(result_file_path.replace('.csv','-gGSP.csv'), [['gGSP'],[str(ggsp)]])
-                global_scores[ca].append([model_filename_without_ext, str(ggsp)])
+                # Build details matrix once (using filtered data)
+                matrix = compute_whole_matrix(filtered_radii, filtered_selected_scores, target_df, selected_central_atom_idxs, target_central_atoms_df, istpdb)
+                
+                # Now for each threshold, write outputs using filtered data
+                for thresh, prefix in thresholds_with_prefix:
+                    if prefix:
+                        details_file = os.path.join(os.path.dirname(model_path), f"{prefix}{common_filename}_{ca}-details.csv")
+                        rgsp_file = os.path.join(os.path.dirname(model_path), f"{prefix}{common_filename}_{ca}-rGSP.csv")
+                        ggsp_file = os.path.join(os.path.dirname(model_path), f"{prefix}{common_filename}_{ca}-gGSP.csv")
+                    else:
+                        details_file = os.path.join(os.path.dirname(model_path), f"{common_filename}_{ca}-details.csv")
+                        rgsp_file = os.path.join(os.path.dirname(model_path), f"{common_filename}_{ca}-rGSP.csv")
+                        ggsp_file = os.path.join(os.path.dirname(model_path), f"{common_filename}_{ca}-gGSP.csv")
+                    
+                    save_csv(details_file, matrix)
+                    
+                    residue_scores = compute_residue_scores(filtered_radii, filtered_selected_scores, target_central_atoms_df, selected_central_atom_idxs, thresh, istpdb)
+                    save_csv(rgsp_file, residue_scores)
+                    
+                    ggsp = compute_ggsp(filtered_radii, filtered_selected_scores, thresh)
+                    save_csv(ggsp_file, [['gGSP'],[str(ggsp)]])
+                    
+                    # Update per-threshold accumulators (for summary files)
+                    per_threshold_accumulators[thresh][ca]['global'].append([model_filename_without_ext, str(ggsp)])
+                    if ca not in per_threshold_accumulators[thresh][ca]['local']:
+                        per_threshold_accumulators[thresh][ca]['local'][ca] = [['residue']]
+                    local_acc = per_threshold_accumulators[thresh][ca]['local'][ca]
+                    local_acc[0].append(os.path.splitext(os.path.basename(model_path))[0])
+                    if len(local_acc) == 1:
+                        for i in range(1, len(residue_scores)):
+                            local_acc.append(residue_scores[i])
+                    else:
+                        for i in range(1, len(residue_scores)):
+                            local_acc[i].append(residue_scores[i][1])
     
-def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures):
+def process(target_path, model_path, central_atoms, sphere_radii, thresholds, save_structures, skip_constant_radii, radii_tolerance):
     print('Start processing...')
     print('1. Processing the reference structure...')
     target_str = read_structure(target_path)
@@ -389,43 +430,155 @@ def process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold
     print('1. Done.')
     
     print('2. Processing structure predictions...')
-    global_scores = {}
-    local_scores = {}
+    # Prepare thresholds with prefixes
+    thresholds_with_prefix = []
+    for thresh in thresholds:
+        if abs(thresh - 5.0) < 1e-9:
+            prefix = ''
+        else:
+            if thresh.is_integer():
+                prefix = f"{int(thresh)}A_"
+            else:
+                prefix = f"{thresh}A_".replace('.', '_')
+        thresholds_with_prefix.append((thresh, prefix))
+    
+    # Initialize per-threshold accumulators for global and local summary files
+    per_threshold_accumulators = {}
+    for thresh, _ in thresholds_with_prefix:
+        per_threshold_accumulators[thresh] = {}
+        for ca in central_atoms:
+            per_threshold_accumulators[thresh][ca] = {
+                'global': [['model','gGSP']],
+                'local': {}
+            }
     
     if os.path.isfile(model_path):
-        process_model(target_path, model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures) 
+        process_model(target_path, model_path, sphere_radii, central_atoms, thresholds_with_prefix, target_df, target_central_atoms_df, spheres, istpdb, per_threshold_accumulators, target_str, save_structures, skip_constant_radii, radii_tolerance) 
     elif os.path.isdir(model_path):
         allfiles = [join(model_path, f) for f in listdir(model_path) if isfile(join(model_path, f))]
         selected_models = [f for f in allfiles if pathlib.Path(f).suffix in ['.pdb','.cif']]
         for selected_model_path in selected_models:
-            process_model(target_path, selected_model_path, sphere_radii, central_atoms, rmsd_threshold, target_df, target_central_atoms_df, spheres, istpdb, global_scores, local_scores, target_str, save_structures)
+            process_model(target_path, selected_model_path, sphere_radii, central_atoms, thresholds_with_prefix, target_df, target_central_atoms_df, spheres, istpdb, per_threshold_accumulators, target_str, save_structures, skip_constant_radii, radii_tolerance)
     print('2. Done.')
-            
-    for ca in central_atoms:
-        if (contains_atom(target_central_atoms_df,ca,istpdb)):
-            target_filename_without_ext = os.path.splitext(os.path.basename(target_path))[0]
-            global_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_gGSP.csv'.format(target_filename_without_ext,ca))
-            save_csv(global_scores_summary_file_path, global_scores[ca])
-            local_scores_summary_file_path = os.path.join(os.path.dirname(model_path),'{}_{}_rGSP.csv'.format(target_filename_without_ext,ca))
-            save_csv(local_scores_summary_file_path, local_scores[ca])
+    
+    # Write global summary files per threshold and per central atom
+    for thresh, prefix in thresholds_with_prefix:
+        for ca in central_atoms:
+            if (contains_atom(target_central_atoms_df,ca,istpdb)):
+                target_filename_without_ext = os.path.splitext(os.path.basename(target_path))[0]
+                if prefix:
+                    global_summary_file = os.path.join(os.path.dirname(model_path), f"{prefix}{target_filename_without_ext}_{ca}_gGSP.csv")
+                    local_summary_file = os.path.join(os.path.dirname(model_path), f"{prefix}{target_filename_without_ext}_{ca}_rGSP.csv")
+                else:
+                    global_summary_file = os.path.join(os.path.dirname(model_path), f"{target_filename_without_ext}_{ca}_gGSP.csv")
+                    local_summary_file = os.path.join(os.path.dirname(model_path), f"{target_filename_without_ext}_{ca}_rGSP.csv")
+                save_csv(global_summary_file, per_threshold_accumulators[thresh][ca]['global'])
+                local_data = per_threshold_accumulators[thresh][ca]['local'][ca] if ca in per_threshold_accumulators[thresh][ca]['local'] else [['residue']]
+                save_csv(local_summary_file, local_data)
     print('Done.')
 
+def run_recompute(csv_path, thresholds):
+    print(f'Recomputing from: {csv_path}')
+    
+    # Utworzenie folderu trimmed
+    csv_dir = os.path.dirname(csv_path)
+    base_name = os.path.basename(csv_path)
+    output_dir = os.path.join(csv_dir, 'trimmed')
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Bezpieczny odczyt pliku wiersz po wierszu
+    rows = []
+    with open(csv_path, 'r', newline='') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            rows.append(row)
+
+    if not rows:
+        print("Error: CSV file is empty.")
+        return
+
+    # Wyciąganie Residue IDs (pierwszy wiersz, od kolumny 1)
+    # Odfiltrowujemy puste wartości, które mogą być na końcu wiersza
+    res_ids = [x for x in rows[0][1:] if x.strip()]
+    num_residues = len(res_ids)
+    
+    # Wyciąganie danych (od wiersza 2 w górę)
+    data_rows = []
+    for i in range(2, len(rows)):
+        # Jeśli napotkamy "mean" lub "std dev" w pierwszej kolumnie, kończymy dane
+        first_col = str(rows[i][0]).strip().lower()
+        if first_col in ['mean', 'std dev', '']:
+            break
+        data_rows.append(rows[i])
+    
+    radii = [float(row[0]) for row in data_rows]
+    
+    # Wyciągamy wartości RMSD (kolumny od 1 do liczby reziduów)
+    scores_matrix = [] 
+    for row in data_rows:
+        # Konwertujemy tylko te kolumny, które odpowiadają reziduom
+        scores_matrix.append([float(x) for x in row[1:num_residues+1]])
+
+    # Przeliczanie dla każdego progu
+    for thresh in thresholds:
+        if abs(thresh - 5.0) < 1e-9: 
+            prefix = ''
+        else: 
+            prefix = f"{int(thresh)}A_" if thresh.is_integer() else f"{thresh}A_".replace('.', '_')
+        
+        # 1. gGSP
+        ggsp_val = compute_ggsp(radii, scores_matrix, thresh)
+        ggsp_filename = base_name.replace('-details.csv', '-gGSP.csv')
+        save_csv(os.path.join(output_dir, f"{prefix}{ggsp_filename}"), [['gGSP'], [str(ggsp_val)]])
+        
+        # 2. rGSP
+        rgsp_data = [['residue', 'rGSP']]
+        for res_idx in range(num_residues):
+            accept_count = 0
+            rgsp_sum = 0
+            for r_idx in range(len(radii)):
+                curr_score = scores_matrix[r_idx][res_idx]
+                if curr_score <= thresh:
+                    accept_count += 1
+                # rGSP liczymy jako średnią ważoną promieniami (zgodnie z Twoją logiką w compute_ggsp)
+                rgsp_sum += radii[r_idx] * (accept_count / (r_idx + 1))
+            
+            final_rgsp = (rgsp_sum / sum(radii)) * 100.0
+            rgsp_data.append([f'"{res_ids[res_idx]}"', str(round(final_rgsp, 3))])
+        
+        rgsp_filename = base_name.replace('-details.csv', '-rGSP.csv')
+        save_csv(os.path.join(output_dir, f"{prefix}{rgsp_filename}"), rgsp_data)
+        
+        # 3. Details (kopiujemy oryginał do folderu trimmed)
+        details_filename = f"{prefix}{base_name}"
+        save_csv(os.path.join(output_dir, details_filename), rows)
+
+    print(f'Done. Results saved in: {output_dir}')
+
 def main(argv):
-    target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures = read_config(argv)
+    target_path, model_path, central_atoms, sphere_radii, thresholds, save_structures, skip_constant_radii, radii_tolerance, recompute_path = read_config(argv)
+    
+    if recompute_path:
+        run_recompute(recompute_path, thresholds)
+        return # Kończymy działanie
+    
     print('Target path: {}'.format(target_path))
     print('Model path: {}'.format(model_path))
     print('Central atoms: {}'.format(central_atoms))
     print('Sphere radii: {}'.format(sphere_radii))
-    print('RMSD threshold: {}'.format(rmsd_threshold))
+    print('RMSD thresholds: {}'.format(thresholds))
     print('Save structures: {}'.format(save_structures))
+    print('Skip constant radii: {}'.format(skip_constant_radii))
+    if skip_constant_radii:
+        print('Radii tolerance: {}'.format(radii_tolerance))
     
     if os.path.isfile(target_path):
-        process(target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures)
+        process(target_path, model_path, central_atoms, sphere_radii, thresholds, save_structures, skip_constant_radii, radii_tolerance)
     elif os.path.isdir(target_path):
         allfiles = [join(target_path, f) for f in listdir(target_path) if isfile(join(target_path, f))]
         selected_targets = [f for f in allfiles if pathlib.Path(f).suffix in ['.pdb','.cif']]
         for selected_target_path in selected_targets:
-            process(selected_target_path, model_path, central_atoms, sphere_radii, rmsd_threshold, save_structures)
+            process(selected_target_path, model_path, central_atoms, sphere_radii, thresholds, save_structures, skip_constant_radii, radii_tolerance)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
